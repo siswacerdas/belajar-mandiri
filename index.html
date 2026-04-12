@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Mandiri — Belajar Seru untuk Siswa SD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── RESET & VARIABLES ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --sky:    #38bdf8;
+      --sun:    #fbbf24;
+      --grass:  #4ade80;
+      --coral:  #fb7185;
+      --purple: #a78bfa;
+      --orange: #fb923c;
+      --bg:     #fffbf0;
+      --card:   #ffffff;
+      --text:   #1e293b;
+      --muted:  #64748b;
+      --radius: 20px;
+      --shadow: 0 6px 0px rgba(0,0,0,0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ─── FLOATING SHAPES BACKGROUND ───────────────────────── */
+    .bg-shapes {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      overflow: hidden;
+    }
+    .shape {
+      position: absolute; border-radius: 50%;
+      animation: floatUp linear infinite;
+      opacity: 0.18;
+    }
+    @keyframes floatUp {
+      0%   { transform: translateY(110vh) rotate(0deg); }
+      100% { transform: translateY(-20vh) rotate(360deg); }
+    }
+
+    /* ─── NAV ────────────────────────────────────────────────── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: white;
+      border-bottom: 3px solid var(--sun);
+      padding: 14px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      box-shadow: 0 4px 0 rgba(0,0,0,0.06);
+    }
+    .nav-logo {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.5rem;
+      color: var(--text);
+      text-decoration: none;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .nav-logo .logo-icon {
+      width: 38px; height: 38px;
+      background: var(--sun);
+      border-radius: 12px;
+      display: grid; place-items: center;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 0 #d97706;
+    }
+    .nav-links { display: flex; gap: 8px; }
+    .nav-links a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      border-radius: 50px;
+      color: var(--muted);
+      transition: background 0.2s, color 0.2s;
+    }
+    .nav-links a:hover { background: var(--bg); color: var(--text); }
+
+    /* ─── HERO ───────────────────────────────────────────────── */
+    .hero {
+      position: relative; z-index: 1;
+      text-align: center;
+      padding: 72px 24px 56px;
+      background: linear-gradient(180deg, #e0f2fe 0%, var(--bg) 100%);
+    }
+    .hero-badge {
+      display: inline-block;
+      background: var(--sun);
+      color: #78350f;
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 6px 18px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 0 #d97706;
+      letter-spacing: 0.5px;
+    }
+    .hero h1 {
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(2.4rem, 7vw, 4.2rem);
+      line-height: 1.1;
+      color: var(--text);
+      margin-bottom: 18px;
+    }
+    .hero h1 span { color: var(--sky); }
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 auto 36px;
+      line-height: 1.65;
+    }
+    .hero-cta {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--sky);
+      color: white;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.1rem;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 6px 0 #0284c7;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .hero-cta:hover { transform: translateY(-3px); box-shadow: 0 9px 0 #0284c7; }
+    .hero-cta:active { transform: translateY(2px); box-shadow: 0 3px 0 #0284c7; }
+
+    .hero-illustration {
+      margin-top: 48px;
+      display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
+    }
+    .emoji-float {
+      font-size: 3rem;
+      animation: bobble 3s ease-in-out infinite;
+      filter: drop-shadow(0 4px 6px rgba(0,0,0,0.12));
+    }
+    .emoji-float:nth-child(2) { animation-delay: 0.4s; }
+    .emoji-float:nth-child(3) { animation-delay: 0.8s; }
+    .emoji-float:nth-child(4) { animation-delay: 1.2s; }
+    .emoji-float:nth-child(5) { animation-delay: 1.6s; }
+    @keyframes bobble {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-12px); }
+    }
+
+    /* ─── SECTION WRAPPER ───────────────────────────────────── */
+    .section {
+      position: relative; z-index: 1;
+      padding: 64px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .section-sub {
+      text-align: center;
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 40px;
+    }
+
+    /* ─── SUBJECT CARDS ─────────────────────────────────────── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .subject-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 28px 20px 24px;
+      text-align: center;
+      text-decoration: none;
+      color: var(--text);
+      box-shadow: var(--shadow);
+      border: 3px solid transparent;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    .subject-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0;
+      height: 6px;
+      background: var(--accent-color);
+      border-radius: 20px 20px 0 0;
+    }
+    .subject-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 0px rgba(0,0,0,0.12);
+      border-color: var(--accent-color);
+    }
+    .subject-card .card-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .subject-card h3 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.15rem;
+      margin-bottom: 6px;
+    }
+    .subject-card p {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .coming-soon-badge {
+      display: inline-block;
+      background: #f1f5f9;
+      color: var(--muted);
+      font-size: 0.7rem;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 50px;
+      margin-top: 10px;
+      letter-spacing: 0.3px;
+    }
+
+    /* ─── HOW IT WORKS ──────────────────────────────────────── */
+    .steps-wrap {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 48px 36px;
+    }
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 32px;
+      margin-top: 8px;
+    }
+    .step {
+      text-align: center;
+    }
+    .step-num {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.5rem;
+      color: white;
+      margin: 0 auto 14px;
+      box-shadow: 0 5px 0 rgba(0,0,0,0.15);
+    }
+    .step h4 {
+      font-weight: 800;
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+    .step p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* ─── KELAS BANNER ──────────────────────────────────────── */
+    .kelas-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 480px) { .kelas-grid { grid-template-columns: repeat(2, 1fr); } }
+    .kelas-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 20px 16px;
+      text-align: center;
+      box-shadow: var(--shadow);
+      border: 3px solid transparent;
+      text-decoration: none;
+      color: var(--text);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .kelas-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--sky);
+    }
+    .kelas-card .kelas-num {
+      font-family: 'Fredoka One', cursive;
+      font-size: 2rem;
+      color: var(--sky);
+    }
+    .kelas-card p { font-size: 0.8rem; color: var(--muted); margin-top: 4px; }
+
+    /* ─── FOOTER ─────────────────────────────────────────────── */
+    footer {
+      position: relative; z-index: 1;
+      background: var(--text);
+      color: #94a3b8;
+      text-align: center;
+      padding: 36px 24px;
+      font-size: 0.9rem;
+    }
+    footer strong { color: white; }
+    footer .footer-emoji { font-size: 1.4rem; display: block; margin-bottom: 10px; }
+
+    /* ─── RESPONSIVE ─────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .hero { padding: 48px 20px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating background shapes -->
+  <div class="bg-shapes" aria-hidden="true" id="shapes"></div>
+
+  <!-- ── NAVIGATION ─────────────────────────────────────────── -->
+  <nav>
+    <a href="#" class="nav-logo">
+      <span class="logo-icon">📚</span>
+      Belajar Mandiri
+    </a>
+    <div class="nav-links">
+      <a href="#mapel">Mata Pelajaran</a>
+      <a href="#kelas">Pilih Kelas</a>
+      <a href="#cara">Cara Belajar</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────── -->
+  <header class="hero">
+    <div class="hero-badge">🎉 Gratis & Tanpa Daftar Akun!</div>
+    <h1>Belajar itu<br><span>Seru & Mudah!</span></h1>
+    <p>
+      Temukan materi pelajaran dan kuis latihan seru untuk siswa SD kelas 1–6.
+      Belajar kapan saja, di mana saja, sesukamu! 😊
+    </p>
+    <a href="#mapel" class="hero-cta">
+      🚀 Mulai Belajar Sekarang
+    </a>
+    <div class="hero-illustration" aria-hidden="true">
+      <span class="emoji-float">🔢</span>
+      <span class="emoji-float">🔤</span>
+      <span class="emoji-float">🌍</span>
+      <span class="emoji-float">🔬</span>
+      <span class="emoji-float">🎨</span>
+    </div>
+  </header>
+
+  <!-- ── MATA PELAJARAN ─────────────────────────────────────── -->
+  <section class="section" id="mapel">
+    <h2 class="section-title">📖 Pilih Mata Pelajaran</h2>
+    <p class="section-sub">Klik mata pelajaran yang ingin kamu pelajari hari ini!</p>
+    <div class="cards-grid">
+
+      <a href="matematika/index.html" class="subject-card" style="--accent-color: var(--sky)">
+        <span class="card-icon">🔢</span>
+        <h3>Matematika</h3>
+        <p>Berhitung, penjumlahan, bangun datar, dan banyak lagi!</p>
+        <span class="coming-soon-badge">🚧 Segera Hadir</span>
+      </a>
+
+      <a href="bahasa-indonesia/index.html" class="subject-card" style="--accent-color: var(--coral)">
+        <span class="card-icon">🔤</span>
+        <h3>Bahasa Indonesia</h3>
+        <p>Membaca, menulis, ejaan, dan memahami cerita.</p>
+        <span class="coming-soon-badge">🚧 Segera Hadir</span>
+      </a>
+
+      <a href="ipa/index.html" class="subject-card" style="--accent-color: var(--grass)">
+        <span class="card-icon">🔬</span>
+        <h3>IPA</h3>
+        <p>Alam, makhluk hidup, cuaca, dan tubuh kita.</p>
+        <span class="coming-soon-badge">🚧 Segera Hadir</span>
+      </a>
+
+      <a href="ips/index.html" class="subject-card" style="--accent-color: var(--orange)">
+        <span class="card-icon">🌍</span>
+        <h3>IPS</h3>
+        <p>Peta, sejarah, kebudayaan, dan kehidupan bermasyarakat.</p>
+        <span class="coming-soon-badge">🚧 Segera Hadir</span>
+      </a>
+
+      <a href="bahasa-inggris/index.html" class="subject-card" style="--accent-color: var(--purple)">
+        <span class="card-icon">🇬🇧</span>
+        <h3>Bahasa Inggris</h3>
+        <p>Kosakata, percakapan sederhana, dan lagu-lagu seru.</p>
+        <span class="coming-soon-badge">🚧 Segera Hadir</span>
+      </a>
+
+      <a href="sbdp/index.html" class="subject-card" style="--accent-color: var(--sun)">
+        <span class="card-icon">🎨</span>
+        <h3>SBdP</h3>
+        <p>Seni menggambar, mewarnai, kerajinan tangan, dan musik.</p>
+        <span class="coming-soon-badge">🚧 Segera Hadir</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ── PILIH KELAS ────────────────────────────────────────── -->
+  <section class="section" id="kelas" style="padding-top: 0">
+    <h2 class="section-title">🎒 Pilih Kelas</h2>
+    <p class="section-sub">Kamu kelas berapa? Pilih kelasmu untuk materi yang tepat!</p>
+    <div class="kelas-grid">
+      <a href="kelas-1/index.html" class="kelas-card">
+        <div class="kelas-num">1</div>
+        <p>Kelas Satu</p>
+      </a>
+      <a href="kelas-2/index.html" class="kelas-card">
+        <div class="kelas-num">2</div>
+        <p>Kelas Dua</p>
+      </a>
+      <a href="kelas-3/index.html" class="kelas-card">
+        <div class="kelas-num">3</div>
+        <p>Kelas Tiga</p>
+      </a>
+      <a href="kelas-4/index.html" class="kelas-card">
+        <div class="kelas-num">4</div>
+        <p>Kelas Empat</p>
+      </a>
+      <a href="kelas-5/index.html" class="kelas-card">
+        <div class="kelas-num">5</div>
+        <p>Kelas Lima</p>
+      </a>
+      <a href="kelas-6/index.html" class="kelas-card">
+        <div class="kelas-num">6</div>
+        <p>Kelas Enam</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── CARA BELAJAR ───────────────────────────────────────── -->
+  <section class="section" id="cara">
+    <div class="steps-wrap">
+      <h2 class="section-title">✨ Cara Belajar di Sini</h2>
+      <p class="section-sub">Hanya 4 langkah mudah!</p>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-num" style="background: var(--sky)">1</div>
+          <h4>Pilih Pelajaran</h4>
+          <p>Pilih mata pelajaran atau kelas yang ingin kamu pelajari.</p>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--grass)">2</div>
+          <h4>Baca Materi</h4>
+          <p>Pelajari materi dengan penjelasan yang mudah dipahami.</p>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--coral)">3</div>
+          <h4>Kerjakan Kuis</h4>
+          <p>Uji pemahamanmu dengan soal latihan yang menyenangkan!</p>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--sun)">4</div>
+          <h4>Lihat Hasil</h4>
+          <p>Cek nilaimu dan ulangi materi yang belum dikuasai. 💪</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer>
+    <span class="footer-emoji">📚</span>
+    Dibuat dengan <strong>❤️</strong> untuk siswa-siswi Indonesia yang semangat belajar!<br>
+    <small style="margin-top:8px; display:block; opacity:0.6;">
+      Konten bebas digunakan & disebarluaskan — CC BY 4.0 · Hosted di GitHub Pages
+    </small>
+  </footer>
+
+  <!-- ── SCRIPTS ─────────────────────────────────────────────── -->
+  <script>
+    // Generate floating background shapes
+    const colors = ['#38bdf8','#fbbf24','#4ade80','#fb7185','#a78bfa','#fb923c'];
+    const container = document.getElementById('shapes');
+    for (let i = 0; i < 18; i++) {
+      const el = document.createElement('div');
+      el.className = 'shape';
+      const size = 40 + Math.random() * 80;
+      el.style.cssText = `
+        width: ${size}px; height: ${size}px;
+        left: ${Math.random() * 100}%;
+        background: ${colors[i % colors.length]};
+        animation-duration: ${12 + Math.random() * 14}s;
+        animation-delay: ${-Math.random() * 20}s;
+        border-radius: ${Math.random() > 0.5 ? '50%' : '30%'};
+      `;
+      container.appendChild(el);
+    }
+  </script>
+
+</body>
+</html>
