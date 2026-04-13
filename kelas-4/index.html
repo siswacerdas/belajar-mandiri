@@ -3,14 +3,11 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>IPAS Kelas 4 — Belajar Mandiri</title>
-  <meta name="description" content="Materi dan kuis IPAS Kelas 4 SD Semester 1 & 2 — Belajar Mandiri, Kurikulum Merdeka."/>
+  <title>Kelas 4 SD — Belajar Mandiri</title>
+  <meta name="description" content="Hub mata pelajaran Kelas 4 SD — Belajar Mandiri, Kurikulum Merdeka."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="../../assets/css/style.css"/>
-  <style>
-    /* Warna aksen IPAS: teal yang sama dengan primary, tidak perlu override */
-  </style>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
 </head>
 <body>
 
@@ -21,18 +18,17 @@
     <div class="hero-deco d3"></div>
     <div class="hero-inner">
       <div class="hero-eyebrow">
-        <span class="dot"></span>IPAS · Kelas 4 SD · Kurikulum Merdeka
+        <span class="dot"></span>Belajar Mandiri · SD Kurikulum Merdeka
       </div>
-      <h1 class="hero-title">Ilmu Pengetahuan<br><em>Alam dan Sosial</em></h1>
-      <p class="hero-sub">
-        Pelajari alam, budaya, dan kehidupan masyarakat Indonesia.
-        Tersedia materi ringkas dan kuis latihan untuk setiap bab.
-      </p>
+      <h1 class="hero-title">Kelas 4 SD —<br><em>Pilih Mata Pelajaran</em></h1>
+      <p class="hero-sub">Semua mata pelajaran Kelas 4 tersedia di sini. Pilih pelajaran yang ingin kamu pelajari, baca materinya, lalu kerjakan kuis latihannya.</p>
       <div class="hero-tags">
-        <span class="hero-tag">🗺️ Daerahku</span>
-        <span class="hero-tag">🏛️ Budaya Indonesia</span>
-        <span class="hero-tag">🛒 Kebutuhan Hidup</span>
-        <span class="hero-tag">⚖️ Norma &amp; Masyarakat</span>
+        <span class="hero-tag">🕌 Al-Islam</span>
+        <span class="hero-tag">🇮🇩 Pancasila</span>
+        <span class="hero-tag">📝 Bhs. Indonesia</span>
+        <span class="hero-tag">🔢 Matematika</span>
+        <span class="hero-tag">🔬 IPAS</span>
+        <span class="hero-tag">🇬🇧 Bhs. Inggris</span>
       </div>
     </div>
   </header>
@@ -41,17 +37,14 @@
   <nav class="navbar">
     <div class="navbar-inner">
       <div class="nav-logo">
-        <a href="../../index.html">Belajar Mandiri</a>
+        <a href="../index.html">Belajar Mandiri</a>
       </div>
-      <a href="../../index.html" class="nav-link">Beranda</a>
-      <a href="../index.html"    class="nav-link">Kelas 4</a>
-      <a href="#"                class="nav-link active">IPAS</a>
+      <a href="../index.html" class="nav-link">Beranda</a>
+      <a href="#" class="nav-link active">Kelas 4</a>
       <div class="nav-breadcrumb">
-        <a href="../../index.html">Beranda</a>
+        <a href="../index.html">Beranda</a>
         <span class="sep">›</span>
-        <a href="../index.html">Kelas 4</a>
-        <span class="sep">›</span>
-        <strong>IPAS</strong>
+        <strong>Kelas 4</strong>
       </div>
     </div>
   </nav>
@@ -59,151 +52,86 @@
   <!-- ── KONTEN ── -->
   <main class="page">
 
-    <!-- Info ujian -->
-    <div class="info-banner warning">
-      <span class="banner-icon">📋</span>
-      <div>
-        <h3>Persiapan Ujian Semester 2</h3>
-        <p>Fokus pada materi Semester 2 untuk persiapan ujian. Pelajari setiap bab dari Bab 1 hingga Bab 4, kemudian kerjakan kuis latihannya untuk mengukur pemahamanmu.</p>
+    <!-- Mapel Inti -->
+    <section style="margin-bottom: 44px;">
+      <div class="section-label">Mata Pelajaran Utama</div>
+      <h2 class="section-title">Pelajaran Kelas 4</h2>
+      <p class="section-desc">
+        Klik kartu untuk memulai belajar.
+        Titik <span style="display:inline-block;width:7px;height:7px;background:#22c55e;border-radius:50%;vertical-align:middle;"></span> hijau berarti materi sudah tersedia.
+      </p>
+
+      <div class="mapel-grid">
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🕌</div>
+          <div class="mapel-name">Al-Islam</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🇮🇩</div>
+          <div class="mapel-name">Pendidikan Pancasila</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">📝</div>
+          <div class="mapel-name">Bahasa Indonesia</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🔢</div>
+          <div class="mapel-name">Matematika</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="ipas/index.html" class="mapel-card active">
+          <div class="mapel-emoji">🔬</div>
+          <div class="mapel-name">IPAS</div>
+          <div class="status-dot on" title="Tersedia"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🇬🇧</div>
+          <div class="mapel-name">Bahasa Inggris</div>
+          <div class="status-dot off"></div>
+        </a>
+
       </div>
-    </div>
+    </section>
 
-    <!-- ════ SEMESTER 1 ════ -->
-    <div class="semester-row">
-      <div class="semester-chip nonaktif">📘 Semester 1</div>
-      <div class="semester-rule"></div>
-    </div>
+    <hr class="divider"/>
 
-    <div class="semester-placeholder">
-      Materi Semester 1 sedang disiapkan dan akan segera tersedia.
-    </div>
+    <!-- Mapel Muatan Lokal & ISMUBA -->
+    <section>
+      <div class="section-label">Muatan Lokal &amp; ISMUBA</div>
+      <h2 class="section-title">Mata Pelajaran Lainnya</h2>
+      <p class="section-desc">Mata pelajaran tambahan yang juga dipelajari di kelas 4.</p>
 
-    <!-- ════ SEMESTER 2 ════ -->
-    <div class="semester-row">
-      <div class="semester-chip aktif">📗 Semester 2</div>
-      <div class="semester-rule"></div>
-      <span style="font-size:11.5px;font-weight:700;color:var(--primary-mid);white-space:nowrap;">4 Bab</span>
-    </div>
+      <div class="mapel-grid">
 
-    <div class="bab-grid">
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🌿</div>
+          <div class="mapel-name">Bahasa Sunda</div>
+          <div class="status-dot off"></div>
+        </a>
 
-      <!-- BAB 1 -->
-      <div class="bab-card" style="--bab-color: #0369a1">
-        <div class="bab-card-header">
-          <div class="bab-num-row">
-            <span class="bab-num">Bab 1</span>
-            <span class="bab-tag">Semester 2</span>
-          </div>
-          <div class="bab-judul">Daerahku Dulu dan Sekarang</div>
-        </div>
-        <div class="bab-card-body">
-          <ul class="topik-list">
-            <li class="topik-item">
-              <span class="topik-letter">A</span>
-              Sejarah Kerajaan di Indonesia
-            </li>
-            <li class="topik-item">
-              <span class="topik-letter">B</span>
-              Kondisi / Karakteristik Alam di Suatu Daerah
-            </li>
-            <li class="topik-item">
-              <span class="topik-letter">C</span>
-              Kondisi Masyarakat Dilihat dari Kondisi Geografis / Alamnya
-            </li>
-          </ul>
-          <div class="bab-actions">
-            <a href="bab-daerahku-dulu-dan-sekarang/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
-            <a href="bab-daerahku-dulu-dan-sekarang/kuis.html"   class="bab-btn bab-btn-kuis">🎯 Kuis</a>
-          </div>
-        </div>
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">☀️</div>
+          <div class="mapel-name">Kemuhammadiyahan</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🌙</div>
+          <div class="mapel-name">Bahasa Arab</div>
+          <div class="status-dot off"></div>
+        </a>
+
       </div>
-
-      <!-- BAB 2 -->
-      <div class="bab-card" style="--bab-color: #c2410c">
-        <div class="bab-card-header">
-          <div class="bab-num-row">
-            <span class="bab-num">Bab 2</span>
-            <span class="bab-tag">Semester 2</span>
-          </div>
-          <div class="bab-judul">Indonesiaku Kaya Budaya</div>
-        </div>
-        <div class="bab-card-body">
-          <ul class="topik-list">
-            <li class="topik-item">
-              <span class="topik-letter">A</span>
-              Keragaman Suku Bangsa dan Agama
-            </li>
-            <li class="topik-item">
-              <span class="topik-letter">B</span>
-              Keragaman Budaya dan Kearifan Lokal
-            </li>
-            <li class="topik-item">
-              <span class="topik-letter">C</span>
-              Manfaat Keragaman Budaya dan Cara Melestarikannya
-            </li>
-          </ul>
-          <div class="bab-actions">
-            <a href="bab-indonesiaku-kaya-budaya/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
-            <a href="bab-indonesiaku-kaya-budaya/kuis.html"   class="bab-btn bab-btn-kuis">🎯 Kuis</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BAB 3 -->
-      <div class="bab-card" style="--bab-color: #6d28d9">
-        <div class="bab-card-header">
-          <div class="bab-num-row">
-            <span class="bab-num">Bab 3</span>
-            <span class="bab-tag">Semester 2</span>
-          </div>
-          <div class="bab-judul">Kebutuhan Hidup</div>
-        </div>
-        <div class="bab-card-body">
-          <ul class="topik-list">
-            <li class="topik-item">
-              <span class="topik-letter">A</span>
-              Macam-macam Kebutuhan dan Cara Memenuhi Kebutuhan
-            </li>
-            <li class="topik-item">
-              <span class="topik-letter">B</span>
-              Kegiatan Ekonomi
-            </li>
-          </ul>
-          <div class="bab-actions">
-            <a href="bab-kebutuhan-hidup/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
-            <a href="bab-kebutuhan-hidup/kuis.html"   class="bab-btn bab-btn-kuis">🎯 Kuis</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- BAB 4 -->
-      <div class="bab-card" style="--bab-color: #be123c">
-        <div class="bab-card-header">
-          <div class="bab-num-row">
-            <span class="bab-num">Bab 4</span>
-            <span class="bab-tag">Semester 2</span>
-          </div>
-          <div class="bab-judul">Masyarakat yang Beradab</div>
-        </div>
-        <div class="bab-card-body">
-          <ul class="topik-list">
-            <li class="topik-item">
-              <span class="topik-letter">A</span>
-              Norma
-            </li>
-            <li class="topik-item">
-              <span class="topik-letter">B</span>
-              Pentingnya Norma di Dalam Lingkungan Masyarakat
-            </li>
-          </ul>
-          <div class="bab-actions">
-            <a href="bab-masyarakat-yang-beradab/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
-            <a href="bab-masyarakat-yang-beradab/kuis.html"   class="bab-btn bab-btn-kuis">🎯 Kuis</a>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- /bab-grid -->
+    </section>
 
   </main>
 
@@ -215,14 +143,13 @@
         <p>Platform belajar mandiri untuk siswa SD berbasis GitHub Pages — materi ringkas, kuis interaktif, dan gratis.</p>
       </div>
       <div class="footer-links">
-        <a href="../../index.html">Beranda</a>
-        <a href="../index.html">Kelas 4</a>
-        <a href="#">IPAS</a>
+        <a href="../index.html">Beranda</a>
+        <a href="#">Kelas 4</a>
         <a href="https://github.com/siswacerdas/belajar-mandiri" target="_blank">GitHub Repository ↗</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Belajar Mandiri · IPAS Kelas 4 · Kurikulum Merdeka</span>
+      <span>Belajar Mandiri · Kelas 4 SD · Kurikulum Merdeka</span>
       <span>Lisensi <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></span>
     </div>
   </footer>
