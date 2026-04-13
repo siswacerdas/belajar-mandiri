@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kondisi Alam Daerahku — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#0369a1;--bab-mid:#0284c7;--bab-lt:#e0f2fe;--bab-pal:#f0f9ff;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+
+    /* NAVBAR */
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    /* JUMP NAV */
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover,.jpill.active{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#0369a1,#075985);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#bae6fd;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    /* CONTENT */
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .body-text{font-size:.97rem;margin-bottom:.8rem;line-height:1.75;}
+    .body-text:last-child{margin-bottom:0;}
+
+    /* INTRO */
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(3,105,161,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* TOPIK CARD (chapter header) */
+    .topik-card{border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.07);margin-bottom:2rem;}
+    .topik-header{padding:1rem 1.5rem;display:flex;align-items:center;gap:.9rem;}
+    .topik-header.t1{background:linear-gradient(90deg,#0369a1,#0284c7);}
+    .topik-header.t2{background:linear-gradient(90deg,#065f46,#059669);}
+    .topik-header.t3{background:linear-gradient(90deg,#b45309,#d97706);}
+    .t-icon{width:46px;height:46px;background:rgba(255,255,255,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;}
+    .t-title{color:#fff;}
+    .t-title h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;}
+    .t-title p{font-size:.8rem;opacity:.85;margin-top:.1rem;}
+    .topik-body{background:#fff;padding:1.5rem;}
+
+    /* KENAMPAKAN GRID */
+    .kn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:.85rem;margin:1rem 0;}
+    .kn-card{border-radius:14px;padding:1.1rem 1.2rem;border:2px solid var(--sand-dk,#ede8dc);background:#fff;transition:border-color .2s;}
+    .kn-card:hover{border-color:var(--bab-lt);}
+    .kn-card .kn-top{display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;}
+    .kn-icon{font-size:1.5rem;}
+    .kn-name{font-family:"Lora",serif;font-weight:700;font-size:.98rem;}
+    .kn-ket{font-size:.78rem;color:var(--ink-lt,#6b7280);font-weight:700;margin-bottom:.3rem;}
+    .kn-desc{font-size:.83rem;line-height:1.5;}
+    .kn-example{font-size:.75rem;margin-top:.4rem;color:var(--bab);font-weight:700;}
+
+    /* FAKTA SERU */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs.hijau{background:#f0fdf4;border-color:#bbf7d0;}
+    .fs.oren{background:#fff7ed;border-color:#fed7aa;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#075985;}
+    .fs.hijau .ft{color:#065f46;}
+    .fs.oren .ft{color:#92400e;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;font-weight:800;color:var(--bab);}
+    .fs.hijau .ft strong:first-child{color:#065f46;}
+    .fs.oren .ft strong:first-child{color:#92400e;}
+    .fs .ft strong{font-weight:800;}
+
+    /* ZONA FLORA FAUNA (Wallace visual) */
+    .zona-wrapper{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1.25rem 0;}
+    .zona-box{border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07);}
+    .zona-header{padding:.7rem 1rem;text-align:center;}
+    .zona-header.z-asia{background:#0369a1;}
+    .zona-header.z-peralihan{background:#0e7490;}
+    .zona-header.z-australis{background:#7c3aed;}
+    .zona-header h4{font-family:"Lora",serif;font-size:.92rem;font-weight:700;color:#fff;}
+    .zona-header p{font-size:.72rem;color:rgba(255,255,255,.8);margin-top:.1rem;}
+    .zona-body{background:#fff;padding:.85rem;}
+    .zona-wilayah{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem;}
+    .zona-wilayah.z-asia{color:#0369a1;}
+    .zona-wilayah.z-peralihan{color:#0e7490;}
+    .zona-wilayah.z-australis{color:#7c3aed;}
+    .zona-animals{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.5rem;}
+    .z-tag{font-size:.73rem;font-weight:700;padding:.15rem .5rem;border-radius:6px;}
+    .z-tag.a{background:#e0f2fe;color:#0369a1;}
+    .z-tag.p{background:#cffafe;color:#0e7490;}
+    .z-tag.au{background:#ede9fe;color:#6d28d9;}
+    .zona-flora{font-size:.76rem;color:var(--ink-lt,#6b7280);margin-top:.3rem;}
+
+    /* GARIS VISUAL */
+    .garis-visual{background:#fff;border-radius:14px;padding:1.25rem 1.5rem;margin:1.25rem 0;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+    .garis-visual h4{font-family:"Lora",serif;font-size:1rem;font-weight:700;margin-bottom:.85rem;color:var(--ink);}
+    .garis-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;flex-wrap:wrap;}
+    .garis-line{height:4px;border-radius:50px;flex:1;min-width:60px;}
+    .garis-info{flex:3;min-width:160px;}
+    .garis-name{font-weight:800;font-size:.88rem;}
+    .garis-desc{font-size:.79rem;color:var(--ink-lt,#6b7280);}
+    .gl-wallace{background:#ef4444;}
+    .gl-weber{background:#8b5cf6;}
+
+    /* SDA KATEGORI */
+    .sda-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;}
+    .sda-box{border-radius:14px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07);}
+    .sda-head{padding:.8rem 1.1rem;display:flex;align-items:center;gap:.6rem;}
+    .sda-head.hayati{background:linear-gradient(90deg,#065f46,#059669);}
+    .sda-head.non{background:linear-gradient(90deg,#1e3a5f,#1e40af);}
+    .sda-head.bisa{background:linear-gradient(90deg,#065f46,#059669);}
+    .sda-head.tidak{background:linear-gradient(90deg,#7f1d1d,#b91c1c);}
+    .sda-head-icon{font-size:1.3rem;}
+    .sda-head-text h4{font-family:"Lora",serif;font-size:.95rem;font-weight:700;color:#fff;}
+    .sda-head-text p{font-size:.74rem;color:rgba(255,255,255,.8);margin-top:.05rem;}
+    .sda-body{background:#fff;padding:.9rem 1.1rem;}
+    .sda-list{list-style:none;display:flex;flex-direction:column;gap:.35rem;}
+    .sda-list li{display:flex;align-items:flex-start;gap:.5rem;font-size:.84rem;}
+    .sda-list li::before{content:"&#x2022;";font-size:1.1rem;flex-shrink:0;margin-top:-.05rem;}
+    .sda-list.hayati li::before{color:#059669;}
+    .sda-list.non li::before{color:#1d4ed8;}
+    .sda-list.bisa li::before{color:#059669;}
+    .sda-list.tidak li::before{color:#b91c1c;}
+
+    /* PESAN HIJAU */
+    .pesan-hijau{background:linear-gradient(135deg,#065f46,#047857);border-radius:16px;padding:1.5rem 1.75rem;color:#fff;margin:1.5rem 0;display:flex;gap:1rem;align-items:flex-start;}
+    .pesan-hijau .pgi{font-size:2rem;flex-shrink:0;}
+    .pesan-hijau h4{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;margin-bottom:.4rem;}
+    .pesan-hijau p{font-size:.9rem;opacity:.9;line-height:1.6;}
+
+    /* RINGKASAN */
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rn{width:24px;height:24px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:800;flex-shrink:0;margin-top:.15rem;}
+
+    /* NAV */
+    .page-nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.4rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-primary{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-primary:hover{background:#075985;border-color:#075985;}
+    .nav-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;opacity:.6;display:block;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:600px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .kn-grid{grid-template-columns:1fr 1fr;}
+      .zona-wrapper{grid-template-columns:1fr;}
+      .sda-grid{grid-template-columns:1fr;}
+      .page-nav{flex-direction:column;}
+      .nav-btn{width:100%;justify-content:center;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">&#xBB;</span>
+      <a href="../index.html">IPAS</a><span class="sep">&#xBB;</span>
+      <a href="materi.html">Bab 1</a><span class="sep">&#xBB;</span>
+      <span>Kondisi Alam</span>
+    </div>
+  </nav>
+
+  <!-- JUMP NAV -->
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a class="jpill" href="#kenampakan">&#x1F3D4;&#xFE0F; Kenampakan Alam</a>
+      <a class="jpill" href="#daratan">&#x26F0;&#xFE0F; Daratan</a>
+      <a class="jpill" href="#perairan">&#x1F30A; Perairan</a>
+      <a class="jpill" href="#flora-fauna">&#x1F98B; Flora &amp; Fauna</a>
+      <a class="jpill" href="#wallace">&#x1F5FA;&#xFE0F; Garis Wallace</a>
+      <a class="jpill" href="#sda">&#x26CF;&#xFE0F; Sumber Daya Alam</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">&#x1F4D6; Bab 1 &#x2014; Sub-materi B</span>
+      <h1>Kondisi &amp; Karakteristik <em>Alam</em><br>di Suatu Daerah</h1>
+      <p class="hero-desc">Indonesia adalah negara yang kaya luar biasa &#x2014; kaya bentang alam, kaya tumbuhan, kaya hewan, dan kaya sumber daya. Yuk kenali kekayaan bumi Nusantara dari dekat!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <!-- INTRO -->
+    <div class="intro-box">
+      <p>&#x1F30D; Indonesia adalah negara kepulauan terbesar di dunia &#x2014; terdiri dari lebih dari <strong>17.000 pulau</strong>! Dengan wilayah yang begitu luas, Indonesia punya beragam bentang alam yang menakjubkan: gunung berapi yang menjulang tinggi, sungai-sungai panjang, hutan tropis yang lebat, pantai yang indah, sampai laut yang penuh kehidupan.</p>
+      <p>Semua kekayaan alam ini bukan hanya indah &#x2014; tapi juga sangat penting bagi kehidupan manusia. Dan kita di Jawa Barat termasuk salah satu daerah yang paling beruntung punya beragam kenampakan alam! &#x2B50;</p>
+    </div>
+
+    <!-- ============================================================
+         BAGIAN 1: KENAMPAKAN ALAM
+    ============================================================ -->
+    <div id="kenampakan" style="scroll-margin-top:112px;" class="section-label">Bagian 1</div>
+    <h2 class="section-title">&#x1F3D4;&#xFE0F; Kenampakan Alam di Indonesia</h2>
+
+    <p class="body-text"><strong>Kenampakan alam</strong> (atau <em>bentang alam</em>) adalah segala sesuatu yang ada di permukaan bumi yang terbentuk secara alami oleh alam &#x2014; bukan buatan manusia. Kenampakan alam terbagi dua kelompok besar: <strong>daratan</strong> dan <strong>perairan</strong>.</p>
+
+    <div class="fs">
+      <div class="fi">&#x1F4A1;</div>
+      <div class="ft"><strong>Kenampakan Alam vs Kenampakan Buatan</strong>
+        Gunung, sungai, danau, dan pantai adalah kenampakan <strong>alam</strong> &#x2014; terbentuk sendiri oleh alam selama jutaan tahun. Sedangkan sawah, jalan, waduk, dan gedung adalah kenampakan <strong>buatan</strong> &#x2014; dibuat oleh manusia. Keduanya punya peran penting dalam kehidupan kita!</div>
+    </div>
+
+    <!-- DARATAN -->
+    <div id="daratan" style="scroll-margin-top:112px;" class="topik-card">
+      <div class="topik-header t1">
+        <div class="t-icon">&#x26F0;&#xFE0F;</div>
+        <div class="t-title">
+          <h3>Kenampakan Alam Daratan</h3>
+          <p>Bagian permukaan bumi yang berupa tanah dan bebatuan</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <div class="kn-grid">
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F30B;</span><span class="kn-name">Gunung</span></div>
+            <div class="kn-ket">Ketinggian &gt; 1.000 mdpl</div>
+            <div class="kn-desc">Tonjolan permukaan bumi yang sangat tinggi. Indonesia punya 127 gunung berapi aktif &#x2014; terbanyak di dunia! Abu vulkanik gunung berapi menyuburkan tanah di sekitarnya.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Gunung Gede, Papandayan, Tangkuban Parahu, Galunggung</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x26F0;&#xFE0F;</span><span class="kn-name">Pegunungan</span></div>
+            <div class="kn-ket">Rangkaian banyak gunung</div>
+            <div class="kn-desc">Kumpulan gunung yang membentang panjang. Menjadi sumber mata air, tempat hidup flora-fauna, dan penghasil udara segar. Banyak perkebunan teh dan sayuran di sini.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Pegunungan Priangan, Pegunungan Halimun</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F3D5;&#xFE0F;</span><span class="kn-name">Dataran Tinggi</span></div>
+            <div class="kn-ket">200&#x2013;1.000 mdpl, berbukit</div>
+            <div class="kn-desc">Hamparan tanah yang tinggi tapi relatif datar. Udaranya sejuk dan tanahnya subur &#x2014; cocok untuk perkebunan teh, kopi, stroberi, dan wisata.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Puncak-Cipanas, Bandung, Lembang, Garut, Tasikmalaya</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F33E;</span><span class="kn-name">Dataran Rendah</span></div>
+            <div class="kn-ket">0&#x2013;200 mdpl, relatif datar</div>
+            <div class="kn-desc">Hamparan tanah yang datar dekat pantai atau lembah sungai. Tanahnya subur, cocok untuk sawah dan pemukiman. Sebagian besar kota besar ada di dataran rendah.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Karawang, Bekasi, Indramayu, Cirebon</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F3DE;&#xFE0F;</span><span class="kn-name">Lembah</span></div>
+            <div class="kn-ket">Dataran cekung di kaki gunung</div>
+            <div class="kn-desc">Wilayah rendah yang diapit oleh pegunungan atau bukit. Tanahnya subur karena menampung endapan dari lereng. Cocok untuk pertanian dan permukiman.</div>
+            <div class="kn-example">&#x1F4CD; Contoh: Lembah Harau (Sumatera), Ngarai Sianok (Sumbar)</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F3D6;&#xFE0F;</span><span class="kn-name">Pantai</span></div>
+            <div class="kn-ket">Batas daratan &amp; laut</div>
+            <div class="kn-desc">Wilayah di tepi laut. Dimanfaatkan untuk perikanan, tambak garam, wisata, dan pelabuhan. Hutan bakau di pinggir pantai melindungi daratan dari abrasi.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Pantai Pangandaran, Pantai Pelabuhan Ratu, Pantai Santolo</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F333;</span><span class="kn-name">Bukit</span></div>
+            <div class="kn-ket">Ketinggian &lt; 600 mdpl</div>
+            <div class="kn-desc">Tonjolan tanah yang lebih kecil dari gunung. Sering dimanfaatkan sebagai ladang pertanian, kebun, atau tempat wisata dengan pemandangan indah.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Perbukitan di Sumedang, Majalengka</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F3DC;</span><span class="kn-name">Tanjung &amp; Teluk</span></div>
+            <div class="kn-ket">Daratan/laut yang menjorok</div>
+            <div class="kn-desc"><strong>Tanjung</strong>: daratan yang menjorok ke laut. <strong>Teluk</strong>: laut yang menjorok ke daratan. Teluk sering dijadikan pelabuhan karena terlindung dari ombak besar.</div>
+            <div class="kn-example">&#x1F4CD; Contoh: Tanjung Priok (Jakarta), Teluk Jakarta</div>
+          </div>
+
+        </div>
+
+        <div class="fs">
+          <div class="fi">&#x1F30B;</div>
+          <div class="ft"><strong>Mengapa Jawa Barat Punya Banyak Gunung Berapi?</strong>
+            Indonesia berada di atas pertemuan tiga lempeng bumi besar (Eurasia, Indo-Australia, dan Pasifik). Ketika lempeng-lempeng ini saling bertabrakan, magma dari dalam bumi terdorong naik ke permukaan dan membentuk gunung berapi. Jawa Barat khususnya berada di atas lempeng yang sangat aktif &#x2014; makanya banyak gunung dan tanahnya sangat subur!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PERAIRAN -->
+    <div id="perairan" style="scroll-margin-top:112px;" class="topik-card">
+      <div class="topik-header t1" style="background:linear-gradient(90deg,#0e7490,#0891b2);">
+        <div class="t-icon">&#x1F30A;</div>
+        <div class="t-title">
+          <h3>Kenampakan Alam Perairan</h3>
+          <p>Bagian permukaan bumi yang berupa air &#x2014; sungai, danau, laut, dan rawa</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <div class="kn-grid">
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F6A3;</span><span class="kn-name">Sungai</span></div>
+            <div class="kn-ket">Aliran air dari hulu ke hilir</div>
+            <div class="kn-desc">Aliran air yang mengalir dari pegunungan (hulu) menuju laut atau danau (hilir). Dimanfaatkan untuk irigasi sawah, sumber air minum, transportasi, dan PLTA.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Sungai Citarum (terpanjang di Jabar), Cimanuk, Cisadane, Ciliwung</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F30F;</span><span class="kn-name">Danau</span></div>
+            <div class="kn-ket">Cekungan air di daratan</div>
+            <div class="kn-desc">Genangan air besar yang dikelilingi daratan. Terbentuk dari letusan gunung berapi (danau vulkanik), pergerakan bumi (danau tektonik), atau sengaja dibuat (waduk).</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Situ Cangkuang (Garut), Waduk Jatiluhur, Situ Bagendit</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F30E;</span><span class="kn-name">Laut &amp; Samudra</span></div>
+            <div class="kn-ket">Perairan asin yang sangat luas</div>
+            <div class="kn-desc">Indonesia dikelilingi tiga samudra besar. Laut Indonesia adalah salah satu yang terkaya di dunia &#x2014; penuh ikan, terumbu karang, dan sumber daya lainnya.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Laut Jawa (utara), Samudra Hindia (selatan)</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F335;</span><span class="kn-name">Rawa</span></div>
+            <div class="kn-ket">Tanah berlumpur berair</div>
+            <div class="kn-desc">Dataran rendah yang selalu tergenang air. Rawa ditumbuhi hutan bakau dan tanaman air. Berfungsi sebagai tempat hidup ikan, buaya, dan berbagai satwa liar.</div>
+            <div class="kn-example">&#x1F4CD; Contoh: Rawa Pening (Jawa Tengah), Rawa besar di Kalimantan</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F30A;</span><span class="kn-name">Selat</span></div>
+            <div class="kn-ket">Laut sempit di antara pulau</div>
+            <div class="kn-desc">Perairan sempit yang memisahkan dua pulau atau daratan. Sering menjadi jalur pelayaran penting karena posisinya yang strategis.</div>
+            <div class="kn-example">&#x1F4CD; Contoh: Selat Sunda (antara Jawa &amp; Sumatera), Selat Bali, Selat Makassar</div>
+          </div>
+
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F4A7;</span><span class="kn-name">Air Terjun</span></div>
+            <div class="kn-ket">Aliran air yang jatuh dari ketinggian</div>
+            <div class="kn-desc">Terbentuk ketika sungai mengalir melewati tebing atau batuan keras. Selain indah, air terjun juga berpotensi sebagai sumber energi listrik (PLTA).</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Air Terjun Curug Cimahi, Curug Nangka, Curug Sewu</div>
+          </div>
+
+        </div>
+
+        <div class="fs">
+          <div class="fi">&#x1F6A3;</div>
+          <div class="ft"><strong>Sungai Citarum &#x2014; Sungai Terpenting di Jawa Barat</strong>
+            Sungai Citarum adalah sungai terpanjang di Jawa Barat dan salah satu sungai paling penting di Indonesia. Ia mengalir dari Gunung Wayang di Bandung Selatan hingga bermuara di Laut Jawa. Di sepanjang alirannya terdapat tiga waduk besar: <strong>Saguling, Cirata, dan Jatiluhur</strong> &#x2014; yang menghasilkan listrik untuk puluhan juta orang di Jawa dan Bali. Sungai ini juga mengairi sawah-sawah di Karawang dan Bekasi, penghasil beras terbesar di Indonesia!</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ============================================================
+         BAGIAN 2: FLORA & FAUNA + GARIS WALLACE
+    ============================================================ -->
+    <div id="flora-fauna" style="scroll-margin-top:112px;" class="section-label">Bagian 2</div>
+    <h2 class="section-title">&#x1F98B; Keragaman Flora &amp; Fauna Indonesia</h2>
+
+    <p class="body-text">Indonesia adalah salah satu negara dengan keanekaragaman hayati (<em>biodiversitas</em>) terkaya di dunia. Artinya, jumlah jenis tumbuhan dan hewan di Indonesia sangat banyak dan beragam. Mengapa bisa begitu?</p>
+
+    <div class="fs hijau">
+      <div class="fi">&#x1F33F;</div>
+      <div class="ft"><strong>Mengapa Indonesia Begitu Kaya Flora dan Fauna?</strong>
+        Ada tiga alasan utama: (1) Iklim tropis yang hangat sepanjang tahun membuat tumbuhan tumbuh subur. (2) Curah hujan yang tinggi menghasilkan hutan tropis yang lebat dan beragam. (3) Indonesia berada di pertemuan dua benua besar (Asia dan Australia) sehingga flora-faunanya bercampur dari dua benua!</div>
+    </div>
+
+    <div class="topik-card" style="margin-top:1.5rem;">
+      <div class="topik-header t2">
+        <div class="t-icon">&#x1F333;</div>
+        <div class="t-title">
+          <h3>Flora (Tumbuhan) Indonesia</h3>
+          <p>Indonesia memiliki sekitar 25.000 spesies tumbuhan &#x2014; terbanyak kedua di dunia!</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <p class="body-text">Indonesia punya berbagai jenis tumbuhan yang tersebar di seluruh kepulauan. Dari hutan hujan tropis yang lebat di Kalimantan dan Sumatera, sampai sabana yang kering di Nusa Tenggara.</p>
+
+        <div class="kn-grid">
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F333;</span><span class="kn-name">Hutan Hujan Tropis</span></div>
+            <div class="kn-desc">Hutan lebat yang hijau sepanjang tahun. Rumah bagi ribuan spesies tumbuhan langka. Ada di Sumatera, Kalimantan, dan Papua.</div>
+            <div class="kn-example">Pohon meranti, ulin, ramin, anggrek hutan, rafflesia</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F343;</span><span class="kn-name">Hutan Musim</span></div>
+            <div class="kn-desc">Hutan yang menggugurkan daun saat kemarau. Ada di Jawa dan Nusa Tenggara yang musim keringnya lebih panjang.</div>
+            <div class="kn-example">Pohon jati, mahoni, sono, waru</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F335;</span><span class="kn-name">Hutan Bakau/Mangrove</span></div>
+            <div class="kn-desc">Hutan di tepi pantai berlumpur. Melindungi pantai dari abrasi dan tempat berkembang biak ikan laut.</div>
+            <div class="kn-example">Pohon bakau, nipah, api-api</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F331;</span><span class="kn-name">Sabana</span></div>
+            <div class="kn-desc">Padang rumput yang diselingi pohon-pohon terpencar. Ada di daerah yang kering seperti Nusa Tenggara.</div>
+            <div class="kn-example">Rumput, akasia, lontar, gebang</div>
+          </div>
+        </div>
+
+        <div class="fs hijau">
+          <div class="fi">&#x1F338;</div>
+          <div class="ft"><strong>Rafflesia Arnoldii &#x2014; Bunga Terbesar di Dunia!</strong>
+            Bunga Rafflesia Arnoldii hanya tumbuh di Sumatera. Diameternya bisa mencapai 1 meter dan beratnya sampai 11 kg &#x2014; bunga tunggal terbesar di dunia! Uniknya, bunga ini tidak punya daun, batang, atau akar sendiri &#x2014; ia hidup sebagai parasit pada tanaman lain. Saat mekar, baunya seperti daging busuk untuk menarik lalat yang membantu penyerbukannya.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topik-card" style="margin-top:1rem;">
+      <div class="topik-header t2" style="background:linear-gradient(90deg,#065f46,#0f766e);">
+        <div class="t-icon">&#x1F98A;</div>
+        <div class="t-title">
+          <h3>Fauna (Hewan) Indonesia</h3>
+          <p>Indonesia punya 17% dari seluruh spesies hewan di dunia, meski luasnya hanya 1,3% dari daratan bumi!</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <p class="body-text">Fauna Indonesia luar biasa beragam. Ada hewan-hewan besar khas Asia di barat, hewan-hewan unik khas Australia di timur, dan hewan peralihan yang tidak ada di tempat lain di dunia di bagian tengah!</p>
+        <div class="fs hijau">
+          <div class="fi">&#x1F418;</div>
+          <div class="ft"><strong>Hewan-Hewan Ikonik Indonesia</strong>
+            &#x1F418; <strong>Gajah Sumatera</strong> (Sumatera) &#x2022; &#x1F98F; <strong>Badak Jawa</strong> &#x2014; hanya tersisa &lt;80 ekor, terancam punah! &#x2022; &#x1F9A7; <strong>Orangutan</strong> (Kalimantan &amp; Sumatera) &#x2022; &#x1F984; <strong>Komodo</strong> (Nusa Tenggara &#x2014; kadal terbesar di dunia!) &#x2022; &#x1F426; <strong>Cendrawasih</strong> (Papua &#x2014; dijuluki "burung surga") &#x2022; &#x1F98B; <strong>Kupu-kupu Sayap Burung</strong> (Papua &#x2014; kupu-kupu terbesar di dunia)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GARIS WALLACE -->
+    <div id="wallace" style="scroll-margin-top:112px;" class="section-label">Bagian 2 &#x2014; Garis Pemisah</div>
+    <h2 class="section-title">&#x1F5FA;&#xFE0F; Garis Wallace &amp; Weber &#x2014; Pemisah Dua Dunia!</h2>
+
+    <p class="body-text">Pernah bertanya-tanya, kenapa di Papua ada kangguru tapi di Jawa ada harimau? Kenapa di Kalimantan ada orangutan tapi tidak ada di Sulawesi? Jawabannya adalah <strong>Garis Wallace</strong> dan <strong>Garis Weber</strong>!</p>
+
+    <div class="fs">
+      <div class="fi">&#x1F9D0;</div>
+      <div class="ft"><strong>Siapa Alfred Russel Wallace?</strong>
+        <strong>Alfred Russel Wallace</strong> adalah ilmuwan dari Inggris yang melakukan penelitian tentang flora dan fauna di Indonesia dari tahun <strong>1854 sampai 1862</strong>. Ia melakukan perjalanan ke ratusan pulau dan mencatat bahwa fauna di sisi barat Selat Lombok sangat berbeda dari fauna di sisi timurnya &#x2014; padahal jaraknya hanya beberapa kilometer! Temuan ini menghasilkan garis imaginer yang kemudian dinamai <strong>Garis Wallace</strong>.</div>
+    </div>
+
+    <div class="garis-visual">
+      <h4>&#x1F5FA;&#xFE0F; Dua Garis Pemisah di Indonesia</h4>
+      <div class="garis-row">
+        <div class="garis-line gl-wallace"></div>
+        <div class="garis-info">
+          <div class="garis-name" style="color:#ef4444;">&#x2014;&#x2014; Garis Wallace</div>
+          <div class="garis-desc">Memisahkan fauna <strong>Asiatis</strong> (barat) dengan fauna <strong>Peralihan</strong> (tengah). Melewati Selat Lombok dan Selat Makassar. Dibuat oleh Alfred Russel Wallace (Inggris).</div>
+        </div>
+      </div>
+      <div class="garis-row">
+        <div class="garis-line gl-weber"></div>
+        <div class="garis-info">
+          <div class="garis-name" style="color:#8b5cf6;">&#x2014;&#x2014; Garis Weber</div>
+          <div class="garis-desc">Memisahkan fauna <strong>Peralihan</strong> (tengah) dengan fauna <strong>Australis</strong> (timur). Melewati Laut Banda dan Laut Maluku. Dibuat oleh Max Carl Wilhelm Weber (Jerman).</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="body-text">Kedua garis ini membagi Indonesia menjadi <strong>tiga zona fauna</strong> yang berbeda:</p>
+
+    <div class="zona-wrapper">
+      <!-- ASIATIS -->
+      <div class="zona-box">
+        <div class="zona-header z-asia">
+          <h4>&#x1F331; Fauna Asiatis</h4>
+          <p>Indonesia Bagian Barat</p>
+        </div>
+        <div class="zona-body">
+          <div class="zona-wilayah z-asia">Pulau-pulau di barat Garis Wallace:</div>
+          <div class="zona-animals">
+            <span class="z-tag a">Sumatera</span><span class="z-tag a">Jawa</span><span class="z-tag a">Kalimantan</span><span class="z-tag a">Bali</span>
+          </div>
+          <p style="font-size:.8rem;font-weight:700;color:#1e3a5f;margin:.4rem 0 .3rem;">&#x1F42F; Hewan khas:</p>
+          <div class="zona-animals">
+            <span class="z-tag a">&#x1F418; Gajah</span><span class="z-tag a">&#x1F98F; Badak</span><span class="z-tag a">&#x1F406; Harimau</span><span class="z-tag a">&#x1F9A7; Orangutan</span><span class="z-tag a">&#x1F984; Banteng</span><span class="z-tag a">&#x1F422; Kura-kura</span>
+          </div>
+          <div class="zona-flora">&#x1F33F; <strong>Ciri:</strong> Hewan berukuran besar, banyak kera dan reptil, tidak berkantung</div>
+        </div>
+      </div>
+      <!-- PERALIHAN -->
+      <div class="zona-box">
+        <div class="zona-header z-peralihan">
+          <h4>&#x1F4AB; Fauna Peralihan</h4>
+          <p>Indonesia Bagian Tengah</p>
+        </div>
+        <div class="zona-body">
+          <div class="zona-wilayah z-peralihan">Di antara Garis Wallace &amp; Weber:</div>
+          <div class="zona-animals">
+            <span class="z-tag p">Sulawesi</span><span class="z-tag p">Maluku</span><span class="z-tag p">Nusa Tenggara</span>
+          </div>
+          <p style="font-size:.8rem;font-weight:700;color:#0e4f5a;margin:.4rem 0 .3rem;">&#x1F98E; Hewan khas:</p>
+          <div class="zona-animals">
+            <span class="z-tag p">&#x1F984; Komodo</span><span class="z-tag p">&#x1F437; Babi Rusa</span><span class="z-tag p">&#x1F416; Anoa</span><span class="z-tag p">&#x1F426; Maleo</span><span class="z-tag p">&#x1F98E; Biawak</span>
+          </div>
+          <div class="zona-flora">&#x1F33F; <strong>Ciri:</strong> Hewan endemik (hanya ada di sana), langka, unik &#x2014; campuran Asia &amp; Australia</div>
+        </div>
+      </div>
+      <!-- AUSTRALIS -->
+      <div class="zona-box">
+        <div class="zona-header z-australis">
+          <h4>&#x1F426; Fauna Australis</h4>
+          <p>Indonesia Bagian Timur</p>
+        </div>
+        <div class="zona-body">
+          <div class="zona-wilayah z-australis">Di timur Garis Weber:</div>
+          <div class="zona-animals">
+            <span class="z-tag au">Papua</span><span class="z-tag au">Maluku</span><span class="z-tag au">Kep. Aru</span>
+          </div>
+          <p style="font-size:.8rem;font-weight:700;color:#4c1d95;margin:.4rem 0 .3rem;">&#x1F43F;&#xFE0F; Hewan khas:</p>
+          <div class="zona-animals">
+            <span class="z-tag au">&#x1F43F;&#xFE0F; Kangguru</span><span class="z-tag au">&#x1F426; Cendrawasih</span><span class="z-tag au">&#x1F426; Kasuari</span><span class="z-tag au">Kuskus</span><span class="z-tag au">Kelelawar</span>
+          </div>
+          <div class="zona-flora">&#x1F33F; <strong>Ciri:</strong> Mamalia kecil, banyak burung berwarna mencolok, ada hewan berkantung</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">&#x1F92F;</div>
+      <div class="ft"><strong>Fakta Mengejutkan: Bali dan Lombok Hanya 35 km, Tapi Faunanya Beda Banget!</strong>
+        Selat Lombok yang memisahkan Pulau Bali dan Pulau Lombok hanya selebar 35 km &#x2014; lebih sempit dari lebar Kota Bandung! Tapi di situlah Garis Wallace berada. Di Bali ada harimau, kera, dan hewan khas Asia. Di Lombok, fauna-nya sudah mulai menyerupai Australia. Hal ini terjadi karena dahulu kala selat itu sangat dalam sehingga tidak bisa dilintasi hewan darat, meski dua pulau itu sangat berdekatan.</div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ============================================================
+         BAGIAN 3: SUMBER DAYA ALAM
+    ============================================================ -->
+    <div id="sda" style="scroll-margin-top:112px;" class="section-label">Bagian 3</div>
+    <h2 class="section-title">&#x26CF;&#xFE0F; Sumber Daya Alam Indonesia</h2>
+
+    <p class="body-text"><strong>Sumber Daya Alam (SDA)</strong> adalah segala kekayaan alam yang bisa dimanfaatkan oleh manusia untuk memenuhi kebutuhan hidupnya. Indonesia adalah salah satu negara terkaya SDA-nya di dunia!</p>
+
+    <div class="topik-card">
+      <div class="topik-header t3">
+        <div class="t-icon">&#x1F33F;</div>
+        <div class="t-title">
+          <h3>SDA Berdasarkan Asalnya: Hayati &amp; Non-Hayati</h3>
+          <p>Dari mana sumber daya itu berasal?</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <p class="body-text" style="margin-bottom:1rem;">Berdasarkan asalnya, SDA dibagi menjadi dua: yang berasal dari makhluk hidup (<strong>hayati</strong>) dan yang bukan dari makhluk hidup (<strong>non-hayati</strong>).</p>
+        <div class="sda-grid">
+          <div class="sda-box">
+            <div class="sda-head hayati">
+              <span class="sda-head-icon">&#x1F33F;</span>
+              <div class="sda-head-text">
+                <h4>SDA Hayati</h4>
+                <p>Berasal dari makhluk hidup</p>
+              </div>
+            </div>
+            <div class="sda-body">
+              <ul class="sda-list hayati">
+                <li><strong>Nabati (tumbuhan):</strong> padi, jagung, karet, kelapa sawit, teh, kopi, kayu jati, bambu, rotan</li>
+                <li><strong>Hewani (hewan):</strong> sapi, ayam, ikan laut, udang, sutra dari ulat sutra, madu dari lebah</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sda-box">
+            <div class="sda-head non">
+              <span class="sda-head-icon">&#x1FAA8;</span>
+              <div class="sda-head-text">
+                <h4>SDA Non-Hayati</h4>
+                <p>Bukan dari makhluk hidup</p>
+              </div>
+            </div>
+            <div class="sda-body">
+              <ul class="sda-list non">
+                <li><strong>Air:</strong> sungai, danau, air tanah &#x2014; untuk minum, irigasi, dan PLTA</li>
+                <li><strong>Tanah:</strong> untuk pertanian dan pemukiman</li>
+                <li><strong>Udara:</strong> untuk pernapasan dan energi angin</li>
+                <li><strong>Bahan tambang:</strong> minyak bumi, batu bara, emas, besi, timah</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topik-card" style="margin-top:1rem;">
+      <div class="topik-header t3" style="background:linear-gradient(90deg,#065f46,#b45309);">
+        <div class="t-icon">&#x267B;&#xFE0F;</div>
+        <div class="t-title">
+          <h3>SDA Berdasarkan Sifatnya: Dapat &amp; Tidak Dapat Diperbarui</h3>
+          <p>Apakah SDA itu bisa habis atau tidak?</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <p class="body-text" style="margin-bottom:1rem;">Ini adalah pembagian yang paling penting untuk kita pahami supaya bisa menjaga SDA dengan bijak!</p>
+        <div class="sda-grid">
+          <div class="sda-box">
+            <div class="sda-head bisa">
+              <span class="sda-head-icon">&#x267B;&#xFE0F;</span>
+              <div class="sda-head-text">
+                <h4>&#x2705; Dapat Diperbarui</h4>
+                <p>Bisa pulih &amp; tidak cepat habis</p>
+              </div>
+            </div>
+            <div class="sda-body">
+              <ul class="sda-list bisa">
+                <li>&#x2600;&#xFE0F; <strong>Sinar matahari</strong> &#x2014; sumber energi surya tak terbatas</li>
+                <li>&#x1F4A7; <strong>Air</strong> &#x2014; terus berputar dalam siklus hujan</li>
+                <li>&#x1F32C;&#xFE0F; <strong>Angin</strong> &#x2014; bisa diubah menjadi energi listrik</li>
+                <li>&#x1F333; <strong>Hutan &amp; tumbuhan</strong> &#x2014; bisa ditanam kembali (reboisasi)</li>
+                <li>&#x1F42E; <strong>Hewan ternak</strong> &#x2014; bisa dibudidayakan dan dikembangbiakkan</li>
+                <li>&#x1FAB1; <strong>Ikan laut</strong> &#x2014; bisa terus berkembang biak jika tidak dilebihkan penangkapannya</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sda-box">
+            <div class="sda-head tidak">
+              <span class="sda-head-icon">&#x26A0;&#xFE0F;</span>
+              <div class="sda-head-text">
+                <h4>&#x274C; Tidak Dapat Diperbarui</h4>
+                <p>Akan habis jika terus dipakai</p>
+              </div>
+            </div>
+            <div class="sda-body">
+              <ul class="sda-list tidak">
+                <li>&#x26FD; <strong>Minyak bumi</strong> &#x2014; terbentuk jutaan tahun dari fosil organisme</li>
+                <li>&#x1F525; <strong>Batu bara</strong> &#x2014; sisa tumbuhan purba yang membatu jutaan tahun</li>
+                <li>&#x1F4A8; <strong>Gas alam</strong> &#x2014; bahan bakar untuk memasak dan industri</li>
+                <li>&#x1FAA8; <strong>Bijih besi &amp; baja</strong> &#x2014; bahan bangunan dan mesin</li>
+                <li>&#x1FAA8; <strong>Emas &amp; perak</strong> &#x2014; perhiasan dan elektronik</li>
+                <li>&#x1FAA8; <strong>Timah, tembaga, nikel</strong> &#x2014; bahan industri elektronik</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="fs oren">
+          <div class="fi">&#x26A0;&#xFE0F;</div>
+          <div class="ft"><strong>Mengapa Ini Penting Banget?</strong>
+            Minyak bumi butuh <strong>jutaan tahun</strong> untuk terbentuk. Kalau habis hari ini, tidak ada yang bisa membuat penggantinya dalam waktu singkat. Itulah mengapa sangat penting untuk menghemat bahan bakar, menggunakan energi terbarukan seperti surya dan angin, serta tidak membuang-buang SDA yang berharga ini.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topik-card" style="margin-top:1rem;">
+      <div class="topik-header t3" style="background:linear-gradient(90deg,#0369a1,#0f766e);">
+        <div class="t-icon">&#x1F30D;</div>
+        <div class="t-title">
+          <h3>Persebaran SDA Utama di Indonesia</h3>
+          <p>Indonesia kaya, tapi kekayaannya tidak merata di setiap daerah</p>
+        </div>
+      </div>
+      <div class="topik-body">
+        <div class="kn-grid">
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x26FD;</span><span class="kn-name">Minyak &amp; Gas Bumi</span></div>
+            <div class="kn-desc">Sumber energi terbesar Indonesia. Digunakan sebagai bahan bakar kendaraan, listrik, dan bahan baku industri.</div>
+            <div class="kn-example">&#x1F4CD; Kalimantan Timur, Riau, Sumatera Selatan, Natuna</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F4A5;</span><span class="kn-name">Batu Bara</span></div>
+            <div class="kn-desc">Bahan bakar fosil untuk pembangkit listrik dan industri. Indonesia adalah salah satu pengekspor batu bara terbesar di dunia.</div>
+            <div class="kn-example">&#x1F4CD; Kalimantan Timur, Kalimantan Selatan, Sumatera Selatan</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F947;</span><span class="kn-name">Emas &amp; Perak</span></div>
+            <div class="kn-desc">Logam mulia untuk perhiasan, cadangan nilai, dan komponen elektronik. Tambang emas terbesar ada di Papua.</div>
+            <div class="kn-example">&#x1F4CD; Papua (Grasberg), Nusa Tenggara Barat (Batu Hijau)</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F33E;</span><span class="kn-name">Hasil Pertanian</span></div>
+            <div class="kn-desc">Indonesia adalah penghasil kelapa sawit terbesar di dunia, serta produsen karet, kopi, teh, dan padi yang besar.</div>
+            <div class="kn-example">&#x2B50; Jawa Barat: Teh (Puncak, Garut), beras (Karawang), karet</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F41F;</span><span class="kn-name">Hasil Laut</span></div>
+            <div class="kn-desc">Laut Indonesia mengandung 37% dari seluruh spesies ikan di dunia! Juga penghasil udang, rumput laut, mutiara, dan terumbu karang.</div>
+            <div class="kn-example">&#x1F4CD; Maluku, Papua, Sulawesi, Bali, NTB</div>
+          </div>
+          <div class="kn-card">
+            <div class="kn-top"><span class="kn-icon">&#x1F333;</span><span class="kn-name">Hasil Hutan</span></div>
+            <div class="kn-desc">Hutan Indonesia (terluas ketiga di dunia) menghasilkan kayu, rotan, damar, madu, dan obat-obatan herbal yang berharga.</div>
+            <div class="kn-example">&#x1F4CD; Kalimantan, Sumatera, Papua, Sulawesi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PESAN HIJAU -->
+    <div class="pesan-hijau">
+      <div class="pgi">&#x1F331;</div>
+      <div>
+        <h4>Kita Semua Bertanggung Jawab!</h4>
+        <p>Indonesia punya kekayaan alam yang luar biasa. Tapi kalau tidak dijaga, kekayaan itu bisa habis. Hal-hal kecil yang bisa kamu lakukan: <strong>hemat air dan listrik</strong>, <strong>tidak membuang sampah sembarangan</strong>, <strong>menanam pohon</strong>, dan <strong>menggunakan kertas dengan bijak</strong>. Ingat, alam yang rusak sulit diperbaiki &#x2014; tapi alam yang sehat akan terus memberi manfaat untuk kita semua!</p>
+      </div>
+    </div>
+
+    <!-- RINGKASAN -->
+    <div class="ringkasan">
+      <h3>&#x1F4DD; Ringkasan &#x2014; Yang Penting Kamu Ingat!</h3>
+      <ul class="rl">
+        <li><div class="rn">1</div><div><strong>Kenampakan alam</strong> adalah segala sesuatu di permukaan bumi yang terbentuk secara alami. Dibagi dua: <strong>daratan</strong> (gunung, dataran, pantai) dan <strong>perairan</strong> (sungai, danau, laut).</div></li>
+        <li><div class="rn">2</div><div>Indonesia punya <strong>127 gunung berapi aktif</strong> &#x2014; terbanyak di dunia. Abu vulkaniknya menyuburkan tanah di Jawa Barat dan sekitarnya.</div></li>
+        <li><div class="rn">3</div><div><strong>Sungai Citarum</strong> adalah sungai terpanjang di Jawa Barat. Tiga waduknya (Saguling, Cirata, Jatiluhur) menghasilkan listrik untuk puluhan juta orang.</div></li>
+        <li><div class="rn">4</div><div>Indonesia adalah salah satu negara dengan <strong>biodiversitas tertinggi</strong> di dunia &#x2014; 25.000 spesies tumbuhan dan 17% spesies hewan dunia!</div></li>
+        <li><div class="rn">5</div><div><strong>Garis Wallace</strong> memisahkan fauna Asiatis (barat) dengan Peralihan (tengah). <strong>Garis Weber</strong> memisahkan fauna Peralihan (tengah) dengan Australis (timur).</div></li>
+        <li><div class="rn">6</div><div>SDA dibagi menjadi <strong>hayati</strong> (dari makhluk hidup) dan <strong>non-hayati</strong> (bukan makhluk hidup).</div></li>
+        <li><div class="rn">7</div><div>SDA <strong>dapat diperbarui</strong> (air, matahari, hutan) bisa pulih jika dijaga. SDA <strong>tidak dapat diperbarui</strong> (minyak bumi, batu bara, emas) akan habis jika terus dipakai tanpa hemat.</div></li>
+      </ul>
+    </div>
+
+    <!-- NAVIGASI -->
+    <nav class="page-nav">
+      <a href="sejarah.html" class="nav-btn nav-btn-outline">&#x2190; <span><span class="nav-label">Sub-materi Sebelumnya</span>Sejarah Kerajaan</span></a>
+      <a href="kondisi-masyarakat.html" class="nav-btn nav-btn-primary"><span><span class="nav-label">Sub-materi Berikutnya</span>Kondisi Masyarakat</span> &#x2192;</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri &#xB7; Kelas 4 &#xB7; IPAS Semester 2 &nbsp;|&nbsp; Dibuat dengan &#x2764;&#xFE0F; untuk semangat belajar</p>
+  </footer>
+
+</body>
+</html>
