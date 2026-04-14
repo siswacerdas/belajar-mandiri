@@ -8,103 +8,114 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="../../../assets/css/style.css"/>
   <style>
-    :root {
-      --bab:     #0369a1;
-      --bab-mid: #0284c7;
-      --bab-lt:  #e0f2fe;
-      --bab-pal: #f0f9ff;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Nunito', sans-serif; background: var(--sand, #f7f3eb); color: var(--ink, #1a1f2e); line-height: 1.7; }
+    :root{--bab:#0369a1;--bab-mid:#0284c7;--bab-lt:#e0f2fe;--bab-pal:#f0f9ff;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
     /* NAVBAR */
-    .navbar { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 2px solid var(--bab-lt); padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 56px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
-    .navbar-brand { font-family: 'Lora', serif; font-weight: 700; font-size: 1.05rem; color: var(--bab); text-decoration: none; }
-    .navbar-brand span { color: var(--ink, #1a1f2e); }
-    .breadcrumb { font-size: .78rem; color: var(--ink-lt, #6b7280); display: flex; align-items: center; gap: .35rem; }
-    .breadcrumb a { color: var(--bab); text-decoration: none; }
-    .breadcrumb a:hover { text-decoration: underline; }
-    .breadcrumb .sep { opacity: .4; }
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
 
     /* HERO */
-    .hero { background: linear-gradient(135deg, #0369a1 0%, #075985 100%); color: #fff; padding: 3.5rem 1.5rem 5.5rem; position: relative; overflow: hidden; }
-    .hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E"); }
-    .hero-inner { max-width: 760px; margin: 0 auto; position: relative; }
-    .hero-tag { display: inline-block; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); border-radius: 50px; padding: .3rem .9rem; margin-bottom: .9rem; }
-    .hero h1 { font-family: 'Lora', serif; font-size: clamp(1.9rem, 5vw, 2.9rem); font-style: italic; line-height: 1.2; margin-bottom: .6rem; }
-    .hero h1 em { font-style: normal; color: #bae6fd; }
-    .hero-desc { font-size: 1.02rem; opacity: .88; max-width: 540px; margin-bottom: 1.5rem; }
-    .hero-meta { display: flex; flex-wrap: wrap; gap: .55rem; }
-    .hero-chip { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.2); border-radius: 50px; padding: .28rem .85rem; font-size: .8rem; font-weight: 700; }
-    .hero-wave { position: absolute; bottom: -1px; left: 0; width: 100%; }
+    .hero{background:linear-gradient(135deg,#0369a1,#075985);color:#fff;padding:3.5rem 1.5rem 5.5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:.9rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.9rem,5vw,2.9rem);font-style:italic;line-height:1.2;margin-bottom:.6rem;}
+    .hero h1 em{font-style:normal;color:#bae6fd;}
+    .hero-desc{font-size:1.02rem;opacity:.88;max-width:580px;margin-bottom:1.5rem;}
+    .hero-meta{display:flex;flex-wrap:wrap;gap:.55rem;}
+    .hero-chip{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);border-radius:50px;padding:.28rem .85rem;font-size:.8rem;font-weight:700;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
 
     /* CONTENT */
-    .content { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
 
-    /* PROGRESS STRIP */
-    .progress-strip { background: #fff; border-radius: 14px; padding: 1.1rem 1.4rem; box-shadow: 0 2px 10px rgba(0,0,0,.06); margin-bottom: 2rem; display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
-    .ps-label { font-size: .8rem; font-weight: 800; color: var(--ink-lt, #6b7280); text-transform: uppercase; letter-spacing: .08em; flex-shrink: 0; }
-    .ps-steps { display: flex; gap: .4rem; flex-wrap: wrap; }
-    .ps-step { width: 28px; height: 8px; border-radius: 50px; }
-    .ps-step.done { background: var(--bab); }
-    .ps-step.active { background: var(--bab-mid); opacity: .5; }
-    .ps-step.todo { background: var(--sand-dk, #ede8dc); }
-    .ps-text { font-size: .82rem; color: var(--ink-mid, #3d4460); }
-    .ps-text strong { color: var(--bab); }
+    /* PROGRESS */
+    .progress-strip{background:#fff;border-radius:14px;padding:1.1rem 1.4rem;box-shadow:0 2px 10px rgba(0,0,0,.06);margin-bottom:2rem;display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;}
+    .ps-label{font-size:.78rem;font-weight:800;color:var(--ink-lt,#6b7280);text-transform:uppercase;letter-spacing:.08em;flex-shrink:0;}
+    .ps-steps{display:flex;gap:.4rem;}
+    .ps-step{height:8px;border-radius:50px;}
+    .ps-step.done{background:var(--bab);width:40px;}
+    .ps-step.partial{background:var(--bab-mid);width:40px;opacity:.6;}
+    .ps-step.todo{background:var(--sand-dk,#ede8dc);width:28px;}
+    .ps-text{font-size:.82rem;color:var(--ink-mid,#3d4460);}
+    .ps-text strong{color:var(--bab);}
+
+    /* TIPS */
+    .tips-box{background:#fff;border-radius:14px;padding:1.2rem 1.4rem;border-left:4px solid #f59e0b;margin-bottom:2rem;display:flex;gap:.85rem;align-items:flex-start;}
+    .tips-box .ti{font-size:1.4rem;flex-shrink:0;}
+    .tips-box .tt{font-size:.9rem;color:var(--ink-mid,#3d4460);}
+    .tips-box .tt strong{display:block;margin-bottom:.2rem;color:#92400e;}
 
     /* SUB-MATERI CARDS */
-    .sub-grid { display: grid; gap: 1.1rem; margin: 1.5rem 0; }
-    .sub-card { background: #fff; border-radius: 18px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,.07); text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s; border: 2px solid transparent; }
-    .sub-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(3,105,161,.15); border-color: var(--bab-lt); }
-    .sub-card-header { padding: 1.15rem 1.5rem 1rem; display: flex; align-items: flex-start; gap: 1rem; }
-    .sub-num { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0; font-weight: 800; }
-    .sub-num.a { background: var(--bab-lt); }
-    .sub-num.b { background: #dcfce7; }
-    .sub-num.c { background: #fef9c3; }
-    .sub-card-info { flex: 1; }
-    .sub-badge { font-size: .68rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--bab); margin-bottom: .25rem; display: block; }
-    .sub-card-info h3 { font-family: 'Lora', serif; font-size: 1.05rem; font-weight: 700; line-height: 1.3; color: var(--ink, #1a1f2e); margin-bottom: .25rem; }
-    .sub-card-info p { font-size: .85rem; color: var(--ink-lt, #6b7280); line-height: 1.5; }
-    .sub-card-footer { border-top: 1.5px solid var(--sand-dk, #ede8dc); padding: .75rem 1.5rem; display: flex; align-items: center; justify-content: space-between; }
-    .sub-topics { display: flex; flex-wrap: wrap; gap: .35rem; }
-    .sub-topic { font-size: .72rem; font-weight: 700; background: var(--bab-pal); color: var(--bab); padding: .15rem .55rem; border-radius: 50px; }
-    .sub-arrow { font-size: 1.1rem; color: var(--bab); font-weight: 800; flex-shrink: 0; }
-    .sub-card.available .sub-card-footer { background: var(--bab-pal); }
-    .sub-card.locked { opacity: .65; pointer-events: none; }
-    .sub-card.locked .sub-card-footer { background: var(--sand-dk, #ede8dc); }
-    .sub-card.locked .sub-arrow { color: var(--ink-lt); }
-    .locked-label { font-size: .75rem; color: var(--ink-lt); font-weight: 700; }
+    .sub-grid{display:grid;gap:1rem;margin:1.25rem 0;}
+
+    /* Base card */
+    .sub-card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.07);text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;border:2px solid transparent;}
+    .sub-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(3,105,161,.15);border-color:var(--bab-lt);}
+
+    /* Header area */
+    .sub-card-header{padding:1.15rem 1.5rem 1rem;display:flex;align-items:flex-start;gap:1rem;}
+    .sub-num{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0;}
+    .sub-num.a{background:var(--bab-lt);}
+    .sub-num.b{background:#dcfce7;}
+    .sub-num.c{background:#fef9c3;}
+    .sub-num.q{background:#fce7f3;}
+    .sub-card-info{flex:1;}
+    .sub-badge{font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.25rem;display:inline-flex;align-items:center;gap:.35rem;}
+    .sub-badge.done{color:var(--bab);}
+    .sub-badge.ready{color:#059669;}
+    .sub-badge.soon{color:#b45309;}
+    .sub-badge.quiz{color:#be185d;}
+    .sub-card-info h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;line-height:1.3;color:var(--ink,#1a1f2e);margin-bottom:.25rem;}
+    .sub-card-info p{font-size:.85rem;color:var(--ink-lt,#6b7280);line-height:1.5;}
+
+    /* Footer area */
+    .sub-card-footer{border-top:1.5px solid var(--sand-dk,#ede8dc);padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;}
+    .sub-topics{display:flex;flex-wrap:wrap;gap:.35rem;}
+    .sub-topic{font-size:.72rem;font-weight:700;background:var(--bab-pal);color:var(--bab);padding:.15rem .55rem;border-radius:50px;}
+    .sub-topic.g{background:#f0fdf4;color:#065f46;}
+    .sub-topic.y{background:#fefce8;color:#854d0e;}
+    .sub-topic.p{background:#fdf2f8;color:#9d174d;}
+    .sub-arrow{font-size:1.1rem;color:var(--bab);font-weight:800;flex-shrink:0;}
+    .sub-card-footer.active-footer{background:var(--bab-pal);}
+    .sub-card-footer.green-footer{background:#f0fdf4;}
+    .sub-card-footer.yellow-footer{background:#fefce8;}
+    .sub-card-footer.pink-footer{background:#fdf2f8;}
+
+    /* Soon badge / status pill */
+    .soon-pill{display:inline-flex;align-items:center;gap:.3rem;font-size:.72rem;font-weight:800;background:#fff7ed;color:#b45309;border:1.5px solid #fed7aa;border-radius:50px;padding:.2rem .65rem;flex-shrink:0;}
 
     /* KUIS CARD */
-    .kuis-card { background: linear-gradient(135deg, #0369a1 0%, #075985 100%); border-radius: 18px; padding: 1.5rem 1.75rem; color: #fff; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; text-decoration: none; margin-top: 1.25rem; transition: transform .2s, box-shadow .2s; flex-wrap: wrap; }
-    .kuis-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(3,105,161,.25); }
-    .kuis-left { display: flex; align-items: center; gap: 1rem; }
-    .kuis-icon { width: 54px; height: 54px; background: rgba(255,255,255,.2); border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; flex-shrink: 0; }
-    .kuis-text h3 { font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; margin-bottom: .2rem; }
-    .kuis-text p { font-size: .85rem; opacity: .85; }
-    .kuis-btn { background: #fff; color: var(--bab); padding: .6rem 1.3rem; border-radius: 50px; font-weight: 800; font-size: .88rem; white-space: nowrap; }
-
-    /* TIPS BOX */
-    .tips-box { background: #fff; border-radius: 14px; padding: 1.2rem 1.4rem; border-left: 4px solid #f59e0b; margin-bottom: 2rem; display: flex; gap: .85rem; align-items: flex-start; }
-    .tips-box .ti { font-size: 1.4rem; flex-shrink: 0; }
-    .tips-box .tt { font-size: .9rem; color: var(--ink-mid, #3d4460); }
-    .tips-box .tt strong { display: block; margin-bottom: .2rem; color: #92400e; }
+    .kuis-card{background:linear-gradient(135deg,#0369a1,#075985);border-radius:18px;padding:1.5rem 1.75rem;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;text-decoration:none;margin-top:1.25rem;transition:transform .2s,box-shadow .2s;flex-wrap:wrap;border:2px solid transparent;}
+    .kuis-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(3,105,161,.25);}
+    .kuis-left{display:flex;align-items:center;gap:1rem;}
+    .kuis-icon{width:54px;height:54px;background:rgba(255,255,255,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;}
+    .kuis-text h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;margin-bottom:.2rem;}
+    .kuis-text p{font-size:.85rem;opacity:.85;}
+    .kuis-btn{background:#fff;color:var(--bab);padding:.6rem 1.3rem;border-radius:50px;font-weight:800;font-size:.88rem;white-space:nowrap;}
 
     /* BACK NAV */
-    .back-nav { display: flex; align-items: center; gap: 1rem; margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--sand-dk, #ede8dc); }
-    .nav-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .7rem 1.3rem; border-radius: 50px; font-weight: 700; font-size: .9rem; text-decoration: none; transition: all .2s; }
-    .nav-btn-outline { border: 2px solid var(--bab); color: var(--bab); background: transparent; }
-    .nav-btn-outline:hover { background: var(--bab-pal); }
+    .back-nav{display:flex;align-items:center;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
 
-    /* FOOTER */
-    .footer { background: var(--ink, #1a1f2e); color: rgba(255,255,255,.55); text-align: center; padding: 1.5rem; font-size: .82rem; }
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
 
-    @media (max-width: 560px) {
-      .hero { padding: 2.5rem 1rem 5rem; }
-      .content { padding: 2rem 1rem 3rem; }
-      .kuis-card { flex-direction: column; }
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .kuis-card{flex-direction:column;}
     }
   </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
 </head>
 <body>
 
@@ -112,22 +123,22 @@
     <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
     <div class="breadcrumb">
       <a href="../../../kelas-4/index.html">Kelas 4</a>
-      <span class="sep">›</span>
+      <span class="sep">&#xBB;</span>
       <a href="../index.html">IPAS</a>
-      <span class="sep">›</span>
+      <span class="sep">&#xBB;</span>
       <span>Bab 1</span>
     </div>
   </nav>
 
   <header class="hero">
     <div class="hero-inner">
-      <span class="hero-tag">📚 IPAS Kelas 4 · Semester 2 · Bab 1</span>
+      <span class="hero-tag">&#x1F4DA; IPAS Kelas 4 &#xB7; Semester 2 &#xB7; Bab 1</span>
       <h1><em>Daerahku</em><br>Dulu dan Sekarang</h1>
-      <p class="hero-desc">Di bab ini kamu akan belajar tentang sejarah kerajaan-kerajaan yang pernah berdiri di Nusantara, bagaimana kondisi alam daerahmu terbentuk, dan bagaimana alam mempengaruhi kehidupan masyarakat.</p>
+      <p class="hero-desc">Di bab ini kamu akan belajar tentang sejarah kerajaan-kerajaan Nusantara, kondisi alam Indonesia, dan bagaimana alam mempengaruhi kehidupan masyarakat.</p>
       <div class="hero-meta">
-        <span class="hero-chip">📖 3 Sub-materi</span>
-        <span class="hero-chip">❓ 1 Kuis</span>
-        <span class="hero-chip">📍 Konteks: Jawa Barat</span>
+        <span class="hero-chip">&#x1F4D6; 3 Sub-materi</span>
+        <span class="hero-chip">&#x2753; 1 Kuis</span>
+        <span class="hero-chip">&#x1F4CD; Konteks: Jawa Barat</span>
       </div>
     </div>
     <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
@@ -141,88 +152,89 @@
     <div class="progress-strip">
       <span class="ps-label">Progres Bab</span>
       <div class="ps-steps">
-        <div class="ps-step done" title="Sejarah Kerajaan"></div>
-        <div class="ps-step todo" title="Kondisi Alam"></div>
-        <div class="ps-step todo" title="Kondisi Masyarakat"></div>
-        <div class="ps-step todo" title="Kuis"></div>
+        <div class="ps-step done"    title="Sejarah Kerajaan — Selesai"></div>
+        <div class="ps-step done"    title="Kondisi Alam — Selesai"></div>
+        <div class="ps-step todo"    title="Kondisi Masyarakat — Belum tersedia"></div>
+        <div class="ps-step todo"    title="Kuis — Belum tersedia"></div>
       </div>
-      <div class="ps-text"><strong>1 dari 3</strong> sub-materi tersedia</div>
+      <div class="ps-text"><strong>2 dari 3</strong> sub-materi tersedia</div>
     </div>
 
     <!-- TIPS -->
     <div class="tips-box">
-      <div class="ti">💡</div>
+      <div class="ti">&#x1F4A1;</div>
       <div class="tt">
         <strong>Cara belajar yang paling oke!</strong>
-        Baca sub-materi secara berurutan dari A → B → C, lalu selesaikan kuis di akhir. Jangan lupa perhatikan bagian "Fakta Seru" — itu bagian yang paling menarik!
+        Baca sub-materi secara berurutan A &#x2192; B &#x2192; C, lalu selesaikan kuis di akhir. Jangan lewatkan bagian &#x201C;Fakta Seru&#x201D; dan tabel peninggalan!
       </div>
     </div>
 
-    <!-- SUB-MATERI GRID -->
-    <div style="font-size:.72rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--bab); margin-bottom:.5rem;">Sub-materi</div>
-    <h2 style="font-family:'Lora',serif; font-size:1.45rem; font-weight:700; margin-bottom:1.25rem; line-height:1.3;">Yang Akan Kamu Pelajari di Bab 1</h2>
+    <div style="font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.5rem;">Sub-materi</div>
+    <h2 style="font-family:'Lora',serif;font-size:1.45rem;font-weight:700;margin-bottom:1.25rem;line-height:1.3;">Yang Akan Kamu Pelajari di Bab 1</h2>
 
     <div class="sub-grid">
 
-      <!-- SUB A -->
-      <a href="sejarah.html" class="sub-card available">
+      <!-- ── SUB A: SEJARAH ── -->
+      <a href="sejarah.html" class="sub-card">
         <div class="sub-card-header">
-          <div class="sub-num a">🏛️</div>
+          <div class="sub-num a">&#x1F3DB;&#xFE0F;</div>
           <div class="sub-card-info">
-            <span class="sub-badge">Sub-materi A · Tersedia</span>
+            <span class="sub-badge done">&#x2705; Sub-materi A &nbsp;&middot;&nbsp; Tersedia</span>
             <h3>Sejarah Kerajaan di Indonesia</h3>
-            <p>Jelajahi kerajaan-kerajaan besar Nusantara — dari Kutai yang paling tua, Sriwijaya sang penguasa lautan, Majapahit yang menyatukan Nusantara, hingga Pajajaran kebanggaan Jawa Barat!</p>
+            <p>Jelajahi 9 kerajaan besar Nusantara &#x2014; dari Kutai yang paling tua, Sriwijaya penguasa lautan, Majapahit yang menyatukan Nusantara, hingga Pajajaran kebanggaan Jawa Barat. Lengkap dengan peninggalan dan tabel 3 era.</p>
           </div>
         </div>
-        <div class="sub-card-footer">
+        <div class="sub-card-footer active-footer">
           <div class="sub-topics">
-            <span class="sub-topic">🌿 Kutai</span>
-            <span class="sub-topic">⚓ Sriwijaya</span>
-            <span class="sub-topic">👑 Majapahit</span>
-            <span class="sub-topic">🦁 Pajajaran</span>
-            <span class="sub-topic">+5 lagi</span>
+            <span class="sub-topic">&#x1F331; Kutai</span>
+            <span class="sub-topic">&#x2693; Sriwijaya</span>
+            <span class="sub-topic">&#x1F451; Majapahit</span>
+            <span class="sub-topic">&#x1F981; Pajajaran</span>
+            <span class="sub-topic">&#x1F4CA; Tabel 3 Era</span>
           </div>
-          <span class="sub-arrow">→</span>
+          <span class="sub-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <!-- SUB B -->
-      <a href="kondisi-alam.html" class="sub-card locked">
+      <!-- ── SUB B: KONDISI ALAM ── -->
+      <a href="kondisi-alam.html" class="sub-card">
         <div class="sub-card-header">
-          <div class="sub-num b">🏔️</div>
+          <div class="sub-num b">&#x1F3D4;&#xFE0F;</div>
           <div class="sub-card-info">
-            <span class="sub-badge">Sub-materi B · Segera Hadir</span>
-            <h3>Kondisi & Karakteristik Alam di Suatu Daerah</h3>
-            <p>Pelajari bagaimana Jawa Barat terbentuk dari gunung berapi, sungai, pantai, dan dataran. Mengapa alamnya begitu beragam dan kaya?</p>
+            <span class="sub-badge ready">&#x2705; Sub-materi B &nbsp;&middot;&nbsp; Tersedia</span>
+            <h3>Kondisi &amp; Karakteristik Alam di Suatu Daerah</h3>
+            <p>Kenali bentang alam Indonesia &#x2014; gunung, sungai, danau, pantai, dan hutan. Pelajari keragaman flora &amp; fauna dengan Garis Wallace &amp; Weber, serta sumber daya alam yang dimiliki Indonesia.</p>
           </div>
         </div>
-        <div class="sub-card-footer">
+        <div class="sub-card-footer green-footer">
           <div class="sub-topics">
-            <span class="sub-topic">🌋 Gunung Api</span>
-            <span class="sub-topic">🌊 Sungai</span>
-            <span class="sub-topic">🌾 Dataran</span>
+            <span class="sub-topic g">&#x26F0;&#xFE0F; Kenampakan Alam</span>
+            <span class="sub-topic g">&#x1F98B; Flora &amp; Fauna</span>
+            <span class="sub-topic g">&#x1F5FA;&#xFE0F; Garis Wallace</span>
+            <span class="sub-topic g">&#x26CF;&#xFE0F; SDA</span>
           </div>
-          <span class="sub-arrow locked-label">🔒 Belum tersedia</span>
+          <span class="sub-arrow" style="color:#059669;">&#x2192;</span>
         </div>
       </a>
 
-      <!-- SUB C -->
-      <a href="kondisi-masyarakat.html" class="sub-card locked">
+      <!-- ── SUB C: KONDISI MASYARAKAT ── -->
+      <a href="kondisi-masyarakat.html" class="sub-card">
         <div class="sub-card-header">
-          <div class="sub-num c">👨‍👩‍👧‍👦</div>
+          <div class="sub-num c">&#x1F46A;</div>
           <div class="sub-card-info">
-            <span class="sub-badge">Sub-materi C · Segera Hadir</span>
+            <span class="sub-badge soon">&#x1F552; Sub-materi C &nbsp;&middot;&nbsp; Segera Hadir</span>
             <h3>Kondisi Masyarakat Dilihat dari Kondisi Geografis / Alamnya</h3>
-            <p>Bagaimana bentuk alam suatu daerah mempengaruhi cara hidup, mata pencaharian, dan kebudayaan masyarakatnya?</p>
+            <p>Bagaimana bentang alam suatu daerah mempengaruhi cara hidup, mata pencaharian, dan kebudayaan masyarakatnya? Petani di dataran tinggi, nelayan di pesisir, pedagang di kota &#x2014; semua karena kondisi alamnya!</p>
           </div>
         </div>
-        <div class="sub-card-footer">
+        <div class="sub-card-footer yellow-footer">
           <div class="sub-topics">
-            <span class="sub-topic">🧑‍🌾 Petani</span>
-            <span class="sub-topic">🎣 Nelayan</span>
-            <span class="sub-topic">🏙️ Kota</span>
+            <span class="sub-topic y">&#x1F9D1;&#x200D;&#x1F33E; Petani</span>
+            <span class="sub-topic y">&#x1F3A3; Nelayan</span>
+            <span class="sub-topic y">&#x1F3D9;&#xFE0F; Kota</span>
+            <span class="sub-topic y">&#x1F9B4; Kearifan Lokal</span>
           </div>
-          <span class="sub-arrow locked-label">🔒 Belum tersedia</span>
+          <span class="soon-pill">&#x1F552; Segera hadir</span>
         </div>
       </a>
 
@@ -231,24 +243,23 @@
     <!-- KUIS -->
     <a href="kuis.html" class="kuis-card">
       <div class="kuis-left">
-        <div class="kuis-icon">❓</div>
+        <div class="kuis-icon">&#x2753;</div>
         <div class="kuis-text">
-          <h3>Kuis Bab 1 — Daerahku Dulu dan Sekarang</h3>
-          <p>Uji pemahamanmu dengan soal-soal pilihan ganda. Ada penjelasan di setiap jawaban!</p>
+          <h3>Kuis Bab 1 &#x2014; Daerahku Dulu dan Sekarang</h3>
+          <p>Uji pemahamanmu dengan soal pilihan ganda. Ada penjelasan di setiap jawaban! &#x1F552; Tersedia setelah semua sub-materi selesai.</p>
         </div>
       </div>
-      <div class="kuis-btn">Mulai Kuis →</div>
+      <div class="kuis-btn">Mulai Kuis &#x2192;</div>
     </a>
 
-    <!-- BACK -->
     <nav class="back-nav">
-      <a href="../index.html" class="nav-btn nav-btn-outline">← Kembali ke Mata Pelajaran IPAS</a>
+      <a href="../index.html" class="nav-btn nav-btn-outline">&#x2190; Kembali ke Mata Pelajaran IPAS</a>
     </nav>
 
   </main>
 
   <footer class="footer">
-    <p>Belajar Mandiri · Kelas 4 · IPAS Semester 2 &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+    <p>Belajar Mandiri &#xB7; Kelas 4 &#xB7; IPAS Semester 2 &nbsp;|&nbsp; Dibuat dengan &#x2764;&#xFE0F; untuk semangat belajar</p>
   </footer>
 
 </body>
