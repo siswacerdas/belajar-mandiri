@@ -8,209 +8,232 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="../../../assets/css/style.css"/>
   <style>
-    :root {
-      --bab:     #0369a1;
-      --bab-mid: #0284c7;
-      --bab-lt:  #e0f2fe;
-      --bab-pal: #f0f9ff;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Nunito', sans-serif; background: var(--sand, #f7f3eb); color: var(--ink, #1a1f2e); line-height: 1.7; }
+    :root { --bab:#0369a1; --bab-mid:#0284c7; --bab-lt:#e0f2fe; --bab-pal:#f0f9ff; }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
     /* NAVBAR */
-    .navbar { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 2px solid var(--bab-lt); padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 56px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
-    .navbar-brand { font-family: 'Lora', serif; font-weight: 700; font-size: 1.05rem; color: var(--bab); text-decoration: none; }
-    .navbar-brand span { color: var(--ink, #1a1f2e); }
-    .breadcrumb { font-size: .78rem; color: var(--ink-lt, #6b7280); display: flex; align-items: center; gap: .35rem; }
-    .breadcrumb a { color: var(--bab); text-decoration: none; }
-    .breadcrumb .sep { opacity: .4; }
-
-    /* HERO */
-    .hero { background: linear-gradient(135deg, #0369a1 0%, #075985 100%); color: #fff; padding: 3.5rem 1.5rem 5rem; position: relative; overflow: hidden; }
-    .hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E"); }
-    .hero-inner { max-width: 760px; margin: 0 auto; position: relative; }
-    .hero-label { display: inline-block; font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); border-radius: 50px; padding: .3rem .9rem; margin-bottom: 1rem; }
-    .hero h1 { font-family: 'Lora', serif; font-size: clamp(1.8rem, 5vw, 2.8rem); font-style: italic; line-height: 1.25; margin-bottom: .75rem; }
-    .hero h1 em { font-style: normal; color: #bae6fd; }
-    .hero-desc { font-size: 1.05rem; opacity: .88; max-width: 580px; }
-    .hero-wave { position: absolute; bottom: -1px; left: 0; width: 100%; }
-
-    /* CONTENT */
-    .content { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
-    .section-label { font-size: .72rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--bab); margin-bottom: .4rem; }
-    .section-title { font-family: 'Lora', serif; font-size: 1.5rem; font-weight: 700; color: var(--ink, #1a1f2e); margin-bottom: 1rem; line-height: 1.3; }
-    .divider { border: none; border-top: 2px solid var(--sand-dk, #ede8dc); margin: 2.5rem 0; }
-
-    /* INTRO */
-    .intro-box { background: #fff; border-radius: 16px; padding: 1.75rem 2rem; border-left: 5px solid var(--bab); box-shadow: 0 2px 12px rgba(3,105,161,.08); margin-bottom: 2.5rem; font-size: 1.02rem; }
-    .intro-box p + p { margin-top: .75rem; }
-
-    /* ERA HEADER */
-    .era-header { display: flex; align-items: center; gap: .85rem; padding: 1rem 1.25rem; border-radius: 12px; margin: 2rem 0 1.25rem; }
-    .era-hb { background: linear-gradient(135deg, #0369a1, #075985); }
-    .era-is { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
-    .era-header .era-icon { font-size: 1.8rem; flex-shrink: 0; }
-    .era-header .era-text h3 { font-family: 'Lora', serif; font-size: 1.1rem; font-weight: 700; color: #fff; }
-    .era-header .era-text p { font-size: .83rem; color: rgba(255,255,255,.8); margin-top: .15rem; }
-
-    /* KINGDOM CARD */
-    .kingdom-card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,.06); margin-bottom: 1.5rem; }
-    .kh { padding: .9rem 1.4rem; display: flex; align-items: center; gap: .9rem; }
-    .kh.hb { background: var(--bab); }
-    .kh.hb2 { background: linear-gradient(90deg,#1e40af,#1d4ed8); }
-    .kh.is { background: #7c3aed; }
-    .kh.is2 { background: linear-gradient(90deg,#6d28d9,#5b21b6); }
-    .kh.jabar { background: linear-gradient(90deg,#0369a1,#0284c7); }
-    .k-icon { width: 42px; height: 42px; background: rgba(255,255,255,.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; }
-    .kh-text { color: #fff; }
-    .kh-text h3 { font-family: 'Lora', serif; font-size: 1.05rem; font-weight: 700; line-height: 1.2; }
-    .kh-meta { font-size: .78rem; opacity: .82; margin-top: .15rem; display: flex; flex-wrap: wrap; gap: .5rem; }
-    .kh-meta span { background: rgba(255,255,255,.15); padding: .1rem .55rem; border-radius: 50px; }
-    .kb { padding: 1.35rem 1.5rem; }
-    .kb p { font-size: .97rem; margin-bottom: .7rem; }
-    .kb p:last-child { margin-bottom: 0; }
-
-    /* JABAR BADGE */
-    .jabar-badge { display: inline-flex; align-items: center; gap: .3rem; background: #dbeafe; color: #1e40af; font-size: .75rem; font-weight: 800; padding: .2rem .7rem; border-radius: 50px; margin-bottom: .6rem; }
-
-    /* FAKTA SERU */
-    .fs { background: var(--bab-pal); border: 2px dashed var(--bab-lt); border-radius: 12px; padding: 1rem 1.2rem; margin: .85rem 0; display: flex; gap: .75rem; align-items: flex-start; }
-    .fs.is { background: #f5f3ff; border-color: #ddd6fe; }
-    .fs .fi { font-size: 1.4rem; flex-shrink: 0; margin-top: .05rem; }
-    .fs .ft { font-size: .91rem; color: #075985; }
-    .fs.is .ft { color: #5b21b6; }
-    .fs .ft strong { display: inline; color: var(--bab); font-weight: 800; }
-    .fs .ft strong:first-child { display: block; margin-bottom: .3rem; font-size: .95rem; }
-    .fs.is .ft strong { color: #6d28d9; }
-
-    /* PRASASTI GRID */
-    .pg { display: grid; grid-template-columns: repeat(auto-fill, minmax(185px, 1fr)); gap: .75rem; margin: .85rem 0; }
-    .pi { background: var(--bab-lt); border-radius: 10px; padding: .8rem 1rem; }
-    .pi .pn { font-weight: 800; font-size: .88rem; color: var(--bab); }
-    .pi .pl { font-size: .75rem; color: #0369a1; opacity: .8; }
-    .pi .pd { font-size: .82rem; margin-top: .35rem; }
-
-    /* OVERVIEW GRID */
-    .ov-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: .6rem; margin: 1rem 0 1.5rem; }
-    .ov-item { background: #fff; border: 2px solid var(--bab-lt); border-radius: 10px; padding: .65rem .8rem; text-align: center; }
-    .ov-item.is { border-color: #ddd6fe; }
-    .ov-item .oi { font-size: 1.3rem; margin-bottom: .2rem; }
-    .ov-item .on { font-weight: 800; font-size: .8rem; line-height: 1.2; }
-    .ov-item .ol { font-size: .7rem; color: var(--ink-lt, #6b7280); margin-top: .2rem; }
-    .ov-item.is .on { color: #5b21b6; }
-
-    /* QUOTE */
-    .qb { background: linear-gradient(135deg, #0369a1, #075985); color: #fff; border-radius: 14px; padding: 1.4rem 1.6rem; margin: 1.25rem 0; position: relative; overflow: hidden; }
-    .qb::before { content: '"'; position: absolute; top: -20px; left: 12px; font-family: 'Lora', serif; font-size: 8rem; opacity: .12; line-height: 1; }
-    .qb p { font-family: 'Lora', serif; font-size: 1rem; font-style: italic; line-height: 1.65; position: relative; }
-    .qb .qs { margin-top: .6rem; font-size: .78rem; opacity: .75; font-style: normal; font-family: 'Nunito', sans-serif; font-weight: 700; }
-
-    /* TIMELINE */
-    .tl { margin: 1.5rem 0; }
-    .tli { display: flex; gap: .9rem; margin-bottom: 1rem; align-items: flex-start; }
-    .tll { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; width: 52px; }
-    .tld { width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: .85rem; font-weight: 800; flex-shrink: 0; }
-    .tld.hb { background: var(--bab); }
-    .tld.is { background: #7c3aed; }
-    .tl-line { width: 2px; flex: 1; min-height: 22px; margin-top: 4px; }
-    .tl-line.hb { background: var(--bab-lt); }
-    .tl-line.is { background: #ddd6fe; }
-    .tli:last-child .tl-line { display: none; }
-    .tlr { padding-top: .35rem; }
-    .tlr .yr { font-size: .74rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
-    .tlr .yr.hb { color: var(--bab); }
-    .tlr .yr.is { color: #7c3aed; }
-    .tlr .ev { font-size: .93rem; font-weight: 700; margin-top: .1rem; }
-    .tlr .dt { font-size: .82rem; color: var(--ink-lt, #6b7280); margin-top: .1rem; }
-
-    /* RINGKASAN */
-    .ringkasan { background: #fff; border-radius: 16px; padding: 1.75rem 2rem; box-shadow: 0 2px 12px rgba(0,0,0,.07); border-top: 4px solid var(--bab); margin-top: 2.5rem; }
-    .ringkasan h3 { font-family: 'Lora', serif; font-size: 1.2rem; margin-bottom: 1rem; color: var(--bab); }
-    .rl { list-style: none; }
-    .rl li { display: flex; gap: .7rem; align-items: flex-start; padding: .5rem 0; border-bottom: 1px solid var(--sand-dk, #ede8dc); font-size: .93rem; }
-    .rl li:last-child { border-bottom: none; }
-    .rn { width: 24px; height: 24px; background: var(--bab); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: .72rem; font-weight: 800; flex-shrink: 0; margin-top: .15rem; }
-
-    /* NAV */
-    .page-nav { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--sand-dk, #ede8dc); flex-wrap: wrap; }
-    .nav-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .75rem 1.4rem; border-radius: 50px; font-weight: 700; font-size: .9rem; text-decoration: none; transition: all .2s; }
-    .nav-btn-outline { border: 2px solid var(--bab); color: var(--bab); background: transparent; }
-    .nav-btn-outline:hover { background: var(--bab-pal); }
-    .nav-btn-primary { background: var(--bab); color: #fff; border: 2px solid var(--bab); }
-    .nav-btn-primary:hover { background: #075985; border-color: #075985; }
-    .nav-label { font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; opacity: .6; display: block; }
-
-    /* FOOTER */
-    .footer { background: var(--ink, #1a1f2e); color: rgba(255,255,255,.55); text-align: center; padding: 1.5rem; font-size: .82rem; }
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
 
     /* JUMP NAV */
-    .jump-nav { position: sticky; top: 56px; z-index: 90; background: #fff; border-bottom: 1px solid var(--bab-lt); padding: 0 1.5rem; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -ms-overflow-style: none; box-shadow: 0 2px 6px rgba(0,0,0,.04); }
-    .jump-nav::-webkit-scrollbar { display: none; }
-    .jump-nav-inner { display: inline-flex; gap: .3rem; padding: .5rem 0; }
-    .jump-pill { display: inline-flex; align-items: center; gap: .3rem; padding: .28rem .8rem; border-radius: 50px; font-size: .76rem; font-weight: 700; text-decoration: none; color: var(--ink-lt, #6b7280); border: 1.5px solid var(--sand-dk, #ede8dc); background: #fff; transition: all .18s; flex-shrink: 0; }
-    .jump-pill:hover { background: var(--bab-pal); color: var(--bab); border-color: var(--bab-lt); }
-    .jump-pill.is:hover { background: #f5f3ff; color: #6d28d9; border-color: #ddd6fe; }
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .jpill.is:hover{background:#f5f3ff;color:#6d28d9;border-color:#ddd6fe;}
+    .jpill.tbl{border-color:#e2e8f0;color:#475569;}
+    .jpill.tbl:hover{background:#f8fafc;color:#334155;}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#0369a1,#075985);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#bae6fd;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    /* CONTENT */
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    /* INTRO */
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(3,105,161,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* OVERVIEW GRID */
+    .ov-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.6rem;margin:1rem 0 1.5rem;}
+    .ov-item{background:#fff;border:2px solid var(--bab-lt);border-radius:10px;padding:.65rem .8rem;text-align:center;}
+    .ov-item.is{border-color:#ddd6fe;}
+    .ov-item .oi{font-size:1.3rem;margin-bottom:.2rem;}
+    .ov-item .on{font-weight:800;font-size:.8rem;line-height:1.2;}
+    .ov-item .ol{font-size:.7rem;color:var(--ink-lt,#6b7280);margin-top:.2rem;}
+    .ov-item.is .on{color:#5b21b6;}
+
+    /* ERA HEADER */
+    .era-header{display:flex;align-items:center;gap:.85rem;padding:1rem 1.25rem;border-radius:12px;margin:2rem 0 1.25rem;}
+    .era-hb{background:linear-gradient(135deg,#0369a1,#075985);}
+    .era-bu{background:linear-gradient(135deg,#0e7490,#0891b2);}
+    .era-is{background:linear-gradient(135deg,#7c3aed,#5b21b6);}
+    .era-header .era-icon{font-size:1.8rem;flex-shrink:0;}
+    .era-header .era-text h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;color:#fff;}
+    .era-header .era-text p{font-size:.83rem;color:rgba(255,255,255,.8);margin-top:.15rem;}
+
+    /* KINGDOM CARD */
+    .kingdom-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin-bottom:1.5rem;}
+    .kh{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;}
+    .kh.hb{background:var(--bab);}
+    .kh.hb2{background:linear-gradient(90deg,#1e40af,#1d4ed8);}
+    .kh.bu{background:linear-gradient(90deg,#0e7490,#0891b2);}
+    .kh.is{background:#7c3aed;}
+    .kh.is2{background:linear-gradient(90deg,#6d28d9,#5b21b6);}
+    .kh.jabar{background:linear-gradient(90deg,#0369a1,#0284c7);}
+    .k-icon{width:42px;height:42px;background:rgba(255,255,255,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;}
+    .kh-text{color:#fff;}
+    .kh-text h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;line-height:1.2;}
+    .kh-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;display:flex;flex-wrap:wrap;gap:.5rem;}
+    .kh-meta span{background:rgba(255,255,255,.15);padding:.1rem .55rem;border-radius:50px;}
+    .kb{padding:1.35rem 1.5rem;}
+    .kb p{font-size:.97rem;margin-bottom:.7rem;}
+    .kb p:last-child{margin-bottom:0;}
+
+    /* JABAR BADGE */
+    .jabar-badge{display:inline-flex;align-items:center;gap:.3rem;background:#dbeafe;color:#1e40af;font-size:.75rem;font-weight:800;padding:.2rem .7rem;border-radius:50px;margin-bottom:.6rem;}
+
+    /* FAKTA SERU */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs.is{background:#f5f3ff;border-color:#ddd6fe;}
+    .fs.bu{background:#ecfeff;border-color:#a5f3fc;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#075985;}
+    .fs.is .ft{color:#5b21b6;}
+    .fs.bu .ft{color:#0e7490;}
+    /* CRITICAL FIX: only first strong (title) is block; inline strongs stay inline */
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+    .fs.is .ft strong:first-child{color:#6d28d9;}
+    .fs.bu .ft strong:first-child{color:#0e7490;}
+    .fs .ft strong{font-weight:800;}
+
+    /* PENINGGALAN BOX */
+    .peninggalan{background:var(--sand,#f7f3eb);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;border-left:4px solid var(--bab);}
+    .peninggalan.is{border-left-color:#7c3aed;}
+    .peninggalan.bu{border-left-color:#0e7490;}
+    .peninggalan-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.55rem;}
+    .peninggalan.is .peninggalan-title{color:#7c3aed;}
+    .peninggalan.bu .peninggalan-title{color:#0e7490;}
+    .peninggalan-list{display:flex;flex-wrap:wrap;gap:.45rem;}
+    .ptag{display:inline-flex;align-items:center;gap:.3rem;background:#fff;border:1.5px solid var(--bab-lt);border-radius:8px;padding:.3rem .7rem;font-size:.82rem;font-weight:700;color:var(--ink,#1a1f2e);}
+    .peninggalan.is .ptag{border-color:#ddd6fe;}
+    .peninggalan.bu .ptag{border-color:#a5f3fc;}
+
+    /* PRASASTI GRID */
+    .pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:.75rem;margin:.85rem 0;}
+    .pi{background:var(--bab-lt);border-radius:10px;padding:.8rem 1rem;}
+    .pi .pn{font-weight:800;font-size:.88rem;color:var(--bab);}
+    .pi .pl{font-size:.75rem;color:#0369a1;opacity:.8;}
+    .pi .pd{font-size:.82rem;margin-top:.35rem;}
+
+    /* QUOTE */
+    .qb{background:linear-gradient(135deg,#0369a1,#075985);color:#fff;border-radius:14px;padding:1.4rem 1.6rem;margin:1.25rem 0;position:relative;overflow:hidden;}
+    .qb::before{content:'"';position:absolute;top:-20px;left:12px;font-family:"Lora",serif;font-size:8rem;opacity:.12;line-height:1;}
+    .qb p{font-family:"Lora",serif;font-size:1rem;font-style:italic;line-height:1.65;position:relative;}
+    .qb .qs{margin-top:.6rem;font-size:.78rem;opacity:.75;font-style:normal;font-family:"Nunito",sans-serif;font-weight:700;}
+
+    /* TIMELINE */
+    .tl{margin:1.5rem 0;}
+    .tli{display:flex;gap:.9rem;margin-bottom:1rem;align-items:flex-start;}
+    .tll{display:flex;flex-direction:column;align-items:center;flex-shrink:0;width:52px;}
+    .tld{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.85rem;font-weight:800;flex-shrink:0;}
+    .tld.hb{background:var(--bab);}
+    .tld.is{background:#7c3aed;}
+    .tl-line{width:2px;flex:1;min-height:22px;margin-top:4px;}
+    .tl-line.hb{background:var(--bab-lt);}
+    .tl-line.is{background:#ddd6fe;}
+    .tli:last-child .tl-line{display:none;}
+    .tlr{padding-top:.35rem;}
+    .tlr .yr{font-size:.74rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;}
+    .tlr .yr.hb{color:var(--bab);}
+    .tlr .yr.is{color:#7c3aed;}
+    .tlr .ev{font-size:.93rem;font-weight:700;margin-top:.1rem;}
+    .tlr .dt{font-size:.82rem;color:var(--ink-lt,#6b7280);margin-top:.1rem;}
 
     /* ERA TABLE */
-    .era-table-wrap { overflow-x: auto; margin: 1.25rem 0 1.5rem; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
-    .era-table { width: 100%; border-collapse: collapse; font-size: .87rem; background: #fff; min-width: 520px; }
-    .era-table th { padding: .65rem 1rem; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; text-align: left; }
-    .era-table td { padding: .6rem 1rem; border-top: 1px solid var(--sand-dk, #ede8dc); vertical-align: middle; line-height: 1.45; }
-    .era-table th.th-hb { background: var(--bab); color: #fff; }
-    .era-table th.th-bu { background: #0e7490; color: #fff; }
-    .era-table th.th-is { background: #7c3aed; color: #fff; }
-    .era-table .tr-hb td { background: #f0f9ff; }
-    .era-table .tr-hb td:first-child { font-weight: 800; color: var(--bab); }
-    .era-table .tr-bu td { background: #ecfeff; }
-    .era-table .tr-bu td:first-child { font-weight: 800; color: #0e7490; }
-    .era-table .tr-is td { background: #f5f3ff; }
-    .era-table .tr-is td:first-child { font-weight: 800; color: #6d28d9; }
-    .badge { display: inline-block; padding: .1rem .55rem; border-radius: 50px; font-size: .7rem; font-weight: 800; }
-    .badge.hb { background: #dbeafe; color: #1e40af; }
-    .badge.bu { background: #cffafe; color: #0e7490; }
-    .badge.is { background: #ede9fe; color: #5b21b6; }
-    .badge.jabar { background: #fef9c3; color: #854d0e; }
+    .tbl-section{margin:1.5rem 0;}
+    .tbl-head{display:flex;align-items:center;gap:.75rem;padding:.75rem 1.1rem;border-radius:12px 12px 0 0;margin-bottom:0;}
+    .tbl-head.hb{background:var(--bab);}
+    .tbl-head.bu{background:#0e7490;}
+    .tbl-head.is{background:#7c3aed;}
+    .tbl-head h3{font-family:"Lora",serif;font-size:1rem;font-weight:700;color:#fff;}
+    .tbl-head p{font-size:.78rem;color:rgba(255,255,255,.8);margin-top:.1rem;}
+    .era-table-wrap{overflow-x:auto;border-radius:0 0 12px 12px;box-shadow:0 4px 16px rgba(0,0,0,.07);margin-bottom:1.75rem;}
+    .era-table{width:100%;border-collapse:collapse;font-size:.86rem;background:#fff;min-width:540px;}
+    .era-table th{padding:.6rem 1rem;font-size:.69rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;text-align:left;color:#fff;}
+    .era-table th.hb{background:color-mix(in srgb,var(--bab) 80%,#000);}
+    .era-table th.bu{background:color-mix(in srgb,#0e7490 80%,#000);}
+    .era-table th.is{background:color-mix(in srgb,#7c3aed 80%,#000);}
+    .era-table td{padding:.6rem 1rem;border-top:1px solid var(--sand-dk,#ede8dc);vertical-align:top;line-height:1.5;font-size:.85rem;}
+    .era-table .tr-hb td{background:#f0f9ff;}
+    .era-table .tr-hb td:first-child{font-weight:800;color:var(--bab);}
+    .era-table .tr-bu td{background:#ecfeff;}
+    .era-table .tr-bu td:first-child{font-weight:800;color:#0e7490;}
+    .era-table .tr-is td{background:#f5f3ff;}
+    .era-table .tr-is td:first-child{font-weight:800;color:#6d28d9;}
+    .era-table .no{text-align:center;width:36px;font-weight:800;}
+    .badge{display:inline-block;padding:.1rem .5rem;border-radius:50px;font-size:.7rem;font-weight:800;}
+    .badge.jabar{background:#fef9c3;color:#854d0e;}
 
-    @media (max-width: 560px) {
-      .hero { padding: 2.5rem 1rem 4.5rem; }
-      .content { padding: 2rem 1rem 3rem; }
-      .pg, .ov-grid { grid-template-columns: 1fr 1fr; }
-      .page-nav { flex-direction: column; }
-      .nav-btn { width: 100%; justify-content: center; }
+    /* RINGKASAN */
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rn{width:24px;height:24px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:800;flex-shrink:0;margin-top:.15rem;}
+
+    /* NAV */
+    .page-nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.4rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-primary{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-primary:hover{background:#075985;border-color:#075985;}
+    .nav-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;opacity:.6;display:block;}
+
+    /* FOOTER */
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .pg,.ov-grid{grid-template-columns:1fr 1fr;}
+      .page-nav{flex-direction:column;}
+      .nav-btn{width:100%;justify-content:center;}
     }
   </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
 </head>
 <body>
 
   <nav class="navbar">
     <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
     <div class="breadcrumb">
-      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">›</span>
-      <a href="../index.html">IPAS</a><span class="sep">›</span>
-      <a href="index.html">Bab 1</a><span class="sep">›</span>
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">&#xBB;</span>
+      <a href="../index.html">IPAS</a><span class="sep">&#xBB;</span>
+      <a href="materi.html">Bab 1</a><span class="sep">&#xBB;</span>
       <span>Sejarah Kerajaan</span>
     </div>
   </nav>
 
-  <!-- JUMP NAV -->
-  <div class="jump-nav" id="jump-nav">
-    <div class="jump-nav-inner">
-      <a class="jump-pill" href="#kutai">🌿 Kutai</a>
-      <a class="jump-pill" href="#tarumanagara">🪨 Tarumanagara</a>
-      <a class="jump-pill" href="#sriwijaya">⚓ Sriwijaya</a>
-      <a class="jump-pill" href="#mataram">🛕 Mataram Kuno</a>
-      <a class="jump-pill" href="#singasari">⚔️ Singasari</a>
-      <a class="jump-pill" href="#majapahit">👑 Majapahit</a>
-      <a class="jump-pill" href="#pajajaran">🦁 Pajajaran</a>
-      <a class="jump-pill is" href="#demak">🕌 Demak</a>
-      <a class="jump-pill is" href="#cirebon">🕌 Cirebon &amp; Banten</a>
-      <a class="jump-pill" href="#tabel-era" style="border-color:#e2e8f0; color:#475569;">📊 Tabel Era</a>
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a class="jpill" href="#kutai">&#x1F331; Kutai</a>
+      <a class="jpill" href="#tarumanagara">&#x1FAA8; Tarumanagara</a>
+      <a class="jpill" href="#sriwijaya">&#x2693; Sriwijaya</a>
+      <a class="jpill" href="#mataram">&#x1F6D5; Mataram Kuno</a>
+      <a class="jpill" href="#singasari">&#x2694;&#xFE0F; Singasari</a>
+      <a class="jpill" href="#majapahit">&#x1F451; Majapahit</a>
+      <a class="jpill" href="#pajajaran">&#x1F981; Pajajaran</a>
+      <a class="jpill is" href="#demak">&#x1F54C; Demak</a>
+      <a class="jpill is" href="#cirebon">&#x1F54C; Cirebon &amp; Banten</a>
+      <a class="jpill tbl" href="#tabel-era">&#x1F4CA; Tabel Era</a>
     </div>
   </div>
+
+  <header class="hero">
     <div class="hero-inner">
-      <span class="hero-label">📖 Bab 1 — Sub-materi A</span>
+      <span class="hero-label">&#x1F4D6; Bab 1 &#x2014; Sub-materi A</span>
       <h1>Sejarah <em>Kerajaan-Kerajaan</em><br>di Indonesia</h1>
-      <p class="hero-desc">Jauh sebelum ada Indonesia, Nusantara sudah dipenuhi kerajaan-kerajaan besar yang mengagumkan — dari Kalimantan hingga Jawa, dari Sumatera hingga Maluku. Yuk kita telusuri bersama!</p>
+      <p class="hero-desc">Jauh sebelum ada Indonesia, Nusantara sudah dipenuhi kerajaan-kerajaan besar yang mengagumkan &#x2014; dari Kalimantan hingga Jawa, dari Sumatera hingga Maluku. Yuk kita telusuri bersama!</p>
     </div>
     <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none">
       <path fill="#f7f3eb" d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z"/>
@@ -220,141 +243,135 @@
   <main class="content">
 
     <div class="intro-box">
-      <p>🗺️ <strong>Indonesia bukan terbentuk dalam semalam.</strong> Wilayah kepulauan kita dulu dikenal dengan nama <strong>Nusantara</strong> — dan selama ribuan tahun, Nusantara dipenuhi kerajaan-kerajaan yang luar biasa. Ada yang berjaya di lautan, ada yang membangun candi megah, ada yang menyatukan hampir seluruh kepulauan, dan ada yang membawa Islam ke mana-mana.</p>
-      <p>Semuanya meninggalkan warisan yang masih kita rasakan hari ini. Dan kita di Jawa Barat punya hubungan langsung dengan beberapa di antara mereka! ⭐</p>
+      <p>&#x1F5FA;&#xFE0F; <strong>Indonesia bukan terbentuk dalam semalam.</strong> Wilayah kepulauan kita dulu dikenal dengan nama <strong>Nusantara</strong> &#x2014; dan selama ribuan tahun, Nusantara dipenuhi kerajaan-kerajaan yang luar biasa. Ada yang berjaya di lautan, ada yang membangun candi megah, ada yang menyatukan hampir seluruh kepulauan, dan ada yang membawa Islam ke mana-mana.</p>
+      <p>Semuanya meninggalkan warisan yang masih kita rasakan hari ini. Kita di Jawa Barat punya hubungan langsung dengan beberapa di antara mereka! &#x2B50;</p>
     </div>
 
-    <!-- OVERVIEW GRID -->
     <div class="section-label">Gambaran Umum</div>
-    <h2 class="section-title">🏔️ Kerajaan-Kerajaan Besar Nusantara</h2>
-    <p style="font-size:.96rem; margin-bottom:.9rem;">Kerajaan Nusantara terbagi dua era besar: zaman <strong>Hindu-Buddha</strong> dan zaman <strong>kesultanan Islam</strong>.</p>
-
+    <h2 class="section-title">&#x1F3D4;&#xFE0F; Kerajaan-Kerajaan Besar Nusantara</h2>
+    <p style="font-size:.96rem;margin-bottom:.9rem;">Kerajaan Nusantara terbagi dua era besar: zaman <strong>Hindu-Buddha</strong> dan zaman <strong>kesultanan Islam</strong>.</p>
     <div class="ov-grid">
-      <div class="ov-item"><div class="oi">🌿</div><div class="on">Kutai</div><div class="ol">📍 Kalimantan Timur</div></div>
-      <div class="ov-item"><div class="oi">🪨</div><div class="on">Tarumanagara</div><div class="ol">📍 Jawa Barat ⭐</div></div>
-      <div class="ov-item"><div class="oi">⚓</div><div class="on">Sriwijaya</div><div class="ol">📍 Sumatera</div></div>
-      <div class="ov-item"><div class="oi">🛕</div><div class="on">Mataram Kuno</div><div class="ol">📍 Jawa Tengah</div></div>
-      <div class="ov-item"><div class="oi">⚔️</div><div class="on">Singasari</div><div class="ol">📍 Jawa Timur</div></div>
-      <div class="ov-item"><div class="oi">👑</div><div class="on">Majapahit</div><div class="ol">📍 Jawa Timur</div></div>
-      <div class="ov-item"><div class="oi">🦁</div><div class="on">Pajajaran</div><div class="ol">📍 Jawa Barat ⭐</div></div>
-      <div class="ov-item is"><div class="oi">🕌</div><div class="on">Ksltn. Demak</div><div class="ol">📍 Jawa Tengah</div></div>
-      <div class="ov-item is"><div class="oi">🕌</div><div class="on">Ksltn. Cirebon</div><div class="ol">📍 Jawa Barat ⭐</div></div>
-      <div class="ov-item is"><div class="oi">🕌</div><div class="on">Ksltn. Banten</div><div class="ol">📍 Banten ⭐</div></div>
+      <div class="ov-item"><div class="oi">&#x1F331;</div><div class="on">Kutai</div><div class="ol">&#x1F4CD; Kalimantan Timur</div></div>
+      <div class="ov-item"><div class="oi">&#x1FAA8;</div><div class="on">Tarumanagara</div><div class="ol">&#x1F4CD; Jawa Barat &#x2B50;</div></div>
+      <div class="ov-item"><div class="oi">&#x2693;</div><div class="on">Sriwijaya</div><div class="ol">&#x1F4CD; Sumatera</div></div>
+      <div class="ov-item"><div class="oi">&#x1F6D5;</div><div class="on">Mataram Kuno</div><div class="ol">&#x1F4CD; Jawa Tengah</div></div>
+      <div class="ov-item"><div class="oi">&#x2694;&#xFE0F;</div><div class="on">Singasari</div><div class="ol">&#x1F4CD; Jawa Timur</div></div>
+      <div class="ov-item"><div class="oi">&#x1F451;</div><div class="on">Majapahit</div><div class="ol">&#x1F4CD; Jawa Timur</div></div>
+      <div class="ov-item"><div class="oi">&#x1F981;</div><div class="on">Pajajaran</div><div class="ol">&#x1F4CD; Jawa Barat &#x2B50;</div></div>
+      <div class="ov-item is"><div class="oi">&#x1F54C;</div><div class="on">Ksltn. Demak</div><div class="ol">&#x1F4CD; Jawa Tengah</div></div>
+      <div class="ov-item is"><div class="oi">&#x1F54C;</div><div class="on">Ksltn. Cirebon</div><div class="ol">&#x1F4CD; Jawa Barat &#x2B50;</div></div>
+      <div class="ov-item is"><div class="oi">&#x1F54C;</div><div class="on">Ksltn. Banten</div><div class="ol">&#x1F4CD; Banten &#x2B50;</div></div>
     </div>
-    <p style="font-size:.78rem; color:var(--ink-lt); margin-bottom:1.5rem;">⭐ = Berkaitan langsung dengan wilayah Jawa Barat</p>
+    <p style="font-size:.78rem;color:var(--ink-lt);margin-bottom:1.5rem;">&#x2B50; = Berkaitan langsung dengan wilayah Jawa Barat</p>
 
     <hr class="divider"/>
 
-    <!-- ERA HINDU-BUDDHA -->
+    <!-- ============================= ERA HINDU-BUDDHA ============================= -->
     <div class="era-header era-hb">
-      <div class="era-icon">🛕</div>
+      <div class="era-icon">&#x1F6D5;</div>
       <div class="era-text">
         <h3>Era Kerajaan Hindu-Buddha</h3>
-        <p>Abad ke-4 hingga abad ke-15 Masehi · Pengaruh Hindu dan Buddha dari India berkembang pesat di Nusantara</p>
+        <p>Abad ke-4 hingga abad ke-15 Masehi &#xB7; Pengaruh Hindu dan Buddha dari India berkembang pesat di Nusantara</p>
       </div>
     </div>
 
     <!-- 1. KUTAI -->
-    <div id="kutai" class="section-label" style="scroll-margin-top: 112px;">Kerajaan Tertua di Indonesia</div>
-    <h2 class="section-title">1. 🌿 Kerajaan Kutai — Yang Pertama di Indonesia!</h2>
-
+    <div id="kutai" class="section-label" style="scroll-margin-top:112px;">Kerajaan Tertua di Indonesia</div>
+    <h2 class="section-title">1. &#x1F331; Kerajaan Kutai &#x2014; Yang Pertama!</h2>
     <div class="kingdom-card">
       <div class="kh hb">
-        <div class="k-icon">🌿</div>
+        <div class="k-icon">&#x1F331;</div>
         <div class="kh-text">
           <h3>Kerajaan Kutai Martapura</h3>
-          <div class="kh-meta"><span>± 400 Masehi</span><span>📍 Muara Kaman, Kalimantan Timur</span><span>🛕 Hindu</span></div>
+          <div class="kh-meta"><span>&#xB1; 400 Masehi</span><span>&#x1F4CD; Muara Kaman, Kalimantan Timur</span><span>&#x1F6D5; Hindu</span></div>
         </div>
       </div>
       <div class="kb">
-        <p>Di tepi Sungai Mahakam, Kalimantan Timur, sekitar tahun 400 Masehi, berdiri kerajaan <strong>paling tua di seluruh Indonesia</strong>. Namanya <strong>Kerajaan Kutai</strong> — dan dialah kerajaan Hindu tertua yang pernah ada di Nusantara!</p>
-        <p>Kerajaan ini bermula dari seorang kepala suku bernama <strong>Kudungga</strong>. Nama "Kudungga" ini diyakini para ahli sebagai nama asli Indonesia yang belum terpengaruh bahasa India. Anaknya bernama <strong>Aswawarman</strong>, yang kemudian membangun sistem kerajaan yang lebih formal dan teratur.</p>
-
+        <p>Di tepi Sungai Mahakam, Kalimantan Timur, berdiri kerajaan <strong>paling tua di seluruh Indonesia</strong>. Didirikan oleh kepala suku bernama <strong>Kudungga</strong>, kemudian dilanjutkan anaknya <strong>Aswawarman</strong> yang membangun sistem kerajaan yang lebih formal.</p>
         <div class="fs">
-          <div class="fi">👑</div>
-          <div class="ft">
-            <strong>Raja Mulawarman — Si Dermawan Luar Biasa!</strong>
-            Cucu Kudungga bernama <strong>Mulawarman</strong> adalah raja paling terkenal. Di masanya kerajaan mencapai puncak kejayaan. Ia dikenal sangat dermawan: pernah menyedekahkan <strong>20.000 ekor sapi</strong> kepada para pendeta Brahmana! Bayangkan betapa banyaknya itu.
+          <div class="fi">&#x1F451;</div>
+          <div class="ft"><strong>Raja Mulawarman &#x2014; Si Dermawan!</strong>
+            Cucu Kudungga, <strong>Mulawarman</strong>, adalah raja paling terkenal. Ia dikenal sangat dermawan &#x2014; pernah menyedekahkan <strong>20.000 ekor sapi</strong> kepada para pendeta Brahmana. Prasasti Yupa dibuat oleh para Brahmana untuk mengenang kebaikannya.</div>
+        </div>
+        <div class="peninggalan">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1FAA8; Prasasti Yupa (7 tiang batu)</span>
+            <span class="ptag">&#x1F422; Kura-kura emas</span>
+            <span class="ptag">&#x1F5FF; Arca-arca batu</span>
           </div>
         </div>
-
-        <p>Bukti keberadaan Kutai adalah <strong>7 prasasti Yupa</strong> — tiang batu berukiran huruf Pallawa dalam bahasa Sanskerta. Inilah tulisan tertua yang pernah ditemukan di Indonesia! Prasasti-prasasti ini kini tersimpan di Museum Nasional Jakarta.</p>
-
-        <div class="fs">
-          <div class="fi">💡</div>
-          <div class="ft">
-            <strong>Kenapa penting banget?</strong>
-            Kutai adalah bukti bahwa Indonesia sudah punya peradaban tinggi sejak 1.600 tahun yang lalu — jauh sebelum negara Indonesia resmi berdiri pada 1945. Penemuan prasasti Yupa-nya menjadi titik awal penulisan sejarah Indonesia!
-          </div>
-        </div>
+        <p>Prasasti Yupa adalah tiang-tiang batu berukiran huruf Pallawa dalam bahasa Sanskerta &#x2014; <strong>tulisan tertua yang pernah ditemukan di Indonesia</strong>. Kini tersimpan di Museum Nasional Jakarta.</p>
       </div>
     </div>
 
     <!-- 2. TARUMANAGARA -->
     <div id="tarumanagara" class="section-label" style="scroll-margin-top:112px;">Kerajaan Pertama di Jawa Barat</div>
-    <h2 class="section-title">2. 🪨 Kerajaan Tarumanagara — Rumah Kita!</h2>
-
+    <h2 class="section-title">2. &#x1FAA8; Kerajaan Tarumanagara &#x2014; Rumah Kita!</h2>
     <div class="kingdom-card">
       <div class="kh jabar">
-        <div class="k-icon">🪨</div>
+        <div class="k-icon">&#x1FAA8;</div>
         <div class="kh-text">
           <h3>Kerajaan Tarumanagara</h3>
-          <div class="kh-meta"><span>358 – 669 Masehi</span><span>📍 Bogor, Bekasi, Banten</span><span>🛕 Hindu</span></div>
+          <div class="kh-meta"><span>358 &#x2013; 669 Masehi</span><span>&#x1F4CD; Bogor, Bekasi, Banten</span><span>&#x1F6D5; Hindu</span></div>
         </div>
       </div>
       <div class="kb">
-        <div class="jabar-badge">⭐ Kerajaan di tanah Jawa Barat kita!</div>
-        <p>Hampir bersamaan dengan Kutai, di wilayah yang kini kita sebut Jawa Barat, berdiri pula kerajaan Hindu yang besar: <strong>Tarumanagara</strong>. Didirikan oleh <strong>Jayasingawarman</strong> sekitar 358 Masehi, kerajaan ini menguasai wilayah dari Bogor, Bekasi, hingga Banten.</p>
-        <p>Raja terbesar Tarumanagara adalah <strong>Purnawarman</strong> (±395–434 M). Ia membangun <strong>kanal sungai</strong> untuk mencegah banjir dan mengairi sawah — sebuah karya teknik yang canggih untuk zamannya, dikerjakan bergotong royong selama 21 hari!</p>
-
+        <div class="jabar-badge">&#x2B50; Kerajaan di tanah Jawa Barat kita!</div>
+        <p>Didirikan oleh <strong>Jayasingawarman</strong> sekitar 358 Masehi di wilayah yang kini kita sebut Jawa Barat. Raja terbesarnya adalah <strong>Purnawarman</strong> yang membangun kanal sungai untuk mencegah banjir dan mengairi sawah &#x2014; karya teknik luar biasa untuk zamannya!</p>
         <div class="fs">
-          <div class="fi">🪨</div>
-          <div class="ft">
-            <strong>7 Prasasti yang Tersebar di Jawa Barat!</strong>
-            Raja Purnawarman meninggalkan 7 prasasti yang semuanya berada di wilayah Jawa Barat. Yang paling terkenal adalah <strong>Prasasti Ciaruteun</strong> di Bogor — berisi ukiran tapak kaki raja yang disamakan dengan tapak kaki Dewa Wisnu.
+          <div class="fi">&#x1FAA8;</div>
+          <div class="ft"><strong>7 Prasasti di Jawa Barat!</strong>
+            Purnawarman meninggalkan 7 prasasti yang semuanya ada di wilayah Jawa Barat. Yang paling terkenal adalah <strong>Prasasti Ciaruteun</strong> di Bogor &#x2014; berisi ukiran tapak kaki raja yang disamakan dengan Dewa Wisnu.</div>
+        </div>
+        <div class="pg">
+          <div class="pi"><div class="pn">&#x1F4DC; Prasasti Ciaruteun</div><div class="pl">&#x1F4CD; Bogor</div><div class="pd">Tapak kaki Purnawarman = tapak kaki Dewa Wisnu.</div></div>
+          <div class="pi"><div class="pn">&#x1F4DC; Prasasti Kebon Kopi</div><div class="pl">&#x1F4CD; Bogor</div><div class="pd">Tapak kaki gajah tunggangan raja (Airawata).</div></div>
+          <div class="pi"><div class="pn">&#x1F4DC; Prasasti Tugu</div><div class="pl">&#x1F4CD; Jakarta Utara</div><div class="pd">Pembangunan kanal Sungai Gomati &amp; Candrabaga.</div></div>
+          <div class="pi"><div class="pn">&#x1F4DC; Prasasti Jambu</div><div class="pl">&#x1F4CD; Bogor</div><div class="pd">Pujian untuk kejayaan Raja Purnawarman.</div></div>
+        </div>
+        <div class="peninggalan">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F4DC; 7 Prasasti Batu</span>
+            <span class="ptag">&#x1F6D5; Percandian Batujaya (Karawang)</span>
+            <span class="ptag">&#x1F6D5; Candi Cangkuang (Garut)</span>
           </div>
         </div>
-
-        <div class="pg">
-          <div class="pi"><div class="pn">📜 Prasasti Ciaruteun</div><div class="pl">📍 Bogor</div><div class="pd">Tapak kaki Purnawarman = tapak kaki Dewa Wisnu.</div></div>
-          <div class="pi"><div class="pn">📜 Prasasti Kebon Kopi</div><div class="pl">📍 Bogor</div><div class="pd">Tapak kaki gajah tunggangan raja (Airawata).</div></div>
-          <div class="pi"><div class="pn">📜 Prasasti Tugu</div><div class="pl">📍 Jakarta Utara</div><div class="pd">Pembangunan kanal Sungai Gomati & Candrabaga.</div></div>
-          <div class="pi"><div class="pn">📜 Prasasti Jambu</div><div class="pl">📍 Bogor</div><div class="pd">Pujian untuk kejayaan Raja Purnawarman.</div></div>
-        </div>
-
-        <p>Tarumanagara akhirnya terpecah pada 669 M menjadi dua: <strong>Kerajaan Sunda</strong> (barat Sungai Citarum) dan <strong>Kerajaan Galuh</strong> (timur Sungai Citarum). Keduanya adalah nenek moyang Kerajaan Pajajaran yang kelak sangat terkenal.</p>
+        <p>Tarumanagara akhirnya terpecah pada 669 M menjadi <strong>Kerajaan Sunda</strong> (barat Citarum) dan <strong>Kerajaan Galuh</strong> (timur Citarum) &#x2014; nenek moyang Pajajaran.</p>
       </div>
     </div>
 
     <!-- 3. SRIWIJAYA -->
     <div id="sriwijaya" class="section-label" style="scroll-margin-top:112px;">Raja Lautan Nusantara</div>
-    <h2 class="section-title">3. ⚓ Kerajaan Sriwijaya — Penguasa Lautan!</h2>
-
+    <h2 class="section-title">3. &#x2693; Kerajaan Sriwijaya &#x2014; Penguasa Lautan!</h2>
     <div class="kingdom-card">
-      <div class="kh hb">
-        <div class="k-icon">⚓</div>
+      <div class="kh bu">
+        <div class="k-icon">&#x2693;</div>
         <div class="kh-text">
           <h3>Kerajaan Sriwijaya</h3>
-          <div class="kh-meta"><span>Abad 7 – 13 Masehi</span><span>📍 Palembang, Sumatera Selatan</span><span>☸️ Buddha</span></div>
+          <div class="kh-meta"><span>Abad 7 &#x2013; 13 Masehi</span><span>&#x1F4CD; Palembang, Sumatera Selatan</span><span>&#x2638;&#xFE0F; Buddha</span></div>
         </div>
       </div>
       <div class="kb">
-        <p>Di Sumatera berkembang kerajaan yang sangat berbeda dari Kutai atau Tarumanagara: <strong>Sriwijaya</strong>. Bedanya, Sriwijaya adalah <strong>kerajaan maritim</strong> — kekuatannya ada di lautan, bukan di daratan!</p>
-        <p>Berpusat di Palembang, Sriwijaya menguasai <strong>Selat Malaka</strong> — jalur perdagangan terpenting antara India dan Tiongkok. Siapa pun yang ingin berdagang melewati sana harus melalui wilayah Sriwijaya. Itulah sumber kekayaan dan kekuatannya yang luar biasa.</p>
-
-        <div class="fs">
-          <div class="fi">🌊</div>
-          <div class="ft">
-            <strong>Kerajaan Maritim Terbesar Asia Tenggara!</strong>
-            Pada puncak kejayaannya (abad 7–9), Sriwijaya menguasai wilayah sangat luas: Sumatera, Kalimantan Barat, Semenanjung Malaya (Malaysia sekarang), hingga sebagian Thailand. Armada kapalnya ditakuti di seluruh perairan Asia Tenggara!
-          </div>
+        <p>Sriwijaya adalah <strong>kerajaan maritim</strong> &#x2014; kekuatannya ada di lautan! Berpusat di Palembang, ia menguasai <strong>Selat Malaka</strong> &#x2014; jalur perdagangan terpenting antara India dan Tiongkok.</p>
+        <div class="fs bu">
+          <div class="fi">&#x1F30A;</div>
+          <div class="ft"><strong>Kerajaan Maritim Terbesar Asia Tenggara!</strong>
+            Pada puncak kejayaannya, Sriwijaya menguasai Sumatera, Kalimantan Barat, Semenanjung Malaya, hingga sebagian Thailand. Armada kapalnya ditakuti di seluruh perairan Asia Tenggara!</div>
         </div>
-
-        <div class="fs">
-          <div class="fi">📚</div>
-          <div class="ft">
-            <strong>Warisan Terbesar: Bahasa Melayu = Cikal Bakal Bahasa Indonesia!</strong>
-            Sriwijaya menyebarkan penggunaan Bahasa Melayu Kuno ke seluruh pesisir Nusantara. Bahasa ini yang kemudian berkembang menjadi Bahasa Melayu, dan akhirnya menjadi <strong>Bahasa Indonesia</strong> yang kita pakai sehari-hari. Tanpa Sriwijaya, mungkin bahasa kita hari ini akan berbeda!
+        <div class="fs bu">
+          <div class="fi">&#x1F4DA;</div>
+          <div class="ft"><strong>Warisan Terbesar: Cikal Bakal Bahasa Indonesia!</strong>
+            Sriwijaya menyebarkan Bahasa Melayu Kuno ke seluruh pesisir Nusantara. Bahasa inilah yang akhirnya berkembang menjadi <strong>Bahasa Indonesia</strong> yang kita pakai sehari-hari!</div>
+        </div>
+        <div class="peninggalan bu">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F4DC; Prasasti Kedukan Bukit</span>
+            <span class="ptag">&#x1F4DC; Prasasti Telaga Batu</span>
+            <span class="ptag">&#x1F6D5; Candi Muara Takus (Riau)</span>
+            <span class="ptag">&#x1F5FF; Arca Buddha emas</span>
           </div>
         </div>
       </div>
@@ -362,174 +379,157 @@
 
     <!-- 4. MATARAM KUNO -->
     <div id="mataram" class="section-label" style="scroll-margin-top:112px;">Pembangun Candi Terbesar</div>
-    <h2 class="section-title">4. 🛕 Mataram Kuno — Pembuat Borobudur & Prambanan!</h2>
-
+    <h2 class="section-title">4. &#x1F6D5; Mataram Kuno &#x2014; Pembuat Borobudur &amp; Prambanan!</h2>
     <div class="kingdom-card">
       <div class="kh hb">
-        <div class="k-icon">🛕</div>
+        <div class="k-icon">&#x1F6D5;</div>
         <div class="kh-text">
           <h3>Kerajaan Mataram Kuno</h3>
-          <div class="kh-meta"><span>Abad 8 – 10 Masehi</span><span>📍 Jawa Tengah</span><span>🛕 Hindu & ☸️ Buddha</span></div>
+          <div class="kh-meta"><span>Abad 8 &#x2013; 10 Masehi</span><span>&#x1F4CD; Jawa Tengah</span><span>&#x1F6D5; Hindu &amp; &#x2638;&#xFE0F; Buddha</span></div>
         </div>
       </div>
       <div class="kb">
-        <p>Di Jawa Tengah, berdiri kerajaan yang meninggalkan warisan paling megah di Indonesia: <strong>Mataram Kuno</strong>. Kerajaan ini unik karena terdiri dari dua wangsa (dinasti) yang berbeda agama — <strong>Dinasti Sanjaya</strong> (Hindu) dan <strong>Dinasti Syailendra</strong> (Buddha) — dan keduanya hidup berdampingan dengan damai!</p>
-
+        <p>Mataram Kuno unik karena punya dua wangsa (dinasti) berbeda agama yang hidup berdampingan: <strong>Dinasti Sanjaya</strong> (Hindu) dan <strong>Dinasti Syailendra</strong> (Buddha).</p>
         <div class="fs">
-          <div class="fi">🏛️</div>
-          <div class="ft">
-            <strong>Borobudur & Prambanan — Warisan Dunia dari Zaman Mataram!</strong>
-            Kamu pasti kenal Candi Borobudur dan Candi Prambanan, kan? Kedua candi megah yang kini menjadi <strong>Warisan Budaya Dunia UNESCO</strong> itu dibangun pada masa Mataram Kuno! Borobudur adalah candi Buddha terbesar di dunia. Prambanan adalah kompleks candi Hindu terbesar di Indonesia.
-          </div>
+          <div class="fi">&#x1F3DB;&#xFE0F;</div>
+          <div class="ft"><strong>Borobudur &amp; Prambanan &#x2014; Warisan Dunia UNESCO!</strong>
+            <strong>Candi Borobudur</strong> dibangun Dinasti Syailendra &#x2014; candi Buddha terbesar di dunia, 2 juta blok batu, 2.672 relief, tanpa semen! <strong>Candi Prambanan</strong> dibangun Dinasti Sanjaya &#x2014; kompleks candi Hindu terbesar di Indonesia.</div>
         </div>
-
-        <div class="qb">
-          <p>Candi Borobudur dibangun pada abad ke-9 menggunakan sekitar 2 juta blok batu — tanpa semen! Setiap batu disusun seperti puzzle raksasa. Bangunan setinggi 35 meter ini didekorasi 2.672 panel relief dan 504 arca Buddha. Sungguh keajaiban yang dibuat nenek moyang kita!</p>
-          <div class="qs">— Keajaiban arsitektur Mataram Kuno, abad ke-9</div>
+        <div class="peninggalan">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F6D5; Candi Borobudur</span>
+            <span class="ptag">&#x1F6D5; Candi Prambanan</span>
+            <span class="ptag">&#x1F6D5; Candi Mendut &amp; Pawon</span>
+            <span class="ptag">&#x1F6D5; Candi Sewu</span>
+            <span class="ptag">&#x1F4DC; Prasasti Canggal</span>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- 5. SINGASARI -->
     <div id="singasari" class="section-label" style="scroll-margin-top:112px;">Kerajaan yang Berani</div>
-    <h2 class="section-title">5. ⚔️ Kerajaan Singasari — Menantang Mongol!</h2>
-
+    <h2 class="section-title">5. &#x2694;&#xFE0F; Kerajaan Singasari &#x2014; Menantang Mongol!</h2>
     <div class="kingdom-card">
       <div class="kh hb">
-        <div class="k-icon">⚔️</div>
+        <div class="k-icon">&#x2694;&#xFE0F;</div>
         <div class="kh-text">
           <h3>Kerajaan Singasari</h3>
-          <div class="kh-meta"><span>1222 – 1292 Masehi</span><span>📍 Malang, Jawa Timur</span><span>🛕 Hindu-Buddha</span></div>
+          <div class="kh-meta"><span>1222 &#x2013; 1292 Masehi</span><span>&#x1F4CD; Malang, Jawa Timur</span><span>&#x1F6D5; Hindu-Buddha</span></div>
         </div>
       </div>
       <div class="kb">
-        <p>Di Jawa Timur, muncul kerajaan baru melalui kisah yang dramatis. Pendirinya bernama <strong>Ken Arok</strong> — rakyat biasa yang berhasil merebut kekuasaan dan mendirikan <strong>Kerajaan Singasari</strong> pada 1222 M di sekitar Malang sekarang.</p>
-        <p>Raja terbesar Singasari adalah <strong>Kertanegara</strong>, yang bercita-cita menyatukan seluruh Nusantara. Ia mengirim pasukan ke Bali, Kalimantan, bahkan Sumatera.</p>
-
+        <p>Didirikan <strong>Ken Arok</strong> pada 1222 M di sekitar Malang. Raja terbesarnya <strong>Kertanegara</strong> bercita-cita menyatukan Nusantara.</p>
         <div class="fs">
-          <div class="fi">😤</div>
-          <div class="ft">
-            <strong>Berani Menolak Kubilai Khan!</strong>
-            <strong>Kubilai Khan</strong> — penguasa Kekaisaran Mongol yang paling ditakuti di dunia — mengirim utusan ke Singasari untuk meminta upeti (semacam pajak tanda takluk). Raja Kertanegara menolak dengan tegas! Ia bahkan mempermalukan utusan Mongol itu. Kubilai Khan marah besar dan menyiapkan pasukan besar untuk menyerang. Namun sebelum mereka tiba, Kertanegara terbunuh dalam pemberontakan pada 1292 M dan Singasari pun runtuh.
+          <div class="fi">&#x1F624;</div>
+          <div class="ft"><strong>Berani Menolak Kubilai Khan!</strong>
+            Kertanegara menolak membayar upeti kepada penguasa Mongol terkuat di dunia, <strong>Kubilai Khan</strong>! Sebelum pasukan Mongol tiba, Kertanegara terbunuh dalam pemberontakan (1292 M). Namun peristiwa ini justru melahirkan Majapahit!</div>
+        </div>
+        <div class="peninggalan">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F6D5; Candi Singasari (Malang)</span>
+            <span class="ptag">&#x1F6D5; Candi Jago</span>
+            <span class="ptag">&#x1F6D5; Candi Kidal</span>
+            <span class="ptag">&#x1F5FF; Arca Prajnaparamita</span>
           </div>
         </div>
-
-        <p>Meskipun berumur pendek (~70 tahun), Singasari penting karena menjadi cikal bakal kerajaan terbesar di Nusantara: <strong>Majapahit</strong>.</p>
       </div>
     </div>
 
     <!-- 6. MAJAPAHIT -->
     <div id="majapahit" class="section-label" style="scroll-margin-top:112px;">Kerajaan Terbesar Nusantara</div>
-    <h2 class="section-title">6. 👑 Kerajaan Majapahit — Puncak Kejayaan Nusantara!</h2>
-
+    <h2 class="section-title">6. &#x1F451; Kerajaan Majapahit &#x2014; Puncak Kejayaan Nusantara!</h2>
     <div class="kingdom-card">
       <div class="kh hb2">
-        <div class="k-icon">👑</div>
+        <div class="k-icon">&#x1F451;</div>
         <div class="kh-text">
           <h3>Kerajaan Majapahit</h3>
-          <div class="kh-meta"><span>1293 – 1527 Masehi</span><span>📍 Mojokerto, Jawa Timur</span><span>🛕 Hindu-Buddha</span></div>
+          <div class="kh-meta"><span>1293 &#x2013; 1527 Masehi</span><span>&#x1F4CD; Mojokerto, Jawa Timur</span><span>&#x1F6D5; Hindu-Buddha</span></div>
         </div>
       </div>
       <div class="kb">
-        <p>Setelah Singasari runtuh, menantu raja Kertanegara bernama <strong>Raden Wijaya</strong> berhasil melarikan diri. Dengan cerdik, ia bahkan memanfaatkan pasukan Mongol yang datang menyerang — untuk mengalahkan musuhnya sendiri! Setelah menang, ia mendirikan kerajaan baru pada 1293 M: <strong>Majapahit</strong>.</p>
-
+        <p>Didirikan <strong>Raden Wijaya</strong> pada 1293 M. Mencapai puncak kejayaan di masa Raja <strong>Hayam Wuruk</strong> dibantu Patih <strong>Gajah Mada</strong> yang bersumpah menyatukan Nusantara (<strong>Sumpah Palapa</strong>).</p>
         <div class="fs">
-          <div class="fi">👑</div>
-          <div class="ft">
-            <strong>Hayam Wuruk & Gajah Mada — Duo Paling Kuat Nusantara!</strong>
-            Majapahit mencapai puncak kejayaan di masa Raja <strong>Hayam Wuruk</strong> (1350–1389 M), dibantu Patih (perdana menteri) terhebat bernama <strong>Gajah Mada</strong>. Di bawah duo ini, Majapahit menguasai hampir seluruh Nusantara — dari Sumatera, Kalimantan, Sulawesi, Maluku, hingga sebagian Filipina dan Malaysia!
+          <div class="fi">&#x1F4AC;</div>
+          <div class="ft"><strong>&#x201C;Bhinneka Tunggal Ika&#x201D; Lahir di Sini!</strong>
+            Kalimat yang kini ada di lambang Garuda Pancasila berasal dari <strong>Kitab Sutasoma</strong> karya Mpu Tantular, ditulis di zaman Majapahit. Artinya: <em>&#x201C;Berbeda-beda tetapi tetap satu jua.&#x201D;</em></div>
+        </div>
+        <div class="peninggalan">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F6D5; Candi Bajang Ratu</span>
+            <span class="ptag">&#x1F6D5; Candi Tikus</span>
+            <span class="ptag">&#x1F6D5; Gapura Wringin Lawang</span>
+            <span class="ptag">&#x1F6D5; Candi Panataran</span>
+            <span class="ptag">&#x1F4D6; Kitab Nagarakertagama</span>
+            <span class="ptag">&#x1F4D6; Kitab Sutasoma</span>
+            <span class="ptag">&#x1F4D6; Kitab Pararaton</span>
           </div>
         </div>
-
-        <div class="fs">
-          <div class="fi">🗣️</div>
-          <div class="ft">
-            <strong>Sumpah Palapa yang Terkenal</strong>
-            Gajah Mada bersumpah tidak akan menikmati "palapa" (rempah-rempah mewah) sebelum berhasil menyatukan seluruh Nusantara. Sumpah inilah yang mendorongnya bekerja keras tiada henti. Sumpah Palapa ini sangat terkenal dalam sejarah Indonesia!
-          </div>
-        </div>
-
-        <div class="fs">
-          <div class="fi">💡</div>
-          <div class="ft">
-            <strong>"Bhinneka Tunggal Ika" Lahir di Zaman Majapahit!</strong>
-            Kalimat yang kini ada di lambang Garuda Pancasila itu berasal dari <strong>Kitab Sutasoma</strong> karya Mpu Tantular, ditulis di zaman Majapahit. Artinya: <em>"Berbeda-beda tetapi tetap satu jua."</em> Dari 600+ tahun lalu, nenek moyang kita sudah mengajarkan pentingnya persatuan di tengah perbedaan!
-          </div>
-        </div>
-
-        <p>Majapahit mulai melemah setelah Hayam Wuruk dan Gajah Mada wafat. Perang saudara dan bangkitnya kerajaan-kerajaan Islam di pesisir akhirnya meruntuhkan Majapahit sekitar 1527 M.</p>
       </div>
     </div>
 
     <!-- 7. PAJAJARAN -->
     <div id="pajajaran" class="section-label" style="scroll-margin-top:112px;">Kebanggaan Jawa Barat</div>
-    <h2 class="section-title">7. 🦁 Kerajaan Pajajaran — Jagoannya Jawa Barat!</h2>
-
+    <h2 class="section-title">7. &#x1F981; Kerajaan Pajajaran &#x2014; Jagoannya Jawa Barat!</h2>
     <div class="kingdom-card">
       <div class="kh jabar">
-        <div class="k-icon">🦁</div>
+        <div class="k-icon">&#x1F981;</div>
         <div class="kh-text">
           <h3>Kerajaan Pajajaran (Pakuan Pajajaran)</h3>
-          <div class="kh-meta"><span>± 932 – 1579 Masehi</span><span>📍 Pakuan (Bogor), Jawa Barat</span><span>🛕 Hindu</span></div>
+          <div class="kh-meta"><span>&#xB1; 932 &#x2013; 1579 Masehi</span><span>&#x1F4CD; Pakuan (Bogor), Jawa Barat</span><span>&#x1F6D5; Hindu</span></div>
         </div>
       </div>
       <div class="kb">
-        <div class="jabar-badge">⭐ Kerajaan kebanggaan Jawa Barat!</div>
-        <p>Kembali ke Jawa Barat. Setelah Tarumanagara terpecah menjadi Kerajaan Sunda dan Galuh, keduanya akhirnya bersatu kembali menjadi satu kerajaan besar: <strong>Pajajaran</strong>. Ibukotanya bernama <strong>Pakuan</strong> — yang kini kita kenal sebagai Kota <strong>Bogor</strong>!</p>
-        <p>Pajajaran adalah salah satu kerajaan di Jawa yang <strong>tidak pernah takluk kepada Majapahit</strong>. Itulah mengapa budaya Sunda punya identitas yang kuat dan berbeda — ia tidak bercampur dengan pengaruh Jawa Majapahit.</p>
-
-        <div class="fs">
-          <div class="fi">🦁</div>
-          <div class="ft">
-            <strong>Prabu Siliwangi — Legendaris Sampai Sekarang!</strong>
-            Raja paling terkenal Pajajaran adalah <strong>Sri Baduga Maharaja</strong>, atau yang lebih dikenal sebagai <strong>Prabu Siliwangi</strong> (1482–1521 M). Ia adil, bijaksana, dan sangat dicintai rakyatnya. Namanya diabadikan sebagai nama jalan, stadion Siliwangi, hingga Kodam Siliwangi di Jawa Barat — 500 tahun setelah wafatnya!
+        <div class="jabar-badge">&#x2B50; Kerajaan kebanggaan Jawa Barat!</div>
+        <p>Ibukota di <strong>Pakuan</strong> (Bogor sekarang). Tidak pernah takluk kepada Majapahit. Raja paling terkenal adalah <strong>Prabu Siliwangi (Sri Baduga Maharaja)</strong> yang memerintah 1482&#x2013;1521 M. Pelabuhan <strong>Sunda Kelapa</strong> menjadi pusat perdagangan internasional.</p>
+        <div class="peninggalan">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1FAA8; Prasasti Batutulis (Bogor)</span>
+            <span class="ptag">&#x1FAA8; Prasasti Kebantenan</span>
+            <span class="ptag">&#x1F3D9;&#xFE0F; Situs Pakuan Pajajaran</span>
+            <span class="ptag">&#x1F3B6; Seni Carita Pantun</span>
+            <span class="ptag">&#x1F4D6; Naskah Bujangga Manik</span>
           </div>
         </div>
-
-        <p>Pajajaran punya pelabuhan besar bernama <strong>Sunda Kelapa</strong> (kini kawasan pelabuhan tua di Jakarta) yang ramai dikunjungi pedagang dari Arab, Cina, India, hingga Portugis. Pada <strong>1579 M</strong>, Pajajaran runtuh ditaklukkan Kesultanan Banten. Namun semangat dan budaya Sunda tidak ikut runtuh — justru terus hidup sampai hari ini!</p>
+        <p>Pajajaran runtuh pada <strong>1579 M</strong> ditaklukkan Kesultanan Banten. Namun budaya dan bahasa Sunda terus hidup sampai hari ini!</p>
       </div>
     </div>
 
     <hr class="divider"/>
 
-    <!-- ERA ISLAM -->
+    <!-- ============================= ERA ISLAM ============================= -->
     <div class="era-header era-is">
-      <div class="era-icon">🕌</div>
+      <div class="era-icon">&#x1F54C;</div>
       <div class="era-text">
         <h3>Era Kesultanan Islam</h3>
-        <p>Abad ke-13 hingga abad ke-17 · Islam masuk melalui jalur perdagangan dan mendirikan kesultanan-kesultanan baru</p>
+        <p>Abad ke-13 hingga abad ke-17 Masehi &#xB7; Islam masuk melalui jalur perdagangan dan mendirikan kesultanan-kesultanan baru</p>
       </div>
     </div>
 
     <!-- 8. DEMAK -->
     <div id="demak" class="section-label" style="scroll-margin-top:112px;">Kerajaan Islam Pertama di Jawa</div>
-    <h2 class="section-title">8. 🕌 Kesultanan Demak — Islam Pertama di Jawa!</h2>
-
+    <h2 class="section-title">8. &#x1F54C; Kesultanan Demak &#x2014; Islam Pertama di Jawa!</h2>
     <div class="kingdom-card">
       <div class="kh is">
-        <div class="k-icon">🕌</div>
+        <div class="k-icon">&#x1F54C;</div>
         <div class="kh-text">
           <h3>Kesultanan Demak</h3>
-          <div class="kh-meta"><span>1478 – 1549 Masehi</span><span>📍 Demak, Jawa Tengah</span><span>☪️ Islam</span></div>
+          <div class="kh-meta"><span>1478 &#x2013; 1549 Masehi</span><span>&#x1F4CD; Demak, Jawa Tengah</span><span>&#x262A;&#xFE0F; Islam</span></div>
         </div>
       </div>
       <div class="kb">
-        <p>Ketika kerajaan Hindu-Buddha mulai melemah, Islam perlahan masuk ke Nusantara melalui jalur perdagangan. Para pedagang Muslim dari Arab, India, dan Persia membawa agama baru ini ke pelabuhan-pelabuhan Nusantara.</p>
-        <p>Di Demak, Jawa Tengah, berdirilah <strong>Kesultanan Demak</strong> — kerajaan Islam pertama di Pulau Jawa. Didirikan oleh <strong>Raden Patah</strong> sekitar 1478 M. Uniknya, Raden Patah masih memiliki darah keturunan Raja Majapahit!</p>
-
-        <div class="fs is">
-          <div class="fi">🕌</div>
-          <div class="ft">
-            <strong>Wali Songo — Penyebar Islam yang Bijaksana</strong>
-            Demak mendapat dukungan dari <strong>Wali Songo</strong> — sembilan ulama penyebar Islam yang sangat cerdas. Mereka tidak memaksakan agama, tapi menyebarkan Islam melalui budaya: wayang, gamelan, dan seni. Cara inilah yang membuat Islam diterima dengan damai oleh masyarakat Jawa dan Nusantara.
-          </div>
-        </div>
-
-        <div class="fs is">
-          <div class="fi">⚓</div>
-          <div class="ft">
-            <strong>Sunda Kelapa Berubah Jadi Jayakarta!</strong>
-            Pada 1527 M, pasukan Demak dipimpin jenderal bernama <strong>Fatahillah</strong> berhasil merebut pelabuhan Sunda Kelapa dari Pajajaran. Fatahillah lalu mengubah namanya menjadi <strong>Jayakarta</strong>. Nama itu kemudian disingkat Batavia (oleh Belanda), dan akhirnya menjadi <strong>Jakarta</strong> yang kita kenal sekarang!
+        <p>Kerajaan Islam pertama di Pulau Jawa. Didirikan <strong>Raden Patah</strong> sekitar 1478 M dengan dukungan <strong>Wali Songo</strong>. Panglimanya <strong>Fatahillah</strong> merebut pelabuhan Sunda Kelapa (1527) dan mengubah namanya menjadi <strong>Jayakarta</strong> &#x2014; cikal bakal Jakarta!</p>
+        <div class="peninggalan is">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F54C; Masjid Agung Demak</span>
+            <span class="ptag">&#x1FAB5; Tiang Saka Tatal (tiang dari serpihan kayu)</span>
+            <span class="ptag">&#x1FAB5; Pintu Bledeg (pintu ukir petir)</span>
+            <span class="ptag">&#x26EA; Makam Raden Patah</span>
           </div>
         </div>
       </div>
@@ -537,32 +537,35 @@
 
     <!-- 9. CIREBON & BANTEN -->
     <div id="cirebon" class="section-label" style="scroll-margin-top:112px;">Kesultanan di Jawa Barat</div>
-    <h2 class="section-title">9. 🕌 Cirebon & Banten — Di Tanah Kita!</h2>
-
+    <h2 class="section-title">9. &#x1F54C; Cirebon &amp; Banten &#x2014; Di Tanah Kita!</h2>
     <div class="kingdom-card">
       <div class="kh is2">
-        <div class="k-icon">🕌</div>
+        <div class="k-icon">&#x1F54C;</div>
         <div class="kh-text">
-          <h3>Kesultanan Cirebon & Kesultanan Banten</h3>
-          <div class="kh-meta"><span>Abad 15 – 17</span><span>📍 Jawa Barat & Banten</span><span>☪️ Islam</span></div>
+          <h3>Kesultanan Cirebon &amp; Kesultanan Banten</h3>
+          <div class="kh-meta"><span>Abad 15 &#x2013; 17</span><span>&#x1F4CD; Jawa Barat &amp; Banten</span><span>&#x262A;&#xFE0F; Islam</span></div>
         </div>
       </div>
       <div class="kb">
-        <div class="jabar-badge" style="background:#ede9fe; color:#5b21b6;">⭐ Kesultanan di wilayah Jawa Barat!</div>
-
+        <div class="jabar-badge" style="background:#ede9fe;color:#5b21b6;">&#x2B50; Kesultanan di wilayah Jawa Barat!</div>
         <div class="fs is">
-          <div class="fi">🕌</div>
-          <div class="ft">
-            <strong>Kesultanan Cirebon — Dibawa Sunan Gunung Jati</strong>
-            Salah satu dari Wali Songo, <strong>Sunan Gunung Jati (Syarif Hidayatullah)</strong>, mendirikan Kesultanan Cirebon di pesisir utara Jawa Barat. Pada tahun 1482, Cirebon menyatakan diri merdeka dari Pajajaran. Makam Sunan Gunung Jati di Cirebon hingga kini masih ramai dikunjungi jutaan peziarah setiap tahunnya.
-          </div>
+          <div class="fi">&#x1F54C;</div>
+          <div class="ft"><strong>Kesultanan Cirebon &#x2014; Sunan Gunung Jati</strong>
+            Didirikan <strong>Sunan Gunung Jati (Syarif Hidayatullah)</strong>, salah satu Wali Songo. Merdeka dari Pajajaran pada 1482. Makamnya di Cirebon masih ramai dikunjungi jutaan peziarah setiap tahun.</div>
         </div>
-
         <div class="fs is">
-          <div class="fi">⚓</div>
-          <div class="ft">
-            <strong>Kesultanan Banten — Si Kaya Penghasil Lada</strong>
-            Di ujung barat Pulau Jawa berdiri <strong>Kesultanan Banten</strong>. Sangat kaya karena menguasai perdagangan lada — rempah paling mahal di dunia saat itu. Dipimpin <strong>Maulana Hasanuddin</strong> (putra Sunan Gunung Jati), Banten adalah kesultanan yang ditakuti. Pada 1579 M, pasukannya berhasil menaklukkan ibukota Pajajaran, menandai berakhirnya kerajaan Hindu di Jawa Barat.
+          <div class="fi">&#x2693;</div>
+          <div class="ft"><strong>Kesultanan Banten &#x2014; Si Kaya Penghasil Lada</strong>
+            Dipimpin <strong>Maulana Hasanuddin</strong>, menguasai perdagangan lada dunia. Pada 1579 M pasukannya menaklukkan Pajajaran, menandai berakhirnya kerajaan Hindu di Jawa Barat.</div>
+        </div>
+        <div class="peninggalan is">
+          <div class="peninggalan-title">&#x1F3DB;&#xFE0F; Peninggalan Sejarah</div>
+          <div class="peninggalan-list">
+            <span class="ptag">&#x1F54C; Masjid Agung Sang Cipta Rasa (Cirebon)</span>
+            <span class="ptag">&#x1F3F0; Keraton Kasepuhan (Cirebon)</span>
+            <span class="ptag">&#x1F54C; Masjid Agung Banten</span>
+            <span class="ptag">&#x1F3F0; Keraton Surosowan (Banten)</span>
+            <span class="ptag">&#x26EA; Makam Sunan Gunung Jati</span>
           </div>
         </div>
       </div>
@@ -572,161 +575,138 @@
 
     <!-- TIMELINE -->
     <div class="section-label">Kilas Balik</div>
-    <h2 class="section-title">⏳ Perjalanan Panjang Kerajaan Nusantara</h2>
-
+    <h2 class="section-title">&#x23F3; Perjalanan Panjang Kerajaan Nusantara</h2>
     <div class="tl">
-      <div class="tli"><div class="tll"><div class="tld hb">1</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">± 400 Masehi</div><div class="ev">Kutai berdiri — Kerajaan tertua Indonesia</div><div class="dt">Kalimantan Timur. Raja Mulawarman menyedekahkan 20.000 sapi.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld hb">2</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">358 – 669 Masehi</div><div class="ev">Tarumanagara berjaya di Jawa Barat ⭐</div><div class="dt">Raja Purnawarman meninggalkan 7 prasasti. Membangun kanal irigasi.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld hb">3</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">Abad 7 – 13 Masehi</div><div class="ev">Sriwijaya — Penguasa lautan Asia Tenggara</div><div class="dt">Palembang, Sumatera. Menguasai Selat Malaka. Cikal bakal Bahasa Indonesia.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld hb">4</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">Abad 8 – 10 Masehi</div><div class="ev">Mataram Kuno membangun Borobudur & Prambanan</div><div class="dt">Jawa Tengah. Dua candi yang kini Warisan Dunia UNESCO.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld hb">5</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">1222 – 1292 Masehi</div><div class="ev">Singasari — Berani menolak Mongol!</div><div class="dt">Malang, Jawa Timur. Didirikan Ken Arok. Raja Kertanegara menolak tunduk pada Kubilai Khan.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld hb">6</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">1293 – 1527 Masehi</div><div class="ev">Majapahit — Kerajaan terbesar Nusantara!</div><div class="dt">Jawa Timur. Hayam Wuruk & Gajah Mada. "Bhinneka Tunggal Ika" lahir dari sini.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld hb">7</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">± 932 – 1579 Masehi</div><div class="ev">Pajajaran berjaya — Tidak pernah takluk Majapahit ⭐</div><div class="dt">Ibukota di Bogor, Jawa Barat. Prabu Siliwangi memerintah era keemasannya.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld is">8</div><div class="tl-line is"></div></div><div class="tlr"><div class="yr is">1478 – 1549 Masehi</div><div class="ev">Kesultanan Demak — Islam pertama di Jawa</div><div class="dt">Raden Patah. Fatahillah rebut Sunda Kelapa → Jayakarta → Jakarta.</div></div></div>
-
-      <div class="tli"><div class="tll"><div class="tld is">9</div></div><div class="tlr"><div class="yr is">Abad 15 – 17 Masehi</div><div class="ev">Cirebon & Banten berdiri di tanah Jawa Barat ⭐</div><div class="dt">Sunan Gunung Jati mendirikan Cirebon. Maulana Hasanuddin mendirikan Banten. Pajajaran runtuh 1579.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">1</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">&#xB1; 400 Masehi</div><div class="ev">Kutai berdiri &#x2014; Kerajaan tertua Indonesia</div><div class="dt">Kalimantan Timur. Raja Mulawarman. Prasasti Yupa &#x2014; tulisan tertua di Indonesia.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">2</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">358 &#x2013; 669 Masehi</div><div class="ev">Tarumanagara berjaya di Jawa Barat &#x2B50;</div><div class="dt">Raja Purnawarman. 7 prasasti. Candi Batujaya. Terpecah jadi Kerajaan Sunda &amp; Galuh.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">3</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">Abad 7 &#x2013; 13 Masehi</div><div class="ev">Sriwijaya &#x2014; Penguasa lautan Asia Tenggara</div><div class="dt">Palembang. Menguasai Selat Malaka. Candi Muara Takus. Cikal bakal Bahasa Indonesia.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">4</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">Abad 8 &#x2013; 10 Masehi</div><div class="ev">Mataram Kuno membangun Borobudur &amp; Prambanan</div><div class="dt">Jawa Tengah. Dua candi yang kini Warisan Dunia UNESCO.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">5</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">1222 &#x2013; 1292 Masehi</div><div class="ev">Singasari &#x2014; Berani menolak Mongol!</div><div class="dt">Malang, Jawa Timur. Ken Arok. Candi Singasari, Arca Prajnaparamita.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">6</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">1293 &#x2013; 1527 Masehi</div><div class="ev">Majapahit &#x2014; Kerajaan terbesar Nusantara!</div><div class="dt">Jawa Timur. Hayam Wuruk &amp; Gajah Mada. Bhinneka Tunggal Ika lahir di sini.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld hb">7</div><div class="tl-line hb"></div></div><div class="tlr"><div class="yr hb">&#xB1; 932 &#x2013; 1579 Masehi</div><div class="ev">Pajajaran &#x2014; Tak pernah takluk Majapahit &#x2B50;</div><div class="dt">Bogor, Jawa Barat. Prabu Siliwangi. Prasasti Batutulis. Runtuh 1579 oleh Banten.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld is">8</div><div class="tl-line is"></div></div><div class="tlr"><div class="yr is">1478 &#x2013; 1549 Masehi</div><div class="ev">Kesultanan Demak &#x2014; Islam pertama di Jawa</div><div class="dt">Raden Patah. Masjid Agung Demak. Fatahillah: Sunda Kelapa &#x2192; Jayakarta &#x2192; Jakarta.</div></div></div>
+      <div class="tli"><div class="tll"><div class="tld is">9</div></div><div class="tlr"><div class="yr is">Abad 15 &#x2013; 17 Masehi</div><div class="ev">Cirebon &amp; Banten di Jawa Barat &#x2B50;</div><div class="dt">Sunan Gunung Jati &amp; Maulana Hasanuddin. Pajajaran runtuh 1579.</div></div></div>
     </div>
 
     <hr class="divider"/>
 
-    <!-- TABEL ERA -->
-    <div id="tabel-era" style="scroll-margin-top:112px;" class="section-label">Perbandingan Kerajaan</div>
-    <h2 class="section-title">📊 Tabel Kerajaan-Kerajaan Nusantara Berdasarkan Era</h2>
-    <p style="font-size:.96rem; margin-bottom:1rem;">Ingin tahu perbedaan kerajaan Hindu, Buddha, dan Islam sekaligus? Lihat tabel ini!</p>
+    <!-- ============================= TABEL ERA ============================= -->
+    <div id="tabel-era" style="scroll-margin-top:112px;" class="section-label">Perbandingan Lengkap</div>
+    <h2 class="section-title">&#x1F4CA; Tabel Kerajaan-Kerajaan Nusantara</h2>
+    <p style="font-size:.95rem;margin-bottom:1.5rem;">Berikut adalah daftar kerajaan-kerajaan besar Nusantara yang dikelompokkan berdasarkan coraknya.</p>
 
-    <div class="era-table-wrap">
-      <table class="era-table">
-        <thead>
-          <tr>
-            <th class="th-hb" style="border-radius:12px 0 0 0;">Kerajaan</th>
-            <th class="th-hb">Era / Corak</th>
-            <th class="th-hb">Lokasi</th>
-            <th class="th-hb">Berdiri</th>
-            <th class="th-hb" style="border-radius:0 12px 0 0;">Raja / Tokoh Terkenal</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Hindu -->
-          <tr class="tr-hb">
-            <td>🌿 Kutai</td>
-            <td><span class="badge hb">Hindu</span></td>
-            <td>Kalimantan Timur</td>
-            <td>± 400 M</td>
-            <td>Raja Mulawarman</td>
-          </tr>
-          <tr class="tr-hb">
-            <td>🪨 Tarumanagara <span class="badge jabar">Jabar</span></td>
-            <td><span class="badge hb">Hindu</span></td>
-            <td>Jawa Barat</td>
-            <td>358 M</td>
-            <td>Raja Purnawarman</td>
-          </tr>
-          <tr class="tr-hb">
-            <td>⚔️ Singasari</td>
-            <td><span class="badge hb">Hindu-Buddha</span></td>
-            <td>Jawa Timur</td>
-            <td>1222 M</td>
-            <td>Ken Arok, Kertanegara</td>
-          </tr>
-          <tr class="tr-hb">
-            <td>👑 Majapahit</td>
-            <td><span class="badge hb">Hindu-Buddha</span></td>
-            <td>Jawa Timur</td>
-            <td>1293 M</td>
-            <td>Hayam Wuruk, Gajah Mada</td>
-          </tr>
-          <tr class="tr-hb">
-            <td>🦁 Pajajaran <span class="badge jabar">Jabar</span></td>
-            <td><span class="badge hb">Hindu</span></td>
-            <td>Jawa Barat</td>
-            <td>± 932 M</td>
-            <td>Prabu Siliwangi</td>
-          </tr>
-          <!-- Buddha -->
-          <tr class="tr-bu">
-            <td>⚓ Sriwijaya</td>
-            <td><span class="badge bu">Buddha</span></td>
-            <td>Sumatera Selatan</td>
-            <td>Abad 7 M</td>
-            <td>Dapunta Hyang, Balaputradewa</td>
-          </tr>
-          <tr class="tr-bu">
-            <td>🛕 Mataram Kuno</td>
-            <td><span class="badge bu">Hindu</span> <span class="badge hb">Buddha</span></td>
-            <td>Jawa Tengah</td>
-            <td>Abad 8 M</td>
-            <td>Dinasti Sanjaya & Syailendra</td>
-          </tr>
-          <!-- Islam -->
-          <tr class="tr-is">
-            <td>🕌 Kesultanan Demak</td>
-            <td><span class="badge is">Islam</span></td>
-            <td>Jawa Tengah</td>
-            <td>1478 M</td>
-            <td>Raden Patah, Fatahillah</td>
-          </tr>
-          <tr class="tr-is">
-            <td>🕌 Ksltn. Cirebon <span class="badge jabar">Jabar</span></td>
-            <td><span class="badge is">Islam</span></td>
-            <td>Jawa Barat</td>
-            <td>± 1480 M</td>
-            <td>Sunan Gunung Jati</td>
-          </tr>
-          <tr class="tr-is">
-            <td>🕌 Ksltn. Banten <span class="badge jabar">Jabar</span></td>
-            <td><span class="badge is">Islam</span></td>
-            <td>Banten</td>
-            <td>± 1526 M</td>
-            <td>Maulana Hasanuddin</td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- TABEL HINDU -->
+    <div class="tbl-section">
+      <div class="tbl-head hb">
+        <div style="font-size:1.6rem;">&#x1F6D5;</div>
+        <div><h3>Kerajaan-Kerajaan Bercorak Hindu</h3><p>Kerajaan yang memeluk agama Hindu, menyembah dewa-dewi seperti Wisnu, Siwa, dan Brahma</p></div>
+      </div>
+      <div class="era-table-wrap">
+        <table class="era-table">
+          <thead><tr>
+            <th class="hb no">No</th>
+            <th class="hb">Kerajaan</th>
+            <th class="hb">Letak</th>
+            <th class="hb">Raja Terkenal</th>
+            <th class="hb">Peninggalan Utama</th>
+          </tr></thead>
+          <tbody>
+            <tr class="tr-hb"><td class="no">1</td><td>&#x1F331; Kutai</td><td>Muara Kaman, Kalimantan Timur</td><td>Raja Mulawarman</td><td>Prasasti Yupa (7 tiang batu), Kura-kura emas</td></tr>
+            <tr class="tr-hb"><td class="no">2</td><td>&#x1FAA8; Tarumanagara <span class="badge jabar">Jabar</span></td><td>Jawa Barat (Bogor, Bekasi, Banten)</td><td>Raja Purnawarman</td><td>7 Prasasti batu, Percandian Batujaya, Candi Cangkuang</td></tr>
+            <tr class="tr-hb"><td class="no">3</td><td>&#x1F4AB; Kalingga</td><td>Jawa Tengah (Pekalongan &#x2013; Jepara)</td><td>Ratu Sima</td><td>Prasasti Sojomerto, Prasasti Tukmas, Arca Dewa</td></tr>
+            <tr class="tr-hb"><td class="no">4</td><td>&#x1F6D5; Mataram Hindu (Sanjaya)</td><td>Jawa Tengah</td><td>Raja Sanjaya, Rakai Pikatan</td><td>Candi Prambanan, Candi Sewu, Candi Plaosan, Prasasti Canggal</td></tr>
+            <tr class="tr-hb"><td class="no">5</td><td>&#x1F4AB; Kediri</td><td>Kediri, Jawa Timur</td><td>Raja Jayabaya, Kertajaya</td><td>Kitab Bharatayudha, Kitab Arjunawiwaha, Kitab Smaradahana</td></tr>
+            <tr class="tr-hb"><td class="no">6</td><td>&#x2694;&#xFE0F; Singasari</td><td>Malang, Jawa Timur</td><td>Ken Arok, Kertanegara</td><td>Candi Singasari, Candi Jago, Candi Kidal, Arca Prajnaparamita</td></tr>
+            <tr class="tr-hb"><td class="no">7</td><td>&#x1F451; Majapahit</td><td>Mojokerto, Jawa Timur</td><td>Hayam Wuruk, Gajah Mada</td><td>Candi Bajang Ratu, Gapura Wringin Lawang, Kitab Nagarakertagama, Kitab Sutasoma</td></tr>
+            <tr class="tr-hb"><td class="no">8</td><td>&#x1F981; Pajajaran <span class="badge jabar">Jabar</span></td><td>Pakuan (Bogor), Jawa Barat</td><td>Prabu Siliwangi (Sri Baduga Maharaja)</td><td>Prasasti Batutulis, Prasasti Kebantenan, Naskah Bujangga Manik, Situs Pakuan</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div style="background:#fff; border-radius:12px; padding:1rem 1.25rem; margin-bottom:1.5rem; display:flex; gap:.85rem; align-items:flex-start; border:1.5px solid var(--sand-dk);">
-      <div style="font-size:1.3rem; flex-shrink:0;">🔑</div>
-      <div style="font-size:.88rem; color:var(--ink-mid,#3d4460);">
-        <strong style="display:block; margin-bottom:.3rem; color:var(--ink);">Apa bedanya Hindu, Buddha, dan Islam?</strong>
-        Kerajaan <strong>Hindu</strong> memuja dewa-dewi seperti Wisnu, Siwa, dan Brahma. Kerajaan <strong>Buddha</strong> mengikuti ajaran Sang Buddha Gautama tentang kedamaian dan nirvana. Sedangkan <strong>Kesultanan Islam</strong> berpedoman pada Al-Qur'an dan Hadis, dipimpin oleh seorang Sultan. Meskipun berbeda, ketiganya hidup berdampingan di Nusantara dan saling memengaruhi budaya satu sama lain!
+    <!-- TABEL BUDDHA -->
+    <div class="tbl-section">
+      <div class="tbl-head bu">
+        <div style="font-size:1.6rem;">&#x2638;&#xFE0F;</div>
+        <div><h3>Kerajaan-Kerajaan Bercorak Buddha</h3><p>Kerajaan yang mengikuti ajaran Buddha, menekankan ketenangan batin, kasih sayang, dan jalan menuju Nirvana</p></div>
+      </div>
+      <div class="era-table-wrap">
+        <table class="era-table">
+          <thead><tr>
+            <th class="bu no">No</th>
+            <th class="bu">Kerajaan</th>
+            <th class="bu">Letak</th>
+            <th class="bu">Raja Terkenal</th>
+            <th class="bu">Peninggalan Utama</th>
+          </tr></thead>
+          <tbody>
+            <tr class="tr-bu"><td class="no">1</td><td>&#x2693; Sriwijaya</td><td>Palembang, Sumatera Selatan</td><td>Dapunta Hyang, Balaputradewa</td><td>Prasasti Kedukan Bukit, Prasasti Telaga Batu, Candi Muara Takus, Arca Buddha emas</td></tr>
+            <tr class="tr-bu"><td class="no">2</td><td>&#x1F6D5; Mataram Buddha (Syailendra)</td><td>Jawa Tengah</td><td>Samaratungga, Pramodawardhani</td><td>Candi Borobudur, Candi Mendut, Candi Pawon, Candi Kalasan</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TABEL ISLAM -->
+    <div class="tbl-section">
+      <div class="tbl-head is">
+        <div style="font-size:1.6rem;">&#x262A;&#xFE0F;</div>
+        <div><h3>Kesultanan-Kesultanan Islam</h3><p>Kerajaan yang berpedoman pada Al-Qur&#x27;an dan Hadis, dipimpin seorang Sultan</p></div>
+      </div>
+      <div class="era-table-wrap">
+        <table class="era-table">
+          <thead><tr>
+            <th class="is no">No</th>
+            <th class="is">Kesultanan</th>
+            <th class="is">Letak</th>
+            <th class="is">Sultan Terkenal</th>
+            <th class="is">Peninggalan Utama</th>
+          </tr></thead>
+          <tbody>
+            <tr class="tr-is"><td class="no">1</td><td>&#x1F54C; Samudera Pasai</td><td>Aceh Utara (Lhokseumawe)</td><td>Sultan Malik as-Saleh, Sultan Mahmud Malik Az-Zahir</td><td>Nisan makam Sultan Malik as-Saleh, Dirham emas (mata uang pertama Nusantara)</td></tr>
+            <tr class="tr-is"><td class="no">2</td><td>&#x1F54C; Kesultanan Aceh</td><td>Banda Aceh, Aceh</td><td>Sultan Iskandar Muda</td><td>Masjid Raya Baiturrahman, Gunongan, Kandang, Taman Sari Ghairah</td></tr>
+            <tr class="tr-is"><td class="no">3</td><td>&#x1F54C; Kesultanan Demak</td><td>Demak, Jawa Tengah</td><td>Raden Patah, Sultan Trenggana</td><td>Masjid Agung Demak, Pintu Bledeg, Makam Raden Patah</td></tr>
+            <tr class="tr-is"><td class="no">4</td><td>&#x1F54C; Kesultanan Banten <span class="badge jabar">Jabar</span></td><td>Banten</td><td>Maulana Hasanuddin, Sultan Ageng Tirtayasa</td><td>Masjid Agung Banten, Keraton Surosowan, Meriam Ki Amuk</td></tr>
+            <tr class="tr-is"><td class="no">5</td><td>&#x1F54C; Kesultanan Ternate</td><td>Pulau Ternate, Maluku Utara</td><td>Sultan Baabullah</td><td>Benteng Tolukko, Benteng Oranje, Istana Kesultanan (Kedaton)</td></tr>
+            <tr class="tr-is"><td class="no">6</td><td>&#x1F54C; Kesultanan Tidore</td><td>Pulau Tidore, Maluku Utara</td><td>Sultan Nuku, Sultan Mansur</td><td>Benteng Torre &amp; Tahula, Kadato Kie (istana sultan), Masjid Sultan Tidore</td></tr>
+            <tr class="tr-is"><td class="no">7</td><td>&#x1F54C; Kesultanan Gowa-Tallo</td><td>Makassar, Sulawesi Selatan</td><td>Sultan Hasanuddin, Sultan Alaudin</td><td>Benteng Fort Rotterdam, Istana Balla Lompoa, Makam Sultan Hasanuddin, Kapal Phinisi</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div style="background:#fff;border-radius:12px;padding:1rem 1.25rem;margin-bottom:1.5rem;display:flex;gap:.85rem;align-items:flex-start;border:1.5px solid var(--sand-dk);">
+      <div style="font-size:1.3rem;flex-shrink:0;">&#x1F511;</div>
+      <div style="font-size:.88rem;color:var(--ink-mid,#3d4460);">
+        <strong style="display:block;margin-bottom:.3rem;color:var(--ink);">Apa bedanya Hindu, Buddha, dan Islam?</strong>
+        Kerajaan <strong>Hindu</strong> memuja dewa-dewi seperti Wisnu, Siwa, dan Brahma. Kerajaan <strong>Buddha</strong> mengikuti ajaran Sang Buddha Gautama tentang kedamaian batin. Sedangkan <strong>Kesultanan Islam</strong> berpedoman pada Al-Qur&#x27;an dan Hadis. Meskipun berbeda, ketiganya hidup berdampingan di Nusantara dan saling memengaruhi budaya satu sama lain!
       </div>
     </div>
 
     <!-- RINGKASAN -->
     <div class="ringkasan">
-      <h3>📝 Ringkasan — Yang Penting Kamu Ingat!</h3>
+      <h3>&#x1F4DD; Ringkasan &#x2014; Yang Penting Kamu Ingat!</h3>
       <ul class="rl">
-        <li><div class="rn">1</div><div>Kerajaan <strong>tertua di Indonesia</strong> adalah <strong>Kutai</strong> di Kalimantan Timur (±400 M), dengan raja terkenal <strong>Mulawarman</strong>.</div></li>
-        <li><div class="rn">2</div><div>Kerajaan pertama di <strong>Jawa Barat</strong> adalah <strong>Tarumanagara</strong>, dengan raja terkenal <strong>Purnawarman</strong> yang meninggalkan 7 prasasti.</div></li>
+        <li><div class="rn">1</div><div>Kerajaan <strong>tertua di Indonesia</strong> adalah <strong>Kutai</strong> di Kalimantan Timur (&#xB1;400 M). Buktinya: 7 <strong>Prasasti Yupa</strong> &#x2014; tulisan tertua yang ditemukan di Indonesia.</div></li>
+        <li><div class="rn">2</div><div>Kerajaan pertama di <strong>Jawa Barat</strong> adalah <strong>Tarumanagara</strong>. Raja <strong>Purnawarman</strong> meninggalkan 7 prasasti dan Percandian Batujaya di Karawang.</div></li>
         <li><div class="rn">3</div><div><strong>Sriwijaya</strong> di Sumatera adalah kerajaan maritim terbesar Asia Tenggara. Bahasanya menjadi cikal bakal Bahasa Indonesia!</div></li>
-        <li><div class="rn">4</div><div><strong>Mataram Kuno</strong> membangun <strong>Borobudur dan Prambanan</strong> — keajaiban arsitektur yang jadi Warisan Dunia UNESCO.</div></li>
-        <li><div class="rn">5</div><div><strong>Majapahit</strong> adalah kerajaan terbesar Nusantara. <strong>Hayam Wuruk & Gajah Mada</strong> menyatukan hampir seluruh kepulauan. <em>Bhinneka Tunggal Ika</em> berasal dari sini!</div></li>
-        <li><div class="rn">6</div><div><strong>Pajajaran</strong> di Jawa Barat tidak pernah takluk kepada Majapahit. Raja terkenalnya <strong>Prabu Siliwangi</strong> — legendaris sampai hari ini.</div></li>
-        <li><div class="rn">7</div><div><strong>Kesultanan Demak</strong> adalah kerajaan Islam pertama di Jawa. <strong>Fatahillah</strong> mengubah Sunda Kelapa menjadi <strong>Jayakarta</strong> (cikal bakal Jakarta).</div></li>
-        <li><div class="rn">8</div><div><strong>Kesultanan Cirebon & Banten</strong> berdiri di Jawa Barat, didirikan oleh <strong>Sunan Gunung Jati</strong> dan keturunannya.</div></li>
+        <li><div class="rn">4</div><div><strong>Mataram Kuno</strong> membangun <strong>Borobudur</strong> (Buddha) dan <strong>Prambanan</strong> (Hindu) &#x2014; dua keajaiban arsitektur yang kini Warisan Dunia UNESCO.</div></li>
+        <li><div class="rn">5</div><div><strong>Majapahit</strong> adalah kerajaan terbesar Nusantara. Peninggalannya: Gapura Wringin Lawang, Kitab Nagarakertagama, dan <em>&#x201C;Bhinneka Tunggal Ika&#x201D;</em> dari Kitab Sutasoma.</div></li>
+        <li><div class="rn">6</div><div><strong>Pajajaran</strong> (Jawa Barat) tidak pernah takluk kepada Majapahit. Peninggalannya: <strong>Prasasti Batutulis</strong> di Bogor dan Situs Pakuan Pajajaran.</div></li>
+        <li><div class="rn">7</div><div><strong>Kesultanan Demak</strong> adalah kerajaan Islam pertama di Jawa. Peninggalannya yang paling terkenal: <strong>Masjid Agung Demak</strong>. Fatahillah mengubah Sunda Kelapa menjadi Jayakarta (cikal bakal Jakarta).</div></li>
+        <li><div class="rn">8</div><div><strong>Kesultanan Cirebon &amp; Banten</strong> berdiri di Jawa Barat. Peninggalannya: Masjid Agung Banten, Keraton Kasepuhan Cirebon, dan Makam Sunan Gunung Jati.</div></li>
       </ul>
     </div>
 
-    <!-- NAVIGASI -->
     <nav class="page-nav">
-      <a href="index.html" class="nav-btn nav-btn-outline">
-        ← <span><span class="nav-label">Kembali ke</span>Daftar Bab 1</span>
-      </a>
-      <a href="kondisi-alam.html" class="nav-btn nav-btn-primary">
-        <span><span class="nav-label">Materi Berikutnya</span>Kondisi Alam Daerahku</span> →
-      </a>
+      <a href="materi.html" class="nav-btn nav-btn-outline">&#x2190; <span><span class="nav-label">Kembali ke</span>Daftar Bab 1</span></a>
+      <a href="kondisi-alam.html" class="nav-btn nav-btn-primary"><span><span class="nav-label">Materi Berikutnya</span>Kondisi Alam Daerahku</span> &#x2192;</a>
     </nav>
 
   </main>
 
   <footer class="footer">
-    <p>Belajar Mandiri · Kelas 4 · IPAS Semester 2 &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+    <p>Belajar Mandiri &#xB7; Kelas 4 &#xB7; IPAS Semester 2 &nbsp;|&nbsp; Dibuat dengan &#x2764;&#xFE0F; untuk semangat belajar</p>
   </footer>
 
 </body>
