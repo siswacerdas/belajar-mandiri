@@ -1,0 +1,112 @@
+/* ═══════════════════════════════════════════════════════════════
+   layout.css  —  Belajar Mandiri  —  Global Responsive Layout
+   ───────────────────────────────────────────────────────────────
+   File ini mengatur lebar dan spacing halaman secara global.
+   Dimuat SETELAH <style> inline di setiap HTML agar dapat
+   mengoverride nilai max-width bawaan tanpa mengubah warna
+   dan komponen yang bersifat page-specific.
+
+   Breakpoints:
+     Desktop  : ≥ 1024px  → max-width 1140px, padding 3rem
+     Tablet   : 600–1023px → max-width 100%,  padding 1.5rem
+     Mobile   : < 600px   → max-width 100%,  padding 1rem
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Content wrapper ── */
+.content {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* ── Hero inner ── */
+.hero-inner {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── Hero desc: allow wider on desktop ── */
+.hero-desc {
+  max-width: 680px;
+}
+
+/* ── Navbar inner padding ── */
+.navbar {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* ── Jump nav inner padding ── */
+.jump-nav {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* ── Footer ── */
+.footer {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* ══════════════════
+   TABLET  600–1023px
+   ══════════════════ */
+@media (max-width: 1023px) {
+  .content {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+  .navbar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .jump-nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .footer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* ══════════════════
+   MOBILE  < 600px
+   ══════════════════ */
+@media (max-width: 599px) {
+  .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .jump-nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* Stack page-nav buttons vertically on very small screens */
+  .page-nav {
+    flex-direction: column;
+  }
+  .nav-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
