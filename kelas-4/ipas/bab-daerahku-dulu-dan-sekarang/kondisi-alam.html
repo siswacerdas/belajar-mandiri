@@ -130,13 +130,13 @@
     .sda-head-text h4{font-family:"Lora",serif;font-size:.95rem;font-weight:700;color:#fff;}
     .sda-head-text p{font-size:.74rem;color:rgba(255,255,255,.8);margin-top:.05rem;}
     .sda-body{background:#fff;padding:.9rem 1.1rem;}
-    .sda-list{list-style:none;display:flex;flex-direction:column;gap:.35rem;}
-    .sda-list li{display:flex;align-items:flex-start;gap:.5rem;font-size:.84rem;}
-    .sda-list li::before{content:"&#x2022;";font-size:1.1rem;flex-shrink:0;margin-top:-.05rem;}
+    .sda-list{list-style:none;display:flex;flex-direction:column;gap:.5rem;}
+    .sda-list li{display:flex;align-items:flex-start;gap:.55rem;font-size:.86rem;line-height:1.5;}
+    .sda-list.hayati li::before,.sda-list.non li::before{content:"\2022";font-size:1.2rem;flex-shrink:0;line-height:1.4;}
     .sda-list.hayati li::before{color:#059669;}
     .sda-list.non li::before{color:#1d4ed8;}
-    .sda-list.bisa li::before{color:#059669;}
-    .sda-list.tidak li::before{color:#b91c1c;}
+    .sda-list.bisa li::before,.sda-list.tidak li::before{display:none;}
+    .sda-em{flex-shrink:0;width:1.5rem;text-align:center;}
 
     /* PESAN HIJAU */
     .pesan-hijau{background:linear-gradient(135deg,#065f46,#047857);border-radius:16px;padding:1.5rem 1.75rem;color:#fff;margin:1.5rem 0;display:flex;gap:1rem;align-items:flex-start;}
@@ -625,12 +625,12 @@
             </div>
             <div class="sda-body">
               <ul class="sda-list bisa">
-                <li>&#x2600;&#xFE0F; <strong>Sinar matahari</strong> &#x2014; sumber energi surya tak terbatas</li>
-                <li>&#x1F4A7; <strong>Air</strong> &#x2014; terus berputar dalam siklus hujan</li>
-                <li>&#x1F32C;&#xFE0F; <strong>Angin</strong> &#x2014; bisa diubah menjadi energi listrik</li>
-                <li>&#x1F333; <strong>Hutan &amp; tumbuhan</strong> &#x2014; bisa ditanam kembali (reboisasi)</li>
-                <li>&#x1F42E; <strong>Hewan ternak</strong> &#x2014; bisa dibudidayakan dan dikembangbiakkan</li>
-                <li>&#x1FAB1; <strong>Ikan laut</strong> &#x2014; bisa terus berkembang biak jika tidak dilebihkan penangkapannya</li>
+                <li><span class="sda-em">&#x2600;&#xFE0F;</span><span><strong>Sinar matahari</strong> &#x2014; sumber energi surya tak terbatas</span></li>
+                <li><span class="sda-em">&#x1F4A7;</span><span><strong>Air</strong> &#x2014; terus berputar dalam siklus hujan</span></li>
+                <li><span class="sda-em">&#x1F32C;&#xFE0F;</span><span><strong>Angin</strong> &#x2014; bisa diubah menjadi energi listrik</span></li>
+                <li><span class="sda-em">&#x1F333;</span><span><strong>Hutan &amp; tumbuhan</strong> &#x2014; bisa ditanam kembali (reboisasi)</span></li>
+                <li><span class="sda-em">&#x1F42E;</span><span><strong>Hewan ternak</strong> &#x2014; bisa dibudidayakan dan dikembangbiakkan</span></li>
+                <li><span class="sda-em">&#x1FAB1;</span><span><strong>Ikan laut</strong> &#x2014; bisa terus berkembang biak jika tidak dilebihkan penangkapannya</span></li>
               </ul>
             </div>
           </div>
@@ -644,12 +644,12 @@
             </div>
             <div class="sda-body">
               <ul class="sda-list tidak">
-                <li>&#x26FD; <strong>Minyak bumi</strong> &#x2014; terbentuk jutaan tahun dari fosil organisme</li>
-                <li>&#x1F525; <strong>Batu bara</strong> &#x2014; sisa tumbuhan purba yang membatu jutaan tahun</li>
-                <li>&#x1F4A8; <strong>Gas alam</strong> &#x2014; bahan bakar untuk memasak dan industri</li>
-                <li>&#x1FAA8; <strong>Bijih besi &amp; baja</strong> &#x2014; bahan bangunan dan mesin</li>
-                <li>&#x1FAA8; <strong>Emas &amp; perak</strong> &#x2014; perhiasan dan elektronik</li>
-                <li>&#x1FAA8; <strong>Timah, tembaga, nikel</strong> &#x2014; bahan industri elektronik</li>
+                <li><span class="sda-em">&#x26FD;</span><span><strong>Minyak bumi</strong> &#x2014; terbentuk jutaan tahun dari fosil organisme</span></li>
+                <li><span class="sda-em">&#x1F525;</span><span><strong>Batu bara</strong> &#x2014; sisa tumbuhan purba yang membatu jutaan tahun</span></li>
+                <li><span class="sda-em">&#x1F4A8;</span><span><strong>Gas alam</strong> &#x2014; bahan bakar untuk memasak dan industri</span></li>
+                <li><span class="sda-em">&#x1FAA8;</span><span><strong>Bijih besi &amp; baja</strong> &#x2014; bahan bangunan dan mesin</span></li>
+                <li><span class="sda-em">&#x1FAA8;</span><span><strong>Emas &amp; perak</strong> &#x2014; perhiasan dan elektronik</span></li>
+                <li><span class="sda-em">&#x1FAA8;</span><span><strong>Timah, tembaga, nikel</strong> &#x2014; bahan industri elektronik</span></li>
               </ul>
             </div>
           </div>

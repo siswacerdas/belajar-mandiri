@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kondisi Masyarakat & Alam — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#0369a1;--bab-mid:#0284c7;--bab-lt:#e0f2fe;--bab-pal:#f0f9ff;
+          --c-tinggi:#065f46; --c-tinggi-lt:#f0fdf4; --c-tinggi-bd:#bbf7d0;
+          --c-rendah:#b45309; --c-rendah-lt:#fff7ed; --c-rendah-bd:#fed7aa;
+          --c-pantai:#0e7490; --c-pantai-lt:#ecfeff; --c-pantai-bd:#a5f3fc;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+
+    /* NAVBAR */
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    /* JUMP NAV */
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#0369a1,#075985);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#bae6fd;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    /* CONTENT */
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .body-text{font-size:.97rem;margin-bottom:.85rem;line-height:1.75;}
+
+    /* INTRO */
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(3,105,161,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* OVERVIEW STRIP — ALAM ↔ MANUSIA */
+    .overview-strip{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:1rem;margin:1.5rem 0 2rem;background:#fff;border-radius:16px;padding:1.25rem 1.5rem;box-shadow:0 2px 12px rgba(0,0,0,.06);}
+    .os-col{text-align:center;}
+    .os-icon{font-size:2.2rem;margin-bottom:.4rem;}
+    .os-label{font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-lt);}
+    .os-items{display:flex;flex-direction:column;gap:.25rem;margin-top:.5rem;}
+    .os-item{font-size:.83rem;font-weight:700;background:var(--bab-pal);color:var(--bab);padding:.2rem .6rem;border-radius:6px;display:inline-block;}
+    .os-item.g{background:#f0fdf4;color:#065f46;}
+    .os-item.o{background:#fff7ed;color:#b45309;}
+    .os-item.c{background:#ecfeff;color:#0e7490;}
+    .os-arrow{font-size:1.8rem;color:var(--bab-mid);text-align:center;}
+
+    /* WILAYAH CARD */
+    .wcard{border-radius:18px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.08);margin-bottom:1.75rem;}
+    .wcard-header{padding:1.1rem 1.5rem;display:flex;align-items:center;gap:1rem;}
+    .wcard-header.tinggi{background:linear-gradient(135deg,var(--c-tinggi),#047857);}
+    .wcard-header.rendah{background:linear-gradient(135deg,var(--c-rendah),#d97706);}
+    .wcard-header.pantai{background:linear-gradient(135deg,var(--c-pantai),#0891b2);}
+    .wcard-header.kota{background:linear-gradient(135deg,#4338ca,#6366f1);}
+    .wh-icon{width:50px;height:50px;background:rgba(255,255,255,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0;}
+    .wh-text{color:#fff;}
+    .wh-text h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;line-height:1.25;}
+    .wh-text p{font-size:.8rem;opacity:.85;margin-top:.15rem;}
+    .wcard-body{background:#fff;padding:0;}
+
+    /* PROFIL GRID inside wcard */
+    .profil-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;}
+    .profil-col{padding:1.25rem 1.4rem;}
+    .profil-col+.profil-col{border-left:1.5px solid var(--sand-dk,#ede8dc);}
+    .profil-col-title{font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.65rem;}
+    .profil-col-title.tinggi{color:var(--c-tinggi);}
+    .profil-col-title.rendah{color:var(--c-rendah);}
+    .profil-col-title.pantai{color:var(--c-pantai);}
+    .profil-col-title.kota{color:#4338ca;}
+    .profil-list{list-style:none;display:flex;flex-direction:column;gap:.4rem;}
+    .profil-list li{display:flex;align-items:flex-start;gap:.5rem;font-size:.85rem;line-height:1.5;}
+    .pl-em{flex-shrink:0;width:1.4rem;text-align:center;}
+    .wcard-desc{padding:0 1.4rem 1.25rem;font-size:.9rem;color:var(--ink-mid,#3d4460);line-height:1.65;border-top:1.5px solid var(--sand-dk,#ede8dc);padding-top:1rem;margin:0 1.4rem 1.25rem;border-top:1.5px solid var(--sand-dk);}
+    .wcard-jabar{background:var(--bab-pal);padding:.75rem 1.4rem;display:flex;gap:.6rem;align-items:flex-start;font-size:.84rem;color:#075985;}
+    .wcard-jabar .ji{flex-shrink:0;font-size:1.1rem;}
+    .wcard-jabar strong{color:var(--bab);}
+
+    /* FAKTA SERU */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs.hijau{background:var(--c-tinggi-lt);border-color:var(--c-tinggi-bd);}
+    .fs.oren{background:var(--c-rendah-lt);border-color:var(--c-rendah-bd);}
+    .fs.cyan{background:var(--c-pantai-lt);border-color:var(--c-pantai-bd);}
+    .fs.ungu{background:#f5f3ff;border-color:#ddd6fe;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;}
+    .fs .ft{color:#075985;}
+    .fs.hijau .ft{color:var(--c-tinggi);}
+    .fs.oren .ft{color:var(--c-rendah);}
+    .fs.cyan .ft{color:var(--c-pantai);}
+    .fs.ungu .ft{color:#5b21b6;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;font-weight:800;color:var(--bab);}
+    .fs.hijau .ft strong:first-child{color:var(--c-tinggi);}
+    .fs.oren .ft strong:first-child{color:var(--c-rendah);}
+    .fs.cyan .ft strong:first-child{color:var(--c-pantai);}
+    .fs.ungu .ft strong:first-child{color:#5b21b6;}
+    .fs .ft strong{font-weight:800;}
+
+    /* KEARIFAN LOKAL CARDS */
+    .kl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.85rem;margin:1rem 0;}
+    .kl-card{background:#fff;border-radius:14px;padding:1.1rem 1.2rem;border:2px solid var(--c-tinggi-bd);box-shadow:0 2px 8px rgba(0,0,0,.05);}
+    .kl-icon{font-size:1.6rem;margin-bottom:.4rem;}
+    .kl-name{font-family:"Lora",serif;font-weight:700;font-size:.95rem;color:var(--c-tinggi);margin-bottom:.3rem;}
+    .kl-desc{font-size:.82rem;line-height:1.55;color:var(--ink-mid,#3d4460);}
+
+    /* PERUBAHAN DAERAH */
+    .perubahan-row{display:flex;gap:.75rem;align-items:flex-start;padding:.85rem 1rem;border-radius:12px;background:#fff;border:1.5px solid var(--sand-dk,#ede8dc);margin-bottom:.65rem;}
+    .pr-before{flex:1;font-size:.86rem;}
+    .pr-arrow{font-size:1.4rem;flex-shrink:0;color:var(--bab);margin-top:.1rem;}
+    .pr-after{flex:1;font-size:.86rem;}
+    .pr-label{font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.2rem;}
+    .pr-label.dulu{color:#6b7280;}
+    .pr-label.kini{color:var(--bab);}
+
+    /* RINGKASAN */
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rn{width:24px;height:24px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:800;flex-shrink:0;margin-top:.15rem;}
+
+    /* NAV */
+    .page-nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.4rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-primary{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-primary:hover{background:#075985;border-color:#075985;}
+    .nav-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;opacity:.6;display:block;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:600px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .profil-grid{grid-template-columns:1fr;}
+      .profil-col+.profil-col{border-left:none;border-top:1.5px solid var(--sand-dk);}
+      .overview-strip{grid-template-columns:1fr;text-align:center;}
+      .os-arrow{transform:rotate(90deg);}
+      .kl-grid{grid-template-columns:1fr 1fr;}
+      .page-nav{flex-direction:column;}
+      .nav-btn{width:100%;justify-content:center;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">&#xBB;</span>
+      <a href="../index.html">IPAS</a><span class="sep">&#xBB;</span>
+      <a href="materi.html">Bab 1</a><span class="sep">&#xBB;</span>
+      <span>Kondisi Masyarakat</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a class="jpill" href="#pengaruh">&#x1F4A1; Alam &amp; Manusia</a>
+      <a class="jpill" href="#tinggi">&#x26F0;&#xFE0F; Dataran Tinggi</a>
+      <a class="jpill" href="#rendah">&#x1F33E; Dataran Rendah</a>
+      <a class="jpill" href="#pantai">&#x1F3D6;&#xFE0F; Pesisir Pantai</a>
+      <a class="jpill" href="#kota">&#x1F3D9;&#xFE0F; Perkotaan</a>
+      <a class="jpill" href="#kearifan">&#x1F9D1;&#x200D;&#x1F33E; Kearifan Lokal</a>
+      <a class="jpill" href="#perubahan">&#x1F504; Perubahan Daerah</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">&#x1F4D6; Bab 1 &#x2014; Sub-materi C</span>
+      <h1>Kondisi <em>Masyarakat</em><br>Dilihat dari Kondisi Alamnya</h1>
+      <p class="hero-desc">Alam membentuk cara hidup manusia. Orang yang tinggal di pegunungan berbeda kesehariannya dengan orang yang tinggal di tepi pantai &#x2014; dan itu bukan kebetulan!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,40 C360,80 1080,0 1440,40 L1440,60 L0,60 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>&#x1F914; Pernahkah kamu bertanya-tanya, mengapa orang yang tinggal di Puncak atau Lembang banyak yang jadi petani sayur dan teh, sementara orang yang tinggal di Pangandaran atau Pelabuhan Ratu banyak yang jadi nelayan?</p>
+      <p>Jawabannya ada pada <strong>kondisi alam</strong> tempat mereka tinggal. Bentang alam &#x2014; apakah itu pegunungan, dataran rendah, atau tepi laut &#x2014; sangat memengaruhi cara hidup, pekerjaan, rumah, makanan, bahkan budaya dan tradisi masyarakat setempat.</p>
+    </div>
+
+    <!-- ====== BAGIAN 1: PENGARUH ALAM ====== -->
+    <div id="pengaruh" style="scroll-margin-top:112px;" class="section-label">Gambaran Umum</div>
+    <h2 class="section-title">&#x1F4A1; Bagaimana Alam Memengaruhi Kehidupan Manusia?</h2>
+
+    <p class="body-text">Setiap daerah punya kondisi alam yang berbeda. Perbedaan ini memengaruhi empat hal utama dalam kehidupan masyarakat:</p>
+
+    <div class="overview-strip">
+      <div class="os-col">
+        <div class="os-icon">&#x1F3D4;&#xFE0F;</div>
+        <div class="os-label">Kondisi Alam</div>
+        <div class="os-items">
+          <span class="os-item g">Dataran Tinggi</span>
+          <span class="os-item o">Dataran Rendah</span>
+          <span class="os-item c">Pesisir Pantai</span>
+        </div>
+      </div>
+      <div class="os-arrow">&#x27A1;&#xFE0F;</div>
+      <div class="os-col">
+        <div class="os-icon">&#x1F46A;</div>
+        <div class="os-label">Mempengaruhi</div>
+        <div class="os-items">
+          <span class="os-item">&#x1F528; Mata Pencaharian</span>
+          <span class="os-item">&#x1F3E0; Jenis Rumah</span>
+          <span class="os-item">&#x1F35C; Makanan Khas</span>
+          <span class="os-item">&#x1F3AD; Budaya &amp; Tradisi</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">&#x1F4A1;</div>
+      <div class="ft"><strong>Adaptasi &#x2014; Kemampuan Menyesuaikan Diri</strong>
+        Sejak zaman dulu, manusia selalu <strong>beradaptasi</strong> dengan lingkungan alamnya. Artinya, manusia menyesuaikan cara hidupnya dengan kondisi alam di sekitarnya. Di pegunungan yang dingin, orang membangun rumah yang hangat. Di tepi pantai, orang belajar berlayar dan menangkap ikan. Itulah mengapa budaya tiap daerah jadi unik dan berbeda-beda!</div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ====== BAGIAN 2: DATARAN TINGGI ====== -->
+    <div id="tinggi" style="scroll-margin-top:112px;" class="section-label">Wilayah 1</div>
+    <h2 class="section-title">&#x26F0;&#xFE0F; Masyarakat di Dataran Tinggi &amp; Pegunungan</h2>
+
+    <div class="wcard">
+      <div class="wcard-header tinggi">
+        <div class="wh-icon">&#x26F0;&#xFE0F;</div>
+        <div class="wh-text">
+          <h3>Dataran Tinggi &amp; Pegunungan</h3>
+          <p>Ketinggian 200&#x2013;3.000+ mdpl &#xB7; Udara sejuk &#xB7; Tanah vulkanik subur &#xB7; Banyak sumber mata air</p>
+        </div>
+      </div>
+      <div class="wcard-body">
+        <div class="profil-grid">
+          <div class="profil-col">
+            <div class="profil-col-title tinggi">&#x1F528; Mata Pencaharian</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F9D1;&#x200D;&#x1F33E;</span><span><strong>Petani sayur &amp; buah</strong> &#x2014; wortel, kentang, kubis, stroberi, tomat</span></li>
+              <li><span class="pl-em">&#x1F375;</span><span><strong>Pekebun teh &amp; kopi</strong> &#x2014; teh tumbuh subur di tanah dingin</span></li>
+              <li><span class="pl-em">&#x1F42E;</span><span><strong>Peternak sapi &amp; domba</strong> &#x2014; padang rumput alami tersedia</span></li>
+              <li><span class="pl-em">&#x1F3DE;&#xFE0F;</span><span><strong>Wisata alam</strong> &#x2014; pemandu pendakian, penginapan, agrowisata</span></li>
+              <li><span class="pl-em">&#x1F9F6;</span><span><strong>Kerajinan tangan</strong> &#x2014; anyaman bambu, tenun, produk kayu</span></li>
+            </ul>
+          </div>
+          <div class="profil-col">
+            <div class="profil-col-title tinggi">&#x1F3E0; Ciri Kehidupan</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F3DA;&#xFE0F;</span><span><strong>Rumah dari bambu dan kayu</strong> &#x2014; bahan mudah didapat, hangat, dan kuat</span></li>
+              <li><span class="pl-em">&#x1F9E5;</span><span><strong>Pakaian tebal</strong> &#x2014; suhu bisa turun sampai 10&deg;C di malam hari</span></li>
+              <li><span class="pl-em">&#x1F35C;</span><span><strong>Makanan bergizi tinggi</strong> &#x2014; sayuran segar, umbi-umbian, olahan susu</span></li>
+              <li><span class="pl-em">&#x1F91D;</span><span><strong>Gotong royong kuat</strong> &#x2014; ladang luas dikerjakan bersama</span></li>
+              <li><span class="pl-em">&#x1F334;</span><span><strong>Akrab dengan alam</strong> &#x2014; tahu cuaca, musim tanam, dan tanda-tanda alam</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="wcard-jabar">
+          <span class="ji">&#x2B50;</span>
+          <div><strong>Di Jawa Barat:</strong> Bandung, Lembang, Garut, Cianjur, Sukabumi (pegunungan) adalah sentra perkebunan teh, sayuran, dan susu sapi. Dataran Tinggi Bandung dikenal sebagai &ldquo;Parisnya Jawa&rdquo; &#x2014; kota pegunungan yang sejuk dan subur.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs hijau">
+      <div class="fi">&#x1F375;</div>
+      <div class="ft"><strong>Teh dari Puncak &amp; Garut &#x2014; Produk Andalan Jawa Barat!</strong>
+        Kebun teh di Jawa Barat tersebar dari Puncak, Cianjur, Bandung, hingga Garut. Indonesia adalah salah satu produsen teh terbesar dunia, dan sebagian besar teh Indonesia tumbuh di pegunungan Jawa Barat! Teh bisa tumbuh di sini karena kondisi alamnya sempurna: tanah vulkanik subur, suhu sejuk, curah hujan tinggi, dan kabut yang menjaga kelembapan daun teh.</div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ====== BAGIAN 3: DATARAN RENDAH ====== -->
+    <div id="rendah" style="scroll-margin-top:112px;" class="section-label">Wilayah 2</div>
+    <h2 class="section-title">&#x1F33E; Masyarakat di Dataran Rendah</h2>
+
+    <div class="wcard">
+      <div class="wcard-header rendah">
+        <div class="wh-icon">&#x1F33E;</div>
+        <div class="wh-text">
+          <h3>Dataran Rendah</h3>
+          <p>Ketinggian 0&#x2013;200 mdpl &#xB7; Tanah subur &amp; gembur &#xB7; Banyak sungai &#xB7; Suhu hangat &#xB7; Lahan luas</p>
+        </div>
+      </div>
+      <div class="wcard-body">
+        <div class="profil-grid">
+          <div class="profil-col">
+            <div class="profil-col-title rendah">&#x1F528; Mata Pencaharian</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F9D1;&#x200D;&#x1F33E;</span><span><strong>Petani sawah &amp; ladang</strong> &#x2014; padi, jagung, kedelai, tebu</span></li>
+              <li><span class="pl-em">&#x1F41F;</span><span><strong>Peternak &amp; pembudidaya ikan</strong> &#x2014; ikan tambak, lele, bandeng</span></li>
+              <li><span class="pl-em">&#x1F3ED;</span><span><strong>Buruh &amp; karyawan pabrik</strong> &#x2014; kawasan industri banyak di dataran rendah</span></li>
+              <li><span class="pl-em">&#x1F6D2;</span><span><strong>Pedagang</strong> &#x2014; pasar dan pusat perdagangan biasanya di sini</span></li>
+              <li><span class="pl-em">&#x1F697;</span><span><strong>Pengemudi &amp; jasa transportasi</strong> &#x2014; jalanan datar memudahkan mobilitas</span></li>
+            </ul>
+          </div>
+          <div class="profil-col">
+            <div class="profil-col-title rendah">&#x1F3E0; Ciri Kehidupan</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F3E0;</span><span><strong>Rumah dari bata &amp; beton</strong> &#x2014; material mudah didapat dari pabrik setempat</span></li>
+              <li><span class="pl-em">&#x1F4A7;</span><span><strong>Memanfaatkan sungai</strong> &#x2014; irigasi sawah, perikanan, bahkan transportasi</span></li>
+              <li><span class="pl-em">&#x1F35A;</span><span><strong>Makanan berbasis padi</strong> &#x2014; nasi jadi makanan pokok utama</span></li>
+              <li><span class="pl-em">&#x1F46B;</span><span><strong>Kepadatan penduduk lebih tinggi</strong> &#x2014; lahan datar mudah dibangun</span></li>
+              <li><span class="pl-em">&#x1F321;&#xFE0F;</span><span><strong>Suhu lebih panas</strong> &#x2014; pakaian tipis dan rumah berventilasi lebar</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="wcard-jabar">
+          <span class="ji">&#x2B50;</span>
+          <div><strong>Di Jawa Barat:</strong> <strong>Karawang</strong> adalah &ldquo;lumbung padi Jawa Barat&rdquo; sekaligus kawasan industri terbesar. <strong>Bekasi</strong> menjadi pusat industri dan perdagangan. <strong>Indramayu &amp; Cirebon</strong> adalah penghasil beras dan sentra perikanan tambak.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs oren">
+      <div class="fi">&#x1F33E;</div>
+      <div class="ft"><strong>Karawang &#x2014; Dari Sawah ke Pabrik!</strong>
+        Karawang punya sejarah menarik: dulu dikenal sepenuhnya sebagai daerah pertanian (lumbung padi). Namun seiring waktu, kawasan industri besar-besaran dibangun di atas lahan dataran rendah yang luas dan strategis itu. Kini Karawang adalah kawasan industri manufaktur terbesar di Asia Tenggara! Banyak warga yang dulunya petani kini bekerja sebagai buruh pabrik &#x2014; contoh nyata bagaimana <em>perkembangan daerah mengubah mata pencaharian masyarakat</em>.</div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ====== BAGIAN 4: PESISIR PANTAI ====== -->
+    <div id="pantai" style="scroll-margin-top:112px;" class="section-label">Wilayah 3</div>
+    <h2 class="section-title">&#x1F3D6;&#xFE0F; Masyarakat di Pesisir Pantai</h2>
+
+    <div class="wcard">
+      <div class="wcard-header pantai">
+        <div class="wh-icon">&#x1F3D6;&#xFE0F;</div>
+        <div class="wh-text">
+          <h3>Pesisir Pantai &amp; Tepi Laut</h3>
+          <p>Berbatasan langsung dengan laut &#xB7; Angin laut kuat &#xB7; Tanah berpasir &#xB7; Kaya hasil laut</p>
+        </div>
+      </div>
+      <div class="wcard-body">
+        <div class="profil-grid">
+          <div class="profil-col">
+            <div class="profil-col-title pantai">&#x1F528; Mata Pencaharian</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F3A3;</span><span><strong>Nelayan</strong> &#x2014; menangkap ikan, udang, cumi, lobster di laut</span></li>
+              <li><span class="pl-em">&#x1F9EA;</span><span><strong>Budidaya rumput laut &amp; kerang</strong> &#x2014; tambak di tepi pantai</span></li>
+              <li><span class="pl-em">&#x1F9C2;</span><span><strong>Petani garam</strong> &#x2014; memanfaatkan air laut dan sinar matahari</span></li>
+              <li><span class="pl-em">&#x1F3AD;</span><span><strong>Pariwisata</strong> &#x2014; penginapan, warung makan, penyewaan perahu</span></li>
+              <li><span class="pl-em">&#x1F4E6;</span><span><strong>Industri pelabuhan</strong> &#x2014; bongkar muat kapal, perdagangan antarpulau</span></li>
+            </ul>
+          </div>
+          <div class="profil-col">
+            <div class="profil-col-title pantai">&#x1F3E0; Ciri Kehidupan</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F3DA;&#xFE0F;</span><span><strong>Rumah panggung</strong> &#x2014; terangkat dari tanah untuk menghindari banjir pasang</span></li>
+              <li><span class="pl-em">&#x23F0;</span><span><strong>Ritme hidup ikut pasang-surut</strong> &#x2014; melaut saat cuaca baik, istirahat saat badai</span></li>
+              <li><span class="pl-em">&#x1F41F;</span><span><strong>Makanan berbasis ikan &amp; seafood</strong> &#x2014; ikan bakar, pepes, pindang</span></li>
+              <li><span class="pl-em">&#x1F6A2;</span><span><strong>Ahli berlayar</strong> &#x2014; membaca angin, ombak, dan bintang sejak kecil</span></li>
+              <li><span class="pl-em">&#x1F91D;</span><span><strong>Solidaritas tinggi</strong> &#x2014; melaut biasanya bersama kelompok</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="wcard-jabar">
+          <span class="ji">&#x2B50;</span>
+          <div><strong>Di Jawa Barat:</strong> <strong>Pangandaran</strong> adalah destinasi wisata pantai &amp; pusat nelayan di selatan Jabar. <strong>Pelabuhan Ratu (Sukabumi)</strong> dikenal sebagai penghasil ikan laut segar. <strong>Cirebon</strong> di pantai utara menjadi pelabuhan perdagangan penting sejak zaman kerajaan.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs cyan">
+      <div class="fi">&#x1F9ED;</div>
+      <div class="ft"><strong>Membaca Alam Tanpa Teknologi &#x2014; Kearifan Nelayan</strong>
+        Nelayan tradisional bisa memprediksi cuaca hanya dari warna langit, arah angin, dan tinggi ombak. Mereka tahu kapan musim ikan berlimpah dari posisi bintang. Pengetahuan ini diwariskan turun-temurun selama ratusan tahun &#x2014; jauh sebelum ada radar cuaca atau GPS! Ini adalah contoh nyata betapa <strong>alam membentuk pengetahuan dan kecerdasan manusia.</strong></div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ====== BAGIAN 5: PERKOTAAN ====== -->
+    <div id="kota" style="scroll-margin-top:112px;" class="section-label">Wilayah 4</div>
+    <h2 class="section-title">&#x1F3D9;&#xFE0F; Masyarakat di Perkotaan</h2>
+
+    <div class="wcard">
+      <div class="wcard-header kota">
+        <div class="wh-icon">&#x1F3D9;&#xFE0F;</div>
+        <div class="wh-text">
+          <h3>Daerah Perkotaan</h3>
+          <p>Pusat pemerintahan, perdagangan, &amp; industri &#xB7; Infrastruktur lengkap &#xB7; Penduduk padat</p>
+        </div>
+      </div>
+      <div class="wcard-body">
+        <div class="profil-grid">
+          <div class="profil-col">
+            <div class="profil-col-title kota">&#x1F528; Mata Pencaharian</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F4BC;</span><span><strong>Karyawan swasta &amp; PNS</strong> &#x2014; bekerja di kantor, bank, pemerintah</span></li>
+              <li><span class="pl-em">&#x1F4BB;</span><span><strong>Teknisi &amp; profesional</strong> &#x2014; dokter, guru, programmer, insinyur</span></li>
+              <li><span class="pl-em">&#x1F6D2;</span><span><strong>Pedagang &amp; wirausaha</strong> &#x2014; toko, restoran, jasa online</span></li>
+              <li><span class="pl-em">&#x1F697;</span><span><strong>Jasa transportasi</strong> &#x2014; ojek online, taksi, pengemudi logistik</span></li>
+              <li><span class="pl-em">&#x1F3ED;</span><span><strong>Buruh industri</strong> &#x2014; pabrik garmen, elektronik, makanan</span></li>
+            </ul>
+          </div>
+          <div class="profil-col">
+            <div class="profil-col-title kota">&#x1F3E0; Ciri Kehidupan</div>
+            <ul class="profil-list">
+              <li><span class="pl-em">&#x1F3E2;</span><span><strong>Gedung &amp; apartemen</strong> &#x2014; lahan terbatas, bangunan bertingkat ke atas</span></li>
+              <li><span class="pl-em">&#x23F0;</span><span><strong>Ritme hidup cepat</strong> &#x2014; jam kerja ketat, transportasi umum ramai</span></li>
+              <li><span class="pl-em">&#x1F35D;</span><span><strong>Makanan beragam</strong> &#x2014; dari restoran cepat saji sampai masakan daerah</span></li>
+              <li><span class="pl-em">&#x1F4F1;</span><span><strong>Bergantung pada teknologi</strong> &#x2014; pembayaran digital, belanja online</span></li>
+              <li><span class="pl-em">&#x1F91D;</span><span><strong>Lebih individual</strong> &#x2014; tidak selalu kenal tetangga, berbeda dari desa</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="wcard-jabar">
+          <span class="ji">&#x2B50;</span>
+          <div><strong>Di Jawa Barat:</strong> <strong>Kota Bandung</strong> adalah ibu kota Jawa Barat &#x2014; pusat pemerintahan, pendidikan, industri kreatif, dan fashion. <strong>Kota Bogor</strong> dikenal sebagai kota penelitian dan pendidikan (IPB, LIPI). <strong>Depok &amp; Bekasi</strong> adalah kota penyangga Jakarta yang berkembang pesat.</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ====== BAGIAN 6: KEARIFAN LOKAL ====== -->
+    <div id="kearifan" style="scroll-margin-top:112px;" class="section-label">Bagian Khusus</div>
+    <h2 class="section-title">&#x1F9D1;&#x200D;&#x1F33E; Kearifan Lokal &#x2014; Kebijaksanaan dari Alam</h2>
+
+    <p class="body-text"><strong>Kearifan lokal</strong> adalah pengetahuan, kebiasaan, dan tradisi yang lahir dari pengalaman panjang masyarakat berinteraksi dengan alam di sekitarnya. Kearifan lokal bisa berupa aturan adat, tradisi, cara bercocok tanam, atau pepatah bijak yang diwariskan turun-temurun.</p>
+
+    <div class="fs hijau">
+      <div class="fi">&#x1F9D1;&#x200D;&#x1F33E;</div>
+      <div class="ft"><strong>Orang Sunda &amp; Alam &#x2014; Sebuah Persahabatan Panjang</strong>
+        Masyarakat Sunda di Jawa Barat sejak lama dikenal sebagai <em>&ldquo;orang gunung&rdquo;</em> &#x2014; karena sebagian besar wilayahnya berupa pegunungan. Dari sinilah lahir filosofi hidup Sunda yang sangat menghargai alam: <em>&ldquo;Alam teu bisa dipaksa, kudu diajak gawé babarengan&rdquo;</em> (Alam tidak bisa dipaksa, harus diajak bekerja sama). Alam bukan musuh yang harus ditaklukkan, tapi sahabat yang harus dijaga.</div>
+    </div>
+
+    <div class="kl-grid">
+      <div class="kl-card">
+        <div class="kl-icon">&#x1F333;</div>
+        <div class="kl-name">Leuweung Kolot</div>
+        <div class="kl-desc">Kawasan hutan adat yang dijaga dan tidak boleh sembarangan ditebang. Berfungsi seperti hutan lindung modern yang menjaga sumber mata air dan ekosistem.</div>
+      </div>
+      <div class="kl-card">
+        <div class="kl-icon">&#x1F33E;</div>
+        <div class="kl-name">Seren Taun</div>
+        <div class="kl-desc">Upacara syukuran panen padi yang masih dirayakan di Kampung Adat Cigugur dan Ciptagelar. Bentuk rasa syukur masyarakat kepada alam atas hasil bumi yang melimpah.</div>
+      </div>
+      <div class="kl-card">
+        <div class="kl-icon">&#x1FAB5;</div>
+        <div class="kl-name">Rumah Bambu</div>
+        <div class="kl-desc">Sekitar 80% masyarakat Sunda tradisional membangun rumah dari bambu. Selain ramah lingkungan, bambu terbukti lebih tahan gempa karena sifatnya yang fleksibel.</div>
+      </div>
+      <div class="kl-card">
+        <div class="kl-icon">&#x1F9D1;&#x200D;&#x1F33E;</div>
+        <div class="kl-name">Ngertakeun Bumi</div>
+        <div class="kl-desc">Upacara tahunan masyarakat adat Sunda sebagai bentuk bersyukur dan menghormati alam (Gunung Lembang). Mengajarkan manusia untuk selaras dengan lingkungan.</div>
+      </div>
+      <div class="kl-card">
+        <div class="kl-icon">&#x26F0;&#xFE0F;</div>
+        <div class="kl-name">Tata Cara Berladang</div>
+        <div class="kl-desc">Petani Sunda mengenal waktu tanam berdasarkan musim dan posisi bintang. Mereka tidak menanam di waktu sembarangan agar hasil panen optimal.</div>
+      </div>
+      <div class="kl-card">
+        <div class="kl-icon">&#x1F91D;</div>
+        <div class="kl-name">Gotong Royong (Liliuran)</div>
+        <div class="kl-desc">Tradisi saling bantu dalam menggarap ladang secara bergantian antar-keluarga. Lahir dari kebutuhan alam yang mengharuskan kerja bersama agar ladang tergarap tepat waktu.</div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ====== BAGIAN 7: PERUBAHAN DAERAH ====== -->
+    <div id="perubahan" style="scroll-margin-top:112px;" class="section-label">Bagian Penutup</div>
+    <h2 class="section-title">&#x1F504; Perubahan Daerah &amp; Dampaknya pada Masyarakat</h2>
+
+    <p class="body-text">Kondisi alam tidak selalu berubah, tetapi <strong>cara manusia menggunakannya</strong> bisa berubah drastis. Perkembangan zaman membawa perubahan besar pada banyak daerah &#x2014; dan ini langsung memengaruhi kehidupan masyarakatnya.</p>
+
+    <div class="perubahan-row">
+      <div class="pr-before">
+        <div class="pr-label dulu">&#x23F3; DULU</div>
+        <div>Sawah dan ladang luas di Karawang, digarap ribuan petani turun-temurun</div>
+      </div>
+      <div class="pr-arrow">&#x27A1;&#xFE0F;</div>
+      <div class="pr-after">
+        <div class="pr-label kini">&#x1F4C5; KINI</div>
+        <div>Kawasan industri & pabrik besar berdiri di atasnya — petani beralih jadi buruh pabrik</div>
+      </div>
+    </div>
+    <div class="perubahan-row">
+      <div class="pr-before">
+        <div class="pr-label dulu">&#x23F3; DULU</div>
+        <div>Hutan lebat dan kampung kecil di sekitar Bogor dan Depok</div>
+      </div>
+      <div class="pr-arrow">&#x27A1;&#xFE0F;</div>
+      <div class="pr-after">
+        <div class="pr-label kini">&#x1F4C5; KINI</div>
+        <div>Perumahan padat, gedung perkantoran, dan pusat belanja menggantikan hutan</div>
+      </div>
+    </div>
+    <div class="perubahan-row">
+      <div class="pr-before">
+        <div class="pr-label dulu">&#x23F3; DULU</div>
+        <div>Pantai Pangandaran hanya dikenal warga lokal sebagai tempat nelayan</div>
+      </div>
+      <div class="pr-arrow">&#x27A1;&#xFE0F;</div>
+      <div class="pr-after">
+        <div class="pr-label kini">&#x1F4C5; KINI</div>
+        <div>Jadi destinasi wisata terkenal — nelayan kini juga membuka penginapan & tour boat</div>
+      </div>
+    </div>
+
+    <div class="fs ungu">
+      <div class="fi">&#x2696;&#xFE0F;</div>
+      <div class="ft"><strong>Perubahan Punya Dua Sisi</strong>
+        Perubahan daerah bisa membawa dampak <strong>positif</strong> &#x2014; lapangan kerja baru, kemudahan akses, dan peningkatan ekonomi. Tapi bisa juga membawa dampak <strong>negatif</strong> &#x2014; sawah hilang, budaya luntur, lingkungan rusak, dan masyarakat asli terpinggirkan. Tugas kita bersama adalah memastikan perubahan membawa lebih banyak kebaikan daripada kerusakan!</div>
+    </div>
+
+    <!-- RINGKASAN -->
+    <div class="ringkasan">
+      <h3>&#x1F4DD; Ringkasan &#x2014; Yang Penting Kamu Ingat!</h3>
+      <ul class="rl">
+        <li><div class="rn">1</div><div>Kondisi alam sangat memengaruhi kehidupan masyarakat: <strong>mata pencaharian, jenis rumah, makanan khas, dan budaya</strong> semuanya lahir dari penyesuaian manusia terhadap alamnya.</div></li>
+        <li><div class="rn">2</div><div>Masyarakat <strong>dataran tinggi</strong> umumnya bertani sayur &amp; berkebun teh, membangun rumah dari bambu, dan hidup sejuk di pegunungan. Di Jawa Barat: Bandung, Garut, Lembang.</div></li>
+        <li><div class="rn">3</div><div>Masyarakat <strong>dataran rendah</strong> banyak bertani sawah, bekerja di pabrik dan perdagangan. Di Jawa Barat: Karawang (lumbung padi &amp; industri), Indramayu, Cirebon.</div></li>
+        <li><div class="rn">4</div><div>Masyarakat <strong>pesisir pantai</strong> berprofesi sebagai nelayan, pembudidaya laut, atau pekerja wisata. Rumahnya sering berbentuk panggung. Di Jawa Barat: Pangandaran, Pelabuhan Ratu.</div></li>
+        <li><div class="rn">5</div><div><strong>Kearifan lokal</strong> adalah pengetahuan dan tradisi yang lahir dari pengalaman panjang manusia berinteraksi dengan alam. Contoh Sunda: Leuweung Kolot, Seren Taun, Rumah Bambu.</div></li>
+        <li><div class="rn">6</div><div><strong>Perubahan daerah</strong> (dari pertanian jadi industri, atau dari desa jadi kota) mengubah mata pencaharian masyarakat. Perubahan punya dampak positif dan negatif yang perlu dikelola dengan bijak.</div></li>
+      </ul>
+    </div>
+
+    <nav class="page-nav">
+      <a href="kondisi-alam.html" class="nav-btn nav-btn-outline">&#x2190; <span><span class="nav-label">Sub-materi Sebelumnya</span>Kondisi Alam</span></a>
+      <a href="kuis.html" class="nav-btn nav-btn-primary"><span><span class="nav-label">Selanjutnya</span>Kuis Bab 1</span> &#x2192;</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri &#xB7; Kelas 4 &#xB7; IPAS Semester 2 &nbsp;|&nbsp; Dibuat dengan &#x2764;&#xFE0F; untuk semangat belajar</p>
+  </footer>
+
+</body>
+</html>
