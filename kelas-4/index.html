@@ -3,437 +3,153 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Belajar Mandiri — Platform Belajar Siswa SD</title>
-  <meta name="description" content="Platform belajar mandiri untuk siswa SD Kelas 4 & 5 — materi ringkas, kuis interaktif, berbasis GitHub Pages, gratis tanpa daftar."/>
+  <title>Kelas 4 SD — Belajar Mandiri</title>
+  <meta name="description" content="Hub mata pelajaran Kelas 4 SD — Belajar Mandiri, Kurikulum Merdeka."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-  <style>
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; }
-
-:root {
-  --primary:     #1a6b72;
-  --primary-mid: #2a9aa4;
-  --primary-lt:  #e0f4f5;
-  --primary-pal: #f0fafb;
-  --sand:        #f7f3eb;
-  --sand-dk:     #ede8dc;
-  --white:       #ffffff;
-  --ink:         #1a1f2e;
-  --ink-mid:     #3d4460;
-  --ink-lt:      #6b7280;
-  --success:     #166534;
-  --success-lt:  #dcfce7;
-  --radius:      10px;
-  --radius-lg:   16px;
-  --shadow-sm:   0 2px 8px rgba(26,107,114,0.08);
-  --shadow:      0 4px 20px rgba(26,107,114,0.11);
-  --max-w:       980px;
-}
-
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--sand);
-  color: var(--ink);
-  line-height: 1.75;
-  overflow-x: hidden;
-}
-body::before {
-  content: '';
-  position: fixed; inset: 0; z-index: -1;
-  background:
-    radial-gradient(ellipse 70% 50% at 5% 15%,  rgba(42,154,164,0.06) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 70% at 95% 85%,  rgba(200,125,42,0.05) 0%, transparent 60%);
-  pointer-events: none;
-}
-a { text-decoration: none; color: inherit; }
-
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(18px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-/* ── HERO ── */
-.hero {
-  background: var(--primary);
-  position: relative; overflow: hidden;
-  padding: 80px 32px 92px;
-}
-.hero::after {
-  content: ''; position: absolute;
-  bottom: -1px; left: 0; right: 0; height: 56px;
-  background: var(--sand);
-  clip-path: ellipse(54% 100% at 50% 100%);
-}
-.hero-deco {
-  position: absolute; border-radius: 50%;
-  background: #fff; pointer-events: none;
-}
-.d1 { width:440px; height:440px; opacity:.05; top:-140px; right:-110px; }
-.d2 { width:210px; height:210px; opacity:.04; bottom:10px; left:-70px; }
-.d3 { width: 90px; height: 90px; opacity:.08; top:36px; left:18%; }
-
-.hero-inner {
-  position: relative; z-index: 1;
-  max-width: var(--max-w); margin: 0 auto; text-align: center;
-}
-.hero-eyebrow {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(255,255,255,0.10);
-  border: 1px solid rgba(255,255,255,0.22);
-  color: rgba(255,255,255,0.88);
-  font-size: 11.5px; font-weight: 700;
-  letter-spacing: 1.6px; text-transform: uppercase;
-  padding: 5px 16px; border-radius: 20px; margin-bottom: 22px;
-  animation: fadeUp 0.55s ease both;
-}
-.hero-eyebrow .dot { width:6px; height:6px; border-radius:50%; background:var(--primary-mid); }
-.hero-title {
-  font-family: 'Lora', serif;
-  font-size: clamp(28px, 5.5vw, 54px);
-  font-weight: 700; color: #fff; line-height: 1.15; margin-bottom: 18px;
-  animation: fadeUp 0.55s 0.08s ease both;
-}
-.hero-title em { font-style: italic; color: #7dd8de; }
-.hero-sub {
-  font-size: clamp(14px, 2vw, 16.5px); color: rgba(255,255,255,0.68);
-  max-width: 560px; margin: 0 auto 36px; font-weight: 400;
-  animation: fadeUp 0.55s 0.16s ease both;
-}
-.hero-tags {
-  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
-  animation: fadeUp 0.55s 0.24s ease both;
-}
-.hero-tag {
-  background: rgba(255,255,255,0.09);
-  border: 1px solid rgba(255,255,255,0.16);
-  color: rgba(255,255,255,0.80);
-  font-size: 12px; font-weight: 500; padding: 4px 13px; border-radius: 20px;
-}
-
-/* ── NAVBAR ── */
-.navbar {
-  background: var(--white); box-shadow: var(--shadow-sm);
-  position: sticky; top: 0; z-index: 200;
-  border-bottom: 2px solid var(--primary-lt);
-}
-.navbar-inner {
-  max-width: var(--max-w); margin: 0 auto; padding: 0 28px;
-  display: flex; align-items: center; gap: 4px;
-}
-.nav-logo {
-  font-family: 'Lora', serif; font-weight: 700; font-size: 15px;
-  color: var(--primary); white-space: nowrap;
-  padding: 15px 22px 15px 0;
-  border-right: 1.5px solid var(--sand-dk); margin-right: 8px; flex-shrink: 0;
-}
-.nav-link {
-  font-size: 13px; font-weight: 600; color: var(--ink-mid);
-  padding: 15px 14px; white-space: nowrap;
-  border-bottom: 2px solid transparent;
-  transition: color 0.18s, border-color 0.18s;
-}
-.nav-link:hover { color: var(--primary); border-bottom-color: var(--primary-mid); }
-
-/* ── PAGE ── */
-.page { max-width: var(--max-w); margin: 0 auto; padding: 60px 28px 100px; }
-
-.section-label {
-  font-size: 10.5px; font-weight: 700;
-  letter-spacing: 1.8px; text-transform: uppercase;
-  color: var(--primary-mid); margin-bottom: 6px;
-}
-.section-title {
-  font-family: 'Lora', serif;
-  font-size: clamp(20px, 3vw, 28px);
-  font-weight: 700; color: var(--ink); line-height: 1.25; margin-bottom: 10px;
-}
-.section-desc { font-size: 14.5px; color: var(--ink-lt); max-width: 600px; margin-bottom: 28px; }
-
-/* ── KELAS CARDS ── */
-.kelas-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px; margin-bottom: 56px;
-}
-.kelas-card {
-  background: var(--white); border: 1.5px solid var(--sand-dk);
-  border-radius: var(--radius-lg); overflow: hidden;
-  box-shadow: var(--shadow-sm); display: flex; flex-direction: column;
-  transition: border-color 0.18s, box-shadow 0.2s, transform 0.2s;
-  animation: fadeUp 0.45s ease both;
-}
-.kelas-card:hover { border-color: var(--primary-mid); box-shadow: var(--shadow); transform: translateY(-4px); }
-.kelas-card:nth-child(1) { animation-delay: 0.05s; }
-.kelas-card:nth-child(2) { animation-delay: 0.12s; }
-
-.kelas-card-header {
-  background: var(--primary); padding: 28px 24px 24px;
-  position: relative; overflow: hidden;
-}
-.kelas-card-header.muted { background: var(--ink-mid); }
-.kelas-card-header::before {
-  content: ''; position: absolute; border-radius: 50%;
-  width: 160px; height: 160px; background: #fff; opacity:.05; top:-50px; right:-40px;
-}
-.kelas-card-header::after {
-  content: ''; position: absolute; border-radius: 50%;
-  width: 80px; height: 80px; background: #fff; opacity:.04; bottom:-25px; left:20px;
-}
-.kelas-num {
-  font-family: 'Lora', serif; font-size: 12px; font-weight: 700;
-  color: rgba(255,255,255,0.65); letter-spacing: 1px;
-  text-transform: uppercase; margin-bottom: 6px;
-}
-.kelas-card-header h3 {
-  font-family: 'Lora', serif; font-size: 22px; font-weight: 700;
-  color: #fff; line-height: 1.2; position: relative; z-index: 1;
-}
-.kelas-card-header h3 em { font-style: italic; color: #7dd8de; }
-.kelas-card-header.muted h3 em { color: rgba(255,255,255,0.45); }
-
-.kelas-card-body { padding: 18px 22px 16px; flex: 1; }
-.kelas-card-body p { font-size: 13.5px; color: var(--ink-lt); margin-bottom: 16px; line-height: 1.6; }
-.mapel-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
-.mapel-tag {
-  font-size: 11px; font-weight: 700;
-  background: var(--sand); color: var(--ink-mid);
-  border: 1.5px solid var(--sand-dk); padding: 3px 10px; border-radius: 6px;
-}
-.mapel-tag.on { background: var(--primary-pal); color: var(--primary); border-color: var(--primary-lt); }
-
-.kelas-card-footer {
-  padding: 14px 22px 18px; border-top: 1.5px solid var(--sand-dk);
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
-}
-.kelas-status {
-  font-size: 11.5px; font-weight: 700;
-  display: flex; align-items: center; gap: 6px;
-}
-.status-dot { width:7px; height:7px; border-radius:50%; flex-shrink: 0; }
-.status-dot.on  { background: #22c55e; }
-.status-dot.off { background: var(--sand-dk); }
-.kelas-status.aktif { color: var(--success); }
-.kelas-status.belum { color: var(--ink-lt); }
-
-.btn-masuk {
-  font-family: 'Nunito', sans-serif; font-size: 13px; font-weight: 800;
-  padding: 9px 20px; border-radius: var(--radius); border: none; cursor: pointer;
-  display: inline-flex; align-items: center; gap: 6px;
-  transition: opacity 0.18s, transform 0.18s;
-}
-.btn-masuk:hover { opacity:.85; transform: translateY(-1px); }
-.btn-masuk.primary { background: var(--primary); color: #fff; }
-.btn-masuk.disabled {
-  background: var(--sand-dk); color: var(--ink-lt);
-  cursor: not-allowed; pointer-events: none;
-}
-
-/* ── CARA BELAJAR ── */
-.steps-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px; margin-top: 4px;
-}
-.step-card {
-  background: var(--white); border: 1.5px solid var(--sand-dk);
-  border-radius: var(--radius); padding: 22px 20px;
-  box-shadow: var(--shadow-sm); animation: fadeUp 0.45s ease both;
-}
-.step-card:nth-child(1) { animation-delay: 0.05s; }
-.step-card:nth-child(2) { animation-delay: 0.10s; }
-.step-card:nth-child(3) { animation-delay: 0.15s; }
-.step-card:nth-child(4) { animation-delay: 0.20s; }
-.step-num {
-  font-family: 'Lora', serif; font-size: 28px; font-weight: 700;
-  color: var(--primary-lt); line-height: 1; margin-bottom: 12px;
-}
-.step-card h4 { font-size: 14.5px; font-weight: 800; color: var(--ink); margin-bottom: 6px; }
-.step-card p  { font-size: 13px; color: var(--ink-lt); line-height: 1.6; }
-
-/* ── DIVIDER ── */
-.divider { border: none; border-top: 1.5px solid var(--sand-dk); margin: 52px 0; }
-
-/* ── FOOTER ── */
-.site-footer { background: var(--ink); color: rgba(255,255,255,0.55); }
-.footer-inner {
-  max-width: var(--max-w); margin: 0 auto; padding: 48px 28px 36px;
-  display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: start;
-}
-.footer-brand h3 {
-  font-family: 'Lora', serif; font-size: 17px; font-weight: 700;
-  color: #fff; margin-bottom: 8px;
-}
-.footer-brand p { font-size: 13px; max-width: 360px; line-height: 1.7; }
-.footer-links { display: flex; flex-direction: column; gap: 8px; text-align: right; }
-.footer-links a { font-size: 13px; color: rgba(255,255,255,0.55); transition: color 0.18s; }
-.footer-links a:hover { color: #fff; }
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.10);
-  padding: 14px 28px; max-width: var(--max-w); margin: 0 auto; width: 100%;
-  display: flex; justify-content: space-between;
-  font-size: 11.5px; flex-wrap: wrap; gap: 8px;
-}
-.footer-bottom a { color: rgba(255,255,255,0.55); }
-.footer-bottom a:hover { color: #fff; }
-
-@media (max-width: 640px) {
-  .hero { padding: 56px 20px 72px; }
-  .page { padding: 36px 18px 72px; }
-  .footer-inner { grid-template-columns: 1fr; }
-  .footer-links { text-align: left; }
-  .kelas-grid { grid-template-columns: 1fr; }
-  .steps-grid { grid-template-columns: 1fr 1fr; }
-}
-  </style>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
 </head>
 <body>
 
+  <!-- ── HERO ── -->
   <header class="hero">
     <div class="hero-deco d1"></div>
     <div class="hero-deco d2"></div>
     <div class="hero-deco d3"></div>
     <div class="hero-inner">
       <div class="hero-eyebrow">
-        <span class="dot"></span>Platform Belajar Mandiri · SD Kurikulum Merdeka
+        <span class="dot"></span>Belajar Mandiri · SD Kurikulum Merdeka
       </div>
-      <h1 class="hero-title">Belajar itu<br><em>Menyenangkan!</em></h1>
-      <p class="hero-sub">
-        Materi pelajaran ringkas dan kuis latihan interaktif untuk siswa SD —
-        gratis, tanpa daftar akun, bisa diakses kapan saja.
-      </p>
+      <h1 class="hero-title">Kelas 4 SD —<br><em>Pilih Mata Pelajaran</em></h1>
+      <p class="hero-sub">Semua mata pelajaran Kelas 4 tersedia di sini. Pilih pelajaran yang ingin kamu pelajari, baca materinya, lalu kerjakan kuis latihannya.</p>
       <div class="hero-tags">
-        <span class="hero-tag">📖 Materi Ringkas</span>
-        <span class="hero-tag">🎯 Kuis Interaktif</span>
-        <span class="hero-tag">✅ Gratis &amp; Tanpa Akun</span>
-        <span class="hero-tag">📱 HP &amp; Laptop</span>
-        <span class="hero-tag">🎒 Kelas 4 &amp; 5 SD</span>
+        <span class="hero-tag">🕌 Al-Islam</span>
+        <span class="hero-tag">🇮🇩 Pancasila</span>
+        <span class="hero-tag">📝 Bhs. Indonesia</span>
+        <span class="hero-tag">🔢 Matematika</span>
+        <span class="hero-tag">🔬 IPAS</span>
+        <span class="hero-tag">🇬🇧 Bhs. Inggris</span>
       </div>
     </div>
   </header>
 
+  <!-- ── NAVBAR ── -->
   <nav class="navbar">
     <div class="navbar-inner">
-      <div class="nav-logo">Belajar Mandiri</div>
-      <a href="#kelas" class="nav-link">Pilih Kelas</a>
-      <a href="#cara"  class="nav-link">Cara Belajar</a>
-      <a href="https://github.com/siswacerdas/belajar-mandiri"
-         class="nav-link" target="_blank">GitHub ↗</a>
+      <div class="nav-logo">
+        <a href="../index.html">Belajar Mandiri</a>
+      </div>
+      <a href="../index.html" class="nav-link">Beranda</a>
+      <a href="#" class="nav-link active">Kelas 4</a>
+      <div class="nav-breadcrumb">
+        <a href="../index.html">Beranda</a>
+        <span class="sep">›</span>
+        <strong>Kelas 4</strong>
+      </div>
     </div>
   </nav>
 
+  <!-- ── KONTEN ── -->
   <main class="page">
 
-    <section id="kelas">
-      <div class="section-label">Mulai dari Sini</div>
-      <h2 class="section-title">Pilih Kelas</h2>
+    <!-- Mapel Inti -->
+    <section style="margin-bottom: 44px;">
+      <div class="section-label">Mata Pelajaran Utama</div>
+      <h2 class="section-title">Pelajaran Kelas 4</h2>
       <p class="section-desc">
-        Klik kelas yang sesuai untuk melihat semua mata pelajaran yang tersedia.
+        Klik kartu untuk memulai belajar.
+        Titik <span style="display:inline-block;width:7px;height:7px;background:#22c55e;border-radius:50%;vertical-align:middle;"></span> hijau berarti materi sudah tersedia.
       </p>
 
-      <div class="kelas-grid">
+      <div class="mapel-grid">
 
-        <!-- Kelas 4 — aktif -->
-        <div class="kelas-card">
-          <div class="kelas-card-header">
-            <div class="kelas-num">Kelas</div>
-            <h3>4 SD — <em>Tersedia</em></h3>
-          </div>
-          <div class="kelas-card-body">
-            <p>Materi dan kuis untuk siswa Kelas 4 SD. Saat ini fokus pada mata pelajaran IPAS Semester 2.</p>
-            <div class="mapel-tags">
-              <span class="mapel-tag on">🔬 IPAS</span>
-              <span class="mapel-tag">🕌 Al-Islam</span>
-              <span class="mapel-tag">🇮🇩 Pancasila</span>
-              <span class="mapel-tag">📝 Bhs. Indonesia</span>
-              <span class="mapel-tag">🔢 Matematika</span>
-              <span class="mapel-tag">🇬🇧 Bhs. Inggris</span>
-              <span class="mapel-tag">🌿 Bhs. Sunda</span>
-              <span class="mapel-tag">☀️ Kemuhammadiyahan</span>
-              <span class="mapel-tag">🌙 Bhs. Arab</span>
-            </div>
-          </div>
-          <div class="kelas-card-footer">
-            <span class="kelas-status aktif">
-              <span class="status-dot on"></span>IPAS Tersedia
-            </span>
-            <a href="kelas-4/index.html" class="btn-masuk primary">Masuk Kelas 4 →</a>
-          </div>
-        </div>
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🕌</div>
+          <div class="mapel-name">Al-Islam</div>
+          <div class="status-dot off"></div>
+        </a>
 
-        <!-- Kelas 5 — belum -->
-        <div class="kelas-card" style="opacity:.72">
-          <div class="kelas-card-header muted">
-            <div class="kelas-num">Kelas</div>
-            <h3>5 SD — <em>Menyusul</em></h3>
-          </div>
-          <div class="kelas-card-body">
-            <p>Materi Kelas 5 akan mulai dikembangkan setelah konten Kelas 4 selesai.</p>
-            <div class="mapel-tags">
-              <span class="mapel-tag">🔬 IPAS</span>
-              <span class="mapel-tag">📝 Bhs. Indonesia</span>
-              <span class="mapel-tag">🔢 Matematika</span>
-              <span class="mapel-tag">🇬🇧 Bhs. Inggris</span>
-              <span class="mapel-tag">+ lainnya</span>
-            </div>
-          </div>
-          <div class="kelas-card-footer">
-            <span class="kelas-status belum">
-              <span class="status-dot off"></span>Belum tersedia
-            </span>
-            <span class="btn-masuk disabled">Segera Hadir</span>
-          </div>
-        </div>
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🇮🇩</div>
+          <div class="mapel-name">Pendidikan Pancasila</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="bahasa-indonesia/index.html" class="mapel-card active">
+          <div class="mapel-emoji">📝</div>
+          <div class="mapel-name">Bahasa Indonesia</div>
+          <div class="status-dot on" title="Tersedia"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🔢</div>
+          <div class="mapel-name">Matematika</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="ipas/index.html" class="mapel-card active">
+          <div class="mapel-emoji">🔬</div>
+          <div class="mapel-name">IPAS</div>
+          <div class="status-dot on" title="Tersedia"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🇬🇧</div>
+          <div class="mapel-name">Bahasa Inggris</div>
+          <div class="status-dot off"></div>
+        </a>
 
       </div>
     </section>
 
     <hr class="divider"/>
 
-    <section id="cara">
-      <div class="section-label">Panduan</div>
-      <h2 class="section-title">Cara Belajar di Sini</h2>
-      <p class="section-desc">Cukup 4 langkah — tidak perlu daftar, tidak perlu login.</p>
-      <div class="steps-grid">
-        <div class="step-card">
-          <div class="step-num">01</div>
-          <h4>Pilih Kelas &amp; Mapel</h4>
-          <p>Pilih kelasmu dan mata pelajaran yang ingin dipelajari hari ini.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-num">02</div>
-          <h4>Pilih Bab</h4>
-          <p>Pilih bab sesuai materi yang sedang dipelajari di sekolah.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-num">03</div>
-          <h4>Baca Materi</h4>
-          <p>Pelajari ringkasan materi dengan bahasa yang mudah dipahami.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-num">04</div>
-          <h4>Kerjakan Kuis</h4>
-          <p>Uji pemahamanmu dengan soal latihan dan lihat hasilnya langsung.</p>
-        </div>
+    <!-- Mapel Muatan Lokal & ISMUBA -->
+    <section>
+      <div class="section-label">Muatan Lokal &amp; ISMUBA</div>
+      <h2 class="section-title">Mata Pelajaran Lainnya</h2>
+      <p class="section-desc">Mata pelajaran tambahan yang juga dipelajari di kelas 4.</p>
+
+      <div class="mapel-grid">
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🌿</div>
+          <div class="mapel-name">Bahasa Sunda</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">☀️</div>
+          <div class="mapel-name">Kemuhammadiyahan</div>
+          <div class="status-dot off"></div>
+        </a>
+
+        <a href="#" class="mapel-card">
+          <div class="mapel-emoji">🌙</div>
+          <div class="mapel-name">Bahasa Arab</div>
+          <div class="status-dot off"></div>
+        </a>
+
       </div>
     </section>
 
   </main>
 
+  <!-- ── FOOTER ── -->
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <h3>Belajar Mandiri</h3>
-        <p>Platform belajar mandiri untuk siswa SD berbasis GitHub Pages — materi ringkas, kuis interaktif, dan gratis tanpa daftar akun.</p>
+        <p>Platform belajar mandiri untuk siswa SD berbasis GitHub Pages — materi ringkas, kuis interaktif, dan gratis.</p>
       </div>
       <div class="footer-links">
-        <a href="kelas-4/index.html">Kelas 4</a>
-        <a href="kelas-4/ipas/index.html">IPAS Kelas 4</a>
+        <a href="../index.html">Beranda</a>
+        <a href="#">Kelas 4</a>
         <a href="https://github.com/siswacerdas/belajar-mandiri" target="_blank">GitHub Repository ↗</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Belajar Mandiri · SD Kurikulum Merdeka · 2025</span>
+      <span>Belajar Mandiri · Kelas 4 SD · Kurikulum Merdeka</span>
       <span>Lisensi <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></span>
     </div>
   </footer>
