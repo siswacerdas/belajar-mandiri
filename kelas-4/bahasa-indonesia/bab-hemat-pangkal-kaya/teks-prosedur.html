@@ -1,1 +1,759 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memahami Teks Prosedur — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#0d9488;--bab-mid:#14b8a6;--bab-lt:#ccfbf1;--bab-pal:#f0fdfa;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    /* NAVBAR */
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    /* JUMP NAV */
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#0d9488,#065f46);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#a7f3d0;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    /* CONTENT */
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    /* INTRO BOX */
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(13,148,136,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* CIRI CARD */
+    .ciri-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;margin:1rem 0 1.5rem;}
+    .ciri-card{background:#fff;border-radius:12px;padding:1rem 1.2rem;box-shadow:0 2px 10px rgba(0,0,0,.05);border-left:4px solid var(--bab);}
+    .ciri-icon{font-size:1.6rem;margin-bottom:.3rem;}
+    .ciri-title{font-family:"Lora",serif;font-size:.98rem;font-weight:700;color:var(--bab);margin-bottom:.3rem;}
+    .ciri-desc{font-size:.87rem;color:var(--ink-mid,#3d4460);line-height:1.5;}
+
+    /* STRUKTUR */
+    .struktur-wrap{background:#fff;border-radius:14px;padding:1.25rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:1rem 0 1.5rem;}
+    .struktur-item{display:flex;gap:1rem;padding:.75rem 0;border-bottom:1.5px dashed var(--sand-dk,#ede8dc);}
+    .struktur-item:last-child{border-bottom:none;}
+    .struktur-num{width:40px;height:40px;background:var(--bab-lt);color:var(--bab);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.05rem;flex-shrink:0;}
+    .struktur-text{flex:1;}
+    .struktur-text h4{font-family:"Lora",serif;font-size:1rem;font-weight:700;color:var(--bab);margin-bottom:.25rem;}
+    .struktur-text p{font-size:.9rem;color:var(--ink-mid,#3d4460);line-height:1.55;}
+
+    /* BACAAN BOX — adapted for prosedur */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#0f766e;}
+    .bacaan-header .b-icon{font-size:1.3rem;}
+    .bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body .judul-bacaan{font-family:"Lora",serif;font-weight:700;font-size:1.1rem;text-align:center;margin-bottom:1.1rem;color:var(--bab);}
+    .bacaan-body .tujuan-prosedur{background:var(--bab-pal);padding:.7rem 1rem;border-radius:10px;margin-bottom:1rem;font-size:.9rem;}
+    .bacaan-body .tujuan-prosedur strong{color:var(--bab);}
+
+    /* Bahan/Alat list */
+    .bahan-list{margin:.75rem 0 1rem;}
+    .bahan-title{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--bab);margin-bottom:.45rem;}
+    .bahan-list ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.25rem .8rem;}
+    .bahan-list li{position:relative;padding-left:1rem;font-size:.88rem;line-height:1.55;}
+    .bahan-list li::before{content:"▪";color:var(--bab);position:absolute;left:0;font-weight:800;}
+
+    /* Langkah-langkah */
+    .langkah-title{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--bab);margin:1rem 0 .55rem;}
+    .langkah-list{list-style:none;padding:0;counter-reset:lst;}
+    .langkah-list li{position:relative;padding:.55rem 0 .55rem 2.5rem;counter-increment:lst;font-size:.93rem;line-height:1.55;border-bottom:1px solid var(--sand-dk,#ede8dc);}
+    .langkah-list li:last-child{border-bottom:none;}
+    .langkah-list li::before{content:counter(lst);position:absolute;left:0;top:.5rem;width:26px;height:26px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.82rem;}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(13,148,136,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:100px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    /* KATA KERJA BOX */
+    .kkerja-box{background:#fff;border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;border-left:4px solid #f59e0b;}
+    .kkerja-title{font-family:"Lora",serif;font-size:.98rem;font-weight:700;color:#b45309;margin-bottom:.5rem;}
+    .kkerja-pills{display:flex;flex-wrap:wrap;gap:.4rem;}
+    .kkerja-pill{background:#fef3c7;color:#92400e;padding:.25rem .7rem;border-radius:50px;font-size:.82rem;font-weight:700;}
+
+    /* HIGHLIGHT */
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .hl-teal{background:var(--bab-lt);color:#065f46;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    /* FAKTA SERU */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#065f46;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    /* RINGKASAN */
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    /* KUIS CTA */
+    .kuis-cta{background:linear-gradient(135deg,#0d9488,#065f46);border-radius:18px;padding:1.5rem 1.75rem;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;text-decoration:none;margin-top:2.5rem;transition:transform .2s,box-shadow .2s;flex-wrap:wrap;}
+    .kuis-cta:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(13,148,136,.25);}
+    .kuis-left-cta{display:flex;align-items:center;gap:1rem;}
+    .kuis-icon-cta{width:54px;height:54px;background:rgba(255,255,255,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;}
+    .kuis-text-cta h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;margin-bottom:.2rem;}
+    .kuis-text-cta p{font-size:.85rem;opacity:.85;}
+    .kuis-btn-cta{background:#fff;color:var(--bab);padding:.6rem 1.3rem;border-radius:50px;font-weight:800;font-size:.88rem;white-space:nowrap;}
+
+    /* NAV */
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#0f766e;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .ciri-grid{grid-template-columns:1fr;}
+      .analisis-item{flex-direction:column;gap:.2rem;}
+      .analisis-item .a-label{min-width:auto;}
+      .back-nav{flex-direction:column;}
+      .kuis-cta{flex-direction:column;align-items:flex-start;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 5</a>
+      <span class="sep">»</span>
+      <span>Kompetensi D</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#ciri" class="jpill">🔍 Ciri-Ciri</a>
+      <a href="#struktur" class="jpill">🧱 Struktur</a>
+      <a href="#kkerja" class="jpill">⚡ Kata Kerja</a>
+      <a href="#bacaan1" class="jpill">📖 Contoh 1</a>
+      <a href="#bacaan2" class="jpill">📖 Contoh 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 5 · Kompetensi D</span>
+      <h1>Memahami <em>Teks Prosedur</em></h1>
+      <p class="hero-desc">Teks prosedur adalah teks yang berisi langkah-langkah untuk melakukan sesuatu. Pelajari ciri, struktur, dan cara membacanya dengan benar.</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <!-- INTRO -->
+    <div class="intro-box">
+      <p>Pernahkah kamu mengikuti <strong>resep masakan</strong> untuk membuat kue, atau membaca <strong>petunjuk</strong> cara memasang mainan baru? Itulah contoh teks prosedur dalam kehidupan sehari-hari.</p>
+      <p>Di halaman ini, kamu akan belajar mengenali <strong>teks prosedur</strong> — apa ciri-cirinya, bagaimana strukturnya, dan bagaimana memahaminya dengan baik.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: PENGERTIAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Teks Prosedur?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Teks prosedur</strong> adalah jenis teks yang berisi <strong>langkah-langkah</strong> atau <strong>cara-cara</strong> untuk melakukan sesuatu secara <strong>berurutan</strong>. Tujuannya adalah agar pembaca <em>bisa melakukan</em> sesuatu setelah membaca teks tersebut.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Teks prosedur sering kita temui dalam kehidupan sehari-hari, misalnya:</p>
+
+    <ul style="margin:0 0 1rem 1.5rem;font-size:.95rem;">
+      <li style="margin-bottom:.4rem;"><strong>Resep masakan</strong> — cara membuat nasi goreng, bolu, es buah</li>
+      <li style="margin-bottom:.4rem;"><strong>Petunjuk penggunaan</strong> — cara memakai printer, mencuci pakaian dengan mesin cuci</li>
+      <li style="margin-bottom:.4rem;"><strong>Panduan</strong> — cara menabung di bank, cara mengecek keaslian uang</li>
+      <li style="margin-bottom:.4rem;"><strong>Tutorial</strong> — cara membuat origami, cara mengikat tali sepatu</li>
+    </ul>
+
+    <div class="fs">
+      <div class="fi">💭</div>
+      <div class="ft">
+        <strong>Coba bayangkan!</strong>
+        Jika kamu ingin membuat kue bolu untuk ibumu, tapi tidak tahu cara membuatnya — kamu pasti akan membuka <em>buku resep</em>. Buku resep itu adalah contoh teks prosedur. Tanpa teks prosedur, banyak hal akan sulit kita lakukan dengan benar!
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: CIRI-CIRI -->
+    <!-- ════════════════════════════════ -->
+    <div id="ciri">
+      <div class="section-label">Mengenali Teks Prosedur</div>
+      <h2 class="section-title">4 Ciri Utama Teks Prosedur</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Kamu bisa mengenali sebuah teks prosedur dari ciri-cirinya berikut ini:</p>
+
+    <div class="ciri-grid">
+      <div class="ciri-card">
+        <div class="ciri-icon">🔢</div>
+        <div class="ciri-title">Berurutan</div>
+        <div class="ciri-desc">Langkah-langkahnya disusun secara <strong>berurutan</strong> dari awal sampai akhir. Tidak boleh dibalik!</div>
+      </div>
+
+      <div class="ciri-card">
+        <div class="ciri-icon">✂️</div>
+        <div class="ciri-title">Singkat &amp; Jelas</div>
+        <div class="ciri-desc">Menggunakan kalimat yang <strong>singkat, jelas,</strong> dan tidak bertele-tele — supaya mudah diikuti.</div>
+      </div>
+
+      <div class="ciri-card">
+        <div class="ciri-icon">⚡</div>
+        <div class="ciri-title">Banyak Kata Perintah</div>
+        <div class="ciri-desc">Menggunakan <strong>kata kerja perintah</strong> seperti: <em>ambil, tuang, aduk, masak, lipat, rapikan</em>.</div>
+      </div>
+
+      <div class="ciri-card">
+        <div class="ciri-icon">🎯</div>
+        <div class="ciri-title">Bertujuan Jelas</div>
+        <div class="ciri-desc">Ada <strong>hasil akhir</strong> yang jelas — misalnya: kue selesai dibuat, mainan terpasang, atau mesin menyala.</div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: STRUKTUR -->
+    <!-- ════════════════════════════════ -->
+    <div id="struktur">
+      <div class="section-label">Bagian-bagian Teks Prosedur</div>
+      <h2 class="section-title">Struktur Teks Prosedur</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Teks prosedur biasanya terdiri dari <strong>tiga bagian utama</strong> yang tersusun seperti ini:</p>
+
+    <div class="struktur-wrap">
+      <div class="struktur-item">
+        <div class="struktur-num">1</div>
+        <div class="struktur-text">
+          <h4>Tujuan</h4>
+          <p>Bagian pembuka yang menjelaskan <strong>apa yang akan dibuat atau dilakukan</strong>. Biasanya berupa judul atau kalimat pengantar. Contoh: <em>"Cara Membuat Celengan dari Botol Bekas"</em>.</p>
+        </div>
+      </div>
+
+      <div class="struktur-item">
+        <div class="struktur-num">2</div>
+        <div class="struktur-text">
+          <h4>Bahan dan Alat</h4>
+          <p>Daftar <strong>bahan-bahan</strong> atau <strong>alat-alat</strong> yang diperlukan. Tidak semua teks prosedur memiliki bagian ini — misalnya pada petunjuk yang tidak memerlukan bahan.</p>
+        </div>
+      </div>
+
+      <div class="struktur-item">
+        <div class="struktur-num">3</div>
+        <div class="struktur-text">
+          <h4>Langkah-langkah</h4>
+          <p>Bagian utama yang berisi <strong>urutan tindakan</strong> yang harus dilakukan dari awal sampai selesai. Biasanya ditandai dengan angka (1, 2, 3…) atau kata urutan (pertama, kemudian, lalu, terakhir).</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: KATA KERJA -->
+    <!-- ════════════════════════════════ -->
+    <div id="kkerja">
+      <div class="section-label">Bahasa Teks Prosedur</div>
+      <h2 class="section-title">Kata Kerja Perintah</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Dalam teks prosedur, penulis menggunakan banyak <strong>kata kerja perintah</strong>. Kata-kata ini menyuruh pembaca melakukan tindakan tertentu. Berikut beberapa contohnya:</p>
+
+    <div class="kkerja-box">
+      <div class="kkerja-title">📝 Contoh Kata Kerja dalam Teks Prosedur</div>
+      <div class="kkerja-pills">
+        <span class="kkerja-pill">ambil</span>
+        <span class="kkerja-pill">siapkan</span>
+        <span class="kkerja-pill">tuang</span>
+        <span class="kkerja-pill">masukkan</span>
+        <span class="kkerja-pill">aduk</span>
+        <span class="kkerja-pill">campur</span>
+        <span class="kkerja-pill">potong</span>
+        <span class="kkerja-pill">cuci</span>
+        <span class="kkerja-pill">bilas</span>
+        <span class="kkerja-pill">lipat</span>
+        <span class="kkerja-pill">tekan</span>
+        <span class="kkerja-pill">tempel</span>
+        <span class="kkerja-pill">nyalakan</span>
+        <span class="kkerja-pill">matikan</span>
+        <span class="kkerja-pill">panaskan</span>
+        <span class="kkerja-pill">dinginkan</span>
+        <span class="kkerja-pill">rapikan</span>
+        <span class="kkerja-pill">simpan</span>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Selain kata kerja perintah, teks prosedur juga sering menggunakan <strong>kata penghubung urutan</strong> untuk menunjukkan langkah yang berjalan satu demi satu:</p>
+
+    <div class="kkerja-box" style="border-left-color:#0ea5e9;">
+      <div class="kkerja-title" style="color:#0369a1;">🔗 Kata Penghubung Urutan</div>
+      <div class="kkerja-pills">
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">pertama</span>
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">kemudian</span>
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">setelah itu</span>
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">lalu</span>
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">berikutnya</span>
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">selanjutnya</span>
+        <span class="kkerja-pill" style="background:#dbeafe;color:#1e40af;">terakhir</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 5: BACAAN 1 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Contoh Teks Prosedur 1</div>
+      <h2 class="section-title">Cara Membuat Celengan dari Botol Bekas</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Berikut contoh teks prosedur pertama. Perhatikan ketiga bagiannya!</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">📋</span>
+        <div>
+          <h3>Bacaan 1 — Celengan Botol Bekas</h3>
+          <div class="b-meta">Jenis: Teks Prosedur · Tema: Hemat Pangkal Kaya</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Cara Membuat Celengan dari Botol Bekas</p>
+
+        <div class="tujuan-prosedur">
+          <strong>🎯 Tujuan:</strong> Membuat celengan sederhana dari botol bekas agar kamu punya tempat untuk menabung uang koinmu di rumah.
+        </div>
+
+        <div class="bahan-list">
+          <div class="bahan-title">🧰 Alat dan Bahan</div>
+          <ul>
+            <li>1 botol plastik bekas (ukuran 1,5 liter)</li>
+            <li>Kertas warna-warni</li>
+            <li>Gunting</li>
+            <li>Lem kertas</li>
+            <li>Spidol</li>
+            <li>Cutter (minta bantuan orang dewasa)</li>
+          </ul>
+        </div>
+
+        <div class="langkah-title">🔢 Langkah-langkah</div>
+        <ol class="langkah-list">
+          <li><strong>Cuci</strong> botol plastik bekas sampai bersih, lalu keringkan.</li>
+          <li><strong>Minta</strong> bantuan orang dewasa untuk memotong bagian tengah atas botol dengan cutter, ukuran kira-kira 3 cm x 1 cm. Ini akan menjadi lubang tempat memasukkan koin.</li>
+          <li><strong>Bungkus</strong> badan botol dengan kertas warna-warni. Gunakan lem kertas agar menempel rapi.</li>
+          <li><strong>Hias</strong> bagian luar dengan spidol — misalnya menggambar bunga, bintang, atau tulisan "Tabunganku".</li>
+          <li><strong>Tutup</strong> botol rapat-rapat. Celenganmu siap digunakan!</li>
+          <li><strong>Mulai</strong> menabung dengan memasukkan uang koin melalui lubang yang sudah dibuat.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">✅ Analisis Bacaan 1</div>
+      <div class="analisis-item">
+        <span class="a-label">🎯 Tujuan</span>
+        <span class="a-answer">Membuat <span class="hl-teal">celengan dari botol bekas</span>.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">🧱 Struktur</span>
+        <span class="a-answer">Lengkap: <strong>Tujuan</strong> (kalimat pembuka) → <strong>Alat &amp; Bahan</strong> (6 item) → <strong>Langkah</strong> (6 langkah berurutan).</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">⚡ Kata Kerja</span>
+        <span class="a-answer"><span class="hl">Cuci, minta, bungkus, hias, tutup, mulai</span> — semua kata kerja perintah yang jelas.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">📖 Pesan</span>
+        <span class="a-answer">Barang bekas bisa <strong>didaur ulang</strong> menjadi sesuatu yang berguna. Hemat dimulai dari hal sederhana!</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 6: BACAAN 2 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Contoh Teks Prosedur 2</div>
+      <h2 class="section-title">Cara Mengecek Keaslian Uang Kertas</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Sekarang contoh teks prosedur yang lebih singkat — tanpa bahan, hanya langkah-langkah:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🔍</span>
+        <div>
+          <h3>Bacaan 2 — Cek Keaslian Uang</h3>
+          <div class="b-meta">Jenis: Teks Prosedur · Tema: Hemat Pangkal Kaya</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#0f766e;">Cara Mengecek Keaslian Uang Kertas Rupiah</p>
+
+        <div class="tujuan-prosedur" style="background:#f0fdfa;">
+          <strong style="color:#0f766e;">🎯 Tujuan:</strong> Memastikan uang kertas yang kamu miliki adalah uang asli yang dikeluarkan oleh Bank Indonesia. Ingatlah cara ini dengan singkatan <strong style="color:#0f766e;">3D: Dilihat, Diraba, Diterawang</strong>.
+        </div>
+
+        <div class="langkah-title" style="color:#0f766e;">🔢 Langkah-langkah</div>
+        <ol class="langkah-list" style="--bab:#0f766e;">
+          <li><strong>Dilihat:</strong> Perhatikan warna uang. Uang asli memiliki warna yang terang dan jelas, baik pada bagian depan maupun belakang. Ada gambar pahlawan yang tercetak tajam.</li>
+          <li><strong>Diraba:</strong> Sentuh permukaan uang dengan jari. Uang asli terasa agak kasar pada gambar utama, angka nominal, dan tulisan "Bank Indonesia".</li>
+          <li><strong>Diterawang:</strong> Arahkan uang ke cahaya. Kamu akan melihat gambar pahlawan yang tersembunyi sebagai tanda air, serta benang pengaman yang tertanam di dalam kertas.</li>
+          <li><strong>Bandingkan</strong> hasil pemeriksaanmu dengan contoh uang asli yang sudah kamu kenal. Jika ada perbedaan mencurigakan, segera laporkan kepada orang dewasa.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">✅ Analisis Bacaan 2</div>
+      <div class="analisis-item">
+        <span class="a-label">🎯 Tujuan</span>
+        <span class="a-answer">Mengecek <span class="hl-teal">keaslian uang kertas rupiah</span> dengan metode 3D.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">🧱 Struktur</span>
+        <span class="a-answer">Lebih sederhana: <strong>Tujuan</strong> → <strong>Langkah-langkah</strong>. Tidak ada bagian alat &amp; bahan karena tidak diperlukan.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">⚡ Kata Kerja</span>
+        <span class="a-answer"><span class="hl">Dilihat, diraba, diterawang, bandingkan</span> — kata kerja yang menunjukkan tindakan.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">📖 Pesan</span>
+        <span class="a-answer">Teliti sebelum menerima uang — <strong>3D</strong> (Dilihat, Diraba, Diterawang) mudah diingat dan dipraktikkan kapan saja.</span>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎓</div>
+      <div class="ft">
+        <strong>Perhatikan perbedaan kedua bacaan!</strong>
+        Bacaan 1 mempunyai <em>alat dan bahan</em> karena kita akan <strong>membuat</strong> sesuatu. Bacaan 2 tidak punya karena kita hanya <strong>memeriksa</strong> — tidak membutuhkan alat apa pun. Struktur teks prosedur bisa berbeda-beda tergantung isinya, tapi langkah-langkah berurutan selalu ada.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi D</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">📋</span>
+          <span><strong>Teks prosedur</strong> adalah teks yang berisi langkah-langkah untuk melakukan sesuatu secara berurutan.</span>
+        </li>
+        <li>
+          <span class="ri">🔍</span>
+          <span>Ciri-cirinya: <strong>berurutan</strong>, <strong>singkat &amp; jelas</strong>, banyak <strong>kata perintah</strong>, dan memiliki <strong>tujuan yang jelas</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">🧱</span>
+          <span>Struktur lengkap: <strong>Tujuan</strong> → <strong>Alat &amp; Bahan</strong> (kadang tidak ada) → <strong>Langkah-langkah</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">⚡</span>
+          <span>Banyak menggunakan <strong>kata kerja perintah</strong> (ambil, tuang, aduk) dan <strong>kata urutan</strong> (pertama, kemudian, lalu, terakhir).</span>
+        </li>
+        <li>
+          <span class="ri">📚</span>
+          <span>Contoh dalam kehidupan: <strong>resep masakan, petunjuk penggunaan, panduan, tutorial</strong>.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- KUIS CTA - Bab 5 Sudah Lengkap! -->
+    <a href="kuis.html" class="kuis-cta">
+      <div class="kuis-left-cta">
+        <div class="kuis-icon-cta">🎉</div>
+        <div class="kuis-text-cta">
+          <h3>Bab 5 Sudah Lengkap! Uji Seluruh Pemahamanmu</h3>
+          <p>Kamu sudah menyelesaikan 4 kompetensi Bab 5. Saatnya mengerjakan kuis untuk mengukur pemahamanmu secara menyeluruh!</p>
+        </div>
+      </div>
+      <div class="kuis-btn-cta">Mulai Kuis Bab 5 →</div>
+    </a>
+
+    <!-- ════════════════════════════════ -->
+    <!-- LATIHAN MANDIRI -->
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut. Jawaban akan langsung dinilai — jika ada yang kurang tepat, klik <strong>"Coba Lagi"</strong> untuk mencoba kembali!</p>
+
+    <!-- ── LATIHAN 1: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">1</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tujuan utama teks prosedur adalah...</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l1"><span>Menghibur pembaca dengan cerita menarik</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Menceritakan pengalaman pribadi penulis</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Menjelaskan langkah-langkah melakukan sesuatu</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Meyakinkan pembaca tentang pendapat tertentu</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Teks prosedur selalu bertujuan memberitahu pembaca <em>cara melakukan sesuatu</em> dengan langkah berurutan. Pilihan A adalah tujuan teks cerita, B adalah tujuan teks narasi pribadi, dan D adalah tujuan teks persuasi.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 2: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">2</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Bacaan 2 (Cara Mengecek Keaslian Uang)</strong>, metode "<strong>3D</strong>" adalah singkatan dari...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l2"><span>Dilihat, Dibaca, Dicium</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Dilihat, Diraba, Diterawang</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Dipegang, Dibalik, Dibandingkan</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Diamati, Dicuci, Disimpan</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>B. Dilihat, Diraba, Diterawang</strong>. Ketiga metode ini adalah cara sederhana yang dianjurkan Bank Indonesia untuk mengecek keaslian uang kertas rupiah.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 3: PG KOMPLEKS ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">3</span>
+        <span class="latihan-tipe">Pilihan Ganda Kompleks</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan <strong>ciri-ciri teks prosedur</strong>?</p>
+        <div class="latihan-opts" data-correct="0,2,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Langkah-langkah disusun secara berurutan</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Banyak menggunakan kata keterangan tempat</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menggunakan banyak kata kerja perintah</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Kalimat singkat, jelas, dan tidak bertele-tele</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A, C, dan D</strong>. Pilihan B salah — ciri khas teks prosedur bukan pada kata keterangan tempat, melainkan <em>kata kerja perintah</em> dan <em>kata urutan</em>.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 4: MENJODOHKAN ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">4</span>
+        <span class="latihan-tipe">Menjodohkan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>contoh teks</strong> berikut dengan <strong>bagian struktur teks prosedur</strong>-nya yang paling tepat:</p>
+        <div class="latihan-menjodohkan" data-correct="A,B,C,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Bagian</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Tujuan</span>
+              <span class="opt-item"><strong>B.</strong> Alat dan Bahan</span>
+              <span class="opt-item"><strong>C.</strong> Langkah-langkah</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">"Cara Membuat Es Buah Segar"</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">"1 kg gula pasir, 2 liter air matang, 1 sdm garam"</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">"Pertama, cuci buah sampai bersih. Kemudian, potong buah menjadi dadu kecil."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">"Pisau, mangkuk besar, sendok, dan kompor"</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Pasangan yang benar: <strong>1 → A</strong> (judul = tujuan), <strong>2 → B</strong> (daftar bahan), <strong>3 → C</strong> (langkah berurutan), <strong>4 → B</strong> (daftar alat). Bahan dan alat masuk di bagian yang sama.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 5: KATEGORI ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">5</span>
+        <span class="latihan-tipe">Kategori: Teks Prosedur / Bukan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah teks berikut termasuk <strong>teks prosedur</strong> atau <strong>bukan teks prosedur</strong>:</p>
+        <div class="latihan-kategori" data-correct="1,0,1,0">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> Sebuah resep membuat martabak manis dengan daftar bahan dan cara memasak dari awal sampai selesai.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Teks Prosedur</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Bukan</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> Cerita tentang seorang anak yang pergi berlibur ke Puncak bersama keluarganya.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Teks Prosedur</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Bukan</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> Petunjuk cara membuka rekening tabungan di bank — terdiri dari 5 langkah berurutan dari persiapan dokumen sampai menerima buku tabungan.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Teks Prosedur</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Bukan</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> Berita tentang kenaikan harga minyak goreng di pasar tradisional bulan ini.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Teks Prosedur</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Bukan</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban benar: <strong>1. Teks Prosedur</strong> (resep = teks prosedur klasik). <strong>2. Bukan</strong> (cerita liburan = teks narasi). <strong>3. Teks Prosedur</strong> (petunjuk dengan langkah berurutan). <strong>4. Bukan</strong> (berita = teks informasi).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="tujuan-pesan-penulis.html" class="nav-btn nav-btn-outline">← Kompetensi C</a>
+      <a href="materi.html" class="nav-btn nav-btn-filled">Kembali ke Bab 5 →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 5 Kompetensi D &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+
+</body>
+</html>
