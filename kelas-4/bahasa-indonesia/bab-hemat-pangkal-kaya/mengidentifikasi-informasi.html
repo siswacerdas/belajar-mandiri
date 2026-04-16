@@ -1,1 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mengidentifikasi Informasi Penting — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#0d9488;--bab-mid:#14b8a6;--bab-lt:#ccfbf1;--bab-pal:#f0fdfa;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    /* NAVBAR */
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    /* JUMP NAV */
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#0d9488,#065f46);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#a7f3d0;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    /* CONTENT */
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    /* INTRO BOX */
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(13,148,136,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* BACAAN BOX */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header .b-icon{font-size:1.3rem;}
+    .bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* ADIK SIMBA GRID */
+    .as-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.6rem;margin:1rem 0 1.5rem;}
+    .as-item{background:#fff;border:2px solid var(--bab-lt);border-radius:10px;padding:.65rem .8rem;text-align:center;}
+    .as-item .ai{font-size:1.3rem;margin-bottom:.2rem;}
+    .as-item .an{font-weight:800;font-size:.85rem;line-height:1.2;color:var(--bab);}
+    .as-item .al{font-size:.75rem;color:var(--ink-lt,#6b7280);margin-top:.2rem;}
+
+    /* CONTOH BOX */
+    .contoh-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;}
+    .contoh-box .contoh-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .contoh-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(13,148,136,.15);font-size:.93rem;}
+    .contoh-item:last-child{border-bottom:none;}
+    .contoh-item .q-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:90px;flex-shrink:0;}
+    .contoh-item .q-answer{color:var(--ink,#1a1f2e);}
+
+    /* HIGHLIGHT */
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    /* FAKTA SERU */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#065f46;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    /* RINGKASAN */
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    /* NAV */
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#0f766e;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .as-grid{grid-template-columns:repeat(3,1fr);}
+      .contoh-item{flex-direction:column;gap:.2rem;}
+      .contoh-item .q-label{min-width:auto;}
+      .back-nav{flex-direction:column;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 5</a>
+      <span class="sep">»</span>
+      <span>Kompetensi A</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Informasi Penting</a>
+      <a href="#adiksimba" class="jpill">🔤 ADiKSiMBa</a>
+      <a href="#bacaan1" class="jpill">📖 Bacaan 1</a>
+      <a href="#contoh1" class="jpill">✅ Contoh Penerapan</a>
+      <a href="#bacaan2" class="jpill">📖 Bacaan 2</a>
+      <a href="#contoh2" class="jpill">✅ Contoh Penerapan</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 5 · Kompetensi A</span>
+      <h1>Mengidentifikasi <em>Informasi Penting</em> dari Teks</h1>
+      <p class="hero-desc">Belajar menemukan informasi utama dalam sebuah bacaan menggunakan teknik pertanyaan ADiKSiMBa.</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <!-- INTRO -->
+    <div class="intro-box">
+      <p>Setiap kali kamu membaca sebuah teks — bisa berupa cerita, berita, atau pengumuman — ada <strong>informasi-informasi penting</strong> yang perlu kamu temukan. Informasi penting adalah inti dari apa yang disampaikan penulis.</p>
+      <p>Di halaman ini, kamu akan belajar cara menemukan informasi penting menggunakan teknik yang mudah diingat: <strong>ADiKSiMBa</strong>!</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: APA ITU INFORMASI PENTING -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa Itu Informasi Penting?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Informasi penting adalah <strong>hal-hal utama</strong> yang disampaikan dalam sebuah teks. Jika kamu membaca sebuah berita atau cerita, informasi penting adalah jawaban dari pertanyaan-pertanyaan dasar yang muncul saat membaca.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Bayangkan kamu membaca sebuah cerita, lalu temanmu bertanya: <em>"Ceritanya tentang apa?"</em> — nah, jawabanmu itulah informasi penting! Kamu tidak perlu menceritakan ulang semua kalimat, cukup hal-hal yang paling penting saja.</p>
+
+    <div class="fs">
+      <div class="fi">💡</div>
+      <div class="ft">
+        <strong>Mengapa penting bisa menemukan informasi utama?</strong>
+        Karena kemampuan ini membantumu memahami bacaan dengan cepat, merangkum isi teks, dan menceritakan kembali apa yang kamu baca kepada orang lain tanpa harus membaca ulang seluruh teks.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: ADiKSiMBa -->
+    <!-- ════════════════════════════════ -->
+    <div id="adiksimba">
+      <div class="section-label">Teknik Membaca</div>
+      <h2 class="section-title">Teknik ADiKSiMBa</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>ADiKSiMBa</strong> adalah singkatan dari enam pertanyaan yang bisa kamu gunakan untuk menemukan informasi penting dalam teks. Setiap huruf mewakili satu pertanyaan:</p>
+
+    <div class="as-grid">
+      <div class="as-item">
+        <div class="ai">🅰️</div>
+        <div class="an">Apa</div>
+        <div class="al">Apa yang terjadi?</div>
+      </div>
+      <div class="as-item">
+        <div class="ai">📍</div>
+        <div class="an">Di mana</div>
+        <div class="al">Di mana kejadiannya?</div>
+      </div>
+      <div class="as-item">
+        <div class="ai">🕐</div>
+        <div class="an">Kapan</div>
+        <div class="al">Kapan terjadi?</div>
+      </div>
+      <div class="as-item">
+        <div class="ai">👤</div>
+        <div class="an">Siapa</div>
+        <div class="al">Siapa yang terlibat?</div>
+      </div>
+      <div class="as-item">
+        <div class="ai">❓</div>
+        <div class="an">Mengapa</div>
+        <div class="al">Mengapa hal itu terjadi?</div>
+      </div>
+      <div class="as-item">
+        <div class="ai">🔧</div>
+        <div class="an">Bagaimana</div>
+        <div class="al">Bagaimana prosesnya?</div>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Caranya mudah: setelah membaca teks, coba jawab keenam pertanyaan di atas. Jika kamu bisa menjawab semuanya, berarti kamu sudah berhasil menemukan informasi penting dari teks tersebut!</p>
+
+    <div class="fs">
+      <div class="fi">🧠</div>
+      <div class="ft">
+        <strong>Tips mengingat ADiKSiMBa</strong>
+        Bayangkan kamu sedang mewawancarai seseorang. Wartawan selalu bertanya: <em>Apa, Di mana, Kapan, Siapa, Mengapa,</em> dan <em>Bagaimana</em>. Kalau kamu bisa menjawab pertanyaan-pertanyaan itu, kamu sudah jadi wartawan cilik yang hebat!
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: BACAAN 1 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Teks Bacaan 1</div>
+      <h2 class="section-title">Mari Membaca!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah teks berikut ini dengan saksama. Sambil membaca, coba pikirkan pertanyaan-pertanyaan ADiKSiMBa.</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">📖</span>
+        <div>
+          <h3>Bacaan 1 — Koperasi Sekolah</h3>
+          <div class="b-meta">Tema: Hemat Pangkal Kaya · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Koperasi Sekolah SD Cerdas Mandiri</p>
+        <p>SD Cerdas Mandiri yang terletak di Kota Bandung memiliki sebuah koperasi sekolah yang dikelola oleh guru dan siswa kelas 5 dan 6. Koperasi ini sudah berdiri sejak tahun 2019. Setiap hari Senin hingga Jumat, koperasi buka pada jam istirahat, yaitu pukul 09.30 hingga 10.00 WIB.</p>
+        <p>Koperasi sekolah ini menjual berbagai keperluan belajar seperti buku tulis, pensil, penghapus, penggaris, dan juga makanan ringan yang sehat. Harga barang di koperasi lebih murah dibandingkan toko di luar sekolah karena koperasi tidak mengambil keuntungan yang besar.</p>
+        <p>Bu Sari, guru pembimbing koperasi, menjelaskan bahwa tujuan didirikannya koperasi adalah untuk mengajarkan siswa tentang pentingnya menabung dan berhemat. Selain menjual barang, koperasi juga menerima tabungan siswa. Setiap siswa boleh menabung mulai dari Rp2.000,00 per hari. Tabungan bisa diambil saat kenaikan kelas atau saat ada keperluan mendesak.</p>
+        <p>Berkat koperasi sekolah, banyak siswa yang belajar mengelola uang jajan mereka dengan lebih bijak. Mereka tidak lagi menghabiskan semua uang jajan untuk membeli jajanan, tetapi menyisihkan sebagian untuk ditabung.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: CONTOH PENERAPAN 1 -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh1">
+      <div class="section-label">Contoh Penerapan</div>
+      <h2 class="section-title">Menerapkan ADiKSiMBa pada Bacaan 1</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Sekarang, mari kita cari informasi penting dari Bacaan 1 menggunakan teknik ADiKSiMBa:</p>
+
+    <div class="contoh-box">
+      <div class="contoh-title">✅ Informasi penting dari "Koperasi Sekolah SD Cerdas Mandiri"</div>
+
+      <div class="contoh-item">
+        <span class="q-label">🅰️ Apa?</span>
+        <span class="q-answer">SD Cerdas Mandiri memiliki <span class="hl">koperasi sekolah</span> yang menjual keperluan belajar dan menerima tabungan siswa.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">📍 Di mana?</span>
+        <span class="q-answer">Di <span class="hl">SD Cerdas Mandiri, Kota Bandung</span>.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">🕐 Kapan?</span>
+        <span class="q-answer">Koperasi sudah berdiri <span class="hl">sejak tahun 2019</span>. Buka setiap <span class="hl">Senin–Jumat, pukul 09.30–10.00 WIB</span> (jam istirahat).</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">👤 Siapa?</span>
+        <span class="q-answer">Dikelola oleh <span class="hl">guru dan siswa kelas 5 dan 6</span>. Guru pembimbing koperasi adalah <span class="hl">Bu Sari</span>.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">❓ Mengapa?</span>
+        <span class="q-answer">Untuk <span class="hl">mengajarkan siswa tentang pentingnya menabung dan berhemat</span>.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">🔧 Bagaimana?</span>
+        <span class="q-answer">Koperasi menjual barang dengan <span class="hl">harga lebih murah</span> dari toko luar. Siswa juga bisa <span class="hl">menabung mulai dari Rp2.000,00 per hari</span>. Tabungan bisa diambil saat kenaikan kelas.</span>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-top:1rem;">Perhatikan — dengan menjawab enam pertanyaan ADiKSiMBa, kamu sudah mendapatkan semua <strong>informasi penting</strong> dari teks tersebut! Sekarang kamu bisa menceritakan kembali isi bacaan itu kepada temanmu tanpa harus membaca ulang.</p>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 5: BACAAN 2 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Teks Bacaan 2</div>
+      <h2 class="section-title">Bacaan Kedua — Ayo Berlatih Lagi!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah teks di bawah ini, lalu perhatikan bagaimana ADiKSiMBa diterapkan.</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header" style="background:#0f766e;">
+        <span class="b-icon">📖</span>
+        <div>
+          <h3>Bacaan 2 — Bazar Amal Kelas 4</h3>
+          <div class="b-meta">Tema: Hemat Pangkal Kaya · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#0f766e;">Bazar Amal Kelas 4 untuk Korban Banjir</p>
+        <p>Pada hari Sabtu, 15 Maret 2025, siswa kelas 4A dan 4B SD Cerdas Mandiri mengadakan bazar amal di halaman sekolah. Bazar ini diselenggarakan untuk mengumpulkan dana bagi korban banjir di daerah Dayeuhkolot, Kabupaten Bandung.</p>
+        <p>Setiap siswa diminta membawa makanan atau minuman buatan sendiri untuk dijual. Rina dan teman-temannya menjual risoles buatan ibunya seharga Rp3.000,00 per buah. Kelompok Dafa menjual es cendol khas Bandung seharga Rp5.000,00 per gelas. Ada juga yang menjual kerajinan tangan seperti gantungan kunci dari manik-manik.</p>
+        <p>Bazar berlangsung dari pukul 08.00 hingga 12.00 WIB. Seluruh hasil penjualan dikumpulkan dan diserahkan kepada Pak Wali Kelas untuk disalurkan ke posko banjir. Total dana yang terkumpul mencapai Rp2.450.000,00. Siswa merasa senang karena bisa membantu orang lain meskipun dengan cara yang sederhana.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 6: CONTOH PENERAPAN 2 -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh2">
+      <div class="section-label">Contoh Penerapan</div>
+      <h2 class="section-title">Menerapkan ADiKSiMBa pada Bacaan 2</h2>
+    </div>
+
+    <div class="contoh-box">
+      <div class="contoh-title">✅ Informasi penting dari "Bazar Amal Kelas 4 untuk Korban Banjir"</div>
+
+      <div class="contoh-item">
+        <span class="q-label">🅰️ Apa?</span>
+        <span class="q-answer">Siswa kelas 4A dan 4B mengadakan <span class="hl">bazar amal</span> untuk mengumpulkan dana bagi korban banjir.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">📍 Di mana?</span>
+        <span class="q-answer">Di <span class="hl">halaman SD Cerdas Mandiri</span>. Dana disalurkan ke korban banjir di <span class="hl">Dayeuhkolot, Kabupaten Bandung</span>.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">🕐 Kapan?</span>
+        <span class="q-answer">Hari <span class="hl">Sabtu, 15 Maret 2025</span>, pukul <span class="hl">08.00–12.00 WIB</span>.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">👤 Siapa?</span>
+        <span class="q-answer"><span class="hl">Siswa kelas 4A dan 4B</span>. Disebutkan juga <span class="hl">Rina</span> dan <span class="hl">Dafa</span> beserta kelompoknya. Dana diserahkan kepada <span class="hl">Pak Wali Kelas</span>.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">❓ Mengapa?</span>
+        <span class="q-answer">Untuk <span class="hl">mengumpulkan dana bagi korban banjir</span> di Dayeuhkolot.</span>
+      </div>
+
+      <div class="contoh-item">
+        <span class="q-label">🔧 Bagaimana?</span>
+        <span class="q-answer">Setiap siswa <span class="hl">membawa makanan/minuman buatan sendiri untuk dijual</span>. Seluruh hasil penjualan dikumpulkan dan disalurkan ke posko banjir. Total dana <span class="hl">Rp2.450.000,00</span>.</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi A</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">📌</span>
+          <span><strong>Informasi penting</strong> adalah hal-hal utama yang disampaikan dalam sebuah teks — inti dari apa yang diceritakan penulis.</span>
+        </li>
+        <li>
+          <span class="ri">🔤</span>
+          <span><strong>ADiKSiMBa</strong> adalah teknik untuk menemukan informasi penting: <strong>A</strong>pa, <strong>Di</strong> mana, <strong>K</strong>apan, <strong>Si</strong>apa, <strong>M</strong>engapa, <strong>Ba</strong>gaimana.</span>
+        </li>
+        <li>
+          <span class="ri">📖</span>
+          <span>Setelah membaca teks, <strong>jawab keenam pertanyaan</strong> ADiKSiMBa — jika semua bisa dijawab, berarti kamu sudah menemukan informasi penting.</span>
+        </li>
+        <li>
+          <span class="ri">✍️</span>
+          <span>Dengan informasi penting, kamu bisa <strong>merangkum</strong> isi teks dan <strong>menceritakan kembali</strong> tanpa membaca ulang seluruh teks.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="materi.html" class="nav-btn nav-btn-outline">← Kembali ke Bab 5</a>
+      <a href="tanda-baca-angka.html" class="nav-btn nav-btn-filled">Kompetensi B: Tanda Baca Angka →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 5 Kompetensi A &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+</body>
+</html>
