@@ -1,1 +1,720 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menyampaikan Pendapat tentang Isi dan Ilustrasi Teks — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#7c3aed;--bab-mid:#8b5cf6;--bab-lt:#ede9fe;--bab-pal:#f5f3ff;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    /* NAVBAR */
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    /* JUMP NAV */
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,#7c3aed,#4c1d95);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#c4b5fd;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    /* CONTENT */
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    /* INTRO BOX */
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(124,58,237,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* RUMUS / FORMULA BOX */
+    .rumus-box{background:linear-gradient(135deg,#7c3aed,#6d28d9);color:#fff;border-radius:14px;padding:1.4rem 1.6rem;margin:1.25rem 0;text-align:center;position:relative;overflow:hidden;}
+    .rumus-box::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 20h40M20 0v40' stroke='%23ffffff' stroke-opacity='0.05'/%3E%3C/svg%3E");}
+    .rumus-label{position:relative;font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:.5rem;}
+    .rumus-content{position:relative;font-family:"Lora",serif;font-size:1.15rem;font-weight:700;line-height:1.5;}
+    .rumus-content .part{background:rgba(255,255,255,.2);padding:.1rem .6rem;border-radius:8px;display:inline-block;margin:.15rem;}
+    .rumus-content .plus{margin:0 .4rem;opacity:.7;}
+
+    /* BAGIAN CARDS */
+    .bagian-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.85rem;margin:1.25rem 0;}
+    .bagian-card{background:#fff;border-radius:14px;padding:1.1rem 1.25rem;border-top:4px solid var(--bab);box-shadow:0 2px 10px rgba(0,0,0,.05);}
+    .bagian-card.b1{border-top-color:#ec4899;}
+    .bagian-card.b2{border-top-color:#7c3aed;}
+    .bagian-card.b3{border-top-color:#0ea5e9;}
+    .bc-icon{font-size:1.8rem;margin-bottom:.4rem;}
+    .bc-title{font-family:"Lora",serif;font-size:1.02rem;font-weight:700;margin-bottom:.35rem;}
+    .bagian-card.b1 .bc-title{color:#be185d;}
+    .bagian-card.b2 .bc-title{color:#6d28d9;}
+    .bagian-card.b3 .bc-title{color:#0369a1;}
+    .bc-desc{font-size:.88rem;color:var(--ink-mid,#3d4460);line-height:1.55;margin-bottom:.5rem;}
+    .bc-example{font-size:.82rem;font-style:italic;color:var(--ink-lt,#6b7280);padding:.4rem .6rem;background:var(--sand,#f7f3eb);border-radius:8px;border-left:3px solid;}
+    .bagian-card.b1 .bc-example{border-left-color:#ec4899;}
+    .bagian-card.b2 .bc-example{border-left-color:#7c3aed;}
+    .bagian-card.b3 .bc-example{border-left-color:#0ea5e9;}
+
+    /* BACAAN BOX */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#6d28d9;}
+    .bacaan-header .b-icon{font-size:1.3rem;}
+    .bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* ILUSTRASI BOX — simulated illustration */
+    .ilustrasi-box{background:linear-gradient(135deg,#fce7f3,#ede9fe);border:2px dashed var(--bab-lt);border-radius:12px;padding:1.5rem 1.25rem;margin:1rem 0;text-align:center;}
+    .ilustrasi-placeholder{font-size:4rem;line-height:1;margin-bottom:.6rem;}
+    .ilustrasi-caption{font-size:.82rem;color:var(--ink-mid,#3d4460);font-style:italic;}
+    .ilustrasi-caption strong{color:var(--bab);font-style:normal;}
+
+    /* PENDAPAT EXAMPLES */
+    .pendapat-wrap{display:grid;grid-template-columns:1fr;gap:.75rem;margin:1rem 0 1.5rem;}
+    .pendapat-card{background:#fff;border-radius:12px;padding:1rem 1.25rem;box-shadow:0 2px 8px rgba(0,0,0,.05);border-left:4px solid var(--bab);}
+    .pendapat-card.positif{border-left-color:#10b981;}
+    .pendapat-card.netral{border-left-color:#0ea5e9;}
+    .pendapat-card.kritis{border-left-color:#f59e0b;}
+    .pendapat-tipe{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.4rem;}
+    .pendapat-card.positif .pendapat-tipe{color:#047857;}
+    .pendapat-card.netral .pendapat-tipe{color:#0369a1;}
+    .pendapat-card.kritis .pendapat-tipe{color:#b45309;}
+    .pendapat-kalimat{font-size:.93rem;line-height:1.6;color:var(--ink,#1a1f2e);font-style:italic;}
+    .pendapat-kalimat::before{content:"\201C";font-family:"Lora",serif;font-size:1.8rem;color:var(--bab);line-height:0;margin-right:.2rem;vertical-align:-.3em;}
+    .pendapat-kalimat::after{content:"\201D";font-family:"Lora",serif;font-size:1.8rem;color:var(--bab);line-height:0;margin-left:.2rem;vertical-align:-.3em;}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(124,58,237,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:110px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    /* HIGHLIGHT */
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .hl-ungu{background:var(--bab-lt);color:#5b21b6;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    /* FAKTA SERU */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#5b21b6;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    /* RINGKASAN */
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    /* NAV */
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#6d28d9;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .bagian-grid{grid-template-columns:1fr;}
+      .analisis-item{flex-direction:column;gap:.2rem;}
+      .analisis-item .a-label{min-width:auto;}
+      .back-nav{flex-direction:column;}
+      .rumus-content{font-size:.95rem;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 6</a>
+      <span class="sep">»</span>
+      <span>Kompetensi B</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#struktur" class="jpill">🏗️ Struktur Pendapat</a>
+      <a href="#isi-vs-ilustrasi" class="jpill">🎨 Isi vs Ilustrasi</a>
+      <a href="#bacaan1" class="jpill">📖 Contoh 1</a>
+      <a href="#bacaan2" class="jpill">📖 Contoh 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 6 · Kompetensi B</span>
+      <h1>Menyampaikan <em>Pendapat</em> tentang Isi dan Ilustrasi Teks</h1>
+      <p class="hero-desc">Setelah membaca sebuah teks, kamu boleh punya pendapat sendiri. Belajar cara menyampaikan pendapat yang sopan dan disertai alasan yang jelas.</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <!-- INTRO -->
+    <div class="intro-box">
+      <p>Setelah kamu membaca sebuah teks atau melihat gambarnya, wajar kalau kamu memiliki <strong>pendapat</strong> — ada yang kamu suka, ada yang tidak, ada yang menurutmu menarik, ada juga yang membingungkan.</p>
+      <p>Pendapat itu <strong>sangat berharga</strong>! Di halaman ini, kamu akan belajar cara menyampaikan pendapat dengan <strong>sopan</strong> dan <strong>disertai alasan</strong> — baik tentang <em>isi teks</em> maupun tentang <em>ilustrasi</em>-nya.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: PENGERTIAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Pendapat?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Pendapat</strong> adalah pemikiran, perasaan, atau penilaianmu terhadap sesuatu. Pendapat bersifat <strong>pribadi</strong> — artinya pendapat satu orang bisa berbeda dengan pendapat orang lain, dan itu <em>wajar</em>!</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Pendapat yang baik selalu <strong>didukung oleh alasan yang jelas</strong>. Bukan sekadar "aku suka" atau "aku tidak suka", tetapi <em>mengapa</em> kamu suka atau tidak suka.</p>
+
+    <div class="fs">
+      <div class="fi">⚖️</div>
+      <div class="ft">
+        <strong>Fakta vs Pendapat</strong>
+        <em>"Bandung terletak di Jawa Barat"</em> — itu <strong>fakta</strong>, semua orang setuju. Tapi <em>"Bandung adalah kota terindah di Indonesia"</em> — itu <strong>pendapat</strong>, karena orang lain bisa punya pilihan lain. Fakta benar untuk semua orang; pendapat bisa berbeda antar orang.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: STRUKTUR PENDAPAT -->
+    <!-- ════════════════════════════════ -->
+    <div id="struktur">
+      <div class="section-label">Cara Menyampaikan</div>
+      <h2 class="section-title">Struktur Pendapat yang Baik</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Pendapat yang baik tersusun dari <strong>tiga bagian</strong>. Ingat rumus sederhana ini:</p>
+
+    <div class="rumus-box">
+      <div class="rumus-label">🎯 Rumus Pendapat</div>
+      <div class="rumus-content">
+        <span class="part">Pendapat</span>
+        <span class="plus">+</span>
+        <span class="part">Alasan</span>
+        <span class="plus">+</span>
+        <span class="part">Bukti</span>
+      </div>
+    </div>
+
+    <div class="bagian-grid">
+
+      <div class="bagian-card b1">
+        <div class="bc-icon">💬</div>
+        <div class="bc-title">1. Pendapat</div>
+        <div class="bc-desc">Apa penilaian / perasaan / pemikiranmu tentang teks atau ilustrasi?</div>
+        <div class="bc-example">"Saya sangat menyukai cerita ini..."</div>
+      </div>
+
+      <div class="bagian-card b2">
+        <div class="bc-icon">🤔</div>
+        <div class="bc-title">2. Alasan</div>
+        <div class="bc-desc">Mengapa kamu berpendapat demikian? Apa sebabnya?</div>
+        <div class="bc-example">"...karena tokohnya sangat menarik dan jalan ceritanya seru."</div>
+      </div>
+
+      <div class="bagian-card b3">
+        <div class="bc-icon">📌</div>
+        <div class="bc-title">3. Bukti dari Teks</div>
+        <div class="bc-desc">Tunjukkan bagian teks / ilustrasi yang mendukung pendapatmu.</div>
+        <div class="bc-example">"Misalnya, ketika tokoh utama berhasil menolong kakaknya di bab 3."</div>
+      </div>
+
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Perhatikan <strong>kata-kata pembuka</strong> yang bisa kamu gunakan saat menyampaikan pendapat dengan sopan:</p>
+
+    <ul style="margin:0 0 1rem 1.5rem;font-size:.95rem;">
+      <li style="margin-bottom:.3rem;">"Menurut saya, ..."</li>
+      <li style="margin-bottom:.3rem;">"Saya berpendapat bahwa ..."</li>
+      <li style="margin-bottom:.3rem;">"Saya rasa ..." / "Saya pikir ..."</li>
+      <li style="margin-bottom:.3rem;">"Dalam pandangan saya, ..."</li>
+      <li style="margin-bottom:.3rem;">"Saya setuju/tidak setuju karena ..."</li>
+    </ul>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: ISI VS ILUSTRASI -->
+    <!-- ════════════════════════════════ -->
+    <div id="isi-vs-ilustrasi">
+      <div class="section-label">Dua Hal yang Bisa Dikomentari</div>
+      <h2 class="section-title">Pendapat tentang Isi vs Ilustrasi</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Saat membaca teks, kamu bisa menyampaikan pendapat tentang <strong>dua hal</strong>: tentang <strong>isi teks</strong> (apa yang ditulis) dan tentang <strong>ilustrasi</strong> (gambar yang menyertainya).</p>
+
+    <div class="bagian-grid">
+
+      <div class="bagian-card b2" style="border-top-color:#7c3aed;">
+        <div class="bc-icon">📖</div>
+        <div class="bc-title" style="color:#6d28d9;">Pendapat tentang Isi Teks</div>
+        <div class="bc-desc">Komentar tentang <strong>cerita, tokoh, alur, atau pesan</strong> yang disampaikan penulis. Pertanyaan yang bisa kamu ajukan:</div>
+        <div class="bc-example" style="font-style:normal;">• Apakah cerita ini menarik?<br>• Apakah tokohnya hidup?<br>• Apakah pesannya jelas?</div>
+      </div>
+
+      <div class="bagian-card b1" style="border-top-color:#ec4899;">
+        <div class="bc-icon">🎨</div>
+        <div class="bc-title" style="color:#be185d;">Pendapat tentang Ilustrasi</div>
+        <div class="bc-desc">Komentar tentang <strong>gambar, warna, atau tampilan visual</strong> yang ada di teks. Pertanyaan yang bisa kamu ajukan:</div>
+        <div class="bc-example" style="font-style:normal;">• Apakah gambarnya cocok dengan cerita?<br>• Apakah warnanya menarik?<br>• Apakah mudah dipahami?</div>
+      </div>
+
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎯</div>
+      <div class="ft">
+        <strong>Ingat — pendapatmu tidak harus "positif"!</strong>
+        Kamu boleh juga berpendapat <em>netral</em> ("gambarnya biasa saja") atau bahkan <em>kritis</em> ("menurut saya warnanya kurang cerah"). Yang penting adalah pendapatmu <strong>disampaikan dengan sopan</strong> dan <strong>disertai alasan</strong>.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: BACAAN 1 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Contoh 1</div>
+      <h2 class="section-title">Bacaan & Ilustrasi: Lukisan Bunga Matahari</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah teks pendek ini, perhatikan ilustrasinya, lalu kita lihat contoh pendapat yang bisa disampaikan:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🌻</span>
+        <div>
+          <h3>Bacaan 1 — Pameran Lukisan Anak</h3>
+          <div class="b-meta">Tema: Tulus dalam Berkarya · Jenis: Teks Deskripsi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Lukisan Bunga Matahari Karya Dinda</p>
+
+        <!-- Ilustrasi -->
+        <div class="ilustrasi-box">
+          <div class="ilustrasi-placeholder">🌻🌻🌻</div>
+          <div class="ilustrasi-caption"><strong>Ilustrasi:</strong> Tiga bunga matahari berwarna kuning cerah dengan latar langit biru, dilukis di atas kanvas putih ukuran 40×60 cm.</div>
+        </div>
+
+        <p>Di Pameran Seni Anak yang diadakan di SD Cerdas Mandiri, lukisan karya Dinda menarik perhatian banyak pengunjung. Lukisan itu berjudul "Bunga Matahari di Kebun Nenek" dan menggambarkan tiga bunga matahari besar dengan warna kuning yang sangat cerah.</p>
+        <p>Dinda, siswi kelas 4B, mengaku menghabiskan waktu tiga minggu untuk menyelesaikan lukisan itu. Ia menggunakan cat akrilik dan terinspirasi dari kebun nenek di Lembang, Jawa Barat, yang penuh dengan bunga matahari setiap musim panas.</p>
+        <p>Latar langit yang biru terang dibuat Dinda dengan teknik gradasi — perlahan berubah dari biru tua di atas menjadi biru muda di dekat bunga. Bu Rita, guru kesenian, memuji lukisan Dinda sebagai salah satu karya terbaik di pameran tahun ini.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- Contoh pendapat untuk Bacaan 1 -->
+    <div class="analisis-title">💬 Contoh Pendapat yang Baik</div>
+
+    <div class="pendapat-wrap">
+      <div class="pendapat-card positif">
+        <div class="pendapat-tipe">✅ Pendapat Positif tentang Isi Teks</div>
+        <p class="pendapat-kalimat">Menurut saya, kisah Dinda sangat menginspirasi karena ia rajin berlatih selama tiga minggu untuk menyelesaikan karyanya. Ini menunjukkan bahwa karya yang bagus membutuhkan kesabaran dan ketekunan.</p>
+      </div>
+
+      <div class="pendapat-card positif">
+        <div class="pendapat-tipe">✅ Pendapat Positif tentang Ilustrasi</div>
+        <p class="pendapat-kalimat">Saya suka ilustrasi bunga matahari di lukisan Dinda. Warna kuningnya yang cerah membuat saya merasa senang saat melihatnya, apalagi dipadukan dengan langit biru yang memberi kesan segar.</p>
+      </div>
+
+      <div class="pendapat-card netral">
+        <div class="pendapat-tipe">💭 Pendapat Netral</div>
+        <p class="pendapat-kalimat">Saya rasa ceritanya cukup sederhana — hanya tentang seorang anak yang melukis bunga. Namun, bagian tentang inspirasi dari kebun neneknya membuat cerita ini lebih bermakna.</p>
+      </div>
+
+      <div class="pendapat-card kritis">
+        <div class="pendapat-tipe">🤔 Pendapat Kritis (Sopan)</div>
+        <p class="pendapat-kalimat">Menurut saya, teks ini akan lebih lengkap jika ditambahkan informasi tentang perasaan Dinda saat melukis. Dengan begitu, pembaca bisa lebih memahami emosi di balik karyanya.</p>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 5: BACAAN 2 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Contoh 2</div>
+      <h2 class="section-title">Bacaan & Ilustrasi: Cerita Kerajinan Angklung</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Sekarang kita lihat contoh di mana ilustrasi <strong>tidak sepenuhnya cocok</strong> dengan isi teks — perhatikan bagaimana cara menyampaikan pendapat dengan sopan:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🎋</span>
+        <div>
+          <h3>Bacaan 2 — Membuat Angklung</h3>
+          <div class="b-meta">Tema: Tulus dalam Berkarya · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#6d28d9;">Arman dan Angklung Buatannya</p>
+
+        <!-- Ilustrasi yang kurang cocok -->
+        <div class="ilustrasi-box" style="background:linear-gradient(135deg,#dbeafe,#fef3c7);">
+          <div class="ilustrasi-placeholder">🎸</div>
+          <div class="ilustrasi-caption"><strong>Ilustrasi:</strong> Gambar gitar listrik berwarna merah, berukuran besar di tengah halaman.</div>
+        </div>
+
+        <p>Arman, siswa kelas 4A, sangat tertarik pada angklung — alat musik tradisional Sunda yang terbuat dari bambu. Setiap akhir pekan, ia belajar cara membuat angklung dari kakeknya di Subang, Jawa Barat.</p>
+        <p>Proses membuat angklung tidaklah mudah. Kakek Arman mengajarinya memilih bambu yang berumur empat tahun, memotongnya dengan ukuran tertentu, lalu menjemurnya selama dua minggu agar suaranya nyaring. Setiap potongan bambu harus dipasangkan pada kerangka kayu yang kokoh.</p>
+        <p>Setelah enam bulan belajar, Arman berhasil membuat angklung pertamanya. Ia memainkannya di pentas sekolah, dan semua temannya bertepuk tangan. Arman merasa bangga karena bisa melestarikan kesenian daerahnya.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- Analisis Bacaan 2 -->
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Apakah Ilustrasi Cocok dengan Isi?</div>
+      <div class="analisis-item">
+        <span class="a-label">🎯 Isi Teks</span>
+        <span class="a-answer">Cerita tentang Arman membuat <strong>angklung</strong> — alat musik tradisional dari bambu.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">🎨 Ilustrasi</span>
+        <span class="a-answer">Gambar <strong>gitar listrik berwarna merah</strong>.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">❓ Cocok?</span>
+        <span class="a-answer"><span class="hl">Tidak cocok</span> — gitar listrik bukan alat musik tradisional, dan tidak terbuat dari bambu. Seharusnya ilustrasinya adalah angklung.</span>
+      </div>
+    </div>
+
+    <!-- Contoh pendapat Bacaan 2 -->
+    <div class="analisis-title">💬 Contoh Pendapat yang Baik</div>
+
+    <div class="pendapat-wrap">
+      <div class="pendapat-card positif">
+        <div class="pendapat-tipe">✅ Pendapat Positif tentang Isi Teks</div>
+        <p class="pendapat-kalimat">Saya sangat menyukai cerita Arman karena ia belajar dengan sabar dari kakeknya selama enam bulan. Pesannya jelas — melestarikan kesenian daerah butuh waktu dan ketekunan.</p>
+      </div>
+
+      <div class="pendapat-card kritis">
+        <div class="pendapat-tipe">🤔 Pendapat Kritis tentang Ilustrasi</div>
+        <p class="pendapat-kalimat">Menurut saya, ilustrasi gitar listrik kurang cocok dengan isi teks, karena cerita ini membahas tentang angklung — alat musik tradisional dari bambu. Akan lebih baik jika ilustrasinya diganti dengan gambar angklung agar pembaca lebih mudah membayangkan isi cerita.</p>
+      </div>
+
+      <div class="pendapat-card kritis">
+        <div class="pendapat-tipe">🤔 Pendapat Kritis (dengan Saran)</div>
+        <p class="pendapat-kalimat">Saya berpendapat bahwa teks akan lebih bagus jika ditambah gambar proses pembuatan angklung — misalnya gambar bambu yang sedang dijemur atau Arman yang sedang memainkan angklungnya. Ini akan membantu pembaca melihat setiap tahap yang diceritakan.</p>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">💎</div>
+      <div class="ft">
+        <strong>Pendapat kritis itu bukan menjelekkan!</strong>
+        Pendapat kritis yang baik selalu disampaikan dengan <strong>sopan</strong>, disertai <strong>alasan jelas</strong>, dan jika mungkin diikuti <strong>saran perbaikan</strong>. Ini menunjukkan kamu bukan sekadar mengkritik, tapi benar-benar peduli agar karya tersebut menjadi lebih baik.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi B</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">💬</span>
+          <span><strong>Pendapat</strong> adalah pemikiran atau penilaianmu terhadap sesuatu. Pendapat bersifat pribadi — satu orang dengan orang lain bisa berbeda.</span>
+        </li>
+        <li>
+          <span class="ri">🎯</span>
+          <span>Rumus pendapat yang baik: <strong>Pendapat + Alasan + Bukti dari teks</strong>. Bukan sekadar "aku suka" atau "aku tidak suka".</span>
+        </li>
+        <li>
+          <span class="ri">📖</span>
+          <span>Kamu bisa menyampaikan pendapat tentang <strong>isi teks</strong> (cerita, tokoh, pesan) dan tentang <strong>ilustrasi</strong> (gambar, warna, kecocokan).</span>
+        </li>
+        <li>
+          <span class="ri">🙏</span>
+          <span>Gunakan kata pembuka yang sopan: <em>"Menurut saya..."</em>, <em>"Saya berpendapat..."</em>, <em>"Saya rasa..."</em>.</span>
+        </li>
+        <li>
+          <span class="ri">⚖️</span>
+          <span>Pendapat boleh <strong>positif, netral, atau kritis</strong> — semua sah, asalkan disampaikan dengan sopan dan disertai alasan yang jelas.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- LATIHAN MANDIRI -->
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut. Jawaban akan langsung dinilai — jika ada yang kurang tepat, klik <strong>"Coba Lagi"</strong> untuk mencoba kembali!</p>
+
+    <!-- ── LATIHAN 1: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">1</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Sebuah pendapat yang baik sebaiknya selalu disertai dengan...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l1"><span>Pujian yang berlebihan</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Alasan yang jelas dan bukti dari teks</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Banyak kata-kata yang indah</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Kalimat yang panjang dan rumit</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>B. Alasan yang jelas dan bukti dari teks</strong>. Rumus pendapat yang baik adalah <em>Pendapat + Alasan + Bukti</em>. Tanpa alasan, pendapat hanya menjadi ucapan kosong yang tidak meyakinkan.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 2: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">2</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Perhatikan pendapat berikut:<br><br><em>"Lukisan itu sangat jelek."</em><br><br>Mengapa pendapat ini <strong>kurang baik</strong>?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l2"><span>Kalimatnya terlalu panjang</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Menggunakan kata "lukisan"</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Tidak ada alasan dan kurang sopan</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Tidak menyebutkan nama pelukisnya</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Pendapat "sangat jelek" tidak disertai alasan apa pun, dan kata-katanya juga kasar. Pendapat yang baik sebaiknya diganti menjadi: <em>"Menurut saya, lukisan itu kurang menarik karena warnanya terlalu gelap dan gambarnya kurang jelas."</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 3: PG KOMPLEKS ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">3</span>
+        <span class="latihan-tipe">Pilihan Ganda Kompleks</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan <strong>kata pembuka</strong> yang sopan untuk menyampaikan pendapat?</p>
+        <div class="latihan-opts" data-correct="0,1,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>"Menurut saya..."</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>"Saya berpendapat bahwa..."</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>"Pokoknya harus..."</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>"Saya rasa..."</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A, B, dan D</strong>. Pilihan C ("Pokoknya harus...") terdengar memaksa dan kurang sopan — bukan pembuka untuk pendapat, tapi lebih ke perintah. Pendapat yang baik disampaikan dengan kata-kata yang terbuka dan sopan.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 4: MENJODOHKAN ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">4</span>
+        <span class="latihan-tipe">Menjodohkan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kalimat pendapat</strong> berikut dengan <strong>jenis pendapatnya</strong> yang tepat:</p>
+        <div class="latihan-menjodohkan" data-correct="D,A,B,C">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Jenis Pendapat</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Pendapat tentang tokoh dalam cerita</span>
+              <span class="opt-item"><strong>B.</strong> Pendapat tentang warna ilustrasi</span>
+              <span class="opt-item"><strong>C.</strong> Pendapat tentang pesan cerita</span>
+              <span class="opt-item"><strong>D.</strong> Pendapat tentang alur cerita</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">"Saya rasa ceritanya terlalu cepat selesai, sebaiknya diperpanjang agar lebih seru."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">"Menurut saya, tokoh Arman sangat rajin dan sabar — saya ingin mencontohnya."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">"Saya suka warna kuning pada lukisan ini karena terlihat hangat dan ceria."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">"Menurut saya, pesan cerita ini sangat bagus — melestarikan budaya daerah itu penting."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Pasangan yang benar: <strong>1 → D</strong> (tentang alur/jalan cerita), <strong>2 → A</strong> (tentang sifat tokoh), <strong>3 → B</strong> (tentang warna ilustrasi), <strong>4 → C</strong> (tentang pesan cerita).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 5: KATEGORI ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">5</span>
+        <span class="latihan-tipe">Kategori: Pendapat Baik / Kurang Baik</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah pendapat berikut termasuk <strong>PENDAPAT BAIK</strong> (disertai alasan, sopan) atau <strong>KURANG BAIK</strong> (tanpa alasan / kurang sopan):</p>
+        <div class="latihan-kategori" data-correct="1,0,1,0">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Menurut saya, cerita ini menarik karena tokohnya berani menolong temannya meskipun takut."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Lukisan ini jelek banget! Pokoknya saya tidak suka."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Saya rasa ilustrasi kurang cocok dengan isi teks karena gambarnya kucing, padahal ceritanya tentang anjing."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Ceritanya aneh."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban benar: <strong>1. Baik</strong> (ada kata pembuka sopan, pendapat jelas, disertai alasan). <strong>2. Kurang Baik</strong> (kata "jelek banget" dan "pokoknya" kurang sopan, tidak ada alasan). <strong>3. Baik</strong> (pendapat kritis yang sopan dengan alasan jelas). <strong>4. Kurang Baik</strong> (terlalu singkat, tidak menjelaskan <em>aneh-nya</em> dalam hal apa).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="kata-kata-baru.html" class="nav-btn nav-btn-outline">← Kompetensi A</a>
+      <a href="perubahan-perasaan-tokoh.html" class="nav-btn nav-btn-filled">Kompetensi C: Perasaan Tokoh →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 6 Kompetensi B &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+
+</body>
+</html>
