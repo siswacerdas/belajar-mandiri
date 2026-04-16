@@ -179,7 +179,7 @@
     }
     .q-indicator { font-weight: 800; color: var(--primary); font-size: .95rem; }
 
-    /* ── SIDEBAR ─────────────────────────────────────────── */
+    /* ── SIDEBAR (desktop) ───────────────────────────────── */
     .sidebar {
       width: 270px; background: #fff; border-left: 1px solid var(--border);
       display: none; flex-direction: column; flex-shrink: 0; z-index: 40;
@@ -191,6 +191,50 @@
       display: flex; align-items: center; justify-content: space-between;
     }
     .sidebar-header .badge { font-size: .72rem; background: var(--primary-lt); color: var(--primary); padding: 2px 8px; border-radius: 10px; font-weight: 700; }
+
+    /* ── MOBILE NAV DRAWER ───────────────────────────────── */
+    .mob-nav-bar {
+      display: none; /* hanya muncul di mobile */
+      flex-shrink: 0; background: #fff;
+      border-top: 1px solid var(--border); z-index: 50;
+    }
+    /* Tab penarik drawer */
+    .mob-nav-tab {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 9px 16px; cursor: pointer; user-select: none;
+      background: var(--primary-pl);
+    }
+    .mob-nav-tab-left  { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: .83rem; color: var(--primary); }
+    .mob-nav-tab-right { display: flex; align-items: center; gap: 10px; }
+    .mob-nav-chevron   { font-size: 1rem; transition: transform .25s; color: var(--primary); }
+    .mob-nav-chevron.open { transform: rotate(180deg); }
+    /* Panel nomor soal (tersembunyi default) */
+    .mob-nav-panel {
+      max-height: 0; overflow: hidden; transition: max-height .3s ease;
+      background: #fff; border-top: 1px solid var(--border);
+    }
+    .mob-nav-panel.open { max-height: 200px; }
+    .mob-nav-grid {
+      display: grid; grid-template-columns: repeat(8,1fr);
+      gap: 5px; padding: 10px 12px;
+    }
+    .mob-nav-num {
+      aspect-ratio: 1; display: flex; align-items: center; justify-content: center;
+      border: 1.5px solid var(--border); border-radius: 6px; cursor: pointer;
+      font-weight: 800; font-size: .72rem; color: var(--text-lt); transition: all .15s;
+    }
+    .mob-nav-num.current { border: 2.5px solid var(--primary); color: var(--primary); transform: scale(1.1); }
+    .mob-nav-num.filled  { background: var(--success); color: #fff !important; border-color: var(--success) !important; }
+    .mob-nav-num.filled.current { border: 2.5px solid #0369a1 !important; }
+    /* Font ctrl di drawer mobile */
+    .mob-font-ctrl {
+      display: flex; align-items: center; gap: 6px;
+      padding: 8px 12px; border-top: 1px solid var(--border);
+    }
+    .mob-font-ctrl span { font-size: .75rem; color: var(--text-lt); font-weight: 700; flex: 1; }
+    .mob-selesai-btn {
+      width: calc(100% - 24px); margin: 8px 12px 10px;
+    }
 
     /* ── FONT SIZE CONTROLS ──────────────────────────────── */
     .font-ctrl { display: flex; align-items: center; gap: 6px; padding: 10px 16px; border-bottom: 1px solid var(--border); }
@@ -242,7 +286,7 @@
     .error-screen p  { color: var(--text-lt); font-size: .9rem; max-width: 400px; line-height: 1.6; }
 
     /* ── RESULT ──────────────────────────────────────────── */
-    .result-card { background: var(--card-bg); border-radius: 16px; box-shadow: 0 4px 24px rgba(3,105,161,.1); padding: 32px; max-width: 640px; width: 100%; }
+    .result-card { background: var(--card-bg); border-radius: 16px; box-shadow: 0 4px 24px rgba(3,105,161,.1); padding: 32px; max-width: 640px; width: 100%; margin-bottom: 32px; }
     .result-card h2 { font-family: 'Lora', serif; color: var(--primary); margin-bottom: 6px; font-size: 1.4rem; }
     .score-big { font-size: 3.5rem; font-weight: 800; color: var(--primary); line-height: 1; }
     .score-box { text-align: center; background: var(--primary-pl); border-radius: 14px; padding: 22px; margin: 20px 0; }
@@ -268,6 +312,42 @@
     .overlay.show { display: flex; }
     .modal { background: #fff; border-radius: 18px; padding: 30px 28px; max-width: 400px; width: 90%; text-align: center; }
     .modal h3  { font-family: 'Lora', serif; color: var(--text); margin-bottom: 10px; }
+    /* ── PEMBAHASAN (review) ─────────────────────────────── */
+    .review-section { margin-top: 28px; }
+    .review-section h4 { font-family:'Lora',serif; color:var(--primary); margin-bottom: 14px; font-size: 1.1rem; border-bottom: 1.5px solid var(--border); padding-bottom: 10px; }
+    .rev-item {
+      border: 1.5px solid var(--border); border-radius: 12px;
+      margin-bottom: 14px; overflow: hidden;
+    }
+    .rev-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 14px; cursor: pointer; user-select: none;
+      background: #f8fafc; transition: background .15s;
+    }
+    .rev-header:hover { background: var(--primary-pl); }
+    .rev-header.benar { background: #f0fdf4; border-left: 4px solid var(--success); }
+    .rev-header.salah { background: #fff5f5; border-left: 4px solid var(--danger); }
+    .rev-badge { font-size: .75rem; font-weight: 800; padding: 2px 8px; border-radius: 10px; flex-shrink: 0; }
+    .rev-badge.benar { background: #dcfce7; color: #166534; }
+    .rev-badge.salah { background: #fee2e2; color: #991b1b; }
+    .rev-badge.parsial { background: #fef9c3; color: #854d0e; }
+    .rev-q   { flex: 1; font-size: .85rem; font-weight: 700; color: var(--text); line-height: 1.4; }
+    .rev-num { font-size: .78rem; color: var(--text-lt); font-weight: 800; flex-shrink:0; min-width:22px; }
+    .rev-chevron { font-size: .85rem; color: var(--text-lt); transition: transform .25s; }
+    .rev-chevron.open { transform: rotate(180deg); }
+    .rev-body {
+      max-height: 0; overflow: hidden; transition: max-height .35s ease;
+      border-top: 1px solid var(--border);
+    }
+    .rev-body.open { max-height: 600px; }
+    .rev-inner { padding: 14px 16px; font-size: .875rem; line-height: 1.6; }
+    .rev-opt { padding: 6px 10px; border-radius: 7px; margin-bottom: 5px; border: 1.5px solid var(--border); }
+    .rev-opt.kunci    { background: #dcfce7; border-color: #86efac; }
+    .rev-opt.dipilih  { background: #fee2e2; border-color: #fca5a5; }
+    .rev-opt.kunci.dipilih { background: #dcfce7; border-color: #4ade80; }
+    .rev-label { font-size: .78rem; font-weight: 800; margin-bottom: 6px; color: var(--text-lt); text-transform: uppercase; letter-spacing: .06em; }
+    .rev-penjelasan { background: #f0f9ff; border-radius: 8px; padding: 10px 12px; margin-top: 10px; font-size: .85rem; border-left: 3px solid var(--primary); color: var(--text); }
+
     /* ── SUMMARY MODAL ───────────────────────────────────── */
     .modal-lg  { max-width: 540px; max-height: 85vh; display: flex; flex-direction: column; }
     .sum-stat  { font-size:.83rem; color:var(--text-lt); margin-bottom:12px; }
@@ -296,18 +376,18 @@
 
     /* ── RESPONSIVE ──────────────────────────────────────── */
     @media(max-width:768px) {
+      /* Desktop sidebar hilang — diganti mob-nav-bar */
       .workspace { flex-direction: column; }
-      .sidebar { width: 100%; height: auto; border-left: none; border-top: 1px solid var(--border); order: 2; }
-      /* Nav grid: 8 kolom kecil agar tombol tidak raksasa di HP */
-      .nav-grid { grid-template-columns: repeat(8,1fr); gap: 5px; padding: 10px; max-height: 116px; }
-      .nav-num  { font-size: .70rem; border-radius: 6px; }
-      .font-ctrl { padding: 7px 12px; }
-      /* Slide rules: scrollable dari atas agar tombol Mulai terlihat */
+      .sidebar   { display: none !important; }
+      .mob-nav-bar { display: block; }
+      /* Slide rules scrollable */
       #slide-rules .center-wrap { align-items: flex-start !important; padding-bottom: 30px; }
       .rules-card { padding: 22px 18px; }
-      .chart-lbl { width: 110px; font-size: .72rem; }
-      .card { padding: 20px 16px; }
+      .chart-lbl  { width: 110px; font-size: .72rem; }
+      .card       { padding: 20px 16px; }
       .q-toolbar .btn { font-size: .82rem; padding: 8px 12px; }
+      /* Result card tidak terpotong */
+      .result-card { max-width: 100% !important; }
     }
   </style>
   <link rel="stylesheet" href="../../../assets/css/layout.css"/>
@@ -461,9 +541,34 @@
         </div>
       </div>
 
+      <!-- 📱 MOBILE NAV DRAWER -->
+      <div class="mob-nav-bar" id="mob-nav-bar">
+        <!-- Tab penarik -->
+        <div class="mob-nav-tab" onclick="app.toggleMobNav()">
+          <div class="mob-nav-tab-left">
+            <span>📋 Navigasi Soal</span>
+            <span id="mob-nav-badge" style="background:var(--primary);color:#fff;padding:1px 8px;border-radius:10px;font-size:.72rem;">0 dijawab</span>
+          </div>
+          <div class="mob-nav-tab-right">
+            <span style="font-size:.78rem;color:var(--text-lt);font-weight:600;" id="mob-nav-indicator">Soal 1/20</span>
+            <span class="mob-nav-chevron" id="mob-nav-chevron">▲</span>
+          </div>
+        </div>
+        <!-- Panel nomor soal -->
+        <div class="mob-nav-panel" id="mob-nav-panel">
+          <div class="mob-nav-grid" id="mob-nav-grid"></div>
+          <div class="mob-font-ctrl">
+            <span>Ukuran Teks</span>
+            <button class="fs-btn sml" onclick="app.setFontSize(-1)">A−</button>
+            <button class="fs-btn big" onclick="app.setFontSize(1)">A+</button>
+          </div>
+          <button class="btn btn-danger mob-selesai-btn" onclick="app.confirmFinish()">✅ Selesai &amp; Kumpulkan</button>
+        </div>
+      </div>
+
       <!-- ④ SLIDE HASIL -->
       <div id="slide-result" class="slide">
-        <div class="center-wrap" style="align-items:flex-start;">
+        <div class="center-wrap" style="align-items:flex-start;padding-bottom:40px;">
           <div class="result-card">
             <div style="font-size:3rem;text-align:center;margin-bottom:8px;">🎉</div>
             <h2 style="text-align:center;">Latihan Selesai!</h2>
@@ -473,6 +578,8 @@
               <button class="btn btn-outline" style="flex:1" onclick="app.ulangi()">&#x1F504; Latihan Lagi</button>
               <button class="btn btn-primary" style="flex:1" id="btn-kirim-email" onclick="app.kirimEmailManual()">&#x1F4E7; Kirim ke Email</button>
             </div>
+            <button class="btn btn-outline btn-full" style="margin-top:10px;border-color:var(--primary);color:var(--primary);" onclick="app.togglePembahasan()">&#x1F4D6; Lihat Pembahasan Soal</button>
+            <div id="pembahasan-section" style="display:none;margin-top:4px;"></div>
             <div style="margin-top:10px;text-align:center;">
               <a href="materi.html" style="font-size:.84rem;font-weight:700;color:var(--primary);text-decoration:none;">
                 &#x2190; Kembali ke Halaman Bab 1
@@ -852,22 +959,60 @@ const app = {
     }
   },
 
-  // ── SIDEBAR ─────────────────────────────────────────────────────────
+  // ── SIDEBAR + MOBILE NAV ────────────────────────────────────────────
   renderSidebar: function() {
+    // desktop sidebar
     const grid = document.getElementById('nav-grid');
-    grid.innerHTML = '';
-    this.soal.forEach((_, i) => {
-      grid.innerHTML += `<div id="nav-num-${i}" class="nav-num" onclick="app.goToQ(${i})">${i+1}</div>`;
-    });
+    if (grid) {
+      grid.innerHTML = '';
+      this.soal.forEach((_, i) => {
+        grid.innerHTML += `<div id="nav-num-${i}" class="nav-num" onclick="app.goToQ(${i})">${i+1}</div>`;
+      });
+    }
+    // mobile nav grid
+    const mgrid = document.getElementById('mob-nav-grid');
+    if (mgrid) {
+      mgrid.innerHTML = '';
+      this.soal.forEach((_, i) => {
+        mgrid.innerHTML += `<div id="mob-nav-num-${i}" class="mob-nav-num" onclick="app.goToQ(${i})">${i+1}</div>`;
+      });
+    }
+    // update badge total soal
+    const badge = document.getElementById('sb-badge');
+    if (badge) badge.textContent = this.soal.length + ' soal';
   },
 
   updateSidebar: function() {
+    let filled = 0;
     this.soal.forEach((q, i) => {
+      const isFilled = this._isFilled(q.id);
+      if (isFilled) filled++;
+      // desktop
       const el = document.getElementById(`nav-num-${i}`);
-      if (!el) return;
-      el.classList.toggle('current', i === this.currIdx);
-      el.classList.toggle('filled',  this._isFilled(q.id));
+      if (el) {
+        el.classList.toggle('current', i === this.currIdx);
+        el.classList.toggle('filled',  isFilled);
+      }
+      // mobile
+      const mel = document.getElementById(`mob-nav-num-${i}`);
+      if (mel) {
+        mel.classList.toggle('current', i === this.currIdx);
+        mel.classList.toggle('filled',  isFilled);
+      }
     });
+    // update mobile badge
+    const mb = document.getElementById('mob-nav-badge');
+    if (mb) mb.textContent = filled + ' dijawab';
+    const mi = document.getElementById('mob-nav-indicator');
+    if (mi) mi.textContent = 'Soal ' + (this.currIdx+1) + '/' + this.soal.length;
+  },
+
+  toggleMobNav: function() {
+    const panel   = document.getElementById('mob-nav-panel');
+    const chevron = document.getElementById('mob-nav-chevron');
+    if (!panel) return;
+    const isOpen = panel.classList.toggle('open');
+    chevron.classList.toggle('open', isOpen);
   },
 
   _isFilled: function(qid) {
@@ -960,10 +1105,36 @@ const app = {
       ? 'Hebat! Kamu menguasai semua materi dengan baik. 🎉'
       : 'Perlu belajar lagi di materi: ' + perluBelajar.join(', ') + '.';
 
+    // Simpan detail per soal untuk pembahasan
+    this._jawabanFinal = this.soal.map(q => {
+      const u = this.session.answers[q.id];
+      let pt = 0, benar = false;
+      if (u !== undefined && u !== null) {
+        if (q.type === 'pg') {
+          const ki = {A:0,B:1,C:2,D:3}[q.ans] ?? -1;
+          benar = (u === ki); if (benar) pt = q.score;
+        } else if (q.type === 'pgk' && Array.isArray(u) && Array.isArray(q.ans)) {
+          const uL = u.map(i => ['A','B','C','D'][i]).sort();
+          const kL = [...q.ans].sort();
+          benar = JSON.stringify(uL) === JSON.stringify(kL);
+          if (benar) pt = q.score;
+        } else if (q.type === 'pgk-cat' && Array.isArray(u)) {
+          let match = 0;
+          q.ans.forEach((k, i) => { if (u[i] === k) match++; });
+          pt = Math.round((match / q.rows.length) * q.score * 10) / 10;
+          benar = pt === q.score;
+        }
+      }
+      return { q, userAns: u, pt, benar, skor: q.score };
+    });
+
     // Render hasil
     this._renderResult(nilaiAkhir, ringkasan, deskripsi);
     this.showSlide('result');
     document.getElementById('sidebar').classList.remove('show');
+    // Sembunyikan juga mobile nav drawer
+    const mnp = document.getElementById('mob-nav-panel');
+    if (mnp) { mnp.classList.remove('open'); document.getElementById('mob-nav-chevron')?.classList.remove('open'); }
     document.getElementById('modal-loading').classList.remove('show');
 
     // Simpan ke Apps Script (non-blocking)
@@ -1002,6 +1173,123 @@ const app = {
         <h4>📊 Capaian per Materi</h4>
         ${chartHtml}
       </div>`;
+  },
+
+  // ── PEMBAHASAN ──────────────────────────────────────────────────────
+  togglePembahasan: function() {
+    const sec = document.getElementById('pembahasan-section');
+    if (!sec) return;
+    if (sec.style.display === 'none') {
+      if (!sec.innerHTML.trim()) this._renderPembahasan(sec);
+      sec.style.display = 'block';
+      const btn = sec.previousElementSibling;
+      if (btn) btn.textContent = '🔼 Sembunyikan Pembahasan';
+    } else {
+      sec.style.display = 'none';
+      const btn = sec.previousElementSibling;
+      if (btn) btn.textContent = '📖 Lihat Pembahasan Soal';
+    }
+  },
+
+  _renderPembahasan: function(container) {
+    if (!this._jawabanFinal) return;
+    const OPTS = ['A','B','C','D'];
+
+    const items = this._jawabanFinal.map((entry, idx) => {
+      const { q, userAns, pt, benar, skor } = entry;
+      const isParsial = !benar && pt > 0;
+      const statusCls  = benar ? 'benar' : (isParsial ? 'parsial' : 'salah');
+      const statusTxt  = benar ? '✅ Benar' : (isParsial ? `⚡ Parsial (${pt}/${skor})` : '❌ Salah');
+      const badgeCls   = benar ? 'benar' : (isParsial ? 'parsial' : 'salah');
+
+      let optsHtml = '', penjelasanHtml = '';
+
+      if (q.type === 'pg') {
+        const kunci = {A:0,B:1,C:2,D:3}[q.ans] ?? -1;
+        q.opt.forEach((o, i) => {
+          const isKunci   = i === kunci;
+          const isDipilih = userAns === i;
+          const cls = isKunci && isDipilih ? 'kunci dipilih'
+                    : isKunci              ? 'kunci'
+                    : isDipilih            ? 'dipilih'
+                    : '';
+          const icon = isKunci && isDipilih ? '✅' : isKunci ? '✅' : isDipilih ? '❌' : '';
+          optsHtml += `<div class="rev-opt ${cls}">${icon} <strong>${OPTS[i]}.</strong> ${o}</div>`;
+        });
+        const kunciTxt = q.opt[kunci] || '';
+        const userTxt  = userAns !== undefined && userAns !== null && q.opt[userAns] ? q.opt[userAns] : '(tidak dijawab)';
+        penjelasanHtml = `<div class="rev-penjelasan">
+          💡 <strong>Jawaban benar:</strong> ${q.ans}. ${kunciTxt}<br>
+          ${benar ? '<em>Jawabanmu sudah tepat!</em>' : `<em>Jawabanmu: ${OPTS[userAns] || '?'}. ${userTxt}</em>`}
+        </div>`;
+
+      } else if (q.type === 'pgk') {
+        const kunciArr = Array.isArray(q.ans) ? q.ans : [];
+        const userArr  = Array.isArray(userAns) ? userAns.map(i => OPTS[i]).filter(Boolean) : [];
+        q.opt.forEach((o, i) => {
+          const ltr = OPTS[i];
+          const isKunci   = kunciArr.includes(ltr);
+          const isDipilih = userArr.includes(ltr);
+          const cls = isKunci && isDipilih ? 'kunci dipilih'
+                    : isKunci              ? 'kunci'
+                    : isDipilih            ? 'dipilih'
+                    : '';
+          const icon = isKunci ? '✅' : isDipilih ? '❌' : '';
+          optsHtml += `<div class="rev-opt ${cls}">${icon} <strong>${ltr}.</strong> ${o}</div>`;
+        });
+        penjelasanHtml = `<div class="rev-penjelasan">
+          💡 <strong>Kunci jawaban:</strong> ${kunciArr.join(' dan ')}<br>
+          <strong>Jawabanmu:</strong> ${userArr.length ? userArr.join(' dan ') : '(tidak dijawab)'}<br>
+          <em>Soal ini memerlukan <strong>semua</strong> jawaban yang benar untuk mendapat poin penuh.</em>
+        </div>`;
+
+      } else if (q.type === 'pgk-cat') {
+        optsHtml = '<div class="rev-label">Kolom kategori</div>';
+        const cols = [q.cols[0], q.cols[1], q.cols[2]].filter(Boolean);
+        optsHtml += `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          ${cols.map(c => `<span style="background:var(--primary-pl);padding:3px 10px;border-radius:6px;font-size:.8rem;font-weight:700;color:var(--primary);">${c}</span>`).join('')}
+        </div>`;
+        optsHtml += '<div class="rev-label">Pasangan baris → kategori</div>';
+        q.rows.forEach((row, ri) => {
+          const kunci   = q.ans[ri];
+          const pilihan = Array.isArray(userAns) ? userAns[ri] : undefined;
+          const match   = pilihan === kunci;
+          const cls     = match ? 'kunci dipilih' : 'salah';
+          const icon    = match ? '✅' : '❌';
+          optsHtml += `<div class="rev-opt ${cls}" style="display:flex;justify-content:space-between;">
+            <span>${icon} ${row}</span>
+            <span style="font-size:.8rem;">${pilihan ? pilihan : '<em>?</em>'} ${!match ? `→ <strong>${kunci}</strong>` : ''}</span>
+          </div>`;
+        });
+        penjelasanHtml = `<div class="rev-penjelasan">
+          💡 Pasangkan setiap baris dengan kategori yang tepat. Perhatikan kembali definisi masing-masing kategori.
+        </div>`;
+      }
+
+      return `<div class="rev-item">
+        <div class="rev-header ${statusCls}" onclick="this.parentElement.querySelector('.rev-body').classList.toggle('open');this.querySelector('.rev-chevron').classList.toggle('open');">
+          <span class="rev-num">${idx+1}</span>
+          <span class="rev-badge ${badgeCls}">${statusTxt}</span>
+          <span class="rev-q">${q.q.length > 70 ? q.q.slice(0,70)+'…' : q.q}</span>
+          <span class="rev-chevron">▼</span>
+        </div>
+        <div class="rev-body">
+          <div class="rev-inner">
+            <div class="rev-label">Pertanyaan lengkap</div>
+            <p style="margin:0 0 10px;font-size:.88rem;">${q.q}</p>
+            <div class="rev-label">Pilihan jawaban</div>
+            ${optsHtml}
+            ${penjelasanHtml}
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+
+    container.innerHTML = `<div class="review-section">
+      <h4>📖 Pembahasan Soal</h4>
+      <p style="font-size:.84rem;color:var(--text-lt);margin-bottom:16px;">Klik setiap soal untuk melihat jawaban benar dan penjelasannya. <span style="color:var(--success);">✅ Hijau = benar</span> · <span style="color:var(--danger);">❌ Merah = salah/pilihan salah</span></p>
+      ${items}
+    </div>`;
   },
 
   _submitToServer: function(skor, ringkasan, deskripsi) {
