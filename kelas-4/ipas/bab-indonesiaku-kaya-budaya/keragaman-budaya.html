@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-A: Keragaman Budaya Indonesia | IPAS Kelas 4 Bab 2 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    /* ── Variabel Bab 2 ── */
+    :root {
+      --bab-primary:   #b85c1d;
+      --bab-primary-dk:#8f4415;
+      --bab-light:     #fdf3ec;
+      --bab-accent:    #e8864a;
+      --bab-accent-lt: #fce9d8;
+    }
+
+    /* ── Sub-header ── */
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .sub-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif;
+      font-size: .8rem;
+      color: rgba(255,255,255,.72);
+      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.68);
+      margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700;
+      margin: 0 0 .8rem;
+      color: #fff;
+      max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: rgba(255,255,255,.85);
+      max-width: 640px;
+      line-height: 1.65;
+    }
+    .sub-hero-icon {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 1rem;
+      font-size: 4rem;
+      opacity: .15;
+      pointer-events: none;
+    }
+
+    /* ── Daftar Isi ── */
+    .toc-box {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.4rem 1.6rem;
+      margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 {
+      font-family: 'Lora', serif;
+      font-size: .95rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .9rem;
+    }
+    .toc-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .2rem 0;
+      transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num {
+      font-weight: 700;
+      min-width: 1.5rem;
+      color: var(--bab-accent);
+    }
+
+    /* ── Tipografi konten ── */
+    .prose h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.4rem;
+      color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--bab-primary);
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+    .prose h2 .section-icon { font-size: 1.25rem; }
+    .prose h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      color: var(--bab-primary-dk);
+      margin: 2rem 0 .7rem;
+    }
+    .prose p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.8;
+      margin: 0 0 1rem;
+    }
+
+    /* ── Kotak info ── */
+    .info-box {
+      background: var(--bab-light);
+      border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0;
+      padding: 1.1rem 1.4rem;
+      margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif;
+      font-size: .93rem;
+      line-height: 1.7;
+      color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      display: block;
+      margin-bottom: .3rem;
+      font-size: .8rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    /* ── Kotak tahukah kamu ── */
+    .fact-box {
+      background: #fff9f0;
+      border: 1.5px solid var(--bab-accent);
+      border-radius: .85rem;
+      padding: 1.2rem 1.4rem;
+      margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--bab-accent);
+      margin-bottom: .5rem;
+    }
+    .fact-box p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* ── Kartu unsur budaya ── */
+    .budaya-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .budaya-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .9rem;
+      overflow: hidden;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .budaya-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 22px rgba(184,92,29,.11);
+    }
+    .budaya-card-head {
+      padding: 1.1rem 1.3rem .8rem;
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .budaya-emoji {
+      font-size: 1.8rem;
+      width: 2.8rem;
+      height: 2.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bab-light);
+      border-radius: .6rem;
+      flex-shrink: 0;
+    }
+    .budaya-card h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--ink, #1a1f2e);
+      margin: 0;
+    }
+    .budaya-card-body {
+      padding: .9rem 1.3rem 1.1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: #555;
+      line-height: 1.7;
+    }
+    .contoh-list {
+      margin: .5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .contoh-list li {
+      display: flex;
+      gap: .5rem;
+      font-size: .85rem;
+      color: var(--ink, #1a1f2e);
+      padding: .2rem 0;
+      border-bottom: 1px dashed #eee;
+    }
+    .contoh-list li:last-child { border-bottom: none; }
+    .contoh-list .daerah {
+      font-weight: 600;
+      color: var(--bab-primary-dk);
+      min-width: 100px;
+    }
+    .contoh-list .nama { color: #444; }
+
+    /* ── Tabel perbandingan ── */
+    .tabel-budaya {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      margin: 1rem 0 1.5rem;
+      background: #fff;
+      border-radius: .75rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-budaya thead tr {
+      background: var(--bab-primary);
+      color: #fff;
+    }
+    .tabel-budaya th {
+      padding: .75rem 1rem;
+      text-align: left;
+      font-weight: 700;
+      font-size: .82rem;
+      letter-spacing: .04em;
+    }
+    .tabel-budaya td {
+      padding: .65rem 1rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.55;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-budaya tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-budaya tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Spotlight Sunda ── */
+    .sunda-box {
+      background: linear-gradient(135deg, #fef9f4 0%, #fdecd8 100%);
+      border: 2px solid var(--bab-accent);
+      border-radius: 1.1rem;
+      padding: 1.6rem;
+      margin: 2rem 0;
+    }
+    .sunda-box .sunda-header {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 1.1rem;
+    }
+    .sunda-box .sunda-badge {
+      background: var(--bab-primary);
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: .25rem .65rem;
+      border-radius: 2rem;
+    }
+    .sunda-box h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      color: var(--bab-primary-dk);
+      margin: 0;
+    }
+    .sunda-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      gap: .9rem;
+    }
+    .sunda-item {
+      background: #fff;
+      border-radius: .7rem;
+      padding: .8rem 1rem;
+      font-family: 'Nunito', sans-serif;
+    }
+    .sunda-item .s-label {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--bab-accent);
+      margin-bottom: .25rem;
+    }
+    .sunda-item .s-name {
+      font-size: .92rem;
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      margin-bottom: .2rem;
+    }
+    .sunda-item .s-desc {
+      font-size: .8rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* ── Ringkasan ── */
+    .ringkasan {
+      background: var(--bab-primary);
+      color: #fff;
+      border-radius: 1rem;
+      padding: 1.6rem 1.8rem;
+      margin: 2.5rem 0;
+    }
+    .ringkasan h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      color: #fff;
+      margin: 0 0 1rem;
+    }
+    .ringkasan ul {
+      margin: 0;
+      padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      line-height: 1.8;
+      color: rgba(255,255,255,.9);
+    }
+
+    /* ── Navigasi bawah ── */
+    .nav-bawah {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      border: 1.5px solid var(--bab-primary);
+      padding: .55rem 1.1rem;
+      border-radius: .55rem;
+      transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next {
+      background: var(--bab-primary);
+      color: #fff;
+    }
+    .nav-bawah .btn-next:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="sub-hero">
+    <div class="sub-hero-icon">🎨</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a>
+        <span>›</span>
+        <a href="../../index.html">Kelas 4</a>
+        <span>›</span>
+        <a href="../index.html">IPAS</a>
+        <span>›</span>
+        <a href="materi.html">Bab 2</a>
+        <span>›</span>
+        <span>Sub-materi A</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 2 · Sub-materi A</p>
+      <h1>Keragaman Budaya Indonesia</h1>
+      <p class="intro-text">
+        Indonesia punya lebih dari 300 suku bangsa dengan budaya yang berbeda-beda.
+        Yuk kenali kekayaan ini — mulai dari rumah adat, tarian, alat musik, hingga makanan khas!
+      </p>
+    </div>
+  </header>
+
+  <!-- ══ ISI ══ -->
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <!-- Daftar Isi -->
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#apa-itu-budaya"><span class="toc-num">1</span> Apa Itu Budaya?</a></li>
+        <li><a href="#kenapa-kaya"><span class="toc-num">2</span> Mengapa Indonesia Kaya Budaya?</a></li>
+        <li><a href="#unsur-budaya"><span class="toc-num">3</span> Unsur-Unsur Budaya</a></li>
+        <li><a href="#rumah-adat"><span class="toc-num">4</span> Rumah Adat</a></li>
+        <li><a href="#pakaian-adat"><span class="toc-num">5</span> Pakaian Adat</a></li>
+        <li><a href="#tarian"><span class="toc-num">6</span> Tarian Daerah</a></li>
+        <li><a href="#alat-musik"><span class="toc-num">7</span> Alat Musik Tradisional</a></li>
+        <li><a href="#makanan"><span class="toc-num">8</span> Makanan Khas Daerah</a></li>
+        <li><a href="#bahasa"><span class="toc-num">9</span> Bahasa Daerah</a></li>
+        <li><a href="#spotlight-sunda"><span class="toc-num">10</span> Spotlight: Budaya Sunda</a></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 1 — APA ITU BUDAYA
+    ════════════════════════════════════ -->
+    <h2 id="apa-itu-budaya"><span class="section-icon">🌱</span> 1. Apa Itu Budaya?</h2>
+
+    <p>
+      <strong>Budaya</strong> adalah seluruh cara hidup suatu kelompok masyarakat yang diwariskan
+      dari generasi ke generasi. Budaya mencakup banyak hal — cara berpakaian, cara berbicara,
+      jenis makanan, bentuk rumah, tarian, nyanyian, upacara adat, hingga nilai-nilai dan
+      kepercayaan yang dianut masyarakat tersebut.
+    </p>
+
+    <p>
+      Sederhananya: budaya adalah <em>identitas</em> suatu kelompok masyarakat.
+      Seperti sidik jari — setiap kelompok punya budaya yang unik dan berbeda dengan kelompok lain.
+    </p>
+
+    <div class="info-box">
+      <span class="label">💡 Ingat ini</span>
+      Budaya bukan sesuatu yang tiba-tiba muncul. Budaya terbentuk secara perlahan selama
+      ratusan bahkan ribuan tahun, dipengaruhi oleh alam sekitar, sejarah, dan interaksi
+      dengan kelompok lain.
+    </div>
+
+    <h3>Dari Mana Kata "Budaya" Berasal?</h3>
+    <p>
+      Kata <em>budaya</em> berasal dari bahasa Sansekerta <em>buddhayah</em>, yang artinya
+      "hal-hal yang berkaitan dengan budi dan akal manusia." Ini menunjukkan bahwa budaya adalah
+      hasil dari pikiran dan kreativitas manusia — bukan sekadar kebiasaan, tapi karya cipta yang bermakna.
+    </p>
+
+    <div class="fact-box">
+      <p class="fact-label">🌍 Tahukah Kamu?</p>
+      <p>
+        Kata "culture" dalam bahasa Inggris juga bermakna serupa dengan "budaya" dalam bahasa Indonesia.
+        Kata ini berasal dari bahasa Latin <em>cultura</em> yang artinya "mengolah tanah."
+        Dahulu, manusia pertama kali mulai membangun budaya ketika mereka belajar bercocok tanam
+        dan hidup menetap bersama.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 2 — MENGAPA INDONESIA KAYA BUDAYA
+    ════════════════════════════════════ -->
+    <h2 id="kenapa-kaya"><span class="section-icon">🗺️</span> 2. Mengapa Indonesia Begitu Kaya Budaya?</h2>
+
+    <p>
+      Indonesia adalah salah satu negara dengan keberagaman budaya terbesar di dunia.
+      Ada <strong>lebih dari 1.300 suku bangsa</strong> dan <strong>700-an bahasa daerah</strong>
+      di Indonesia! Mengapa bisa sebanyak itu?
+    </p>
+
+    <h3>Alasan 1: Kepulauan yang Terpisah-pisah</h3>
+    <p>
+      Indonesia terdiri dari sekitar 17.000 pulau! Masyarakat yang tinggal di pulau-pulau berbeda
+      hidup terpisah selama ribuan tahun. Mereka mengembangkan cara hidup masing-masing sesuai
+      dengan kondisi alam di sekitar mereka. Hasilnya? Ratusan budaya yang berbeda-beda.
+    </p>
+
+    <h3>Alasan 2: Kondisi Alam yang Beragam</h3>
+    <p>
+      Ada daerah pegunungan dingin, pantai yang panas, hutan tropis lebat, dan padang rumput.
+      Setiap lingkungan mendorong masyarakat untuk beradaptasi secara berbeda —
+      mulai dari jenis pakaian, bentuk rumah, hingga jenis makanan yang dikonsumsi.
+    </p>
+
+    <h3>Alasan 3: Pengaruh Berbagai Budaya Dunia</h3>
+    <p>
+      Selama ribuan tahun, Indonesia disinggahi pedagang dari India, Arab, China, Portugal, Belanda,
+      dan banyak lagi. Setiap tamu membawa budaya mereka dan bercampur dengan budaya lokal.
+      Itulah mengapa di beberapa daerah Indonesia kita bisa menemukan pengaruh Hindu, Islam,
+      Budha, dan bahkan Portugis sekaligus!
+    </p>
+
+    <div class="fact-box">
+      <p class="fact-label">🌟 Rekor Dunia</p>
+      <p>
+        Indonesia termasuk negara dengan keberagaman bahasa terbesar di dunia.
+        Bahasa Papua Nugini memang lebih banyak secara total, tapi bahasa daerah Indonesia
+        yang tersebar di 17.000 pulau menjadikan kita salah satu "laboratorium bahasa dan budaya"
+        paling kaya di planet ini.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 3 — UNSUR BUDAYA
+    ════════════════════════════════════ -->
+    <h2 id="unsur-budaya"><span class="section-icon">🧩</span> 3. Unsur-Unsur Budaya</h2>
+
+    <p>
+      Budaya suatu masyarakat terdiri dari banyak unsur. Para ahli menyebutkan ada tujuh unsur
+      budaya yang disebut <strong>unsur kebudayaan universal</strong> — artinya semua masyarakat
+      di dunia pasti punya ketujuh unsur ini, meski bentuknya berbeda-beda.
+    </p>
+
+    <div class="budaya-grid">
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">🏠</div>
+          <h3>Sistem Teknologi</h3>
+        </div>
+        <div class="budaya-card-body">
+          Cara masyarakat membuat alat dan bangunan untuk memenuhi kebutuhan hidup,
+          termasuk rumah adat, alat pertanian, perahu, dan peralatan memasak tradisional.
+        </div>
+      </div>
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">🍚</div>
+          <h3>Sistem Mata Pencaharian</h3>
+        </div>
+        <div class="budaya-card-body">
+          Cara masyarakat mencari nafkah: bertani, menangkap ikan, berdagang, berkebun, beternak.
+          Di Jawa Barat banyak yang bertani padi di sawah terasering yang indah.
+        </div>
+      </div>
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">👨‍👩‍👧</div>
+          <h3>Sistem Kemasyarakatan</h3>
+        </div>
+        <div class="budaya-card-body">
+          Aturan hidup bersama — bagaimana masyarakat mengatur keluarga, pernikahan,
+          pergaulan, dan keputusan bersama. Misal: adat musyawarah mufakat.
+        </div>
+      </div>
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">🗣️</div>
+          <h3>Bahasa</h3>
+        </div>
+        <div class="budaya-card-body">
+          Alat komunikasi utama masyarakat. Indonesia punya 700+ bahasa daerah —
+          dari Sabang sampai Merauke setiap daerah punya cara bicara yang unik.
+        </div>
+      </div>
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">🎨</div>
+          <h3>Kesenian</h3>
+        </div>
+        <div class="budaya-card-body">
+          Ekspresi kreativitas: tarian, musik, ukiran, batik, wayang, dan segala bentuk seni
+          yang mencerminkan nilai dan keindahan menurut pandangan masyarakat tersebut.
+        </div>
+      </div>
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">📚</div>
+          <h3>Sistem Pengetahuan</h3>
+        </div>
+        <div class="budaya-card-body">
+          Pengetahuan turun-temurun tentang alam, pengobatan, pertanian, dan cara membaca
+          tanda-tanda alam. Misalnya, pengetahuan petani tentang musim tanam.
+        </div>
+      </div>
+      <div class="budaya-card">
+        <div class="budaya-card-head">
+          <div class="budaya-emoji">🙏</div>
+          <h3>Sistem Kepercayaan</h3>
+        </div>
+        <div class="budaya-card-body">
+          Keyakinan dan nilai-nilai spiritual masyarakat — termasuk agama, upacara adat,
+          ritual, dan pandangan tentang kehidupan dan kematian.
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 4 — RUMAH ADAT
+    ════════════════════════════════════ -->
+    <h2 id="rumah-adat"><span class="section-icon">🏘️</span> 4. Rumah Adat</h2>
+
+    <p>
+      Rumah adat adalah bangunan tradisional khas suatu daerah yang mencerminkan budaya,
+      kepercayaan, dan cara hidup masyarakat setempat. Bentuk rumah adat sangat dipengaruhi oleh
+      kondisi alam di sekitarnya — iklim, bahan bangunan yang tersedia, dan kebutuhan masyarakat.
+    </p>
+
+    <h3>Mengapa Rumah Adat Berbeda-beda?</h3>
+    <p>
+      Masyarakat yang hidup di daerah banjir membangun rumah panggung agar tidak tergenang air.
+      Masyarakat pegunungan yang dingin membangun rumah dengan atap miring agar salju atau hujan
+      bisa mengalir turun. Masyarakat di daerah hutan menggunakan kayu sebagai bahan utama.
+      Semua ini adalah bentuk <em>adaptasi</em> manusia terhadap alam.
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Nama Rumah Adat</th>
+          <th>Daerah Asal</th>
+          <th>Ciri Khas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Rumah Gadang</strong></td>
+          <td>Sumatera Barat (Minangkabau)</td>
+          <td>Atap melengkung seperti tanduk kerbau, ruangan besar tanpa sekat</td>
+        </tr>
+        <tr>
+          <td><strong>Rumah Tongkonan</strong></td>
+          <td>Sulawesi Selatan (Toraja)</td>
+          <td>Atap melengkung tinggi, dihiasi ukiran berwarna-warni, tiang besar</td>
+        </tr>
+        <tr>
+          <td><strong>Honai</strong></td>
+          <td>Papua</td>
+          <td>Berbentuk bulat, atap dari jerami tebal untuk melindungi dari dingin</td>
+        </tr>
+        <tr>
+          <td><strong>Joglo</strong></td>
+          <td>Jawa Tengah & DIY</td>
+          <td>Atap empat sisi bertingkat, tiang utama (saka guru) yang kokoh</td>
+        </tr>
+        <tr>
+          <td><strong>Rumah Betang</strong></td>
+          <td>Kalimantan (Dayak)</td>
+          <td>Panjang hingga 150 m, panggung tinggi, dihuni banyak keluarga bersama</td>
+        </tr>
+        <tr>
+          <td><strong>Rumah Bolon</strong></td>
+          <td>Sumatera Utara (Batak)</td>
+          <td>Panggung tinggi, atap melengkung, kolong untuk ternak</td>
+        </tr>
+        <tr>
+          <td><strong>Baileo</strong></td>
+          <td>Maluku</td>
+          <td>Bangunan terbuka tanpa dinding, digunakan untuk pertemuan adat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Rumah Sunda -->
+    <div class="info-box">
+      <span class="label">🏡 Rumah Adat Sunda — Jawa Barat</span>
+      Di Jawa Barat, rumah adat Sunda yang paling dikenal adalah <strong>Rumah Julang Ngapak</strong>
+      (artinya: burung yang sedang mengepakkan sayap). Atapnya berbentuk seperti sayap burung yang
+      terbuka lebar di kedua sisinya. Terbuat dari bambu dan kayu, dengan lantai yang agak ditinggikan
+      dari tanah. Ada juga <strong>Rumah Badak Heuay</strong> (badak yang sedang menguap) dengan atap
+      pelana asimetris, dan <strong>Rumah Capit Gunting</strong> yang bagian puncak atapnya menyilang
+      seperti gunting.
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 5 — PAKAIAN ADAT
+    ════════════════════════════════════ -->
+    <h2 id="pakaian-adat"><span class="section-icon">👘</span> 5. Pakaian Adat</h2>
+
+    <p>
+      Pakaian adat adalah pakaian khas daerah yang biasanya dikenakan pada acara-acara istimewa
+      seperti pernikahan, upacara adat, perayaan keagamaan, atau festival budaya. Pakaian adat
+      mencerminkan nilai, status sosial, dan keindahan menurut pandangan masyarakat di daerah tersebut.
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Pakaian Adat</th>
+          <th>Daerah</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Kebaya</strong></td>
+          <td>Jawa, Sunda, Bali</td>
+          <td>Baju atasan tipis berhias bordir, dipadukan dengan kain batik atau songket</td>
+        </tr>
+        <tr>
+          <td><strong>Ulos</strong></td>
+          <td>Sumatera Utara (Batak)</td>
+          <td>Kain tenun bermotif khas, diberikan sebagai tanda penghormatan dan kasih sayang</td>
+        </tr>
+        <tr>
+          <td><strong>Baju Bodo</strong></td>
+          <td>Sulawesi Selatan (Bugis-Makassar)</td>
+          <td>Baju kotak dari kain sutera tipis, warnanya menandakan usia dan status pemakainya</td>
+        </tr>
+        <tr>
+          <td><strong>Pakaian Pengantin Minang</strong></td>
+          <td>Sumatera Barat</td>
+          <td>Sarat sulaman emas, penutup kepala tinggi (suntiang), sangat mewah</td>
+        </tr>
+        <tr>
+          <td><strong>Koteka</strong></td>
+          <td>Papua</td>
+          <td>Pakaian adat pria dari labu kering, dikenakan masyarakat pegunungan Papua</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">👗 Pakaian Adat Sunda — Jawa Barat</span>
+      Pakaian adat Sunda untuk pria disebut <strong>baju pangsi</strong> — celana dan baju longgar
+      berwarna hitam, dilengkapi ikat kepala (totopong) dan sandal. Untuk wanita, dikenakan
+      <strong>kebaya Sunda</strong> yang biasanya berwarna cerah dengan kain batik Priangan.
+      Pada upacara pernikahan adat Sunda, pengantin wanita mengenakan <em>siger</em>
+      (mahkota khas Sunda) yang megah.
+    </div>
+
+    <div class="fact-box">
+      <p class="fact-label">🎨 Tahukah Kamu? Tentang Batik</p>
+      <p>
+        <strong>Batik</strong> adalah kain bermotif yang dibuat dengan cara menorehkan lilin (malam)
+        pada kain lalu dicelupkan ke dalam pewarna. Batik Indonesia sudah diakui oleh UNESCO sebagai
+        Warisan Budaya Tak Benda pada tahun 2009. Di Jawa Barat, kota Cirebon terkenal dengan
+        <em>Batik Mega Mendung</em> — motif awan berbentuk unik yang tidak ditemukan di daerah lain!
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 6 — TARIAN DAERAH
+    ════════════════════════════════════ -->
+    <h2 id="tarian"><span class="section-icon">💃</span> 6. Tarian Daerah</h2>
+
+    <p>
+      Tarian daerah adalah ekspresi seni yang paling hidup dan dinamis. Setiap tarian punya cerita —
+      ada yang menceritakan kehidupan sehari-hari, ada yang merupakan ritual keagamaan, ada pula
+      yang diciptakan untuk menyambut tamu atau merayakan panen.
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Nama Tarian</th>
+          <th>Asal Daerah</th>
+          <th>Makna / Fungsi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Tari Saman</strong></td>
+          <td>Aceh</td>
+          <td>Tari massal cepat sambil berteriak dan tepuk tangan; simbol kebersamaan dan kekompakan</td>
+        </tr>
+        <tr>
+          <td><strong>Tari Pendet</strong></td>
+          <td>Bali</td>
+          <td>Tari persembahan untuk dewa-dewi; penari membawa mangkuk berisi bunga</td>
+        </tr>
+        <tr>
+          <td><strong>Tari Tor-Tor</strong></td>
+          <td>Sumatera Utara (Batak)</td>
+          <td>Tari upacara adat; gerakan tangan yang khas bermakna doa dan penghormatan</td>
+        </tr>
+        <tr>
+          <td><strong>Tari Reog Ponorogo</strong></td>
+          <td>Jawa Timur</td>
+          <td>Tari dengan topeng singa berbulu merak; menceritakan legenda kerajaan Ponorogo</td>
+        </tr>
+        <tr>
+          <td><strong>Tari Cakalele</strong></td>
+          <td>Maluku</td>
+          <td>Tari perang; ditampilkan untuk menyambut tamu agung atau merayakan kemenangan</td>
+        </tr>
+        <tr>
+          <td><strong>Tari Jaipong</strong></td>
+          <td>Jawa Barat (Sunda)</td>
+          <td>Tari hiburan rakyat yang energik dan ekspresif; menggabungkan gerak silat dan ketuk tilu</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 7 — ALAT MUSIK
+    ════════════════════════════════════ -->
+    <h2 id="alat-musik"><span class="section-icon">🎵</span> 7. Alat Musik Tradisional</h2>
+
+    <p>
+      Indonesia kaya akan alat musik tradisional yang diciptakan dari bahan-bahan alam sekitar —
+      bambu, kayu, kulit binatang, logam, hingga tempurung kelapa. Setiap daerah punya alat musiknya
+      sendiri yang unik dan tidak ditemukan di tempat lain.
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Alat Musik</th>
+          <th>Asal Daerah</th>
+          <th>Cara Memainkan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Angklung</strong></td>
+          <td>Jawa Barat (Sunda)</td>
+          <td>Digoyangkan; terbuat dari bambu, menghasilkan nada yang merdu</td>
+        </tr>
+        <tr>
+          <td><strong>Gamelan</strong></td>
+          <td>Jawa & Bali</td>
+          <td>Dipukul (gong, kendang, saron); ansambel musik kolektif yang harmonis</td>
+        </tr>
+        <tr>
+          <td><strong>Sasando</strong></td>
+          <td>Nusa Tenggara Timur (Rote)</td>
+          <td>Dipetik; terbuat dari daun lontar, berbentuk seperti kipas terbalik</td>
+        </tr>
+        <tr>
+          <td><strong>Tifa</strong></td>
+          <td>Papua & Maluku</td>
+          <td>Ditabuh; gendang berbentuk panjang seperti tabung, untuk ritual dan perayaan</td>
+        </tr>
+        <tr>
+          <td><strong>Kolintang</strong></td>
+          <td>Sulawesi Utara (Minahasa)</td>
+          <td>Dipukul dengan pemukul kayu; bilah kayu yang disusun berurutan menghasilkan melodi</td>
+        </tr>
+        <tr>
+          <td><strong>Kecapi</strong></td>
+          <td>Jawa Barat (Sunda)</td>
+          <td>Dipetik; alat musik petik berbentuk perahu, dimainkan bersama suling</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="fact-box">
+      <p class="fact-label">🎋 Angklung — Warisan Dunia dari Jawa Barat</p>
+      <p>
+        Angklung adalah alat musik bambu khas Sunda yang sudah diakui UNESCO sebagai Warisan Budaya
+        Tak Benda Dunia sejak tahun 2010. Angklung dimainkan bersama-sama — setiap orang hanya
+        memegang satu nada, tapi ketika dimainkan bersama, tercipta melodi yang indah.
+        Ini mengajarkan nilai kebersamaan: satu orang tidak cukup, tapi bersama kita bisa!
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 8 — MAKANAN KHAS
+    ════════════════════════════════════ -->
+    <h2 id="makanan"><span class="section-icon">🍲</span> 8. Makanan Khas Daerah</h2>
+
+    <p>
+      Makanan khas adalah cermin dari kondisi alam, hasil bumi, dan cara hidup suatu masyarakat.
+      Daerah yang subur dengan padi menghasilkan masakan berbasis nasi. Daerah pantai kaya masakan
+      berbahan ikan dan kelapa. Daerah pegunungan memanfaatkan sayuran dan umbi-umbian.
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Makanan Khas</th>
+          <th>Daerah Asal</th>
+          <th>Bahan Utama</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Rendang</strong></td>
+          <td>Sumatera Barat</td>
+          <td>Daging sapi dimasak lama dengan santan dan rempah; tahan berhari-hari</td>
+        </tr>
+        <tr>
+          <td><strong>Papeda</strong></td>
+          <td>Papua & Maluku</td>
+          <td>Bubur sagu kental, dimakan bersama sup ikan kuah kuning</td>
+        </tr>
+        <tr>
+          <td><strong>Soto Banjar</strong></td>
+          <td>Kalimantan Selatan</td>
+          <td>Sup ayam dengan kuah bening berempah, disajikan dengan ketupat</td>
+        </tr>
+        <tr>
+          <td><strong>Gudeg</strong></td>
+          <td>DI Yogyakarta</td>
+          <td>Nangka muda dimasak santan berhari-hari hingga berwarna kecoklatan dan manis</td>
+        </tr>
+        <tr>
+          <td><strong>Karedok</strong></td>
+          <td>Jawa Barat</td>
+          <td>Sayuran mentah segar dengan saus kacang pedas; makanan sehat khas Sunda</td>
+        </tr>
+        <tr>
+          <td><strong>Nasi Timbel</strong></td>
+          <td>Jawa Barat</td>
+          <td>Nasi yang dibungkus daun pisang, disajikan dengan lauk pauk khas Sunda</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 9 — BAHASA DAERAH
+    ════════════════════════════════════ -->
+    <h2 id="bahasa"><span class="section-icon">🗣️</span> 9. Bahasa Daerah</h2>
+
+    <p>
+      Indonesia memiliki <strong>sekitar 718 bahasa daerah</strong> — terbanyak kedua di dunia!
+      Bahasa daerah adalah alat komunikasi yang digunakan masyarakat dalam kehidupan sehari-hari
+      di suatu daerah. Ini berbeda dengan Bahasa Indonesia yang merupakan bahasa persatuan
+      seluruh warga Indonesia.
+    </p>
+
+    <p>
+      Bahasa daerah bukan hanya alat bicara, tapi juga jendela menuju budaya.
+      Dalam bahasa Sunda misalnya, ada <em>undak usuk basa</em> (tingkatan bahasa) —
+      cara berbicara yang berbeda tergantung kepada siapa kita berbicara. Ini mencerminkan
+      nilai penghormatan yang sangat kuat dalam budaya Sunda.
+    </p>
+
+    <div class="info-box">
+      <span class="label">💬 Contoh: Tingkatan Bahasa Sunda</span>
+      Dalam bahasa Sunda, kata "makan" bisa berbeda-beda tergantung situasi:
+      <br>– <strong>Dahar</strong> (kata biasa, digunakan kepada teman sebaya atau yang lebih muda)
+      <br>– <strong>Tuang</strong> (kata halus, digunakan kepada orang yang lebih tua atau dihormati)
+      <br>Ini menunjukkan betapa bahasa Sunda sangat menghargai tata krama dan kesopanan.
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 10 — SPOTLIGHT SUNDA
+    ════════════════════════════════════ -->
+    <h2 id="spotlight-sunda"><span class="section-icon">⭐</span> 10. Spotlight: Budaya Sunda</h2>
+
+    <p>
+      Kita tinggal di <strong>Jawa Barat</strong> — tanah leluhur <strong>suku Sunda</strong>,
+      salah satu suku terbesar di Indonesia. Budaya Sunda dikenal dengan filosofi hidup yang
+      indah: <em>Silih Asah, Silih Asih, Silih Asuh</em> — saling mengasah (belajar bersama),
+      saling menyayangi, dan saling membimbing.
+    </p>
+
+    <div class="sunda-box">
+      <div class="sunda-header">
+        <span class="sunda-badge">Jawa Barat</span>
+        <h3>Kekayaan Budaya Sunda</h3>
+      </div>
+      <div class="sunda-grid">
+        <div class="sunda-item">
+          <p class="s-label">Rumah Adat</p>
+          <p class="s-name">Julang Ngapak</p>
+          <p class="s-desc">Atap berbentuk sayap burung yang mengepak, terbuat dari bambu dan kayu</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Pakaian Adat</p>
+          <p class="s-name">Kebaya + Pangsi</p>
+          <p class="s-desc">Kebaya cerah untuk perempuan, baju pangsi hitam untuk laki-laki</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Tarian Khas</p>
+          <p class="s-name">Jaipong</p>
+          <p class="s-desc">Tari hiburan rakyat yang energik, lahir dari kreativitas seniman Karawang</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Alat Musik</p>
+          <p class="s-name">Angklung & Kecapi</p>
+          <p class="s-desc">Angklung dari bambu (Warisan UNESCO), kecapi sebagai jiwa musik Sunda</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Makanan Khas</p>
+          <p class="s-name">Karedok, Peuyeum</p>
+          <p class="s-desc">Karedok (lalab + saus kacang), peuyeum (tape singkong khas Bandung)</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Bahasa</p>
+          <p class="s-name">Basa Sunda</p>
+          <p class="s-desc">Bahasa Sunda punya tingkatan (undak usuk) yang mencerminkan nilai sopan santun</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Kesenian Khas</p>
+          <p class="s-name">Wayang Golek</p>
+          <p class="s-desc">Wayang tiga dimensi dari kayu; berbeda dengan wayang kulit yang pipih</p>
+        </div>
+        <div class="sunda-item">
+          <p class="s-label">Batik Khas</p>
+          <p class="s-name">Mega Mendung</p>
+          <p class="s-desc">Motif awan berlapis khas Cirebon, satu-satunya di dunia!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <p class="fact-label">🌿 Filosofi Hidup Sunda</p>
+      <p>
+        Masyarakat Sunda dikenal memegang teguh filosofi <strong>"Sunda Wiwitan"</strong> —
+        keselarasan hidup antara manusia, alam, dan Sang Pencipta.
+        Ini tercermin dalam cara orang Sunda menjaga alam, bercocok tanam, dan
+        menghormati lingkungan sekitarnya. Sikap ini sangat relevan di masa kini
+        ketika kita perlu menjaga bumi dari kerusakan.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         RINGKASAN
+    ════════════════════════════════════ -->
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi A</h3>
+      <ul>
+        <li><strong>Budaya</strong> adalah seluruh cara hidup suatu masyarakat yang diwariskan turun-temurun — mencakup bahasa, seni, makanan, pakaian, kepercayaan, dan banyak lagi.</li>
+        <li>Indonesia kaya budaya karena <strong>kondisi kepulauan</strong>, keberagaman alam, dan pengaruh berbagai peradaban dunia selama ribuan tahun.</li>
+        <li>Ada <strong>7 unsur kebudayaan universal</strong> yang dimiliki semua masyarakat di dunia, meski bentuknya berbeda-beda.</li>
+        <li>Setiap daerah punya <strong>rumah adat, pakaian adat, tarian, alat musik, dan makanan khas</strong> yang unik dan mencerminkan kondisi alam serta sejarah daerahnya.</li>
+        <li>Kita, masyarakat Jawa Barat, mewarisi <strong>budaya Sunda</strong> yang kaya — angklung (Warisan UNESCO), jaipong, batik mega mendung, dan filosofi hidup yang indah.</li>
+      </ul>
+    </div>
+
+    <!-- Navigasi -->
+    <div class="nav-bawah">
+      <a href="materi.html">← Kembali ke Bab 2</a>
+      <a href="budaya-dan-alam.html" class="btn-next" style="opacity:.5; pointer-events:none; cursor:default;">
+        Sub-B: Budaya & Alam →
+      </a>
+    </div>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 2, Sub-A — Keragaman Budaya Indonesia
+  </footer>
+
+</body>
+</html>
