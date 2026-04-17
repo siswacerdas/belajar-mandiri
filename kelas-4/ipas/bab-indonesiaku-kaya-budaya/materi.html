@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="../../../assets/css/style.css" />
   <link rel="stylesheet" href="../../../assets/css/layout.css" />
   <style>
+    /* ── Layout: pastikan konten tidak mepet ke tepi layar ── */
+    .content-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+
     /* ── Override aksen Bab 2: Terracotta ── */
     :root {
       --bab-primary:   #b85c1d;
