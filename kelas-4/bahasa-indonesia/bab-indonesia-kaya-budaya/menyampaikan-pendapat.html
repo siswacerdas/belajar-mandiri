@@ -1,1 +1,467 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menyampaikan Pendapat tentang Teks — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#c2410c;--bab-mid:#ea580c;--bab-lt:#ffedd5;--bab-pal:#fff7ed;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}.navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}.breadcrumb .sep{opacity:.4;}
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .hero{background:linear-gradient(135deg,#c2410c,#7c2d12);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#fed7aa;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(194,65,12,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
 
+    /* BACAAN BOX */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#9a3412;}
+    .bacaan-header .b-icon{font-size:1.3rem;}
+    .bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* PENDAPAT CARDS */
+    .pendapat-wrap{display:grid;gap:.75rem;margin:1rem 0 1.5rem;}
+    .pendapat-card{background:#fff;border-radius:12px;padding:1rem 1.25rem;box-shadow:0 2px 8px rgba(0,0,0,.05);border-left:4px solid var(--bab);}
+    .pendapat-card.setuju{border-left-color:#10b981;}
+    .pendapat-card.kurang{border-left-color:#f59e0b;}
+    .pendapat-card.tidak{border-left-color:#ef4444;}
+    .pendapat-tipe{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.4rem;}
+    .pendapat-card.setuju .pendapat-tipe{color:#047857;}
+    .pendapat-card.kurang .pendapat-tipe{color:#b45309;}
+    .pendapat-card.tidak .pendapat-tipe{color:#b91c1c;}
+    .pendapat-kalimat{font-size:.93rem;line-height:1.6;color:var(--ink,#1a1f2e);font-style:italic;}
+    .pendapat-kalimat::before{content:"\201C";font-family:"Lora",serif;font-size:1.8rem;color:var(--bab);line-height:0;margin-right:.15rem;vertical-align:-.3em;}
+    .pendapat-kalimat::after{content:"\201D";font-family:"Lora",serif;font-size:1.8rem;color:var(--bab);line-height:0;margin-left:.15rem;vertical-align:-.3em;}
+
+    /* LANGKAH BOX */
+    .langkah-box{background:#fff;border-radius:14px;padding:1.25rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:1rem 0 1.5rem;}
+    .langkah-item{display:flex;gap:.9rem;padding:.7rem 0;border-bottom:1.5px dashed var(--sand-dk,#ede8dc);}
+    .langkah-item:last-child{border-bottom:none;}
+    .langkah-num{width:36px;height:36px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;flex-shrink:0;}
+    .langkah-text{flex:1;}
+    .langkah-text h4{font-family:"Lora",serif;font-size:.95rem;font-weight:700;color:var(--bab);margin-bottom:.2rem;}
+    .langkah-text p{font-size:.88rem;color:var(--ink-mid,#3d4460);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#9a3412;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#9a3412;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+    @media(max-width:560px){.hero{padding:2.5rem 1rem 4.5rem;}.content{padding:2rem 1rem 3rem;}.back-nav{flex-direction:column;}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a><span class="sep">»</span>
+      <a href="materi.html">Bab 7</a><span class="sep">»</span>
+      <span>Kompetensi C</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#langkah" class="jpill">🔍 3 Langkah</a>
+      <a href="#bacaan1" class="jpill">📖 Contoh 1</a>
+      <a href="#bacaan2" class="jpill">📖 Contoh 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 7 · Kompetensi C</span>
+      <h1>Menyampaikan <em>Pendapat</em> tentang Informasi dalam Teks</h1>
+      <p class="hero-desc">Setelah membaca teks tentang budaya Indonesia, kamu bisa menyampaikan pendapat — setuju, kurang setuju, atau punya sudut pandang lain. Belajar caranya di sini!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/></svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Di Bab 6 kamu sudah belajar menyampaikan pendapat tentang isi dan ilustrasi teks. Sekarang kita akan <strong>memperdalam</strong> kemampuan itu — khususnya bagaimana menanggapi <strong>informasi</strong> yang kamu temukan dalam teks bertema kebudayaan Indonesia.</p>
+      <p>Fokusnya di sini: <strong>setuju atau tidak setuju</strong> terhadap informasi dalam teks, dan menyampaikannya dengan <strong>alasan yang didukung bukti dari teks</strong>.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Menanggapi Informasi dalam Teks</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Membaca teks bukan hanya soal <em>memahami</em> isinya — kamu juga berhak <strong>menanggapi</strong>. Menanggapi artinya kamu memberikan respons: apakah kamu setuju dengan apa yang ditulis? Apakah menurutmu informasinya lengkap? Apakah ada yang perlu ditambahkan?</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Pendapat yang baik terhadap informasi dalam teks memiliki <strong>tiga tingkatan</strong>:</p>
+
+    <div class="pendapat-wrap">
+      <div class="pendapat-card setuju">
+        <div class="pendapat-tipe">✅ Setuju</div>
+        <p class="pendapat-kalimat">Saya setuju dengan informasi ini karena sesuai dengan apa yang saya ketahui. Misalnya, teks menyebutkan bahwa Tari Saman berasal dari Aceh — dan itu memang benar.</p>
+      </div>
+      <div class="pendapat-card kurang">
+        <div class="pendapat-tipe">⚠️ Kurang Setuju / Perlu Tambahan</div>
+        <p class="pendapat-kalimat">Menurut saya, informasi ini belum lengkap karena hanya menyebutkan tarian dari Jawa dan Sumatera. Sebaiknya ditambahkan juga tarian dari Indonesia Timur seperti Papua dan Maluku.</p>
+      </div>
+      <div class="pendapat-card tidak">
+        <div class="pendapat-tipe">❌ Tidak Setuju</div>
+        <p class="pendapat-kalimat">Saya kurang setuju dengan pernyataan bahwa batik hanya berasal dari Jawa, karena menurut yang saya pelajari, daerah lain seperti Kalimantan dan Sumatera juga memiliki tradisi membatik.</p>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">⚖️</div>
+      <div class="ft">
+        <strong>Semua pendapat sah — asalkan ada alasan!</strong>
+        Kamu boleh setuju, kurang setuju, atau tidak setuju. Yang membuat pendapatmu <em>berkualitas</em> bukan posisinya (setuju/tidak), tapi <strong>alasan dan buktinya</strong>. Pendapat tanpa alasan hanyalah pernyataan kosong.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="langkah">
+      <div class="section-label">Teknik Menanggapi</div>
+      <h2 class="section-title">3 Langkah Menyampaikan Pendapat tentang Teks</h2>
+    </div>
+
+    <div class="langkah-box">
+      <div class="langkah-item">
+        <div class="langkah-num">1</div>
+        <div class="langkah-text">
+          <h4>Tentukan Posisimu</h4>
+          <p>Setelah membaca, tanyakan pada diri sendiri: <em>"Apakah aku setuju dengan informasi ini?"</em> Jawab dengan jujur — setuju, kurang setuju, atau tidak setuju.</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">2</div>
+        <div class="langkah-text">
+          <h4>Berikan Alasan</h4>
+          <p>Jelaskan <strong>mengapa</strong> kamu berpendapat demikian. Gunakan pengetahuanmu atau pengalamanmu sebagai dasar.</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">3</div>
+        <div class="langkah-text">
+          <h4>Dukung dengan Bukti dari Teks</h4>
+          <p>Tunjukkan <strong>bagian teks mana</strong> yang mendukung atau bertentangan dengan pendapatmu. Contoh: <em>"Di paragraf kedua disebutkan bahwa..."</em></p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Contoh 1</div>
+      <h2 class="section-title">Bacaan: Festival Budaya Daerah</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🎪</span>
+        <div>
+          <h3>Bacaan 1 — Festival Budaya Nusantara</h3>
+          <div class="b-meta">Tema: Indonesia, Kaya Budaya · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Festival Budaya, Cara Terbaik Melestarikan Tradisi</p>
+        <p>Setiap tahun, berbagai daerah di Indonesia mengadakan festival budaya untuk memperkenalkan tradisi mereka kepada masyarakat luas. Di Jawa Barat misalnya, ada Festival Seni Sunda yang menampilkan tari Jaipong, pertunjukan wayang golek, dan pameran kerajinan bambu.</p>
+        <p>Menurut Pak Dedi, seorang budayawan dari Bandung, festival budaya adalah cara <span class="hl">paling efektif</span> untuk melestarikan tradisi. "Anak-anak muda akan tertarik pada budaya jika mereka bisa melihat langsung pertunjukannya, bukan hanya membaca di buku," ujarnya.</p>
+        <p>Festival juga mendatangkan manfaat ekonomi. Pedagang makanan khas, pengrajin, dan penginapan di sekitar lokasi festival mendapat banyak pelanggan. Data dari Dinas Pariwisata menunjukkan bahwa Festival Seni Sunda tahun lalu dikunjungi oleh lebih dari 15.000 orang dalam tiga hari.</p>
+        <p>Namun, tidak semua daerah mampu mengadakan festival besar. Daerah terpencil dengan anggaran terbatas sering kesulitan menyelenggarakan acara serupa. Akibatnya, tradisi di daerah tersebut kurang dikenal oleh masyarakat luas.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.6rem;font-weight:700;color:var(--bab);">Contoh pendapat siswa terhadap Bacaan 1:</p>
+
+    <div class="pendapat-wrap">
+      <div class="pendapat-card setuju">
+        <div class="pendapat-tipe">✅ Setuju dengan pendapat Pak Dedi</div>
+        <p class="pendapat-kalimat">Saya setuju bahwa festival budaya efektif untuk melestarikan tradisi. Di teks disebutkan festival dikunjungi 15.000 orang, artinya banyak orang yang bisa mengenal budaya daerah secara langsung. Melihat langsung memang lebih berkesan daripada sekadar membaca.</p>
+      </div>
+      <div class="pendapat-card kurang">
+        <div class="pendapat-tipe">⚠️ Kurang setuju — perlu solusi tambahan</div>
+        <p class="pendapat-kalimat">Menurut saya, festival memang bagus tapi bukan satu-satunya cara. Teks sendiri menyebutkan bahwa daerah terpencil kesulitan mengadakan festival. Sebaiknya ditambahkan juga cara lain seperti mengajarkan budaya di sekolah atau membuat video budaya di internet agar semua daerah bisa ikut melestarikan tradisinya.</p>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Contoh 2</div>
+      <h2 class="section-title">Bacaan: Bahasa Daerah Terancam Punah</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🗣️</span>
+        <div>
+          <h3>Bacaan 2 — Bahasa Daerah yang Mulai Hilang</h3>
+          <div class="b-meta">Tema: Indonesia, Kaya Budaya · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#9a3412;">Bahasa Daerah Indonesia Mulai Ditinggalkan</p>
+        <p>Indonesia memiliki lebih dari 700 bahasa daerah. Namun, banyak di antaranya yang mulai ditinggalkan oleh generasi muda. Anak-anak di kota besar lebih sering menggunakan bahasa Indonesia dalam kehidupan sehari-hari dan jarang berbicara dalam bahasa daerah mereka.</p>
+        <p>Di Jawa Barat, bahasa Sunda masih cukup banyak digunakan. Namun, beberapa kata dan ungkapan Sunda kuno sudah jarang terdengar. Menurut penelitian Universitas Padjadjaran, sekitar 30% remaja di Bandung tidak fasih berbahasa Sunda.</p>
+        <p>Beberapa ahli berpendapat bahwa bahasa daerah tidak perlu dipertahankan karena bahasa Indonesia sudah cukup sebagai alat komunikasi nasional. Mereka menganggap terlalu banyak bahasa justru mempersulit komunikasi antarwarga.</p>
+        <p>Di sisi lain, banyak budayawan yang tidak setuju. Mereka berpendapat bahwa bahasa daerah adalah bagian dari identitas budaya yang tak ternilai. "Ketika sebuah bahasa hilang, maka hilang pula seluruh pengetahuan, cerita rakyat, dan kearifan lokal yang terkandung di dalamnya," ujar Bu Nining, seorang guru bahasa Sunda di Garut.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.6rem;font-weight:700;color:var(--bab);">Contoh pendapat siswa terhadap Bacaan 2:</p>
+
+    <div class="pendapat-wrap">
+      <div class="pendapat-card tidak">
+        <div class="pendapat-tipe">❌ Tidak setuju dengan pendapat "bahasa daerah tidak perlu dipertahankan"</div>
+        <p class="pendapat-kalimat">Saya tidak setuju dengan pendapat bahwa bahasa daerah tidak perlu dipertahankan. Seperti yang dikatakan Bu Nining di teks, ketika bahasa hilang maka cerita rakyat dan kearifan lokal juga hilang. Bahasa daerah adalah warisan berharga yang harus dijaga.</p>
+      </div>
+      <div class="pendapat-card setuju">
+        <div class="pendapat-tipe">✅ Setuju dengan Bu Nining</div>
+        <p class="pendapat-kalimat">Saya sependapat dengan Bu Nining. Bahasa daerah bukan sekadar alat komunikasi — bahasa mengandung nilai budaya. Sebagai anak Jawa Barat, saya merasa penting untuk bisa berbahasa Sunda karena itu adalah bagian dari identitas saya.</p>
+      </div>
+      <div class="pendapat-card kurang">
+        <div class="pendapat-tipe">⚠️ Pendapat tengah — dua-duanya penting</div>
+        <p class="pendapat-kalimat">Menurut saya, kedua pihak punya alasan yang masuk akal. Bahasa Indonesia memang penting untuk komunikasi nasional, tapi bahasa daerah juga tidak boleh ditinggalkan. Solusinya menurut saya adalah menggunakan bahasa Indonesia di sekolah dan tempat umum, sementara bahasa daerah tetap dipakai di rumah dan diajarkan sebagai pelajaran tambahan.</p>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🌟</div>
+      <div class="ft">
+        <strong>Perhatikan — teks bisa memuat pendapat yang berlawanan!</strong>
+        Bacaan 2 sengaja menampilkan dua sudut pandang yang berbeda (ahli yang merasa bahasa daerah tidak perlu vs budayawan yang ingin melestarikannya). Ini melatih kamu untuk berpikir kritis — kamu boleh setuju dengan salah satu, atau bahkan membuat pendapat gabungan sendiri.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi C</h3>
+      <ul class="rl">
+        <li><span class="ri">💬</span><span>Menanggapi teks artinya memberikan <strong>respons berdasarkan pemikiran</strong> — setuju, kurang setuju, atau tidak setuju.</span></li>
+        <li><span class="ri">🎯</span><span>3 langkah: <strong>tentukan posisi</strong> → <strong>berikan alasan</strong> → <strong>dukung dengan bukti dari teks</strong>.</span></li>
+        <li><span class="ri">📌</span><span>Bukti dari teks artinya menunjuk <strong>bagian spesifik</strong> — misal: <em>"Di paragraf kedua disebutkan bahwa..."</em></span></li>
+        <li><span class="ri">⚖️</span><span>Teks bisa memuat <strong>pendapat yang berlawanan</strong> — kamu boleh setuju salah satu, atau membuat pendapat sendiri.</span></li>
+        <li><span class="ri">🙏</span><span>Sampaikan pendapat dengan <strong>sopan</strong> — gunakan kata pembuka seperti "Menurut saya...", "Saya sependapat...", atau "Saya kurang setuju karena...".</span></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- LATIHAN 1: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">1</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Langkah pertama dalam menyampaikan pendapat tentang informasi dalam teks adalah...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l1"><span>Langsung menuliskan bukti dari teks</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Menentukan posisi: setuju, kurang setuju, atau tidak setuju</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Menyalin kalimat dari teks</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Membuat ringkasan teks</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>B</strong>. Langkah pertama adalah menentukan posisimu terlebih dahulu — baru kemudian berikan alasan dan bukti.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 2: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">2</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Bacaan 2</strong>, mengapa Bu Nining berpendapat bahasa daerah harus dilestarikan?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l2"><span>Karena bahasa Indonesia terlalu sulit dipelajari</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Karena semua orang wajib berbicara bahasa daerah</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Karena jika bahasa hilang, cerita rakyat dan kearifan lokal juga ikut hilang</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Karena Bu Nining tidak bisa berbahasa Indonesia</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Dalam teks, Bu Nining menyatakan bahwa ketika bahasa hilang, maka pengetahuan, cerita rakyat, dan kearifan lokal yang terkandung di dalamnya juga akan hilang.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 3: PGK -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">3</span><span class="latihan-tipe">Pilihan Ganda Kompleks</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan ciri <strong>pendapat yang baik</strong> terhadap informasi dalam teks?</p>
+        <div class="latihan-opts" data-correct="0,2,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Menyebutkan posisi (setuju / tidak setuju) dengan jelas</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menggunakan kata-kata kasar agar terlihat tegas</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Didukung oleh alasan yang logis</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menunjukkan bukti dari bagian teks yang relevan</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>A, C, dan D</strong>. Pilihan B salah — kata kasar justru merusak kualitas pendapat. Pendapat yang baik selalu disampaikan dengan sopan.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 4: MENJODOHKAN -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">4</span><span class="latihan-tipe">Menjodohkan</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kalimat pendapat</strong> dengan <strong>jenis posisinya</strong>:</p>
+        <div class="latihan-menjodohkan" data-correct="A,C,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Posisi</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Setuju</span>
+              <span class="opt-item"><strong>B.</strong> Kurang Setuju (perlu tambahan)</span>
+              <span class="opt-item"><strong>C.</strong> Tidak Setuju</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">"Saya sependapat bahwa festival budaya efektif karena data menunjukkan 15.000 pengunjung."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">"Saya tidak setuju bahwa bahasa daerah tidak perlu dipertahankan, karena bahasa daerah mengandung kearifan lokal."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">"Menurut saya, informasinya sudah bagus tapi kurang lengkap karena belum menyebutkan budaya dari Indonesia Timur."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Pasangan yang benar: <strong>1 → A</strong> (setuju, didukung data), <strong>2 → C</strong> (tidak setuju, ada alasan), <strong>3 → B</strong> (kurang setuju, menyarankan tambahan).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 5: KATEGORI -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">5</span><span class="latihan-tipe">Kategori: Pendapat Baik / Kurang Baik</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah pendapat berikut termasuk <strong>BAIK</strong> (ada posisi + alasan + bukti) atau <strong>KURANG BAIK</strong>:</p>
+        <div class="latihan-kategori" data-correct="1,0,0,1">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Saya setuju dengan Pak Dedi karena dalam teks disebutkan bahwa anak muda lebih tertarik jika melihat langsung pertunjukan budaya."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Pokoknya bahasa daerah harus dihapus saja."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Saya tidak setuju."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Menurut saya, teks ini sudah baik dalam menampilkan dua sudut pandang tentang bahasa daerah, sehingga pembaca bisa berpikir sendiri mana yang lebih tepat."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Baik</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Kurang Baik</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban benar: <strong>1. Baik</strong> (ada posisi + alasan + kutipan teks). <strong>2. Kurang Baik</strong> (kasar, tidak ada alasan). <strong>3. Kurang Baik</strong> (terlalu singkat, tidak ada alasan sama sekali). <strong>4. Baik</strong> (pendapat tentang kualitas teks, disertai alasan yang jelas).</p></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="informasi-teks-gambar.html" class="nav-btn nav-btn-outline">← Kompetensi B</a>
+      <a href="kata-hubung.html" class="nav-btn nav-btn-filled">Kompetensi D: Kata Hubung →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer"><p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 7 Kompetensi C &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p></footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+</body>
+</html>
