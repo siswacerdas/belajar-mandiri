@@ -1,1 +1,465 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Masalah yang Dialami Tokoh — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#059669;--bab-mid:#10b981;--bab-lt:#d1fae5;--bab-pal:#ecfdf5;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}.navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}.breadcrumb .sep{opacity:.4;}
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .hero{background:linear-gradient(135deg,#059669,#064e3b);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#6ee7b7;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(5,150,105,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
 
+    /* LANGKAH */
+    .langkah-box{background:#fff;border-radius:14px;padding:1.25rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:1rem 0 1.5rem;}
+    .langkah-item{display:flex;gap:.9rem;padding:.7rem 0;border-bottom:1.5px dashed var(--sand-dk,#ede8dc);}
+    .langkah-item:last-child{border-bottom:none;}
+    .langkah-num{width:36px;height:36px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;flex-shrink:0;}
+    .langkah-text{flex:1;}
+    .langkah-text h4{font-family:"Lora",serif;font-size:.95rem;font-weight:700;color:var(--bab);margin-bottom:.2rem;}
+    .langkah-text p{font-size:.88rem;color:var(--ink-mid,#3d4460);line-height:1.55;}
+
+    /* BACAAN */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#047857;}
+    .bacaan-header .b-icon{font-size:1.3rem;}.bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(5,150,105,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:120px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#065f46;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}.nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}.nav-btn-filled:hover{background:#047857;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+    @media(max-width:560px){.hero{padding:2.5rem 1rem 4.5rem;}.content{padding:2rem 1rem 3rem;}.analisis-item{flex-direction:column;gap:.2rem;}.analisis-item .a-label{min-width:auto;}.back-nav{flex-direction:column;}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a><span class="sep">»</span>
+      <a href="materi.html">Bab 8</a><span class="sep">»</span>
+      <span>Kompetensi A</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#cara" class="jpill">🔍 Cara Menemukan</a>
+      <a href="#bacaan1" class="jpill">📖 Cerita 1</a>
+      <a href="#bacaan2" class="jpill">📖 Cerita 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 8 · Kompetensi A</span>
+      <h1>Mengidentifikasi <em>Masalah</em> yang Dialami Tokoh</h1>
+      <p class="hero-desc">Setiap cerita memiliki masalah yang harus dihadapi tokoh. Pelajari cara menemukan masalah utama dan bagaimana tokoh mengatasinya!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/></svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Cerita tanpa masalah seperti makanan tanpa rasa — hambar dan membosankan. Justru <strong>masalah</strong> yang dihadapi tokohlah yang membuat cerita menjadi seru dan menegangkan.</p>
+      <p>Di halaman ini, kamu akan belajar cara <strong>menemukan masalah utama</strong> tokoh, memahami <strong>mengapa masalah itu muncul</strong>, dan mengenali <strong>bagaimana tokoh menyelesaikannya</strong>.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu "Masalah Tokoh" dalam Cerita?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Masalah tokoh</strong> adalah hambatan, kesulitan, atau tantangan yang harus dihadapi oleh tokoh utama dalam sebuah cerita. Masalah inilah yang menggerakkan jalan cerita dari awal sampai akhir.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Masalah tokoh bisa bermacam-macam, misalnya:</p>
+
+    <ul style="margin:0 0 1rem 1.5rem;font-size:.95rem;">
+      <li style="margin-bottom:.4rem;"><strong>Masalah dengan diri sendiri</strong> — takut, malas, tidak percaya diri, sakit</li>
+      <li style="margin-bottom:.4rem;"><strong>Masalah dengan orang lain</strong> — bertengkar, berbeda pendapat, kesalahpahaman</li>
+      <li style="margin-bottom:.4rem;"><strong>Masalah dengan keadaan</strong> — banjir, kehilangan barang, kekurangan uang</li>
+    </ul>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="cara">
+      <div class="section-label">Teknik Menemukan</div>
+      <h2 class="section-title">3 Pertanyaan untuk Menemukan Masalah Tokoh</h2>
+    </div>
+
+    <div class="langkah-box">
+      <div class="langkah-item">
+        <div class="langkah-num">1</div>
+        <div class="langkah-text">
+          <h4>Apa yang membuat tokoh sedih, bingung, atau khawatir?</h4>
+          <p>Cari bagian cerita di mana tokoh merasa <strong>tidak nyaman</strong> — itu biasanya petunjuk adanya masalah.</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">2</div>
+        <div class="langkah-text">
+          <h4>Apa yang ingin dicapai tokoh tapi terhalang?</h4>
+          <p>Tokoh biasanya punya <strong>keinginan atau tujuan</strong>, tapi ada sesuatu yang menghalanginya. Halangan itulah masalahnya.</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">3</div>
+        <div class="langkah-text">
+          <h4>Bagaimana tokoh menyelesaikan masalahnya?</h4>
+          <p>Setelah menemukan masalah, perhatikan <strong>apa yang dilakukan tokoh</strong> untuk mengatasinya — dan apakah berhasil.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Cerita 1</div>
+      <h2 class="section-title">Bacaan: Andi dan Sarapan Pagi</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🍳</span>
+        <div>
+          <h3>Cerita 1 — Andi yang Sering Melewatkan Sarapan</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Mengapa Andi Selalu Lemas?</p>
+        <p>Andi, siswa kelas 4 di SD Cerdas Mandiri, sering merasa <span class="hl">lemas dan mengantuk</span> saat jam pelajaran pertama. Setiap pagi, ia bangun terlambat karena begadang menonton televisi. Akibatnya, ia <span class="hl">tidak sempat sarapan</span> dan langsung berangkat ke sekolah dengan perut kosong.</p>
+        <p>Suatu hari, saat pelajaran olahraga, Andi <span class="hl">hampir pingsan</span> di lapangan. Bu Ratna, guru olahraga, segera membawanya ke UKS. "Andi, kapan terakhir kamu makan?" tanya Bu Ratna. Andi menunduk malu. "Saya belum sarapan, Bu."</p>
+        <p>Bu Ratna menjelaskan bahwa <span class="hl">sarapan adalah bahan bakar tubuh</span>, seperti bensin untuk kendaraan. Tanpa sarapan, tubuh tidak punya energi untuk belajar dan berolahraga. Bu Ratna juga menyarankan Andi untuk tidur lebih awal agar bisa bangun pagi dan sempat sarapan.</p>
+        <p>Sejak hari itu, Andi berjanji pada dirinya sendiri untuk <span class="hl">tidur pukul 21.00</span> dan selalu sarapan sebelum berangkat sekolah. Dua minggu kemudian, Andi merasa jauh lebih bertenaga. Nilainya juga mulai membaik karena ia bisa berkonsentrasi di kelas.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Analisis Masalah Tokoh</div>
+      <div class="analisis-item">
+        <span class="a-label">🧩 Masalah utama</span>
+        <span class="a-answer">Andi sering <strong>melewatkan sarapan</strong> sehingga lemas dan mengantuk di sekolah.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">❓ Penyebab</span>
+        <span class="a-answer">Andi <strong>begadang menonton TV</strong> → bangun terlambat → tidak sempat sarapan.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">⚡ Titik puncak</span>
+        <span class="a-answer">Andi <strong>hampir pingsan</strong> saat pelajaran olahraga — inilah yang membuat masalahnya terungkap.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">💡 Solusi</span>
+        <span class="a-answer">Andi berjanji <strong>tidur pukul 21.00</strong> dan selalu sarapan — hasilnya ia lebih bertenaga dan nilainya membaik.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">📖 Pesan</span>
+        <span class="a-answer"><strong>Sarapan sangat penting</strong> untuk energi tubuh. Pola tidur yang baik juga berpengaruh pada kesehatan dan prestasi belajar.</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Cerita 2</div>
+      <h2 class="section-title">Bacaan: Siti dan Air Bersih</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">💧</span>
+        <div>
+          <h3>Cerita 2 — Siti dan Botol Minumnya</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#047857;">Siti yang Jarang Minum Air Putih</p>
+        <p>Siti sangat suka minuman manis — jus kemasan, susu kotak rasa cokelat, dan teh manis dingin. Setiap hari ia membawa dua kotak minuman manis ke sekolah dan <span class="hl">hampir tidak pernah minum air putih</span>.</p>
+        <p>Saat kelas memasuki musim panas, Siti mulai <span class="hl">sering sakit kepala dan bibir kering</span>. Ia juga merasa lebih cepat lelah saat bermain di luar. Siti tidak mengerti mengapa badannya terasa berbeda dari teman-temannya yang masih kuat bermain.</p>
+        <p>Pak Hendra, guru kelas, mengadakan pelajaran tentang hidrasi. Ia menjelaskan bahwa tubuh manusia <span class="hl">membutuhkan 6-8 gelas air putih setiap hari</span>. Minuman manis memang enak, tapi kandungan gulanya tinggi dan tidak cukup untuk mengganti cairan tubuh yang hilang.</p>
+        <p>"Coba kamu bawa botol air putih ke sekolah, Siti. Minum sedikit-sedikit sepanjang hari," saran Pak Hendra. Siti <span class="hl">mulai membawa botol minum berisi air putih</span> keesokan harinya. Ia tetap membawa satu kotak minuman manis, tapi sisanya air putih.</p>
+        <p>Seminggu kemudian, sakit kepalanya berkurang dan bibirnya tidak kering lagi. Siti tersenyum. "Ternyata air putih memang ajaib," gumamnya.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Analisis Masalah Tokoh</div>
+      <div class="analisis-item">
+        <span class="a-label">🧩 Masalah utama</span>
+        <span class="a-answer">Siti <strong>jarang minum air putih</strong> — hanya minum minuman manis — sehingga sering sakit kepala dan bibir kering.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">❓ Penyebab</span>
+        <span class="a-answer">Siti <strong>lebih suka minuman manis</strong> dan tidak tahu pentingnya air putih bagi tubuh.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">⚡ Titik puncak</span>
+        <span class="a-answer">Siti <strong>sering sakit kepala dan cepat lelah</strong> saat musim panas — gejalanya makin parah.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">💡 Solusi</span>
+        <span class="a-answer">Siti <strong>mulai membawa botol air putih</strong> ke sekolah dan mengurangi minuman manis — hasilnya sakit kepalanya berkurang.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">📖 Pesan</span>
+        <span class="a-answer"><strong>Air putih sangat penting</strong> untuk kesehatan tubuh. Minuman manis boleh sesekali, tapi air putih harus jadi pilihan utama.</span>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎓</div>
+      <div class="ft">
+        <strong>Pola yang sama di kedua cerita!</strong>
+        Kedua tokoh (Andi dan Siti) memiliki <strong>kebiasaan buruk</strong> terkait kesehatan → mengalami <strong>akibat</strong> yang tidak menyenangkan → mendapat <strong>penjelasan/bantuan</strong> dari guru → <strong>mengubah kebiasaan</strong> → hasilnya positif. Ini pola yang sering ditemui dalam cerita bertema kesehatan.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi A</h3>
+      <ul class="rl">
+        <li><span class="ri">🧩</span><span><strong>Masalah tokoh</strong> adalah hambatan atau kesulitan yang harus dihadapi tokoh utama dalam cerita.</span></li>
+        <li><span class="ri">🔍</span><span>Temukan masalah dengan 3 pertanyaan: apa yang membuat tokoh <strong>tidak nyaman</strong>? Apa yang <strong>menghalangi</strong> tujuannya? Bagaimana tokoh <strong>menyelesaikannya</strong>?</span></li>
+        <li><span class="ri">📌</span><span>Masalah bisa berasal dari <strong>diri sendiri</strong> (takut, malas), <strong>orang lain</strong> (bertengkar), atau <strong>keadaan</strong> (banjir, sakit).</span></li>
+        <li><span class="ri">⚡</span><span><strong>Titik puncak</strong> adalah saat masalah mencapai tingkat paling serius — biasanya ini yang mendorong tokoh mencari solusi.</span></li>
+        <li><span class="ri">💡</span><span>Perhatikan juga <strong>solusi</strong> dan <strong>pesan</strong> cerita — apa yang bisa kamu pelajari dari cara tokoh mengatasi masalahnya.</span></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- LATIHAN 1: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">1</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Cerita 1</strong>, masalah utama yang dialami Andi adalah...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l1"><span>Andi tidak suka pelajaran olahraga</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Andi sering melewatkan sarapan sehingga lemas di sekolah</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Andi tidak punya uang untuk membeli makanan</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Bu Ratna tidak memperhatikan Andi di kelas</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>B</strong>. Masalah utama Andi bukan tentang olahraga atau uang, tapi tentang kebiasaannya melewatkan sarapan yang menyebabkan tubuhnya lemas dan tidak bisa berkonsentrasi.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 2: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">2</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Cerita 2</strong>, apa yang menjadi <strong>penyebab utama</strong> masalah kesehatan Siti?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l2"><span>Siti terlalu banyak berolahraga</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Siti tidak mau makan siang</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Siti jarang minum air putih dan hanya minum minuman manis</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Siti tidak pernah membawa bekal ke sekolah</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Penyebab masalah Siti adalah kebiasaannya jarang minum air putih — ia hanya minum minuman manis yang tidak cukup mengganti cairan tubuh.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 3: PGK -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">3</span><span class="latihan-tipe">Pilihan Ganda Kompleks</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Pertanyaan mana yang bisa membantu menemukan <strong>masalah tokoh</strong> dalam cerita?</p>
+        <div class="latihan-opts" data-correct="0,1,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Apa yang membuat tokoh sedih atau khawatir?</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Apa yang ingin dicapai tokoh tapi terhalang?</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Berapa umur tokoh dalam cerita?</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Bagaimana tokoh menyelesaikan masalahnya?</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>A, B, dan D</strong>. Pilihan C (umur tokoh) adalah informasi latar belakang, bukan pertanyaan untuk menemukan masalah tokoh.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 4: MENJODOHKAN -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">4</span><span class="latihan-tipe">Menjodohkan</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>bagian analisis</strong> dengan <strong>informasi yang tepat</strong> dari Cerita 1 (Andi):</p>
+        <div class="latihan-menjodohkan" data-correct="C,A,D,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Begadang menonton TV → bangun terlambat</span>
+              <span class="opt-item"><strong>B.</strong> Tidur pukul 21.00 dan selalu sarapan</span>
+              <span class="opt-item"><strong>C.</strong> Sering lemas dan mengantuk di sekolah</span>
+              <span class="opt-item"><strong>D.</strong> Hampir pingsan saat olahraga</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">Masalah utama</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">Penyebab masalah</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">Titik puncak</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">Solusi</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Pasangan yang benar: <strong>1 → C</strong> (masalah = lemas dan mengantuk), <strong>2 → A</strong> (penyebab = begadang), <strong>3 → D</strong> (titik puncak = hampir pingsan), <strong>4 → B</strong> (solusi = tidur awal dan sarapan).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 5: KATEGORI -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">5</span><span class="latihan-tipe">Kategori: Jenis Masalah</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah masalah berikut termasuk masalah <strong>dengan diri sendiri</strong> atau <strong>dengan keadaan</strong>:</p>
+        <div class="latihan-kategori" data-correct="1,0,1,0">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> Andi malas bangun pagi karena kebiasaan begadang.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">🧍 Diri Sendiri</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌧️ Keadaan</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> Banjir merendam jalan menuju sekolah sehingga Rina tidak bisa berangkat.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">🧍 Diri Sendiri</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌧️ Keadaan</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> Siti lebih suka minuman manis dan tidak mau minum air putih.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">🧍 Diri Sendiri</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌧️ Keadaan</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> Gempa bumi membuat sekolah Doni rusak dan harus direnovasi.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">🧍 Diri Sendiri</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌧️ Keadaan</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban benar: <strong>1. Diri Sendiri</strong> (kebiasaan malas Andi sendiri). <strong>2. Keadaan</strong> (banjir bukan salah Rina). <strong>3. Diri Sendiri</strong> (pilihan Siti sendiri). <strong>4. Keadaan</strong> (gempa bumi di luar kendali Doni).</p></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="materi.html" class="nav-btn nav-btn-outline">← Kembali ke Bab 8</a>
+      <a href="ilustrasi-isi-teks.html" class="nav-btn nav-btn-filled">Kompetensi B: Ilustrasi vs Isi Teks →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer"><p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 8 Kompetensi A &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p></footer>
+  <script src="../../../assets/js/latihan.js"></script>
+</body>
+</html>
