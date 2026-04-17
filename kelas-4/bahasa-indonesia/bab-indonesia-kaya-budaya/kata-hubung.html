@@ -1,1 +1,528 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kata Hubung Antarkalimat — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#c2410c;--bab-mid:#ea580c;--bab-lt:#ffedd5;--bab-pal:#fff7ed;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}.navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}.breadcrumb .sep{opacity:.4;}
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .hero{background:linear-gradient(135deg,#c2410c,#7c2d12);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#fed7aa;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(194,65,12,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
 
+    /* TABEL KATA HUBUNG */
+    .tbl-wrap{overflow-x:auto;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.07);margin:1.25rem 0;}
+    .tbl-kh{width:100%;border-collapse:collapse;font-size:.88rem;background:#fff;min-width:520px;}
+    .tbl-kh th{background:var(--bab);color:#fff;padding:.75rem 1rem;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-align:left;}
+    .tbl-kh td{padding:.7rem 1rem;border-top:1px solid var(--sand-dk,#ede8dc);line-height:1.55;vertical-align:top;}
+    .tbl-kh tr:nth-child(even) td{background:var(--bab-pal);}
+    .tbl-kh td:first-child{font-weight:700;color:var(--bab);white-space:nowrap;width:140px;}
+    .kh-pill{display:inline-block;background:var(--bab-lt);color:#9a3412;padding:.15rem .55rem;border-radius:50px;font-size:.82rem;font-weight:700;margin:.1rem .15rem;}
+
+    /* FUNGSI CARDS */
+    .fungsi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.85rem;margin:1.25rem 0;}
+    .fungsi-card{background:#fff;border-radius:14px;padding:1.1rem 1.25rem;box-shadow:0 2px 10px rgba(0,0,0,.05);border-left:4px solid var(--bab);}
+    .fungsi-card.f1{border-left-color:#0ea5e9;}
+    .fungsi-card.f2{border-left-color:#f59e0b;}
+    .fungsi-card.f3{border-left-color:#7c3aed;}
+    .fungsi-card.f4{border-left-color:#10b981;}
+    .fungsi-card.f5{border-left-color:#ec4899;}
+    .fc-title{font-family:"Lora",serif;font-size:.98rem;font-weight:700;margin-bottom:.35rem;}
+    .fungsi-card.f1 .fc-title{color:#0369a1;}
+    .fungsi-card.f2 .fc-title{color:#b45309;}
+    .fungsi-card.f3 .fc-title{color:#6d28d9;}
+    .fungsi-card.f4 .fc-title{color:#047857;}
+    .fungsi-card.f5 .fc-title{color:#be185d;}
+    .fc-pills{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.45rem;}
+    .fc-desc{font-size:.85rem;color:var(--ink-mid,#3d4460);line-height:1.55;}
+    .fc-contoh{display:block;margin-top:.45rem;font-size:.85rem;font-style:italic;padding:.45rem .65rem;background:var(--sand,#f7f3eb);border-radius:8px;line-height:1.55;}
+    .fc-contoh strong{color:var(--bab);font-style:normal;}
+
+    /* BACAAN BOX */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#9a3412;}
+    .bacaan-header .b-icon{font-size:1.3rem;}.bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+    .kh-hl{background:var(--bab-lt);color:#9a3412;padding:.1rem .4rem;border-radius:4px;font-weight:800;border-bottom:2px solid var(--bab);}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(194,65,12,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:140px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#9a3412;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .kuis-cta{background:linear-gradient(135deg,#c2410c,#7c2d12);border-radius:18px;padding:1.5rem 1.75rem;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;text-decoration:none;margin-top:2.5rem;transition:transform .2s,box-shadow .2s;flex-wrap:wrap;}
+    .kuis-cta:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(194,65,12,.25);}
+    .kuis-left-cta{display:flex;align-items:center;gap:1rem;}
+    .kuis-icon-cta{width:54px;height:54px;background:rgba(255,255,255,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;}
+    .kuis-text-cta h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;margin-bottom:.2rem;}
+    .kuis-text-cta p{font-size:.85rem;opacity:.85;}
+    .kuis-btn-cta{background:#fff;color:var(--bab);padding:.6rem 1.3rem;border-radius:50px;font-weight:800;font-size:.88rem;white-space:nowrap;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}.nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}.nav-btn-filled:hover{background:#9a3412;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+    @media(max-width:560px){.hero{padding:2.5rem 1rem 4.5rem;}.content{padding:2rem 1rem 3rem;}.fungsi-grid{grid-template-columns:1fr;}.analisis-item{flex-direction:column;gap:.2rem;}.analisis-item .a-label{min-width:auto;}.back-nav{flex-direction:column;}.kuis-cta{flex-direction:column;align-items:flex-start;}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a><span class="sep">»</span>
+      <a href="materi.html">Bab 7</a><span class="sep">»</span>
+      <span>Kompetensi D</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#fungsi" class="jpill">🔗 5 Fungsi</a>
+      <a href="#bacaan1" class="jpill">📖 Contoh 1</a>
+      <a href="#bacaan2" class="jpill">📖 Contoh 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 7 · Kompetensi D</span>
+      <h1>Memahami <em>Kata Hubung</em> Antarkalimat</h1>
+      <p class="hero-desc">Kata hubung antarkalimat membuat tulisanmu mengalir runtut — dari satu kalimat ke kalimat berikutnya. Pelajari jenis-jenis dan cara menggunakannya!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/></svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Pernahkah kamu membaca tulisan yang terasa <strong>"melompat-lompat"</strong> — dari satu ide ke ide lain tanpa hubungan yang jelas? Itu terjadi karena tulisan tersebut tidak menggunakan <strong>kata hubung antarkalimat</strong>.</p>
+      <p>Di halaman ini, kamu akan belajar mengenali dan menggunakan kata-kata penghubung yang membuat tulisanmu <strong>runtut, jelas, dan enak dibaca</strong>.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Kata Hubung Antarkalimat?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Kata hubung antarkalimat</strong> adalah kata atau frasa yang menghubungkan satu kalimat dengan kalimat sebelumnya. Kata ini biasanya diletakkan di <strong>awal kalimat</strong> dan diikuti tanda koma (,).</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Perbandingan tulisan <strong>tanpa</strong> dan <strong>dengan</strong> kata hubung:</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:1rem 0;">
+      <div style="background:#fef2f2;border:2px solid #fecaca;border-radius:12px;padding:.85rem 1rem;font-size:.9rem;">
+        <div style="font-size:.7rem;font-weight:800;color:#b91c1c;margin-bottom:.4rem;">❌ TANPA KATA HUBUNG</div>
+        <em>"Indonesia punya banyak budaya. Banyak budaya yang mulai ditinggalkan. Kita harus melestarikannya."</em>
+        <div style="margin-top:.4rem;font-size:.82rem;background:#fee2e2;padding:.25rem .5rem;border-radius:6px;color:#991b1b;">Terasa melompat-lompat, kurang mengalir.</div>
+      </div>
+      <div style="background:#ecfdf5;border:2px solid #a7f3d0;border-radius:12px;padding:.85rem 1rem;font-size:.9rem;">
+        <div style="font-size:.7rem;font-weight:800;color:#047857;margin-bottom:.4rem;">✅ DENGAN KATA HUBUNG</div>
+        <em>"Indonesia punya banyak budaya. <strong>Namun,</strong> banyak budaya yang mulai ditinggalkan. <strong>Oleh karena itu,</strong> kita harus melestarikannya."</em>
+        <div style="margin-top:.4rem;font-size:.82rem;background:#d1fae5;padding:.25rem .5rem;border-radius:6px;color:#065f46;">Mengalir runtut, hubungan antar kalimat jelas.</div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">⚠️</div>
+      <div class="ft">
+        <strong>Perbedaan penting: antarkalimat vs dalam kalimat</strong>
+        Kata hubung <em>antarkalimat</em> menghubungkan <strong>dua kalimat terpisah</strong> (diawali huruf kapital). Contoh: <em>"<strong>Namun,</strong> ia tetap berusaha."</em> — Sedangkan kata hubung <em>dalam kalimat</em> menghubungkan kata/frasa <strong>di dalam satu kalimat</strong>. Contoh: <em>"Ia sedih <strong>tetapi</strong> tetap berusaha."</em> Di halaman ini kita fokus pada yang <strong>antarkalimat</strong>.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="fungsi">
+      <div class="section-label">Jenis &amp; Fungsi</div>
+      <h2 class="section-title">5 Fungsi Kata Hubung Antarkalimat</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Kata hubung antarkalimat memiliki <strong>fungsi yang berbeda-beda</strong>. Berikut 5 fungsi utama beserta contoh kata-katanya:</p>
+
+    <div class="fungsi-grid">
+
+      <div class="fungsi-card f1">
+        <div class="fc-title">1. Menambahkan Informasi</div>
+        <div class="fc-pills">
+          <span class="kh-pill">Selain itu,</span>
+          <span class="kh-pill">Di samping itu,</span>
+          <span class="kh-pill">Lebih lagi,</span>
+        </div>
+        <div class="fc-desc">Menambahkan informasi baru yang melengkapi kalimat sebelumnya.</div>
+        <span class="fc-contoh">"Batik tulis membutuhkan waktu berminggu-minggu. <strong>Selain itu,</strong> bahan yang digunakan juga sangat mahal."</span>
+      </div>
+
+      <div class="fungsi-card f2">
+        <div class="fc-title">2. Menunjukkan Pertentangan</div>
+        <div class="fc-pills">
+          <span class="kh-pill">Namun,</span>
+          <span class="kh-pill">Akan tetapi,</span>
+          <span class="kh-pill">Sebaliknya,</span>
+        </div>
+        <div class="fc-desc">Menunjukkan bahwa kalimat berikutnya bertentangan atau berbeda dari sebelumnya.</div>
+        <span class="fc-contoh">"Tari Saman sangat terkenal di dunia. <strong>Namun,</strong> banyak remaja di Aceh yang tidak bisa menarikannya."</span>
+      </div>
+
+      <div class="fungsi-card f3">
+        <div class="fc-title">3. Menunjukkan Sebab-Akibat</div>
+        <div class="fc-pills">
+          <span class="kh-pill">Oleh karena itu,</span>
+          <span class="kh-pill">Akibatnya,</span>
+          <span class="kh-pill">Dengan demikian,</span>
+        </div>
+        <div class="fc-desc">Menunjukkan bahwa kalimat berikutnya adalah akibat atau kesimpulan dari kalimat sebelumnya.</div>
+        <span class="fc-contoh">"Bahasa daerah mulai ditinggalkan generasi muda. <strong>Oleh karena itu,</strong> perlu ada upaya pelestarian di sekolah."</span>
+      </div>
+
+      <div class="fungsi-card f4">
+        <div class="fc-title">4. Menunjukkan Urutan Waktu</div>
+        <div class="fc-pills">
+          <span class="kh-pill">Setelah itu,</span>
+          <span class="kh-pill">Kemudian,</span>
+          <span class="kh-pill">Selanjutnya,</span>
+          <span class="kh-pill">Akhirnya,</span>
+        </div>
+        <div class="fc-desc">Menunjukkan bahwa kalimat berikutnya terjadi setelah kalimat sebelumnya — ada urutan waktu.</div>
+        <span class="fc-contoh">"Kain mori dilukis dengan canting. <strong>Setelah itu,</strong> kain dicelupkan ke dalam pewarna."</span>
+      </div>
+
+      <div class="fungsi-card f5">
+        <div class="fc-title">5. Memberikan Contoh atau Penjelasan</div>
+        <div class="fc-pills">
+          <span class="kh-pill">Misalnya,</span>
+          <span class="kh-pill">Contohnya,</span>
+          <span class="kh-pill">Sebagai contoh,</span>
+        </div>
+        <div class="fc-desc">Memberikan contoh atau penjelasan lebih detail tentang kalimat sebelumnya.</div>
+        <span class="fc-contoh">"Indonesia memiliki ratusan tarian tradisional. <strong>Misalnya,</strong> Tari Jaipong dari Jawa Barat dan Tari Kecak dari Bali."</span>
+      </div>
+
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Contoh 1</div>
+      <h2 class="section-title">Bacaan: Wayang Golek Khas Sunda</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah teks berikut. Kata hubung antarkalimat ditandai dengan <span class="kh-hl">warna oranye</span>:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🎭</span>
+        <div>
+          <h3>Bacaan 1 — Wayang Golek Khas Sunda</h3>
+          <div class="b-meta">Tema: Indonesia, Kaya Budaya · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Wayang Golek, Kebanggaan Jawa Barat</p>
+        <p>Wayang golek adalah kesenian boneka kayu khas Sunda yang dimainkan oleh seorang dalang. Pertunjukan wayang golek biasanya berlangsung semalam suntuk, dari pukul 21.00 hingga pagi hari. <span class="kh-hl">Selain itu,</span> pertunjukan ini juga diiringi oleh musik gamelan degung yang merdu.</p>
+        <p>Cerita yang dibawakan dalang biasanya diambil dari kisah Mahabharata dan Ramayana. <span class="kh-hl">Namun,</span> dalang yang kreatif sering menambahkan humor dan pesan-pesan kehidupan sehari-hari agar penonton tidak bosan.</p>
+        <p>Di masa lalu, wayang golek menjadi hiburan utama masyarakat Sunda. <span class="kh-hl">Akan tetapi,</span> seiring perkembangan zaman, anak-anak muda lebih tertarik pada hiburan digital seperti film dan media sosial. <span class="kh-hl">Akibatnya,</span> jumlah penonton pertunjukan wayang semakin sedikit.</p>
+        <p><span class="kh-hl">Oleh karena itu,</span> para seniman dan pemerintah daerah berusaha menghidupkan kembali wayang golek. <span class="kh-hl">Misalnya,</span> dengan mengadakan festival wayang di sekolah-sekolah dan membuat pertunjukan wayang versi pendek yang lebih menarik bagi generasi muda.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Kata Hubung yang Digunakan &amp; Fungsinya</div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="kh-pill">Selain itu,</span></span>
+        <span class="a-answer">Menambahkan informasi: selain dimainkan dalang, ternyata juga diiringi gamelan.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="kh-pill">Namun,</span></span>
+        <span class="a-answer">Pertentangan: cerita asli dari Mahabharata, tapi dalang menambah humor.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="kh-pill">Akan tetapi,</span></span>
+        <span class="a-answer">Pertentangan: dulu populer, tapi sekarang anak muda lebih suka hiburan digital.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="kh-pill">Akibatnya,</span></span>
+        <span class="a-answer">Sebab-akibat: karena anak muda lebih suka digital → penonton wayang berkurang.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="kh-pill">Oleh karena itu,</span></span>
+        <span class="a-answer">Sebab-akibat/kesimpulan: karena penonton berkurang → perlu upaya menghidupkan kembali.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="kh-pill">Misalnya,</span></span>
+        <span class="a-answer">Memberikan contoh: contoh upaya = festival wayang di sekolah dan versi pendek.</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Contoh 2</div>
+      <h2 class="section-title">Paragraf Tanpa vs Dengan Kata Hubung</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Perhatikan bagaimana <strong>paragraf yang sama</strong> terasa sangat berbeda ketika ditambahkan kata hubung:</p>
+
+    <div style="display:grid;grid-template-columns:1fr;gap:1rem;margin:1rem 0;">
+      <div style="background:#fef2f2;border:2px solid #fecaca;border-radius:14px;padding:1.1rem 1.25rem;">
+        <div style="font-size:.72rem;font-weight:800;color:#b91c1c;margin-bottom:.5rem;">❌ TANPA KATA HUBUNG</div>
+        <p style="font-size:.93rem;font-style:italic;line-height:1.65;">"Keris adalah senjata tradisional Indonesia yang berbentuk unik dengan bilah berlekuk. Keris bukan hanya senjata. Keris dianggap memiliki kekuatan spiritual. Keris sering digunakan dalam upacara adat. UNESCO mengakui keris sebagai warisan budaya dunia pada tahun 2005."</p>
+      </div>
+      <div style="background:#ecfdf5;border:2px solid #a7f3d0;border-radius:14px;padding:1.1rem 1.25rem;">
+        <div style="font-size:.72rem;font-weight:800;color:#047857;margin-bottom:.5rem;">✅ DENGAN KATA HUBUNG</div>
+        <p style="font-size:.93rem;font-style:italic;line-height:1.65;">"Keris adalah senjata tradisional Indonesia yang berbentuk unik dengan bilah berlekuk. <strong>Namun,</strong> keris bukan sekadar senjata. <strong>Selain itu,</strong> keris juga dianggap memiliki kekuatan spiritual. <strong>Oleh karena itu,</strong> keris sering digunakan dalam upacara adat. <strong>Akhirnya,</strong> pada tahun 2005, UNESCO pun mengakui keris sebagai warisan budaya dunia."</p>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">💡</div>
+      <div class="ft">
+        <strong>Tips: Jangan terlalu banyak!</strong>
+        Kata hubung membuat tulisan mengalir, tapi jangan gunakan di <em>setiap</em> kalimat. Gunakan hanya ketika memang diperlukan untuk menunjukkan hubungan antar kalimat. Kalau terlalu banyak, tulisan justru terasa aneh dan tidak natural.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi D</h3>
+      <ul class="rl">
+        <li><span class="ri">🔗</span><span><strong>Kata hubung antarkalimat</strong> menghubungkan kalimat dengan kalimat sebelumnya — biasanya di awal kalimat, diikuti koma.</span></li>
+        <li><span class="ri">📌</span><span>5 fungsi utama: <strong>menambah</strong> (selain itu), <strong>pertentangan</strong> (namun), <strong>sebab-akibat</strong> (oleh karena itu), <strong>urutan</strong> (setelah itu), <strong>contoh</strong> (misalnya).</span></li>
+        <li><span class="ri">✍️</span><span>Kata hubung membuat tulisan lebih <strong>runtut, jelas, dan enak dibaca</strong> karena menunjukkan hubungan antar ide.</span></li>
+        <li><span class="ri">⚠️</span><span>Bedakan dengan kata hubung <em>dalam</em> kalimat (tetapi, dan, atau) — yang ini menghubungkan kata/frasa dalam <strong>satu kalimat</strong>.</span></li>
+        <li><span class="ri">⚖️</span><span>Gunakan secukupnya — terlalu banyak kata hubung justru membuat tulisan terasa tidak natural.</span></li>
+      </ul>
+    </div>
+
+    <!-- KUIS CTA -->
+    <a href="kuis.html" class="kuis-cta">
+      <div class="kuis-left-cta"><div class="kuis-icon-cta">🎉</div><div class="kuis-text-cta"><h3>Bab 7 Sudah Lengkap! Uji Seluruh Pemahamanmu</h3><p>Kamu sudah menyelesaikan 4 kompetensi Bab 7. Saatnya mengerjakan kuis!</p></div></div>
+      <div class="kuis-btn-cta">Mulai Kuis Bab 7 →</div>
+    </a>
+
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- LATIHAN 1: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">1</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Perhatikan kalimat berikut:<br><br><em>"Festival wayang mulai jarang diadakan. <strong>______</strong> banyak anak muda tidak mengenal wayang golek."</em><br><br>Kata hubung yang paling tepat untuk mengisi titik-titik adalah...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l1"><span>Selain itu,</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Akibatnya,</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Misalnya,</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Sebaliknya,</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>B. Akibatnya,</strong> — karena kalimat kedua merupakan akibat dari kalimat pertama (festival jarang → anak muda tidak kenal wayang).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 2: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">2</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Kata hubung <strong>"Namun,"</strong> berfungsi untuk menunjukkan...</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l2"><span>Menambahkan informasi baru</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Memberikan contoh</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Pertentangan dengan kalimat sebelumnya</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Urutan waktu</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. "Namun," digunakan ketika kalimat berikutnya bertentangan atau berbeda dari kalimat sebelumnya. Sama fungsinya dengan "Akan tetapi," dan "Sebaliknya,".</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 3: PGK -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">3</span><span class="latihan-tipe">Pilihan Ganda Kompleks</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan kata hubung antarkalimat yang menunjukkan <strong>sebab-akibat</strong>?</p>
+        <div class="latihan-opts" data-correct="0,2">
+          <label class="opt"><input type="checkbox" name="l3"><span>Oleh karena itu,</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Selain itu,</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Akibatnya,</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Misalnya,</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>A dan C</strong>. "Oleh karena itu," dan "Akibatnya," keduanya menunjukkan sebab-akibat. "Selain itu," untuk menambah informasi, dan "Misalnya," untuk memberi contoh.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 4: MENJODOHKAN -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">4</span><span class="latihan-tipe">Menjodohkan</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kata hubung</strong> dengan <strong>fungsinya</strong>:</p>
+        <div class="latihan-menjodohkan" data-correct="B,D,C,A">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Fungsi</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Memberikan contoh</span>
+              <span class="opt-item"><strong>B.</strong> Menunjukkan pertentangan</span>
+              <span class="opt-item"><strong>C.</strong> Menunjukkan sebab-akibat</span>
+              <span class="opt-item"><strong>D.</strong> Menunjukkan urutan waktu</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">Akan tetapi,</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">Setelah itu,</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">Dengan demikian,</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">Contohnya,</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Pasangan yang benar: <strong>1 → B</strong> (pertentangan), <strong>2 → D</strong> (urutan waktu), <strong>3 → C</strong> (sebab-akibat/kesimpulan), <strong>4 → A</strong> (memberikan contoh).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 5: KATEGORI -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">5</span><span class="latihan-tipe">Kategori: Kata Hubung Tepat / Tidak Tepat</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah kata hubung yang digunakan <strong>TEPAT</strong> atau <strong>TIDAK TEPAT</strong> sesuai konteks kalimat:</p>
+        <div class="latihan-kategori" data-correct="1,0,1,0">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Gamelan adalah alat musik tradisional. <strong>Selain itu,</strong> gamelan juga digunakan sebagai pengiring tari."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Tepat</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Tepat</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Cuaca hari ini sangat cerah. <strong>Akibatnya,</strong> langit berwarna biru."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Tepat</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Tepat</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Banyak anak muda tidak mengenal wayang. <strong>Oleh karena itu,</strong> perlu ada pelatihan wayang di sekolah."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Tepat</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Tepat</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Tari Jaipong berasal dari Jawa Barat. <strong>Namun,</strong> Tari Saman berasal dari Aceh."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Tepat</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Tepat</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban benar: <strong>1. Tepat</strong> ("selain itu" menambah informasi baru tentang fungsi gamelan). <strong>2. Tidak Tepat</strong> (langit biru bukan "akibat" dari cerah — keduanya terjadi bersamaan, bukan sebab-akibat. Lebih tepat tanpa kata hubung). <strong>3. Tepat</strong> ("oleh karena itu" menunjukkan kesimpulan dari masalah). <strong>4. Tidak Tepat</strong> (tidak ada pertentangan — keduanya hanya menyebutkan asal daerah yang berbeda. Lebih tepat: "Sementara itu," atau tanpa kata hubung).</p></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="menyampaikan-pendapat.html" class="nav-btn nav-btn-outline">← Kompetensi C</a>
+      <a href="materi.html" class="nav-btn nav-btn-filled">Kembali ke Bab 7 →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer"><p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 7 Kompetensi D &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p></footer>
+  <script src="../../../assets/js/latihan.js"></script>
+</body>
+</html>
