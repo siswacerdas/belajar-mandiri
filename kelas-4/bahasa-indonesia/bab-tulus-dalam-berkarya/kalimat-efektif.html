@@ -1,1 +1,660 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalimat Efektif — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#7c3aed;--bab-mid:#8b5cf6;--bab-lt:#ede9fe;--bab-pal:#f5f3ff;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    .hero{background:linear-gradient(135deg,#7c3aed,#4c1d95);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#c4b5fd;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(124,58,237,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* CIRI CARDS */
+    .ciri-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.75rem;margin:1rem 0 1.5rem;}
+    .ciri-card{background:#fff;border-radius:12px;padding:1rem 1.1rem;box-shadow:0 2px 10px rgba(0,0,0,.05);border-left:4px solid var(--bab);}
+    .ciri-icon{font-size:1.5rem;margin-bottom:.3rem;}
+    .ciri-title{font-family:"Lora",serif;font-size:.95rem;font-weight:700;color:var(--bab);margin-bottom:.25rem;}
+    .ciri-desc{font-size:.85rem;color:var(--ink-mid,#3d4460);line-height:1.5;}
+
+    /* PERBANDINGAN BOX */
+    .banding-box{margin:1.25rem 0;}
+    .banding-pair{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1rem;}
+    .banding-bad,.banding-good{padding:.85rem 1rem;border-radius:12px;font-size:.93rem;line-height:1.6;}
+    .banding-bad{background:#fef2f2;border:2px solid #fecaca;}
+    .banding-good{background:#ecfdf5;border:2px solid #a7f3d0;}
+    .banding-label{display:block;font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.35rem;}
+    .banding-bad .banding-label{color:#b91c1c;}
+    .banding-good .banding-label{color:#047857;}
+    .banding-kalimat{font-style:italic;}
+    .banding-alasan{display:block;margin-top:.4rem;font-size:.82rem;font-style:normal;padding:.3rem .6rem;border-radius:6px;}
+    .banding-bad .banding-alasan{background:#fee2e2;color:#991b1b;}
+    .banding-good .banding-alasan{background:#d1fae5;color:#065f46;}
+
+    /* SPOK BOX */
+    .spok-box{background:#fff;border-radius:14px;padding:1.25rem 1.4rem;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:1rem 0 1.5rem;}
+    .spok-row{display:flex;gap:.5rem;align-items:stretch;margin-bottom:.6rem;flex-wrap:wrap;}
+    .spok-row:last-child{margin-bottom:0;}
+    .spok-tag{display:inline-flex;align-items:center;gap:.35rem;padding:.5rem .8rem;border-radius:10px;font-size:.88rem;font-weight:700;flex-shrink:0;}
+    .spok-tag.s{background:var(--bab-lt);color:#5b21b6;}
+    .spok-tag.p{background:#dbeafe;color:#1e40af;}
+    .spok-tag.o{background:#fef3c7;color:#92400e;}
+    .spok-tag.k{background:#d1fae5;color:#065f46;}
+    .spok-label{font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:.1rem;}
+    .spok-kata{font-size:.93rem;}
+    .spok-arrow{display:flex;align-items:center;color:var(--ink-lt,#6b7280);font-size:.8rem;flex-shrink:0;}
+    .spok-sentence{font-size:.95rem;margin-top:.5rem;padding:.6rem .8rem;background:var(--sand,#f7f3eb);border-radius:8px;font-style:italic;}
+
+    /* FAKTA / TIP */
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#5b21b6;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    /* KUIS CTA */
+    .kuis-cta{background:linear-gradient(135deg,#7c3aed,#4c1d95);border-radius:18px;padding:1.5rem 1.75rem;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;text-decoration:none;margin-top:2.5rem;transition:transform .2s,box-shadow .2s;flex-wrap:wrap;}
+    .kuis-cta:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(124,58,237,.25);}
+    .kuis-left-cta{display:flex;align-items:center;gap:1rem;}
+    .kuis-icon-cta{width:54px;height:54px;background:rgba(255,255,255,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;}
+    .kuis-text-cta h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;margin-bottom:.2rem;}
+    .kuis-text-cta p{font-size:.85rem;opacity:.85;}
+    .kuis-btn-cta{background:#fff;color:var(--bab);padding:.6rem 1.3rem;border-radius:50px;font-weight:800;font-size:.88rem;white-space:nowrap;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#6d28d9;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .ciri-grid{grid-template-columns:1fr;}
+      .banding-pair{grid-template-columns:1fr;}
+      .spok-row{flex-direction:column;}
+      .spok-arrow{display:none;}
+      .back-nav{flex-direction:column;}
+      .kuis-cta{flex-direction:column;align-items:flex-start;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 6</a>
+      <span class="sep">»</span>
+      <span>Kompetensi D</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#ciri" class="jpill">🔍 4 Ciri</a>
+      <a href="#spok" class="jpill">🧱 SPOK</a>
+      <a href="#contoh" class="jpill">📖 Contoh</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 6 · Kompetensi D</span>
+      <h1>Memahami <em>Kalimat Efektif</em></h1>
+      <p class="hero-desc">Kalimat efektif adalah kalimat yang jelas, tepat, dan tidak bertele-tele. Pelajari ciri-cirinya dan cara membedakannya dari kalimat yang tidak efektif.</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Pernahkah kamu membaca kalimat yang <strong>membingungkan</strong> karena terlalu panjang atau susunannya berantakan? Kalimat seperti itu disebut kalimat yang <em>tidak efektif</em>.</p>
+      <p>Di halaman ini, kamu akan belajar mengenali <strong>kalimat efektif</strong> — kalimat yang pesannya langsung tersampaikan dengan jelas, tidak bertele-tele, dan enak dibaca.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: PENGERTIAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Kalimat Efektif?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Kalimat efektif</strong> adalah kalimat yang disusun sesuai kaidah bahasa Indonesia sehingga pesannya <strong>mudah dipahami</strong> oleh pembaca atau pendengar. Kalimat efektif tidak panjang berlebihan, tidak mengulang-ulang kata yang sama, dan susunannya teratur.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Coba bandingkan dua kalimat berikut:</p>
+
+    <div class="banding-pair">
+      <div class="banding-bad">
+        <span class="banding-label">❌ Tidak Efektif</span>
+        <span class="banding-kalimat">"Rara dia itu suka sekali dengan yang namanya itu menari tarian tradisional."</span>
+        <span class="banding-alasan">Terlalu banyak kata yang tidak perlu: "dia itu", "sekali", "yang namanya itu".</span>
+      </div>
+      <div class="banding-good">
+        <span class="banding-label">✅ Efektif</span>
+        <span class="banding-kalimat">"Rara sangat suka menari tarian tradisional."</span>
+        <span class="banding-alasan">Singkat, jelas, pesannya langsung tersampaikan.</span>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Kedua kalimat di atas menyampaikan pesan yang <strong>sama</strong>, tapi yang kedua jauh lebih mudah dipahami. Itulah kalimat efektif!</p>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: 4 CIRI -->
+    <!-- ════════════════════════════════ -->
+    <div id="ciri">
+      <div class="section-label">Mengenali Kalimat Efektif</div>
+      <h2 class="section-title">4 Ciri Kalimat Efektif</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Kamu bisa mengenali kalimat efektif dari empat ciri berikut:</p>
+
+    <div class="ciri-grid">
+      <div class="ciri-card">
+        <div class="ciri-icon">🎯</div>
+        <div class="ciri-title">1. Jelas &amp; Tidak Ambigu</div>
+        <div class="ciri-desc">Pesan yang disampaikan <strong>hanya punya satu arti</strong>, tidak membingungkan pembaca.</div>
+      </div>
+      <div class="ciri-card">
+        <div class="ciri-icon">✂️</div>
+        <div class="ciri-title">2. Hemat Kata</div>
+        <div class="ciri-desc"><strong>Tidak mengulang</strong> kata yang artinya sama dan tidak menambah kata yang tidak perlu.</div>
+      </div>
+      <div class="ciri-card">
+        <div class="ciri-icon">🧱</div>
+        <div class="ciri-title">3. Punya Unsur Lengkap</div>
+        <div class="ciri-desc">Minimal punya <strong>Subjek (S)</strong> dan <strong>Predikat (P)</strong>. Kalimat tanpa subjek atau predikat terasa menggantung.</div>
+      </div>
+      <div class="ciri-card">
+        <div class="ciri-icon">📏</div>
+        <div class="ciri-title">4. Logis &amp; Runtut</div>
+        <div class="ciri-desc">Susunan katanya <strong>masuk akal</strong> dan mengikuti pola yang teratur, tidak melompat-lompat.</div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: SPOK -->
+    <!-- ════════════════════════════════ -->
+    <div id="spok">
+      <div class="section-label">Unsur Kalimat</div>
+      <h2 class="section-title">Mengenal S-P-O-K</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Kalimat efektif minimal memiliki <strong>Subjek (S)</strong> dan <strong>Predikat (P)</strong>. Kalimat yang lebih lengkap bisa memiliki <strong>Objek (O)</strong> dan <strong>Keterangan (K)</strong> juga. Ini disingkat menjadi <strong>SPOK</strong>.</p>
+
+    <div class="spok-box">
+      <div class="spok-row">
+        <div class="spok-tag s"><div><span class="spok-label">S — Subjek</span><span class="spok-kata">Siapa / Apa</span></div></div>
+        <span class="spok-arrow">→</span>
+        <div class="spok-tag p"><div><span class="spok-label">P — Predikat</span><span class="spok-kata">Melakukan apa</span></div></div>
+        <span class="spok-arrow">→</span>
+        <div class="spok-tag o"><div><span class="spok-label">O — Objek</span><span class="spok-kata">Dikenai apa</span></div></div>
+        <span class="spok-arrow">→</span>
+        <div class="spok-tag k"><div><span class="spok-label">K — Keterangan</span><span class="spok-kata">Di mana / Kapan</span></div></div>
+      </div>
+
+      <div class="spok-sentence">
+        Contoh: <strong style="color:#5b21b6;">Dinda</strong> <strong style="color:#1e40af;">melukis</strong> <strong style="color:#92400e;">bunga matahari</strong> <strong style="color:#065f46;">di studio sekolah</strong>.
+      </div>
+      <div class="spok-row" style="margin-top:.5rem;">
+        <div class="spok-tag s" style="font-size:.82rem;">S: Dinda</div>
+        <div class="spok-tag p" style="font-size:.82rem;">P: melukis</div>
+        <div class="spok-tag o" style="font-size:.82rem;">O: bunga matahari</div>
+        <div class="spok-tag k" style="font-size:.82rem;">K: di studio sekolah</div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">⚠️</div>
+      <div class="ft">
+        <strong>Kalimat tanpa subjek = tidak efektif!</strong>
+        <em>"Melukis bunga matahari di studio sekolah."</em> — kalimat ini tidak punya subjek. Siapa yang melukis? Tidak jelas! Tambahkan subjek: <em>"<strong>Dinda</strong> melukis bunga matahari di studio sekolah."</em>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: CONTOH PERBANDINGAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh">
+      <div class="section-label">Belajar dari Contoh</div>
+      <h2 class="section-title">Perbandingan: Efektif vs Tidak Efektif</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Cara terbaik memahami kalimat efektif adalah dengan <strong>membandingkannya</strong>. Perhatikan 5 pasangan kalimat berikut:</p>
+
+    <!-- CONTOH 1 -->
+    <div class="banding-box">
+      <p style="font-size:.82rem;font-weight:800;color:var(--bab);margin-bottom:.5rem;">Contoh 1 — Pengulangan Kata yang Tidak Perlu</p>
+      <div class="banding-pair">
+        <div class="banding-bad">
+          <span class="banding-label">❌ Tidak Efektif</span>
+          <span class="banding-kalimat">"Para siswa-siswa sedang belajar di kelas."</span>
+          <span class="banding-alasan">Kata "para" sudah menunjukkan jamak, ditambah "siswa-siswa" jadi mengulang.</span>
+        </div>
+        <div class="banding-good">
+          <span class="banding-label">✅ Efektif</span>
+          <span class="banding-kalimat">"Para siswa sedang belajar di kelas."</span>
+          <span class="banding-alasan">Cukup "para siswa" atau "siswa-siswa", tidak keduanya.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTOH 2 -->
+    <div class="banding-box">
+      <p style="font-size:.82rem;font-weight:800;color:var(--bab);margin-bottom:.5rem;">Contoh 2 — Bertele-tele</p>
+      <div class="banding-pair">
+        <div class="banding-bad">
+          <span class="banding-label">❌ Tidak Efektif</span>
+          <span class="banding-kalimat">"Beni itu adalah merupakan seorang siswa yang rajin dan tekun di sekolah."</span>
+          <span class="banding-alasan">"itu", "adalah", dan "merupakan" tiga-tiganya bermakna sama — cukup satu saja.</span>
+        </div>
+        <div class="banding-good">
+          <span class="banding-label">✅ Efektif</span>
+          <span class="banding-kalimat">"Beni adalah siswa yang rajin dan tekun."</span>
+          <span class="banding-alasan">Langsung ke inti, tidak ada kata yang mubazir.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTOH 3 -->
+    <div class="banding-box">
+      <p style="font-size:.82rem;font-weight:800;color:var(--bab);margin-bottom:.5rem;">Contoh 3 — Ambigu (Bermakna Ganda)</p>
+      <div class="banding-pair">
+        <div class="banding-bad">
+          <span class="banding-label">❌ Tidak Efektif</span>
+          <span class="banding-kalimat">"Ibu guru baru datang."</span>
+          <span class="banding-alasan">Ambigu: "guru baru" (guru yang baru) atau guru yang "baru datang" (baru saja datang)?</span>
+        </div>
+        <div class="banding-good">
+          <span class="banding-label">✅ Efektif — Versi A</span>
+          <span class="banding-kalimat">"Ibu guru yang baru sudah datang."</span>
+          <span class="banding-alasan">Jelas artinya: guru yang baru (guru pengganti).</span>
+        </div>
+      </div>
+      <div class="banding-pair" style="margin-top:.4rem;">
+        <div style="grid-column:1/3;">
+          <div class="banding-good">
+            <span class="banding-label">✅ Efektif — Versi B</span>
+            <span class="banding-kalimat">"Ibu guru baru saja datang."</span>
+            <span class="banding-alasan">Jelas artinya: guru yang baru saja tiba (baru sampai).</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTOH 4 -->
+    <div class="banding-box">
+      <p style="font-size:.82rem;font-weight:800;color:var(--bab);margin-bottom:.5rem;">Contoh 4 — Tanpa Subjek</p>
+      <div class="banding-pair">
+        <div class="banding-bad">
+          <span class="banding-label">❌ Tidak Efektif</span>
+          <span class="banding-kalimat">"Sangat menyukai seni batik sejak kecil."</span>
+          <span class="banding-alasan">Tidak ada subjek — siapa yang menyukai batik?</span>
+        </div>
+        <div class="banding-good">
+          <span class="banding-label">✅ Efektif</span>
+          <span class="banding-kalimat">"Rara sangat menyukai seni batik sejak kecil."</span>
+          <span class="banding-alasan">Sudah ada subjek "Rara" — jelas siapa yang dibicarakan.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTOH 5 -->
+    <div class="banding-box">
+      <p style="font-size:.82rem;font-weight:800;color:var(--bab);margin-bottom:.5rem;">Contoh 5 — Susunan Tidak Logis</p>
+      <div class="banding-pair">
+        <div class="banding-bad">
+          <span class="banding-label">❌ Tidak Efektif</span>
+          <span class="banding-kalimat">"Di sekolah, lukisan dibuat Dinda dengan cat air yang indah."</span>
+          <span class="banding-alasan">Susunan terbalik — sulit dipahami siapa yang melakukan apa.</span>
+        </div>
+        <div class="banding-good">
+          <span class="banding-label">✅ Efektif</span>
+          <span class="banding-kalimat">"Dinda membuat lukisan yang indah dengan cat air di sekolah."</span>
+          <span class="banding-alasan">Susunan S-P-O-K yang runtut dan mudah dipahami.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">💡</div>
+      <div class="ft">
+        <strong>Trik cepat memeriksa kalimatmu</strong>
+        Setelah menulis kalimat, tanyakan pada dirimu: (1) Apakah ada <strong>subjek</strong> — siapa atau apa? (2) Apakah ada kata yang <strong>mengulang</strong> arti yang sama? (3) Apakah ada kata yang bisa <strong>dihapus</strong> tanpa mengubah arti? Jika ya, hapus kata itu!
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi D</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">📏</span>
+          <span><strong>Kalimat efektif</strong> adalah kalimat yang jelas, singkat, tidak ambigu, dan pesannya mudah dipahami pembaca.</span>
+        </li>
+        <li>
+          <span class="ri">🔍</span>
+          <span>4 ciri kalimat efektif: <strong>jelas &amp; tidak ambigu</strong>, <strong>hemat kata</strong>, <strong>unsur lengkap</strong> (minimal S-P), dan <strong>logis &amp; runtut</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">🧱</span>
+          <span><strong>SPOK</strong> = Subjek (siapa) + Predikat (melakukan apa) + Objek (dikenai apa) + Keterangan (di mana/kapan). Minimal harus ada <strong>S dan P</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">✂️</span>
+          <span>Hindari: <strong>pengulangan kata</strong> bermakna sama (para siswa-siswa), kata <strong>mubazir</strong> (itu, adalah, merupakan sekaligus), dan kalimat <strong>tanpa subjek</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">✅</span>
+          <span>Periksa kalimatmu dengan 3 pertanyaan: Ada subjek? Ada pengulangan? Ada kata yang bisa dihapus?</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- KUIS CTA -->
+    <a href="kuis.html" class="kuis-cta">
+      <div class="kuis-left-cta">
+        <div class="kuis-icon-cta">🎉</div>
+        <div class="kuis-text-cta">
+          <h3>Bab 6 Sudah Lengkap! Uji Seluruh Pemahamanmu</h3>
+          <p>Kamu sudah menyelesaikan 4 kompetensi Bab 6. Saatnya mengerjakan kuis untuk mengukur pemahamanmu secara menyeluruh!</p>
+        </div>
+      </div>
+      <div class="kuis-btn-cta">Mulai Kuis Bab 6 →</div>
+    </a>
+
+    <!-- ════════════════════════════════ -->
+    <!-- LATIHAN MANDIRI -->
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- ── LATIHAN 1: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">1</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Manakah kalimat berikut yang paling <strong>efektif</strong>?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l1"><span>Beni itu dia suka sekali melukis di rumahnya yang berada di Bandung.</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Para murid-murid sedang mengerjakan tugas seni di ruang kelas.</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Beni sangat suka melukis di rumahnya.</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Sangat suka melukis pemandangan gunung yang ada di Bandung.</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Pilihan A bertele-tele ("itu", "dia", "sekali"), B mengulang kata jamak ("para murid-murid"), dan D tidak punya subjek (siapa yang suka melukis?). Pilihan C singkat, jelas, dan lengkap unsur S-P-O-nya.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 2: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">2</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Perhatikan kalimat: <em>"<strong>Para penari-penari</strong> itu tampil dengan sangat indah."</em><br><br>Kalimat ini <strong>tidak efektif</strong> karena...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l2"><span>Tidak memiliki subjek</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Pengulangan makna jamak: "para" dan "penari-penari"</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Tidak memiliki predikat</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Kata "indah" tidak tepat digunakan</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>B</strong>. Kata "para" sudah menunjukkan banyak orang, begitu juga "penari-penari" (pengulangan = jamak). Menggunakan keduanya sekaligus berarti mengulang makna yang sama. Perbaikannya: <em>"Para penari itu tampil dengan sangat indah."</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 3: PG KOMPLEKS ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">3</span>
+        <span class="latihan-tipe">Pilihan Ganda Kompleks</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan <strong>ciri kalimat efektif</strong>?</p>
+        <div class="latihan-opts" data-correct="0,2,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Pesannya jelas dan tidak bermakna ganda</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menggunakan banyak kata agar terlihat pintar</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Memiliki unsur minimal subjek dan predikat</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Hemat kata — tidak mengulang arti yang sama</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A, C, dan D</strong>. Pilihan B salah — kalimat efektif justru tidak perlu banyak kata. Yang penting bukan banyaknya kata, tapi <em>ketepatan</em> pesannya.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 4: MENJODOHKAN ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">4</span>
+        <span class="latihan-tipe">Menjodohkan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kalimat tidak efektif</strong> dengan <strong>jenis kesalahannya</strong>:</p>
+        <div class="latihan-menjodohkan" data-correct="C,A,B,D">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Jenis Kesalahan</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Bertele-tele / kata mubazir</span>
+              <span class="opt-item"><strong>B.</strong> Ambigu (bermakna ganda)</span>
+              <span class="opt-item"><strong>C.</strong> Pengulangan makna jamak</span>
+              <span class="opt-item"><strong>D.</strong> Tidak ada subjek</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">"Para hadirin-hadirin sekalian, selamat datang."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">"Rara itu adalah merupakan penari terbaik di sekolah."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">"Anak kecil memukul."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">"Menari dengan sangat indah di atas panggung."</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Pasangan yang benar: <strong>1 → C</strong> (pengulangan: "para" + "hadirin-hadirin" + "sekalian" semuanya bermakna jamak), <strong>2 → A</strong> (bertele-tele: "itu", "adalah", "merupakan" tiga-tiganya berlebihan), <strong>3 → B</strong> (ambigu: memukul apa? drum? meja? orang?), <strong>4 → D</strong> (tidak ada subjek: siapa yang menari?).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 5: KATEGORI ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">5</span>
+        <span class="latihan-tipe">Kategori: Efektif / Tidak Efektif</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah kalimat berikut <strong>EFEKTIF</strong> atau <strong>TIDAK EFEKTIF</strong>:</p>
+        <div class="latihan-kategori" data-correct="1,0,0,1">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Dinda membuat lukisan pemandangan di studio seni."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Efektif</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Efektif</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Banyak-banyak para seniman itu yang sudah terkenal di negara kita."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Efektif</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Efektif</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Membuat kerajinan angklung dari bambu pilihan."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Efektif</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Efektif</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Arman berhasil membuat angklung pertamanya setelah enam bulan belajar."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Efektif</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak Efektif</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban benar: <strong>1. Efektif</strong> (S-P-O-K lengkap, jelas). <strong>2. Tidak Efektif</strong> (pengulangan jamak: "banyak-banyak" + "para", dan kata "itu" mubazir). <strong>3. Tidak Efektif</strong> (tidak ada subjek — siapa yang membuat?). <strong>4. Efektif</strong> (S: Arman, P: berhasil membuat, O: angklung, K: setelah enam bulan belajar — lengkap dan runtut).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="perubahan-perasaan-tokoh.html" class="nav-btn nav-btn-outline">← Kompetensi C</a>
+      <a href="materi.html" class="nav-btn nav-btn-filled">Kembali ke Bab 6 →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 6 Kompetensi D &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+
+</body>
+</html>
