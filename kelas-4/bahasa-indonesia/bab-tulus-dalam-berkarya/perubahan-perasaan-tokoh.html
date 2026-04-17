@@ -1,1 +1,669 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perubahan Perasaan Tokoh — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#7c3aed;--bab-mid:#8b5cf6;--bab-lt:#ede9fe;--bab-pal:#f5f3ff;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    .hero{background:linear-gradient(135deg,#7c3aed,#4c1d95);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#c4b5fd;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(124,58,237,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* EMOSI GRID */
+    .emosi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(95px,1fr));gap:.5rem;margin:1rem 0 1.5rem;}
+    .emosi-item{background:#fff;border:2px solid var(--bab-lt);border-radius:12px;padding:.6rem .5rem;text-align:center;transition:transform .15s;}
+    .emosi-item:hover{transform:scale(1.05);}
+    .emosi-item .ei{font-size:1.6rem;margin-bottom:.15rem;}
+    .emosi-item .en{font-weight:800;font-size:.78rem;color:var(--bab);}
+
+    /* BACAAN BOX */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#6d28d9;}
+    .bacaan-header .b-icon{font-size:1.3rem;}
+    .bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* PERJALANAN EMOSI (Timeline) */
+    .timeline{margin:1.25rem 0;}
+    .tl-item{display:flex;gap:1rem;margin-bottom:0;align-items:stretch;}
+    .tl-left{display:flex;flex-direction:column;align-items:center;width:52px;flex-shrink:0;}
+    .tl-emoji{font-size:1.6rem;width:42px;height:42px;display:flex;align-items:center;justify-content:center;background:#fff;border:2.5px solid var(--bab-lt);border-radius:50%;flex-shrink:0;}
+    .tl-line{width:2.5px;flex:1;min-height:16px;margin:4px 0;}
+    .tl-line.purple{background:var(--bab-lt);}
+    .tl-item:last-child .tl-line{display:none;}
+    .tl-right{padding:.5rem 0 1.25rem;flex:1;}
+    .tl-label{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--bab);margin-bottom:.2rem;}
+    .tl-perasaan{font-family:"Lora",serif;font-weight:700;font-size:1rem;color:var(--ink,#1a1f2e);margin-bottom:.25rem;}
+    .tl-kejadian{font-size:.9rem;color:var(--ink-mid,#3d4460);line-height:1.55;}
+    .tl-kutipan{display:block;margin-top:.4rem;font-style:italic;font-size:.87rem;color:var(--bab);padding:.35rem .7rem;background:var(--bab-pal);border-radius:8px;border-left:3px solid var(--bab-lt);}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(124,58,237,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:100px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#5b21b6;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#6d28d9;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .emosi-grid{grid-template-columns:repeat(4,1fr);}
+      .analisis-item{flex-direction:column;gap:.2rem;}
+      .analisis-item .a-label{min-width:auto;}
+      .back-nav{flex-direction:column;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 6</a>
+      <span class="sep">»</span>
+      <span>Kompetensi C</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#kata-emosi" class="jpill">😊 Kata Emosi</a>
+      <a href="#bacaan1" class="jpill">📖 Cerita 1</a>
+      <a href="#analisis1" class="jpill">📈 Peta Emosi 1</a>
+      <a href="#bacaan2" class="jpill">📖 Cerita 2</a>
+      <a href="#analisis2" class="jpill">📈 Peta Emosi 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 6 · Kompetensi C</span>
+      <h1>Memahami <em>Perubahan Perasaan</em> pada Tokoh</h1>
+      <p class="hero-desc">Dalam sebuah cerita, perasaan tokoh bisa berubah-ubah — dari sedih menjadi senang, dari takut menjadi berani. Pelajari cara melacak perubahan itu!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Tokoh dalam cerita bukan sekadar nama — mereka juga punya <strong>perasaan</strong> yang bisa berubah sepanjang jalan cerita. Perubahan perasaan ini biasanya terjadi karena ada <strong>kejadian penting</strong> yang mempengaruhi tokoh.</p>
+      <p>Di halaman ini, kamu akan belajar <strong>melacak</strong> perasaan tokoh dari awal sampai akhir cerita dan memahami <em>mengapa</em> perasaan itu berubah.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: PENGERTIAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Mengapa Perasaan Tokoh Berubah?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Dalam kehidupan nyata, perasaanmu bisa berubah dalam satu hari: pagi hari kamu <strong>bersemangat</strong> berangkat sekolah, lalu menjadi <strong>cemas</strong> saat ada ulangan mendadak, kemudian <strong>lega dan senang</strong> saat ternyata nilainya bagus.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Hal yang sama terjadi pada tokoh cerita! Perasaan mereka berubah karena <strong>kejadian-kejadian</strong> dalam alur cerita. Kemampuan memahami perubahan perasaan ini membantu kamu:</p>
+
+    <ul style="margin:0 0 1rem 1.5rem;font-size:.95rem;">
+      <li style="margin-bottom:.4rem;">Memahami jalan cerita dengan <strong>lebih mendalam</strong></li>
+      <li style="margin-bottom:.4rem;">Mengenal <strong>watak atau karakter</strong> tokoh</li>
+      <li style="margin-bottom:.4rem;">Merasakan <strong>empati</strong> — ikut merasakan apa yang dirasakan tokoh</li>
+    </ul>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: KATA EMOSI -->
+    <!-- ════════════════════════════════ -->
+    <div id="kata-emosi">
+      <div class="section-label">Kosakata Perasaan</div>
+      <h2 class="section-title">Mengenali Kata-kata yang Menggambarkan Perasaan</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Penulis menggunakan <strong>kata-kata tertentu</strong> untuk menggambarkan perasaan tokoh. Berikut beberapa emosi yang sering muncul dalam cerita:</p>
+
+    <div class="emosi-grid">
+      <div class="emosi-item"><div class="ei">😊</div><div class="en">Senang</div></div>
+      <div class="emosi-item"><div class="ei">😢</div><div class="en">Sedih</div></div>
+      <div class="emosi-item"><div class="ei">😠</div><div class="en">Marah</div></div>
+      <div class="emosi-item"><div class="ei">😨</div><div class="en">Takut</div></div>
+      <div class="emosi-item"><div class="ei">😟</div><div class="en">Cemas</div></div>
+      <div class="emosi-item"><div class="ei">😲</div><div class="en">Terkejut</div></div>
+      <div class="emosi-item"><div class="ei">🥹</div><div class="en">Terharu</div></div>
+      <div class="emosi-item"><div class="ei">😤</div><div class="en">Kecewa</div></div>
+      <div class="emosi-item"><div class="ei">😌</div><div class="en">Lega</div></div>
+      <div class="emosi-item"><div class="ei">🤩</div><div class="en">Kagum</div></div>
+      <div class="emosi-item"><div class="ei">😳</div><div class="en">Malu</div></div>
+      <div class="emosi-item"><div class="ei">💪</div><div class="en">Bangga</div></div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🔍</div>
+      <div class="ft">
+        <strong>Cara menemukan perasaan tokoh di teks</strong>
+        Perhatikan kata-kata seperti: <em>"merasa sedih", "hatinya berdebar", "matanya berkaca-kaca", "senyumnya merekah", "menangis bahagia"</em>. Kadang penulis tidak menulisnya langsung, tapi menggambarkannya lewat <strong>tindakan</strong> tokoh — misalnya <em>"menunduk lesu"</em> menunjukkan tokoh sedang sedih.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: BACAAN 1 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Cerita 1</div>
+      <h2 class="section-title">Bacaan: Pentas Seni Rara</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah cerita berikut dan perhatikan bagaimana perasaan tokoh utama berubah dari awal sampai akhir:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🎭</span>
+        <div>
+          <h3>Cerita 1 — Pentas Seni Rara</h3>
+          <div class="b-meta">Tema: Tulus dalam Berkarya · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Menari di Atas Panggung</p>
+        <p>Rara <span class="hl">bersemangat</span> saat namanya terpilih untuk menari di pentas seni sekolah. Setiap sore ia berlatih tari Jaipong bersama Bu Wati, guru kesenian SD Cerdas Mandiri. Rara bermimpi bisa menampilkan yang terbaik di depan semua orang.</p>
+        <p>Namun, dua hari sebelum pentas, Rara jatuh saat latihan dan kakinya keseleo. Ia <span class="hl">sangat sedih dan kecewa</span>. Air matanya menetes deras. "Aku pasti tidak bisa tampil," gumamnya <span class="hl">putus asa</span>.</p>
+        <p>Bu Wati datang menjenguk Rara di rumahnya. Beliau berkata, "Kakimu pasti akan sembuh sebelum pentas. Yang penting, tetap latihan gerakan tangan di rumah." Rara <span class="hl">sedikit cemas</span>, tapi ia memutuskan untuk tidak menyerah.</p>
+        <p>Hari pentas tiba. Kaki Rara masih agak sakit, tapi ia <span class="hl">memberanikan diri</span> naik ke panggung. Musik gamelan mengalun, dan Rara mulai menari. Awalnya ia <span class="hl">gugup</span> — tangannya sedikit gemetar. Tapi saat melihat ibunya tersenyum di barisan penonton, keberaniannya tumbuh.</p>
+        <p>Rara menari dengan sepenuh hati. Saat lagu selesai, seluruh penonton bertepuk tangan meriah. Rara <span class="hl">terharu dan sangat bangga</span>. Air matanya menetes lagi — tapi kali ini, air mata <span class="hl">kebahagiaan</span>.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- ANALISIS 1: PETA EMOSI -->
+    <!-- ════════════════════════════════ -->
+    <div id="analisis1">
+      <div class="section-label">Peta Emosi</div>
+      <h2 class="section-title">Perjalanan Perasaan Rara</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Mari kita lacak bagaimana perasaan Rara berubah sepanjang cerita:</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">🤩</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Awal Cerita</div>
+          <div class="tl-perasaan">Bersemangat</div>
+          <div class="tl-kejadian">Rara terpilih untuk menari di pentas seni sekolah. Ia sangat antusias dan berlatih setiap sore.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">😢</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Kejadian 1</div>
+          <div class="tl-perasaan">Sedih &amp; Kecewa</div>
+          <div class="tl-kejadian">Rara jatuh saat latihan dan kakinya keseleo. Ia merasa putus asa karena mengira tidak bisa tampil.</div>
+          <span class="tl-kutipan">"Aku pasti tidak bisa tampil."</span>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">😟</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Kejadian 2</div>
+          <div class="tl-perasaan">Cemas tapi Bertekad</div>
+          <div class="tl-kejadian">Bu Wati menyemangati Rara. Masih cemas, tapi Rara memutuskan untuk tidak menyerah dan terus berlatih di rumah.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">😰</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Kejadian 3</div>
+          <div class="tl-perasaan">Gugup</div>
+          <div class="tl-kejadian">Hari pentas tiba. Kaki Rara masih sakit. Tangannya sedikit gemetar saat naik panggung.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">🥹</div></div>
+        <div class="tl-right">
+          <div class="tl-label">Akhir Cerita</div>
+          <div class="tl-perasaan">Terharu &amp; Bangga</div>
+          <div class="tl-kejadian">Rara berhasil menari dengan sepenuh hati. Penonton bertepuk tangan. Ia menangis bahagia — air mata kebanggaan.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Mengapa Perasaan Rara Berubah?</div>
+      <div class="analisis-item">
+        <span class="a-label">Pemicu 1</span>
+        <span class="a-answer"><strong>Jatuh &amp; keseleo</strong> → membuat Rara berubah dari bersemangat menjadi <em>sedih dan kecewa</em>.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">Pemicu 2</span>
+        <span class="a-answer"><strong>Dukungan Bu Wati</strong> → membuat Rara berubah dari putus asa menjadi <em>bertekad untuk mencoba</em>.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">Pemicu 3</span>
+        <span class="a-answer"><strong>Senyuman ibu di penonton</strong> → membuat Rara berubah dari gugup menjadi <em>berani</em>.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">Pemicu 4</span>
+        <span class="a-answer"><strong>Tepuk tangan penonton</strong> → membuat Rara berubah dari cemas menjadi <em>terharu dan bangga</em>.</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: BACAAN 2 -->
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Cerita 2</div>
+      <h2 class="section-title">Bacaan: Lukisan Pertama Beni</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Sekarang bacalah cerita kedua dan coba lacak sendiri perubahan perasaan tokoh:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🎨</span>
+        <div>
+          <h3>Cerita 2 — Lukisan Pertama Beni</h3>
+          <div class="b-meta">Tema: Tulus dalam Berkarya · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#6d28d9;">Lukisan yang Tidak Sempurna</p>
+        <p>Beni <span class="hl">sangat kagum</span> saat melihat lukisan pemandangan di museum seni Bandung. "Aku juga ingin bisa melukis seperti itu!" batinnya. Sejak hari itu, ia meminta ibunya membelikan cat air dan kuas.</p>
+        <p>Setiap akhir pekan, Beni mencoba melukis pemandangan dari jendela kamarnya. Tapi hasilnya selalu jauh dari harapan. Langitnya terlalu pucat, gunungnya terlihat miring, dan pohonnya tidak mirip pohon. Beni <span class="hl">merasa frustrasi</span> dan hampir menyerah. "Aku memang tidak berbakat," keluhnya <span class="hl">dengan murung</span>.</p>
+        <p>Suatu hari, kakak Beni yang kuliah di jurusan seni melihat lukisan-lukisannya. "Kamu tahu, Beni? Lukisanku yang pertama jauh lebih jelek dari ini," kata kakaknya sambil tertawa. Lalu kakaknya mengajari Beni teknik mencampur warna dan membuat garis yang lebih halus. Beni <span class="hl">terkejut</span> — ternyata ada trik sederhana yang bisa membuat lukisannya jauh lebih bagus.</p>
+        <p>Dengan semangat baru, Beni melukis lagi. Kali ini, langitnya bergradasi indah dari biru tua ke biru muda. Gunungnya berdiri tegap. Dan pohon-pohonnya hidup. Saat lukisan selesai, Beni <span class="hl">tersenyum lebar</span>. Meskipun belum sempurna, ia <span class="hl">merasa bangga</span> karena bisa melihat kemajuannya sendiri.</p>
+        <p>"Terima kasih, Kak. Ternyata belajar itu prosesnya pelan-pelan, ya," ucap Beni <span class="hl">dengan hati yang ringan</span>.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- ANALISIS 2: PETA EMOSI -->
+    <!-- ════════════════════════════════ -->
+    <div id="analisis2">
+      <div class="section-label">Peta Emosi</div>
+      <h2 class="section-title">Perjalanan Perasaan Beni</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">🤩</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Awal Cerita</div>
+          <div class="tl-perasaan">Kagum &amp; Terinspirasi</div>
+          <div class="tl-kejadian">Beni melihat lukisan pemandangan di museum dan ingin bisa melukis seperti itu.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">😤</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Kejadian 1</div>
+          <div class="tl-perasaan">Frustrasi &amp; Murung</div>
+          <div class="tl-kejadian">Hasil lukisannya selalu jauh dari harapan. Ia merasa tidak berbakat dan hampir menyerah.</div>
+          <span class="tl-kutipan">"Aku memang tidak berbakat."</span>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">😲</div><div class="tl-line purple"></div></div>
+        <div class="tl-right">
+          <div class="tl-label">Kejadian 2</div>
+          <div class="tl-perasaan">Terkejut</div>
+          <div class="tl-kejadian">Kakaknya menceritakan bahwa lukisan pertamanya juga jelek, lalu mengajari teknik baru. Beni kaget ada trik sederhana yang sangat membantu.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-emoji">💪</div></div>
+        <div class="tl-right">
+          <div class="tl-label">Akhir Cerita</div>
+          <div class="tl-perasaan">Bangga &amp; Lega</div>
+          <div class="tl-kejadian">Beni melukis lagi dengan teknik baru dan hasilnya jauh lebih baik. Ia bangga melihat kemajuannya sendiri.</div>
+          <span class="tl-kutipan">"Ternyata belajar itu prosesnya pelan-pelan, ya."</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎓</div>
+      <div class="ft">
+        <strong>Perhatikan pola umum perubahan perasaan!</strong>
+        Kedua cerita di atas memiliki pola yang mirip: tokoh memulai dengan perasaan <strong>positif</strong> (semangat/kagum), lalu mengalami <strong>masalah</strong> (sedih/frustrasi), mendapat <strong>bantuan atau keberanian</strong>, dan akhirnya merasakan <strong>keberhasilan</strong> (bangga/terharu). Pola ini sangat sering muncul dalam cerita!
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi C</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">🎭</span>
+          <span>Tokoh cerita memiliki <strong>perasaan</strong> yang bisa berubah sepanjang jalan cerita — dari senang menjadi sedih, dari takut menjadi berani.</span>
+        </li>
+        <li>
+          <span class="ri">⚡</span>
+          <span>Perubahan perasaan terjadi karena <strong>kejadian penting</strong> dalam alur cerita yang mempengaruhi tokoh.</span>
+        </li>
+        <li>
+          <span class="ri">🔍</span>
+          <span>Temukan perasaan tokoh dari <strong>kata-kata emosi</strong> (sedih, senang, marah) atau <strong>tindakan</strong> tokoh (menunduk lesu, tersenyum lebar).</span>
+        </li>
+        <li>
+          <span class="ri">📈</span>
+          <span><strong>Peta emosi</strong> membantu melacak perubahan perasaan tokoh dari awal sampai akhir cerita dengan memperhatikan pemicu setiap perubahan.</span>
+        </li>
+        <li>
+          <span class="ri">💡</span>
+          <span>Pola umum dalam cerita: positif → masalah → bantuan/keberanian → <strong>keberhasilan</strong>.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- LATIHAN MANDIRI -->
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- ── LATIHAN 1: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">1</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Cerita 1 (Pentas Seni Rara)</strong>, mengapa perasaan Rara berubah dari <strong>bersemangat</strong> menjadi <strong>sedih dan kecewa</strong>?</p>
+        <div class="latihan-opts" data-correct="0">
+          <label class="opt"><input type="radio" name="l1"><span>Ia jatuh saat latihan dan kakinya keseleo</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Bu Wati membatalkan pentas seni</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Temannya menggantikan posisi Rara</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Ibunya tidak bisa hadir menonton</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A</strong>. Dalam teks disebutkan bahwa Rara jatuh saat latihan dan kakinya keseleo, sehingga ia merasa sedih dan mengira tidak bisa tampil. Pemicu perubahan perasaan ini adalah kejadian kecelakaan tersebut.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 2: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">2</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Cerita 2 (Lukisan Pertama Beni)</strong>, apa yang membuat Beni <strong>terkejut</strong> dan mendapat semangat baru?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l2"><span>Ibunya membelikan cat air yang lebih mahal</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Lukisannya dipajang di museum seni</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Kakaknya menceritakan bahwa lukisan pertamanya juga jelek, lalu mengajari teknik baru</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Guru keseniannya memberi nilai bagus</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Kakak Beni membuat Beni terkejut dengan menceritakan pengalaman pribadinya, lalu mengajari teknik praktis. Ini menjadi pemicu perubahan perasaan Beni dari frustrasi menjadi bersemangat kembali.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 3: PG KOMPLEKS ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">3</span>
+        <span class="latihan-tipe">Pilihan Ganda Kompleks</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan cara <strong>penulis menggambarkan perasaan</strong> tokoh dalam cerita?</p>
+        <div class="latihan-opts" data-correct="0,2,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Menyebutkan emosi secara langsung, misal: "Rara sangat sedih"</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menuliskan alamat rumah tokoh dengan detail</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menggambarkan melalui tindakan, misal: "Air matanya menetes deras"</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Menulis dialog/ucapan tokoh, misal: "Aku pasti tidak bisa tampil"</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A, C, dan D</strong>. Perasaan tokoh bisa digambarkan secara langsung (menyebut emosinya), lewat tindakan/gestur tubuh, atau lewat dialog. Pilihan B (alamat rumah) tidak menggambarkan perasaan tokoh.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 4: MENJODOHKAN ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">4</span>
+        <span class="latihan-tipe">Menjodohkan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kejadian</strong> dalam Cerita 1 (Pentas Seni Rara) dengan <strong>perasaan Rara</strong> sesudahnya:</p>
+        <div class="latihan-menjodohkan" data-correct="C,D,B,A">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Perasaan</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Terharu dan bangga</span>
+              <span class="opt-item"><strong>B.</strong> Gugup</span>
+              <span class="opt-item"><strong>C.</strong> Bersemangat</span>
+              <span class="opt-item"><strong>D.</strong> Sedih dan kecewa</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">Terpilih untuk menari di pentas seni</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">Jatuh saat latihan, kaki keseleo</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">Naik panggung dengan kaki masih sakit</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">Penonton bertepuk tangan meriah</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Pasangan yang benar: <strong>1 → C</strong> (bersemangat), <strong>2 → D</strong> (sedih dan kecewa), <strong>3 → B</strong> (gugup), <strong>4 → A</strong> (terharu dan bangga). Setiap kejadian menjadi pemicu perubahan perasaan tokoh.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 5: KATEGORI ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">5</span>
+        <span class="latihan-tipe">Kategori: Menggambarkan Perasaan / Tidak</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah kalimat berikut <strong>menggambarkan perasaan tokoh</strong> atau <strong>tidak menggambarkan perasaan</strong>:</p>
+        <div class="latihan-kategori" data-correct="1,0,1,1">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Hati Rara berdebar kencang saat mendengar namanya dipanggil."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Menggambarkan</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Beni tinggal di perumahan dekat sekolah, di kota Bandung."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Menggambarkan</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Beni menunduk lesu, tidak mau makan malam."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Menggambarkan</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Senyum Rara merekah lebar saat ibu memeluknya erat."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✓ Menggambarkan</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">✗ Tidak</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban benar: <strong>1. Menggambarkan</strong> (hati berdebar = gugup/cemas). <strong>2. Tidak</strong> (ini informasi latar tempat, bukan perasaan). <strong>3. Menggambarkan</strong> (menunduk lesu = sedih, lewat tindakan). <strong>4. Menggambarkan</strong> (senyum merekah = senang/bahagia, lewat ekspresi wajah).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="pendapat-isi-teks.html" class="nav-btn nav-btn-outline">← Kompetensi B</a>
+      <a href="kalimat-efektif.html" class="nav-btn nav-btn-filled">Kompetensi D: Kalimat Efektif →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 6 Kompetensi C &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+
+</body>
+</html>
