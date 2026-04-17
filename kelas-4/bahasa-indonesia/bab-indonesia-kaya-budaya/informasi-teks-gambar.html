@@ -1,1 +1,686 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Informasi dari Teks dan Gambar — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#c2410c;--bab-mid:#ea580c;--bab-lt:#ffedd5;--bab-pal:#fff7ed;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    .hero{background:linear-gradient(135deg,#c2410c,#7c2d12);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#fed7aa;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(194,65,12,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* DUA SUMBER BOX */
+    .sumber-grid{display:grid;grid-template-columns:1fr 60px 1fr;gap:0;align-items:center;margin:1rem 0 1.5rem;}
+    .sumber-card{background:#fff;border-radius:14px;padding:1.1rem 1.2rem;box-shadow:0 2px 10px rgba(0,0,0,.05);text-align:center;}
+    .sumber-card.sc-teks{border-top:4px solid #0ea5e9;}
+    .sumber-card.sc-gambar{border-top:4px solid var(--bab);}
+    .sc-icon{font-size:2rem;margin-bottom:.3rem;}
+    .sc-title{font-family:"Lora",serif;font-size:1rem;font-weight:700;margin-bottom:.25rem;}
+    .sumber-card.sc-teks .sc-title{color:#0369a1;}
+    .sumber-card.sc-gambar .sc-title{color:var(--bab);}
+    .sc-desc{font-size:.85rem;color:var(--ink-mid,#3d4460);line-height:1.5;}
+    .sumber-plus{text-align:center;font-size:1.6rem;font-weight:800;color:var(--bab);}
+
+    /* BACAAN + GAMBAR BOX */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#9a3412;}
+    .bacaan-header .b-icon{font-size:1.3rem;}
+    .bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber-teks{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* VISUAL SIM (gambar simulasi) */
+    .visual-sim{background:linear-gradient(135deg,var(--bab-lt),#fef3c7);border:2px dashed var(--bab-lt);border-radius:14px;padding:1.25rem;margin:1rem 0;text-align:center;}
+    .visual-title{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .visual-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:.6rem;margin-bottom:.6rem;}
+    .visual-item{background:#fff;border-radius:10px;padding:.6rem .5rem;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.08);}
+    .visual-item .vi-icon{font-size:1.8rem;margin-bottom:.15rem;}
+    .visual-item .vi-text{font-size:.78rem;font-weight:700;color:var(--ink,#1a1f2e);}
+    .visual-item .vi-sub{font-size:.7rem;color:var(--ink-lt,#6b7280);}
+    .visual-caption{font-size:.82rem;color:var(--ink-mid,#3d4460);font-style:italic;margin-top:.5rem;}
+
+    /* ANALISIS TABLE */
+    .info-table-wrap{overflow-x:auto;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.07);margin:1rem 0 1.5rem;}
+    .info-table{width:100%;border-collapse:collapse;font-size:.88rem;background:#fff;min-width:480px;}
+    .info-table th{background:var(--bab);color:#fff;padding:.7rem 1rem;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-align:left;}
+    .info-table td{padding:.65rem 1rem;border-top:1px solid var(--sand-dk,#ede8dc);line-height:1.55;vertical-align:top;}
+    .info-table tr:nth-child(even) td{background:var(--bab-pal);}
+    .info-table td:first-child{font-weight:700;color:var(--bab);width:140px;}
+    .badge-teks{display:inline-block;background:#dbeafe;color:#1e40af;font-size:.72rem;font-weight:800;padding:.1rem .5rem;border-radius:50px;}
+    .badge-gambar{display:inline-block;background:var(--bab-lt);color:#9a3412;font-size:.72rem;font-weight:800;padding:.1rem .5rem;border-radius:50px;}
+    .badge-gabung{display:inline-block;background:#d1fae5;color:#065f46;font-size:.72rem;font-weight:800;padding:.1rem .5rem;border-radius:50px;}
+
+    /* ANALISIS BOX */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(194,65,12,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:120px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .hl-or{background:var(--bab-lt);color:#9a3412;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#9a3412;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#9a3412;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .sumber-grid{grid-template-columns:1fr;gap:.5rem;}
+      .sumber-plus{display:none;}
+      .analisis-item{flex-direction:column;gap:.2rem;}
+      .analisis-item .a-label{min-width:auto;}
+      .back-nav{flex-direction:column;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 7</a>
+      <span class="sep">»</span>
+      <span>Kompetensi B</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#dua-sumber" class="jpill">📖+🖼️ Dua Sumber</a>
+      <a href="#contoh1" class="jpill">📖 Contoh 1</a>
+      <a href="#contoh2" class="jpill">📖 Contoh 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 7 · Kompetensi B</span>
+      <h1>Mengidentifikasi <em>Informasi</em> dari Teks dan Gambar</h1>
+      <p class="hero-desc">Teks dan gambar sering tampil bersama — masing-masing membawa informasi yang saling melengkapi. Pelajari cara menggabungkan keduanya!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Dalam buku, majalah, atau poster, kamu sering menemukan <strong>teks dan gambar</strong> yang muncul bersamaan. Kadang gambar menjelaskan apa yang ditulis, kadang gambar menambah informasi baru yang tidak ada di teks.</p>
+      <p>Di halaman ini, kamu akan belajar cara <strong>mengidentifikasi informasi</strong> dari kedua sumber itu — teks dan gambar — lalu <strong>menggabungkannya</strong> menjadi pemahaman yang utuh.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: PENGERTIAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Mengapa Teks dan Gambar Saling Melengkapi?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Teks dan gambar memiliki <strong>kekuatan yang berbeda</strong>. Teks sangat baik untuk menjelaskan alasan, urutan kejadian, dan detail yang rumit. Sementara gambar sangat baik untuk menunjukkan bentuk, posisi, perbandingan, dan suasana.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Ketika keduanya digabungkan, pembaca mendapat pemahaman yang <strong>lebih lengkap</strong> dibandingkan hanya membaca teks saja atau hanya melihat gambar saja.</p>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: DUA SUMBER -->
+    <!-- ════════════════════════════════ -->
+    <div id="dua-sumber">
+      <div class="section-label">Konsep Utama</div>
+      <h2 class="section-title">Dua Sumber Informasi</h2>
+    </div>
+
+    <div class="sumber-grid">
+      <div class="sumber-card sc-teks">
+        <div class="sc-icon">📖</div>
+        <div class="sc-title">Informasi dari Teks</div>
+        <div class="sc-desc">Fakta, penjelasan, urutan, alasan, nama, tanggal, angka — hal-hal yang dijelaskan dengan <strong>kata-kata</strong>.</div>
+      </div>
+      <div class="sumber-plus">+</div>
+      <div class="sumber-card sc-gambar">
+        <div class="sc-icon">🖼️</div>
+        <div class="sc-title">Informasi dari Gambar</div>
+        <div class="sc-desc">Bentuk, warna, posisi, ukuran, suasana, perbandingan — hal-hal yang lebih mudah <strong>dilihat</strong> daripada dibaca.</div>
+      </div>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Ada <strong>tiga kemungkinan</strong> hubungan antara teks dan gambar:</p>
+
+    <ul style="margin:0 0 1rem 1.5rem;font-size:.95rem;">
+      <li style="margin-bottom:.5rem;"><span class="badge-teks">TEKS</span> dan <span class="badge-gambar">GAMBAR</span> menyampaikan informasi yang <strong>sama</strong> — gambar memvisualisasikan apa yang ditulis di teks.</li>
+      <li style="margin-bottom:.5rem;"><span class="badge-gambar">GAMBAR</span> menambah informasi <strong>baru</strong> yang tidak ada di teks — misalnya peta menunjukkan lokasi yang tidak dijelaskan detail di teks.</li>
+      <li style="margin-bottom:.5rem;"><span class="badge-teks">TEKS</span> menjelaskan detail yang <strong>tidak terlihat</strong> di gambar — misalnya teks menjelaskan sejarah sebuah bangunan yang ditampilkan di foto.</li>
+    </ul>
+
+    <div class="fs">
+      <div class="fi">🔑</div>
+      <div class="ft">
+        <strong>Kunci utama: Baca keduanya!</strong>
+        Jangan hanya membaca teks dan melewatkan gambar, atau sebaliknya. Selalu perhatikan <strong>keduanya</strong>, lalu tanyakan: <em>"Informasi apa dari gambar yang tidak ada di teks? Dan informasi apa dari teks yang tidak terlihat di gambar?"</em>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: CONTOH 1 -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh1">
+      <div class="section-label">Contoh 1</div>
+      <h2 class="section-title">Rumah Adat Nusantara</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah teks dan perhatikan gambar berikut. Kemudian kita analisis informasi apa yang didapat dari masing-masing:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🏠</span>
+        <div>
+          <h3>Bacaan 1 — Rumah Adat Indonesia</h3>
+          <div class="b-meta">Tema: Indonesia, Kaya Budaya · Teks + Gambar</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Keunikan Rumah Adat di Berbagai Daerah</p>
+
+        <!-- Gambar simulasi -->
+        <div class="visual-sim">
+          <div class="visual-title">Gambar: 4 Rumah Adat Indonesia</div>
+          <div class="visual-grid" style="grid-template-columns:repeat(4,1fr);">
+            <div class="visual-item">
+              <div class="vi-icon">🏚️</div>
+              <div class="vi-text">Rumah Gadang</div>
+              <div class="vi-sub">Sumatera Barat</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🏡</div>
+              <div class="vi-text">Joglo</div>
+              <div class="vi-sub">Jawa Tengah</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🛖</div>
+              <div class="vi-text">Tongkonan</div>
+              <div class="vi-sub">Sulawesi Selatan</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🏘️</div>
+              <div class="vi-text">Honai</div>
+              <div class="vi-sub">Papua</div>
+            </div>
+          </div>
+          <div class="visual-caption">Gambar ini menunjukkan 4 rumah adat dari daerah berbeda di Indonesia.</div>
+        </div>
+
+        <p>Indonesia memiliki beragam rumah adat yang mencerminkan budaya dan kondisi alam setiap daerah. Rumah Gadang dari Sumatera Barat memiliki atap yang melengkung seperti tanduk kerbau. Bentuk ini melambangkan semangat masyarakat Minangkabau yang pantang menyerah.</p>
+        <p>Rumah Joglo dari Jawa Tengah terkenal dengan atapnya yang menjulang tinggi dan ruangannya yang luas. Rumah ini biasanya dimiliki oleh keluarga bangsawan atau tokoh masyarakat pada zaman dahulu.</p>
+        <p>Di Sulawesi Selatan, terdapat Tongkonan yang merupakan rumah adat suku Toraja. Atapnya berbentuk melengkung menyerupai perahu, terbuat dari susunan bambu berlapis-lapis. Sementara itu, Honai dari Papua berbentuk bulat dengan atap dari jerami, dirancang agar bagian dalamnya tetap hangat di pegunungan yang dingin.</p>
+        <p class="sumber-teks">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <!-- Tabel analisis informasi -->
+    <div class="info-table-wrap">
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>Informasi</th>
+            <th>Sumber</th>
+            <th>Penjelasan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nama 4 rumah adat</td>
+            <td><span class="badge-teks">Teks</span> <span class="badge-gambar">Gambar</span></td>
+            <td>Keduanya menyebutkan nama: Rumah Gadang, Joglo, Tongkonan, Honai.</td>
+          </tr>
+          <tr>
+            <td>Asal daerah tiap rumah</td>
+            <td><span class="badge-teks">Teks</span> <span class="badge-gambar">Gambar</span></td>
+            <td>Keduanya menyebutkan provinsi asal — informasi ini sama di teks dan gambar.</td>
+          </tr>
+          <tr>
+            <td>Bentuk atap</td>
+            <td><span class="badge-teks">Teks</span></td>
+            <td>Teks menjelaskan secara detail: atap Rumah Gadang melengkung seperti tanduk kerbau, Tongkonan seperti perahu.</td>
+          </tr>
+          <tr>
+            <td>Makna/simbolisme</td>
+            <td><span class="badge-teks">Teks</span></td>
+            <td>Hanya teks yang menjelaskan makna: "melambangkan semangat pantang menyerah". Gambar tidak bisa menunjukkan ini.</td>
+          </tr>
+          <tr>
+            <td>Tampilan visual</td>
+            <td><span class="badge-gambar">Gambar</span></td>
+            <td>Gambar langsung menunjukkan perbedaan bentuk keempat rumah — lebih cepat dipahami daripada membaca deskripsi panjang.</td>
+          </tr>
+          <tr>
+            <td>Fungsi Honai</td>
+            <td><span class="badge-teks">Teks</span></td>
+            <td>Teks menjelaskan Honai dirancang agar hangat di pegunungan dingin — informasi ini tidak terlihat dari gambar.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="fs">
+      <div class="fi">💡</div>
+      <div class="ft">
+        <strong>Perhatikan pola gabungannya!</strong>
+        Teks menjelaskan <strong>detail yang tidak terlihat</strong> (makna, sejarah, fungsi). Gambar menunjukkan <strong>hal yang sulit dijelaskan</strong> (bentuk, perbandingan visual). Menggabungkan keduanya memberi pemahaman yang <em>jauh lebih lengkap</em>.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: CONTOH 2 -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh2">
+      <div class="section-label">Contoh 2</div>
+      <h2 class="section-title">Peta Persebaran Tari Tradisional</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Sekarang contoh di mana gambar (peta) memberi informasi <strong>tambahan</strong> yang tidak ada di teks:</p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">💃</span>
+        <div>
+          <h3>Bacaan 2 — Tari Tradisional Indonesia</h3>
+          <div class="b-meta">Tema: Indonesia, Kaya Budaya · Teks + Peta</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#9a3412;">Tarian Tradisional dari Berbagai Pulau</p>
+
+        <!-- Peta simulasi -->
+        <div class="visual-sim" style="background:linear-gradient(135deg,#dbeafe,#ffedd5);">
+          <div class="visual-title" style="color:#9a3412;">Peta: Persebaran Tari Tradisional</div>
+          <div class="visual-grid" style="grid-template-columns:repeat(3,1fr);">
+            <div class="visual-item">
+              <div class="vi-icon">🏝️</div>
+              <div class="vi-text">Sumatera</div>
+              <div class="vi-sub">Tari Piring, Tari Saman</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🏔️</div>
+              <div class="vi-text">Jawa</div>
+              <div class="vi-sub">Tari Jaipong, Tari Serimpi</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🌊</div>
+              <div class="vi-text">Bali</div>
+              <div class="vi-sub">Tari Kecak, Tari Pendet</div>
+            </div>
+          </div>
+          <div class="visual-grid" style="grid-template-columns:repeat(2,1fr);margin-top:.5rem;">
+            <div class="visual-item">
+              <div class="vi-icon">🌴</div>
+              <div class="vi-text">Kalimantan</div>
+              <div class="vi-sub">Tari Hudoq</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🦜</div>
+              <div class="vi-text">Papua</div>
+              <div class="vi-sub">Tari Perang</div>
+            </div>
+          </div>
+          <div class="visual-caption">Peta ini menunjukkan persebaran tarian tradisional di beberapa pulau besar Indonesia.</div>
+        </div>
+
+        <p>Indonesia memiliki ratusan tarian tradisional yang tersebar di seluruh kepulauan. Tari Saman dari Aceh terkenal karena gerakannya yang kompak dan cepat. Tarian ini dilakukan secara berkelompok tanpa iringan musik — hanya tepukan tangan dan syair yang dinyanyikan bersama.</p>
+        <p>Di Jawa Barat, Tari Jaipong menjadi kebanggaan masyarakat Sunda. Gerakannya yang enerjik diiringi oleh alunan gamelan dan kendang. Sementara di Bali, Tari Kecak menampilkan puluhan penari laki-laki yang duduk melingkar dan menyerukan "cak-cak-cak" secara berirama.</p>
+        <p>Setiap tarian memiliki makna dan fungsi yang berbeda. Ada yang digunakan untuk upacara adat, ada yang untuk menyambut tamu, dan ada pula yang sekadar untuk hiburan. Keragaman tarian ini menunjukkan betapa kayanya budaya Indonesia.</p>
+        <p class="sumber-teks">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Informasi dari Teks vs dari Peta</div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="badge-teks">Teks</span> saja</span>
+        <span class="a-answer">Detail gerakan tari (Saman: kompak dan cepat; Kecak: melingkar, "cak-cak-cak"), makna dan fungsi tarian (upacara, sambut tamu, hiburan).</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="badge-gambar">Peta</span> saja</span>
+        <span class="a-answer">Lokasi geografis setiap tarian di pulau masing-masing, nama tarian yang <strong>tidak disebut di teks</strong> (Tari Piring, Tari Serimpi, Tari Pendet, Tari Hudoq, Tari Perang).</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="badge-gabung">Gabungan</span></span>
+        <span class="a-answer">Teks menjelaskan <em>bagaimana</em> tarian ditampilkan; peta menunjukkan <em>dari mana</em> asalnya. Keduanya saling melengkapi — tanpa peta, kita tidak tahu lokasi; tanpa teks, kita tidak tahu ciri khas tariannya.</span>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎓</div>
+      <div class="ft">
+        <strong>Perhatikan perbedaan dari Contoh 1!</strong>
+        Di Contoh 1 (rumah adat), teks dan gambar menunjukkan <em>hal yang mirip</em> — saling menguatkan. Di Contoh 2 (tari tradisional), peta menambah <em>informasi baru</em> yang tidak ada di teks (nama tarian tambahan dan lokasi). Ini dua pola umum hubungan teks-gambar.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi B</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">📖</span>
+          <span><strong>Teks</strong> menjelaskan detail seperti alasan, sejarah, makna, dan urutan kejadian yang tidak terlihat di gambar.</span>
+        </li>
+        <li>
+          <span class="ri">🖼️</span>
+          <span><strong>Gambar</strong> menunjukkan bentuk, posisi, perbandingan, dan suasana yang sulit dijelaskan dengan kata-kata.</span>
+        </li>
+        <li>
+          <span class="ri">🔗</span>
+          <span>Teks dan gambar bisa: <strong>saling menguatkan</strong> (informasi sama), <strong>saling melengkapi</strong> (informasi berbeda), atau <strong>salah satu menambah</strong> yang lain.</span>
+        </li>
+        <li>
+          <span class="ri">🔍</span>
+          <span>Selalu baca <strong>keduanya</strong>, lalu tanyakan: apa dari gambar yang tidak ada di teks? Dan apa dari teks yang tidak terlihat di gambar?</span>
+        </li>
+        <li>
+          <span class="ri">🧩</span>
+          <span><strong>Menggabungkan</strong> informasi dari teks dan gambar memberi pemahaman yang jauh lebih lengkap dan utuh.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- LATIHAN MANDIRI -->
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- ── LATIHAN 1: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">1</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Contoh 1 (Rumah Adat)</strong>, informasi bahwa Rumah Gadang "<strong>melambangkan semangat pantang menyerah</strong>" didapat dari...</p>
+        <div class="latihan-opts" data-correct="0">
+          <label class="opt"><input type="radio" name="l1"><span>Teks saja — makna simbolis tidak bisa ditunjukkan lewat gambar</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Gambar saja — bentuk atapnya langsung menunjukkan makna</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Teks dan gambar secara bersamaan</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Tidak ada di teks maupun gambar</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A</strong>. Makna simbolis atau filosofi di balik sebuah benda <em>tidak bisa dilihat</em> dari gambar — hanya teks yang bisa menjelaskan bahwa bentuk atap itu melambangkan semangat pantang menyerah.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 2: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">2</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Contoh 2 (Tari Tradisional)</strong>, nama tarian "<strong>Tari Hudoq</strong>" dari Kalimantan hanya bisa ditemukan di...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l2"><span>Teks bacaan saja</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Peta/gambar saja</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Teks dan peta secara bersamaan</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Tidak ada di keduanya</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>B</strong>. Teks hanya membahas Tari Saman, Tari Jaipong, dan Tari Kecak. Nama "Tari Hudoq" hanya muncul di peta — ini contoh gambar yang menambah informasi baru yang tidak ada di teks.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 3: PG KOMPLEKS ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">3</span>
+        <span class="latihan-tipe">Pilihan Ganda Kompleks</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Jenis informasi apa saja yang <strong>lebih mudah dipahami dari gambar</strong> daripada dari teks?</p>
+        <div class="latihan-opts" data-correct="0,2,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Bentuk dan tampilan visual suatu benda</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Alasan mengapa sebuah tradisi dimulai</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Lokasi geografis sesuatu di peta</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Perbandingan ukuran antara beberapa objek</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A, C, dan D</strong>. Bentuk visual, lokasi di peta, dan perbandingan ukuran lebih mudah dipahami lewat gambar. Sedangkan alasan atau sejarah (pilihan B) lebih mudah dipahami dari teks.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 4: MENJODOHKAN ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">4</span>
+        <span class="latihan-tipe">Menjodohkan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>jenis informasi</strong> berikut dengan <strong>sumber terbaiknya</strong>:</p>
+        <div class="latihan-menjodohkan" data-correct="B,A,C,A">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Sumber</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Lebih mudah dari teks</span>
+              <span class="opt-item"><strong>B.</strong> Lebih mudah dari gambar</span>
+              <span class="opt-item"><strong>C.</strong> Perlu keduanya (teks + gambar)</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">Perbedaan bentuk atap empat rumah adat</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">Sejarah dan makna di balik Tari Saman</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">Nama, lokasi, dan detail gerakan semua tarian</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">Alasan Honai dibuat bulat (agar hangat)</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Pasangan yang benar: <strong>1 → B</strong> (perbedaan bentuk lebih cepat dilihat dari gambar), <strong>2 → A</strong> (sejarah dan makna hanya bisa dari teks), <strong>3 → C</strong> (nama dan lokasi bisa dari peta, detail gerakan dari teks — perlu keduanya), <strong>4 → A</strong> (alasan/fungsi hanya bisa dijelaskan lewat teks).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 5: KATEGORI ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">5</span>
+        <span class="latihan-tipe">Kategori: Dari Teks / Dari Gambar</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Contoh 1 (Rumah Adat)</strong>, tentukan apakah informasi berikut didapat dari <strong>TEKS</strong> atau dari <strong>GAMBAR</strong>:</p>
+        <div class="latihan-kategori" data-correct="1,0,0,1">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> Atap Tongkonan terbuat dari susunan bambu berlapis-lapis.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📖 Dari Teks</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🖼️ Dari Gambar</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> Keempat rumah adat terlihat memiliki bentuk yang berbeda-beda.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📖 Dari Teks</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🖼️ Dari Gambar</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> Honai berasal dari Papua.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📖 Dari Teks</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🖼️ Dari Gambar</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> Rumah Joglo biasanya dimiliki oleh keluarga bangsawan.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📖 Dari Teks</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🖼️ Dari Gambar</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban benar: <strong>1. Dari Teks</strong> (detail bahan atap hanya dijelaskan di teks). <strong>2. Dari Gambar</strong> (perbedaan bentuk langsung terlihat secara visual). <strong>3. Dari Gambar</strong> (keterangan "Papua" tertulis di bawah ikon Honai pada gambar — meski teks juga menyebutkannya). <strong>4. Dari Teks</strong> (siapa pemilik rumah tidak bisa dilihat dari gambar).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="instruksi-gambar.html" class="nav-btn nav-btn-outline">← Kompetensi A</a>
+      <a href="menyampaikan-pendapat.html" class="nav-btn nav-btn-filled">Kompetensi C: Menyampaikan Pendapat →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 7 Kompetensi B &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+
+</body>
+</html>
