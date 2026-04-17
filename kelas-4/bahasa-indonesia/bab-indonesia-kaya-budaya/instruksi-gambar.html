@@ -1,1 +1,716 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memahami Instruksi dalam Gambar — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#c2410c;--bab-mid:#ea580c;--bab-lt:#ffedd5;--bab-pal:#fff7ed;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
 
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}
+    .navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}
+    .breadcrumb a:hover{text-decoration:underline;}
+    .breadcrumb .sep{opacity:.4;}
+
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+
+    .hero{background:linear-gradient(135deg,#c2410c,#7c2d12);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#fed7aa;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(194,65,12,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
+
+    /* JENIS GRID */
+    .jenis-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.75rem;margin:1rem 0 1.5rem;}
+    .jenis-card{background:#fff;border-radius:12px;padding:1rem 1.1rem;box-shadow:0 2px 10px rgba(0,0,0,.05);border-top:4px solid var(--bab);text-align:center;}
+    .jenis-card.j1{border-top-color:#c2410c;}
+    .jenis-card.j2{border-top-color:#0ea5e9;}
+    .jenis-card.j3{border-top-color:#7c3aed;}
+    .jenis-card.j4{border-top-color:#059669;}
+    .jc-icon{font-size:2rem;margin-bottom:.3rem;}
+    .jc-title{font-family:"Lora",serif;font-size:.95rem;font-weight:700;margin-bottom:.2rem;}
+    .jenis-card.j1 .jc-title{color:#9a3412;}
+    .jenis-card.j2 .jc-title{color:#0369a1;}
+    .jenis-card.j3 .jc-title{color:#6d28d9;}
+    .jenis-card.j4 .jc-title{color:#047857;}
+    .jc-desc{font-size:.82rem;color:var(--ink-mid,#3d4460);line-height:1.5;}
+
+    /* LANGKAH BOX */
+    .langkah-box{background:#fff;border-radius:14px;padding:1.25rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:1rem 0 1.5rem;}
+    .langkah-item{display:flex;gap:.9rem;padding:.7rem 0;border-bottom:1.5px dashed var(--sand-dk,#ede8dc);}
+    .langkah-item:last-child{border-bottom:none;}
+    .langkah-num{width:36px;height:36px;background:var(--bab);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;flex-shrink:0;}
+    .langkah-text{flex:1;}
+    .langkah-text h4{font-family:"Lora",serif;font-size:.95rem;font-weight:700;color:var(--bab);margin-bottom:.2rem;}
+    .langkah-text p{font-size:.88rem;color:var(--ink-mid,#3d4460);line-height:1.55;}
+
+    /* INSTRUKSI VISUAL BOX */
+    .instruksi-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .instruksi-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .instruksi-header.v2{background:#9a3412;}
+    .instruksi-header .i-icon{font-size:1.3rem;}
+    .instruksi-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .instruksi-header .i-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .instruksi-body{padding:1.35rem 1.5rem;}
+
+    /* SIMULATED VISUAL */
+    .visual-sim{background:linear-gradient(135deg,var(--bab-lt),#fef3c7);border:2px dashed var(--bab-lt);border-radius:14px;padding:1.5rem;margin:1rem 0;text-align:center;}
+    .visual-title{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--bab);margin-bottom:.8rem;}
+    .visual-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:.6rem;margin-bottom:.8rem;}
+    .visual-item{background:#fff;border-radius:10px;padding:.7rem .5rem;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.08);}
+    .visual-item .vi-icon{font-size:2rem;margin-bottom:.2rem;}
+    .visual-item .vi-text{font-size:.78rem;font-weight:700;color:var(--ink,#1a1f2e);}
+    .visual-item .vi-sub{font-size:.7rem;color:var(--ink-lt,#6b7280);}
+    .visual-caption{font-size:.82rem;color:var(--ink-mid,#3d4460);font-style:italic;margin-top:.5rem;}
+
+    /* ARROW ROW */
+    .arrow-row{display:flex;align-items:center;gap:.4rem;justify-content:center;margin:.5rem 0;}
+    .arrow-step{background:#fff;border:2px solid var(--bab-lt);border-radius:10px;padding:.5rem .75rem;font-size:.82rem;font-weight:700;color:var(--bab);text-align:center;}
+    .arrow-sep{color:var(--bab);font-weight:800;font-size:1.1rem;}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(194,65,12,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:100px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .hl-or{background:var(--bab-lt);color:#9a3412;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#9a3412;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}
+    .nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}
+    .nav-btn-filled:hover{background:#9a3412;}
+
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+
+    @media(max-width:560px){
+      .hero{padding:2.5rem 1rem 4.5rem;}
+      .content{padding:2rem 1rem 3rem;}
+      .jenis-grid{grid-template-columns:1fr 1fr;}
+      .arrow-row{flex-wrap:wrap;}
+      .analisis-item{flex-direction:column;gap:.2rem;}
+      .analisis-item .a-label{min-width:auto;}
+      .back-nav{flex-direction:column;}
+    }
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a>
+      <span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a>
+      <span class="sep">»</span>
+      <a href="materi.html">Bab 7</a>
+      <span class="sep">»</span>
+      <span>Kompetensi A</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#jenis" class="jpill">🖼️ Jenis Instruksi</a>
+      <a href="#cara" class="jpill">🔍 Cara Membaca</a>
+      <a href="#contoh1" class="jpill">📖 Contoh 1</a>
+      <a href="#contoh2" class="jpill">📖 Contoh 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 7 · Kompetensi A</span>
+      <h1>Memahami <em>Instruksi</em> dalam Gambar</h1>
+      <p class="hero-desc">Gambar bisa menyampaikan petunjuk tanpa banyak kata. Pelajari cara membaca dan memahami instruksi yang disampaikan melalui gambar, peta, rambu, dan infografis.</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none">
+      <path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/>
+    </svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Tidak semua instruksi disampaikan lewat tulisan. Banyak petunjuk dalam kehidupan sehari-hari yang disampaikan melalui <strong>gambar</strong> — mulai dari rambu lalu lintas, denah gedung, peta wisata, hingga infografis di majalah.</p>
+      <p>Di halaman ini, kamu akan belajar cara <strong>membaca dan memahami</strong> instruksi yang disampaikan lewat gambar, agar kamu bisa mengikuti petunjuknya dengan benar.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 1: PENGERTIAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Instruksi dalam Gambar?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Instruksi dalam gambar</strong> adalah petunjuk, arahan, atau informasi yang disampaikan menggunakan gambar, simbol, ikon, atau diagram — <em>tanpa banyak kata</em> atau bahkan tanpa kata sama sekali.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Instruksi gambar digunakan karena gambar lebih <strong>cepat dipahami</strong> dibandingkan tulisan panjang. Bayangkan jika rambu lalu lintas ditulis dalam bentuk paragraf — kamu tidak akan sempat membacanya saat berkendara!</p>
+
+    <div class="fs">
+      <div class="fi">🌍</div>
+      <div class="ft">
+        <strong>Gambar itu universal!</strong>
+        Simbol bergambar bisa dipahami oleh orang dari berbagai negara, meskipun mereka berbicara bahasa yang berbeda. Itulah mengapa bandara, stasiun kereta, dan tempat wisata internasional menggunakan banyak simbol gambar.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 2: JENIS -->
+    <!-- ════════════════════════════════ -->
+    <div id="jenis">
+      <div class="section-label">Jenis-jenis</div>
+      <h2 class="section-title">4 Jenis Instruksi Gambar yang Sering Ditemui</h2>
+    </div>
+
+    <div class="jenis-grid">
+      <div class="jenis-card j1">
+        <div class="jc-icon">🚦</div>
+        <div class="jc-title">Rambu &amp; Simbol</div>
+        <div class="jc-desc">Rambu lalu lintas, tanda dilarang, tanda darurat, simbol toilet.</div>
+      </div>
+      <div class="jenis-card j2">
+        <div class="jc-icon">🗺️</div>
+        <div class="jc-title">Peta &amp; Denah</div>
+        <div class="jc-desc">Peta wilayah, denah gedung, peta wisata, rute perjalanan.</div>
+      </div>
+      <div class="jenis-card j3">
+        <div class="jc-icon">📊</div>
+        <div class="jc-title">Infografis</div>
+        <div class="jc-desc">Gambar yang menjelaskan data, proses, atau perbandingan secara visual.</div>
+      </div>
+      <div class="jenis-card j4">
+        <div class="jc-icon">📋</div>
+        <div class="jc-title">Panduan Bergambar</div>
+        <div class="jc-desc">Instruksi pemasangan, petunjuk penggunaan, cara memasak — dengan gambar langkah demi langkah.</div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 3: CARA MEMBACA -->
+    <!-- ════════════════════════════════ -->
+    <div id="cara">
+      <div class="section-label">Teknik Membaca</div>
+      <h2 class="section-title">4 Langkah Membaca Instruksi Gambar</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Ikuti empat langkah berikut untuk memahami instruksi yang disampaikan lewat gambar:</p>
+
+    <div class="langkah-box">
+      <div class="langkah-item">
+        <div class="langkah-num">1</div>
+        <div class="langkah-text">
+          <h4>Amati Keseluruhan</h4>
+          <p>Lihat gambar secara menyeluruh terlebih dahulu. Apa tema besarnya? Tentang apa gambar ini? Apakah ini peta, rambu, infografis, atau panduan?</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">2</div>
+        <div class="langkah-text">
+          <h4>Baca Judul &amp; Keterangan</h4>
+          <p>Perhatikan judul, teks pendek, angka, atau <strong>legenda</strong> (kotak keterangan) yang menyertai gambar. Ini adalah petunjuk utama.</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">3</div>
+        <div class="langkah-text">
+          <h4>Perhatikan Simbol &amp; Tanda Panah</h4>
+          <p>Simbol, ikon, warna, dan arah panah menyampaikan informasi penting. Warna merah biasanya berarti larangan atau bahaya; hijau berarti aman atau boleh.</p>
+        </div>
+      </div>
+      <div class="langkah-item">
+        <div class="langkah-num">4</div>
+        <div class="langkah-text">
+          <h4>Hubungkan dengan Konteks</h4>
+          <p>Pikirkan: di mana gambar ini biasanya ditemui? Siapa yang membacanya? Apa tujuannya? Konteks membantu kamu memahami makna gambar.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 4: CONTOH 1 — Denah Museum -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh1">
+      <div class="section-label">Contoh 1</div>
+      <h2 class="section-title">Denah Museum Budaya Nusantara</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Perhatikan "denah" museum berikut. Bayangkan kamu sedang berkunjung ke museum ini dan perlu menemukan ruang yang tepat:</p>
+
+    <div class="instruksi-box">
+      <div class="instruksi-header">
+        <span class="i-icon">🏛️</span>
+        <div>
+          <h3>Denah Lantai 1 — Museum Budaya Nusantara</h3>
+          <div class="i-meta">Jenis: Denah Gedung · Dibaca dari atas ke bawah</div>
+        </div>
+      </div>
+      <div class="instruksi-body">
+
+        <div class="visual-sim">
+          <div class="visual-title">Denah Museum — Lantai 1</div>
+
+          <div class="visual-grid" style="grid-template-columns:repeat(3,1fr);">
+            <div class="visual-item">
+              <div class="vi-icon">🎭</div>
+              <div class="vi-text">Ruang Tari</div>
+              <div class="vi-sub">Pertunjukan tari</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🎵</div>
+              <div class="vi-text">Ruang Musik</div>
+              <div class="vi-sub">Alat musik tradisional</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🖼️</div>
+              <div class="vi-text">Galeri Lukisan</div>
+              <div class="vi-sub">Lukisan daerah</div>
+            </div>
+          </div>
+
+          <div class="arrow-row">
+            <span class="arrow-step">🚪 Pintu Masuk</span>
+            <span class="arrow-sep">→</span>
+            <span class="arrow-step">🎫 Loket Tiket</span>
+            <span class="arrow-sep">→</span>
+            <span class="arrow-step">👆 Pilih Ruang</span>
+          </div>
+
+          <div class="visual-grid" style="grid-template-columns:repeat(4,1fr);margin-top:.8rem;">
+            <div class="visual-item">
+              <div class="vi-icon">🚻</div>
+              <div class="vi-text">Toilet</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">☕</div>
+              <div class="vi-text">Kafetaria</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🛍️</div>
+              <div class="vi-text">Toko Oleh-oleh</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">🚪</div>
+              <div class="vi-text">Keluar</div>
+            </div>
+          </div>
+
+          <div class="visual-caption">Denah ini menunjukkan tata letak ruangan di Lantai 1 Museum Budaya Nusantara.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">✅ Membaca Denah dengan 4 Langkah</div>
+      <div class="analisis-item">
+        <span class="a-label">1. Keseluruhan</span>
+        <span class="a-answer">Gambar ini adalah <span class="hl-or">denah museum</span> — menunjukkan tata letak ruangan di Lantai 1.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">2. Judul</span>
+        <span class="a-answer">Judulnya "Denah Lantai 1 — Museum Budaya Nusantara" — jadi ini baru lantai 1 saja.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">3. Simbol</span>
+        <span class="a-answer">Setiap ruangan ditandai dengan ikon: 🎭 tari, 🎵 musik, 🖼️ lukisan, 🚻 toilet, ☕ kafetaria. Panah menunjukkan <strong>alur masuk</strong>: pintu → loket → pilih ruang.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">4. Konteks</span>
+        <span class="a-answer">Denah ini biasanya dipajang di dekat pintu masuk agar pengunjung tahu ke mana harus pergi.</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- SECTION 5: CONTOH 2 — Infografis -->
+    <!-- ════════════════════════════════ -->
+    <div id="contoh2">
+      <div class="section-label">Contoh 2</div>
+      <h2 class="section-title">Infografis: Cara Memakai Batik dengan Benar</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Sekarang perhatikan infografis bertema budaya berikut — petunjuk bergambar langkah demi langkah:</p>
+
+    <div class="instruksi-box">
+      <div class="instruksi-header v2">
+        <span class="i-icon">👘</span>
+        <div>
+          <h3>Infografis — Cara Memakai Kain Batik sebagai Selendang</h3>
+          <div class="i-meta">Jenis: Panduan Bergambar · 4 Langkah</div>
+        </div>
+      </div>
+      <div class="instruksi-body">
+
+        <div class="visual-sim" style="background:linear-gradient(135deg,#fef3c7,#ffedd5);">
+          <div class="visual-title" style="color:#9a3412;">Cara Memakai Kain Batik sebagai Selendang</div>
+
+          <div class="visual-grid" style="grid-template-columns:repeat(4,1fr);">
+            <div class="visual-item">
+              <div class="vi-icon">1️⃣</div>
+              <div class="vi-text">Lipat Segitiga</div>
+              <div class="vi-sub">Lipat kain menjadi segitiga</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">2️⃣</div>
+              <div class="vi-text">Letakkan di Bahu</div>
+              <div class="vi-sub">Sisi panjang di bahu kiri</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">3️⃣</div>
+              <div class="vi-text">Silangkan</div>
+              <div class="vi-sub">Tarik ujung ke bahu kanan</div>
+            </div>
+            <div class="visual-item">
+              <div class="vi-icon">4️⃣</div>
+              <div class="vi-text">Rapikan</div>
+              <div class="vi-sub">Rapikan lipatan, selesai!</div>
+            </div>
+          </div>
+
+          <div class="visual-caption">Infografis ini menunjukkan 4 langkah berurutan untuk memakai kain batik sebagai selendang.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">✅ Membaca Infografis dengan 4 Langkah</div>
+      <div class="analisis-item">
+        <span class="a-label">1. Keseluruhan</span>
+        <span class="a-answer">Gambar ini adalah <span class="hl-or">panduan bergambar langkah demi langkah</span> — jenis infografis prosedural.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">2. Judul</span>
+        <span class="a-answer">"Cara Memakai Kain Batik sebagai Selendang" — jadi tujuannya jelas: cara memakai selendang batik.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">3. Simbol</span>
+        <span class="a-answer">Angka <strong>1, 2, 3, 4</strong> menunjukkan urutan langkah. Harus dibaca <strong>dari kiri ke kanan</strong> sesuai urutan.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label">4. Konteks</span>
+        <span class="a-answer">Infografis ini mungkin ditemukan di <strong>buku seni budaya, majalah anak, atau poster kelas</strong>. Berguna untuk siswa yang ingin belajar memakai batik.</span>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🔑</div>
+      <div class="ft">
+        <strong>Kunci memahami instruksi gambar</strong>
+        Selalu perhatikan <strong>urutan</strong> (angka atau panah), <strong>simbol</strong> (ikon, warna), dan <strong>keterangan singkat</strong> yang menyertai gambar. Jangan terburu-buru — amati dari keseluruhan dulu, baru masuk ke detail.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <!-- RINGKASAN -->
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi A</h3>
+      <ul class="rl">
+        <li>
+          <span class="ri">🖼️</span>
+          <span><strong>Instruksi dalam gambar</strong> adalah petunjuk yang disampaikan lewat gambar, simbol, ikon, atau diagram — sering tanpa banyak kata.</span>
+        </li>
+        <li>
+          <span class="ri">📋</span>
+          <span>4 jenis instruksi gambar: <strong>rambu &amp; simbol</strong>, <strong>peta &amp; denah</strong>, <strong>infografis</strong>, dan <strong>panduan bergambar</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">🔍</span>
+          <span>4 langkah membaca: <strong>amati keseluruhan</strong> → <strong>baca judul &amp; keterangan</strong> → <strong>perhatikan simbol &amp; panah</strong> → <strong>hubungkan dengan konteks</strong>.</span>
+        </li>
+        <li>
+          <span class="ri">🚦</span>
+          <span>Warna memiliki makna: <strong>merah</strong> = larangan/bahaya, <strong>hijau</strong> = aman/boleh, <strong>kuning</strong> = hati-hati/peringatan.</span>
+        </li>
+        <li>
+          <span class="ri">🌍</span>
+          <span>Instruksi gambar bersifat <strong>universal</strong> — bisa dipahami orang dari berbagai negara dan bahasa.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <!-- LATIHAN MANDIRI -->
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- ── LATIHAN 1: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">1</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Mengapa instruksi dalam gambar sering digunakan di tempat umum seperti bandara dan stasiun?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l1"><span>Karena gambar lebih mahal daripada tulisan</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Karena orang tidak suka membaca tulisan</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Karena gambar lebih cepat dipahami dan bisa dimengerti oleh orang dari berbagai negara</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Karena tidak ada tempat untuk menulis kalimat panjang</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Gambar bersifat universal — bisa dipahami orang dari berbagai bahasa dan negara. Selain itu, gambar lebih cepat diproses oleh otak manusia dibandingkan tulisan panjang.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 2: PG ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">2</span>
+        <span class="latihan-tipe">Pilihan Ganda</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Denah Museum Budaya Nusantara</strong>, apa yang harus dilakukan pengunjung <strong>setelah masuk pintu utama</strong> dan <strong>sebelum memilih ruang</strong>?</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l2"><span>Langsung masuk ke Ruang Tari</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Membeli tiket di loket</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Pergi ke kafetaria</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Mengunjungi toko oleh-oleh</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>B. Membeli tiket di loket</strong>. Dari alur panah di denah: Pintu Masuk → Loket Tiket → Pilih Ruang. Jadi setelah masuk pintu, pengunjung harus ke loket dulu sebelum memilih ruang.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 3: PG KOMPLEKS ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">3</span>
+        <span class="latihan-tipe">Pilihan Ganda Kompleks</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah yang merupakan <strong>langkah membaca instruksi gambar</strong>?</p>
+        <div class="latihan-opts" data-correct="0,1,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Amati gambar secara keseluruhan terlebih dahulu</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Perhatikan simbol, ikon, warna, dan arah panah</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Abaikan judul dan keterangan karena yang penting gambarnya saja</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Hubungkan gambar dengan konteks — di mana biasanya ditemui</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban yang benar adalah <strong>A, B, dan D</strong>. Pilihan C salah — judul dan keterangan justru sangat penting untuk memahami instruksi gambar! Tanpa membaca judul, kamu mungkin salah memahami tujuan gambar tersebut.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 4: MENJODOHKAN ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">4</span>
+        <span class="latihan-tipe">Menjodohkan</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>simbol</strong> berikut dengan <strong>artinya</strong> yang paling tepat:</p>
+        <div class="latihan-menjodohkan" data-correct="D,A,C,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Arti</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Toilet</span>
+              <span class="opt-item"><strong>B.</strong> Tempat makan</span>
+              <span class="opt-item"><strong>C.</strong> Pertunjukan musik</span>
+              <span class="opt-item"><strong>D.</strong> Pertunjukan tari</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">🎭 di denah museum</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">🚻 di gedung umum</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">🎵 di ruang pertunjukan</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">☕ di area istirahat</span>
+              <select class="q-select">
+                <option value="">— Pilih —</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Pasangan yang benar: <strong>1 → D</strong> (🎭 = tari/pertunjukan), <strong>2 → A</strong> (🚻 = toilet), <strong>3 → C</strong> (🎵 = musik), <strong>4 → B</strong> (☕ = tempat makan/minum).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LATIHAN 5: KATEGORI ── -->
+    <div class="latihan-card">
+      <div class="latihan-head">
+        <span class="latihan-num">5</span>
+        <span class="latihan-tipe">Kategori: Jenis Instruksi Gambar</span>
+      </div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah contoh berikut termasuk <strong>DENAH</strong> atau <strong>INFOGRAFIS</strong>:</p>
+        <div class="latihan-kategori" data-correct="0,1,1,0">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> Gambar tata letak ruangan di sekolah lengkap dengan nama ruang dan posisi pintu masuk.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🗺️ Denah</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📊 Infografis</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> Poster berisi gambar langkah-langkah mencuci tangan yang benar, disertai angka 1 sampai 6.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🗺️ Denah</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📊 Infografis</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> Gambar yang menunjukkan perbandingan jumlah pengunjung museum per bulan dalam bentuk diagram batang.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🗺️ Denah</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📊 Infografis</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> Gambar yang menunjukkan posisi toilet, kafetaria, dan pintu darurat di lantai 2 mal.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🗺️ Denah</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">📊 Infografis</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback">
+          <span class="fb-result"></span>
+          <p class="fb-explanation">Jawaban benar: <strong>1. Denah</strong> (tata letak ruangan = denah). <strong>2. Infografis</strong> (langkah-langkah mencuci tangan = panduan visual). <strong>3. Infografis</strong> (diagram batang = data visual). <strong>4. Denah</strong> (posisi ruangan di lantai mal = denah).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="materi.html" class="nav-btn nav-btn-outline">← Kembali ke Bab 7</a>
+      <a href="informasi-teks-gambar.html" class="nav-btn nav-btn-filled">Kompetensi B: Informasi Teks &amp; Gambar →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer">
+    <p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 7 Kompetensi A &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p>
+  </footer>
+
+  <script src="../../../assets/js/latihan.js"></script>
+
+</body>
+</html>
