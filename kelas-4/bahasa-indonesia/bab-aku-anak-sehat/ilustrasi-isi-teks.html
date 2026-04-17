@@ -1,1 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ilustrasi vs Isi Teks — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#059669;--bab-mid:#10b981;--bab-lt:#d1fae5;--bab-pal:#ecfdf5;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}.navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}.breadcrumb .sep{opacity:.4;}
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .hero{background:linear-gradient(135deg,#059669,#064e3b);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#6ee7b7;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(5,150,105,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
 
+    /* CHECKLIST */
+    .check-box{background:#fff;border-radius:14px;padding:1.25rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,.05);margin:1rem 0 1.5rem;}
+    .check-item{display:flex;gap:.7rem;padding:.6rem 0;border-bottom:1.5px dashed var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .check-item:last-child{border-bottom:none;}
+    .check-icon{font-size:1.2rem;flex-shrink:0;margin-top:.1rem;}
+    .check-text{flex:1;line-height:1.55;}
+    .check-text strong{color:var(--bab);}
+
+    /* BACAAN + ILUSTRASI */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#047857;}
+    .bacaan-header .b-icon{font-size:1.3rem;}.bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* ILUSTRASI BOX */
+    .ilustrasi-box{border:2px dashed;border-radius:12px;padding:1.25rem;margin:1rem 0;text-align:center;}
+    .ilustrasi-box.cocok{background:#ecfdf5;border-color:#a7f3d0;}
+    .ilustrasi-box.tidak{background:#fef2f2;border-color:#fecaca;}
+    .ilustrasi-placeholder{font-size:3.5rem;line-height:1;margin-bottom:.5rem;}
+    .ilustrasi-caption{font-size:.82rem;font-style:italic;}
+    .ilustrasi-caption strong{font-style:normal;}
+    .ilustrasi-verdict{display:inline-block;margin-top:.5rem;padding:.25rem .8rem;border-radius:50px;font-size:.78rem;font-weight:800;}
+    .ilustrasi-box.cocok .ilustrasi-verdict{background:#d1fae5;color:#065f46;}
+    .ilustrasi-box.tidak .ilustrasi-verdict{background:#fee2e2;color:#991b1b;}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid rgba(5,150,105,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:110px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#065f46;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}.nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}.nav-btn-filled:hover{background:#047857;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+    @media(max-width:560px){.hero{padding:2.5rem 1rem 4.5rem;}.content{padding:2rem 1rem 3rem;}.analisis-item{flex-direction:column;gap:.2rem;}.analisis-item .a-label{min-width:auto;}.back-nav{flex-direction:column;}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a><span class="sep">»</span>
+      <a href="materi.html">Bab 8</a><span class="sep">»</span>
+      <span>Kompetensi B</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#checklist" class="jpill">✅ Checklist</a>
+      <a href="#contoh1" class="jpill">📖 Contoh 1 (Cocok)</a>
+      <a href="#contoh2" class="jpill">📖 Contoh 2 (Tidak)</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 8 · Kompetensi B</span>
+      <h1>Menilai Kesesuaian <em>Ilustrasi</em> dengan Isi Teks</h1>
+      <p class="hero-desc">Ilustrasi yang baik harus sesuai dengan isi teks. Pelajari cara menilai apakah gambar benar-benar mendukung cerita atau justru tidak cocok.</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/></svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Di Bab 6, kamu sudah belajar menyampaikan <strong>pendapat</strong> tentang ilustrasi. Sekarang kita naik level — kamu akan belajar cara <strong>menilai secara objektif</strong> apakah ilustrasi cocok atau tidak cocok dengan isi teksnya.</p>
+      <p>Kemampuan ini penting karena ilustrasi yang <strong>tidak sesuai</strong> bisa membuat pembaca <em>salah paham</em> tentang isi bacaan.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa Artinya "Ilustrasi Sesuai dengan Isi Teks"?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Ilustrasi dikatakan <strong>sesuai</strong> jika gambar tersebut menggambarkan hal yang sama dengan apa yang diceritakan di teks — baik dari segi <em>tokoh, latar, suasana, objek,</em> maupun <em>tema</em>.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Ilustrasi dikatakan <strong>tidak sesuai</strong> jika ada perbedaan yang jelas antara gambar dan teks — misalnya teks bercerita tentang bermain sepak bola tapi gambarnya anak bermain basket, atau teks bertema sedih tapi gambarnya menunjukkan suasana gembira.</p>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="checklist">
+      <div class="section-label">Alat Bantu</div>
+      <h2 class="section-title">Checklist Menilai Kesesuaian Ilustrasi</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Gunakan 5 pertanyaan berikut sebagai checklist saat menilai apakah ilustrasi cocok dengan isi teks:</p>
+
+    <div class="check-box">
+      <div class="check-item">
+        <span class="check-icon">👤</span>
+        <span class="check-text"><strong>Tokoh:</strong> Apakah tokoh di gambar sama dengan tokoh yang diceritakan di teks? (jumlah, usia, penampilan)</span>
+      </div>
+      <div class="check-item">
+        <span class="check-icon">📍</span>
+        <span class="check-text"><strong>Latar tempat:</strong> Apakah tempat di gambar sama dengan latar cerita? (sekolah, rumah, lapangan, dsb.)</span>
+      </div>
+      <div class="check-item">
+        <span class="check-icon">🎭</span>
+        <span class="check-text"><strong>Suasana:</strong> Apakah suasana di gambar cocok dengan perasaan cerita? (sedih, gembira, tegang, damai)</span>
+      </div>
+      <div class="check-item">
+        <span class="check-icon">🎯</span>
+        <span class="check-text"><strong>Objek/kegiatan:</strong> Apakah benda atau kegiatan di gambar sesuai dengan yang diceritakan? (olahraga, makanan, alat)</span>
+      </div>
+      <div class="check-item">
+        <span class="check-icon">📚</span>
+        <span class="check-text"><strong>Tema:</strong> Apakah tema besar gambar dan teks sama? (kesehatan, persahabatan, lingkungan, dsb.)</span>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">💡</div>
+      <div class="ft">
+        <strong>Tidak perlu 100% persis!</strong>
+        Ilustrasi tidak harus menggambarkan <em>setiap detail</em> dalam teks. Yang penting adalah tidak ada <strong>perbedaan yang mencolok</strong> atau <strong>menyesatkan</strong>. Misalnya, warna baju tokoh boleh berbeda — tapi jenis kegiatan yang digambar harus sama.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="contoh1">
+      <div class="section-label">Contoh 1 — Ilustrasi Sesuai</div>
+      <h2 class="section-title">Bacaan: Senam Pagi di Sekolah</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🏃</span>
+        <div>
+          <h3>Bacaan 1 — Senam Pagi yang Menyehatkan</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Semangat Senam Pagi!</p>
+
+        <div class="ilustrasi-box cocok">
+          <div class="ilustrasi-placeholder">🧑‍🤝‍🧑🏫🌤️</div>
+          <div class="ilustrasi-caption"><strong>Ilustrasi:</strong> Sekelompok anak SD berseragam putih-merah sedang senam pagi di lapangan sekolah. Guru olahraga berdiri di depan memimpin gerakan. Langit cerah berwarna biru.</div>
+          <div class="ilustrasi-verdict">✅ SESUAI</div>
+        </div>
+
+        <p>Setiap hari Jumat pagi, seluruh siswa SD Cerdas Mandiri berkumpul di lapangan untuk senam pagi bersama. Bu Ratna, guru olahraga, selalu memimpin gerakan di depan dengan penuh semangat.</p>
+        <p>"Ayo, tangan ke atas! Kaki rapat! Tekuk badan ke depan!" seru Bu Ratna. Semua siswa mengikuti gerakan dengan antusias. Musik pengiring senam membuat suasana semakin ceria.</p>
+        <p>Dimas, siswa kelas 4A, awalnya malas mengikuti senam pagi. Namun, setelah rutin senam selama dua bulan, ia merasa badannya lebih segar dan jarang sakit. "Ternyata senam pagi itu bukan sekadar gerakan — tapi investasi kesehatan," kata Dimas pada teman-temannya.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">✅ Checklist Kesesuaian — Contoh 1</div>
+      <div class="analisis-item"><span class="a-label">👤 Tokoh</span><span class="a-answer"><strong>Cocok</strong> — gambar menampilkan anak-anak SD dan guru olahraga, sesuai teks.</span></div>
+      <div class="analisis-item"><span class="a-label">📍 Latar tempat</span><span class="a-answer"><strong>Cocok</strong> — lapangan sekolah, sesuai dengan teks "berkumpul di lapangan".</span></div>
+      <div class="analisis-item"><span class="a-label">🎭 Suasana</span><span class="a-answer"><strong>Cocok</strong> — ceria dan semangat, sesuai "penuh semangat" dan "antusias".</span></div>
+      <div class="analisis-item"><span class="a-label">🎯 Kegiatan</span><span class="a-answer"><strong>Cocok</strong> — sedang melakukan senam pagi, sesuai isi cerita.</span></div>
+      <div class="analisis-item"><span class="a-label">📚 Tema</span><span class="a-answer"><strong>Cocok</strong> — kesehatan dan olahraga, sesuai tema bab.</span></div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="contoh2">
+      <div class="section-label">Contoh 2 — Ilustrasi Tidak Sesuai</div>
+      <h2 class="section-title">Bacaan: Makan Sayur Bersama Keluarga</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🥗</span>
+        <div>
+          <h3>Bacaan 2 — Makan Malam Sehat Keluarga Rina</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#047857;">Makan Sayur itu Ternyata Enak!</p>
+
+        <div class="ilustrasi-box tidak">
+          <div class="ilustrasi-placeholder">🍔🍟🥤</div>
+          <div class="ilustrasi-caption"><strong>Ilustrasi:</strong> Gambar hamburger besar, kentang goreng, dan segelas minuman bersoda di meja restoran cepat saji.</div>
+          <div class="ilustrasi-verdict">❌ TIDAK SESUAI</div>
+        </div>
+
+        <p>Rina sering menolak saat ibunya menyajikan sayur di meja makan. "Aku tidak suka sayur, Bu. Rasanya pahit," keluh Rina setiap kali melihat sop bayam atau tumis kangkung.</p>
+        <p>Suatu hari, ibu membuat resep baru: <strong>sayur sop wortel dan brokoli</strong> dengan kaldu ayam yang gurih. Ibu juga menambahkan bola-bola daging kecil yang disukai Rina. "Coba dulu satu suapan, Rin," bujuk ibu.</p>
+        <p>Rina mencoba dengan ragu-ragu. Matanya langsung berbinar. "Ini enak, Bu! Boleh tambah?" Sejak hari itu, Rina mulai mau makan sayur — asal dimasak dengan cara yang kreatif. Ibu pun senang karena anak-anaknya kini mendapat gizi yang cukup setiap hari.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">❌ Checklist Kesesuaian — Contoh 2</div>
+      <div class="analisis-item"><span class="a-label">👤 Tokoh</span><span class="a-answer"><strong>Tidak cocok</strong> — teks tentang Rina dan ibunya di rumah, gambar tidak menampilkan mereka.</span></div>
+      <div class="analisis-item"><span class="a-label">📍 Latar tempat</span><span class="a-answer"><strong>Tidak cocok</strong> — teks berlatar meja makan di rumah, gambar berlatar restoran cepat saji.</span></div>
+      <div class="analisis-item"><span class="a-label">🎭 Suasana</span><span class="a-answer"><strong>Netral</strong> — suasana tidak terlalu bertentangan, tapi konteksnya beda.</span></div>
+      <div class="analisis-item"><span class="a-label">🎯 Objek</span><span class="a-answer"><strong>Tidak cocok</strong> — teks tentang sayur sop wortel-brokoli, gambar menampilkan hamburger dan kentang goreng. Ini sangat bertentangan!</span></div>
+      <div class="analisis-item"><span class="a-label">📚 Tema</span><span class="a-answer"><strong>Tidak cocok</strong> — teks bertema makan sehat (sayur), gambar menampilkan makanan cepat saji — justru kebalikannya.</span></div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">⚠️</div>
+      <div class="ft">
+        <strong>Mengapa ilustrasi tidak sesuai itu berbahaya?</strong>
+        Bayangkan seorang anak membaca cerita tentang makan sayur, tapi melihat gambar hamburger. Ia bisa mengira cerita ini tentang makanan cepat saji! Ilustrasi yang salah bisa menyebabkan <strong>kesalahpahaman</strong> dan merusak pesan yang ingin disampaikan penulis.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi B</h3>
+      <ul class="rl">
+        <li><span class="ri">🖼️</span><span>Ilustrasi <strong>sesuai</strong> jika menggambarkan hal yang sama dengan isi teks — tokoh, latar, suasana, objek, dan tema cocok.</span></li>
+        <li><span class="ri">❌</span><span>Ilustrasi <strong>tidak sesuai</strong> jika ada perbedaan mencolok yang bisa menyebabkan pembaca salah paham.</span></li>
+        <li><span class="ri">✅</span><span>Gunakan <strong>5 checklist</strong>: tokoh, latar tempat, suasana, objek/kegiatan, dan tema.</span></li>
+        <li><span class="ri">⚖️</span><span>Ilustrasi tidak harus 100% persis — yang penting <strong>tidak ada perbedaan mencolok atau menyesatkan</strong>.</span></li>
+        <li><span class="ri">💡</span><span>Ilustrasi yang tidak sesuai bisa <strong>merusak pesan</strong> yang ingin disampaikan penulis kepada pembaca.</span></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- LATIHAN 1: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">1</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Contoh 2</strong>, alasan utama ilustrasi hamburger <strong>tidak cocok</strong> dengan teks tentang makan sayur adalah...</p>
+        <div class="latihan-opts" data-correct="3">
+          <label class="opt"><input type="radio" name="l1"><span>Warna gambar terlalu gelap</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Gambarnya kurang besar</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Tokoh Rina tidak muncul di gambar</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Objek dan tema gambar bertentangan dengan isi teks</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>D</strong>. Masalah utamanya bukan soal ukuran atau warna gambar, tapi tentang isi — teks membahas makan sayur sehat sementara gambar menampilkan makanan cepat saji, yang justru kebalikannya.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 2: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">2</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Sebuah teks bercerita tentang anak yang <strong>bermain bulu tangkis di lapangan sekolah</strong>. Ilustrasi yang paling <strong>sesuai</strong> adalah...</p>
+        <div class="latihan-opts" data-correct="0">
+          <label class="opt"><input type="radio" name="l2"><span>Gambar dua anak memegang raket di lapangan sekolah</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Gambar anak bermain sepak bola di stadion besar</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Gambar raket bulu tangkis di dalam toko olahraga</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Gambar anak membaca buku di perpustakaan</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>A</strong>. Gambar ini cocok di semua aspek: tokoh (anak), objek (raket bulu tangkis), kegiatan (bermain), dan latar (lapangan sekolah). Pilihan B salah olahraga, C salah kegiatan, D sangat berbeda.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 3: PGK -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">3</span><span class="latihan-tipe">Pilihan Ganda Kompleks</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Aspek apa saja yang perlu diperiksa saat menilai kesesuaian ilustrasi dengan isi teks?</p>
+        <div class="latihan-opts" data-correct="0,1,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Tokoh yang ditampilkan di gambar</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Latar tempat dan suasana</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Nama ilustrator yang menggambar</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Objek atau kegiatan yang digambarkan</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>A, B, dan D</strong>. Nama ilustrator (C) bukan aspek yang dinilai untuk kesesuaian — yang penting adalah apa yang ditampilkan dalam gambar, bukan siapa yang menggambar.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 4: MENJODOHKAN -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">4</span><span class="latihan-tipe">Menjodohkan</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>isi teks</strong> dengan <strong>ilustrasi yang paling sesuai</strong>:</p>
+        <div class="latihan-menjodohkan" data-correct="C,D,A,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Ilustrasi</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Gambar anak memegang sikat gigi di kamar mandi</span>
+              <span class="opt-item"><strong>B.</strong> Gambar anak tidur nyenyak di kamar yang gelap</span>
+              <span class="opt-item"><strong>C.</strong> Gambar anak berlari di taman hijau</span>
+              <span class="opt-item"><strong>D.</strong> Gambar piring berisi nasi, sayur, lauk, dan buah</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">Teks tentang pentingnya berolahraga setiap hari</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">Teks tentang pola makan seimbang (4 sehat 5 sempurna)</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">Teks tentang cara menjaga kebersihan gigi</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">Teks tentang pentingnya tidur cukup 8-10 jam</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Pasangan yang benar: <strong>1 → C</strong> (olahraga = berlari di taman), <strong>2 → D</strong> (makan seimbang = piring berisi nasi, sayur, lauk, buah), <strong>3 → A</strong> (kebersihan gigi = sikat gigi), <strong>4 → B</strong> (tidur cukup = tidur nyenyak).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 5: KATEGORI -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">5</span><span class="latihan-tipe">Kategori: Sesuai / Tidak Sesuai</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah ilustrasi berikut <strong>SESUAI</strong> atau <strong>TIDAK SESUAI</strong> dengan isi teksnya:</p>
+        <div class="latihan-kategori" data-correct="1,0,0,1">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> Teks: Anak-anak bermain lompat tali di halaman sekolah.<br>Ilustrasi: Gambar anak-anak bermain lompat tali di halaman.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✅ Sesuai</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">❌ Tidak Sesuai</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> Teks: Dokter memeriksa gigi Rina di klinik.<br>Ilustrasi: Gambar anak berenang di kolam renang.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✅ Sesuai</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">❌ Tidak Sesuai</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> Teks: Dimas sedih karena nilainya turun.<br>Ilustrasi: Gambar anak tertawa bahagia sambil melompat.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✅ Sesuai</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">❌ Tidak Sesuai</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> Teks: Keluarga Andi sarapan bersama setiap pagi sebelum berangkat.<br>Ilustrasi: Gambar keluarga duduk bersama di meja makan dengan piring-piring berisi makanan.</span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">✅ Sesuai</button>
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">❌ Tidak Sesuai</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban benar: <strong>1. Sesuai</strong> (tokoh, kegiatan, dan latar semuanya cocok). <strong>2. Tidak Sesuai</strong> (teks tentang periksa gigi, gambar tentang berenang — kegiatan berbeda). <strong>3. Tidak Sesuai</strong> (suasana bertentangan: teks sedih, gambar gembira). <strong>4. Sesuai</strong> (keluarga sarapan bersama — cocok di semua aspek).</p></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="masalah-tokoh.html" class="nav-btn nav-btn-outline">← Kompetensi A</a>
+      <a href="fakta-opini.html" class="nav-btn nav-btn-filled">Kompetensi C: Fakta vs Opini →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer"><p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 8 Kompetensi B &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p></footer>
+  <script src="../../../assets/js/latihan.js"></script>
+</body>
+</html>
