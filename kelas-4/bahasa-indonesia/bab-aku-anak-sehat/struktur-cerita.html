@@ -1,1 +1,492 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Struktur Cerita Awal-Tengah-Akhir — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#059669;--bab-mid:#10b981;--bab-lt:#d1fae5;--bab-pal:#ecfdf5;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}.navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}.breadcrumb .sep{opacity:.4;}
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .hero{background:linear-gradient(135deg,#059669,#064e3b);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#6ee7b7;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(5,150,105,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
 
+    /* STRUKTUR 3 BAGIAN */
+    .str-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin:1.25rem 0;}
+    .str-card{background:#fff;border-radius:14px;padding:1.1rem 1.15rem;box-shadow:0 2px 10px rgba(0,0,0,.05);text-align:center;position:relative;}
+    .str-card.awal{border-top:4px solid #0ea5e9;}
+    .str-card.tengah{border-top:4px solid #f59e0b;}
+    .str-card.akhir{border-top:4px solid #10b981;}
+    .str-icon{font-size:2rem;margin-bottom:.3rem;}
+    .str-title{font-family:"Lora",serif;font-size:1rem;font-weight:700;margin-bottom:.3rem;}
+    .str-card.awal .str-title{color:#0369a1;}
+    .str-card.tengah .str-title{color:#b45309;}
+    .str-card.akhir .str-title{color:#047857;}
+    .str-desc{font-size:.82rem;color:var(--ink-mid,#3d4460);line-height:1.5;}
+    .str-isi{font-size:.78rem;margin-top:.4rem;padding:.35rem .5rem;border-radius:6px;line-height:1.45;}
+    .str-card.awal .str-isi{background:#dbeafe;color:#1e40af;}
+    .str-card.tengah .str-isi{background:#fef3c7;color:#92400e;}
+    .str-card.akhir .str-isi{background:#d1fae5;color:#065f46;}
+    .str-arrow{position:absolute;right:-16px;top:50%;transform:translateY(-50%);font-size:1.2rem;color:var(--ink-lt,#6b7280);z-index:2;}
+
+    /* BACAAN */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#047857;}
+    .bacaan-header .b-icon{font-size:1.3rem;}.bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+
+    /* BAGIAN HIGHLIGHT */
+    .bag-awal{background:#dbeafe;color:#1e40af;padding:.1rem .35rem;border-radius:4px;font-weight:700;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;}
+    .bag-tengah{background:#fef3c7;color:#92400e;padding:.1rem .35rem;border-radius:4px;font-weight:700;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;}
+    .bag-akhir{background:#d1fae5;color:#065f46;padding:.1rem .35rem;border-radius:4px;font-weight:700;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;}
+
+    /* ANALISIS */
+    .analisis-box{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;}
+    .analisis-title{font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.6rem;}
+    .analisis-item{display:flex;gap:.7rem;align-items:flex-start;padding:.55rem 0;border-bottom:1px solid rgba(5,150,105,.15);font-size:.93rem;}
+    .analisis-item:last-child{border-bottom:none;}
+    .analisis-item .a-label{font-weight:800;color:var(--bab);white-space:nowrap;min-width:90px;flex-shrink:0;}
+    .analisis-item .a-answer{color:var(--ink,#1a1f2e);line-height:1.55;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#065f46;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .kuis-cta{background:linear-gradient(135deg,#059669,#064e3b);border-radius:18px;padding:1.5rem 1.75rem;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;text-decoration:none;margin-top:2.5rem;transition:transform .2s,box-shadow .2s;flex-wrap:wrap;}
+    .kuis-cta:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(5,150,105,.25);}
+    .kuis-left-cta{display:flex;align-items:center;gap:1rem;}
+    .kuis-icon-cta{width:54px;height:54px;background:rgba(255,255,255,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;}
+    .kuis-text-cta h3{font-family:"Lora",serif;font-size:1.1rem;font-weight:700;margin-bottom:.2rem;}
+    .kuis-text-cta p{font-size:.85rem;opacity:.85;}
+    .kuis-btn-cta{background:#fff;color:var(--bab);padding:.6rem 1.3rem;border-radius:50px;font-weight:800;font-size:.88rem;white-space:nowrap;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}.nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}.nav-btn-filled:hover{background:#047857;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+    @media(max-width:560px){.hero{padding:2.5rem 1rem 4.5rem;}.content{padding:2rem 1rem 3rem;}.str-grid{grid-template-columns:1fr;}.str-arrow{display:none;}.analisis-item{flex-direction:column;gap:.2rem;}.analisis-item .a-label{min-width:auto;}.back-nav{flex-direction:column;}.kuis-cta{flex-direction:column;align-items:flex-start;}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a><span class="sep">»</span>
+      <a href="materi.html">Bab 8</a><span class="sep">»</span>
+      <span>Kompetensi D</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#tiga-bagian" class="jpill">🧱 3 Bagian</a>
+      <a href="#bacaan1" class="jpill">📖 Cerita 1</a>
+      <a href="#bacaan2" class="jpill">📖 Cerita 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 8 · Kompetensi D</span>
+      <h1>Memahami <em>Struktur Cerita</em>: Awal–Tengah–Akhir</h1>
+      <p class="hero-desc">Setiap cerita memiliki tiga bagian: awal, tengah, dan akhir. Pelajari apa yang terjadi di setiap bagian dan bagaimana mereka saling terhubung!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/></svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Pernah menonton film yang endingnya menggantung dan membuat kamu kesal? Atau membaca cerita yang langsung dimulai dari masalah tanpa perkenalan tokoh? Itu terjadi karena <strong>struktur ceritanya</strong> kurang lengkap.</p>
+      <p>Di halaman ini, kamu akan belajar mengenali <strong>tiga bagian utama</strong> sebuah cerita: awal, tengah, dan akhir — dan memahami peran penting masing-masing bagian.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Struktur Cerita?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;"><strong>Struktur cerita</strong> adalah susunan atau kerangka yang membentuk sebuah cerita dari awal sampai selesai. Struktur yang paling dasar terdiri dari <strong>tiga bagian</strong>: awal, tengah, dan akhir.</p>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Bayangkan cerita seperti sebuah <strong>perjalanan</strong>: kamu mulai dari rumah (awal), mengalami petualangan di jalan (tengah), lalu sampai di tujuan (akhir). Tanpa salah satu bagian, perjalanan itu tidak akan lengkap.</p>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="tiga-bagian">
+      <div class="section-label">Konsep Utama</div>
+      <h2 class="section-title">3 Bagian Utama Cerita</h2>
+    </div>
+
+    <div class="str-grid">
+      <div class="str-card awal">
+        <div class="str-icon">🌅</div>
+        <div class="str-title">Awal (Orientasi)</div>
+        <div class="str-desc">Perkenalan tokoh, latar tempat dan waktu, serta suasana cerita.</div>
+        <div class="str-isi">Menjawab: <strong>Siapa? Di mana? Kapan?</strong></div>
+        <span class="str-arrow">→</span>
+      </div>
+      <div class="str-card tengah">
+        <div class="str-icon">⚡</div>
+        <div class="str-title">Tengah (Komplikasi)</div>
+        <div class="str-desc">Masalah muncul, konflik terjadi, ketegangan meningkat.</div>
+        <div class="str-isi">Menjawab: <strong>Apa masalahnya? Bagaimana tokoh menghadapinya?</strong></div>
+        <span class="str-arrow">→</span>
+      </div>
+      <div class="str-card akhir">
+        <div class="str-icon">🌈</div>
+        <div class="str-title">Akhir (Resolusi)</div>
+        <div class="str-desc">Masalah terselesaikan, pelajaran didapat, cerita ditutup.</div>
+        <div class="str-isi">Menjawab: <strong>Bagaimana akhirnya? Apa pesan ceritanya?</strong></div>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">💡</div>
+      <div class="ft">
+        <strong>Analogi sederhana</strong>
+        Pikirkan struktur cerita seperti <strong>roti lapis (sandwich)</strong>: roti atas = awal (perkenalan), isi = tengah (masalah dan kejadian seru), roti bawah = akhir (penyelesaian). Tanpa isi, roti lapis hambar. Tanpa roti, isinya berantakan!
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Cerita 1</div>
+      <h2 class="section-title">Bacaan: Lomba Lari Dimas</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Bacalah cerita berikut. Setiap bagian ditandai dengan warna berbeda: <span class="bag-awal">Awal</span> <span class="bag-tengah">Tengah</span> <span class="bag-akhir">Akhir</span></p>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🏃</span>
+        <div>
+          <h3>Cerita 1 — Lomba Lari 1.000 Meter</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Dimas dan Lomba Lari</p>
+
+        <p><span class="bag-awal">AWAL</span> Dimas adalah siswa kelas 4 yang sangat menyukai olahraga lari. Setiap pagi, ia berlatih lari mengelilingi kompleks perumahan di Dayeuhkolot bersama ayahnya. Suatu hari, sekolah mengumumkan akan mengadakan lomba lari 1.000 meter dalam rangka Hari Kesehatan Nasional. Dimas langsung mendaftarkan diri.</p>
+
+        <p><span class="bag-tengah">TENGAH</span> Seminggu sebelum lomba, Dimas berlatih lebih keras dari biasanya. Namun, tiga hari sebelum hari H, kakinya terasa nyeri setelah latihan yang terlalu berat. Dokter menyarankan Dimas untuk istirahat dua hari dan tidak berlari. Dimas sangat cemas — ia takut kakinya belum pulih saat lomba tiba.</p>
+
+        <p>Hari lomba pun datang. Kaki Dimas sudah membaik, tapi belum sepenuhnya pulih. Saat peluit berbunyi, Dimas berlari dengan hati-hati. Di pertengahan lomba, ia tertinggal oleh tiga peserta lain. Dimas merasa ingin menyerah, tapi teriakan ayahnya dari pinggir lapangan memberi semangat. "Pelan-pelan saja, Dimas! Yang penting sampai garis akhir!"</p>
+
+        <p><span class="bag-akhir">AKHIR</span> Dimas menguatkan tekadnya dan terus berlari. Ia tidak menang — ia finis di posisi keempat. Tapi saat melewati garis akhir, ayahnya memeluk Dimas erat. "Kamu sudah luar biasa, Nak. Kamu tidak menyerah meski kakimu sakit." Dimas tersenyum. Ia belajar bahwa kemenangan bukan hanya tentang jadi yang pertama, tapi tentang <strong>pantang menyerah</strong>.</p>
+
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Analisis Struktur Cerita 1</div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="bag-awal">Awal</span></span>
+        <span class="a-answer"><strong>Tokoh:</strong> Dimas, siswa kelas 4 yang suka lari. <strong>Latar:</strong> Dayeuhkolot. <strong>Situasi awal:</strong> Dimas mendaftar lomba lari 1.000 meter.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="bag-tengah">Tengah</span></span>
+        <span class="a-answer"><strong>Masalah:</strong> Kaki Dimas nyeri setelah latihan berlebihan. Dokter menyuruh istirahat. <strong>Konflik:</strong> Saat lomba, ia tertinggal dan hampir menyerah. <strong>Pemicu semangat:</strong> Teriakan ayah.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="bag-akhir">Akhir</span></span>
+        <span class="a-answer"><strong>Penyelesaian:</strong> Dimas tidak menang (posisi 4), tapi berhasil menyelesaikan lomba. <strong>Pesan:</strong> Kemenangan bukan tentang jadi pertama, tapi tentang pantang menyerah.</span>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Cerita 2</div>
+      <h2 class="section-title">Bacaan: Bekal Sehat Lina</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🥗</span>
+        <div>
+          <h3>Cerita 2 — Bekal Sehat untuk Lina</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Cerita Pendek</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#047857;">Lina dan Kotak Bekalnya</p>
+
+        <p><span class="bag-awal">AWAL</span> Lina tinggal bersama ibu dan adiknya di sebuah rumah kecil di Lembang. Ibunya bekerja sebagai penjual sayur di pasar, sehingga setiap hari Lina selalu mendapat bekal sayur segar dari kebun. Tapi Lina malu membawa bekal sayur ke sekolah — ia melihat teman-temannya membawa roti, sosis, dan makanan kemasan yang terlihat lebih "keren".</p>
+
+        <p><span class="bag-tengah">TENGAH</span> Suatu hari, kelas Lina kedatangan dokter gizi dari puskesmas. Dokter itu menjelaskan tentang pentingnya makan sayur dan buah untuk tumbuh kembang anak. Lalu dokter itu bertanya, "Siapa yang membawa bekal sayur hari ini?" Lina ragu-ragu mengangkat tangan.</p>
+
+        <p>Dokter itu tersenyum dan meminta Lina membuka bekalnya di depan kelas. Di dalamnya ada nasi merah, tumis kangkung, tempe goreng, dan potongan pepaya. "Ini adalah contoh bekal yang sempurna!" puji dokter itu. "Karbohidrat dari nasi merah, protein dari tempe, vitamin dari kangkung dan pepaya. Lina, bekalmu adalah yang paling sehat di kelas ini."</p>
+
+        <p><span class="bag-akhir">AKHIR</span> Wajah Lina yang tadinya malu kini berseri-seri. Teman-temannya bertepuk tangan. Bahkan beberapa temannya bertanya, "Lina, besok boleh minta resep ibumu?" Sejak hari itu, Lina tidak pernah lagi malu membawa bekal sayur. Ia justru bangga karena bekalnya paling sehat dan bergizi.</p>
+
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="analisis-box">
+      <div class="analisis-title">🔍 Analisis Struktur Cerita 2</div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="bag-awal">Awal</span></span>
+        <span class="a-answer"><strong>Tokoh:</strong> Lina, siswi yang tinggal di Lembang. <strong>Latar:</strong> rumah dan sekolah. <strong>Situasi awal:</strong> Lina malu membawa bekal sayur karena merasa "tidak keren" dibanding teman-temannya.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="bag-tengah">Tengah</span></span>
+        <span class="a-answer"><strong>Kejadian penting:</strong> Dokter gizi datang ke sekolah. <strong>Konflik batin:</strong> Lina ragu mengangkat tangan saat ditanya. <strong>Titik balik:</strong> Dokter memuji bekal Lina sebagai yang paling sehat di kelas.</span>
+      </div>
+      <div class="analisis-item">
+        <span class="a-label"><span class="bag-akhir">Akhir</span></span>
+        <span class="a-answer"><strong>Penyelesaian:</strong> Lina menjadi bangga, teman-teman bertepuk tangan dan ingin meniru. <strong>Pesan:</strong> Makanan sehat itu bukan sesuatu yang perlu dimalu-malukan — justru patut dibanggakan.</span>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎓</div>
+      <div class="ft">
+        <strong>Perbedaan akhir cerita 1 dan cerita 2</strong>
+        Cerita 1 memiliki akhir yang <strong>tidak sempurna</strong> (Dimas tidak menang) tapi tetap bermakna. Cerita 2 memiliki akhir yang <strong>bahagia</strong> (Lina menjadi bangga). Keduanya sah — yang penting, akhir cerita harus <em>menyelesaikan masalah</em> dan <em>memberi pesan</em>.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi D</h3>
+      <ul class="rl">
+        <li><span class="ri">🧱</span><span><strong>Struktur cerita</strong> terdiri dari tiga bagian: <strong>awal</strong> (orientasi), <strong>tengah</strong> (komplikasi), dan <strong>akhir</strong> (resolusi).</span></li>
+        <li><span class="ri">🌅</span><span><strong>Awal</strong> memperkenalkan tokoh, latar, dan situasi awal — menjawab siapa, di mana, kapan.</span></li>
+        <li><span class="ri">⚡</span><span><strong>Tengah</strong> berisi masalah, konflik, dan ketegangan — bagian paling seru dan paling panjang.</span></li>
+        <li><span class="ri">🌈</span><span><strong>Akhir</strong> menyelesaikan masalah dan menyampaikan pesan cerita — bisa bahagia atau tidak sempurna, tapi harus bermakna.</span></li>
+        <li><span class="ri">📖</span><span>Setiap bagian punya peran penting — tanpa salah satu, cerita terasa <strong>tidak lengkap</strong>.</span></li>
+      </ul>
+    </div>
+
+    <!-- KUIS CTA -->
+    <a href="kuis.html" class="kuis-cta">
+      <div class="kuis-left-cta"><div class="kuis-icon-cta">🎉</div><div class="kuis-text-cta"><h3>Bab 8 Sudah Lengkap! Uji Seluruh Pemahamanmu</h3><p>Kamu sudah menyelesaikan 4 kompetensi Bab 8. Saatnya mengerjakan kuis!</p></div></div>
+      <div class="kuis-btn-cta">Mulai Kuis Bab 8 →</div>
+    </a>
+
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- LATIHAN 1: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">1</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Bagian <strong>awal</strong> cerita biasanya berisi...</p>
+        <div class="latihan-opts" data-correct="1">
+          <label class="opt"><input type="radio" name="l1"><span>Penyelesaian masalah dan pesan cerita</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Perkenalan tokoh, latar tempat, dan situasi awal</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Masalah yang dihadapi tokoh</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Konflik dan ketegangan cerita</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>B</strong>. Bagian awal (orientasi) memperkenalkan tokoh, latar, dan situasi awal cerita. Masalah dan konflik muncul di bagian tengah, sedangkan penyelesaian di bagian akhir.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 2: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">2</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Berdasarkan <strong>Cerita 1 (Lomba Lari Dimas)</strong>, apa yang terjadi di bagian <strong>tengah</strong> cerita?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l2"><span>Dimas mendaftarkan diri untuk lomba lari</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Ayah Dimas memeluk Dimas di garis akhir</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Kaki Dimas cedera, ia hampir menyerah, tapi ayahnya memberi semangat</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Dimas berlatih lari setiap pagi bersama ayahnya</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Bagian tengah berisi masalah dan konflik: kaki Dimas cedera, ia tertinggal dan hampir menyerah, tapi teriakan ayah memberi semangat. Pilihan A dan D termasuk bagian awal, pilihan B termasuk bagian akhir.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 3: PGK -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">3</span><span class="latihan-tipe">Pilihan Ganda Kompleks</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Apa saja yang biasanya ada di bagian <strong>akhir</strong> cerita?</p>
+        <div class="latihan-opts" data-correct="1,2,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>Perkenalan tokoh utama dan latar cerita</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Penyelesaian masalah yang dihadapi tokoh</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Pesan atau pelajaran yang bisa diambil dari cerita</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Perasaan tokoh setelah masalah selesai</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>B, C, dan D</strong>. Bagian akhir berisi penyelesaian masalah, pesan cerita, dan perasaan tokoh setelahnya. Pilihan A (perkenalan tokoh) adalah bagian <em>awal</em>, bukan akhir.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 4: MENJODOHKAN -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">4</span><span class="latihan-tipe">Menjodohkan</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kutipan</strong> dari Cerita 2 (Bekal Sehat Lina) dengan <strong>bagian cerita</strong>-nya:</p>
+        <div class="latihan-menjodohkan" data-correct="A,B,C,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan Bagian</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Awal</span>
+              <span class="opt-item"><strong>B.</strong> Tengah</span>
+              <span class="opt-item"><strong>C.</strong> Akhir</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">Lina malu membawa bekal sayur karena merasa tidak keren.</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">Dokter gizi datang ke kelas dan meminta Lina membuka bekalnya.</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">Teman-teman bertepuk tangan dan ingin meniru bekal Lina.</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">Lina ragu-ragu mengangkat tangan saat ditanya oleh dokter.</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Pasangan yang benar: <strong>1 → A</strong> (situasi awal — perkenalan masalah Lina), <strong>2 → B</strong> (kejadian penting di tengah cerita), <strong>3 → C</strong> (akhir — penyelesaian), <strong>4 → B</strong> (konflik batin Lina di tengah cerita).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 5: KATEGORI -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">5</span><span class="latihan-tipe">Kategori: Awal / Tengah / Akhir</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah kutipan berikut termasuk bagian <strong>AWAL</strong>, <strong>TENGAH</strong>, atau <strong>AKHIR</strong> cerita:</p>
+        <div class="latihan-kategori" data-correct="0,1,2,0">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Rani tinggal di desa Ciwidey bersama neneknya. Setiap pagi ia membantu nenek di kebun teh."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌅 Awal</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">⚡ Tengah</button>
+              <button class="kat-btn" data-val="2" onclick="pilihKategori(this)">🌈 Akhir</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Tiba-tiba hujan deras mengguyur kebun. Rani dan nenek berlari mencari tempat berteduh, tapi jalanan licin dan nenek hampir terjatuh."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌅 Awal</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">⚡ Tengah</button>
+              <button class="kat-btn" data-val="2" onclick="pilihKategori(this)">🌈 Akhir</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Rani berhasil menolong nenek sampai ke rumah dengan selamat. Malam itu, nenek memeluk Rani erat-erat dan berkata, 'Kamu anak yang pemberani.'"</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌅 Awal</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">⚡ Tengah</button>
+              <button class="kat-btn" data-val="2" onclick="pilihKategori(this)">🌈 Akhir</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Pak Budi adalah guru olahraga yang tegas tapi baik hati. Ia mengajar di SD Harapan Bangsa selama sepuluh tahun."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">🌅 Awal</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">⚡ Tengah</button>
+              <button class="kat-btn" data-val="2" onclick="pilihKategori(this)">🌈 Akhir</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban benar: <strong>1. Awal</strong> (perkenalan tokoh dan latar). <strong>2. Tengah</strong> (masalah muncul: hujan deras, nenek hampir jatuh). <strong>3. Akhir</strong> (masalah selesai, Rani menolong nenek, ada pesan). <strong>4. Awal</strong> (perkenalan tokoh baru — Pak Budi).</p></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="fakta-opini.html" class="nav-btn nav-btn-outline">← Kompetensi C</a>
+      <a href="materi.html" class="nav-btn nav-btn-filled">Kembali ke Bab 8 →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer"><p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 8 Kompetensi D &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p></footer>
+  <script src="../../../assets/js/latihan.js"></script>
+</body>
+</html>
