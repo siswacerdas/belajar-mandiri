@@ -1,1 +1,458 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bab 2 — Indonesiaku Kaya Budaya | IPAS Kelas 4 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    /* ── Override aksen Bab 2: Terracotta ── */
+    :root {
+      --bab-primary:   #b85c1d;
+      --bab-primary-dk:#8f4415;
+      --bab-light:     #fdf3ec;
+      --bab-accent:    #e8864a;
+    }
 
+    /* ── Header Bab ── */
+    .bab-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 60%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 3rem 2rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .bab-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 80% 20%, rgba(255,255,255,.10) 0%, transparent 50%),
+        radial-gradient(circle at 10% 80%, rgba(0,0,0,.08) 0%, transparent 40%);
+      pointer-events: none;
+    }
+    .bab-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif;
+      font-size: .82rem;
+      color: rgba(255,255,255,.75);
+      margin-bottom: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      align-items: center;
+    }
+    .bab-hero .breadcrumb a {
+      color: rgba(255,255,255,.80);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .bab-hero .breadcrumb a:hover { color: #fff; }
+    .bab-hero .breadcrumb span { opacity: .55; }
+
+    .bab-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.70);
+      margin-bottom: .6rem;
+    }
+    .bab-hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+      color: #fff;
+    }
+    .bab-hero .tagline {
+      font-family: 'Nunito', sans-serif;
+      font-size: 1rem;
+      color: rgba(255,255,255,.85);
+      max-width: 580px;
+      line-height: 1.6;
+    }
+    .bab-icon {
+      position: absolute;
+      right: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 5rem;
+      opacity: .18;
+      pointer-events: none;
+    }
+
+    /* ── Deskripsi Singkat Bab ── */
+    .bab-intro {
+      background: var(--bab-light);
+      border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0;
+      padding: 1.2rem 1.5rem;
+      margin: 2rem 0;
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.7;
+    }
+    .bab-intro strong { color: var(--bab-primary-dk); }
+
+    /* ── Tujuan Pembelajaran ── */
+    .tujuan-box {
+      border: 1.5px solid var(--bab-accent);
+      border-radius: .85rem;
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 2.5rem;
+      background: #fff;
+    }
+    .tujuan-box h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .9rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .tujuan-box ul {
+      margin: 0;
+      padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .93rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.75;
+    }
+    .tujuan-box ul li + li { margin-top: .3rem; }
+
+    /* ── Kartu Sub-materi ── */
+    .submateri-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0 3rem;
+    }
+    .submateri-card {
+      background: #fff;
+      border-radius: 1rem;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .submateri-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(184,92,29,.13);
+    }
+    .card-top {
+      padding: 1.5rem 1.5rem 1rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .card-icon {
+      width: 3rem;
+      height: 3rem;
+      border-radius: .65rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .card-icon.a { background: #fde8d8; }
+    .card-icon.b { background: #d8f0e8; }
+    .card-icon.c { background: #dde8f8; }
+
+    .card-meta {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--bab-primary);
+      margin-bottom: .3rem;
+    }
+    .submateri-card h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--ink, #1a1f2e);
+      margin: 0;
+      line-height: 1.3;
+    }
+    .card-body {
+      padding: 0 1.5rem 1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: #555;
+      line-height: 1.65;
+      flex: 1;
+    }
+    .card-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      padding: 0 1.5rem .8rem;
+    }
+    .topic-tag {
+      font-family: 'Nunito', sans-serif;
+      font-size: .73rem;
+      font-weight: 600;
+      background: var(--bab-light);
+      color: var(--bab-primary-dk);
+      padding: .2rem .6rem;
+      border-radius: 2rem;
+    }
+    .card-footer {
+      padding: 1rem 1.5rem;
+      border-top: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .btn-materi {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--bab-primary);
+      text-decoration: none;
+      transition: gap .2s, color .2s;
+    }
+    .btn-materi:hover { gap: .75rem; color: var(--bab-primary-dk); }
+    .btn-materi .arrow { font-size: 1rem; }
+
+    /* Status badge */
+    .status-badge {
+      display: inline-block;
+      font-family: 'Nunito', sans-serif;
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .15rem .55rem;
+      border-radius: 2rem;
+      margin-left: .5rem;
+      vertical-align: middle;
+    }
+    .status-badge.ready { background: #d4edda; color: #155724; }
+    .status-badge.soon  { background: #e2e3e5; color: #555; }
+
+    /* ── Peta Konsep ringkas ── */
+    .peta-konsep {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.6rem;
+      margin-bottom: 2.5rem;
+    }
+    .peta-konsep h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 1.1rem;
+    }
+    .konsep-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+    }
+    .konsep-item {
+      display: flex;
+      align-items: center;
+      gap: .45rem;
+      background: var(--bab-light);
+      border-radius: .5rem;
+      padding: .4rem .8rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .85rem;
+      color: var(--bab-primary-dk);
+      font-weight: 600;
+    }
+    .konsep-item span { font-size: 1rem; }
+
+    /* ── Section title ── */
+    .section-title {
+      font-family: 'Lora', serif;
+      font-size: 1.25rem;
+      color: var(--ink, #1a1f2e);
+      margin: 2.5rem 0 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--bab-primary);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="bab-hero">
+    <div class="bab-icon">🎭</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a>
+        <span>›</span>
+        <a href="../../index.html">Kelas 4</a>
+        <span>›</span>
+        <a href="../index.html">IPAS</a>
+        <span>›</span>
+        <span>Bab 2</span>
+      </nav>
+      <p class="bab-label">IPAS Kelas 4 · Bab 2</p>
+      <h1>Indonesiaku Kaya Budaya</h1>
+      <p class="tagline">
+        Indonesia adalah negara yang luar biasa — ribuan pulau, ratusan suku bangsa, dan
+        kekayaan budaya yang tak tertandingi di dunia. Mari kita kenali dan banggakan!
+      </p>
+    </div>
+  </header>
+
+  <!-- ══ KONTEN UTAMA ══ -->
+  <main class="content-wrap" style="padding-top: 2rem; padding-bottom: 4rem;">
+
+    <!-- Intro -->
+    <p class="bab-intro">
+      Pernahkah kamu bertanya, mengapa di Indonesia ada begitu banyak jenis rumah, pakaian, tarian,
+      dan bahasa yang berbeda-beda? Jawabannya ada di bab ini.
+      <strong>Keberagaman budaya Indonesia</strong> bukan sekadar warisan — ini adalah kekuatan yang
+      menyatukan kita sebagai bangsa.
+    </p>
+
+    <!-- Tujuan Pembelajaran -->
+    <div class="tujuan-box">
+      <h3>🎯 Tujuan Pembelajaran</h3>
+      <ul>
+        <li>Memahami pengertian budaya dan unsur-unsur yang membentuknya</li>
+        <li>Mengenal keberagaman budaya daerah di Indonesia, khususnya budaya Sunda</li>
+        <li>Memahami hubungan antara kondisi alam dengan kebudayaan suatu daerah</li>
+        <li>Menyadari pentingnya menjaga dan melestarikan budaya sebagai identitas bangsa</li>
+      </ul>
+    </div>
+
+    <!-- Konsep Kunci -->
+    <h2 class="section-title">Konsep Kunci Bab Ini</h2>
+    <div class="peta-konsep">
+      <h3>Yang akan kamu pelajari di Bab 2:</h3>
+      <div class="konsep-grid">
+        <div class="konsep-item"><span>🏘️</span> Rumah Adat</div>
+        <div class="konsep-item"><span>👘</span> Pakaian Adat</div>
+        <div class="konsep-item"><span>💃</span> Tarian Daerah</div>
+        <div class="konsep-item"><span>🎵</span> Alat Musik Tradisional</div>
+        <div class="konsep-item"><span>🍲</span> Makanan Khas Daerah</div>
+        <div class="konsep-item"><span>🗣️</span> Bahasa Daerah</div>
+        <div class="konsep-item"><span>🌿</span> Budaya & Alam</div>
+        <div class="konsep-item"><span>🛡️</span> Pelestarian Budaya</div>
+      </div>
+    </div>
+
+    <!-- Sub-materi cards -->
+    <h2 class="section-title">Materi Pembelajaran</h2>
+    <div class="submateri-grid">
+
+      <!-- Sub-A -->
+      <div class="submateri-card">
+        <div class="card-top">
+          <div class="card-icon a">🎨</div>
+          <div>
+            <p class="card-meta">Sub-materi A</p>
+            <h2>Keragaman Budaya Indonesia <span class="status-badge ready">Tersedia</span></h2>
+          </div>
+        </div>
+        <div class="card-body">
+          Mengenal apa itu budaya, mengapa Indonesia begitu kaya budaya, serta berbagai
+          wujud budaya daerah — dari rumah adat, pakaian, tarian, hingga makanan khas.
+          Ada juga spotlight khusus budaya Sunda!
+        </div>
+        <div class="card-topics">
+          <span class="topic-tag">Pengertian Budaya</span>
+          <span class="topic-tag">Rumah Adat</span>
+          <span class="topic-tag">Pakaian Adat</span>
+          <span class="topic-tag">Tarian Daerah</span>
+          <span class="topic-tag">Alat Musik</span>
+          <span class="topic-tag">Makanan Khas</span>
+          <span class="topic-tag">Budaya Sunda</span>
+        </div>
+        <div class="card-footer">
+          <a href="keragaman-budaya.html" class="btn-materi">
+            Mulai Belajar <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sub-B -->
+      <div class="submateri-card">
+        <div class="card-top">
+          <div class="card-icon b">🌏</div>
+          <div>
+            <p class="card-meta">Sub-materi B</p>
+            <h2>Budaya dan Lingkungan Alam <span class="status-badge soon">Segera</span></h2>
+          </div>
+        </div>
+        <div class="card-body">
+          Mengapa orang Sunda punya budaya yang berbeda dengan orang Batak atau Papua?
+          Pelajari hubungan erat antara kondisi alam — iklim, pegunungan, laut —
+          dengan cara hidup dan kebudayaan suatu masyarakat.
+        </div>
+        <div class="card-topics">
+          <span class="topic-tag">Alam & Budaya</span>
+          <span class="topic-tag">Adaptasi Masyarakat</span>
+          <span class="topic-tag">Faktor Sejarah</span>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn-materi" style="opacity:.5; pointer-events:none; cursor:default;">
+            Segera Hadir <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sub-C -->
+      <div class="submateri-card">
+        <div class="card-top">
+          <div class="card-icon c">🛡️</div>
+          <div>
+            <p class="card-meta">Sub-materi C</p>
+            <h2>Melestarikan Budaya Bangsa <span class="status-badge soon">Segera</span></h2>
+          </div>
+        </div>
+        <div class="card-body">
+          Budaya kita berharga, tapi bisa hilang jika tidak dijaga. Pelajari mengapa
+          pelestarian budaya itu penting, tantangan yang dihadapi, dan apa yang bisa
+          kita lakukan sebagai siswa SD untuk menjaga warisan leluhur.
+        </div>
+        <div class="card-topics">
+          <span class="topic-tag">Pelestarian Budaya</span>
+          <span class="topic-tag">Peran Siswa</span>
+          <span class="topic-tag">Warisan Budaya UNESCO</span>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn-materi" style="opacity:.5; pointer-events:none; cursor:default;">
+            Segera Hadir <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /submateri-grid -->
+
+    <!-- Navigasi bawah -->
+    <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1rem;">
+      <a href="../index.html"
+         style="display:inline-flex; align-items:center; gap:.4rem; font-family:'Nunito',sans-serif;
+                font-size:.88rem; font-weight:600; color:var(--bab-primary);
+                text-decoration:none; border:1.5px solid var(--bab-primary);
+                padding:.5rem 1rem; border-radius:.5rem; transition:background .2s, color .2s;">
+        ← Kembali ke IPAS
+      </a>
+    </div>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 2 — Indonesiaku Kaya Budaya
+  </footer>
+
+</body>
+</html>
