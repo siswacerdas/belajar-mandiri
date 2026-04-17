@@ -1,1 +1,474 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fakta vs Opini — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../../assets/css/style.css"/>
+  <style>
+    :root{--bab:#059669;--bab-mid:#10b981;--bab-lt:#d1fae5;--bab-pal:#ecfdf5;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Nunito",sans-serif;background:var(--sand,#f7f3eb);color:var(--ink,#1a1f2e);line-height:1.7;}
+    .navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+    .navbar-brand{font-family:"Lora",serif;font-weight:700;font-size:1.05rem;color:var(--bab);text-decoration:none;}.navbar-brand span{color:var(--ink,#1a1f2e);}
+    .breadcrumb{font-size:.78rem;color:var(--ink-lt,#6b7280);display:flex;align-items:center;gap:.35rem;}
+    .breadcrumb a{color:var(--bab);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}.breadcrumb .sep{opacity:.4;}
+    .jump-nav{position:sticky;top:56px;z-index:90;background:#fff;border-bottom:1px solid var(--bab-lt);padding:0 1.5rem;overflow-x:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    .jump-nav::-webkit-scrollbar{display:none;}
+    .jump-inner{display:inline-flex;gap:.3rem;padding:.5rem 0;}
+    .jpill{display:inline-flex;align-items:center;gap:.3rem;padding:.28rem .8rem;border-radius:50px;font-size:.75rem;font-weight:700;text-decoration:none;color:var(--ink-lt,#6b7280);border:1.5px solid var(--sand-dk,#ede8dc);background:#fff;transition:all .18s;flex-shrink:0;}
+    .jpill:hover{background:var(--bab-pal);color:var(--bab);border-color:var(--bab-lt);}
+    .hero{background:linear-gradient(135deg,#059669,#064e3b);color:#fff;padding:3.5rem 1.5rem 5rem;position:relative;overflow:hidden;}
+    .hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");}
+    .hero-inner{max-width:760px;margin:0 auto;position:relative;}
+    .hero-label{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.3rem .9rem;margin-bottom:1rem;}
+    .hero h1{font-family:"Lora",serif;font-size:clamp(1.8rem,5vw,2.8rem);font-style:italic;line-height:1.25;margin-bottom:.75rem;}
+    .hero h1 em{font-style:normal;color:#6ee7b7;}
+    .hero-desc{font-size:1.05rem;opacity:.88;max-width:580px;}
+    .hero-wave{position:absolute;bottom:-1px;left:0;width:100%;}
+    .content{max-width:760px;margin:0 auto;padding:2.5rem 1.5rem 4rem;}
+    .section-label{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+    .section-title{font-family:"Lora",serif;font-size:1.5rem;font-weight:700;color:var(--ink,#1a1f2e);margin-bottom:1rem;line-height:1.3;}
+    .divider{border:none;border-top:2px solid var(--sand-dk,#ede8dc);margin:2.5rem 0;}
+    .intro-box{background:#fff;border-radius:16px;padding:1.75rem 2rem;border-left:5px solid var(--bab);box-shadow:0 2px 12px rgba(5,150,105,.08);margin-bottom:2.5rem;font-size:1.02rem;}
+    .intro-box p+p{margin-top:.75rem;}
 
+    /* PERBANDINGAN GRID */
+    .vs-grid{display:grid;grid-template-columns:1fr 50px 1fr;gap:0;align-items:stretch;margin:1.25rem 0;}
+    .vs-card{background:#fff;border-radius:14px;padding:1.2rem 1.25rem;box-shadow:0 2px 10px rgba(0,0,0,.05);}
+    .vs-card.fakta{border-top:4px solid #0ea5e9;}
+    .vs-card.opini{border-top:4px solid #f59e0b;}
+    .vs-icon{font-size:2rem;margin-bottom:.3rem;}
+    .vs-title{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;margin-bottom:.35rem;}
+    .vs-card.fakta .vs-title{color:#0369a1;}
+    .vs-card.opini .vs-title{color:#b45309;}
+    .vs-desc{font-size:.88rem;color:var(--ink-mid,#3d4460);line-height:1.55;margin-bottom:.5rem;}
+    .vs-ciri{font-size:.82rem;padding:.35rem .6rem;border-radius:8px;line-height:1.5;}
+    .vs-card.fakta .vs-ciri{background:#dbeafe;color:#1e40af;}
+    .vs-card.opini .vs-ciri{background:#fef3c7;color:#92400e;}
+    .vs-sep{display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:800;color:var(--bab);}
+
+    /* CONTOH KALIMAT */
+    .contoh-wrap{margin:1rem 0 1.5rem;}
+    .contoh-pair{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:.6rem;}
+    .contoh-item{padding:.7rem 1rem;border-radius:10px;font-size:.9rem;line-height:1.55;}
+    .contoh-item.fakta{background:#dbeafe;border-left:4px solid #0ea5e9;}
+    .contoh-item.opini{background:#fef3c7;border-left:4px solid #f59e0b;}
+    .contoh-label{display:block;font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.25rem;}
+    .contoh-item.fakta .contoh-label{color:#0369a1;}
+    .contoh-item.opini .contoh-label{color:#b45309;}
+    .contoh-kalimat{font-style:italic;}
+
+    /* BACAAN */
+    .bacaan-box{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,.06);margin:1.5rem 0;}
+    .bacaan-header{padding:.9rem 1.4rem;display:flex;align-items:center;gap:.9rem;background:var(--bab);color:#fff;}
+    .bacaan-header.v2{background:#047857;}
+    .bacaan-header .b-icon{font-size:1.3rem;}.bacaan-header h3{font-family:"Lora",serif;font-size:1.05rem;font-weight:700;}
+    .bacaan-header .b-meta{font-size:.78rem;opacity:.82;margin-top:.15rem;}
+    .bacaan-body{padding:1.35rem 1.5rem;}
+    .bacaan-body p{font-size:.97rem;margin-bottom:.7rem;text-indent:1.5rem;}
+    .bacaan-body p:last-child{margin-bottom:0;}
+    .bacaan-body .judul-bacaan{text-indent:0;font-family:"Lora",serif;font-weight:700;font-size:1.08rem;text-align:center;margin-bottom:1rem;color:var(--bab);}
+    .bacaan-body .sumber{text-indent:0;font-size:.78rem;color:var(--ink-lt,#6b7280);font-style:italic;margin-top:1rem;text-align:right;}
+    .f-hl{background:#dbeafe;color:#1e40af;padding:.1rem .35rem;border-radius:4px;font-weight:700;}
+    .o-hl{background:#fef3c7;color:#92400e;padding:.1rem .35rem;border-radius:4px;font-weight:700;}
+
+    /* ANALISIS TABLE */
+    .tbl-wrap{overflow-x:auto;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.07);margin:1rem 0 1.5rem;}
+    .tbl-fo{width:100%;border-collapse:collapse;font-size:.88rem;background:#fff;min-width:460px;}
+    .tbl-fo th{background:var(--bab);color:#fff;padding:.7rem 1rem;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-align:left;}
+    .tbl-fo td{padding:.65rem 1rem;border-top:1px solid var(--sand-dk,#ede8dc);line-height:1.55;vertical-align:top;}
+    .tbl-fo tr:nth-child(even) td{background:var(--bab-pal);}
+    .badge-f{display:inline-block;background:#dbeafe;color:#1e40af;font-size:.72rem;font-weight:800;padding:.1rem .5rem;border-radius:50px;}
+    .badge-o{display:inline-block;background:#fef3c7;color:#92400e;font-size:.72rem;font-weight:800;padding:.1rem .5rem;border-radius:50px;}
+
+    .hl{background:#fef3c7;padding:.1rem .4rem;border-radius:4px;font-weight:700;}
+    .fs{background:var(--bab-pal);border:2px dashed var(--bab-lt);border-radius:12px;padding:1rem 1.2rem;margin:.85rem 0;display:flex;gap:.75rem;align-items:flex-start;}
+    .fs .fi{font-size:1.4rem;flex-shrink:0;margin-top:.05rem;}
+    .fs .ft{font-size:.91rem;color:#065f46;}
+    .fs .ft strong:first-child{display:block;margin-bottom:.3rem;font-size:.94rem;color:var(--bab);font-weight:800;}
+
+    .ringkasan{background:#fff;border-radius:16px;padding:1.75rem 2rem;box-shadow:0 2px 12px rgba(0,0,0,.07);border-top:4px solid var(--bab);margin-top:2.5rem;}
+    .ringkasan h3{font-family:"Lora",serif;font-size:1.2rem;margin-bottom:1rem;color:var(--bab);}
+    .rl{list-style:none;}
+    .rl li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem 0;border-bottom:1px solid var(--sand-dk,#ede8dc);font-size:.93rem;}
+    .rl li:last-child{border-bottom:none;}
+    .rl .ri{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+    .back-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:2px solid var(--sand-dk,#ede8dc);flex-wrap:wrap;}
+    .nav-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.3rem;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:all .2s;}
+    .nav-btn-outline{border:2px solid var(--bab);color:var(--bab);background:transparent;}.nav-btn-outline:hover{background:var(--bab-pal);}
+    .nav-btn-filled{background:var(--bab);color:#fff;border:2px solid var(--bab);}.nav-btn-filled:hover{background:#047857;}
+    .footer{background:var(--ink,#1a1f2e);color:rgba(255,255,255,.55);text-align:center;padding:1.5rem;font-size:.82rem;}
+    @media(max-width:560px){.hero{padding:2.5rem 1rem 4.5rem;}.content{padding:2rem 1rem 3rem;}.vs-grid{grid-template-columns:1fr;gap:.5rem;}.vs-sep{display:none;}.contoh-pair{grid-template-columns:1fr;}.back-nav{flex-direction:column;}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/css/layout.css"/>
+  <link rel="stylesheet" href="../../../assets/css/latihan.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">Belajar <span>Mandiri</span></a>
+    <div class="breadcrumb">
+      <a href="../../../kelas-4/index.html">Kelas 4</a><span class="sep">»</span>
+      <a href="../index.html">B. Indonesia</a><span class="sep">»</span>
+      <a href="materi.html">Bab 8</a><span class="sep">»</span>
+      <span>Kompetensi C</span>
+    </div>
+  </nav>
+
+  <div class="jump-nav">
+    <div class="jump-inner">
+      <a href="#pengertian" class="jpill">📌 Pengertian</a>
+      <a href="#ciri" class="jpill">🔍 Ciri-ciri</a>
+      <a href="#contoh" class="jpill">📖 Contoh Kalimat</a>
+      <a href="#bacaan1" class="jpill">📖 Bacaan 1</a>
+      <a href="#bacaan2" class="jpill">📖 Bacaan 2</a>
+      <a href="#ringkasan" class="jpill">📋 Ringkasan</a>
+      <a href="#latihan" class="jpill">🎯 Latihan</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">📝 Bab 8 · Kompetensi C</span>
+      <h1>Membedakan <em>Fakta</em> dan <em>Opini</em></h1>
+      <p class="hero-desc">Tidak semua yang kamu baca itu benar — ada yang merupakan fakta, ada yang hanya pendapat seseorang. Belajar membedakannya di sini!</p>
+    </div>
+    <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#f7f3eb" d="M0,50 C360,90 1080,10 1440,50 L1440,70 L0,70 Z"/></svg>
+  </header>
+
+  <main class="content">
+
+    <div class="intro-box">
+      <p>Saat membaca teks, kamu akan menemukan dua jenis kalimat: kalimat yang berisi <strong>fakta</strong> (kebenaran yang bisa dibuktikan) dan kalimat yang berisi <strong>opini</strong> (pendapat seseorang yang bisa diperdebatkan).</p>
+      <p>Kemampuan membedakan keduanya sangat penting agar kamu tidak mudah <strong>tertipu</strong> oleh informasi yang belum tentu benar.</p>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <div id="pengertian">
+      <div class="section-label">Penjelasan Kompetensi</div>
+      <h2 class="section-title">Apa itu Fakta dan Opini?</h2>
+    </div>
+
+    <div class="vs-grid">
+      <div class="vs-card fakta">
+        <div class="vs-icon">📊</div>
+        <div class="vs-title">Fakta</div>
+        <div class="vs-desc">Pernyataan yang <strong>bisa dibuktikan kebenarannya</strong> — dengan data, pengukuran, atau pengamatan langsung. Fakta benar untuk <em>semua orang</em>.</div>
+        <div class="vs-ciri">Ciri: berisi angka, tanggal, nama resmi, hasil pengukuran, atau kejadian yang sudah terjadi.</div>
+      </div>
+      <div class="vs-sep">vs</div>
+      <div class="vs-card opini">
+        <div class="vs-icon">💭</div>
+        <div class="vs-title">Opini</div>
+        <div class="vs-desc">Pernyataan yang merupakan <strong>pendapat, penilaian, atau perasaan</strong> seseorang. Orang lain bisa setuju atau tidak setuju.</div>
+        <div class="vs-ciri">Ciri: berisi kata "menurut saya", "sebaiknya", "paling", "terbaik", "kurang", atau kata-kata penilaian.</div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ciri">
+      <div class="section-label">Cara Membedakan</div>
+      <h2 class="section-title">Trik Cepat: Fakta atau Opini?</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:.8rem;">Gunakan pertanyaan sederhana ini: <strong>"Apakah kalimat ini bisa dibuktikan benar atau salah?"</strong></p>
+
+    <ul style="margin:0 0 1rem 1.5rem;font-size:.95rem;">
+      <li style="margin-bottom:.4rem;">Jika <strong>ya</strong> (bisa dicek, dihitung, atau diamati) → itu <span class="f-hl">FAKTA</span></li>
+      <li style="margin-bottom:.4rem;">Jika <strong>tidak</strong> (tergantung sudut pandang, bisa diperdebatkan) → itu <span class="o-hl">OPINI</span></li>
+    </ul>
+
+    <div class="fs">
+      <div class="fi">🔑</div>
+      <div class="ft">
+        <strong>Kata-kata penanda opini</strong>
+        Waspadai kata-kata berikut — biasanya menandakan opini: <em>"menurut saya", "saya rasa", "sebaiknya", "paling enak", "terbaik", "terburuk", "cantik", "jelek", "menarik", "membosankan"</em>. Kata-kata ini menunjukkan <strong>penilaian pribadi</strong>, bukan fakta.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="contoh">
+      <div class="section-label">Belajar dari Contoh</div>
+      <h2 class="section-title">Contoh Kalimat Fakta vs Opini</h2>
+    </div>
+
+    <p style="font-size:.97rem;margin-bottom:1rem;">Perhatikan pasangan kalimat berikut — temanya sama, tapi jenisnya berbeda:</p>
+
+    <div class="contoh-wrap">
+      <div style="font-size:.82rem;font-weight:700;color:var(--bab);margin-bottom:.4rem;">Tema: Olahraga</div>
+      <div class="contoh-pair">
+        <div class="contoh-item fakta"><span class="contoh-label">📊 Fakta</span><span class="contoh-kalimat">"Olahraga renang membakar sekitar 400–700 kalori per jam."</span></div>
+        <div class="contoh-item opini"><span class="contoh-label">💭 Opini</span><span class="contoh-kalimat">"Renang adalah olahraga paling menyenangkan."</span></div>
+      </div>
+
+      <div style="font-size:.82rem;font-weight:700;color:var(--bab);margin-bottom:.4rem;margin-top:.8rem;">Tema: Makanan</div>
+      <div class="contoh-pair">
+        <div class="contoh-item fakta"><span class="contoh-label">📊 Fakta</span><span class="contoh-kalimat">"Wortel mengandung vitamin A yang baik untuk kesehatan mata."</span></div>
+        <div class="contoh-item opini"><span class="contoh-label">💭 Opini</span><span class="contoh-kalimat">"Wortel rasanya kurang enak jika dimakan mentah."</span></div>
+      </div>
+
+      <div style="font-size:.82rem;font-weight:700;color:var(--bab);margin-bottom:.4rem;margin-top:.8rem;">Tema: Tidur</div>
+      <div class="contoh-pair">
+        <div class="contoh-item fakta"><span class="contoh-label">📊 Fakta</span><span class="contoh-kalimat">"Anak usia 6–12 tahun membutuhkan tidur 9–12 jam setiap malam."</span></div>
+        <div class="contoh-item opini"><span class="contoh-label">💭 Opini</span><span class="contoh-kalimat">"Menurut saya, tidur siang itu membosankan."</span></div>
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan1">
+      <div class="section-label">Bacaan 1</div>
+      <h2 class="section-title">Manfaat Bersepeda untuk Kesehatan</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header">
+        <span class="b-icon">🚴</span>
+        <div>
+          <h3>Bacaan 1 — Bersepeda Sehat dan Menyenangkan</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan">Bersepeda, Olahraga Ramah Lingkungan</p>
+        <p><span class="f-hl">Bersepeda secara rutin dapat meningkatkan kesehatan jantung dan paru-paru.</span> Menurut data Kementerian Kesehatan, bersepeda selama <span class="f-hl">30 menit setiap hari</span> setara dengan membakar sekitar 200 kalori. Ini menjadikan bersepeda salah satu olahraga yang efektif untuk menjaga berat badan.</p>
+        <p><span class="o-hl">Menurut saya, bersepeda adalah olahraga paling menyenangkan</span> karena bisa dilakukan sambil menikmati pemandangan. <span class="o-hl">Rasanya sangat segar dan menyegarkan pikiran.</span></p>
+        <p><span class="f-hl">Kota Bandung telah menyediakan jalur khusus sepeda sepanjang 12 kilometer</span> di beberapa ruas jalan utama. <span class="o-hl">Sebaiknya, setiap kota di Indonesia juga menyediakan jalur sepeda</span> agar lebih banyak orang mau bersepeda.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="tbl-wrap">
+      <table class="tbl-fo">
+        <thead><tr><th>Kalimat</th><th>Jenis</th><th>Alasan</th></tr></thead>
+        <tbody>
+          <tr><td>Bersepeda meningkatkan kesehatan jantung dan paru-paru</td><td><span class="badge-f">Fakta</span></td><td>Bisa dibuktikan secara medis</td></tr>
+          <tr><td>30 menit setiap hari setara dengan 200 kalori</td><td><span class="badge-f">Fakta</span></td><td>Data angka dari Kemenkes</td></tr>
+          <tr><td>Bersepeda olahraga paling menyenangkan</td><td><span class="badge-o">Opini</span></td><td>Kata "paling menyenangkan" = penilaian pribadi</td></tr>
+          <tr><td>Rasanya sangat segar</td><td><span class="badge-o">Opini</span></td><td>Perasaan pribadi, bisa berbeda antar orang</td></tr>
+          <tr><td>Bandung punya jalur sepeda 12 km</td><td><span class="badge-f">Fakta</span></td><td>Bisa dicek dan diukur</td></tr>
+          <tr><td>Sebaiknya setiap kota menyediakan jalur sepeda</td><td><span class="badge-o">Opini</span></td><td>Kata "sebaiknya" = saran/pendapat</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="bacaan2">
+      <div class="section-label">Bacaan 2</div>
+      <h2 class="section-title">Jajan Sehat di Sekolah</h2>
+    </div>
+
+    <div class="bacaan-box">
+      <div class="bacaan-header v2">
+        <span class="b-icon">🍎</span>
+        <div>
+          <h3>Bacaan 2 — Memilih Jajanan yang Sehat</h3>
+          <div class="b-meta">Tema: Aku Anak Sehat · Jenis: Teks Informasi</div>
+        </div>
+      </div>
+      <div class="bacaan-body">
+        <p class="judul-bacaan" style="color:#047857;">Jajan Sehat, Badan Kuat!</p>
+        <p><span class="f-hl">Badan Pengawas Obat dan Makanan (BPOM) menemukan bahwa 15% jajanan anak di sekolah mengandung bahan berbahaya</span> seperti pewarna tekstil dan pengawet berlebihan. Data ini diperoleh dari pengujian sampel di 30 sekolah dasar di Jawa Barat pada tahun 2024.</p>
+        <p><span class="o-hl">Menurut saya, semua jajanan di depan sekolah sebaiknya dilarang</span> karena tidak bisa dipastikan kebersihannya. <span class="o-hl">Lebih baik anak-anak membawa bekal dari rumah saja.</span></p>
+        <p><span class="f-hl">Makanan sehat untuk bekal anak seharusnya mengandung karbohidrat, protein, sayur, dan buah.</span> Contoh bekal sehat yang mudah dibuat antara lain nasi dengan telur dadar, sayur bening, dan potongan buah pepaya.</p>
+        <p class="sumber">— Teks disusun untuk Belajar Mandiri</p>
+      </div>
+    </div>
+
+    <div class="fs">
+      <div class="fi">🎓</div>
+      <div class="ft">
+        <strong>Perhatikan: fakta dan opini sering bercampur!</strong>
+        Dalam satu paragraf, penulis bisa mencampur fakta dan opini. Di Bacaan 2, paragraf pertama berisi fakta (data BPOM), tapi paragraf kedua berisi opini (saran penulis). Pembaca yang kritis harus bisa memisahkan keduanya.
+      </div>
+    </div>
+
+    <hr class="divider"/>
+
+    <!-- ════════════════════════════════ -->
+    <div id="ringkasan" class="ringkasan">
+      <h3>📋 Ringkasan Kompetensi C</h3>
+      <ul class="rl">
+        <li><span class="ri">📊</span><span><strong>Fakta</strong> = pernyataan yang bisa dibuktikan kebenarannya. Berisi angka, tanggal, data, atau kejadian nyata.</span></li>
+        <li><span class="ri">💭</span><span><strong>Opini</strong> = pendapat atau penilaian pribadi yang bisa diperdebatkan. Berisi kata "menurut saya", "sebaiknya", "paling", "terbaik".</span></li>
+        <li><span class="ri">🔑</span><span>Trik cepat: tanyakan <em>"Apakah bisa dibuktikan benar atau salah?"</em> — ya = fakta, tidak = opini.</span></li>
+        <li><span class="ri">⚠️</span><span>Fakta dan opini sering <strong>bercampur</strong> dalam satu teks — pembaca harus bisa memisahkannya.</span></li>
+        <li><span class="ri">🧠</span><span>Kemampuan ini penting agar kamu <strong>tidak mudah tertipu</strong> oleh informasi yang belum tentu benar.</span></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════ -->
+    <hr class="divider"/>
+    <div id="latihan">
+      <div class="section-label">Latihan Mandiri</div>
+      <h2 class="section-title">🎯 Ayo Uji Pemahamanmu!</h2>
+    </div>
+    <p style="font-size:.97rem;margin-bottom:1.5rem;">Setelah membaca materi di atas, mari uji pemahamanmu dengan 5 latihan berikut:</p>
+
+    <!-- LATIHAN 1: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">1</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Manakah kalimat berikut yang merupakan <strong>FAKTA</strong>?</p>
+        <div class="latihan-opts" data-correct="2">
+          <label class="opt"><input type="radio" name="l1"><span>Olahraga pagi adalah kegiatan paling menyenangkan</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Menurut saya, makan sayur itu tidak enak</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Tubuh manusia terdiri dari sekitar 60% air</span></label>
+          <label class="opt"><input type="radio" name="l1"><span>Sebaiknya semua anak berolahraga setiap hari</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>C</strong>. Persentase air dalam tubuh (60%) adalah data ilmiah yang bisa dibuktikan. Pilihan A, B, dan D mengandung kata-kata opini: "paling menyenangkan", "menurut saya", "sebaiknya".</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 2: PG -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">2</span><span class="latihan-tipe">Pilihan Ganda</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Kata-kata manakah yang <strong>menandakan opini</strong>?</p>
+        <div class="latihan-opts" data-correct="3">
+          <label class="opt"><input type="radio" name="l2"><span>Jumlah, persentase, tanggal</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Nama kota, lembaga, organisasi</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>Hasil penelitian, data statistik</span></label>
+          <label class="opt"><input type="radio" name="l2"><span>"Sebaiknya", "paling", "menurut saya"</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPG(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>D</strong>. Kata "sebaiknya", "paling", dan "menurut saya" adalah penanda opini karena menunjukkan penilaian atau pendapat pribadi. Pilihan A, B, C adalah penanda fakta.</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 3: PGK -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">3</span><span class="latihan-tipe">Pilihan Ganda Kompleks</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q"><strong>Pilih LEBIH DARI SATU jawaban yang benar!</strong> Manakah kalimat yang merupakan <strong>OPINI</strong>?</p>
+        <div class="latihan-opts" data-correct="1,3">
+          <label class="opt"><input type="checkbox" name="l3"><span>BPOM menemukan 15% jajanan mengandung bahan berbahaya</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Semua jajanan di depan sekolah sebaiknya dilarang</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Bandung memiliki jalur sepeda sepanjang 12 kilometer</span></label>
+          <label class="opt"><input type="checkbox" name="l3"><span>Bersepeda adalah olahraga paling menyenangkan</span></label>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekPGK(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban yang benar adalah <strong>B dan D</strong>. Pilihan B mengandung kata "sebaiknya" (saran = opini), dan D mengandung "paling menyenangkan" (penilaian pribadi). Pilihan A dan C berisi data terukur (fakta).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 4: MENJODOHKAN -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">4</span><span class="latihan-tipe">Menjodohkan</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Pasangkan <strong>kalimat</strong> dengan jenisnya (<strong>Fakta</strong> atau <strong>Opini</strong>):</p>
+        <div class="latihan-menjodohkan" data-correct="A,B,A,B">
+          <div class="menjodohkan-legend">
+            <div>Pilihan</div>
+            <div class="opt-list">
+              <span class="opt-item"><strong>A.</strong> Fakta</span>
+              <span class="opt-item"><strong>B.</strong> Opini</span>
+            </div>
+          </div>
+          <div class="menjodohkan-rows">
+            <div class="row">
+              <span class="q-num">1.</span>
+              <span class="q-text">"Vitamin C banyak terdapat pada buah jeruk dan jambu biji."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">2.</span>
+              <span class="q-text">"Jus jeruk rasanya paling enak diminum dingin."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">3.</span>
+              <span class="q-text">"Anak usia 6–12 tahun membutuhkan tidur 9–12 jam per malam."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option></select>
+            </div>
+            <div class="row">
+              <span class="q-num">4.</span>
+              <span class="q-text">"Tidur siang itu membosankan dan membuang waktu."</span>
+              <select class="q-select"><option value="">— Pilih —</option><option value="A">A</option><option value="B">B</option></select>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekMenjodohkan(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Pasangan yang benar: <strong>1 → A</strong> (fakta — kandungan vitamin bisa dibuktikan), <strong>2 → B</strong> (opini — "paling enak" adalah penilaian pribadi), <strong>3 → A</strong> (fakta — data kesehatan anak), <strong>4 → B</strong> (opini — "membosankan" dan "membuang waktu" adalah penilaian pribadi).</p></div>
+      </div>
+    </div>
+
+    <!-- LATIHAN 5: KATEGORI -->
+    <div class="latihan-card">
+      <div class="latihan-head"><span class="latihan-num">5</span><span class="latihan-tipe">Kategori: Fakta / Opini</span></div>
+      <div class="latihan-body">
+        <p class="latihan-q">Tentukan apakah kalimat berikut merupakan <strong>FAKTA</strong> atau <strong>OPINI</strong>:</p>
+        <div class="latihan-kategori" data-correct="0,1,0,1">
+          <div class="kat-row">
+            <span class="kat-text"><strong>1.</strong> <em>"Minum air putih 8 gelas sehari dianjurkan oleh dokter."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">📊 Fakta</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">💭 Opini</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>2.</strong> <em>"Air putih rasanya hambar dan tidak enak."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">📊 Fakta</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">💭 Opini</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>3.</strong> <em>"Indonesia memiliki lebih dari 17.000 pulau."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">📊 Fakta</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">💭 Opini</button>
+            </div>
+          </div>
+          <div class="kat-row">
+            <span class="kat-text"><strong>4.</strong> <em>"Indonesia adalah negara terindah di dunia."</em></span>
+            <div class="kat-btns">
+              <button class="kat-btn" data-val="0" onclick="pilihKategori(this)">📊 Fakta</button>
+              <button class="kat-btn" data-val="1" onclick="pilihKategori(this)">💭 Opini</button>
+            </div>
+          </div>
+        </div>
+        <div class="latihan-actions">
+          <button class="btn-cek" onclick="cekKategori(this)">Cek Jawaban</button>
+          <button class="btn-reset" onclick="resetLatihan(this)" style="display:none;">Coba Lagi</button>
+        </div>
+        <div class="latihan-feedback"><span class="fb-result"></span><p class="fb-explanation">Jawaban benar: <strong>1. Fakta</strong> (anjuran dokter berdasarkan ilmu kesehatan). <strong>2. Opini</strong> ("hambar" dan "tidak enak" adalah penilaian rasa — orang lain bisa berpendapat berbeda). <strong>3. Fakta</strong> (jumlah pulau bisa dihitung dan diverifikasi). <strong>4. Opini</strong> ("terindah di dunia" adalah penilaian subjektif — orang dari negara lain bisa tidak setuju).</p></div>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="back-nav">
+      <a href="ilustrasi-isi-teks.html" class="nav-btn nav-btn-outline">← Kompetensi B</a>
+      <a href="struktur-cerita.html" class="nav-btn nav-btn-filled">Kompetensi D: Struktur Cerita →</a>
+    </nav>
+
+  </main>
+
+  <footer class="footer"><p>Belajar Mandiri · Kelas 4 · Bahasa Indonesia · Bab 8 Kompetensi C &nbsp;|&nbsp; Dibuat dengan ❤️ untuk semangat belajar</p></footer>
+  <script src="../../../assets/js/latihan.js"></script>
+</body>
+</html>
