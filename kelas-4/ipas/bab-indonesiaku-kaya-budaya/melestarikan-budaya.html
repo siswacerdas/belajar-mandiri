@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-C: Melestarikan Budaya Bangsa | IPAS Kelas 4 Bab 2 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    /* ── Layout ── */
+    .content-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+
+    /* ── Variabel Bab 2 ── */
+    :root {
+      --bab-primary:    #b85c1d;
+      --bab-primary-dk: #8f4415;
+      --bab-light:      #fdf3ec;
+      --bab-accent:     #e8864a;
+    }
+
+    /* ── Sub-header ── */
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .sub-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif;
+      font-size: .8rem;
+      color: rgba(255,255,255,.72);
+      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.68);
+      margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700;
+      margin: 0 0 .8rem;
+      color: #fff;
+      max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: rgba(255,255,255,.85);
+      max-width: 640px;
+      line-height: 1.65;
+    }
+    .sub-hero-icon {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 1rem;
+      font-size: 4rem;
+      opacity: .15;
+      pointer-events: none;
+    }
+
+    /* ── Daftar Isi ── */
+    .toc-box {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.4rem 1.6rem;
+      margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 {
+      font-family: 'Lora', serif;
+      font-size: .95rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .9rem;
+    }
+    .toc-list {
+      list-style: none;
+      margin: 0; padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .2rem 0;
+      transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num { font-weight: 700; min-width: 1.5rem; color: var(--bab-accent); }
+
+    /* ── Tipografi ── */
+    .prose h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.4rem;
+      color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--bab-primary);
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+    .prose h2 .section-icon { font-size: 1.25rem; }
+    .prose h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      color: var(--bab-primary-dk);
+      margin: 2rem 0 .7rem;
+    }
+    .prose p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.8;
+      margin: 0 0 1rem;
+    }
+
+    /* ── Kotak info ── */
+    .info-box {
+      background: var(--bab-light);
+      border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0;
+      padding: 1.1rem 1.4rem;
+      margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif;
+      font-size: .93rem;
+      line-height: 1.7;
+      color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      display: block;
+      margin-bottom: .3rem;
+      font-size: .8rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    /* ── Fact box ── */
+    .fact-box {
+      background: #fff9f0;
+      border: 1.5px solid var(--bab-accent);
+      border-radius: .85rem;
+      padding: 1.2rem 1.4rem;
+      margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--bab-accent);
+      margin-bottom: .5rem;
+    }
+    .fact-box p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* ── Tabel ── */
+    .tabel-budaya {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      margin: 1rem 0 1.5rem;
+      background: #fff;
+      border-radius: .75rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-budaya thead tr { background: var(--bab-primary); color: #fff; }
+    .tabel-budaya th {
+      padding: .75rem 1rem;
+      text-align: left;
+      font-weight: 700;
+      font-size: .82rem;
+      letter-spacing: .04em;
+    }
+    .tabel-budaya td {
+      padding: .65rem 1rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.55;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-budaya tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-budaya tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Kartu ancaman ── */
+    .ancaman-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .ancaman-card {
+      background: #fff;
+      border: 1.5px solid #f5c6a0;
+      border-radius: .85rem;
+      padding: 1.1rem 1.3rem;
+    }
+    .ancaman-card .ac-head {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      margin-bottom: .6rem;
+    }
+    .ancaman-card .ac-icon {
+      font-size: 1.5rem;
+      width: 2.2rem;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .ancaman-card h3 {
+      font-family: 'Lora', serif;
+      font-size: .97rem;
+      color: var(--bab-primary-dk);
+      margin: 0;
+    }
+    .ancaman-card p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .87rem;
+      color: #555;
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* ── Kartu UNESCO ── */
+    .unesco-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .unesco-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .85rem;
+      overflow: hidden;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .unesco-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(184,92,29,.11);
+    }
+    .uc-head {
+      background: var(--bab-light);
+      padding: .9rem 1.2rem .75rem;
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .uc-emoji { font-size: 1.6rem; flex-shrink: 0; }
+    .uc-head h3 {
+      font-family: 'Lora', serif;
+      font-size: .95rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .1rem;
+    }
+    .uc-year {
+      font-family: 'Nunito', sans-serif;
+      font-size: .73rem;
+      font-weight: 700;
+      color: var(--bab-accent);
+    }
+    .uc-body {
+      padding: .8rem 1.2rem 1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .86rem;
+      color: #555;
+      line-height: 1.65;
+    }
+
+    /* ── Kartu aksi siswa ── */
+    .aksi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .aksi-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .85rem;
+      padding: 1.2rem;
+      display: flex;
+      gap: .9rem;
+      align-items: flex-start;
+      transition: box-shadow .2s;
+    }
+    .aksi-card:hover { box-shadow: 0 4px 16px rgba(184,92,29,.10); }
+    .aksi-num {
+      font-family: 'Lora', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--bab-accent);
+      line-height: 1;
+      flex-shrink: 0;
+      padding-top: .1rem;
+    }
+    .aksi-card h3 {
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .3rem;
+    }
+    .aksi-card p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .84rem;
+      color: #666;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    /* ── Penutup inspiratif ── */
+    .penutup-box {
+      background: linear-gradient(135deg, var(--bab-primary-dk), var(--bab-primary));
+      border-radius: 1.1rem;
+      padding: 2rem 2rem;
+      margin: 2.5rem 0;
+      color: #fff;
+      text-align: center;
+    }
+    .penutup-box .penutup-icon { font-size: 2.5rem; margin-bottom: .8rem; }
+    .penutup-box h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.2rem;
+      color: #fff;
+      margin: 0 0 .8rem;
+    }
+    .penutup-box p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .95rem;
+      color: rgba(255,255,255,.88);
+      line-height: 1.75;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    /* ── Ringkasan ── */
+    .ringkasan {
+      background: var(--bab-primary);
+      color: #fff;
+      border-radius: 1rem;
+      padding: 1.6rem 1.8rem;
+      margin: 2.5rem 0;
+    }
+    .ringkasan h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      color: #fff;
+      margin: 0 0 1rem;
+    }
+    .ringkasan ul {
+      margin: 0;
+      padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      line-height: 1.8;
+      color: rgba(255,255,255,.9);
+    }
+
+    /* ── Navigasi bawah ── */
+    .nav-bawah {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      border: 1.5px solid var(--bab-primary);
+      padding: .55rem 1.1rem;
+      border-radius: .55rem;
+      transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-kuis { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-kuis:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="sub-hero">
+    <div class="sub-hero-icon">🛡️</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a>
+        <span>›</span>
+        <a href="../../index.html">Kelas 4</a>
+        <span>›</span>
+        <a href="../index.html">IPAS</a>
+        <span>›</span>
+        <a href="materi.html">Bab 2</a>
+        <span>›</span>
+        <span>Sub-materi C</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 2 · Sub-materi C</p>
+      <h1>Melestarikan Budaya Bangsa</h1>
+      <p class="intro-text">
+        Budaya kita adalah warisan yang tak ternilai — dibangun selama ribuan tahun oleh
+        leluhur kita. Tapi ia bisa hilang jika tidak dijaga. Apa yang bisa kita lakukan?
+      </p>
+    </div>
+  </header>
+
+  <!-- ══ ISI ══ -->
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <!-- Daftar Isi -->
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#mengapa-penting"><span class="toc-num">1</span> Mengapa Budaya Perlu Dilestarikan?</a></li>
+        <li><a href="#ancaman"><span class="toc-num">2</span> Ancaman terhadap Budaya Kita</a></li>
+        <li><a href="#cara-melestarikan"><span class="toc-num">3</span> Cara Melestarikan Budaya</a></li>
+        <li><a href="#peran-unesco"><span class="toc-num">4</span> Warisan Budaya Indonesia di UNESCO</a></li>
+        <li><a href="#peran-siswa"><span class="toc-num">5</span> Peran Kita sebagai Siswa SD</a></li>
+        <li><a href="#budaya-sunda"><span class="toc-num">6</span> Melestarikan Budaya Sunda</a></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 1 — MENGAPA PENTING
+    ════════════════════════════════════ -->
+    <h2 id="mengapa-penting"><span class="section-icon">❓</span> 1. Mengapa Budaya Perlu Dilestarikan?</h2>
+
+    <p>
+      Bayangkan kamu sedang membaca buku yang sangat tebal — penuh cerita, gambar, dan pelajaran
+      berharga dari ribuan tahun lalu. Setiap halaman adalah hasil kerja keras nenek moyangmu.
+      Tapi perlahan-lahan, halaman demi halaman mulai hilang, sobek, dan terlupakan.
+    </p>
+    <p>
+      Itulah yang terjadi ketika kita membiarkan budaya kita punah.
+      Budaya bukan sekadar hiburan atau tradisi tua — budaya adalah <strong>identitas kita</strong>,
+      cermin dari siapa kita sebagai bangsa, dan warisan yang kita titipkan kepada generasi berikutnya.
+    </p>
+
+    <h3>Mengapa Budaya Sangat Berharga?</h3>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Alasan</th>
+          <th>Penjelasan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Identitas bangsa</strong></td>
+          <td>Budaya membedakan kita dari bangsa lain. Batik, wayang, angklung — dunia mengenal Indonesia lewat budayanya.</td>
+        </tr>
+        <tr>
+          <td><strong>Pengetahuan leluhur</strong></td>
+          <td>Banyak budaya menyimpan kearifan lokal: cara bertani, obat tradisional, cara membaca cuaca — pengetahuan yang tak ditemukan di buku teks manapun.</td>
+        </tr>
+        <tr>
+          <td><strong>Pemersatu bangsa</strong></td>
+          <td>Keberagaman budaya yang dijaga dengan saling menghormati justru memperkuat persatuan. "Berbeda-beda tetapi tetap satu" — Bhinneka Tunggal Ika.</td>
+        </tr>
+        <tr>
+          <td><strong>Sumber kreativitas</strong></td>
+          <td>Seni dan desain Indonesia diakui dunia justru karena kekayaan budaya lokalnya. Batik, tenun, ukiran kayu — semua berakar dari tradisi.</td>
+        </tr>
+        <tr>
+          <td><strong>Nilai ekonomi</strong></td>
+          <td>Budaya menjadi daya tarik wisata dan produk ekspor. Penari Bali, pengrajin batik Yogyakarta, dan pengukir Jepara menghidupi keluarga mereka dari warisan budaya.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="fact-box">
+      <p class="fact-label">🌏 Fakta Mengejutkan</p>
+      <p>
+        UNESCO memperkirakan bahwa sekitar <strong>50% bahasa daerah di dunia terancam punah</strong>
+        sebelum akhir abad ini. Di Indonesia sendiri, beberapa bahasa daerah hanya digunakan
+        oleh segelintir orang tua — generasi muda sudah tidak lagi menggunakannya.
+        Ketika bahasa punah, seluruh pengetahuan, cerita, dan cara pandang masyarakat
+        yang tersimpan di dalamnya juga ikut lenyap selamanya.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 2 — ANCAMAN
+    ════════════════════════════════════ -->
+    <h2 id="ancaman"><span class="section-icon">⚠️</span> 2. Ancaman terhadap Budaya Kita</h2>
+
+    <p>
+      Budaya kita menghadapi berbagai ancaman di zaman modern ini. Mengenali ancaman adalah
+      langkah pertama untuk mengatasinya:
+    </p>
+
+    <div class="ancaman-grid">
+      <div class="ancaman-card">
+        <div class="ac-head">
+          <div class="ac-icon">📱</div>
+          <h3>Arus Globalisasi</h3>
+        </div>
+        <p>
+          Internet dan media sosial membawa budaya asing masuk ke rumah kita setiap hari.
+          Anak-anak lebih hafal lagu K-Pop dibanding lagu daerah, lebih kenal karakter
+          anime dibanding tokoh wayang. Bukan berarti budaya asing buruk, tapi perlu
+          keseimbangan agar budaya kita tidak tergantikan.
+        </p>
+      </div>
+
+      <div class="ancaman-card">
+        <div class="ac-head">
+          <div class="ac-icon">🏙️</div>
+          <h3>Urbanisasi</h3>
+        </div>
+        <p>
+          Banyak orang dari desa pindah ke kota. Di kota, cara hidup berubah —
+          tidak ada lagi waktu untuk upacara adat, bergotong royong, atau belajar
+          tari tradisional. Komunitas budaya di desa semakin berkurang karena generasi
+          mudanya pindah ke kota.
+        </p>
+      </div>
+
+      <div class="ancaman-card">
+        <div class="ac-head">
+          <div class="ac-icon">👴</div>
+          <h3>Putusnya Pewarisan</h3>
+        </div>
+        <p>
+          Banyak keahlian budaya — mengukir, menenun, memainkan alat musik tradisional,
+          menari — hanya dimiliki oleh orang-orang tua. Jika generasi muda tidak mau
+          belajar, keahlian ini akan terbawa pergi bersama sang maestro ketika meninggal.
+        </p>
+      </div>
+
+      <div class="ancaman-card">
+        <div class="ac-head">
+          <div class="ac-icon">🌪️</div>
+          <h3>Kerusakan Lingkungan</h3>
+        </div>
+        <p>
+          Beberapa budaya sangat bergantung pada alam — mengukir dari kayu hutan,
+          membuat angklung dari bambu, upacara panen di sawah. Ketika hutan ditebang,
+          bambu berkurang, dan sawah berubah menjadi perumahan, budaya yang berkaitan
+          dengan alam itu pun ikut terancam.
+        </p>
+      </div>
+
+      <div class="ancaman-card">
+        <div class="ac-head">
+          <div class="ac-icon">🏴</div>
+          <h3>Klaim oleh Negara Lain</h3>
+        </div>
+        <p>
+          Indonesia pernah mengalami kasus budayanya diklaim oleh negara lain —
+          seperti tari Pendet dan reog Ponorogo yang pernah diklaim Malaysia.
+          Ini menjadi peringatan bahwa kita harus aktif mendokumentasikan dan
+          mendaftarkan budaya kita agar perlindungan hukumnya jelas.
+        </p>
+      </div>
+
+      <div class="ancaman-card">
+        <div class="ac-head">
+          <div class="ac-icon">😔</div>
+          <h3>Kurangnya Kebanggaan</h3>
+        </div>
+        <p>
+          Terkadang, generasi muda merasa budaya tradisional itu "kuno" atau "norak"
+          dibanding budaya modern. Padahal, banyak seniman dan desainer internasional
+          justru mencari inspirasi dari budaya Nusantara karena keindahan dan
+          kedalaman maknanya yang luar biasa.
+        </p>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 3 — CARA MELESTARIKAN
+    ════════════════════════════════════ -->
+    <h2 id="cara-melestarikan"><span class="section-icon">🛡️</span> 3. Cara Melestarikan Budaya</h2>
+
+    <p>
+      Pelestarian budaya bukan hanya tanggung jawab pemerintah atau orang tua —
+      ini adalah tanggung jawab semua orang, termasuk kita. Ada banyak cara
+      yang bisa dilakukan untuk melestarikan budaya:
+    </p>
+
+    <h3>Cara 1: Dipraktikkan dalam Kehidupan Sehari-hari</h3>
+    <p>
+      Budaya yang paling terjaga adalah budaya yang masih digunakan, bukan yang hanya
+      disimpan di museum. Memakai batik ke sekolah, berbicara bahasa daerah di rumah,
+      merayakan upacara adat bersama keluarga — inilah pelestarian yang paling nyata.
+    </p>
+
+    <h3>Cara 2: Dokumentasi dan Penelitian</h3>
+    <p>
+      Merekam, menuliskan, dan mendokumentasikan budaya agar tidak hilang begitu saja.
+      Lembaga seperti museum, perpustakaan nasional, dan perguruan tinggi berperan penting
+      dalam mendokumentasikan budaya. Di era digital, dokumentasi bisa dilakukan
+      dengan mudah menggunakan kamera dan internet.
+    </p>
+
+    <h3>Cara 3: Pendidikan dan Pengajaran</h3>
+    <p>
+      Mengajarkan budaya kepada generasi muda di sekolah dan di rumah.
+      Pelajaran seni budaya, sanggar tari, kelas angklung, dan festival budaya
+      sekolah adalah contoh bagaimana pendidikan bisa menjadi jembatan
+      pewarisan budaya ke generasi berikutnya.
+    </p>
+
+    <h3>Cara 4: Inovasi Kreatif</h3>
+    <p>
+      Budaya tidak harus disajikan kaku seperti 100 tahun lalu.
+      Batik bisa digunakan pada desain modern, musik gamelan bisa dipadukan dengan
+      elektronik, cerita wayang bisa dibuat menjadi animasi. Inovasi kreatif justru
+      bisa membuat budaya lebih menarik bagi generasi muda tanpa menghilangkan esensinya.
+    </p>
+
+    <div class="info-box">
+      <span class="label">💡 Contoh Inovasi Kreatif</span>
+      Ki Dalang Enthus Susmono dari Tegal menciptakan pertunjukan wayang yang menggabungkan
+      tokoh modern dengan cerita klasik. Hasilnya? Penonton muda yang tadinya tidak tertarik
+      wayang, menjadi antusias menonton! Ini bukti bahwa tradisi bisa tetap hidup dan relevan
+      jika dikemas dengan cara yang segar.
+    </div>
+
+    <h3>Cara 5: Perlindungan Hukum dan Pendaftaran</h3>
+    <p>
+      Pemerintah Indonesia aktif mendaftarkan budaya ke UNESCO agar mendapat pengakuan
+      dan perlindungan internasional. Di dalam negeri, Undang-Undang No. 5 Tahun 2017
+      tentang Pemajuan Kebudayaan menjadi landasan hukum perlindungan budaya Indonesia.
+    </p>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 4 — UNESCO
+    ════════════════════════════════════ -->
+    <h2 id="peran-unesco"><span class="section-icon">🌐</span> 4. Warisan Budaya Indonesia yang Diakui UNESCO</h2>
+
+    <p>
+      <strong>UNESCO</strong> (United Nations Educational, Scientific and Cultural Organization)
+      adalah lembaga PBB yang bertugas menjaga warisan budaya dunia. Ketika sebuah budaya
+      diakui UNESCO sebagai Warisan Budaya Tak Benda (<em>Intangible Cultural Heritage</em>),
+      artinya dunia mengakui bahwa budaya tersebut sangat berharga dan perlu dijaga bersama.
+    </p>
+
+    <p>Indonesia memiliki beberapa warisan budaya yang sudah diakui UNESCO:</p>
+
+    <div class="unesco-grid">
+      <div class="unesco-card">
+        <div class="uc-head">
+          <div class="uc-emoji">🎨</div>
+          <div>
+            <h3>Batik Indonesia</h3>
+            <p class="uc-year">Diakui tahun 2009</p>
+          </div>
+        </div>
+        <div class="uc-body">
+          Kain bermotif yang dibuat dengan teknik penutupan lilin (canting/cap).
+          Indonesia memiliki ratusan motif batik dari berbagai daerah — Batik Mega Mendung
+          (Cirebon), Batik Parang (Yogyakarta), Batik Pekalongan, dan masih banyak lagi.
+        </div>
+      </div>
+
+      <div class="unesco-card">
+        <div class="uc-head">
+          <div class="uc-emoji">🎋</div>
+          <div>
+            <h3>Angklung</h3>
+            <p class="uc-year">Diakui tahun 2010</p>
+          </div>
+        </div>
+        <div class="uc-body">
+          Alat musik bambu dari Jawa Barat. UNESCO mengakui angklung bukan hanya
+          sebagai alat musik, tapi sebagai alat pendidikan nilai-nilai kebersamaan,
+          toleransi, dan kerja sama. Kebanggan kita sebagai orang Jawa Barat!
+        </div>
+      </div>
+
+      <div class="unesco-card">
+        <div class="uc-head">
+          <div class="uc-emoji">🎭</div>
+          <div>
+            <h3>Wayang</h3>
+            <p class="uc-year">Diakui tahun 2003</p>
+          </div>
+        </div>
+        <div class="uc-body">
+          Pertunjukan boneka tradisional — ada wayang kulit (bayangan), wayang golek
+          (kayu, khas Sunda), dan wayang orang (manusia). Setiap pertunjukan mengandung
+          pesan moral dan nilai-nilai kehidupan yang dalam.
+        </div>
+      </div>
+
+      <div class="unesco-card">
+        <div class="uc-head">
+          <div class="uc-emoji">💃</div>
+          <div>
+            <h3>Tari Saman</h3>
+            <p class="uc-year">Diakui tahun 2011</p>
+          </div>
+        </div>
+        <div class="uc-body">
+          Tarian massal dari Aceh yang dimainkan dengan gerakan cepat, tepuk tangan,
+          dan teriakan serentak oleh puluhan hingga ratusan penari sekaligus.
+          Mencerminkan semangat kebersamaan dan kekompakan.
+        </div>
+      </div>
+
+      <div class="unesco-card">
+        <div class="uc-head">
+          <div class="uc-emoji">🥋</div>
+          <div>
+            <h3>Pencak Silat</h3>
+            <p class="uc-year">Diakui tahun 2019</p>
+          </div>
+        </div>
+        <div class="uc-body">
+          Seni bela diri tradisional dari Nusantara yang menggabungkan teknik bertarung,
+          seni gerak, dan nilai spiritual. Di Jawa Barat dikenal dengan tradisi silat
+          Sunda yang kuat, terutama di daerah Cianjur dan Betawi.
+        </div>
+      </div>
+
+      <div class="unesco-card">
+        <div class="uc-head">
+          <div class="uc-emoji">🎶</div>
+          <div>
+            <h3>Pantun</h3>
+            <p class="uc-year">Diakui tahun 2020</p>
+          </div>
+        </div>
+        <div class="uc-body">
+          Tradisi sastra lisan berupa puisi bersajak yang digunakan dalam berbagai
+          upacara adat, percakapan sehari-hari, dan seni pertunjukan. Indonesia
+          mendapat pengakuan bersama Malaysia untuk warisan budaya bersama ini.
+        </div>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <p class="fact-label">🏛️ Warisan Dunia (World Heritage Site)</p>
+      <p>
+        Selain warisan budaya tak benda, Indonesia juga punya situs warisan budaya yang
+        diakui UNESCO berupa bangunan dan tempat bersejarah, antara lain:
+        <strong>Candi Borobudur</strong> (Jawa Tengah, 1991),
+        <strong>Candi Prambanan</strong> (Jawa Tengah, 1991), dan
+        <strong>Situs Manusia Purba Sangiran</strong> (Jawa Tengah, 1996).
+        Semua ini adalah bukti nyata betapa kayanya peradaban yang pernah berkembang di bumi Indonesia.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 5 — PERAN SISWA
+    ════════════════════════════════════ -->
+    <h2 id="peran-siswa"><span class="section-icon">🧒</span> 5. Peran Kita sebagai Siswa SD</h2>
+
+    <p>
+      Mungkin kamu berpikir: "Saya masih SD, apa yang bisa saya lakukan?"
+      Jawabannya: <strong>sangat banyak!</strong> Pelestarian budaya dimulai dari hal-hal
+      kecil yang bisa dilakukan setiap hari, bukan hanya oleh orang dewasa.
+    </p>
+
+    <div class="aksi-grid">
+      <div class="aksi-card">
+        <div class="aksi-num">1</div>
+        <div>
+          <h3>Pelajari budaya daerahmu</h3>
+          <p>Tanya nenek atau kakekmu tentang cerita rakyat, permainan tradisional, atau kebiasaan adat di daerahmu. Mereka adalah "buku hidup" yang tak ternilai.</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">2</div>
+        <div>
+          <h3>Gunakan bahasa daerah</h3>
+          <p>Biasakan berbicara bahasa Sunda (atau bahasa daerahmu) di rumah dan dengan teman. Bahasa yang digunakan tidak akan punah.</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">3</div>
+        <div>
+          <h3>Ikuti kegiatan seni budaya</h3>
+          <p>Ikut sanggar tari, kelas angklung, atau latihan pencak silat di sekolah atau lingkunganmu. Bersenang-senang sambil melestarikan budaya!</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">4</div>
+        <div>
+          <h3>Kenakan pakaian daerah dengan bangga</h3>
+          <p>Saat hari budaya atau karnaval di sekolah, kenakan pakaian adat daerahmu dengan rasa bangga — bukan rasa malu.</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">5</div>
+        <div>
+          <h3>Ceritakan ke teman</h3>
+          <p>Ceritakan kepada teman-temanmu tentang keunikan budaya daerahmu. Kamu bisa jadi "duta budaya" di lingkungan sekitarmu.</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">6</div>
+        <div>
+          <h3>Nikmati pertunjukan tradisional</h3>
+          <p>Ketika ada pertunjukan wayang, jaipongan, atau seni tradisional lain, datang dan tonton. Apresiasi adalah bentuk dukungan terbaik untuk para seniman.</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">7</div>
+        <div>
+          <h3>Pilih produk budaya lokal</h3>
+          <p>Saat memilih baju, tas, atau souvenir, pilih produk buatan pengrajin lokal — batik, tenun, atau kerajinan tangan khas daerah.</p>
+        </div>
+      </div>
+      <div class="aksi-card">
+        <div class="aksi-num">8</div>
+        <div>
+          <h3>Dokumentasikan dengan kamera</h3>
+          <p>Jika ada upacara adat atau pertunjukan budaya, minta izin untuk merekam atau memotret. Dokumentasimu bisa jadi arsip berharga di masa depan.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 6 — MELESTARIKAN BUDAYA SUNDA
+    ════════════════════════════════════ -->
+    <h2 id="budaya-sunda"><span class="section-icon">🌿</span> 6. Melestarikan Budaya Sunda</h2>
+
+    <p>
+      Sebagai orang yang tinggal di Jawa Barat, kita punya tanggung jawab khusus untuk
+      ikut menjaga budaya Sunda. Berikut adalah beberapa hal yang tengah dilakukan dan
+      yang bisa kita dukung bersama:
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Budaya Sunda</th>
+          <th>Kondisi Saat Ini</th>
+          <th>Yang Bisa Kita Lakukan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Bahasa Sunda</strong></td>
+          <td>Masih aktif digunakan, tapi banyak anak muda yang sudah kurang fasih berbicara ragam halus (basa lemes)</td>
+          <td>Biasakan berbicara Sunda di rumah, pelajari undak usuk basa Sunda</td>
+        </tr>
+        <tr>
+          <td><strong>Angklung</strong></td>
+          <td>Sudah diakui UNESCO, aktif diajarkan di sekolah dan sanggar</td>
+          <td>Bergabung dengan kelompok angklung, ikut konser angklung massal</td>
+        </tr>
+        <tr>
+          <td><strong>Jaipongan</strong></td>
+          <td>Masih populer, tapi peminat anak muda mulai berkurang</td>
+          <td>Ikut kelas tari Jaipong, tonton pertunjukan Jaipong bersama keluarga</td>
+        </tr>
+        <tr>
+          <td><strong>Wayang Golek</strong></td>
+          <td>Pementasan makin jarang, banyak anak muda yang tidak mengenal tokoh-tokohnya</td>
+          <td>Tonton pertunjukan wayang golek, pelajari tokoh-tokoh seperti Cepot dan Gatotkaca</td>
+        </tr>
+        <tr>
+          <td><strong>Batik Mega Mendung</strong></td>
+          <td>Sudah terkenal secara nasional dan internasional</td>
+          <td>Kenakan baju bermotif Mega Mendung dengan bangga, beli dari pengrajin asli Cirebon</td>
+        </tr>
+        <tr>
+          <td><strong>Permainan tradisional</strong></td>
+          <td>Seperti congklak, egrang, ucing sumput — hampir tidak dimainkan lagi karena kalah bersaing dengan gim digital</td>
+          <td>Ajak teman bermain permainan tradisional di waktu istirahat atau liburan</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">🎵 Kisah Inspiratif: Saung Angklung Udjo</span>
+      Di Bandung, ada sebuah tempat bernama <strong>Saung Angklung Udjo</strong> yang didirikan
+      oleh Udjo Ngalagena pada tahun 1966. Beliau mendedikasikan hidupnya untuk mengajarkan
+      angklung kepada anak-anak dan mementaskannya kepada wisatawan dari seluruh dunia.
+      Berkat kegigihan beliau dan keluarganya, angklung kini dikenal di lebih dari 50 negara.
+      Ini bukti bahwa satu orang yang bersungguh-sungguh bisa membuat perbedaan besar
+      bagi pelestarian budaya.
+    </div>
+
+    <!-- Penutup -->
+    <div class="penutup-box">
+      <div class="penutup-icon">🌟</div>
+      <h3>Budaya Kita, Kebanggaan Kita</h3>
+      <p>
+        Indonesia adalah negara yang luar biasa kaya budaya — dan kamu adalah bagian dari
+        kekayaan itu. Setiap kali kamu berbicara bahasa daerahmu, menyanyikan lagu tradisional,
+        atau mengenakan batik dengan bangga, kamu sedang menjadi penjaga warisan ribuan tahun
+        yang tak ternilai harganya. Jagalah ia, karena tidak ada yang bisa melakukannya
+        selain kita sendiri.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         RINGKASAN
+    ════════════════════════════════════ -->
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi C</h3>
+      <ul>
+        <li>Budaya perlu dilestarikan karena merupakan <strong>identitas bangsa</strong>, menyimpan kearifan lokal, mempersatukan bangsa, dan bernilai ekonomi.</li>
+        <li>Ancaman terhadap budaya meliputi globalisasi, urbanisasi, putusnya pewarisan, kerusakan lingkungan, klaim negara lain, dan kurangnya kebanggaan.</li>
+        <li>Cara melestarikan budaya: <strong>dipraktikkan sehari-hari, didokumentasikan, diajarkan, diinovasikan</strong>, dan dilindungi secara hukum.</li>
+        <li>Indonesia memiliki beberapa warisan budaya yang diakui UNESCO, di antaranya <strong>Batik (2009), Angklung (2010), Wayang (2003), Tari Saman (2011), dan Pencak Silat (2019)</strong>.</li>
+        <li>Sebagai siswa SD, kita bisa ikut melestarikan budaya dengan cara yang sederhana namun bermakna — mulai dari belajar bahasa daerah hingga menonton pertunjukan tradisional.</li>
+        <li>Budaya Sunda di Jawa Barat — bahasa, angklung, jaipong, wayang golek, batik — membutuhkan dukungan aktif dari kita semua untuk tetap hidup dan berkembang.</li>
+      </ul>
+    </div>
+
+    <!-- Navigasi -->
+    <div class="nav-bawah">
+      <a href="budaya-dan-alam.html">← Sub-B: Budaya & Alam</a>
+      <a href="kuis.html" class="btn-kuis">Uji Kemampuan: Kuis Bab 2 →</a>
+    </div>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 2, Sub-C — Melestarikan Budaya Bangsa
+  </footer>
+
+</body>
+</html>
