@@ -1,1 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bab 4 — Masyarakat yang Beradab | IPAS Kelas 4 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    .content-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+    :root {
+      --bab-primary:    #3a5fa8;
+      --bab-primary-dk: #2a4580;
+      --bab-light:      #eef1fb;
+      --bab-accent:     #6585c9;
+    }
 
+    .bab-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 60%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 3rem 2rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .bab-hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 80% 20%, rgba(255,255,255,.10) 0%, transparent 50%),
+                        radial-gradient(circle at 10% 80%, rgba(0,0,0,.08) 0%, transparent 40%);
+      pointer-events: none;
+    }
+    .bab-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif; font-size: .82rem;
+      color: rgba(255,255,255,.75); margin-bottom: 1.2rem;
+      display: flex; flex-wrap: wrap; gap: .3rem; align-items: center;
+    }
+    .bab-hero .breadcrumb a { color: rgba(255,255,255,.80); text-decoration: none; transition: color .2s; }
+    .bab-hero .breadcrumb a:hover { color: #fff; }
+    .bab-hero .breadcrumb span { opacity: .55; }
+    .bab-label {
+      font-family: 'Nunito', sans-serif; font-size: .78rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.70); margin-bottom: .6rem;
+    }
+    .bab-hero h1 {
+      font-family: 'Lora', serif; font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700; line-height: 1.2; margin: 0 0 1rem; color: #fff;
+    }
+    .bab-hero .tagline {
+      font-family: 'Nunito', sans-serif; font-size: 1rem;
+      color: rgba(255,255,255,.85); max-width: 580px; line-height: 1.6;
+    }
+    .bab-icon {
+      position: absolute; right: 2rem; top: 50%; transform: translateY(-50%);
+      font-size: 5rem; opacity: .18; pointer-events: none;
+    }
+
+    .bab-intro {
+      background: var(--bab-light); border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0; padding: 1.2rem 1.5rem; margin: 2rem 0;
+      font-family: 'Nunito', sans-serif; font-size: .97rem; color: var(--ink, #1a1f2e); line-height: 1.7;
+    }
+    .bab-intro strong { color: var(--bab-primary-dk); }
+
+    .tujuan-box {
+      border: 1.5px solid var(--bab-accent); border-radius: .85rem;
+      padding: 1.4rem 1.6rem; margin-bottom: 2.5rem; background: #fff;
+    }
+    .tujuan-box h3 { font-family: 'Lora', serif; font-size: 1rem; color: var(--bab-primary-dk); margin: 0 0 .9rem; }
+    .tujuan-box ul {
+      margin: 0; padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif; font-size: .93rem; color: var(--ink, #1a1f2e); line-height: 1.75;
+    }
+    .tujuan-box ul li + li { margin-top: .3rem; }
+
+    .submateri-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem; margin: 2rem 0 3rem;
+    }
+    .submateri-card {
+      background: #fff; border-radius: 1rem;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      overflow: hidden; display: flex; flex-direction: column;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .submateri-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(58,95,168,.13);
+    }
+    .card-top { padding: 1.5rem 1.5rem 1rem; display: flex; align-items: flex-start; gap: 1rem; }
+    .card-icon {
+      width: 3rem; height: 3rem; border-radius: .65rem;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; flex-shrink: 0;
+    }
+    .card-icon.a { background: #dce4f8; }
+    .card-icon.b { background: #d8edf5; }
+    .card-meta {
+      font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 700;
+      letter-spacing: .08em; text-transform: uppercase; color: var(--bab-primary); margin-bottom: .3rem;
+    }
+    .submateri-card h2 {
+      font-family: 'Lora', serif; font-size: 1.05rem; font-weight: 600;
+      color: var(--ink, #1a1f2e); margin: 0; line-height: 1.3;
+    }
+    .card-body { padding: 0 1.5rem 1rem; font-family: 'Nunito', sans-serif; font-size: .88rem; color: #555; line-height: 1.65; flex: 1; }
+    .card-topics { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0 1.5rem .8rem; }
+    .topic-tag {
+      font-family: 'Nunito', sans-serif; font-size: .73rem; font-weight: 600;
+      background: var(--bab-light); color: var(--bab-primary-dk); padding: .2rem .6rem; border-radius: 2rem;
+    }
+    .card-footer { padding: 1rem 1.5rem; border-top: 1px solid var(--sand-dk, #ede8dc); }
+    .btn-materi {
+      display: inline-flex; align-items: center; gap: .5rem;
+      font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700;
+      color: var(--bab-primary); text-decoration: none; transition: gap .2s, color .2s;
+    }
+    .btn-materi:hover { gap: .75rem; color: var(--bab-primary-dk); }
+
+    .peta-konsep {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem; padding: 1.6rem; margin-bottom: 2.5rem;
+    }
+    .peta-konsep h3 { font-family: 'Lora', serif; font-size: 1rem; color: var(--bab-primary-dk); margin: 0 0 1.1rem; }
+    .konsep-grid { display: flex; flex-wrap: wrap; gap: .75rem; }
+    .konsep-item {
+      display: flex; align-items: center; gap: .45rem; background: var(--bab-light);
+      border-radius: .5rem; padding: .4rem .8rem;
+      font-family: 'Nunito', sans-serif; font-size: .85rem; color: var(--bab-primary-dk); font-weight: 600;
+    }
+    .section-title {
+      font-family: 'Lora', serif; font-size: 1.25rem; color: var(--ink, #1a1f2e);
+      margin: 2.5rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid var(--bab-primary);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="bab-hero">
+    <div class="bab-icon">⚖️</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a><span>›</span>
+        <a href="../../index.html">Kelas 4</a><span>›</span>
+        <a href="../index.html">IPAS</a><span>›</span>
+        <span>Bab 4</span>
+      </nav>
+      <p class="bab-label">IPAS Kelas 4 · Bab 4</p>
+      <h1>Masyarakat yang Beradab</h1>
+      <p class="tagline">
+        Apa yang membuat manusia bisa hidup berdampingan dengan damai?
+        Jawabannya ada pada norma — aturan tak tertulis maupun tertulis yang
+        menjadi perekat kehidupan bersama.
+      </p>
+    </div>
+  </header>
+
+  <main class="content-wrap" style="padding-top: 2rem; padding-bottom: 4rem;">
+
+    <p class="bab-intro">
+      Coba bayangkan sebuah dunia tanpa aturan sama sekali — tidak ada yang perlu antre,
+      tidak ada yang perlu menyapa, tidak ada yang perlu menghormati orang yang lebih tua.
+      Kira-kira seperti apa jadinya? Di bab ini kita akan memahami mengapa manusia membutuhkan
+      <strong>norma</strong> untuk hidup bersama secara tertib, aman, dan saling menghormati.
+    </p>
+
+    <div class="tujuan-box">
+      <h3>🎯 Tujuan Pembelajaran</h3>
+      <ul>
+        <li>Memahami pengertian norma dan mengapa norma diperlukan dalam kehidupan bermasyarakat</li>
+        <li>Mengenal jenis-jenis norma beserta sumber dan sanksinya</li>
+        <li>Menunjukkan contoh norma dalam kehidupan sehari-hari di rumah, sekolah, dan masyarakat</li>
+        <li>Menjelaskan manfaat norma bagi individu dan masyarakat</li>
+        <li>Menyadari akibat yang terjadi jika norma dilanggar</li>
+      </ul>
+    </div>
+
+    <h2 class="section-title">Konsep Kunci Bab Ini</h2>
+    <div class="peta-konsep">
+      <h3>Yang akan kamu pelajari di Bab 4:</h3>
+      <div class="konsep-grid">
+        <div class="konsep-item"><span>📜</span> Pengertian Norma</div>
+        <div class="konsep-item"><span>🙏</span> Norma Agama</div>
+        <div class="konsep-item"><span>😊</span> Norma Kesopanan</div>
+        <div class="konsep-item"><span>💛</span> Norma Kesusilaan</div>
+        <div class="konsep-item"><span>⚖️</span> Norma Hukum</div>
+        <div class="konsep-item"><span>🏠</span> Norma di Rumah</div>
+        <div class="konsep-item"><span>🏫</span> Norma di Sekolah</div>
+        <div class="konsep-item"><span>🤝</span> Norma di Masyarakat</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Materi Pembelajaran</h2>
+    <div class="submateri-grid">
+
+      <div class="submateri-card">
+        <div class="card-top">
+          <div class="card-icon a">📜</div>
+          <div>
+            <p class="card-meta">Sub-materi A</p>
+            <h2>Norma</h2>
+          </div>
+        </div>
+        <div class="card-body">
+          Apa itu norma? Dari mana norma berasal? Pelajari pengertian norma,
+          empat jenis norma yang berlaku di masyarakat, dan contoh-contohnya
+          dalam kehidupan sehari-hari yang sangat dekat dengan kita.
+        </div>
+        <div class="card-topics">
+          <span class="topic-tag">Pengertian Norma</span>
+          <span class="topic-tag">Norma Agama</span>
+          <span class="topic-tag">Norma Kesopanan</span>
+          <span class="topic-tag">Norma Kesusilaan</span>
+          <span class="topic-tag">Norma Hukum</span>
+        </div>
+        <div class="card-footer">
+          <a href="norma.html" class="btn-materi">Mulai Belajar <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="submateri-card">
+        <div class="card-top">
+          <div class="card-icon b">🤝</div>
+          <div>
+            <p class="card-meta">Sub-materi B</p>
+            <h2>Pentingnya Norma di Dalam Lingkungan Masyarakat</h2>
+          </div>
+        </div>
+        <div class="card-body">
+          Mengapa norma itu penting? Apa yang terjadi jika norma dilanggar?
+          Pelajari manfaat norma bagi kehidupan bersama dan tanggung jawab
+          kita sebagai anggota masyarakat untuk menjaga norma.
+        </div>
+        <div class="card-topics">
+          <span class="topic-tag">Manfaat Norma</span>
+          <span class="topic-tag">Akibat Pelanggaran</span>
+          <span class="topic-tag">Norma di Rumah</span>
+          <span class="topic-tag">Norma di Sekolah</span>
+          <span class="topic-tag">Norma di Masyarakat</span>
+        </div>
+        <div class="card-footer">
+          <a href="pentingnya-norma.html" class="btn-materi">Mulai Belajar <span>→</span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1rem;">
+      <a href="../index.html"
+         style="display:inline-flex; align-items:center; gap:.4rem; font-family:'Nunito',sans-serif;
+                font-size:.88rem; font-weight:600; color:var(--bab-primary); text-decoration:none;
+                border:1.5px solid var(--bab-primary); padding:.5rem 1rem; border-radius:.5rem;
+                transition:background .2s, color .2s;">
+        ← Kembali ke IPAS
+      </a>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 4 — Masyarakat yang Beradab
+  </footer>
+
+</body>
+</html>

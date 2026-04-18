@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-A: Norma | IPAS Kelas 4 Bab 4 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    .content-wrap {
+      max-width: 1140px; margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+    :root {
+      --bab-primary:    #3a5fa8;
+      --bab-primary-dk: #2a4580;
+      --bab-light:      #eef1fb;
+      --bab-accent:     #6585c9;
+    }
+
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff; padding: 2.5rem 2rem 2rem; position: relative; overflow: hidden;
+    }
+    .sub-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif; font-size: .8rem; color: rgba(255,255,255,.72);
+      margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: .3rem; align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.68); margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif; font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700; margin: 0 0 .8rem; color: #fff; max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif; font-size: .97rem;
+      color: rgba(255,255,255,.85); max-width: 640px; line-height: 1.65;
+    }
+    .sub-hero-icon { position: absolute; right: 1.5rem; bottom: 1rem; font-size: 4rem; opacity: .15; pointer-events: none; }
+
+    .toc-box {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem; padding: 1.4rem 1.6rem; margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 { font-family: 'Lora', serif; font-size: .95rem; color: var(--bab-primary-dk); margin: 0 0 .9rem; }
+    .toc-list {
+      list-style: none; margin: 0; padding: 0;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; color: var(--bab-primary);
+      text-decoration: none; display: flex; align-items: center; gap: .4rem; padding: .2rem 0; transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num { font-weight: 700; min-width: 1.5rem; color: var(--bab-accent); }
+
+    .prose h2 {
+      font-family: 'Lora', serif; font-size: 1.4rem; color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid var(--bab-primary);
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .prose h3 { font-family: 'Lora', serif; font-size: 1.1rem; color: var(--bab-primary-dk); margin: 2rem 0 .7rem; }
+    .prose p { font-family: 'Nunito', sans-serif; font-size: .97rem; color: var(--ink, #1a1f2e); line-height: 1.8; margin: 0 0 1rem; }
+
+    .info-box {
+      background: var(--bab-light); border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0; padding: 1.1rem 1.4rem; margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif; font-size: .93rem; line-height: 1.7; color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700; color: var(--bab-primary-dk); display: block;
+      margin-bottom: .3rem; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase;
+    }
+
+    .fact-box {
+      background: #f0f3fd; border: 1.5px solid var(--bab-accent); border-radius: .85rem;
+      padding: 1.2rem 1.4rem; margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase; color: var(--bab-accent); margin-bottom: .5rem;
+    }
+    .fact-box p { font-family: 'Nunito', sans-serif; font-size: .92rem; color: var(--ink, #1a1f2e); line-height: 1.7; margin: 0; }
+
+    /* ── Empat kartu jenis norma ── */
+    .norma-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin: 1.5rem 0 2.5rem;
+    }
+    .norma-card {
+      background: #fff;
+      border-radius: 1rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .norma-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(58,95,168,.12);
+    }
+    .nc-head {
+      padding: 1.1rem 1.3rem .85rem;
+      display: flex; align-items: center; gap: .75rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .nc-head.agama    { background: #fdf6e3; }
+    .nc-head.sopan    { background: #eef7f0; }
+    .nc-head.susila   { background: #fdeeed; }
+    .nc-head.hukum    { background: #eef1fb; }
+    .nc-icon { font-size: 1.7rem; flex-shrink: 0; }
+    .nc-head h3 { font-family: 'Lora', serif; font-size: 1rem; color: var(--ink, #1a1f2e); margin: 0; }
+    .nc-body { padding: .9rem 1.3rem 1.1rem; }
+    .nc-body p {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; color: #555; line-height: 1.65; margin: 0 0 .6rem;
+    }
+    .nc-row {
+      display: flex; gap: .5rem; margin-bottom: .4rem;
+    }
+    .nc-label {
+      font-family: 'Nunito', sans-serif; font-size: .77rem; font-weight: 700;
+      color: var(--bab-primary-dk); min-width: 80px; flex-shrink: 0;
+    }
+    .nc-val {
+      font-family: 'Nunito', sans-serif; font-size: .83rem; color: #555; line-height: 1.5;
+    }
+
+    /* ── Tabel ── */
+    .tabel-bab {
+      width: 100%; border-collapse: collapse;
+      font-family: 'Nunito', sans-serif; font-size: .88rem;
+      margin: 1rem 0 1.5rem; background: #fff;
+      border-radius: .75rem; overflow: hidden; border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-bab thead tr { background: var(--bab-primary); color: #fff; }
+    .tabel-bab th { padding: .75rem 1rem; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .tabel-bab td { padding: .65rem 1rem; color: var(--ink, #1a1f2e); line-height: 1.55; border-bottom: 1px solid var(--sand-dk, #ede8dc); }
+    .tabel-bab tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-bab tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Contoh norma per tempat ── */
+    .tempat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .tempat-card {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc); border-radius: .9rem; overflow: hidden;
+    }
+    .tc-head {
+      background: var(--bab-light); padding: .85rem 1.2rem .7rem;
+      display: flex; align-items: center; gap: .65rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .tc-emoji { font-size: 1.5rem; flex-shrink: 0; }
+    .tc-head h3 { font-family: 'Lora', serif; font-size: .97rem; color: var(--bab-primary-dk); margin: 0; }
+    .tc-body { padding: .85rem 1.2rem 1rem; }
+    .tc-list { list-style: none; margin: 0; padding: 0; }
+    .tc-list li {
+      font-family: 'Nunito', sans-serif; font-size: .86rem; color: var(--ink, #1a1f2e);
+      padding: .25rem 0; border-bottom: 1px dashed #eee; line-height: 1.5;
+      display: flex; gap: .5rem;
+    }
+    .tc-list li:last-child { border-bottom: none; }
+    .tc-list .check { color: var(--bab-accent); font-weight: 700; flex-shrink: 0; }
+
+    /* ── Ringkasan & nav ── */
+    .ringkasan {
+      background: var(--bab-primary); color: #fff; border-radius: 1rem; padding: 1.6rem 1.8rem; margin: 2.5rem 0;
+    }
+    .ringkasan h3 { font-family: 'Lora', serif; font-size: 1.05rem; color: #fff; margin: 0 0 1rem; }
+    .ringkasan ul {
+      margin: 0; padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif; font-size: .92rem; line-height: 1.8; color: rgba(255,255,255,.9);
+    }
+
+    .nav-bawah {
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem; margin-top: 3rem; padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700; color: var(--bab-primary);
+      text-decoration: none; display: inline-flex; align-items: center; gap: .4rem;
+      border: 1.5px solid var(--bab-primary); padding: .55rem 1.1rem;
+      border-radius: .55rem; transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <header class="sub-hero">
+    <div class="sub-hero-icon">📜</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a><span>›</span>
+        <a href="../../index.html">Kelas 4</a><span>›</span>
+        <a href="../index.html">IPAS</a><span>›</span>
+        <a href="materi.html">Bab 4</a><span>›</span>
+        <span>Sub-materi A</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 4 · Sub-materi A</p>
+      <h1>Norma</h1>
+      <p class="intro-text">
+        "Jangan berteriak di tempat umum." "Hormati orang yang lebih tua."
+        "Dilarang membuang sampah sembarangan." Semua itu adalah norma —
+        aturan yang membuat kita bisa hidup bersama dengan baik.
+      </p>
+    </div>
+  </header>
+
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#apa-itu-norma"><span class="toc-num">1</span> Apa Itu Norma?</a></li>
+        <li><a href="#dari-mana-norma"><span class="toc-num">2</span> Dari Mana Norma Berasal?</a></li>
+        <li><a href="#jenis-norma"><span class="toc-num">3</span> Jenis-jenis Norma</a></li>
+        <li><a href="#norma-agama"><span class="toc-num">4</span> Norma Agama</a></li>
+        <li><a href="#norma-sopan"><span class="toc-num">5</span> Norma Kesopanan</a></li>
+        <li><a href="#norma-susila"><span class="toc-num">6</span> Norma Kesusilaan</a></li>
+        <li><a href="#norma-hukum"><span class="toc-num">7</span> Norma Hukum</a></li>
+        <li><a href="#contoh-sehari"><span class="toc-num">8</span> Contoh Norma Sehari-hari</a></li>
+      </ul>
+    </div>
+
+    <!-- ════ 1. APA ITU NORMA ════ -->
+    <h2 id="apa-itu-norma"><span class="section-icon">📖</span> 1. Apa Itu Norma?</h2>
+
+    <p>
+      Manusia adalah makhluk sosial — kita tidak bisa hidup sendirian. Kita selalu
+      hidup bersama orang lain: di rumah bersama keluarga, di sekolah bersama teman,
+      di lingkungan bersama tetangga. Agar kehidupan bersama itu berjalan dengan tertib,
+      damai, dan saling menghormati, manusia membutuhkan <strong>norma</strong>.
+    </p>
+
+    <p>
+      <strong>Norma</strong> adalah aturan atau pedoman yang mengatur tingkah laku manusia
+      dalam kehidupan bermasyarakat. Norma menentukan mana perilaku yang dianggap baik
+      dan boleh dilakukan, serta mana yang dianggap buruk dan tidak boleh dilakukan.
+    </p>
+
+    <div class="info-box">
+      <span class="label">🔑 Asal Kata Norma</span>
+      Kata <em>norma</em> berasal dari bahasa Latin <em>norma</em> yang artinya
+      "aturan" atau "patokan." Dalam bahasa sehari-hari, norma sering disebut juga
+      <em>aturan</em>, <em>tata krama</em>, <em>kaidah</em>, atau <em>etika</em>.
+    </div>
+
+    <h3>Ciri-ciri Norma</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr><th>Ciri</th><th>Penjelasan</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Berlaku umum</strong></td>
+          <td>Norma berlaku bagi semua anggota masyarakat di suatu wilayah atau kelompok, bukan hanya untuk orang tertentu saja</td>
+        </tr>
+        <tr>
+          <td><strong>Ditaati bersama</strong></td>
+          <td>Norma diakui dan dipatuhi oleh anggota masyarakat sebagai kesepakatan bersama</td>
+        </tr>
+        <tr>
+          <td><strong>Ada sanksi</strong></td>
+          <td>Pelanggaran norma berakibat pada sanksi — bisa berupa teguran, rasa malu, dikucilkan, atau hukuman hukum</td>
+        </tr>
+        <tr>
+          <td><strong>Berubah seiring zaman</strong></td>
+          <td>Norma bisa berubah mengikuti perkembangan masyarakat, meski beberapa norma bersifat abadi</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 2. DARI MANA NORMA ════ -->
+    <h2 id="dari-mana-norma"><span class="section-icon">🌱</span> 2. Dari Mana Norma Berasal?</h2>
+
+    <p>
+      Norma tidak muncul begitu saja. Ada beberapa sumber yang melahirkan norma dalam kehidupan manusia:
+    </p>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr><th>Sumber Norma</th><th>Penjelasan</th><th>Contoh</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Agama / Kepercayaan</strong></td>
+          <td>Ajaran agama yang diyakini umatnya sebagai perintah Tuhan</td>
+          <td>Perintah untuk jujur, tidak mencuri, dan berbuat baik kepada sesama</td>
+        </tr>
+        <tr>
+          <td><strong>Adat Istiadat</strong></td>
+          <td>Kebiasaan turun-temurun yang diwariskan dan dijunjung tinggi masyarakat</td>
+          <td>Tradisi menghormati tamu, upacara pernikahan adat, pantangan setempat</td>
+        </tr>
+        <tr>
+          <td><strong>Kesepakatan Bersama</strong></td>
+          <td>Aturan yang dibuat dan disepakati oleh anggota masyarakat atau pemerintah</td>
+          <td>Peraturan RT/RW, tata tertib sekolah, undang-undang negara</td>
+        </tr>
+        <tr>
+          <td><strong>Hati Nurani</strong></td>
+          <td>Rasa batin manusia yang membedakan baik dan buruk secara alami</td>
+          <td>Merasa bersalah setelah berbohong, merasa tidak nyaman melihat orang kesakitan</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 3. JENIS-JENIS NORMA ════ -->
+    <h2 id="jenis-norma"><span class="section-icon">🔢</span> 3. Jenis-jenis Norma</h2>
+
+    <p>
+      Dalam kehidupan bermasyarakat, dikenal empat jenis norma utama.
+      Keempat norma ini saling melengkapi dan semuanya penting untuk dipatuhi:
+    </p>
+
+    <div class="norma-grid">
+
+      <div class="norma-card">
+        <div class="nc-head agama">
+          <div class="nc-icon">🙏</div>
+          <h3>Norma Agama</h3>
+        </div>
+        <div class="nc-body">
+          <p>Aturan hidup yang bersumber dari ajaran agama dan kepercayaan masing-masing.</p>
+          <div class="nc-row"><span class="nc-label">Sumber:</span><span class="nc-val">Kitab suci dan ajaran agama</span></div>
+          <div class="nc-row"><span class="nc-label">Sanksi:</span><span class="nc-val">Dosa, hukuman di akhirat</span></div>
+          <div class="nc-row"><span class="nc-label">Sifat:</span><span class="nc-val">Mutlak, berasal dari Tuhan</span></div>
+        </div>
+      </div>
+
+      <div class="norma-card">
+        <div class="nc-head sopan">
+          <div class="nc-icon">😊</div>
+          <h3>Norma Kesopanan</h3>
+        </div>
+        <div class="nc-body">
+          <p>Aturan yang lahir dari kebiasaan, adat, dan budaya masyarakat tentang cara bersikap yang pantas.</p>
+          <div class="nc-row"><span class="nc-label">Sumber:</span><span class="nc-val">Adat dan kebiasaan masyarakat</span></div>
+          <div class="nc-row"><span class="nc-label">Sanksi:</span><span class="nc-val">Dikucilkan, dianggap tidak sopan</span></div>
+          <div class="nc-row"><span class="nc-label">Sifat:</span><span class="nc-val">Relatif, beda daerah beda aturan</span></div>
+        </div>
+      </div>
+
+      <div class="norma-card">
+        <div class="nc-head susila">
+          <div class="nc-icon">💛</div>
+          <h3>Norma Kesusilaan</h3>
+        </div>
+        <div class="nc-body">
+          <p>Aturan yang bersumber dari hati nurani manusia — rasa batin tentang mana yang baik dan mana yang buruk.</p>
+          <div class="nc-row"><span class="nc-label">Sumber:</span><span class="nc-val">Hati nurani manusia</span></div>
+          <div class="nc-row"><span class="nc-label">Sanksi:</span><span class="nc-val">Rasa bersalah, malu pada diri sendiri</span></div>
+          <div class="nc-row"><span class="nc-label">Sifat:</span><span class="nc-val">Bersifat batin, dari dalam diri</span></div>
+        </div>
+      </div>
+
+      <div class="norma-card">
+        <div class="nc-head hukum">
+          <div class="nc-icon">⚖️</div>
+          <h3>Norma Hukum</h3>
+        </div>
+        <div class="nc-body">
+          <p>Aturan yang dibuat secara resmi oleh negara dan bersifat memaksa bagi seluruh warga negara.</p>
+          <div class="nc-row"><span class="nc-label">Sumber:</span><span class="nc-val">Negara / pemerintah</span></div>
+          <div class="nc-row"><span class="nc-label">Sanksi:</span><span class="nc-val">Denda, penjara, sanksi resmi</span></div>
+          <div class="nc-row"><span class="nc-label">Sifat:</span><span class="nc-val">Memaksa, tertulis, berlaku merata</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ════ 4. NORMA AGAMA ════ -->
+    <h2 id="norma-agama"><span class="section-icon">🙏</span> 4. Norma Agama</h2>
+
+    <p>
+      Norma agama adalah aturan hidup yang bersumber dari ajaran agama atau kepercayaan yang dianut
+      seseorang. Norma ini diyakini sebagai perintah dan larangan langsung dari Tuhan, sehingga
+      patuhannya bersifat sangat kuat — bukan karena takut pada orang lain, tapi karena keyakinan.
+    </p>
+    <p>
+      Norma agama mengatur hubungan manusia dengan Tuhannya (<em>ibadah</em>), hubungan manusia
+      dengan sesama manusia (<em>muamalah</em>), dan hubungan manusia dengan alam sekitarnya.
+    </p>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr><th>Agama</th><th>Contoh Norma</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Islam</strong></td>
+          <td>Salat lima waktu, berpuasa di bulan Ramadan, tidak berbohong, tidak mencuri, menghormati orang tua</td>
+        </tr>
+        <tr>
+          <td><strong>Kristen & Katolik</strong></td>
+          <td>Mengasihi sesama, tidak membunuh, tidak mencuri, beribadah pada hari Minggu, berbuat jujur</td>
+        </tr>
+        <tr>
+          <td><strong>Hindu</strong></td>
+          <td>Menjalankan Tri Hita Karana (harmoni dengan Tuhan, sesama, dan alam), tidak menyakiti makhluk hidup</td>
+        </tr>
+        <tr>
+          <td><strong>Buddha</strong></td>
+          <td>Tidak membunuh, tidak mencuri, tidak berbohong, tidak mabuk, bersikap welas asih kepada semua makhluk</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">💡 Persamaan Norma Agama</span>
+      Meskipun setiap agama memiliki cara ibadah yang berbeda, ada nilai-nilai inti yang hampir
+      sama di semua agama: <strong>jujur, tidak mencuri, menghormati orang tua, dan tidak menyakiti
+      orang lain</strong>. Ini menunjukkan bahwa nilai-nilai kebaikan bersifat universal —
+      diakui baik oleh semua manusia di seluruh dunia.
+    </div>
+
+    <!-- ════ 5. NORMA KESOPANAN ════ -->
+    <h2 id="norma-sopan"><span class="section-icon">😊</span> 5. Norma Kesopanan</h2>
+
+    <p>
+      Norma kesopanan adalah aturan yang lahir dari kebiasaan, tradisi, dan budaya masyarakat.
+      Norma ini mengatur bagaimana cara kita bersikap yang dianggap pantas dan sopan di mata
+      orang lain. Karena bersumber dari budaya, norma kesopanan bisa berbeda-beda antar daerah
+      dan antar bangsa.
+    </p>
+
+    <div class="fact-box">
+      <p class="fact-label">🌏 Norma Kesopanan Berbeda di Setiap Budaya</p>
+      <p>
+        Di Indonesia, mengangguk adalah tanda setuju. Di Bulgaria, mengangguk justru berarti
+        "tidak"! Di Jepang, menghirup sup dengan suara keras adalah tanda bahwa makanannya
+        enak — tapi di Indonesia hal itu dianggap tidak sopan. Ini menunjukkan bahwa norma
+        kesopanan sangat dipengaruhi oleh budaya setempat.
+      </p>
+    </div>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr><th>Situasi</th><th>Contoh Norma Kesopanan</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Berbicara</strong></td>
+          <td>Menggunakan bahasa yang sopan, tidak memotong pembicaraan orang lain, tidak berteriak</td>
+        </tr>
+        <tr>
+          <td><strong>Bertamu</strong></td>
+          <td>Mengetuk pintu sebelum masuk, mengucapkan salam, tidak duduk sebelum dipersilakan</td>
+        </tr>
+        <tr>
+          <td><strong>Makan</strong></td>
+          <td>Tidak berbicara saat mulut penuh, makan dengan tangan kanan, tidak mencela makanan</td>
+        </tr>
+        <tr>
+          <td><strong>Berpakaian</strong></td>
+          <td>Memakai pakaian yang sesuai situasi dan tempat — berbeda untuk sekolah, tempat ibadah, dan pesta</td>
+        </tr>
+        <tr>
+          <td><strong>Di jalan</strong></td>
+          <td>Mendahulukan orang tua dan penyandang disabilitas, memberi salam kepada tetangga yang dikenal</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">🎋 Norma Kesopanan Sunda</span>
+      Dalam budaya Sunda, norma kesopanan sangat kental. Tata bahasa Sunda yang mengenal
+      <em>undak usuk</em> (tingkatan bahasa) adalah cerminan norma kesopanan: berbicara
+      dengan bahasa yang berbeda kepada orang yang lebih muda, sebaya, dan yang lebih tua.
+      Ada pula norma <em>"ulah ngomong ka kolot bari noel"</em> — jangan berbicara kepada
+      orang tua sambil menunjuk — yang mencerminkan rasa hormat mendalam kepada orang yang lebih tua.
+    </div>
+
+    <!-- ════ 6. NORMA KESUSILAAN ════ -->
+    <h2 id="norma-susila"><span class="section-icon">💛</span> 6. Norma Kesusilaan</h2>
+
+    <p>
+      Norma kesusilaan adalah aturan yang bersumber dari <strong>hati nurani</strong> manusia.
+      Norma ini mengatur perilaku yang dianggap baik atau buruk berdasarkan rasa keadilan
+      dan kemanusiaan yang dimiliki setiap orang secara alami — bukan karena diperintah agama
+      atau dilarang hukum, tapi karena hati kecil kita berkata demikian.
+    </p>
+
+    <p>
+      Ketika kamu melihat teman yang jatuh dan kamu merasa terdorong untuk menolongnya —
+      itulah norma kesusilaan bekerja. Ketika kamu berbohong dan merasa tidak nyaman setelahnya —
+      itulah sanksi norma kesusilaan, yaitu rasa bersalah.
+    </p>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr><th>Perilaku yang Sesuai Norma Kesusilaan</th><th>Perilaku yang Melanggar Norma Kesusilaan</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Menolong orang yang membutuhkan</td>
+          <td>Membiarkan orang yang sedang kesusahan tanpa peduli</td>
+        </tr>
+        <tr>
+          <td>Berbicara jujur meskipun sulit</td>
+          <td>Berbohong untuk keuntungan diri sendiri</td>
+        </tr>
+        <tr>
+          <td>Mengembalikan barang yang bukan milik kita</td>
+          <td>Menyimpan barang temuan tanpa mencari pemiliknya</td>
+        </tr>
+        <tr>
+          <td>Mengakui kesalahan dan meminta maaf</td>
+          <td>Menyalahkan orang lain atas kesalahan yang kita buat</td>
+        </tr>
+        <tr>
+          <td>Tidak mencontek saat ulangan</td>
+          <td>Mencontek karena tidak mau belajar</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 7. NORMA HUKUM ════ -->
+    <h2 id="norma-hukum"><span class="section-icon">⚖️</span> 7. Norma Hukum</h2>
+
+    <p>
+      Norma hukum adalah aturan yang dibuat secara resmi oleh negara melalui lembaga-lembaga
+      yang berwenang, seperti pemerintah dan DPR. Norma hukum bersifat <strong>memaksa</strong> —
+      artinya semua warga negara wajib mematuhinya, dan yang melanggar akan dikenai sanksi
+      yang tegas seperti denda atau hukuman penjara.
+    </p>
+
+    <p>
+      Berbeda dengan norma lainnya yang sanksinya lebih bersifat sosial (dikucilkan, merasa malu),
+      sanksi norma hukum bersifat resmi dan dilaksanakan oleh aparat negara.
+    </p>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr><th>Contoh Norma Hukum</th><th>Sanksi Pelanggaran</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dilarang mencuri</td>
+          <td>Dipenjara sesuai pasal pencurian dalam KUHP</td>
+        </tr>
+        <tr>
+          <td>Wajib memakai helm saat mengendarai motor</td>
+          <td>Ditilang polisi dan dikenai denda</td>
+        </tr>
+        <tr>
+          <td>Dilarang membuang sampah di sungai</td>
+          <td>Denda sesuai peraturan daerah setempat</td>
+        </tr>
+        <tr>
+          <td>Wajib memiliki KTP bagi yang sudah berusia 17 tahun</td>
+          <td>Tidak dapat mengakses layanan publik tertentu</td>
+        </tr>
+        <tr>
+          <td>Anak wajib bersekolah minimal 12 tahun</td>
+          <td>Orang tua dapat dikenai sanksi jika sengaja tidak menyekolahkan anak</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="fact-box">
+      <p class="fact-label">⚖️ Norma Hukum Melindungi Kita Semua</p>
+      <p>
+        Hukum bukan sekadar alat menghukum — hukum terutama berfungsi untuk
+        <strong>melindungi hak setiap orang</strong>. Karena ada hukum yang melarang mencuri,
+        barang kita aman. Karena ada hukum lalu lintas, jalan raya lebih tertib dan aman.
+        Hukum adalah bentuk kesepakatan tertinggi dalam masyarakat untuk saling menjaga dan
+        melindungi satu sama lain.
+      </p>
+    </div>
+
+    <!-- ════ 8. CONTOH SEHARI-HARI ════ -->
+    <h2 id="contoh-sehari"><span class="section-icon">🏡</span> 8. Contoh Norma dalam Kehidupan Sehari-hari</h2>
+
+    <p>
+      Norma hadir di setiap tempat kita berada. Yuk kenali norma-norma yang berlaku
+      di tiga lingkungan terdekat kita:
+    </p>
+
+    <div class="tempat-grid">
+      <div class="tempat-card">
+        <div class="tc-head">
+          <div class="tc-emoji">🏠</div>
+          <h3>Di Rumah</h3>
+        </div>
+        <div class="tc-body">
+          <ul class="tc-list">
+            <li><span class="check">✓</span> Menghormati dan mematuhi orang tua</li>
+            <li><span class="check">✓</span> Menyapa anggota keluarga saat bertemu</li>
+            <li><span class="check">✓</span> Membantu pekerjaan rumah sesuai kemampuan</li>
+            <li><span class="check">✓</span> Tidak berteriak atau membuat gaduh</li>
+            <li><span class="check">✓</span> Meminta izin saat ingin pergi</li>
+            <li><span class="check">✓</span> Menjaga kebersihan dan kerapian rumah</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tempat-card">
+        <div class="tc-head">
+          <div class="tc-emoji">🏫</div>
+          <h3>Di Sekolah</h3>
+        </div>
+        <div class="tc-body">
+          <ul class="tc-list">
+            <li><span class="check">✓</span> Datang tepat waktu</li>
+            <li><span class="check">✓</span> Menghormati guru dan tenaga pendidik</li>
+            <li><span class="check">✓</span> Tidak mencontek saat ulangan</li>
+            <li><span class="check">✓</span> Membuang sampah pada tempatnya</li>
+            <li><span class="check">✓</span> Mengantre dengan tertib</li>
+            <li><span class="check">✓</span> Tidak mengejek atau mem-bully teman</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tempat-card">
+        <div class="tc-head">
+          <div class="tc-emoji">🏘️</div>
+          <h3>Di Masyarakat</h3>
+        </div>
+        <div class="tc-body">
+          <ul class="tc-list">
+            <li><span class="check">✓</span> Menyapa tetangga dengan ramah</li>
+            <li><span class="check">✓</span> Tidak membuang sampah sembarangan</li>
+            <li><span class="check">✓</span> Menjaga ketenangan di malam hari</li>
+            <li><span class="check">✓</span> Ikut serta gotong royong</li>
+            <li><span class="check">✓</span> Menghargai perbedaan agama dan budaya</li>
+            <li><span class="check">✓</span> Mematuhi rambu lalu lintas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi A</h3>
+      <ul>
+        <li><strong>Norma</strong> adalah aturan atau pedoman yang mengatur tingkah laku manusia dalam kehidupan bersama agar tercipta ketertiban, keamanan, dan saling menghormati.</li>
+        <li>Norma berasal dari berbagai sumber: <strong>agama, adat istiadat, kesepakatan bersama,</strong> dan <strong>hati nurani</strong>.</li>
+        <li>Ada empat jenis norma utama: <strong>norma agama</strong> (bersumber dari Tuhan), <strong>norma kesopanan</strong> (dari budaya), <strong>norma kesusilaan</strong> (dari hati nurani), dan <strong>norma hukum</strong> (dari negara).</li>
+        <li>Setiap norma memiliki sanksi yang berbeda: dosa (agama), dikucilkan (kesopanan), rasa bersalah (kesusilaan), dan hukuman resmi (hukum).</li>
+        <li>Norma hadir di mana-mana — di rumah, di sekolah, dan di masyarakat — dan semuanya penting untuk kita patuhi.</li>
+      </ul>
+    </div>
+
+    <div class="nav-bawah">
+      <a href="materi.html">← Kembali ke Bab 4</a>
+      <a href="pentingnya-norma.html" class="btn-next">Sub-B: Pentingnya Norma →</a>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 4, Sub-A — Norma
+  </footer>
+
+</body>
+</html>

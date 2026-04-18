@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-B: Pentingnya Norma | IPAS Kelas 4 Bab 4 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    .content-wrap {
+      max-width: 1140px; margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+    :root {
+      --bab-primary:    #3a5fa8;
+      --bab-primary-dk: #2a4580;
+      --bab-light:      #eef1fb;
+      --bab-accent:     #6585c9;
+    }
+
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff; padding: 2.5rem 2rem 2rem; position: relative; overflow: hidden;
+    }
+    .sub-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif; font-size: .8rem; color: rgba(255,255,255,.72);
+      margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: .3rem; align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.68); margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif; font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700; margin: 0 0 .8rem; color: #fff; max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif; font-size: .97rem;
+      color: rgba(255,255,255,.85); max-width: 640px; line-height: 1.65;
+    }
+    .sub-hero-icon { position: absolute; right: 1.5rem; bottom: 1rem; font-size: 4rem; opacity: .15; pointer-events: none; }
+
+    .toc-box {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem; padding: 1.4rem 1.6rem; margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 { font-family: 'Lora', serif; font-size: .95rem; color: var(--bab-primary-dk); margin: 0 0 .9rem; }
+    .toc-list {
+      list-style: none; margin: 0; padding: 0;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; color: var(--bab-primary);
+      text-decoration: none; display: flex; align-items: center; gap: .4rem; padding: .2rem 0; transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num { font-weight: 700; min-width: 1.5rem; color: var(--bab-accent); }
+
+    .prose h2 {
+      font-family: 'Lora', serif; font-size: 1.4rem; color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid var(--bab-primary);
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .prose h3 { font-family: 'Lora', serif; font-size: 1.1rem; color: var(--bab-primary-dk); margin: 2rem 0 .7rem; }
+    .prose p { font-family: 'Nunito', sans-serif; font-size: .97rem; color: var(--ink, #1a1f2e); line-height: 1.8; margin: 0 0 1rem; }
+
+    .info-box {
+      background: var(--bab-light); border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0; padding: 1.1rem 1.4rem; margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif; font-size: .93rem; line-height: 1.7; color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700; color: var(--bab-primary-dk); display: block;
+      margin-bottom: .3rem; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase;
+    }
+
+    .fact-box {
+      background: #f0f3fd; border: 1.5px solid var(--bab-accent); border-radius: .85rem;
+      padding: 1.2rem 1.4rem; margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase; color: var(--bab-accent); margin-bottom: .5rem;
+    }
+    .fact-box p { font-family: 'Nunito', sans-serif; font-size: .92rem; color: var(--ink, #1a1f2e); line-height: 1.7; margin: 0; }
+
+    /* ── Kartu manfaat norma ── */
+    .manfaat-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.1rem; margin: 1.5rem 0 2rem;
+    }
+    .manfaat-card {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .9rem; padding: 1.2rem;
+      display: flex; gap: .85rem; align-items: flex-start;
+      transition: box-shadow .2s;
+    }
+    .manfaat-card:hover { box-shadow: 0 4px 16px rgba(58,95,168,.10); }
+    .mc-icon {
+      font-size: 1.7rem; flex-shrink: 0; width: 2.6rem; height: 2.6rem;
+      background: var(--bab-light); border-radius: .55rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .manfaat-card h3 { font-family: 'Nunito', sans-serif; font-size: .92rem; font-weight: 700; color: var(--bab-primary-dk); margin: 0 0 .3rem; }
+    .manfaat-card p { font-family: 'Nunito', sans-serif; font-size: .85rem; color: #666; line-height: 1.6; margin: 0; }
+
+    /* ── Skenario: dengan vs tanpa norma ── */
+    .skenario-box {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0 2rem;
+    }
+    @media (max-width: 520px) { .skenario-box { grid-template-columns: 1fr; } }
+    .skenario-card { border-radius: .9rem; padding: 1.2rem 1.4rem; }
+    .skenario-card.ada   { background: #eef7f0; border: 1.5px solid #5aad6a; }
+    .skenario-card.tidak { background: #fdeeed; border: 1.5px solid #e07070; }
+    .skenario-card h3 {
+      font-family: 'Lora', serif; font-size: .97rem; margin: 0 0 .8rem;
+      display: flex; align-items: center; gap: .4rem;
+    }
+    .skenario-card.ada h3   { color: #1f5828; }
+    .skenario-card.tidak h3 { color: #8b2020; }
+    .skenario-card ul {
+      margin: 0; padding-left: 1.2rem;
+      font-family: 'Nunito', sans-serif; font-size: .87rem; line-height: 1.75; color: var(--ink, #1a1f2e);
+    }
+
+    /* ── Tabel akibat pelanggaran ── */
+    .tabel-bab {
+      width: 100%; border-collapse: collapse; font-family: 'Nunito', sans-serif; font-size: .88rem;
+      margin: 1rem 0 1.5rem; background: #fff; border-radius: .75rem; overflow: hidden; border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-bab thead tr { background: var(--bab-primary); color: #fff; }
+    .tabel-bab th { padding: .75rem 1rem; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .tabel-bab td { padding: .65rem 1rem; color: var(--ink, #1a1f2e); line-height: 1.55; border-bottom: 1px solid var(--sand-dk, #ede8dc); }
+    .tabel-bab tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-bab tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Kartu norma per lingkungan ── */
+    .lingkungan-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem; margin: 1.5rem 0 2rem;
+    }
+    .ling-card {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc); border-radius: 1rem; overflow: hidden;
+    }
+    .lc-head {
+      background: var(--bab-light); padding: 1rem 1.3rem .85rem;
+      display: flex; align-items: center; gap: .75rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .lc-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .lc-head h3 { font-family: 'Lora', serif; font-size: 1rem; color: var(--bab-primary-dk); margin: 0 0 .1rem; }
+    .lc-sub { font-family: 'Nunito', sans-serif; font-size: .77rem; color: #777; }
+    .lc-body { padding: 1rem 1.3rem 1.1rem; }
+    .lc-body p { font-family: 'Nunito', sans-serif; font-size: .88rem; color: #555; line-height: 1.65; margin: 0 0 .75rem; }
+    .norma-tag-list { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .norma-tag {
+      font-family: 'Nunito', sans-serif; font-size: .73rem; font-weight: 600;
+      background: var(--bab-light); color: var(--bab-primary-dk); padding: .2rem .6rem; border-radius: 2rem;
+    }
+
+    /* ── Kartu peran siswa ── */
+    .peran-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 1rem; margin: 1.5rem 0 2rem;
+    }
+    .peran-card {
+      background: #fff; border: 1.5px solid var(--sand-dk, #ede8dc); border-radius: .85rem;
+      padding: 1.1rem; display: flex; gap: .8rem; align-items: flex-start;
+    }
+    .peran-num {
+      font-family: 'Lora', serif; font-size: 1.4rem; font-weight: 700;
+      color: var(--bab-accent); line-height: 1; flex-shrink: 0; padding-top: .1rem;
+    }
+    .peran-card h3 { font-family: 'Nunito', sans-serif; font-size: .9rem; font-weight: 700; color: var(--bab-primary-dk); margin: 0 0 .25rem; }
+    .peran-card p { font-family: 'Nunito', sans-serif; font-size: .83rem; color: #666; line-height: 1.55; margin: 0; }
+
+    /* ── Penutup ── */
+    .penutup-box {
+      background: linear-gradient(135deg, var(--bab-primary-dk), var(--bab-primary));
+      border-radius: 1.1rem; padding: 2rem; margin: 2.5rem 0; color: #fff; text-align: center;
+    }
+    .penutup-box .penutup-icon { font-size: 2.5rem; margin-bottom: .8rem; }
+    .penutup-box h3 { font-family: 'Lora', serif; font-size: 1.2rem; color: #fff; margin: 0 0 .8rem; }
+    .penutup-box p {
+      font-family: 'Nunito', sans-serif; font-size: .95rem; color: rgba(255,255,255,.88);
+      line-height: 1.75; max-width: 560px; margin: 0 auto;
+    }
+
+    .ringkasan {
+      background: var(--bab-primary); color: #fff; border-radius: 1rem; padding: 1.6rem 1.8rem; margin: 2.5rem 0;
+    }
+    .ringkasan h3 { font-family: 'Lora', serif; font-size: 1.05rem; color: #fff; margin: 0 0 1rem; }
+    .ringkasan ul {
+      margin: 0; padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif; font-size: .92rem; line-height: 1.8; color: rgba(255,255,255,.9);
+    }
+
+    .nav-bawah {
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem; margin-top: 3rem; padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700; color: var(--bab-primary);
+      text-decoration: none; display: inline-flex; align-items: center; gap: .4rem;
+      border: 1.5px solid var(--bab-primary); padding: .55rem 1.1rem;
+      border-radius: .55rem; transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-hub { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-hub:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <header class="sub-hero">
+    <div class="sub-hero-icon">🤝</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a><span>›</span>
+        <a href="../../index.html">Kelas 4</a><span>›</span>
+        <a href="../index.html">IPAS</a><span>›</span>
+        <a href="materi.html">Bab 4</a><span>›</span>
+        <span>Sub-materi B</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 4 · Sub-materi B</p>
+      <h1>Pentingnya Norma di Dalam Lingkungan Masyarakat</h1>
+      <p class="intro-text">
+        Apa jadinya dunia tanpa norma? Dan apa yang bisa kita lakukan sebagai
+        anggota masyarakat untuk menjaga norma tetap hidup di sekitar kita?
+      </p>
+    </div>
+  </header>
+
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#mengapa-penting"><span class="toc-num">1</span> Mengapa Norma Sangat Penting?</a></li>
+        <li><a href="#manfaat-norma"><span class="toc-num">2</span> Manfaat Norma bagi Kehidupan</a></li>
+        <li><a href="#dengan-tanpa"><span class="toc-num">3</span> Masyarakat dengan dan tanpa Norma</a></li>
+        <li><a href="#akibat-pelanggaran"><span class="toc-num">4</span> Akibat Melanggar Norma</a></li>
+        <li><a href="#norma-lingkungan"><span class="toc-num">5</span> Norma di Berbagai Lingkungan</a></li>
+        <li><a href="#peran-kita"><span class="toc-num">6</span> Peran Kita dalam Menjaga Norma</a></li>
+      </ul>
+    </div>
+
+    <!-- ════ 1. MENGAPA PENTING ════ -->
+    <h2 id="mengapa-penting"><span class="section-icon">❓</span> 1. Mengapa Norma Sangat Penting?</h2>
+
+    <p>
+      Bayangkan kamu sedang bermain bola. Tidak ada peraturan — siapa saja boleh memegang bola
+      dengan tangan, boleh mendorong lawan, boleh memasukkan gol ke gawang mana saja.
+      Kira-kira apa yang akan terjadi? Pertandingan tidak akan berjalan, semua orang bingung
+      dan akhirnya malah ribut.
+    </p>
+    <p>
+      Kehidupan bermasyarakat persis seperti permainan itu. Tanpa norma — tanpa aturan yang
+      disepakati bersama — manusia akan hidup dalam kekacauan. Norma adalah "peraturan permainan"
+      kehidupan bersama yang memungkinkan kita bisa hidup berdampingan dengan damai.
+    </p>
+
+    <div class="info-box">
+      <span class="label">🔑 Fungsi Utama Norma</span>
+      Norma berfungsi sebagai <strong>pedoman perilaku</strong> — memberi tahu kita apa yang
+      boleh dan tidak boleh dilakukan. Norma juga berfungsi sebagai <strong>pelindung</strong> —
+      melindungi hak dan kepentingan setiap orang dari perilaku orang lain yang merugikan.
+    </div>
+
+    <!-- ════ 2. MANFAAT NORMA ════ -->
+    <h2 id="manfaat-norma"><span class="section-icon">✨</span> 2. Manfaat Norma bagi Kehidupan</h2>
+
+    <p>
+      Norma memberikan banyak manfaat nyata bagi kehidupan kita sehari-hari:
+    </p>
+
+    <div class="manfaat-grid">
+      <div class="manfaat-card">
+        <div class="mc-icon">🕊️</div>
+        <div>
+          <h3>Menciptakan Ketertiban</h3>
+          <p>Norma mengatur perilaku sehingga kehidupan berjalan tertib — tidak ada yang bertindak semau sendiri tanpa peduli orang lain.</p>
+        </div>
+      </div>
+      <div class="manfaat-card">
+        <div class="mc-icon">🛡️</div>
+        <div>
+          <h3>Melindungi Hak Setiap Orang</h3>
+          <p>Norma memastikan hak setiap orang dihormati — hak untuk merasa aman, hak atas milik sendiri, hak untuk diperlakukan adil.</p>
+        </div>
+      </div>
+      <div class="manfaat-card">
+        <div class="mc-icon">🤝</div>
+        <div>
+          <h3>Mempererat Hubungan Sosial</h3>
+          <p>Norma sopan santun membuat interaksi antar manusia menjadi menyenangkan dan saling menghargai, bukan saling menyakiti.</p>
+        </div>
+      </div>
+      <div class="manfaat-card">
+        <div class="mc-icon">⚖️</div>
+        <div>
+          <h3>Menciptakan Keadilan</h3>
+          <p>Norma, terutama norma hukum, memastikan semua orang diperlakukan sama dan adil — tidak ada yang boleh bertindak sewenang-wenang.</p>
+        </div>
+      </div>
+      <div class="manfaat-card">
+        <div class="mc-icon">🌱</div>
+        <div>
+          <h3>Membentuk Karakter</h3>
+          <p>Dengan terbiasa mematuhi norma sejak kecil, kita tumbuh menjadi pribadi yang berakhlak baik, bertanggung jawab, dan peduli sesama.</p>
+        </div>
+      </div>
+      <div class="manfaat-card">
+        <div class="mc-icon">🏘️</div>
+        <div>
+          <h3>Menjaga Keutuhan Masyarakat</h3>
+          <p>Norma menjadi perekat sosial yang menyatukan masyarakat yang beragam latar belakang agar bisa hidup rukun dan berdampingan.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════ 3. DENGAN DAN TANPA NORMA ════ -->
+    <h2 id="dengan-tanpa"><span class="section-icon">🔄</span> 3. Masyarakat Dengan dan Tanpa Norma</h2>
+
+    <p>
+      Coba kita bandingkan bagaimana kehidupan sehari-hari yang sama bisa terasa sangat berbeda
+      tergantung ada atau tidaknya norma yang dipatuhi:
+    </p>
+
+    <div class="skenario-box">
+      <div class="skenario-card ada">
+        <h3>✅ Dengan Norma</h3>
+        <ul>
+          <li>Jalan raya tertib karena semua mematuhi rambu lalu lintas</li>
+          <li>Antrean di kasir berjalan lancar karena semua mengantre dengan tertib</li>
+          <li>Kelas kondusif karena siswa menghormati guru dan tidak gaduh</li>
+          <li>Tetangga hidup rukun karena tidak ada yang membuang sampah di depan rumah orang lain</li>
+          <li>Milik orang terjaga karena ada norma yang melarang mencuri</li>
+          <li>Semua orang merasa aman dan nyaman</li>
+        </ul>
+      </div>
+      <div class="skenario-card tidak">
+        <h3>❌ Tanpa Norma</h3>
+        <ul>
+          <li>Jalan raya kacau — semua berkendara sesukanya, kecelakaan di mana-mana</li>
+          <li>Orang saling serobot, yang lebih kuat selalu menang</li>
+          <li>Tidak ada yang mau mendengarkan, semua mau didengar</li>
+          <li>Lingkungan kotor dan tidak terawat karena tidak ada yang peduli</li>
+          <li>Barang mudah hilang karena tidak ada yang melarang mengambil milik orang lain</li>
+          <li>Semua orang merasa tidak aman dan saling curiga</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <p class="fact-label">📚 Kisah Tanpa Hukum</p>
+      <p>
+        Novel terkenal berjudul <em>Lord of the Flies</em> karya William Golding menceritakan
+        sekelompok anak-anak yang terdampar di pulau terpencil tanpa orang dewasa dan tanpa aturan.
+        Awalnya mereka mencoba hidup teratur, tapi tanpa norma yang dijaga bersama,
+        kehidupan mereka perlahan berubah menjadi kacau dan penuh kekerasan.
+        Kisah fiksi ini menggambarkan dengan kuat betapa pentingnya norma bagi kehidupan bersama.
+      </p>
+    </div>
+
+    <!-- ════ 4. AKIBAT PELANGGARAN ════ -->
+    <h2 id="akibat-pelanggaran"><span class="section-icon">⚠️</span> 4. Akibat Melanggar Norma</h2>
+
+    <p>
+      Setiap norma memiliki sanksi bagi yang melanggarnya. Sanksi ini bukan semata-mata
+      hukuman, tapi juga cara masyarakat melindungi diri dan mendorong setiap anggotanya
+      untuk kembali ke perilaku yang baik.
+    </p>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Jenis Norma</th>
+          <th>Contoh Pelanggaran</th>
+          <th>Akibat / Sanksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Norma Agama</strong></td>
+          <td>Berbohong, tidak jujur, tidak beribadah</td>
+          <td>Rasa dosa, merasa bersalah di hadapan Tuhan, sanksi di akhirat menurut kepercayaan masing-masing</td>
+        </tr>
+        <tr>
+          <td><strong>Norma Kesopanan</strong></td>
+          <td>Berbicara kasar kepada orang tua, tidak memberi salam, berpakaian tidak pantas</td>
+          <td>Ditegur, dianggap tidak sopan, dijauhi teman, dicap sebagai orang yang tidak beradab</td>
+        </tr>
+        <tr>
+          <td><strong>Norma Kesusilaan</strong></td>
+          <td>Berbohong demi keuntungan sendiri, tidak menolong yang butuh bantuan</td>
+          <td>Merasa bersalah, kehilangan kepercayaan diri, dijauhi teman yang tahu perbuatannya</td>
+        </tr>
+        <tr>
+          <td><strong>Norma Hukum</strong></td>
+          <td>Mencuri, membuang sampah sembarangan, menerobos lampu merah</td>
+          <td>Ditilang, didenda, dipenjara, mendapat catatan kriminal sesuai aturan yang berlaku</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">💭 Sanksi Sosial Kadang Lebih Kuat dari Hukum</span>
+      Terkadang, sanksi sosial — seperti dijauhi tetangga, tidak dipercaya teman, atau
+      dianggap tidak beradab — jauh lebih terasa dampaknya daripada sanksi hukum.
+      Ini karena manusia adalah makhluk sosial yang sangat membutuhkan penerimaan dan
+      penghargaan dari orang lain di sekitarnya.
+    </div>
+
+    <!-- ════ 5. NORMA DI LINGKUNGAN ════ -->
+    <h2 id="norma-lingkungan"><span class="section-icon">🏘️</span> 5. Norma di Berbagai Lingkungan</h2>
+
+    <p>
+      Norma berlaku di setiap lingkungan tempat kita berada. Di setiap tempat, norma yang
+      berlaku bisa sedikit berbeda sesuai dengan tujuan dan nilai-nilai yang dijaga di sana:
+    </p>
+
+    <div class="lingkungan-grid">
+
+      <div class="ling-card">
+        <div class="lc-head">
+          <div class="lc-icon">🏠</div>
+          <div>
+            <h3>Lingkungan Keluarga</h3>
+            <p class="lc-sub">Norma yang berlaku di dalam rumah</p>
+          </div>
+        </div>
+        <div class="lc-body">
+          <p>Keluarga adalah tempat pertama kita belajar norma. Di sinilah karakter dan kebiasaan kita dibentuk. Norma keluarga yang baik menciptakan rumah yang hangat, aman, dan penuh kasih sayang.</p>
+          <div class="norma-tag-list">
+            <span class="norma-tag">Menghormati orang tua</span>
+            <span class="norma-tag">Menyayangi adik-kakak</span>
+            <span class="norma-tag">Menjaga kebersihan rumah</span>
+            <span class="norma-tag">Jujur dalam keluarga</span>
+            <span class="norma-tag">Saling membantu</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ling-card">
+        <div class="lc-head">
+          <div class="lc-icon">🏫</div>
+          <div>
+            <h3>Lingkungan Sekolah</h3>
+            <p class="lc-sub">Norma yang berlaku di sekolah</p>
+          </div>
+        </div>
+        <div class="lc-body">
+          <p>Sekolah adalah tempat belajar ilmu sekaligus belajar hidup bersama dalam kelompok yang lebih besar. Norma sekolah menciptakan suasana belajar yang kondusif dan hubungan yang saling menghargai.</p>
+          <div class="norma-tag-list">
+            <span class="norma-tag">Disiplin waktu</span>
+            <span class="norma-tag">Menghormati guru</span>
+            <span class="norma-tag">Tidak mem-bully</span>
+            <span class="norma-tag">Jujur saat ulangan</span>
+            <span class="norma-tag">Merawat fasilitas sekolah</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ling-card">
+        <div class="lc-head">
+          <div class="lc-icon">🏘️</div>
+          <div>
+            <h3>Lingkungan Masyarakat</h3>
+            <p class="lc-sub">Norma yang berlaku di lingkungan sekitar</p>
+          </div>
+        </div>
+        <div class="lc-body">
+          <p>Di masyarakat kita berinteraksi dengan lebih banyak orang yang berlatar belakang berbeda. Norma masyarakat menjaga kerukunan dan memastikan semua warga bisa hidup nyaman berdampingan.</p>
+          <div class="norma-tag-list">
+            <span class="norma-tag">Gotong royong</span>
+            <span class="norma-tag">Tidak berisik malam hari</span>
+            <span class="norma-tag">Menghargai perbedaan</span>
+            <span class="norma-tag">Mematuhi aturan RT/RW</span>
+            <span class="norma-tag">Menjaga kebersihan lingkungan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ling-card">
+        <div class="lc-head">
+          <div class="lc-icon">🌐</div>
+          <div>
+            <h3>Lingkungan Berbangsa dan Bernegara</h3>
+            <p class="lc-sub">Norma sebagai warga negara Indonesia</p>
+          </div>
+        </div>
+        <div class="lc-body">
+          <p>Sebagai warga negara Indonesia, kita juga punya tanggung jawab mematuhi norma-norma yang berlaku di tingkat nasional demi menjaga keutuhan dan kemajuan bangsa.</p>
+          <div class="norma-tag-list">
+            <span class="norma-tag">Menghormati lambang negara</span>
+            <span class="norma-tag">Membayar pajak</span>
+            <span class="norma-tag">Menjaga persatuan</span>
+            <span class="norma-tag">Mematuhi undang-undang</span>
+            <span class="norma-tag">Menghargai kebhinekaan</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ════ 6. PERAN KITA ════ -->
+    <h2 id="peran-kita"><span class="section-icon">🧒</span> 6. Peran Kita dalam Menjaga Norma</h2>
+
+    <p>
+      Norma tidak akan berfungsi jika hanya dipatuhi sebagian orang. Norma butuh
+      komitmen dari <em>semua</em> anggota masyarakat — termasuk kita yang masih siswa SD.
+      Berikut yang bisa kita lakukan:
+    </p>
+
+    <div class="peran-grid">
+      <div class="peran-card">
+        <div class="peran-num">1</div>
+        <div>
+          <h3>Patuhi norma di mana pun</h3>
+          <p>Patuhi aturan di rumah, di sekolah, dan di masyarakat — bukan karena takut dihukum, tapi karena kita memahami manfaatnya.</p>
+        </div>
+      </div>
+      <div class="peran-card">
+        <div class="peran-num">2</div>
+        <div>
+          <h3>Ingatkan dengan sopan</h3>
+          <p>Jika melihat teman melanggar norma, ingatkan dengan cara yang baik — bukan menghakimi, tapi mengingatkan dengan kasih sayang.</p>
+        </div>
+      </div>
+      <div class="peran-card">
+        <div class="peran-num">3</div>
+        <div>
+          <h3>Jadilah teladan</h3>
+          <p>Perbuatan baik kita bisa menginspirasi orang lain. Ketika kita membuang sampah pada tempatnya, orang sekitar pun cenderung melakukan hal yang sama.</p>
+        </div>
+      </div>
+      <div class="peran-card">
+        <div class="peran-num">4</div>
+        <div>
+          <h3>Ikut serta dalam kegiatan bersama</h3>
+          <p>Aktif dalam gotong royong, piket kelas, atau kegiatan masyarakat adalah cara nyata mempraktikkan norma kebersamaan.</p>
+        </div>
+      </div>
+      <div class="peran-card">
+        <div class="peran-num">5</div>
+        <div>
+          <h3>Hormati perbedaan</h3>
+          <p>Indonesia kaya keberagaman agama, suku, dan budaya. Menghormati perbedaan ini adalah norma paling penting di negara kita.</p>
+        </div>
+      </div>
+      <div class="peran-card">
+        <div class="peran-num">6</div>
+        <div>
+          <h3>Berani menolak tekanan negatif</h3>
+          <p>Jika diajak teman untuk melanggar norma — membolos, mencontek, atau berbohong — berani berkata tidak adalah tindakan yang sangat berani dan terhormat.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="penutup-box">
+      <div class="penutup-icon">🤝</div>
+      <h3>Bersama Menjaga Adab</h3>
+      <p>
+        Masyarakat yang beradab bukan dibangun oleh pemerintah sendirian — tapi oleh
+        setiap orang, termasuk kamu. Setiap kali kamu bersikap jujur, menghormati orang lain,
+        dan mematuhi aturan, kamu sedang berkontribusi membangun masyarakat yang lebih baik.
+        Norma dimulai dari diri sendiri.
+      </p>
+    </div>
+
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi B</h3>
+      <ul>
+        <li>Norma sangat penting karena tanpanya, kehidupan bermasyarakat akan kacau — tidak ada ketertiban, tidak ada rasa aman, dan semua orang hanya mementingkan diri sendiri.</li>
+        <li>Manfaat norma: menciptakan <strong>ketertiban, melindungi hak, mempererat hubungan sosial, menciptakan keadilan</strong>, dan membentuk karakter yang baik.</li>
+        <li>Melanggar norma berakibat pada sanksi yang berbeda-beda — dari rasa bersalah, dikucilkan, hingga hukuman hukum — tergantung jenis norma yang dilanggar.</li>
+        <li>Norma berlaku di <strong>keluarga, sekolah, masyarakat</strong>, dan di tingkat berbangsa-bernegara — di setiap lingkungan ada aturan yang perlu kita patuhi.</li>
+        <li>Kita semua berperan menjaga norma: dengan mematuhinya, mengingatkan orang lain, menjadi teladan, dan aktif berpartisipasi dalam kehidupan bersama.</li>
+      </ul>
+    </div>
+
+    <div class="nav-bawah">
+      <a href="norma.html">← Sub-A: Norma</a>
+      <a href="materi.html" class="btn-hub">↩ Kembali ke Bab 4</a>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 4, Sub-B — Pentingnya Norma di Dalam Lingkungan Masyarakat
+  </footer>
+
+</body>
+</html>
