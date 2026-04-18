@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-B: Budaya dan Lingkungan Alam | IPAS Kelas 4 Bab 2 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    /* ── Layout ── */
+    .content-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+
+    /* ── Variabel Bab 2 ── */
+    :root {
+      --bab-primary:   #b85c1d;
+      --bab-primary-dk:#8f4415;
+      --bab-light:     #fdf3ec;
+      --bab-accent:    #e8864a;
+      --bab-accent-lt: #fce9d8;
+    }
+
+    /* ── Sub-header ── */
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .sub-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif;
+      font-size: .8rem;
+      color: rgba(255,255,255,.72);
+      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.68);
+      margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700;
+      margin: 0 0 .8rem;
+      color: #fff;
+      max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: rgba(255,255,255,.85);
+      max-width: 640px;
+      line-height: 1.65;
+    }
+    .sub-hero-icon {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 1rem;
+      font-size: 4rem;
+      opacity: .15;
+      pointer-events: none;
+    }
+
+    /* ── Daftar Isi ── */
+    .toc-box {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.4rem 1.6rem;
+      margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 {
+      font-family: 'Lora', serif;
+      font-size: .95rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .9rem;
+    }
+    .toc-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .2rem 0;
+      transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num { font-weight: 700; min-width: 1.5rem; color: var(--bab-accent); }
+
+    /* ── Tipografi ── */
+    .prose h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.4rem;
+      color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--bab-primary);
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+    .prose h2 .section-icon { font-size: 1.25rem; }
+    .prose h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      color: var(--bab-primary-dk);
+      margin: 2rem 0 .7rem;
+    }
+    .prose p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.8;
+      margin: 0 0 1rem;
+    }
+
+    /* ── Kotak info ── */
+    .info-box {
+      background: var(--bab-light);
+      border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0;
+      padding: 1.1rem 1.4rem;
+      margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif;
+      font-size: .93rem;
+      line-height: 1.7;
+      color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      display: block;
+      margin-bottom: .3rem;
+      font-size: .8rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    /* ── Fact box ── */
+    .fact-box {
+      background: #fff9f0;
+      border: 1.5px solid var(--bab-accent);
+      border-radius: .85rem;
+      padding: 1.2rem 1.4rem;
+      margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--bab-accent);
+      margin-bottom: .5rem;
+    }
+    .fact-box p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* ── Kartu contoh daerah ── */
+    .daerah-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 1.25rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .daerah-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .9rem;
+      overflow: hidden;
+    }
+    .daerah-card-head {
+      background: var(--bab-light);
+      padding: 1rem 1.3rem .8rem;
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .daerah-icon {
+      font-size: 1.8rem;
+      width: 2.6rem;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .daerah-card h3 {
+      font-family: 'Lora', serif;
+      font-size: .98rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .1rem;
+    }
+    .daerah-card .daerah-sub {
+      font-family: 'Nunito', sans-serif;
+      font-size: .77rem;
+      color: #888;
+    }
+    .daerah-card-body {
+      padding: .9rem 1.3rem 1.1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: #444;
+      line-height: 1.7;
+    }
+    .daerah-card-body strong { color: var(--bab-primary-dk); }
+
+    /* ── Diagram alur sebab-akibat ── */
+    .sebab-akibat {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .sa-box {
+      background: #fff;
+      border: 1.5px solid var(--bab-accent);
+      border-radius: .7rem;
+      padding: .75rem 1.1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--bab-primary-dk);
+      text-align: center;
+      flex: 1;
+      min-width: 140px;
+    }
+    .sa-arrow {
+      font-size: 1.4rem;
+      color: var(--bab-accent);
+      flex-shrink: 0;
+    }
+
+    /* ── Tabel ── */
+    .tabel-budaya {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      margin: 1rem 0 1.5rem;
+      background: #fff;
+      border-radius: .75rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-budaya thead tr { background: var(--bab-primary); color: #fff; }
+    .tabel-budaya th {
+      padding: .75rem 1rem;
+      text-align: left;
+      font-weight: 700;
+      font-size: .82rem;
+      letter-spacing: .04em;
+    }
+    .tabel-budaya td {
+      padding: .65rem 1rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.55;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-budaya tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-budaya tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Spotlight Jabar ── */
+    .jabar-box {
+      background: linear-gradient(135deg, #fef9f4 0%, #fdecd8 100%);
+      border: 2px solid var(--bab-accent);
+      border-radius: 1.1rem;
+      padding: 1.6rem;
+      margin: 2rem 0;
+    }
+    .jabar-box .jabar-header {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 1.1rem;
+    }
+    .jabar-badge {
+      background: var(--bab-primary);
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: .25rem .65rem;
+      border-radius: 2rem;
+    }
+    .jabar-box h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      color: var(--bab-primary-dk);
+      margin: 0;
+    }
+    .jabar-box p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .93rem;
+      line-height: 1.75;
+      color: var(--ink, #1a1f2e);
+      margin: 0 0 .8rem;
+    }
+    .jabar-box p:last-child { margin-bottom: 0; }
+
+    /* ── Ringkasan ── */
+    .ringkasan {
+      background: var(--bab-primary);
+      color: #fff;
+      border-radius: 1rem;
+      padding: 1.6rem 1.8rem;
+      margin: 2.5rem 0;
+    }
+    .ringkasan h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      color: #fff;
+      margin: 0 0 1rem;
+    }
+    .ringkasan ul {
+      margin: 0;
+      padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      line-height: 1.8;
+      color: rgba(255,255,255,.9);
+    }
+
+    /* ── Navigasi bawah ── */
+    .nav-bawah {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      border: 1.5px solid var(--bab-primary);
+      padding: .55rem 1.1rem;
+      border-radius: .55rem;
+      transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="sub-hero">
+    <div class="sub-hero-icon">🌏</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a>
+        <span>›</span>
+        <a href="../../index.html">Kelas 4</a>
+        <span>›</span>
+        <a href="../index.html">IPAS</a>
+        <span>›</span>
+        <a href="materi.html">Bab 2</a>
+        <span>›</span>
+        <span>Sub-materi B</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 2 · Sub-materi B</p>
+      <h1>Budaya dan Lingkungan Alam</h1>
+      <p class="intro-text">
+        Mengapa orang Sunda berbeda budayanya dengan orang Papua atau Bugis?
+        Jawabannya tersimpan di alam — laut, gunung, hutan, dan iklim membentuk
+        cara hidup manusia selama ribuan tahun.
+      </p>
+    </div>
+  </header>
+
+  <!-- ══ ISI ══ -->
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <!-- Daftar Isi -->
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#hubungan-alam-budaya"><span class="toc-num">1</span> Hubungan Alam & Budaya</a></li>
+        <li><a href="#faktor-alam"><span class="toc-num">2</span> Faktor Alam yang Mempengaruhi Budaya</a></li>
+        <li><a href="#contoh-daerah"><span class="toc-num">3</span> Contoh dari Berbagai Daerah</a></li>
+        <li><a href="#faktor-lain"><span class="toc-num">4</span> Faktor Lain: Sejarah & Perdagangan</a></li>
+        <li><a href="#spotlight-jabar"><span class="toc-num">5</span> Spotlight: Jawa Barat & Budaya Sunda</a></li>
+        <li><a href="#budaya-berubah"><span class="toc-num">6</span> Budaya Bisa Berubah?</a></li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 1 — HUBUNGAN ALAM DAN BUDAYA
+    ════════════════════════════════════ -->
+    <h2 id="hubungan-alam-budaya"><span class="section-icon">🔗</span> 1. Hubungan Alam dan Budaya</h2>
+
+    <p>
+      Pernahkah kamu bertanya-tanya: mengapa orang di Papua sering membuat honai yang berbentuk
+      bulat pendek, sementara orang Minangkabau membangun rumah Gadang yang tinggi menjulang?
+      Mengapa masyarakat Madura terkenal suka makan pedas, sementara orang Sunda banyak makan lalab segar?
+    </p>
+
+    <p>
+      Jawabannya ada di sekitar mereka — yaitu <strong>lingkungan alam</strong>.
+      Alam adalah "guru" pertama manusia. Sejak ribuan tahun lalu, manusia belajar dari alam:
+      bagaimana cara berlindung dari dingin, apa yang bisa dimakan, bagaimana cara berpakaian
+      agar nyaman, dan bagaimana cara bergerak di atas lahan yang ada.
+    </p>
+
+    <div class="info-box">
+      <span class="label">🌱 Konsep Kunci</span>
+      <strong>Adaptasi budaya</strong> adalah proses di mana masyarakat menyesuaikan cara hidupnya
+      — termasuk rumah, pakaian, makanan, dan keseniannya — dengan kondisi alam di sekitarnya.
+      Proses ini berlangsung sangat lama, ratusan bahkan ribuan tahun.
+    </div>
+
+    <p>
+      Hubungan antara alam dan budaya bisa digambarkan seperti ini:
+    </p>
+
+    <div class="sebab-akibat">
+      <div class="sa-box">🌿 Kondisi Alam<br><small style="font-weight:400;color:#777;">(iklim, tanah, air, hutan)</small></div>
+      <div class="sa-arrow">→</div>
+      <div class="sa-box">🧠 Cara Hidup Manusia<br><small style="font-weight:400;color:#777;">(makan, berpakaian, bertempat tinggal)</small></div>
+      <div class="sa-arrow">→</div>
+      <div class="sa-box">🎨 Kebudayaan<br><small style="font-weight:400;color:#777;">(adat, seni, bahasa, nilai)</small></div>
+    </div>
+
+    <p>
+      Artinya, alam membentuk cara hidup, dan cara hidup yang diwariskan turun-temurun
+      itulah yang akhirnya menjadi <strong>budaya</strong>.
+    </p>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 2 — FAKTOR ALAM
+    ════════════════════════════════════ -->
+    <h2 id="faktor-alam"><span class="section-icon">⛰️</span> 2. Faktor Alam yang Mempengaruhi Budaya</h2>
+
+    <p>
+      Ada beberapa kondisi alam yang paling besar pengaruhnya terhadap budaya suatu masyarakat:
+    </p>
+
+    <h3>A. Iklim dan Suhu Udara</h3>
+    <p>
+      Masyarakat yang hidup di daerah <strong>dingin dan lembab</strong> (seperti pegunungan)
+      cenderung membuat pakaian yang tebal dan tertutup untuk menghangatkan tubuh.
+      Sebaliknya, masyarakat di daerah <strong>panas dan kering</strong> (seperti pantai)
+      membuat pakaian yang tipis dan longgar agar sirkulasi udara lancar.
+    </p>
+    <p>
+      Di Papua, daerah pegunungan yang dingin mendorong masyarakat membangun honai —
+      rumah bulat berdinding tebal dengan pintu kecil agar panas dari perapian di dalam
+      tidak mudah keluar.
+    </p>
+
+    <h3>B. Jenis Tanah dan Sumber Daya Alam</h3>
+    <p>
+      Masyarakat yang tinggal di tanah subur dengan banyak sungai cenderung menjadi
+      <strong>petani</strong>. Masyarakat yang tinggal di tepi laut cenderung menjadi
+      <strong>nelayan</strong>. Masyarakat di daerah hutan lebat cenderung hidup dari
+      <strong>berburu dan meramu</strong>.
+    </p>
+    <p>
+      Mata pencaharian ini kemudian membentuk seluruh cara hidup mereka —
+      termasuk makanan khas, alat yang mereka buat, dan bahkan seni yang mereka ciptakan.
+    </p>
+
+    <div class="info-box">
+      <span class="label">🌾 Contoh Nyata</span>
+      Di Jawa Barat, tanah yang subur dan banyak sungai mendorong masyarakat Sunda menjadi
+      petani padi sawah sejak berabad-abad lalu. Dari sinilah lahir budaya <em>ngaseuk</em>
+      (menanam padi dengan kayu), lagu <em>Es Lilin</em> yang bercerita tentang kehidupan
+      desa, hingga sajian nasi timbel yang dibungkus daun pisang — semuanya berkakar dari
+      kehidupan agraris masyarakat Sunda.
+    </div>
+
+    <h3>C. Letak Geografis: Pegunungan vs. Pesisir</h3>
+    <p>
+      Masyarakat <strong>pegunungan</strong> biasanya hidup lebih terisolasi — jauh dari
+      pengaruh luar. Budayanya cenderung lebih terjaga keasliannya.
+      Masyarakat <strong>pesisir</strong> sering bertemu dengan orang dari berbagai daerah
+      dan bangsa karena letak mereka di jalur perdagangan. Budayanya cenderung lebih
+      beragam karena mudah menyerap pengaruh dari luar.
+    </p>
+
+    <h3>D. Bencana Alam dan Kondisi Khusus</h3>
+    <p>
+      Daerah yang sering dilanda banjir mendorong masyarakat membangun rumah panggung.
+      Daerah yang rawan gempa mendorong pembangunan rumah dari bahan ringan seperti bambu.
+      Kondisi alam yang ekstrem ini secara langsung membentuk teknologi dan arsitektur lokal.
+    </p>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 3 — CONTOH DARI BERBAGAI DAERAH
+    ════════════════════════════════════ -->
+    <h2 id="contoh-daerah"><span class="section-icon">🗺️</span> 3. Contoh dari Berbagai Daerah Indonesia</h2>
+
+    <p>
+      Mari kita lihat bagaimana alam membentuk budaya di berbagai daerah Indonesia:
+    </p>
+
+    <div class="daerah-grid">
+
+      <div class="daerah-card">
+        <div class="daerah-card-head">
+          <div class="daerah-icon">🏔️</div>
+          <div>
+            <h3>Suku Dani — Papua</h3>
+            <p class="daerah-sub">Pegunungan Jayawijaya, Papua Pegunungan</p>
+          </div>
+        </div>
+        <div class="daerah-card-body">
+          Tinggal di pegunungan tinggi yang dingin, masyarakat Dani membangun
+          <strong>honai</strong> yang bulat dengan atap jerami tebal untuk menahan angin dingin.
+          Mereka berkebun <em>ubi jalar</em> — tanaman yang cocok dengan iklim dingin — sebagai
+          makanan pokok. Pakaian tradisional mereka terbuat dari bahan alam yang tersedia di
+          sekitar pegunungan.
+        </div>
+      </div>
+
+      <div class="daerah-card">
+        <div class="daerah-card-head">
+          <div class="daerah-icon">🌊</div>
+          <div>
+            <h3>Suku Bajo — Sulawesi</h3>
+            <p class="daerah-sub">Pesisir dan lautan Sulawesi Tenggara</p>
+          </div>
+        </div>
+        <div class="daerah-card-body">
+          Dikenal sebagai "manusia laut" atau "sea nomads," suku Bajo hidup <em>di atas laut</em>.
+          Rumah mereka dibangun di atas tiang di tengah laut dangkal. Mereka mampu menyelam sangat
+          dalam tanpa alat bantu. Seluruh budayanya — makanan, bahasa, kepercayaan, hingga cara
+          merawat jenazah — berputar di sekitar <strong>laut</strong>.
+        </div>
+      </div>
+
+      <div class="daerah-card">
+        <div class="daerah-card-head">
+          <div class="daerah-icon">🌴</div>
+          <div>
+            <h3>Suku Asmat — Papua Selatan</h3>
+            <p class="daerah-sub">Rawa-rawa pesisir selatan Papua</p>
+          </div>
+        </div>
+        <div class="daerah-card-body">
+          Hidup di daerah rawa yang dipenuhi pohon mangrove, masyarakat Asmat sangat ahli
+          mengukir kayu. <strong>Seni ukir Asmat</strong> terkenal di seluruh dunia — bukan
+          sekadar hiasan, tapi media ekspresi spiritual dan penghormatan kepada leluhur.
+          Semua bahan ukiran diambil dari pohon-pohon di sekitar rawa mereka.
+        </div>
+      </div>
+
+      <div class="daerah-card">
+        <div class="daerah-card-head">
+          <div class="daerah-icon">🌾</div>
+          <div>
+            <h3>Suku Minangkabau — Sumatera Barat</h3>
+            <p class="daerah-sub">Dataran tinggi Sumatera Barat</p>
+          </div>
+        </div>
+        <div class="daerah-card-body">
+          Hidup di daerah dataran tinggi yang subur, masyarakat Minang mengenal tradisi
+          <em>merantau</em> — pergi ke daerah lain untuk mencari ilmu dan kekayaan, lalu
+          kembali ke kampung halaman. Tradisi ini lahir karena kondisi alam dan kebutuhan ekonomi.
+          Hingga kini, orang Minang dikenal sebagai pedagang handal di seluruh Indonesia.
+        </div>
+      </div>
+
+      <div class="daerah-card">
+        <div class="daerah-card-head">
+          <div class="daerah-icon">🐄</div>
+          <div>
+            <h3>Suku Sasak — Lombok, NTB</h3>
+            <p class="daerah-sub">Pulau Lombok, Nusa Tenggara Barat</p>
+          </div>
+        </div>
+        <div class="daerah-card-body">
+          Daerah Lombok yang lebih kering dari Jawa membuat masyarakat Sasak mengembangkan
+          keahlian menenun kain. Kain tenun <strong>Sasak (Lombok)</strong> sangat halus dan
+          bermotif kaya — menjadi komoditas perdagangan penting sejak dulu. Kondisi alam yang
+          tidak selalu bisa diandalkan untuk bertani mendorong kreativitas di bidang kerajinan.
+        </div>
+      </div>
+
+      <div class="daerah-card">
+        <div class="daerah-card-head">
+          <div class="daerah-icon">🎋</div>
+          <div>
+            <h3>Suku Sunda — Jawa Barat</h3>
+            <p class="daerah-sub">Pegunungan dan lembah Jawa Barat</p>
+          </div>
+        </div>
+        <div class="daerah-card-body">
+          Hidup di antara gunung-gunung dan lembah hijau yang subur, masyarakat Sunda menjadi
+          petani padi dan pengrajin bambu yang handal. Angklung — alat musik dari bambu —
+          lahir dari melimpahnya bambu di Jawa Barat. Filosofi hidup Sunda yang harmonis dengan
+          alam tercermin dalam ungkapan <em>"Sabilulungan"</em> (bersatu padu).
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 4 — FAKTOR LAIN
+    ════════════════════════════════════ -->
+    <h2 id="faktor-lain"><span class="section-icon">⚓</span> 4. Faktor Lain: Sejarah dan Perdagangan</h2>
+
+    <p>
+      Alam bukan satu-satunya yang membentuk budaya. Ada dua faktor lain yang juga sangat penting:
+    </p>
+
+    <h3>Pengaruh Sejarah</h3>
+    <p>
+      Kerajaan-kerajaan besar di masa lalu meninggalkan jejak budaya yang masih terasa hingga
+      kini. Kerajaan Majapahit menyebarkan pengaruh Hindu-Buddha ke seluruh Nusantara.
+      Kerajaan Sriwijaya membawa pengaruh Budha ke Sumatera dan semenanjung Malaya.
+      Di Jawa Barat, Kerajaan Sunda meninggalkan warisan berupa bahasa Sunda, seni tembang,
+      dan filosofi hidup yang masih dipraktikkan masyarakat Sunda hingga hari ini.
+    </p>
+
+    <h3>Pengaruh Perdagangan</h3>
+    <p>
+      Indonesia selama ribuan tahun menjadi persimpangan jalur perdagangan dunia.
+      Pedagang dari India, Arab, China, Portugis, dan Belanda datang silih berganti.
+      Setiap gelombang pedagang membawa agama, teknologi, makanan, dan cara berpakaian baru
+      yang lambat laun menyatu dengan budaya lokal.
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Asal Pengaruh</th>
+          <th>Jejak Budaya yang Ditinggalkan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>India (Hindu-Budha)</strong></td>
+          <td>Agama, seni wayang, aksara, candi</td>
+          <td>Wayang kulit menceritakan kisah Mahabharata & Ramayana dari India</td>
+        </tr>
+        <tr>
+          <td><strong>Arab & Islam</strong></td>
+          <td>Agama Islam, kaligrafi, kuliner halal</td>
+          <td>Beduk masjid, pakaian busana muslim, bahasa Arab masuk kosakata</td>
+        </tr>
+        <tr>
+          <td><strong>China (Tionghoa)</strong></td>
+          <td>Kuliner, keramik, perayaan</td>
+          <td>Bakso, lumpia, mie goreng — kini jadi bagian budaya kuliner Indonesia</td>
+        </tr>
+        <tr>
+          <td><strong>Portugis</strong></td>
+          <td>Musik keroncong, kata-kata serapan</td>
+          <td>Musik keroncong lahir dari alat musik Portugis yang menetap di Betawi</td>
+        </tr>
+        <tr>
+          <td><strong>Belanda</strong></td>
+          <td>Arsitektur, sistem administrasi, kata serapan</td>
+          <td>Gedung-gedung kolonial, kata "polisi" dari "politie" (Belanda)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="fact-box">
+      <p class="fact-label">🍜 Tahukah Kamu? Bakso adalah "Budaya Campuran"</p>
+      <p>
+        Bakso yang kita kenal sekarang sebenarnya adalah hasil perpaduan budaya!
+        Teknik membuat bola daging berasal dari kuliner China, bumbu rempahnya menggunakan
+        tradisi masak Jawa/Sunda, dan cara penyajiannya dengan kuah bening adalah adaptasi
+        lokal. Inilah yang disebut <em>akulturasi</em> — perpaduan budaya yang menghasilkan
+        sesuatu yang baru dan unik.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 5 — SPOTLIGHT JABAR
+    ════════════════════════════════════ -->
+    <h2 id="spotlight-jabar"><span class="section-icon">⭐</span> 5. Spotlight: Jawa Barat dan Budaya Sunda</h2>
+
+    <p>
+      Mari kita terapkan pemahaman kita pada daerah yang kita tinggali sendiri — <strong>Jawa Barat</strong>.
+      Bagaimana kondisi alam Jawa Barat membentuk budaya Sunda yang kita kenal?
+    </p>
+
+    <div class="jabar-box">
+      <div class="jabar-header">
+        <span class="jabar-badge">Jawa Barat</span>
+        <h3>Alam Jawa Barat dan Pengaruhnya pada Budaya Sunda</h3>
+      </div>
+
+      <p>
+        <strong>🏔️ Banyak Gunung dan Pegunungan →</strong> Jawa Barat dipagari gunung-gunung
+        seperti Gede-Pangrango, Tangkuban Perahu, Ciremai, dan Papandayan. Kondisi ini membuat
+        wilayah Jawa Barat memiliki banyak sumber air bersih dan tanah yang sangat subur.
+        Masyarakat Sunda pun menjadi petani sawah yang handal — dari sinilah lahir budaya
+        gotong royong dalam bertani (<em>ngaliwet</em>, <em>gawéan sawah</em>).
+      </p>
+
+      <p>
+        <strong>🎋 Melimpahnya Bambu →</strong> Hutan bambu tumbuh subur di lereng gunung Jawa Barat.
+        Bambu menjadi bahan utama kehidupan masyarakat Sunda: bahan bangunan rumah, perabot,
+        pagar, alat pertanian, dan tentu saja — <strong>angklung</strong>, alat musik kebanggaan
+        Jawa Barat yang kini diakui dunia. Karena bambu begitu dekat dengan kehidupan sehari-hari,
+        orang Sunda mengembangkan keahlian mengolah bambu yang tak tertandingi.
+      </p>
+
+      <p>
+        <strong>🌿 Kesuburan Alam dan Gaya Makan Sunda →</strong> Tanah yang subur menghasilkan
+        beragam sayuran dan rempah. Orang Sunda dikenal senang makan <em>lalapan</em> —
+        sayuran mentah segar yang dimakan langsung dengan sambal. Ini bukan sekadar kebiasaan,
+        tapi cerminan dari melimpahnya hasil bumi di Jawa Barat.
+      </p>
+
+      <p>
+        <strong>🌊 Dua Sisi Pesisir →</strong> Jawa Barat punya pesisir utara (Laut Jawa)
+        dan selatan (Samudra Hindia). Masyarakat pesisir utara — seperti Cirebon — terpengaruh
+        kuat oleh perdagangan dan budaya Islam dari jalur laut. Ini menghasilkan perpaduan unik:
+        Batik Mega Mendung Cirebon memadukan motif awan China dengan estetika Islam dalam
+        satu kain yang indah.
+      </p>
+    </div>
+
+    <!-- ════════════════════════════════════
+         BAGIAN 6 — BUDAYA BISA BERUBAH
+    ════════════════════════════════════ -->
+    <h2 id="budaya-berubah"><span class="section-icon">🔄</span> 6. Budaya Bisa Berubah?</h2>
+
+    <p>
+      Budaya tidak kaku dan tidak diam di tempat — budaya bisa <strong>berubah</strong> seiring waktu.
+      Perubahan bisa terjadi karena:
+    </p>
+
+    <table class="tabel-budaya">
+      <thead>
+        <tr>
+          <th>Penyebab Perubahan</th>
+          <th>Penjelasan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Kontak dengan budaya lain</strong></td>
+          <td>Bertemu budaya baru membawa pengaruh baru</td>
+          <td>Masuknya Islam mengubah cara berpakaian dan tradisi upacara banyak daerah</td>
+        </tr>
+        <tr>
+          <td><strong>Teknologi baru</strong></td>
+          <td>Cara baru mengerjakan sesuatu menggeser cara lama</td>
+          <td>Mesin panen (combine harvester) mengurangi tradisi panen gotong royong di sawah</td>
+        </tr>
+        <tr>
+          <td><strong>Perubahan lingkungan</strong></td>
+          <td>Alam berubah, cara hidup pun berubah</td>
+          <td>Hutan berkurang → suku-suku pedalaman terpaksa meninggalkan cara hidup berburu</td>
+        </tr>
+        <tr>
+          <td><strong>Globalisasi</strong></td>
+          <td>Informasi dan produk dari seluruh dunia mudah masuk</td>
+          <td>Anak-anak SD kini lebih hafal lagu pop asing dibanding lagu daerahnya sendiri</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">🤔 Perubahan Budaya: Baik atau Buruk?</span>
+      Perubahan budaya tidak selalu buruk. Budaya yang bisa beradaptasi justru lebih
+      kuat dan bertahan lama. Yang penting adalah kita tidak melupakan <em>akar</em> —
+      nilai-nilai inti budaya kita — sambil tetap terbuka terhadap hal-hal baru yang baik.
+      Tantangan kita sebagai generasi muda adalah menjaga keseimbangan ini.
+    </div>
+
+    <!-- ════════════════════════════════════
+         RINGKASAN
+    ════════════════════════════════════ -->
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi B</h3>
+      <ul>
+        <li><strong>Alam adalah "guru" pertama manusia</strong> — kondisi iklim, tanah, dan letak geografis mendorong manusia beradaptasi, dan adaptasi yang diwariskan turun-temurun menjadi budaya.</li>
+        <li>Faktor alam yang mempengaruhi budaya meliputi <strong>iklim, jenis tanah, sumber daya alam, letak geografis</strong>, dan kondisi khusus seperti banjir atau gempa.</li>
+        <li>Di Indonesia, keberagaman budaya sangat erat kaitannya dengan kondisi <strong>kepulauan yang terpisah</strong> dan lingkungan alam yang berbeda-beda.</li>
+        <li>Selain alam, budaya juga dibentuk oleh <strong>sejarah kerajaan</strong> dan <strong>pengaruh perdagangan</strong> — dari India, Arab, China, hingga Eropa.</li>
+        <li>Budaya Sunda terbentuk dari kondisi alam Jawa Barat: pegunungan subur, melimpahnya bambu, dan dua jalur pesisir yang mempertemukan berbagai pengaruh.</li>
+        <li>Budaya bisa <strong>berubah</strong> karena kontak dengan budaya lain, teknologi baru, dan globalisasi — perubahan yang sehat adalah yang menjaga nilai inti sambil terbuka terhadap hal baik dari luar.</li>
+      </ul>
+    </div>
+
+    <!-- Navigasi -->
+    <div class="nav-bawah">
+      <a href="keragaman-budaya.html">← Sub-A: Keragaman Budaya</a>
+      <a href="melestarikan-budaya.html" class="btn-next">Sub-C: Melestarikan Budaya →</a>
+    </div>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 2, Sub-B — Budaya dan Lingkungan Alam
+  </footer>
+
+</body>
+</html>
