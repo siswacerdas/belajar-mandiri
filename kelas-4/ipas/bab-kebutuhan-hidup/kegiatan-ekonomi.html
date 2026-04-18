@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-B: Kegiatan Ekonomi | IPAS Kelas 4 Bab 3 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    .content-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+    :root {
+      --bab-primary:    #2d7a3a;
+      --bab-primary-dk: #1f5828;
+      --bab-light:      #eef7f0;
+      --bab-accent:     #5aad6a;
+    }
+
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .sub-hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif;
+      font-size: .8rem;
+      color: rgba(255,255,255,.72);
+      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: rgba(255,255,255,.68); margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700; margin: 0 0 .8rem; color: #fff; max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem; color: rgba(255,255,255,.85); max-width: 640px; line-height: 1.65;
+    }
+    .sub-hero-icon {
+      position: absolute; right: 1.5rem; bottom: 1rem;
+      font-size: 4rem; opacity: .15; pointer-events: none;
+    }
+
+    .toc-box {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem; padding: 1.4rem 1.6rem; margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 { font-family: 'Lora', serif; font-size: .95rem; color: var(--bab-primary-dk); margin: 0 0 .9rem; }
+    .toc-list {
+      list-style: none; margin: 0; padding: 0;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; color: var(--bab-primary);
+      text-decoration: none; display: flex; align-items: center; gap: .4rem;
+      padding: .2rem 0; transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num { font-weight: 700; min-width: 1.5rem; color: var(--bab-accent); }
+
+    .prose h2 {
+      font-family: 'Lora', serif; font-size: 1.4rem; color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid var(--bab-primary);
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .prose h3 { font-family: 'Lora', serif; font-size: 1.1rem; color: var(--bab-primary-dk); margin: 2rem 0 .7rem; }
+    .prose p { font-family: 'Nunito', sans-serif; font-size: .97rem; color: var(--ink, #1a1f2e); line-height: 1.8; margin: 0 0 1rem; }
+
+    .info-box {
+      background: var(--bab-light); border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0; padding: 1.1rem 1.4rem; margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif; font-size: .93rem; line-height: 1.7; color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700; color: var(--bab-primary-dk); display: block;
+      margin-bottom: .3rem; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase;
+    }
+
+    .fact-box {
+      background: #f0fbf2; border: 1.5px solid var(--bab-accent); border-radius: .85rem;
+      padding: 1.2rem 1.4rem; margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif; font-size: .75rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase; color: var(--bab-accent); margin-bottom: .5rem;
+    }
+    .fact-box p { font-family: 'Nunito', sans-serif; font-size: .92rem; color: var(--ink, #1a1f2e); line-height: 1.7; margin: 0; }
+
+    /* ── Kartu 3 kegiatan ekonomi utama ── */
+    .ekonomi-trio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.2rem;
+      margin: 1.5rem 0 2.5rem;
+    }
+    .trio-card {
+      border-radius: 1rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      background: #fff;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .trio-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(45,122,58,.13);
+    }
+    .trio-head {
+      padding: 1.2rem 1.4rem 1rem;
+      text-align: center;
+    }
+    .trio-head.produksi  { background: #d6f0da; }
+    .trio-head.distribusi { background: #d6e4f5; }
+    .trio-head.konsumsi  { background: #fde8d8; }
+    .trio-icon { font-size: 2.2rem; margin-bottom: .4rem; }
+    .trio-head h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      margin: 0;
+      color: var(--ink, #1a1f2e);
+    }
+    .trio-body {
+      padding: 1rem 1.3rem 1.2rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: #555;
+      line-height: 1.7;
+    }
+    .trio-body .trio-def {
+      font-weight: 600;
+      color: var(--bab-primary-dk);
+      margin-bottom: .4rem;
+      font-size: .87rem;
+    }
+
+    /* ── Alur produksi-distribusi-konsumsi ── */
+    .alur-box {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.6rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .alur-box h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 1.2rem;
+    }
+    .alur-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: .5rem;
+    }
+    .alur-step {
+      flex: 1;
+      min-width: 130px;
+      background: var(--bab-light);
+      border-radius: .65rem;
+      padding: .9rem 1rem;
+      text-align: center;
+    }
+    .alur-step .as-icon { font-size: 1.6rem; margin-bottom: .25rem; }
+    .alur-step .as-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      margin-bottom: .15rem;
+    }
+    .alur-step .as-example {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      color: #777;
+    }
+    .alur-arrow {
+      font-size: 1.4rem;
+      color: var(--bab-accent);
+      flex-shrink: 0;
+    }
+
+    /* ── Tabel ── */
+    .tabel-bab {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      margin: 1rem 0 1.5rem;
+      background: #fff;
+      border-radius: .75rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-bab thead tr { background: var(--bab-primary); color: #fff; }
+    .tabel-bab th { padding: .75rem 1rem; text-align: left; font-weight: 700; font-size: .82rem; letter-spacing: .04em; }
+    .tabel-bab td { padding: .65rem 1rem; color: var(--ink, #1a1f2e); line-height: 1.55; border-bottom: 1px solid var(--sand-dk, #ede8dc); }
+    .tabel-bab tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-bab tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Kartu jenis pekerjaan ── */
+    .pekerjaan-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .pekerjaan-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .85rem;
+      overflow: hidden;
+    }
+    .pk-head {
+      background: var(--bab-light);
+      padding: .85rem 1.2rem .7rem;
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .pk-emoji { font-size: 1.6rem; flex-shrink: 0; }
+    .pk-head h3 { font-family: 'Lora', serif; font-size: .97rem; color: var(--bab-primary-dk); margin: 0; }
+    .pk-body {
+      padding: .85rem 1.2rem 1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .87rem;
+      color: #555;
+      line-height: 1.65;
+    }
+    .pk-contoh {
+      margin-top: .4rem;
+      font-size: .83rem;
+      color: var(--bab-primary-dk);
+      font-weight: 600;
+    }
+
+    /* ── Contoh rantai ekonomi ── */
+    .rantai-box {
+      background: linear-gradient(135deg, #eef7f0, #d6f0da);
+      border: 2px solid var(--bab-accent);
+      border-radius: 1.1rem;
+      padding: 1.6rem;
+      margin: 2rem 0;
+    }
+    .rantai-box .rantai-header {
+      display: flex; align-items: center; gap: .75rem; margin-bottom: 1.2rem;
+    }
+    .rantai-badge {
+      background: var(--bab-primary); color: #fff;
+      font-family: 'Nunito', sans-serif; font-size: .72rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase;
+      padding: .25rem .65rem; border-radius: 2rem;
+    }
+    .rantai-box h3 { font-family: 'Lora', serif; font-size: 1.05rem; color: var(--bab-primary-dk); margin: 0; }
+    .rantai-steps {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }
+    .rantai-step {
+      background: #fff;
+      border-radius: .65rem;
+      padding: .75rem 1rem;
+      display: flex;
+      gap: .8rem;
+      align-items: flex-start;
+    }
+    .rs-num {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--bab-accent);
+      flex-shrink: 0;
+      min-width: 1.5rem;
+    }
+    .rs-text {
+      font-family: 'Nunito', sans-serif;
+      font-size: .9rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.6;
+    }
+    .rs-text strong { color: var(--bab-primary-dk); }
+
+    /* ── Ringkasan & nav ── */
+    .ringkasan {
+      background: var(--bab-primary); color: #fff;
+      border-radius: 1rem; padding: 1.6rem 1.8rem; margin: 2.5rem 0;
+    }
+    .ringkasan h3 { font-family: 'Lora', serif; font-size: 1.05rem; color: #fff; margin: 0 0 1rem; }
+    .ringkasan ul {
+      margin: 0; padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif; font-size: .92rem; line-height: 1.8; color: rgba(255,255,255,.9);
+    }
+
+    .nav-bawah {
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem; margin-top: 3rem; padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif; font-size: .88rem; font-weight: 700;
+      color: var(--bab-primary); text-decoration: none;
+      display: inline-flex; align-items: center; gap: .4rem;
+      border: 1.5px solid var(--bab-primary); padding: .55rem 1.1rem;
+      border-radius: .55rem; transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-hub { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-hub:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <header class="sub-hero">
+    <div class="sub-hero-icon">💼</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a>
+        <span>›</span>
+        <a href="../../index.html">Kelas 4</a>
+        <span>›</span>
+        <a href="../index.html">IPAS</a>
+        <span>›</span>
+        <a href="materi.html">Bab 3</a>
+        <span>›</span>
+        <span>Sub-materi B</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 3 · Sub-materi B</p>
+      <h1>Kegiatan Ekonomi</h1>
+      <p class="intro-text">
+        Dari petani yang menanam padi, pedagang yang berjualan di pasar, hingga kamu yang
+        membeli jajan — semua itu adalah bagian dari kegiatan ekonomi yang saling terhubung.
+      </p>
+    </div>
+  </header>
+
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#apa-itu-ekonomi"><span class="toc-num">1</span> Apa Itu Kegiatan Ekonomi?</a></li>
+        <li><a href="#tiga-kegiatan"><span class="toc-num">2</span> Tiga Kegiatan Ekonomi Utama</a></li>
+        <li><a href="#produksi"><span class="toc-num">3</span> Kegiatan Produksi</a></li>
+        <li><a href="#distribusi"><span class="toc-num">4</span> Kegiatan Distribusi</a></li>
+        <li><a href="#konsumsi"><span class="toc-num">5</span> Kegiatan Konsumsi</a></li>
+        <li><a href="#jenis-pekerjaan"><span class="toc-num">6</span> Jenis-jenis Pekerjaan</a></li>
+        <li><a href="#ekonomi-lokal"><span class="toc-num">7</span> Kegiatan Ekonomi di Sekitar Kita</a></li>
+      </ul>
+    </div>
+
+    <!-- ════ 1. APA ITU KEGIATAN EKONOMI ════ -->
+    <h2 id="apa-itu-ekonomi"><span class="section-icon">💡</span> 1. Apa Itu Kegiatan Ekonomi?</h2>
+
+    <p>
+      Setiap hari kita melakukan banyak aktivitas yang berkaitan dengan memenuhi kebutuhan hidup.
+      Petani menanam padi, ibu membeli sayur di pasar, ayah berangkat bekerja, kamu membeli pensil
+      di koperasi sekolah. Semua aktivitas ini disebut <strong>kegiatan ekonomi</strong>.
+    </p>
+    <p>
+      <strong>Kegiatan ekonomi</strong> adalah segala aktivitas manusia yang dilakukan untuk
+      memenuhi kebutuhan hidupnya — baik berupa menghasilkan barang, menyalurkan barang,
+      maupun menggunakan barang dan jasa.
+    </p>
+
+    <div class="info-box">
+      <span class="label">🔑 Mengapa Kegiatan Ekonomi Penting?</span>
+      Tanpa kegiatan ekonomi, tidak ada yang memproduksi makanan, tidak ada yang mengantarkan
+      barang ke toko, dan tidak ada yang bisa membeli apa pun. Kegiatan ekonomi adalah
+      "mesin" yang membuat kehidupan masyarakat berjalan — semua orang saling membutuhkan dan
+      saling bergantung satu sama lain.
+    </div>
+
+    <!-- ════ 2. TIGA KEGIATAN UTAMA ════ -->
+    <h2 id="tiga-kegiatan"><span class="section-icon">🔺</span> 2. Tiga Kegiatan Ekonomi Utama</h2>
+
+    <p>
+      Kegiatan ekonomi dapat dikelompokkan menjadi tiga jenis utama yang saling berkaitan
+      dan tidak bisa dipisahkan satu sama lain:
+    </p>
+
+    <div class="ekonomi-trio">
+      <div class="trio-card">
+        <div class="trio-head produksi">
+          <div class="trio-icon">🏭</div>
+          <h3>Produksi</h3>
+        </div>
+        <div class="trio-body">
+          <p class="trio-def">Membuat atau menghasilkan barang dan jasa</p>
+          Kegiatan yang menghasilkan sesuatu yang bernilai — bisa berupa barang nyata
+          (nasi, pakaian, sepatu) maupun jasa (memotong rambut, mengajar, mengobati).
+        </div>
+      </div>
+      <div class="trio-card">
+        <div class="trio-head distribusi">
+          <div class="trio-icon">🚚</div>
+          <h3>Distribusi</h3>
+        </div>
+        <div class="trio-body">
+          <p class="trio-def">Menyalurkan barang dari produsen ke konsumen</p>
+          Kegiatan menyampaikan barang yang sudah diproduksi agar bisa sampai ke tangan
+          orang yang membutuhkan — melalui pedagang, pengantar, dan jalur distribusi.
+        </div>
+      </div>
+      <div class="trio-card">
+        <div class="trio-head konsumsi">
+          <div class="trio-icon">🛍️</div>
+          <h3>Konsumsi</h3>
+        </div>
+        <div class="trio-body">
+          <p class="trio-def">Menggunakan atau memakai barang dan jasa</p>
+          Kegiatan memakai barang atau jasa untuk memenuhi kebutuhan. Setiap kali kamu
+          makan, minum, atau memakai pakaian — kamu sedang melakukan konsumsi.
+        </div>
+      </div>
+    </div>
+
+    <div class="alur-box">
+      <h3>🔄 Alur Kegiatan Ekonomi</h3>
+      <div class="alur-row">
+        <div class="alur-step">
+          <div class="as-icon">👨‍🌾</div>
+          <div class="as-label">PRODUKSI</div>
+          <div class="as-example">Petani menanam padi → menjadi beras</div>
+        </div>
+        <div class="alur-arrow">→</div>
+        <div class="alur-step">
+          <div class="as-icon">🏪</div>
+          <div class="as-label">DISTRIBUSI</div>
+          <div class="as-example">Pedagang membawa beras ke kota & pasar</div>
+        </div>
+        <div class="alur-arrow">→</div>
+        <div class="alur-step">
+          <div class="as-icon">🍚</div>
+          <div class="as-label">KONSUMSI</div>
+          <div class="as-example">Keluarga membeli & memasak beras untuk makan</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════ 3. PRODUKSI ════ -->
+    <h2 id="produksi"><span class="section-icon">🏭</span> 3. Kegiatan Produksi</h2>
+
+    <p>
+      <strong>Produksi</strong> adalah kegiatan menghasilkan barang atau jasa yang berguna
+      untuk memenuhi kebutuhan manusia. Orang yang melakukan kegiatan produksi disebut
+      <strong>produsen</strong>.
+    </p>
+
+    <h3>Jenis-jenis Kegiatan Produksi</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Jenis Produksi</th>
+          <th>Penjelasan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Ekstraktif</strong></td>
+          <td>Mengambil langsung dari alam tanpa mengolah lebih lanjut</td>
+          <td>Menangkap ikan, menambang batu bara, menebang kayu hutan</td>
+        </tr>
+        <tr>
+          <td><strong>Agraris</strong></td>
+          <td>Mengolah lahan untuk menghasilkan bahan pangan dan bahan baku</td>
+          <td>Bertani padi, berkebun singkong, beternak sapi, membudidayakan ikan</td>
+        </tr>
+        <tr>
+          <td><strong>Industri</strong></td>
+          <td>Mengolah bahan mentah menjadi barang jadi atau setengah jadi</td>
+          <td>Pabrik tahu dari kedelai, pabrik kain dari benang, industri batik</td>
+        </tr>
+        <tr>
+          <td><strong>Jasa</strong></td>
+          <td>Menghasilkan layanan yang berguna bagi orang lain</td>
+          <td>Guru mengajar, dokter mengobati, tukang cukur memotong rambut</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Faktor-faktor Produksi</h3>
+    <p>
+      Untuk bisa berproduksi, dibutuhkan empat faktor utama:
+    </p>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Faktor</th>
+          <th>Penjelasan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sumber Daya Alam</strong></td>
+          <td>Bahan baku dari alam yang diolah</td>
+          <td>Tanah, air, udara, hutan, tambang, laut</td>
+        </tr>
+        <tr>
+          <td><strong>Sumber Daya Manusia</strong></td>
+          <td>Tenaga kerja dan keahlian manusia</td>
+          <td>Petani, pengrajin, insinyur, dokter</td>
+        </tr>
+        <tr>
+          <td><strong>Modal</strong></td>
+          <td>Uang atau peralatan yang digunakan untuk berproduksi</td>
+          <td>Cangkul, mesin jahit, pabrik, modal usaha</td>
+        </tr>
+        <tr>
+          <td><strong>Kewirausahaan</strong></td>
+          <td>Kemampuan mengelola dan memimpin usaha</td>
+          <td>Pengusaha yang membangun pabrik dan mengelola karyawan</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 4. DISTRIBUSI ════ -->
+    <h2 id="distribusi"><span class="section-icon">🚚</span> 4. Kegiatan Distribusi</h2>
+
+    <p>
+      <strong>Distribusi</strong> adalah kegiatan menyalurkan barang atau jasa dari produsen
+      ke konsumen. Orang atau lembaga yang melakukan distribusi disebut <strong>distributor</strong>.
+    </p>
+    <p>
+      Tanpa distribusi, barang yang sudah diproduksi tidak akan bisa sampai ke tangan orang
+      yang membutuhkan. Bayangkan kalau beras dari Jawa tidak ada yang mengangkut ke Papua —
+      tentu masyarakat Papua akan kesulitan mendapatkan beras.
+    </p>
+
+    <h3>Saluran Distribusi</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Saluran</th>
+          <th>Penjelasan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Distribusi Langsung</strong></td>
+          <td>Produsen langsung menjual kepada konsumen tanpa perantara</td>
+          <td>Petani menjual sayuran langsung di depan rumah; pengrajin menjual batik di tokonya sendiri</td>
+        </tr>
+        <tr>
+          <td><strong>Distribusi Tidak Langsung</strong></td>
+          <td>Melalui perantara (pedagang grosir, pengecer) sebelum sampai ke konsumen</td>
+          <td>Pabrik → Agen → Toko grosir → Warung → Konsumen</td>
+        </tr>
+        <tr>
+          <td><strong>Distributor/Agen</strong></td>
+          <td>Penyalur resmi yang membeli dalam jumlah besar lalu menjual ke pengecer</td>
+          <td>Agen mie instan yang memasok ke ratusan warung di suatu daerah</td>
+        </tr>
+        <tr>
+          <td><strong>Pengecer</strong></td>
+          <td>Pedagang yang menjual langsung kepada konsumen akhir dalam jumlah kecil</td>
+          <td>Warung, minimarket, tukang sayur keliling</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="fact-box">
+      <p class="fact-label">🚜 Distribusi di Jawa Barat</p>
+      <p>
+        Jawa Barat adalah salah satu lumbung pangan Indonesia. Beras dari Karawang dan Subang,
+        sayuran dari Lembang dan Cipanas, teh dari Pangalengan — semuanya didistribusikan
+        ke berbagai kota besar seperti Jakarta, Bandung, bahkan diekspor ke luar negeri.
+        Pelabuhan Cirebon dan berbagai terminal pengiriman memainkan peran penting
+        dalam rantai distribusi ini.
+      </p>
+    </div>
+
+    <!-- ════ 5. KONSUMSI ════ -->
+    <h2 id="konsumsi"><span class="section-icon">🛍️</span> 5. Kegiatan Konsumsi</h2>
+
+    <p>
+      <strong>Konsumsi</strong> adalah kegiatan menggunakan atau memakai barang dan jasa
+      untuk memenuhi kebutuhan. Orang yang melakukan konsumsi disebut <strong>konsumen</strong>.
+    </p>
+    <p>
+      Kita semua adalah konsumen! Setiap hari kita mengonsumsi makanan, minuman, pakaian,
+      layanan pendidikan, transportasi, dan masih banyak lagi.
+    </p>
+
+    <h3>Ciri-ciri Kegiatan Konsumsi</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Ciri</th>
+          <th>Penjelasan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Mengurangi nilai barang</strong></td>
+          <td>Barang yang dikonsumsi berkurang atau habis nilainya</td>
+          <td>Nasi yang dimakan menjadi habis; pensil yang dipakai makin pendek</td>
+        </tr>
+        <tr>
+          <td><strong>Memenuhi kebutuhan</strong></td>
+          <td>Tujuan konsumsi adalah untuk memenuhi kebutuhan</td>
+          <td>Makan untuk menghilangkan lapar; memakai jaket agar tidak kedinginan</td>
+        </tr>
+        <tr>
+          <td><strong>Bisa barang/jasa</strong></td>
+          <td>Konsumsi bisa berupa benda nyata maupun layanan</td>
+          <td>Makan (barang); naik ojek (jasa); berobat ke dokter (jasa)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <span class="label">💡 Konsumsi yang Bijak</span>
+      Menjadi konsumen yang bijak artinya membeli apa yang benar-benar dibutuhkan,
+      tidak berlebihan, dan mempertimbangkan kualitas sebelum harga.
+      Membeli produk lokal — seperti batik Cirebon, kerajinan Bandung, atau makanan khas
+      Jawa Barat — juga membantu mendukung kegiatan produksi dan distribusi di daerah kita sendiri.
+    </div>
+
+    <!-- ════ 6. JENIS PEKERJAAN ════ -->
+    <h2 id="jenis-pekerjaan"><span class="section-icon">👷</span> 6. Jenis-jenis Pekerjaan</h2>
+
+    <p>
+      Untuk berpartisipasi dalam kegiatan ekonomi, manusia memilih pekerjaan sesuai
+      keahlian dan kondisi lingkungannya. Pekerjaan dibedakan menjadi dua kelompok besar:
+    </p>
+
+    <div class="pekerjaan-grid">
+      <div class="pekerjaan-card">
+        <div class="pk-head">
+          <div class="pk-emoji">🌾</div>
+          <h3>Pekerjaan Penghasil Barang</h3>
+        </div>
+        <div class="pk-body">
+          Pekerjaan yang menghasilkan produk nyata yang bisa dipegang dan dilihat.
+          <p class="pk-contoh">Petani, nelayan, peternak, pengrajin batik, pengrajin bambu, penambang, tukang kayu, penjahit</p>
+        </div>
+      </div>
+      <div class="pekerjaan-card">
+        <div class="pk-head">
+          <div class="pk-emoji">🎓</div>
+          <h3>Pekerjaan Penghasil Jasa</h3>
+        </div>
+        <div class="pk-body">
+          Pekerjaan yang menghasilkan layanan yang berguna bagi orang lain — tidak berbentuk benda nyata tapi sangat dibutuhkan.
+          <p class="pk-contoh">Guru, dokter, perawat, sopir, tukang cukur, polisi, tentara, pilot, programmer</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>Pekerjaan Berdasarkan Sektor</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Sektor</th>
+          <th>Penjelasan</th>
+          <th>Contoh Pekerjaan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Primer</strong></td>
+          <td>Mengambil atau mengolah sumber daya alam langsung</td>
+          <td>Petani, nelayan, penambang, pekebun teh</td>
+        </tr>
+        <tr>
+          <td><strong>Sekunder</strong></td>
+          <td>Mengolah bahan mentah menjadi produk jadi</td>
+          <td>Pekerja pabrik, pengrajin, tukang jahit, pengolah makanan</td>
+        </tr>
+        <tr>
+          <td><strong>Tersier</strong></td>
+          <td>Memberikan layanan kepada masyarakat</td>
+          <td>Guru, dokter, pedagang, sopir, pegawai bank, pegawai negeri</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 7. EKONOMI LOKAL ════ -->
+    <h2 id="ekonomi-lokal"><span class="section-icon">🏡</span> 7. Kegiatan Ekonomi di Sekitar Kita</h2>
+
+    <p>
+      Kegiatan ekonomi tidak hanya terjadi di kota besar atau di pabrik. Di sekitar kita —
+      di pasar tradisional, di sawah, di warung pojok — kegiatan ekonomi berlangsung
+      setiap hari dan menghidupi jutaan orang.
+    </p>
+
+    <div class="rantai-box">
+      <div class="rantai-header">
+        <span class="rantai-badge">Jawa Barat</span>
+        <h3>Contoh Rantai Ekonomi: Dari Sawah ke Piring Makan</h3>
+      </div>
+      <div class="rantai-steps">
+        <div class="rantai-step">
+          <div class="rs-num">1</div>
+          <div class="rs-text">
+            <strong>Produksi:</strong> Pak Asep, petani di Karawang, menanam padi di sawah selama 3 bulan
+            dengan modal benih, pupuk, dan tenaga kerja. Padi dipanen dan diolah menjadi beras.
+          </div>
+        </div>
+        <div class="rantai-step">
+          <div class="rs-num">2</div>
+          <div class="rs-text">
+            <strong>Distribusi (1):</strong> Tengkulak membeli beras langsung dari Pak Asep di sawah
+            dengan harga grosir, lalu menjualnya ke penggilingan padi untuk dibersihkan dan dikemas.
+          </div>
+        </div>
+        <div class="rantai-step">
+          <div class="rs-num">3</div>
+          <div class="rs-text">
+            <strong>Distribusi (2):</strong> Perusahaan distribusi mengangkut beras dengan truk ke
+            berbagai gudang di Bandung, Jakarta, dan kota-kota lain di Jawa Barat.
+          </div>
+        </div>
+        <div class="rantai-step">
+          <div class="rs-num">4</div>
+          <div class="rs-text">
+            <strong>Distribusi (3):</strong> Agen beras menjual ke toko grosir, yang kemudian
+            menjualnya ke warung-warung kecil di seluruh kota.
+          </div>
+        </div>
+        <div class="rantai-step">
+          <div class="rs-num">5</div>
+          <div class="rs-text">
+            <strong>Konsumsi:</strong> Bu Siti membeli beras di warung dekat rumah dengan harga eceran.
+            Beras dimasak menjadi nasi untuk dimakan seluruh keluarga. Itulah konsumsi!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Tempat-tempat Kegiatan Ekonomi</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Tempat</th>
+          <th>Kegiatan Ekonomi yang Terjadi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Pasar Tradisional</strong></td>
+          <td>Penjual dan pembeli bertemu langsung; distribusi dan konsumsi terjadi sekaligus; harga bisa ditawar</td>
+        </tr>
+        <tr>
+          <td><strong>Sawah / Ladang</strong></td>
+          <td>Kegiatan produksi agraris — petani menghasilkan padi, sayuran, buah</td>
+        </tr>
+        <tr>
+          <td><strong>Pabrik / Industri</strong></td>
+          <td>Kegiatan produksi industri — mengolah bahan mentah menjadi barang jadi</td>
+        </tr>
+        <tr>
+          <td><strong>Toko / Warung</strong></td>
+          <td>Titik distribusi terakhir sebelum barang sampai ke konsumen</td>
+        </tr>
+        <tr>
+          <td><strong>Sekolah / Rumah Sakit</strong></td>
+          <td>Kegiatan produksi dan konsumsi jasa — menghasilkan layanan pendidikan dan kesehatan</td>
+        </tr>
+        <tr>
+          <td><strong>Bank / Koperasi</strong></td>
+          <td>Lembaga keuangan yang mendukung kegiatan ekonomi dengan menyediakan modal pinjaman</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="fact-box">
+      <p class="fact-label">🛖 Pasar Tradisional vs. Pasar Modern</p>
+      <p>
+        Di Jawa Barat, <strong>pasar tradisional</strong> seperti Pasar Kosambi Bandung
+        atau Pasar Induk Cirebon masih sangat ramai. Di sini, produsen kecil dan konsumen
+        berinteraksi langsung — sayur dari petani Lembang bisa sampai ke tangan ibu rumah
+        tangga di Bandung pada pagi hari yang sama.
+        Berbelanja di pasar tradisional berarti membantu produsen lokal mendapatkan
+        penghasilan yang lebih baik karena rantai distribusinya lebih pendek.
+      </p>
+    </div>
+
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi B</h3>
+      <ul>
+        <li><strong>Kegiatan ekonomi</strong> adalah segala aktivitas manusia untuk memenuhi kebutuhan, mencakup produksi, distribusi, dan konsumsi.</li>
+        <li><strong>Produksi</strong> adalah kegiatan menghasilkan barang atau jasa. Produsen bisa bergerak di sektor ekstraktif, agraris, industri, atau jasa.</li>
+        <li><strong>Distribusi</strong> adalah kegiatan menyalurkan barang dari produsen ke konsumen — bisa langsung maupun melalui perantara (agen, pengecer).</li>
+        <li><strong>Konsumsi</strong> adalah kegiatan menggunakan barang atau jasa untuk memenuhi kebutuhan. Kita semua adalah konsumen setiap harinya.</li>
+        <li>Pekerjaan dibagi menjadi penghasil barang dan penghasil jasa, serta dibedakan menjadi sektor primer, sekunder, dan tersier.</li>
+        <li>Kegiatan ekonomi terjadi di sekitar kita setiap hari — di sawah, pasar, warung, pabrik — membentuk rantai yang saling menghidupi satu sama lain.</li>
+      </ul>
+    </div>
+
+    <div class="nav-bawah">
+      <a href="macam-kebutuhan.html">← Sub-A: Macam-macam Kebutuhan</a>
+      <a href="materi.html" class="btn-hub">↩ Kembali ke Bab 3</a>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 3, Sub-B — Kegiatan Ekonomi
+  </footer>
+
+</body>
+</html>

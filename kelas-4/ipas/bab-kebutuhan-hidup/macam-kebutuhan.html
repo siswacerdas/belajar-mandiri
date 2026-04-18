@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sub-A: Macam-macam Kebutuhan | IPAS Kelas 4 Bab 3 | Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/layout.css" />
+  <style>
+    .content-wrap {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding-left: clamp(1.25rem, 5vw, 3rem);
+      padding-right: clamp(1.25rem, 5vw, 3rem);
+    }
+    :root {
+      --bab-primary:    #2d7a3a;
+      --bab-primary-dk: #1f5828;
+      --bab-light:      #eef7f0;
+      --bab-accent:     #5aad6a;
+    }
+
+    .sub-hero {
+      background: linear-gradient(135deg, var(--bab-primary-dk) 0%, var(--bab-primary) 70%, var(--bab-accent) 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .sub-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle at 85% 30%, rgba(255,255,255,.09) 0%, transparent 45%);
+      pointer-events: none;
+    }
+    .sub-hero .breadcrumb {
+      font-family: 'Nunito', sans-serif;
+      font-size: .8rem;
+      color: rgba(255,255,255,.72);
+      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .3rem;
+      align-items: center;
+    }
+    .sub-hero .breadcrumb a { color: rgba(255,255,255,.78); text-decoration: none; }
+    .sub-hero .breadcrumb a:hover { color: #fff; }
+    .sub-hero .breadcrumb span { opacity: .5; }
+    .sub-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.68);
+      margin-bottom: .5rem;
+    }
+    .sub-hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 700;
+      margin: 0 0 .8rem;
+      color: #fff;
+      max-width: 680px;
+    }
+    .sub-hero .intro-text {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: rgba(255,255,255,.85);
+      max-width: 640px;
+      line-height: 1.65;
+    }
+    .sub-hero-icon {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 1rem;
+      font-size: 4rem;
+      opacity: .15;
+      pointer-events: none;
+    }
+
+    .toc-box {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.4rem 1.6rem;
+      margin: 2rem 0 2.5rem;
+    }
+    .toc-box h3 {
+      font-family: 'Lora', serif;
+      font-size: .95rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .9rem;
+    }
+    .toc-list {
+      list-style: none;
+      margin: 0; padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: .4rem .8rem;
+    }
+    .toc-list li a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .2rem 0;
+      transition: color .2s;
+    }
+    .toc-list li a:hover { color: var(--bab-primary-dk); }
+    .toc-num { font-weight: 700; min-width: 1.5rem; color: var(--bab-accent); }
+
+    .prose h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.4rem;
+      color: var(--ink, #1a1f2e);
+      margin: 3rem 0 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--bab-primary);
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+    .prose h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      color: var(--bab-primary-dk);
+      margin: 2rem 0 .7rem;
+    }
+    .prose p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .97rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.8;
+      margin: 0 0 1rem;
+    }
+
+    .info-box {
+      background: var(--bab-light);
+      border-left: 4px solid var(--bab-primary);
+      border-radius: 0 .75rem .75rem 0;
+      padding: 1.1rem 1.4rem;
+      margin: 1.2rem 0;
+      font-family: 'Nunito', sans-serif;
+      font-size: .93rem;
+      line-height: 1.7;
+      color: var(--ink, #1a1f2e);
+    }
+    .info-box .label {
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      display: block;
+      margin-bottom: .3rem;
+      font-size: .8rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .fact-box {
+      background: #f0fbf2;
+      border: 1.5px solid var(--bab-accent);
+      border-radius: .85rem;
+      padding: 1.2rem 1.4rem;
+      margin: 1.5rem 0;
+    }
+    .fact-box .fact-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--bab-accent);
+      margin-bottom: .5rem;
+    }
+    .fact-box p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* ── Kartu jenis kebutuhan ── */
+    .kebutuhan-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .kebutuhan-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .9rem;
+      overflow: hidden;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .kebutuhan-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(45,122,58,.11);
+    }
+    .kc-head {
+      padding: 1rem 1.2rem .7rem;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+    }
+    .kc-emoji {
+      font-size: 1.7rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bab-light);
+      border-radius: .55rem;
+      flex-shrink: 0;
+    }
+    .kc-head h3 {
+      font-family: 'Lora', serif;
+      font-size: .97rem;
+      color: var(--bab-primary-dk);
+      margin: 0;
+    }
+    .kc-body {
+      padding: .8rem 1.2rem 1rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .86rem;
+      color: #555;
+      line-height: 1.65;
+    }
+    .kc-contoh {
+      margin-top: .5rem;
+      font-weight: 600;
+      color: var(--bab-primary-dk);
+      font-size: .83rem;
+    }
+
+    /* ── Perbandingan kebutuhan vs keinginan ── */
+    .vs-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    @media (max-width: 480px) { .vs-box { grid-template-columns: 1fr; } }
+    .vs-card {
+      border-radius: .9rem;
+      padding: 1.2rem 1.4rem;
+    }
+    .vs-card.kebutuhan { background: #eef7f0; border: 1.5px solid var(--bab-accent); }
+    .vs-card.keinginan { background: #fdf3ec; border: 1.5px solid #e8864a; }
+    .vs-card h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      margin: 0 0 .8rem;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+    }
+    .vs-card.kebutuhan h3 { color: var(--bab-primary-dk); }
+    .vs-card.keinginan h3 { color: #8f4415; }
+    .vs-card ul {
+      margin: 0;
+      padding-left: 1.2rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      line-height: 1.75;
+      color: var(--ink, #1a1f2e);
+    }
+
+    /* ── Piramida kebutuhan ── */
+    .piramida {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: 1rem;
+      padding: 1.6rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .piramida h3 {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--bab-primary-dk);
+      margin: 0 0 1.2rem;
+    }
+    .piramida-item {
+      display: flex;
+      align-items: stretch;
+      gap: 1rem;
+      margin-bottom: .7rem;
+    }
+    .piramida-item:last-child { margin-bottom: 0; }
+    .pir-num {
+      font-family: 'Lora', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--bab-accent);
+      width: 2rem;
+      flex-shrink: 0;
+      display: flex;
+      align-items: flex-start;
+      padding-top: .1rem;
+    }
+    .pir-content {
+      flex: 1;
+      background: var(--bab-light);
+      border-radius: .6rem;
+      padding: .75rem 1rem;
+    }
+    .pir-content h4 {
+      font-family: 'Nunito', sans-serif;
+      font-size: .9rem;
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .25rem;
+    }
+    .pir-content p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .84rem;
+      color: #555;
+      margin: 0;
+      line-height: 1.55;
+    }
+
+    /* ── Tabel ── */
+    .tabel-bab {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      margin: 1rem 0 1.5rem;
+      background: #fff;
+      border-radius: .75rem;
+      overflow: hidden;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-bab thead tr { background: var(--bab-primary); color: #fff; }
+    .tabel-bab th {
+      padding: .75rem 1rem;
+      text-align: left;
+      font-weight: 700;
+      font-size: .82rem;
+      letter-spacing: .04em;
+    }
+    .tabel-bab td {
+      padding: .65rem 1rem;
+      color: var(--ink, #1a1f2e);
+      line-height: 1.55;
+      border-bottom: 1px solid var(--sand-dk, #ede8dc);
+    }
+    .tabel-bab tbody tr:nth-child(even) { background: var(--sand, #f7f3eb); }
+    .tabel-bab tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Kartu cara memenuhi kebutuhan ── */
+    .cara-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .cara-card {
+      background: #fff;
+      border: 1.5px solid var(--sand-dk, #ede8dc);
+      border-radius: .85rem;
+      padding: 1.2rem;
+      display: flex;
+      gap: .85rem;
+      align-items: flex-start;
+    }
+    .cara-icon {
+      font-size: 1.7rem;
+      flex-shrink: 0;
+      width: 2.6rem;
+      height: 2.6rem;
+      background: var(--bab-light);
+      border-radius: .55rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cara-card h3 {
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      font-weight: 700;
+      color: var(--bab-primary-dk);
+      margin: 0 0 .3rem;
+    }
+    .cara-card p {
+      font-family: 'Nunito', sans-serif;
+      font-size: .84rem;
+      color: #666;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    /* ── Ringkasan ── */
+    .ringkasan {
+      background: var(--bab-primary);
+      color: #fff;
+      border-radius: 1rem;
+      padding: 1.6rem 1.8rem;
+      margin: 2.5rem 0;
+    }
+    .ringkasan h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      color: #fff;
+      margin: 0 0 1rem;
+    }
+    .ringkasan ul {
+      margin: 0;
+      padding-left: 1.3rem;
+      font-family: 'Nunito', sans-serif;
+      font-size: .92rem;
+      line-height: 1.8;
+      color: rgba(255,255,255,.9);
+    }
+
+    .nav-bawah {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1.5px solid var(--sand-dk, #ede8dc);
+    }
+    .nav-bawah a {
+      font-family: 'Nunito', sans-serif;
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--bab-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      border: 1.5px solid var(--bab-primary);
+      padding: .55rem 1.1rem;
+      border-radius: .55rem;
+      transition: background .2s, color .2s;
+    }
+    .nav-bawah a:hover { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next { background: var(--bab-primary); color: #fff; }
+    .nav-bawah .btn-next:hover { background: var(--bab-primary-dk); }
+  </style>
+</head>
+<body>
+
+  <header class="sub-hero">
+    <div class="sub-hero-icon">🛒</div>
+    <div class="content-wrap">
+      <nav class="breadcrumb" aria-label="Navigasi">
+        <a href="../../../index.html">Beranda</a>
+        <span>›</span>
+        <a href="../../index.html">Kelas 4</a>
+        <span>›</span>
+        <a href="../index.html">IPAS</a>
+        <span>›</span>
+        <a href="materi.html">Bab 3</a>
+        <span>›</span>
+        <span>Sub-materi A</span>
+      </nav>
+      <p class="sub-label">IPAS Kelas 4 · Bab 3 · Sub-materi A</p>
+      <h1>Macam-macam Kebutuhan dan Cara Memenuhinya</h1>
+      <p class="intro-text">
+        Apa yang kamu butuhkan untuk bertahan hidup? Apa bedanya "butuh" dan "mau"?
+        Dan bagaimana kita bisa mendapatkan semua yang kita perlukan?
+      </p>
+    </div>
+  </header>
+
+  <main class="content-wrap prose" style="padding-top:1.8rem; padding-bottom:4rem;">
+
+    <div class="toc-box">
+      <h3>📋 Isi Materi</h3>
+      <ul class="toc-list">
+        <li><a href="#apa-itu-kebutuhan"><span class="toc-num">1</span> Apa Itu Kebutuhan?</a></li>
+        <li><a href="#kebutuhan-vs-keinginan"><span class="toc-num">2</span> Kebutuhan vs. Keinginan</a></li>
+        <li><a href="#jenis-kebutuhan"><span class="toc-num">3</span> Jenis-jenis Kebutuhan</a></li>
+        <li><a href="#skala-prioritas"><span class="toc-num">4</span> Skala Prioritas</a></li>
+        <li><a href="#faktor-kebutuhan"><span class="toc-num">5</span> Faktor yang Mempengaruhi Kebutuhan</a></li>
+        <li><a href="#cara-memenuhi"><span class="toc-num">6</span> Cara Memenuhi Kebutuhan</a></li>
+      </ul>
+    </div>
+
+    <!-- ════ 1. APA ITU KEBUTUHAN ════ -->
+    <h2 id="apa-itu-kebutuhan"><span class="section-icon">🌱</span> 1. Apa Itu Kebutuhan?</h2>
+
+    <p>
+      <strong>Kebutuhan</strong> adalah segala sesuatu yang harus dipenuhi agar manusia
+      dapat hidup dengan layak. Jika kebutuhan tidak terpenuhi, manusia akan mengalami
+      kesulitan, penderitaan, bahkan bisa membahayakan keselamatan hidupnya.
+    </p>
+    <p>
+      Kebutuhan manusia sangat beragam. Sejak bangun pagi hingga tidur malam, manusia
+      terus memenuhi kebutuhannya — makan sarapan, memakai baju ke sekolah, belajar,
+      bermain, hingga beristirahat.
+    </p>
+
+    <div class="info-box">
+      <span class="label">💡 Definisi Mudah</span>
+      <strong>Kebutuhan</strong> = sesuatu yang <em>harus</em> ada agar kita bisa hidup dengan baik.<br>
+      <strong>Keinginan</strong> = sesuatu yang <em>ingin</em> kita miliki, tapi tidak ada pun kita masih bisa hidup.
+    </div>
+
+    <!-- ════ 2. KEBUTUHAN VS KEINGINAN ════ -->
+    <h2 id="kebutuhan-vs-keinginan"><span class="section-icon">⚖️</span> 2. Kebutuhan vs. Keinginan</h2>
+
+    <p>
+      Seringkali kita bingung membedakan mana yang benar-benar kebutuhan dan mana yang sekadar
+      keinginan. Padahal membedakan keduanya sangat penting — terutama saat kita harus memilih
+      bagaimana menggunakan uang yang kita miliki.
+    </p>
+
+    <div class="vs-box">
+      <div class="vs-card kebutuhan">
+        <h3>✅ Kebutuhan</h3>
+        <ul>
+          <li>Harus dipenuhi untuk bertahan hidup</li>
+          <li>Jika tidak terpenuhi, menimbulkan masalah serius</li>
+          <li>Bersifat mendesak</li>
+          <li>Contoh: makan, minum, pakaian, tempat tinggal, pendidikan, kesehatan</li>
+        </ul>
+      </div>
+      <div class="vs-card keinginan">
+        <h3>💭 Keinginan</h3>
+        <ul>
+          <li>Ingin dipenuhi, tapi tidak wajib</li>
+          <li>Jika tidak terpenuhi, hanya merasa kecewa</li>
+          <li>Tidak selalu mendesak</li>
+          <li>Contoh: mainan baru, HP terbaru, sepatu merek tertentu, jalan-jalan</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <p class="fact-label">🤔 Hati-hati — Batas Kebutuhan dan Keinginan Bisa Kabur!</p>
+      <p>
+        Baju adalah <em>kebutuhan</em> — kita perlu baju untuk melindungi tubuh.
+        Tapi baju dengan merek mahal tertentu adalah <em>keinginan</em> — karena baju murah
+        pun sudah bisa melindungi tubuh dengan sama baiknya. Jadi, yang membedakan bukan
+        bendanya, tapi <strong>seberapa perlu</strong> benda itu untuk kelangsungan hidup kita.
+      </p>
+    </div>
+
+    <!-- ════ 3. JENIS-JENIS KEBUTUHAN ════ -->
+    <h2 id="jenis-kebutuhan"><span class="section-icon">🔢</span> 3. Jenis-jenis Kebutuhan</h2>
+
+    <p>
+      Para ahli mengelompokkan kebutuhan manusia menjadi beberapa jenis
+      berdasarkan cara pandang yang berbeda-beda:
+    </p>
+
+    <h3>A. Berdasarkan Tingkat Kepentingan</h3>
+
+    <div class="kebutuhan-grid">
+      <div class="kebutuhan-card">
+        <div class="kc-head">
+          <div class="kc-emoji">🍚</div>
+          <h3>Kebutuhan Primer</h3>
+        </div>
+        <div class="kc-body">
+          Kebutuhan paling pokok yang <em>wajib</em> dipenuhi agar manusia bisa bertahan hidup.
+          Disebut juga kebutuhan dasar.
+          <p class="kc-contoh">Contoh: makanan, minuman, pakaian, tempat tinggal (sandang, pangan, papan)</p>
+        </div>
+      </div>
+      <div class="kebutuhan-card">
+        <div class="kc-head">
+          <div class="kc-emoji">📚</div>
+          <h3>Kebutuhan Sekunder</h3>
+        </div>
+        <div class="kc-body">
+          Kebutuhan yang diperlukan setelah kebutuhan primer terpenuhi, untuk menunjang
+          kehidupan yang lebih baik. Tidak langsung mengancam jiwa jika tidak terpenuhi.
+          <p class="kc-contoh">Contoh: pendidikan, perabot rumah, sepeda, TV, lemari es</p>
+        </div>
+      </div>
+      <div class="kebutuhan-card">
+        <div class="kc-head">
+          <div class="kc-emoji">✨</div>
+          <h3>Kebutuhan Tersier</h3>
+        </div>
+        <div class="kc-body">
+          Kebutuhan yang bersifat kemewahan — dipenuhi setelah kebutuhan primer dan sekunder
+          tercukupi. Biasanya menunjukkan status sosial.
+          <p class="kc-contoh">Contoh: mobil mewah, perhiasan emas, villa, liburan ke luar negeri</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>B. Berdasarkan Sifatnya</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Jenis</th>
+          <th>Pengertian</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Kebutuhan Jasmani</strong></td>
+          <td>Kebutuhan yang berkaitan dengan tubuh/fisik manusia</td>
+          <td>Makanan bergizi, pakaian, olahraga, obat saat sakit</td>
+        </tr>
+        <tr>
+          <td><strong>Kebutuhan Rohani</strong></td>
+          <td>Kebutuhan yang berkaitan dengan jiwa, pikiran, dan perasaan</td>
+          <td>Ibadah, hiburan, pendidikan, kasih sayang, persahabatan</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>C. Berdasarkan Waktu Pemenuhannya</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Jenis</th>
+          <th>Pengertian</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Kebutuhan Sekarang</strong></td>
+          <td>Harus dipenuhi saat ini juga, tidak bisa ditunda</td>
+          <td>Makan saat lapar, minum obat saat sakit, memakai payung saat hujan</td>
+        </tr>
+        <tr>
+          <td><strong>Kebutuhan Masa Depan</strong></td>
+          <td>Perlu dipersiapkan sekarang untuk dipenuhi nanti</td>
+          <td>Menabung untuk biaya sekolah, menabung untuk membeli rumah</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>D. Berdasarkan Subjeknya</h3>
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Jenis</th>
+          <th>Pengertian</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Kebutuhan Individu</strong></td>
+          <td>Kebutuhan yang berbeda-beda pada setiap orang</td>
+          <td>Kacamata bagi yang rabun, tongkat bagi yang lanjut usia, buku khusus bagi pelajar</td>
+        </tr>
+        <tr>
+          <td><strong>Kebutuhan Sosial</strong></td>
+          <td>Kebutuhan yang diperlukan oleh masyarakat bersama</td>
+          <td>Jalan raya, jembatan, sekolah, rumah sakit, pasar</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 4. SKALA PRIORITAS ════ -->
+    <h2 id="skala-prioritas"><span class="section-icon">📊</span> 4. Skala Prioritas</h2>
+
+    <p>
+      Kebutuhan manusia tidak terbatas, tapi kemampuan untuk memenuhinya terbatas.
+      Maka dari itu, kita perlu <strong>skala prioritas</strong> — yaitu urutan kebutuhan
+      mana yang harus dipenuhi terlebih dahulu.
+    </p>
+
+    <div class="piramida">
+      <h3>🔺 Urutan Prioritas Kebutuhan</h3>
+      <div class="piramida-item">
+        <div class="pir-num">1</div>
+        <div class="pir-content">
+          <h4>Kebutuhan Primer (Paling Utama)</h4>
+          <p>Penuhi ini dulu sebelum yang lain — makan, minum, pakaian layak, tempat tinggal</p>
+        </div>
+      </div>
+      <div class="piramida-item">
+        <div class="pir-num">2</div>
+        <div class="pir-content">
+          <h4>Kebutuhan Sekunder</h4>
+          <p>Setelah primer terpenuhi — perabot rumah, alat transportasi, pendidikan tambahan</p>
+        </div>
+      </div>
+      <div class="piramida-item">
+        <div class="pir-num">3</div>
+        <div class="pir-content">
+          <h4>Kebutuhan Tersier (Jika Mampu)</h4>
+          <p>Kemewahan yang dipenuhi jika sudah ada kelebihan — berlibur, perhiasan, kendaraan mewah</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <span class="label">📝 Contoh Skala Prioritas dalam Kehidupan Nyata</span>
+      Pak Budi menerima gaji bulan ini. Berikut urutan penggunaannya yang bijak:
+      <br>1. Membeli beras dan lauk pauk untuk keluarga <em>(primer)</em>
+      <br>2. Membayar tagihan listrik dan air <em>(primer)</em>
+      <br>3. Membeli seragam sekolah anak yang sudah kekecilan <em>(primer-sekunder)</em>
+      <br>4. Membeli lemari baru untuk menggantikan yang rusak <em>(sekunder)</em>
+      <br>5. Menabung sisa uang <em>(kebutuhan masa depan)</em>
+      <br>Baru jika ada sisa, bisa untuk liburan atau hiburan <em>(tersier/keinginan)</em>
+    </div>
+
+    <!-- ════ 5. FAKTOR YANG MEMPENGARUHI KEBUTUHAN ════ -->
+    <h2 id="faktor-kebutuhan"><span class="section-icon">🔍</span> 5. Faktor yang Mempengaruhi Kebutuhan</h2>
+
+    <p>
+      Kebutuhan setiap orang berbeda-beda. Ada beberapa faktor yang mempengaruhi
+      perbedaan kebutuhan tersebut:
+    </p>
+
+    <table class="tabel-bab">
+      <thead>
+        <tr>
+          <th>Faktor</th>
+          <th>Penjelasan</th>
+          <th>Contoh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Usia</strong></td>
+          <td>Kebutuhan bayi, anak-anak, remaja, dewasa, dan lansia berbeda</td>
+          <td>Bayi butuh susu dan popok; lansia butuh obat dan tongkat</td>
+        </tr>
+        <tr>
+          <td><strong>Jenis Kelamin</strong></td>
+          <td>Beberapa kebutuhan berbeda antara laki-laki dan perempuan</td>
+          <td>Kebutuhan pakaian, perawatan tubuh, dan kesehatan bisa berbeda</td>
+        </tr>
+        <tr>
+          <td><strong>Lingkungan</strong></td>
+          <td>Tempat tinggal mempengaruhi jenis kebutuhan</td>
+          <td>Orang pegunungan butuh jaket tebal; orang pantai butuh pakaian tipis</td>
+        </tr>
+        <tr>
+          <td><strong>Pekerjaan</strong></td>
+          <td>Jenis pekerjaan menentukan alat dan perlengkapan yang dibutuhkan</td>
+          <td>Petani butuh cangkul; dokter butuh stetoskop; guru butuh buku</td>
+        </tr>
+        <tr>
+          <td><strong>Tingkat Pendapatan</strong></td>
+          <td>Semakin tinggi pendapatan, semakin banyak kebutuhan yang bisa dipenuhi</td>
+          <td>Keluarga kaya bisa memenuhi kebutuhan tersier; keluarga pas-pasan fokus primer</td>
+        </tr>
+        <tr>
+          <td><strong>Adat dan Agama</strong></td>
+          <td>Keyakinan dan adat istiadat menciptakan kebutuhan khusus</td>
+          <td>Muslim butuh makanan halal; masyarakat adat butuh perlengkapan ritual</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ════ 6. CARA MEMENUHI KEBUTUHAN ════ -->
+    <h2 id="cara-memenuhi"><span class="section-icon">🤝</span> 6. Cara Memenuhi Kebutuhan</h2>
+
+    <p>
+      Manusia tidak bisa memenuhi semua kebutuhannya sendiri. Kita saling bergantung satu
+      sama lain. Ada berbagai cara yang dilakukan manusia untuk memenuhi kebutuhannya:
+    </p>
+
+    <div class="cara-grid">
+      <div class="cara-card">
+        <div class="cara-icon">👨‍🌾</div>
+        <div>
+          <h3>Bekerja / Berusaha Sendiri</h3>
+          <p>Memproduksi sendiri apa yang dibutuhkan — bertani, beternak, berkebun, membuat kerajinan untuk dipakai sendiri.</p>
+        </div>
+      </div>
+      <div class="cara-card">
+        <div class="cara-icon">💼</div>
+        <div>
+          <h3>Bekerja untuk Orang Lain</h3>
+          <p>Menjual tenaga dan keahlian kepada orang lain dengan imbalan upah, yang kemudian digunakan untuk membeli kebutuhan.</p>
+        </div>
+      </div>
+      <div class="cara-card">
+        <div class="cara-icon">🤝</div>
+        <div>
+          <h3>Tukar-menukar (Barter)</h3>
+          <p>Menukar barang yang dimiliki dengan barang yang dibutuhkan, tanpa menggunakan uang. Cara kuno yang masih dilakukan di beberapa daerah terpencil.</p>
+        </div>
+      </div>
+      <div class="cara-card">
+        <div class="cara-icon">🏪</div>
+        <div>
+          <h3>Membeli di Pasar</h3>
+          <p>Cara paling umum — menggunakan uang untuk membeli barang atau jasa yang dibutuhkan dari penjual.</p>
+        </div>
+      </div>
+      <div class="cara-card">
+        <div class="cara-icon">💞</div>
+        <div>
+          <h3>Gotong Royong</h3>
+          <p>Bekerja bersama-sama untuk memenuhi kebutuhan bersama — seperti membangun jembatan desa, membersihkan lingkungan, atau membantu tetangga yang kesusahan.</p>
+        </div>
+      </div>
+      <div class="cara-card">
+        <div class="cara-icon">🏛️</div>
+        <div>
+          <h3>Bantuan Pemerintah</h3>
+          <p>Pemerintah menyediakan fasilitas umum yang memenuhi kebutuhan masyarakat — sekolah negeri gratis, puskesmas, jalan raya, dan bantuan sosial.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <p class="fact-label">🌾 Contoh dari Jawa Barat</p>
+      <p>
+        Di desa-desa Jawa Barat, tradisi <strong>gotong royong</strong> dalam pertanian masih
+        hidup dalam bentuk <em>gawéan</em> atau <em>ngaliwet bareng</em> — para petani saling
+        membantu panen sawah tetangga secara bergantian tanpa upah.
+        Ini adalah cara memenuhi kebutuhan tenaga kerja secara kolektif yang sangat efisien
+        sekaligus mempererat hubungan sosial masyarakat.
+      </p>
+    </div>
+
+    <div class="ringkasan">
+      <h3>📝 Ringkasan Sub-materi A</h3>
+      <ul>
+        <li><strong>Kebutuhan</strong> adalah segala sesuatu yang harus dipenuhi agar manusia bisa hidup dengan layak. Berbeda dengan <strong>keinginan</strong> yang hanya ingin dipenuhi tapi tidak wajib.</li>
+        <li>Berdasarkan tingkat kepentingan, kebutuhan dibagi menjadi <strong>primer</strong> (sandang, pangan, papan), <strong>sekunder</strong> (penunjang), dan <strong>tersier</strong> (kemewahan).</li>
+        <li>Kebutuhan juga dibedakan berdasarkan sifat (jasmani/rohani), waktu (sekarang/masa depan), dan subjek (individu/sosial).</li>
+        <li><strong>Skala prioritas</strong> membantu kita memutuskan kebutuhan mana yang harus dipenuhi lebih dulu ketika kemampuan kita terbatas.</li>
+        <li>Kebutuhan setiap orang berbeda dipengaruhi oleh usia, lingkungan, pekerjaan, pendapatan, dan adat istiadat.</li>
+        <li>Manusia memenuhi kebutuhannya melalui berbagai cara: bekerja sendiri, bekerja untuk orang lain, berdagang, gotong royong, maupun dibantu pemerintah.</li>
+      </ul>
+    </div>
+
+    <div class="nav-bawah">
+      <a href="materi.html">← Kembali ke Bab 3</a>
+      <a href="kegiatan-ekonomi.html" class="btn-next">Sub-B: Kegiatan Ekonomi →</a>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--ink,#1a1f2e); color:rgba(255,255,255,.55);
+                 font-family:'Nunito',sans-serif; font-size:.8rem;
+                 text-align:center; padding:1.5rem; margin-top:4rem;">
+    Belajar Mandiri · IPAS Kelas 4 · Bab 3, Sub-A — Macam-macam Kebutuhan
+  </footer>
+
+</body>
+</html>
