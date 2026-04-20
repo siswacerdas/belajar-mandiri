@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Sikap Menghargai Keberagaman — PP Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#6b3a8a;--accent-pale:#f3edf9;--accent-border:#d4b8eb}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#f7f3eb;color:#2d2d2d;line-height:1.75;font-size:16px}
+h1,h2,h3{font-family:'Lora',serif;line-height:1.35}h1{font-size:clamp(1.5rem,4vw,2.2rem)}h2{font-size:clamp(1.15rem,3vw,1.5rem);margin-bottom:.75rem}h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent)}
+p{margin-bottom:1rem}ul,ol{padding-left:1.5rem;margin-bottom:1rem}li{margin-bottom:.35rem}strong{font-weight:700}
+.topnav{background:#1a6b72;padding:.7rem clamp(1.25rem,5vw,3rem);display:flex;align-items:center;justify-content:space-between}
+.topnav .brand{color:#fff;text-decoration:none;font-family:'Lora',serif;font-size:1rem;font-weight:700}
+.topnav .nav-links{display:flex;gap:1.25rem}
+.topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600}
+.breadcrumb{background:#fff;border-bottom:1px solid #e0dbd1;padding:.55rem clamp(1.25rem,5vw,3rem);font-size:.8rem;color:#777}
+.breadcrumb a{color:#1a6b72;text-decoration:none}.breadcrumb span{margin:0 .3rem;color:#bbb}
+.hero{background:var(--accent);padding:clamp(2.5rem,6vw,4rem) clamp(1.25rem,5vw,3rem)}
+.hero-inner{max-width:1140px;margin:0 auto}
+.hero-tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.22rem .85rem;margin-bottom:.9rem;color:#fff}
+.hero h1{color:#fff;margin-bottom:.6rem}.hero .lead{color:rgba(255,255,255,.9);font-size:1.05rem;max-width:640px}
+.content-wrap{max-width:1140px;margin:0 auto;padding:2.5rem clamp(1.25rem,5vw,3rem)}
+.tujuan{background:var(--accent-pale);border:1.5px solid var(--accent-border);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.75rem}
+.tujuan-title{font-weight:800;color:var(--accent);font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.6rem}
+.tujuan ul{margin:0;padding-left:1.25rem}.tujuan li{font-size:.93rem}
+.section{background:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem;border:1px solid #e0dbd1}
+.section>h2{color:var(--accent);margin-top:0}
+.hl{border-left:4px solid var(--accent);background:var(--accent-pale);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin:1rem 0}
+.hl.ok{border-left-color:#2d7a3a;background:#f0f8f1}
+.ling-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.25rem;margin:1rem 0}
+.ling-block{border-radius:10px;overflow:hidden;border:1px solid var(--accent-border)}
+.ling-head{background:var(--accent);color:#fff;padding:.65rem 1rem;font-weight:700;font-size:.9rem}
+.ling-body{background:var(--accent-pale);padding:.9rem 1rem}
+.ling-body ul{margin:0;padding-left:1.2rem}
+.ling-body li{font-size:.875rem;margin-bottom:.4rem;color:#3a3a3a}
+.checklist{list-style:none;padding:0;margin:.75rem 0}
+.checklist li{display:flex;gap:.6rem;align-items:flex-start;padding:.3rem 0}
+.checklist li::before{content:"✓";color:var(--accent);font-weight:800;flex-shrink:0}
+.ringkasan{background:var(--accent);color:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.ringkasan h2{color:#fff;font-size:1.15rem;margin-bottom:.75rem}
+.ringkasan li{font-size:.92rem;margin-bottom:.4rem;opacity:.95}
+.quiz-wrap{background:#fff;border:1px solid #e0dbd1;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.quiz-wrap>h2{color:var(--accent);margin-bottom:.3rem;font-size:1.2rem}
+.quiz-intro{font-size:.85rem;color:#777;margin-bottom:1.5rem}
+.qblock{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0ece4}
+.qblock:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.qtype{display:inline-block;font-size:.65rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;border-radius:999px;padding:.12rem .55rem;margin-bottom:.35rem}
+.qt-pg{background:var(--accent-pale);color:var(--accent)}.qt-mc{background:#e8f0fd;color:#1a4a8b}.qt-kt{background:#e8f5ed;color:#1e5229}
+.qtext{font-size:.93rem;font-weight:700;color:#2d2d2d;margin-bottom:.65rem;line-height:1.5}
+.opts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem}
+.opt label{display:flex;align-items:flex-start;gap:.55rem;padding:.42rem .75rem;border-radius:7px;border:1.5px solid #e0dbd1;font-size:.875rem;cursor:pointer;transition:all .15s;background:#faf8f5;line-height:1.45}
+.opt label:hover{border-color:var(--accent);background:var(--accent-pale)}
+.opt input{flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.opt.cor label{border-color:#2d7a3a!important;background:#e8f5ed!important}
+.opt.wrg label{border-color:#8b1c1c!important;background:#fdf0f0!important}
+.kat-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0}
+.kat-tbl td{padding:.38rem .6rem;border-bottom:1px solid #f0ece4;vertical-align:middle}
+.kat-tbl td:first-child{font-weight:600;width:38%;color:#2d2d2d}
+.kat-radio{display:inline-flex;align-items:center;gap:.3rem;margin-right:.65rem;cursor:pointer;white-space:nowrap;font-size:.85rem}
+.kat-radio input{accent-color:var(--accent)}
+.qfb{margin-top:.55rem;font-size:.83rem;padding:.4rem .7rem;border-radius:6px;display:none;line-height:1.45}
+.qfb.show{display:block}.qfb.ok{background:#e8f5ed;color:#1e5229;border-left:3px solid #2d7a3a}.qfb.err{background:#fdf0f0;color:#6b1515;border-left:3px solid #8b1c1c}
+.quiz-foot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #e0dbd1}
+.btn-cek{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.62rem 1.35rem;font-family:'Nunito',sans-serif;font-size:.92rem;font-weight:800;cursor:pointer}
+.btn-cek:hover{opacity:.85}
+.btn-ulg{background:#fff;color:var(--accent);border:2px solid var(--accent);border-radius:8px;padding:.58rem 1.1rem;font-family:'Nunito',sans-serif;font-size:.87rem;font-weight:700;cursor:pointer;display:none}
+.btn-ulg:hover{background:var(--accent);color:#fff}
+.skor-txt{font-size:.93rem;font-weight:800;color:var(--accent);display:none}
+.page-nav{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e0dbd1;flex-wrap:wrap}
+.page-nav a{display:inline-flex;align-items:center;background:#fff;border:1.5px solid var(--accent);color:var(--accent);border-radius:8px;padding:.55rem 1rem;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s}
+.page-nav a:hover{background:var(--accent);color:#fff}
+footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="../../../index.html" class="brand">🏫 Belajar Mandiri</a>
+  <div class="nav-links"><a href="../../../index.html">Beranda</a><a href="../../index.html">Kelas 4</a><a href="../index.html">PP</a><a href="materi.html">Bab 1</a></div>
+</nav>
+<nav class="breadcrumb">
+  <a href="../../../index.html">Beranda</a><span>›</span><a href="../../index.html">Kelas 4</a><span>›</span><a href="../index.html">PP</a><span>›</span><a href="materi.html">Bab 1</a><span>›</span>Contoh Sikap Menghargai
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Bab 1 · Sub-materi C</div>
+    <h1>Contoh Sikap dan Perilaku Menghargai Keberagaman Budaya</h1>
+    <p class="lead">Menghargai keberagaman harus diwujudkan dalam tindakan nyata setiap hari — di rumah, di sekolah, dan di tengah masyarakat.</p>
+  </div>
+</header>
+<main class="content-wrap">
 
+<div class="tujuan">
+  <div class="tujuan-title">🎯 Tujuan Pembelajaran</div>
+  <ul>
+    <li>Menyebutkan contoh konkret sikap menghargai keberagaman dalam kehidupan sehari-hari.</li>
+    <li>Membedakan sikap yang menghargai dari yang tidak menghargai keberagaman.</li>
+    <li>Termotivasi menerapkan sikap menghargai keberagaman di lingkungannya.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Sikap Menghargai di Tiga Lingkungan</h2>
+  <div class="ling-grid">
+    <div class="ling-block">
+      <div class="ling-head">🏠 Di Rumah</div>
+      <div class="ling-body"><ul>
+        <li>Menghormati anggota keluarga yang berbeda pendapat</li>
+        <li>Menghargai tradisi keluarga dari ayah maupun ibu</li>
+        <li>Tidak mempermasalahkan tetangga yang berbeda agama/budaya</li>
+        <li>Mengucapkan selamat saat tetangga merayakan hari besar agamanya</li>
+        <li>Membantu tetangga tanpa memandang latar belakangnya</li>
+      </ul></div>
+    </div>
+    <div class="ling-block">
+      <div class="ling-head">🏫 Di Sekolah</div>
+      <div class="ling-body"><ul>
+        <li>Berteman dengan semua teman tanpa pilih-pilih suku/agama</li>
+        <li>Tidak mengejek teman yang cara bicaranya berbeda (logat/dialek)</li>
+        <li>Menghormati teman yang sedang berpuasa atau beribadah</li>
+        <li>Mau bekerja sama dalam kelompok dengan siapa pun</li>
+        <li>Mendukung teman yang tampil membawakan kesenian daerahnya</li>
+      </ul></div>
+    </div>
+    <div class="ling-block">
+      <div class="ling-head">🏘️ Di Masyarakat</div>
+      <div class="ling-body"><ul>
+        <li>Ikut kerja bakti bersama warga dari berbagai latar belakang</li>
+        <li>Menghormati prosesi adat atau upacara keagamaan yang berbeda</li>
+        <li>Tidak mengganggu ibadah orang dari agama lain</li>
+        <li>Bersikap sopan kepada semua orang tanpa memandang asal daerah</li>
+        <li>Menikmati dan menghargai kesenian budaya lain</li>
+      </ul></div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Daftar Periksa: Sudahkah Aku Menghargai Keberagaman?</h2>
+  <ul class="checklist">
+    <li>Aku berteman dengan siapa saja, tanpa memilih-milih suku atau agama.</li>
+    <li>Aku tidak pernah mengejek teman karena cara bicaranya, makanannya, atau budayanya berbeda.</li>
+    <li>Aku mau bekerja sama dalam kelompok dengan teman dari latar belakang apa pun.</li>
+    <li>Aku menghormati saat teman menjalankan ibadahnya.</li>
+    <li>Aku senang mendengar cerita tentang adat dan budaya teman-temanku.</li>
+    <li>Aku ikut menjaga kebersihan lingkungan sekolah dan perumahan.</li>
+    <li>Aku menyapa tetangga dan guru dengan sopan tanpa pandang bulu.</li>
+  </ul>
+  <div class="hl ok">Jika kamu sudah melakukan semua itu, kamu adalah penjaga kebinekaan yang nyata. Jika belum, mulai dari hal terkecil hari ini.</div>
+</div>
+
+<div class="ringkasan">
+  <h2>📌 Ringkasan Materi</h2>
+  <ul>
+    <li>Sikap menghargai harus diwujudkan dalam tindakan di rumah, sekolah, dan masyarakat.</li>
+    <li>Di rumah: hormati tradisi dan tetangga yang berbeda budaya/agama.</li>
+    <li>Di sekolah: berteman dengan semua, tidak mengejek perbedaan, mau kerja sama.</li>
+    <li>Di masyarakat: ikut kerja bakti, hormati upacara budaya lain, bersikap sopan kepada semua.</li>
+    <li>Setiap tindakan kecil — menyapa, menolong, mendengarkan — adalah wujud nyata menghargai.</li>
+  </ul>
+</div>
+
+<div class="quiz-wrap">
+  <h2>✏️ Latihan Soal</h2>
+  <p class="quiz-intro">Jawab semua soal, lalu klik <strong>Periksa Jawaban</strong>.</p>
+  <div id="kq"></div>
+  <div class="quiz-foot">
+    <button class="btn-cek" onclick="cek()">Periksa Jawaban</button>
+    <button class="btn-ulg" id="bU" onclick="ulang()">Coba Lagi</button>
+    <span class="skor-txt" id="sk"></span>
+  </div>
+</div>
+
+<div class="page-nav">
+  <a href="menghargai-keberagaman.html">← Sub-materi B</a>
+  <a href="menjaga-merusak-kebinekaan.html">Sub-materi D →</a>
+</div>
+</main>
+<footer>&copy; 2026 Belajar Mandiri · Dibuat dengan ❤️ untuk siswa SD Indonesia</footer>
+<script>
+const Q=[
+  {t:'pg',q:'Di sekolah, contoh sikap menghargai keberagaman yang paling tepat adalah...',o:['Hanya berteman dengan teman sesuku','Mengejek teman yang berbeda logat','Mau bekerja sama dalam kelompok dengan siapa pun','Menolak duduk berdekatan dengan teman beda agama'],a:2,fb:'Mau bekerja sama dalam kelompok dengan siapa pun adalah contoh nyata menghargai keberagaman.'},
+  {t:'pg',q:'Ketika ada teman baru dari daerah lain, sikap yang paling tepat adalah...',o:['Diam dan menunggu dia menyapa lebih dulu','Mengejek cara bicaranya yang berbeda','Menyambutnya dengan hangat dan mengajaknya bergabung','Membicarakannya di belakang'],a:2,fb:'Menyambut teman baru dengan hangat membuat dia merasa diterima dan tidak kesepian.'},
+  {t:'pg',q:'Saat upacara bendera, semua siswa dari berbagai suku bersatu. Ini merupakan contoh...',o:['Persaingan antarsuku','Kebinekaan yang melemahkan','Persatuan dalam keberagaman','Pemaksaan budaya'],a:2,fb:'Upacara bendera adalah momen persatuan dalam keberagaman — semua bersatu di bawah satu bendera.'},
+  {t:'pg',q:'Yang BUKAN contoh menghargai keberagaman di lingkungan sekolah adalah...',o:['Mendukung teman tampil membawakan kesenian daerahnya','Menghormati teman yang sedang berpuasa','Menyebarkan gosip buruk tentang suku tertentu','Mau bergabung dalam kelompok yang beragam'],a:2,fb:'Menyebarkan gosip buruk tentang suku tertentu adalah tindakan merusak, bukan menghargai.'},
+  {t:'pg',q:'Di rumah, contoh menghargai tetangga yang berbeda agama adalah...',o:['Tidak mau bertegur sapa','Mengganggu saat mereka beribadah','Mengucapkan selamat saat mereka merayakan hari besar','Membicarakan keburukan agama mereka'],a:2,fb:'Mengucapkan selamat hari besar kepada tetangga beda agama adalah sikap toleransi yang tulus.'},
+  {t:'pg',q:'Jika temanmu sedang berpuasa, sikap yang tepat adalah...',o:['Makan makanan lezat di depannya untuk mengganggunya','Menghormati dan tidak memaksanya ikut makan','Mengejek karena tidak ikut makan','Memusuhinya karena berbeda'],a:1,fb:'Menghormati teman yang berpuasa adalah sikap toleransi beragama yang benar.'},
+  {t:'pg',q:'Di masyarakat, contoh nyata menghargai keberagaman adalah...',o:['Hanya ikut kerja bakti jika dilakukan oleh warga sesuku','Menolak bergabung dengan panitia HUT RI karena beda agama','Ikut serta dalam kegiatan kerja bakti bersama semua warga','Memaksakan adat sendiri pada tetangga'],a:2,fb:'Ikut kerja bakti bersama semua warga tanpa memandang perbedaan adalah contoh nyata menghargai keberagaman.'},
+  {t:'mc',q:'Manakah yang termasuk contoh menghargai keberagaman di lingkungan sekolah?',o:['Berteman dengan semua teman tanpa pilih-pilih','Tidak mengejek teman yang logat bicaranya berbeda','Menolak kerja kelompok dengan teman beda suku','Mendukung teman tampil kesenian daerahnya','Menghormati teman yang beribadah'],a:[0,1,3,4],fb:'Menghargai di sekolah: berteman dengan semua, tidak mengejek, mendukung kesenian, menghormati ibadah.'},
+  {t:'mc',q:'Manakah yang termasuk contoh menghargai keberagaman di lingkungan rumah?',o:['Membantu tetangga tanpa memandang agamanya','Mempermasalahkan tetangga yang berbeda budaya','Mengucapkan selamat hari besar agama tetangga','Menghormati tradisi keluarga meski berbeda suku','Mengejek makanan khas daerah tetangga'],a:[0,2,3],fb:'Di rumah: membantu tetangga, mengucapkan selamat, dan menghormati tradisi — tanpa memandang perbedaan.'},
+  {t:'kt',q:'Kategorikan tindakan berikut ke lingkungan yang tepat!',cats:['Di Sekolah','Di Masyarakat'],items:['Tidak mengejek logat teman','Ikut kerja bakti kampung','Mau kerja kelompok dengan siapa saja','Tidak mengganggu upacara adat tetangga','Mendukung teman tampil seni daerah','Menghormati prosesi pernikahan adat'],a:[0,1,0,1,0,1],fb:'Di Sekolah: tidak mengejek, kerja kelompok, dukung seni. Di Masyarakat: kerja bakti, tidak mengganggu adat, menghormati pernikahan adat.'},
+  {t:'kt',q:'Kategorikan tindakan berikut: Menghargai atau Tidak Menghargai keberagaman?',cats:['Menghargai','Tidak Menghargai'],items:['Menyambut teman baru dengan hangat','Mengejek cara makan teman dari daerah lain','Ikut upacara bendera dengan khidmat','Menolak duduk berdekatan dengan teman beda agama','Menyapa tetangga dari suku lain dengan ramah','Menyebarkan cerita buruk tentang suku tertentu'],a:[0,1,0,1,0,1],fb:'Menghargai: menyambut, ikut upacara, menyapa. Tidak menghargai: mengejek, menolak, menyebar cerita buruk.'},
+  {t:'pg',q:'Kata kunci yang paling menggambarkan sikap menghargai keberagaman adalah...',o:['Eksklusif dan tertutup','Terbuka dan menghormati perbedaan','Memaksakan pendapat sendiri','Menghindari orang yang berbeda'],a:1,fb:'Sikap menghargai keberagaman dicirikan dengan keterbukaan dan penghormatan terhadap perbedaan.'}
+];
+let done=false;
+function render(){document.getElementById('kq').innerHTML=Q.map((q,i)=>q.t==='pg'?renderPG(q,i):q.t==='mc'?renderMC(q,i):renderKt(q,i)).join('');}
+function renderPG(q,i){return`<div class="qblock" id="qb${i}"><span class="qtype qt-pg">Pilihan Ganda</span><p class="qtext">${i+1}. ${q.q}</p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="radio" name="q${i}" value="${j}"> ${o}</label></li>`).join('')}</ul><div class="qfb" id="fb${i}"></div></div>`;}
+function renderMC(q,i){return`<div class="qblock" id="qb${i}"><span class="qtype qt-mc">Pilih Semua yang Benar</span><p class="qtext">${i+1}. ${q.q} <em style="font-weight:400;font-size:.8rem">(bisa lebih dari satu)</em></p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="checkbox" name="q${i}" value="${j}"> ${o}</label></li>`).join('')}</ul><div class="qfb" id="fb${i}"></div></div>`;}
+function renderKt(q,i){const rows=q.items.map((item,j)=>`<tr><td>${item}</td><td>${q.cats.map((c,ci)=>`<label class="kat-radio"><input type="radio" name="ks${i}_${j}" value="${ci}"> ${c}</label>`).join('')}</td></tr>`).join('');return`<div class="qblock" id="qb${i}"><span class="qtype qt-kt">PG Kategori</span><p class="qtext">${i+1}. ${q.q}</p><table class="kat-tbl"><tbody>${rows}</tbody></table><div class="qfb" id="fb${i}"></div></div>`;}
+function showFb(i,ok,msg){const f=document.getElementById(`fb${i}`);f.className='qfb show '+(ok?'ok':'err');f.innerHTML=(ok?'✓ Benar! ':'✗ Belum tepat. ')+msg;}
+function cek(){
+  if(done)return;done=true;let b=0,t=0;
+  Q.forEach((q,i)=>{
+    if(q.t==='pg'){const s=document.querySelector(`input[name="q${i}"]:checked`);const a=s?+s.value:-1;if(a===q.a){b++;document.getElementById(`op${i}_${a}`).classList.add('cor');}else{if(a>=0)document.getElementById(`op${i}_${a}`).classList.add('wrg');document.getElementById(`op${i}_${q.a}`).classList.add('cor');}t++;showFb(i,a===q.a,q.fb||`Jawaban: <strong>${q.o[q.a]}</strong>`);}
+    if(q.t==='mc'){const ss=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(x=>+x.value);const ok=ss.length===q.a.length&&q.a.every(x=>ss.includes(x));q.o.forEach((_,j)=>{const e=document.getElementById(`op${i}_${j}`);if(q.a.includes(j))e.classList.add('cor');else if(ss.includes(j))e.classList.add('wrg');});if(ok)b++;t++;showFb(i,ok,q.fb||`Jawaban: <strong>${q.a.map(x=>q.o[x]).join(', ')}</strong>`);}
+    if(q.t==='kt'){let ok=true;q.items.forEach((_,j)=>{const s=document.querySelector(`input[name="ks${i}_${j}"]:checked`);if(!s||+s.value!==q.a[j]){ok=false;if(s)s.parentElement.style.cssText='text-decoration:line-through;color:#8b1c1c';const ci=document.querySelector(`input[name="ks${i}_${j}"][value="${q.a[j]}"]`);if(ci)ci.parentElement.style.cssText='font-weight:800;color:#2d7a3a';}});if(ok)b++;t++;showFb(i,ok,q.fb||'Perhatikan setiap item dan kategori yang benar.');}
+  });
+  document.querySelectorAll('.quiz-wrap input').forEach(x=>x.disabled=true);
+  const sk=document.getElementById('sk');sk.style.display='inline';sk.innerHTML=`Nilai: <strong>${b}/${t}</strong> (${Math.round(b/t*100)}%)`;
+  document.getElementById('bU').style.display='inline-block';
+}
+function ulang(){done=false;render();document.getElementById('sk').style.display='none';document.getElementById('bU').style.display='none';}
+render();
+</script>
+</body>
+</html>
