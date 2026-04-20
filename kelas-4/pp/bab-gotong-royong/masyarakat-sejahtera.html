@@ -1,1 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lingkungan Masyarakat yang Sejahtera — PP Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#7a5c0a;--ap:#fffdf0;--ab:#e8d89a}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#f7f3eb;color:#2d2d2d;line-height:1.75;font-size:16px}
+h1,h2,h3{font-family:'Lora',serif;line-height:1.35}
+h1{font-size:clamp(1.5rem,4vw,2.2rem)}h2{font-size:clamp(1.15rem,3vw,1.5rem);margin-bottom:.75rem}h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent)}
+p{margin-bottom:1rem}ul,ol{padding-left:1.5rem;margin-bottom:1rem}li{margin-bottom:.35rem}strong{font-weight:700}
+.topnav{background:#1a6b72;padding:.7rem clamp(1.25rem,5vw,3rem);display:flex;align-items:center;justify-content:space-between}
+.topnav .brand{color:#fff;text-decoration:none;font-family:'Lora',serif;font-size:1rem;font-weight:700}
+.topnav .nav-links{display:flex;gap:1.25rem}.topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600}
+.breadcrumb{background:#fff;border-bottom:1px solid #e0dbd1;padding:.55rem clamp(1.25rem,5vw,3rem);font-size:.8rem;color:#777}
+.breadcrumb a{color:#1a6b72;text-decoration:none}.breadcrumb span{margin:0 .3rem;color:#bbb}
+.hero{background:var(--accent);padding:clamp(2.5rem,6vw,4rem) clamp(1.25rem,5vw,3rem)}
+.hero-inner{max-width:1140px;margin:0 auto}
+.hero-tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.22rem .85rem;margin-bottom:.9rem;color:#fff}
+.hero h1{color:#fff;margin-bottom:.6rem}.hero .lead{color:rgba(255,255,255,.9);font-size:1.05rem;max-width:640px}
+.cw{max-width:1140px;margin:0 auto;padding:2.5rem clamp(1.25rem,5vw,3rem)}
+.tujuan{background:var(--ap);border:1.5px solid var(--ab);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.75rem}
+.tujuan-title{font-weight:800;color:var(--accent);font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.6rem}
+.tujuan ul{margin:0;padding-left:1.25rem}.tujuan li{font-size:.93rem}
+.sec{background:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem;border:1px solid #e0dbd1}
+.sec>h2{color:var(--accent);margin-top:0}
+.hl{border-left:4px solid var(--accent);background:var(--ap);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin:1rem 0}
+.hl.ok{border-left-color:#2d7a3a;background:#f0f8f1}
+.hl.danger{border-left-color:#8b1c1c;background:#fdf0f0}
+.ciri-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin:1rem 0}
+.ciri-card{background:var(--ap);border-radius:10px;padding:1.1rem;border:1px solid var(--ab)}
+.ciri-card .ic{font-size:1.5rem;display:block;margin-bottom:.4rem}
+.ciri-card h3{font-size:.93rem;margin-bottom:.25rem}.ciri-card p{font-size:.85rem;margin:0;color:#444;line-height:1.5}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+@media(max-width:560px){.compare{grid-template-columns:1fr}}
+.cv{border-radius:10px;overflow:hidden}
+.cv-h{padding:.65rem 1rem;font-weight:700;color:#fff;font-size:.88rem}
+.cv-h.g{background:#2d7a3a}.cv-h.r{background:#8b1c1c}
+.cv-b{padding:1rem;border:1px solid #e0dbd1;border-top:none;border-radius:0 0 10px 10px}
+.cv-b.g{background:#f0f8f1;border-color:#b5debb}.cv-b.r{background:#fdf0f0;border-color:#e8b4b4}
+.cv-b ul{margin:0;padding-left:1.2rem}.cv-b li{font-size:.875rem;margin-bottom:.4rem}
+.ring{background:var(--accent);color:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.ring h2{color:#fff;font-size:1.15rem;margin-bottom:.75rem}.ring li{font-size:.92rem;margin-bottom:.4rem;opacity:.95}
+.qw{background:#fff;border:1px solid #e0dbd1;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.qw>h2{color:var(--accent);margin-bottom:.3rem;font-size:1.2rem}
+.qi{font-size:.85rem;color:#777;margin-bottom:1.5rem}
+.qb{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0ece4}
+.qb:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.qt{display:inline-block;font-size:.65rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;border-radius:999px;padding:.12rem .55rem;margin-bottom:.35rem}
+.qt-pg{background:var(--ap);color:var(--accent)}.qt-mc{background:#e8f0fd;color:#1a4a8b}.qt-kt{background:#e8f5ed;color:#1e5229}
+.qtext{font-size:.93rem;font-weight:700;color:#2d2d2d;margin-bottom:.65rem;line-height:1.5}
+.opts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem}
+.opt label{display:flex;align-items:flex-start;gap:.55rem;padding:.42rem .75rem;border-radius:7px;border:1.5px solid #e0dbd1;font-size:.875rem;cursor:pointer;transition:all .15s;background:#faf8f5;line-height:1.45}
+.opt label:hover{border-color:var(--accent);background:var(--ap)}
+.opt input{flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.opt.cor label{border-color:#2d7a3a!important;background:#e8f5ed!important}
+.opt.wrg label{border-color:#8b1c1c!important;background:#fdf0f0!important}
+.kat-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0}
+.kat-tbl td{padding:.38rem .6rem;border-bottom:1px solid #f0ece4;vertical-align:middle}
+.kat-tbl td:first-child{font-weight:600;width:44%;color:#2d2d2d}
+.kr{display:inline-flex;align-items:center;gap:.3rem;margin-right:.65rem;cursor:pointer;white-space:nowrap;font-size:.85rem}
+.kr input{accent-color:var(--accent)}
+.fb{margin-top:.55rem;font-size:.83rem;padding:.4rem .7rem;border-radius:6px;display:none;line-height:1.45}
+.fb.show{display:block}.fb.ok{background:#e8f5ed;color:#1e5229;border-left:3px solid #2d7a3a}.fb.err{background:#fdf0f0;color:#6b1515;border-left:3px solid #8b1c1c}
+.qfoot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #e0dbd1}
+.bcek{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.62rem 1.35rem;font-family:'Nunito',sans-serif;font-size:.92rem;font-weight:800;cursor:pointer}
+.bcek:hover{opacity:.85}
+.bulg{background:#fff;color:var(--accent);border:2px solid var(--accent);border-radius:8px;padding:.58rem 1.1rem;font-family:'Nunito',sans-serif;font-size:.87rem;font-weight:700;cursor:pointer;display:none}
+.bulg:hover{background:var(--accent);color:#fff}
+.sk{font-size:.93rem;font-weight:800;color:var(--accent);display:none}
+.pn{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e0dbd1;flex-wrap:wrap}
+.pn a{display:inline-flex;align-items:center;background:#fff;border:1.5px solid var(--accent);color:var(--accent);border-radius:8px;padding:.55rem 1rem;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s}
+.pn a:hover{background:var(--accent);color:#fff}
+footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="../../../index.html" class="brand">🏫 Belajar Mandiri</a>
+  <div class="nav-links"><a href="../../../index.html">Beranda</a><a href="../../index.html">Kelas 4</a><a href="../index.html">PP</a><a href="materi.html">Bab 3</a></div>
+</nav>
+<nav class="breadcrumb">
+  <a href="../../../index.html">Beranda</a><span>›</span><a href="../../index.html">Kelas 4</a><span>›</span><a href="../index.html">PP</a><span>›</span><a href="materi.html">Bab 3</a><span>›</span>Masyarakat yang Sejahtera
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Bab 3 · Sub-materi C</div>
+    <h1>Lingkungan Masyarakat yang Sejahtera</h1>
+    <p class="lead">Kesejahteraan bukan hanya soal uang — ini tentang lingkungan yang aman, rukun, bersih, dan di mana setiap orang saling peduli satu sama lain.</p>
+  </div>
+</header>
+<main class="cw">
 
+<div class="tujuan">
+  <div class="tujuan-title">🎯 Tujuan Pembelajaran</div>
+  <ul>
+    <li>Menjelaskan pengertian masyarakat sejahtera.</li>
+    <li>Menyebutkan ciri-ciri lingkungan masyarakat yang sejahtera.</li>
+    <li>Memahami peran gotong royong dalam mewujudkan masyarakat sejahtera.</li>
+  </ul>
+</div>
+
+<div class="sec">
+  <h2>Apa Itu Masyarakat Sejahtera?</h2>
+  <p><strong>Masyarakat sejahtera</strong> adalah masyarakat yang warganya hidup aman, damai, dan terpenuhi kebutuhannya — tidak hanya secara materi, tetapi juga secara sosial dan spiritual.</p>
+  <p>Sejahtera bukan berarti semua orang kaya raya. Banyak masyarakat sederhana yang hidupnya lebih sejahtera daripada masyarakat kaya tetapi penuh konflik dan tidak rukun. Sejahtera artinya <strong>hidup dengan tenang, aman, dan bahagia bersama</strong>.</p>
+  <div class="hl">Kesejahteraan adalah tujuan bersama yang hanya bisa dicapai melalui kerja sama — atau gotong royong!</div>
+</div>
+
+<div class="sec">
+  <h2>Ciri-ciri Lingkungan Masyarakat yang Sejahtera</h2>
+  <div class="ciri-grid">
+    <div class="ciri-card"><span class="ic">🕊️</span><h3>Aman dan Damai</h3><p>Tidak ada konflik, perkelahian, atau kriminalitas. Warga hidup tenang tanpa rasa takut.</p></div>
+    <div class="ciri-card"><span class="ic">🤝</span><h3>Rukun dan Harmonis</h3><p>Warga saling menghormati, menghargai perbedaan, dan hidup berdampingan dengan damai.</p></div>
+    <div class="ciri-card"><span class="ic">🌿</span><h3>Bersih dan Sehat</h3><p>Lingkungan terjaga kebersihannya, sampah dikelola dengan baik, air bersih tersedia.</p></div>
+    <div class="ciri-card"><span class="ic">📚</span><h3>Peduli Pendidikan</h3><p>Anak-anak bersekolah, orang dewasa terus belajar, pengetahuan dihargai.</p></div>
+    <div class="ciri-card"><span class="ic">💼</span><h3>Ada Lapangan Kerja</h3><p>Warga dapat bekerja dan memenuhi kebutuhan hidupnya dengan layak.</p></div>
+    <div class="ciri-card"><span class="ic">❤️</span><h3>Saling Peduli</h3><p>Warga yang susah dibantu, yang sakit dikunjungi, tidak ada yang terabaikan.</p></div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2>Peran Gotong Royong dalam Mewujudkan Kesejahteraan</h2>
+  <p>Gotong royong adalah kunci untuk mencapai masyarakat sejahtera. Tanpa gotong royong, sangat sulit membangun lingkungan yang aman dan nyaman. Mari kita bandingkan:</p>
+  <div class="compare">
+    <div class="cv">
+      <div class="cv-h g">✅ Masyarakat yang Bergotong Royong</div>
+      <div class="cv-b g"><ul>
+        <li>Lingkungan bersih karena rutin kerja bakti</li>
+        <li>Warga saling kenal dan peduli satu sama lain</li>
+        <li>Keamanan terjaga karena ronda bersama</li>
+        <li>Masalah warga diselesaikan bersama lewat musyawarah</li>
+        <li>Warga yang kesusahan segera mendapat bantuan</li>
+      </ul></div>
+    </div>
+    <div class="cv">
+      <div class="cv-h r">❌ Masyarakat yang Tidak Bergotong Royong</div>
+      <div class="cv-b r"><ul>
+        <li>Lingkungan kotor karena tidak ada yang bertanggung jawab</li>
+        <li>Warga tidak saling kenal, hidup masing-masing</li>
+        <li>Keamanan rentan karena tidak ada yang menjaga bersama</li>
+        <li>Masalah kecil bisa jadi besar karena tidak ada komunikasi</li>
+        <li>Warga yang kesusahan tidak mendapat bantuan</li>
+      </ul></div>
+    </div>
+  </div>
+  <div class="hl ok"><strong>Contoh nyata:</strong> Di kampung-kampung yang warganya aktif gotong royong, biasanya lingkungannya lebih bersih, kerukunan lebih terjaga, dan warga lebih bahagia — meskipun secara ekonomi sederhana.</div>
+</div>
+
+<div class="sec">
+  <h2>Peran Siswa dalam Mewujudkan Masyarakat Sejahtera</h2>
+  <p>Siswa SD pun bisa berkontribusi mewujudkan lingkungan yang sejahtera, mulai dari hal-hal sederhana:</p>
+  <ul>
+    <li>Membuang sampah pada tempatnya — mencegah lingkungan kotor dan banjir.</li>
+    <li>Ikut piket kelas dengan rajin — menjaga kebersihan lingkungan belajar.</li>
+    <li>Menyapa dan bersikap ramah kepada tetangga — mempererat kerukunan.</li>
+    <li>Membantu orang tua membersihkan rumah — menjaga kebersihan lingkungan terkecil.</li>
+    <li>Tidak membuat keributan yang mengganggu warga sekitar.</li>
+    <li>Belajar dengan giat — kelak bisa berkontribusi lebih besar untuk masyarakat.</li>
+  </ul>
+</div>
+
+<div class="ring">
+  <h2>📌 Ringkasan Materi</h2>
+  <ul>
+    <li>Masyarakat sejahtera = hidup aman, damai, kebutuhan terpenuhi, dan saling peduli.</li>
+    <li>Ciri-cirinya: aman-damai, rukun-harmonis, bersih-sehat, peduli pendidikan, ada lapangan kerja, saling peduli.</li>
+    <li>Gotong royong adalah kunci mencapai masyarakat sejahtera.</li>
+    <li>Tanpa gotong royong: lingkungan kotor, tidak aman, warga tidak saling kenal.</li>
+    <li>Siswa SD bisa berkontribusi mulai dari buang sampah pada tempatnya hingga bersikap ramah kepada tetangga.</li>
+  </ul>
+</div>
+
+<div class="qw">
+  <h2>✏️ Latihan Soal</h2>
+  <p class="qi">Jawab semua soal, lalu klik <strong>Periksa Jawaban</strong>.</p>
+  <div id="kq"></div>
+  <div class="qfoot">
+    <button class="bcek" onclick="cek()">Periksa Jawaban</button>
+    <button class="bulg" id="bU" onclick="ulang()">Coba Lagi</button>
+    <span class="sk" id="skr"></span>
+  </div>
+</div>
+
+<div class="pn">
+  <a href="pelaksanaan-gotong-royong.html">← Sub-materi B</a>
+  <a href="perbuatan-baik.html">Sub-materi D →</a>
+</div>
+</main>
+<footer>&copy; 2026 Belajar Mandiri · Dibuat dengan ❤️ untuk siswa SD Indonesia</footer>
+<script>
+const Q=[
+  {t:'pg',q:'Masyarakat sejahtera artinya...',o:['Semua warganya kaya dan memiliki banyak harta','Warganya hidup aman, damai, dan terpenuhi kebutuhannya','Warganya tidak pernah punya masalah apapun','Hanya ada satu suku dan satu agama'],a:1,fb:'Masyarakat sejahtera = warganya hidup aman, damai, terpenuhi kebutuhannya, bukan berarti semua kaya.'},
+  {t:'pg',q:'Di bawah ini, yang BUKAN termasuk ciri lingkungan masyarakat sejahtera adalah...',o:['Aman dan damai','Warga saling peduli','Lingkungan bersih dan sehat','Warga sering bertengkar dan berkonflik'],a:3,fb:'Sering bertengkar dan berkonflik justru merupakan ciri masyarakat yang TIDAK sejahtera.'},
+  {t:'pg',q:'Contoh kontribusi siswa SD dalam mewujudkan lingkungan sejahtera adalah...',o:['Menunggu sampai dewasa baru berkontribusi','Membuang sampah sembarangan karena nanti ada yang membersihkan','Membuang sampah pada tempatnya dan menyapa tetangga dengan ramah','Tidak peduli dengan kebersihan lingkungan sekolah'],a:2,fb:'Membuang sampah pada tempatnya dan menyapa tetangga dengan ramah adalah kontribusi nyata siswa SD untuk mewujudkan lingkungan sejahtera.'},
+  {t:'pg',q:'Masyarakat yang aktif bergotong royong cenderung memiliki lingkungan yang...',o:['Lebih kotor karena banyak orang','Lebih bersih, lebih aman, dan lebih rukun','Lebih konflik karena banyak perbedaan pendapat','Lebih mahal biaya hidupnya'],a:1,fb:'Masyarakat yang aktif bergotong royong memiliki lingkungan yang lebih bersih, lebih aman, dan lebih rukun.'},
+  {t:'pg',q:'Apa yang terjadi pada masyarakat yang warganya tidak saling kenal dan tidak bergotong royong?',o:['Warganya lebih mandiri dan bahagia','Lingkungan lebih bersih karena setiap orang bertanggung jawab sendiri','Masalah kecil bisa jadi besar karena tidak ada komunikasi dan tidak saling peduli','Keamanan lebih terjaga'],a:2,fb:'Tanpa gotong royong dan komunikasi, masalah kecil bisa membesar karena tidak ada yang saling peduli dan menyelesaikan bersama.'},
+  {t:'pg',q:'Warga yang sakit dikunjungi dan diberi bantuan oleh tetangganya merupakan ciri masyarakat yang...',o:['Tidak memiliki privasi','Saling peduli dan bergotong royong','Terlalu ikut campur urusan orang lain','Tidak maju secara ekonomi'],a:1,fb:'Mengunjungi dan membantu warga yang sakit adalah ciri masyarakat yang saling peduli — salah satu ciri utama masyarakat sejahtera.'},
+  {t:'pg',q:'Alasan mengapa kesejahteraan bukan hanya soal kekayaan materi adalah...',o:['Karena uang tidak penting sama sekali','Karena banyak masyarakat sederhana yang lebih aman, rukun, dan bahagia daripada masyarakat kaya tapi penuh konflik','Karena semua orang pasti bisa kaya','Karena kaya malah membuat orang tidak bahagia'],a:1,fb:'Banyak masyarakat sederhana secara ekonomi yang lebih sejahtera karena aman, rukun, dan saling peduli — membuktikan bahwa sejahtera bukan hanya soal kekayaan.'},
+  {t:'mc',q:'Manakah yang termasuk ciri-ciri lingkungan masyarakat yang sejahtera?',o:['Aman dan bebas dari konflik','Warga sering bertengkar','Lingkungan bersih dan sehat','Warga saling peduli satu sama lain','Tidak ada komunikasi antar warga'],a:[0,2,3],fb:'Ciri masyarakat sejahtera: aman, lingkungan bersih, dan warga saling peduli.'},
+  {t:'mc',q:'Manakah yang termasuk kontribusi siswa SD untuk mewujudkan lingkungan sejahtera?',o:['Membuang sampah pada tempatnya','Membuat keributan di lingkungan','Ikut piket kelas dengan rajin','Menyapa tetangga dengan ramah','Tidak peduli dengan kebersihan sekolah'],a:[0,2,3],fb:'Siswa SD berkontribusi dengan: buang sampah di tempatnya, rajin piket, dan menyapa tetangga dengan ramah.'},
+  {t:'kt',q:'Kategorikan kondisi berikut: Ciri Masyarakat Sejahtera atau Tidak Sejahtera?',cats:['Sejahtera','Tidak Sejahtera'],items:['Warga saling menghormati perbedaan','Sering terjadi konflik antar kelompok','Lingkungan bersih dan terawat','Sampah menumpuk tidak diurus','Warga yang kesusahan dibantu bersama','Warga tidak saling kenal satu sama lain'],a:[0,1,0,1,0,1],fb:'Sejahtera: saling menghormati, bersih, bantu warga susah. Tidak sejahtera: konflik, sampah menumpuk, tidak saling kenal.'},
+  {t:'kt',q:'Kategorikan dampak berikut: Dampak Bergotong Royong atau Tidak Bergotong Royong?',cats:['Bergotong Royong','Tidak Bergotong Royong'],items:['Lingkungan lebih bersih','Warga tidak saling kenal','Keamanan lebih terjaga','Masalah kecil jadi besar','Warga yang sakit segera dapat bantuan','Tidak ada yang peduli warga kesusahan'],a:[0,1,0,1,0,1],fb:'Bergotong royong: bersih, aman, bantuan cepat. Tidak bergotong royong: tidak saling kenal, masalah membesar, tidak ada yang peduli.'},
+  {t:'pg',q:'Mengapa musyawarah merupakan bagian penting dari gotong royong dalam mewujudkan kesejahteraan?',o:['Karena musyawarah selalu menghasilkan keputusan yang sempurna','Karena lewat musyawarah, masalah bisa diselesaikan bersama sebelum membesar','Karena musyawarah lebih cepat dari rapat formal','Karena hanya orang dewasa yang bisa bermusyawarah'],a:1,fb:'Musyawarah adalah cara menyelesaikan masalah bersama sebelum membesar — bagian penting dari semangat gotong royong.'}
+];
+let done=false;
+function render(){document.getElementById("kq").innerHTML=Q.map((q,i)=>q.t==="pg"?rPG(q,i):q.t==="mc"?rMC(q,i):rKT(q,i)).join("");}
+function rPG(q,i){return`<div class="qb" id="qb${i}"><span class="qt qt-pg">Pilihan Ganda</span><p class="qtext">${i+1}. ${q.q}</p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="radio" name="q${i}" value="${j}"> ${o}</label></li>`).join("")}</ul><div class="fb" id="fb${i}"></div></div>`;}
+function rMC(q,i){return`<div class="qb" id="qb${i}"><span class="qt qt-mc">Pilih Semua yang Benar</span><p class="qtext">${i+1}. ${q.q} <em style="font-weight:400;font-size:.8rem">(bisa lebih dari satu)</em></p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="checkbox" name="q${i}" value="${j}"> ${o}</label></li>`).join("")}</ul><div class="fb" id="fb${i}"></div></div>`;}
+function rKT(q,i){const rows=q.items.map((item,j)=>`<tr><td>${item}</td><td>${q.cats.map((c,ci)=>`<label class="kr"><input type="radio" name="ks${i}_${j}" value="${ci}"> ${c}</label>`).join("")}</td></tr>`).join("");return`<div class="qb" id="qb${i}"><span class="qt qt-kt">PG Kategori</span><p class="qtext">${i+1}. ${q.q}</p><table class="kat-tbl"><tbody>${rows}</tbody></table><div class="fb" id="fb${i}"></div></div>`;}
+function showFb(i,ok,msg){const f=document.getElementById(`fb${i}`);f.className="fb show "+(ok?"ok":"err");f.innerHTML=(ok?"✓ Benar! ":"✗ Belum tepat. ")+msg;}
+function cek(){
+  if(done)return;done=true;let b=0,t=0;
+  Q.forEach((q,i)=>{
+    if(q.t==="pg"){const s=document.querySelector(`input[name="q${i}"]:checked`);const a=s?+s.value:-1;if(a===q.a){b++;document.getElementById(`op${i}_${a}`).classList.add("cor");}else{if(a>=0)document.getElementById(`op${i}_${a}`).classList.add("wrg");document.getElementById(`op${i}_${q.a}`).classList.add("cor");}t++;showFb(i,a===q.a,q.fb);}
+    if(q.t==="mc"){const ss=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(x=>+x.value);const ok=ss.length===q.a.length&&q.a.every(x=>ss.includes(x));q.o.forEach((_,j)=>{const e=document.getElementById(`op${i}_${j}`);if(q.a.includes(j))e.classList.add("cor");else if(ss.includes(j))e.classList.add("wrg");});if(ok)b++;t++;showFb(i,ok,q.fb);}
+    if(q.t==="kt"){let ok=true;q.items.forEach((_,j)=>{const s=document.querySelector(`input[name="ks${i}_${j}"]:checked`);if(!s||+s.value!==q.a[j]){ok=false;if(s)s.parentElement.style.cssText="text-decoration:line-through;color:#8b1c1c";const ci=document.querySelector(`input[name="ks${i}_${j}"][value="${q.a[j]}"]`);if(ci)ci.parentElement.style.cssText="font-weight:800;color:#2d7a3a";}});if(ok)b++;t++;showFb(i,ok,q.fb);}
+  });
+  document.querySelectorAll(".qw input").forEach(x=>x.disabled=true);
+  const sk=document.getElementById("skr");sk.style.display="inline";sk.innerHTML=`Nilai: <strong>${b}/${t}</strong> (${Math.round(b/t*100)}%)`;
+  document.getElementById("bU").style.display="inline-block";
+}
+function ulang(){done=false;render();document.getElementById("skr").style.display="none";document.getElementById("bU").style.display="none";}
+render();
+</script>
+</body>
+</html>
