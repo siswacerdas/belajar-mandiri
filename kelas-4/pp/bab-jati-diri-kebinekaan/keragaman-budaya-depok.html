@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keragaman Budaya di Depok — PP Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#6b3a8a;--accent-pale:#f3edf9;--accent-border:#d4b8eb}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#f7f3eb;color:#2d2d2d;line-height:1.75;font-size:16px}
+h1,h2,h3{font-family:'Lora',serif;line-height:1.35}
+h1{font-size:clamp(1.5rem,4vw,2.2rem)}h2{font-size:clamp(1.15rem,3vw,1.5rem);margin-bottom:.75rem}h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent)}
+p{margin-bottom:1rem}ul,ol{padding-left:1.5rem;margin-bottom:1rem}li{margin-bottom:.35rem}strong{font-weight:700}
+.topnav{background:#1a6b72;padding:.7rem clamp(1.25rem,5vw,3rem);display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.topnav .brand{color:#fff;text-decoration:none;font-family:'Lora',serif;font-size:1rem;font-weight:700}
+.topnav .nav-links{display:flex;gap:1.25rem}
+.topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600}
+.topnav .nav-links a:hover{color:#fff}
+.breadcrumb{background:#fff;border-bottom:1px solid #e0dbd1;padding:.55rem clamp(1.25rem,5vw,3rem);font-size:.8rem;color:#777}
+.breadcrumb a{color:#1a6b72;text-decoration:none}.breadcrumb span{margin:0 .3rem;color:#bbb}
+.hero{background:var(--accent);padding:clamp(2.5rem,6vw,4rem) clamp(1.25rem,5vw,3rem)}
+.hero-inner{max-width:1140px;margin:0 auto}
+.hero-tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.22rem .85rem;margin-bottom:.9rem;color:#fff}
+.hero h1{color:#fff;margin-bottom:.6rem}.hero .lead{color:rgba(255,255,255,.9);font-size:1.05rem;max-width:640px}
+.content-wrap{max-width:1140px;margin:0 auto;padding:2.5rem clamp(1.25rem,5vw,3rem)}
+.tujuan{background:var(--accent-pale);border:1.5px solid var(--accent-border);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.75rem}
+.tujuan-title{font-weight:800;color:var(--accent);font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.6rem}
+.tujuan ul{margin:0;padding-left:1.25rem}.tujuan li{font-size:.93rem}
+.section{background:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem;border:1px solid #e0dbd1}
+.section>h2{color:var(--accent);margin-top:0}
+.hl{border-left:4px solid var(--accent);background:var(--accent-pale);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin:1rem 0}
+.hl.ok{border-left-color:#2d7a3a;background:#f0f8f1}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:.9rem;margin-top:.75rem}
+.card{background:var(--accent-pale);border-radius:9px;padding:1rem;border:1px solid var(--accent-border)}
+.card h3{font-size:.9rem;margin-bottom:.25rem}.card p{font-size:.84rem;margin:0;color:#444;line-height:1.5}
+.suku-table{width:100%;border-collapse:collapse;font-size:.875rem;margin:1rem 0}
+.suku-table th{background:var(--accent);color:#fff;padding:.55rem .85rem;text-align:left}
+.suku-table td{padding:.45rem .85rem;border-bottom:1px solid #e0dbd1;vertical-align:top}
+.suku-table tr:nth-child(even) td{background:#faf8f5}
+.icon-list{list-style:none;padding:0;margin:.75rem 0}
+.icon-list li{display:flex;gap:.7rem;align-items:flex-start;padding:.4rem 0;border-bottom:1px solid #f0ece4}
+.icon-list li:last-child{border-bottom:none}
+.ic{width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.62rem;font-weight:800;flex-shrink:0;margin-top:.15rem}
+.ringkasan{background:var(--accent);color:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.ringkasan h2{color:#fff;font-size:1.15rem;margin-bottom:.75rem}
+.ringkasan li{font-size:.92rem;margin-bottom:.4rem;opacity:.95}
+.quiz-wrap{background:#fff;border:1px solid #e0dbd1;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.quiz-wrap>h2{color:var(--accent);margin-bottom:.3rem;font-size:1.2rem}
+.quiz-intro{font-size:.85rem;color:#777;margin-bottom:1.5rem}
+.qblock{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0ece4}
+.qblock:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.qtype{display:inline-block;font-size:.65rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;border-radius:999px;padding:.12rem .55rem;margin-bottom:.35rem}
+.qt-pg{background:var(--accent-pale);color:var(--accent)}.qt-mc{background:#e8f0fd;color:#1a4a8b}.qt-kt{background:#e8f5ed;color:#1e5229}
+.qtext{font-size:.93rem;font-weight:700;color:#2d2d2d;margin-bottom:.65rem;line-height:1.5}
+.opts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem}
+.opt label{display:flex;align-items:flex-start;gap:.55rem;padding:.42rem .75rem;border-radius:7px;border:1.5px solid #e0dbd1;font-size:.875rem;cursor:pointer;transition:all .15s;background:#faf8f5;line-height:1.45}
+.opt label:hover{border-color:var(--accent);background:var(--accent-pale)}
+.opt input{flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.opt.cor label{border-color:#2d7a3a!important;background:#e8f5ed!important}
+.opt.wrg label{border-color:#8b1c1c!important;background:#fdf0f0!important}
+.kat-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0}
+.kat-tbl td{padding:.38rem .6rem;border-bottom:1px solid #f0ece4;vertical-align:middle}
+.kat-tbl td:first-child{font-weight:600;width:38%;color:#2d2d2d}
+.kat-radio{display:inline-flex;align-items:center;gap:.3rem;margin-right:.65rem;cursor:pointer;white-space:nowrap;font-size:.85rem}
+.kat-radio input{accent-color:var(--accent)}
+.qfb{margin-top:.55rem;font-size:.83rem;padding:.4rem .7rem;border-radius:6px;display:none;line-height:1.45}
+.qfb.show{display:block}.qfb.ok{background:#e8f5ed;color:#1e5229;border-left:3px solid #2d7a3a}.qfb.err{background:#fdf0f0;color:#6b1515;border-left:3px solid #8b1c1c}
+.quiz-foot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #e0dbd1}
+.btn-cek{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.62rem 1.35rem;font-family:'Nunito',sans-serif;font-size:.92rem;font-weight:800;cursor:pointer;transition:opacity .2s}
+.btn-cek:hover{opacity:.85}
+.btn-ulg{background:#fff;color:var(--accent);border:2px solid var(--accent);border-radius:8px;padding:.58rem 1.1rem;font-family:'Nunito',sans-serif;font-size:.87rem;font-weight:700;cursor:pointer;display:none;transition:all .2s}
+.btn-ulg:hover{background:var(--accent);color:#fff}
+.skor-txt{font-size:.93rem;font-weight:800;color:var(--accent);display:none}
+.page-nav{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e0dbd1;flex-wrap:wrap}
+.page-nav a{display:inline-flex;align-items:center;gap:.4rem;background:#fff;border:1.5px solid var(--accent);color:var(--accent);border-radius:8px;padding:.55rem 1rem;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s}
+.page-nav a:hover{background:var(--accent);color:#fff}
+footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="../../../index.html" class="brand">🏫 Belajar Mandiri</a>
+  <div class="nav-links"><a href="../../../index.html">Beranda</a><a href="../../index.html">Kelas 4</a><a href="../index.html">PP</a><a href="materi.html">Bab 1</a></div>
+</nav>
+<nav class="breadcrumb">
+  <a href="../../../index.html">Beranda</a><span>›</span><a href="../../index.html">Kelas 4</a><span>›</span><a href="../index.html">PP</a><span>›</span><a href="materi.html">Bab 1</a><span>›</span>Keragaman Budaya
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Bab 1 · Sub-materi A</div>
+    <h1>Keragaman Budaya di Lingkungan Sekitar</h1>
+    <p class="lead">Depok dan Jawa Barat adalah rumah bagi ratusan ribu orang dari berbagai suku dan budaya. Mari mengenal kekayaan keberagaman yang ada di sekitar kita!</p>
+  </div>
+</header>
+<main class="content-wrap">
 
+<div class="tujuan">
+  <div class="tujuan-title">🎯 Tujuan Pembelajaran</div>
+  <ul>
+    <li>Menjelaskan pengertian keragaman budaya.</li>
+    <li>Menyebutkan contoh keragaman budaya di Depok dan Jawa Barat.</li>
+    <li>Memahami bahwa keragaman adalah kekayaan bangsa yang harus disyukuri.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Apa Itu Keragaman Budaya?</h2>
+  <p><strong>Keragaman budaya</strong> adalah adanya berbagai macam budaya yang berbeda-beda dalam satu wilayah atau negara. Budaya meliputi bahasa, adat istiadat, makanan, pakaian, kesenian, dan cara hidup suatu kelompok masyarakat.</p>
+  <p>Indonesia adalah salah satu negara dengan keragaman budaya terbesar di dunia. Ada lebih dari <strong>300 suku bangsa</strong> dan <strong>700 bahasa daerah</strong> yang tersebar dari Sabang sampai Merauke.</p>
+  <div class="hl ok"><strong>Ingat:</strong> Keragaman bukan masalah, melainkan kekayaan! Justru dari keragamanlah Indonesia menjadi negara yang unik dan istimewa di mata dunia.</div>
+</div>
+
+<div class="section">
+  <h2>Depok: Kota yang Kaya Keberagaman</h2>
+  <p>Kota Depok berada di Provinsi Jawa Barat, berbatasan langsung dengan Jakarta. Karena letaknya strategis, Depok dihuni masyarakat dari berbagai daerah di seluruh Indonesia. Penduduk aslinya adalah masyarakat <strong>Sunda</strong>.</p>
+  <table class="suku-table">
+    <thead><tr><th>Suku</th><th>Asal Daerah</th><th>Ciri Khas</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Sunda</strong></td><td>Jawa Barat (asli)</td><td>Angklung, wayang golek, tari jaipong</td></tr>
+      <tr><td><strong>Betawi</strong></td><td>Jakarta &amp; sekitarnya</td><td>Lenong, tanjidor, kerak telor, ondel-ondel</td></tr>
+      <tr><td><strong>Jawa</strong></td><td>Jawa Tengah &amp; Timur</td><td>Batik, gamelan, wayang kulit, gudeg</td></tr>
+      <tr><td><strong>Batak</strong></td><td>Sumatera Utara</td><td>Ulos, tor-tor, gondang</td></tr>
+      <tr><td><strong>Minangkabau</strong></td><td>Sumatera Barat</td><td>Rumah gadang, rendang, tari piring</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>Bukti Keragaman di Sekitar Kita</h2>
+  <h3>Makanan Khas Berbagai Daerah</h3>
+  <div class="cards">
+    <div class="card"><h3>Jawa Barat</h3><p>Batagor, siomay, nasi timbel, karedok, lotek, oncom</p></div>
+    <div class="card"><h3>Betawi</h3><p>Kerak telor, soto Betawi, ketoprak, es selendang mayang</p></div>
+    <div class="card"><h3>Sumatera</h3><p>Rendang, pempek, mie Aceh, nasi goreng Jawa</p></div>
+    <div class="card"><h3>Jawa Tengah</h3><p>Gudeg, gado-gado, bakso Solo, sate ayam</p></div>
+  </div>
+  <h3 style="margin-top:1.25rem">Kesenian Khas Jawa Barat</h3>
+  <ul class="icon-list">
+    <li><div class="ic">🎵</div><div><strong>Angklung</strong> — alat musik bambu yang diakui UNESCO sebagai warisan budaya dunia tahun 2010.</div></li>
+    <li><div class="ic">🎭</div><div><strong>Wayang Golek</strong> — pertunjukan boneka kayu tiga dimensi khas Sunda.</div></li>
+    <li><div class="ic">💃</div><div><strong>Tari Jaipong</strong> — tari khas Jawa Barat yang energik, lahir di Karawang.</div></li>
+    <li><div class="ic">🍜</div><div><strong>Kuliner Khas</strong> — batagor, siomay, dodol Garut, dan ratusan kuliner lezat lainnya.</div></li>
+  </ul>
+  <div class="hl"><strong>Semboyan Bangsa:</strong> "Bhinneka Tunggal Ika" — berbeda-beda tetapi tetap satu jua.</div>
+</div>
+
+<div class="ringkasan">
+  <h2>📌 Ringkasan Materi</h2>
+  <ul>
+    <li>Keragaman budaya = berbagai macam budaya berbeda dalam satu wilayah.</li>
+    <li>Indonesia: lebih dari 300 suku bangsa dan 700+ bahasa daerah.</li>
+    <li>Depok dihuni berbagai suku: Sunda (asli), Betawi, Jawa, Batak, Minang, dll.</li>
+    <li>Bukti keragaman: bahasa, makanan, tempat ibadah, pakaian, kesenian.</li>
+    <li>Jawa Barat kaya budaya Sunda: angklung, wayang golek, tari jaipong.</li>
+    <li>Keragaman adalah kekayaan bangsa yang harus dijaga bersama.</li>
+  </ul>
+</div>
+
+<div class="quiz-wrap">
+  <h2>✏️ Latihan Soal</h2>
+  <p class="quiz-intro">Jawab semua soal, lalu klik <strong>Periksa Jawaban</strong> untuk melihat nilaimu.</p>
+  <div id="kq"></div>
+  <div class="quiz-foot">
+    <button class="btn-cek" onclick="cek()">Periksa Jawaban</button>
+    <button class="btn-ulg" id="bU" onclick="ulang()">Coba Lagi</button>
+    <span class="skor-txt" id="sk"></span>
+  </div>
+</div>
+
+<div class="page-nav">
+  <a href="materi.html">← Kembali ke Bab 1</a>
+  <a href="menghargai-keberagaman.html">Sub-materi B →</a>
+</div>
+</main>
+<footer>&copy; 2026 Belajar Mandiri · Dibuat dengan ❤️ untuk siswa SD Indonesia</footer>
+<script>
+const Q=[
+  {t:'pg',q:'Apa yang dimaksud dengan keragaman budaya?',o:['Semua orang memiliki budaya yang sama','Adanya berbagai macam budaya yang berbeda dalam satu wilayah','Hanya ada satu bahasa di suatu negara','Budaya milik suku terbesar'],a:1,fb:'Keragaman budaya berarti adanya berbagai macam budaya yang berbeda dalam satu wilayah atau negara.'},
+  {t:'pg',q:'Berapa jumlah suku bangsa yang ada di Indonesia?',o:['Kurang dari 50 suku','Sekitar 100 suku','Tepat 200 suku','Lebih dari 300 suku'],a:3,fb:'Indonesia memiliki lebih dari 300 suku bangsa yang tersebar dari Sabang sampai Merauke.'},
+  {t:'pg',q:'Penduduk asli Kota Depok adalah suku...',o:['Jawa','Betawi','Sunda','Batak'],a:2,fb:'Penduduk asli Depok adalah masyarakat Sunda yang telah lama mendiami wilayah ini.'},
+  {t:'pg',q:'Angklung adalah alat musik bambu yang berasal dari daerah...',o:['Sumatera Utara','Jawa Tengah','Jawa Barat (Sunda)','DKI Jakarta (Betawi)'],a:2,fb:'Angklung adalah alat musik bambu khas Sunda dari Jawa Barat.'},
+  {t:'pg',q:'Angklung diakui sebagai Warisan Budaya Tak Benda Dunia oleh UNESCO pada tahun...',o:['2000','2005','2010','2015'],a:2,fb:'UNESCO mengakui Angklung sebagai Warisan Budaya Tak Benda Dunia pada tahun 2010.'},
+  {t:'pg',q:'Semboyan "Bhinneka Tunggal Ika" berarti...',o:['Satu nusa, satu bangsa','Berbeda-beda tetapi tetap satu','Bersatu kita teguh, bercerai kita runtuh','Dari Sabang sampai Merauke'],a:1,fb:'"Bhinneka Tunggal Ika" berasal dari Sanskerta dan artinya berbeda-beda tetapi tetap satu.'},
+  {t:'pg',q:'Tari Jaipong lahir di daerah...',o:['Bandung','Bogor','Karawang','Bekasi'],a:2,fb:'Tari Jaipong lahir di Karawang, Jawa Barat, dan kini terkenal di seluruh Indonesia.'},
+  {t:'pg',q:'Berapa jumlah bahasa daerah yang ada di Indonesia?',o:['Lebih dari 100','Lebih dari 300','Lebih dari 700','Lebih dari 1.500'],a:2,fb:'Indonesia memiliki lebih dari 700 bahasa daerah — salah satu yang terbanyak di dunia.'},
+  {t:'mc',q:'Manakah yang termasuk kesenian khas Jawa Barat (Sunda)?',o:['Angklung','Reog Ponorogo','Wayang Golek','Tari Jaipong','Ondel-Ondel'],a:[0,2,3],fb:'Kesenian khas Jawa Barat: Angklung, Wayang Golek, Tari Jaipong. Reog = Jawa Timur. Ondel-Ondel = Betawi.'},
+  {t:'mc',q:'Manakah makanan yang termasuk khas Jawa Barat?',o:['Batagor','Rendang','Siomay','Gudeg','Karedok'],a:[0,2,4],fb:'Makanan khas Jawa Barat: Batagor, Siomay, dan Karedok. Rendang = Sumatera Barat. Gudeg = Jawa Tengah.'},
+  {t:'kt',q:'Kategorikan makanan berikut: Khas Jawa Barat atau Bukan Jawa Barat?',cats:['Khas Jawa Barat','Bukan Jawa Barat'],items:['Batagor','Rendang','Siomay','Gudeg','Karedok','Kerak Telor'],a:[0,1,0,1,0,1],fb:'Jawa Barat: Batagor, Siomay, Karedok. Bukan: Rendang (Sumbar), Gudeg (Jateng), Kerak Telor (Betawi).'},
+  {t:'kt',q:'Kategorikan kesenian/budaya berikut ke suku yang tepat!',cats:['Suku Sunda','Suku Betawi'],items:['Angklung','Lenong','Wayang Golek','Tanjidor','Tari Jaipong','Ondel-Ondel'],a:[0,1,0,1,0,1],fb:'Sunda: Angklung, Wayang Golek, Tari Jaipong. Betawi: Lenong, Tanjidor, Ondel-Ondel.'}
+];
+let done=false;
+function render(){document.getElementById('kq').innerHTML=Q.map((q,i)=>q.t==='pg'?renderPG(q,i):q.t==='mc'?renderMC(q,i):renderKt(q,i)).join('');}
+function renderPG(q,i){return`<div class="qblock" id="qb${i}"><span class="qtype qt-pg">Pilihan Ganda</span><p class="qtext">${i+1}. ${q.q}</p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="radio" name="q${i}" value="${j}"> ${o}</label></li>`).join('')}</ul><div class="qfb" id="fb${i}"></div></div>`;}
+function renderMC(q,i){return`<div class="qblock" id="qb${i}"><span class="qtype qt-mc">Pilih Semua yang Benar</span><p class="qtext">${i+1}. ${q.q} <em style="font-weight:400;font-size:.8rem">(bisa lebih dari satu jawaban)</em></p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="checkbox" name="q${i}" value="${j}"> ${o}</label></li>`).join('')}</ul><div class="qfb" id="fb${i}"></div></div>`;}
+function renderKt(q,i){const rows=q.items.map((item,j)=>`<tr><td>${item}</td><td>${q.cats.map((c,ci)=>`<label class="kat-radio"><input type="radio" name="ks${i}_${j}" value="${ci}"> ${c}</label>`).join('')}</td></tr>`).join('');return`<div class="qblock" id="qb${i}"><span class="qtype qt-kt">PG Kategori</span><p class="qtext">${i+1}. ${q.q}</p><table class="kat-tbl"><tbody>${rows}</tbody></table><div class="qfb" id="fb${i}"></div></div>`;}
+function showFb(i,ok,msg){const f=document.getElementById(`fb${i}`);f.className='qfb show '+(ok?'ok':'err');f.innerHTML=(ok?'✓ Benar! ':'✗ Belum tepat. ')+msg;}
+function cek(){
+  if(done)return;done=true;let b=0,t=0;
+  Q.forEach((q,i)=>{
+    if(q.t==='pg'){const s=document.querySelector(`input[name="q${i}"]:checked`);const a=s?+s.value:-1;if(a===q.a){b++;document.getElementById(`op${i}_${a}`).classList.add('cor');}else{if(a>=0)document.getElementById(`op${i}_${a}`).classList.add('wrg');document.getElementById(`op${i}_${q.a}`).classList.add('cor');}t++;showFb(i,a===q.a,q.fb||`Jawaban benar: <strong>${q.o[q.a]}</strong>`);}
+    if(q.t==='mc'){const ss=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(x=>+x.value);const ok=ss.length===q.a.length&&q.a.every(x=>ss.includes(x));q.o.forEach((_,j)=>{const e=document.getElementById(`op${i}_${j}`);if(q.a.includes(j))e.classList.add('cor');else if(ss.includes(j))e.classList.add('wrg');});if(ok)b++;t++;showFb(i,ok,q.fb||`Jawaban benar: <strong>${q.a.map(x=>q.o[x]).join(', ')}</strong>`);}
+    if(q.t==='kt'){let ok=true;q.items.forEach((_,j)=>{const s=document.querySelector(`input[name="ks${i}_${j}"]:checked`);if(!s||+s.value!==q.a[j]){ok=false;if(s)s.parentElement.style.cssText='text-decoration:line-through;color:#8b1c1c';const ci=document.querySelector(`input[name="ks${i}_${j}"][value="${q.a[j]}"]`);if(ci)ci.parentElement.style.cssText='font-weight:800;color:#2d7a3a';}});if(ok)b++;t++;showFb(i,ok,q.fb||'Perhatikan setiap item dan kategori yang benar.');}
+  });
+  document.querySelectorAll('.quiz-wrap input').forEach(x=>x.disabled=true);
+  const sk=document.getElementById('sk');sk.style.display='inline';sk.innerHTML=`Nilai: <strong>${b}/${t}</strong> (${Math.round(b/t*100)}%)`;
+  document.getElementById('bU').style.display='inline-block';
+}
+function ulang(){done=false;render();document.getElementById('sk').style.display='none';document.getElementById('bU').style.display='none';}
+render();
+</script>
+</body>
+</html>
