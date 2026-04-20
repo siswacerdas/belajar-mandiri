@@ -1,1 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menjaga dan Merusak Kebinekaan — PP Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#6b3a8a;--accent-pale:#f3edf9;--accent-border:#d4b8eb}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#f7f3eb;color:#2d2d2d;line-height:1.75;font-size:16px}
+h1,h2,h3{font-family:'Lora',serif;line-height:1.35}h1{font-size:clamp(1.5rem,4vw,2.2rem)}h2{font-size:clamp(1.15rem,3vw,1.5rem);margin-bottom:.75rem}h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent)}
+p{margin-bottom:1rem}ul,ol{padding-left:1.5rem;margin-bottom:1rem}li{margin-bottom:.35rem}strong{font-weight:700}
+.topnav{background:#1a6b72;padding:.7rem clamp(1.25rem,5vw,3rem);display:flex;align-items:center;justify-content:space-between}
+.topnav .brand{color:#fff;text-decoration:none;font-family:'Lora',serif;font-size:1rem;font-weight:700}
+.topnav .nav-links{display:flex;gap:1.25rem}.topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600}
+.breadcrumb{background:#fff;border-bottom:1px solid #e0dbd1;padding:.55rem clamp(1.25rem,5vw,3rem);font-size:.8rem;color:#777}
+.breadcrumb a{color:#1a6b72;text-decoration:none}.breadcrumb span{margin:0 .3rem;color:#bbb}
+.hero{background:var(--accent);padding:clamp(2.5rem,6vw,4rem) clamp(1.25rem,5vw,3rem)}
+.hero-inner{max-width:1140px;margin:0 auto}
+.hero-tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.22rem .85rem;margin-bottom:.9rem;color:#fff}
+.hero h1{color:#fff;margin-bottom:.6rem}.hero .lead{color:rgba(255,255,255,.9);font-size:1.05rem;max-width:640px}
+.content-wrap{max-width:1140px;margin:0 auto;padding:2.5rem clamp(1.25rem,5vw,3rem)}
+.tujuan{background:var(--accent-pale);border:1.5px solid var(--accent-border);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.75rem}
+.tujuan-title{font-weight:800;color:var(--accent);font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.6rem}
+.tujuan ul{margin:0;padding-left:1.25rem}.tujuan li{font-size:.93rem}
+.section{background:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem;border:1px solid #e0dbd1}
+.section>h2{color:var(--accent);margin-top:0}
+.hl{border-left:4px solid var(--accent);background:var(--accent-pale);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin:1rem 0}
+.hl.danger{border-left-color:#8b1c1c;background:#fdf0f0}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:1rem 0}
+@media(max-width:600px){.compare-grid{grid-template-columns:1fr}}
+.cmp-col{border-radius:10px;overflow:hidden}
+.cmp-head{padding:.7rem 1rem;font-weight:700;color:#fff;font-size:.9rem}
+.cmp-head.g{background:#2d7a3a}.cmp-head.r{background:#8b1c1c}
+.cmp-body{padding:1rem;border:1px solid #e0dbd1;border-top:none;border-radius:0 0 10px 10px}
+.cmp-body.g{background:#f0f8f1;border-color:#b5debb}.cmp-body.r{background:#fdf0f0;border-color:#e8b4b4}
+.cmp-body ul{margin:0;padding-left:1.2rem}.cmp-body li{font-size:.875rem;margin-bottom:.4rem}
+.scenario{background:#fffdf7;border:1px dashed var(--accent-border);border-radius:10px;padding:1.25rem 1.5rem;margin:1.25rem 0}
+.scenario-label{font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}
+.scenario p:last-child{margin:0}
+.step-list{list-style:none;padding:0;margin:1rem 0}
+.step-list li{display:flex;gap:.8rem;align-items:flex-start;margin-bottom:.9rem}
+.step-list .num{background:var(--accent);color:#fff;min-width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800;flex-shrink:0;margin-top:.15rem}
+.ringkasan{background:var(--accent);color:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.ringkasan h2{color:#fff;font-size:1.15rem;margin-bottom:.75rem}
+.ringkasan li{font-size:.92rem;margin-bottom:.4rem;opacity:.95}
+.quiz-wrap{background:#fff;border:1px solid #e0dbd1;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.quiz-wrap>h2{color:var(--accent);margin-bottom:.3rem;font-size:1.2rem}
+.quiz-intro{font-size:.85rem;color:#777;margin-bottom:1.5rem}
+.qblock{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0ece4}
+.qblock:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.qtype{display:inline-block;font-size:.65rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;border-radius:999px;padding:.12rem .55rem;margin-bottom:.35rem}
+.qt-pg{background:var(--accent-pale);color:var(--accent)}.qt-mc{background:#e8f0fd;color:#1a4a8b}.qt-kt{background:#e8f5ed;color:#1e5229}
+.qtext{font-size:.93rem;font-weight:700;color:#2d2d2d;margin-bottom:.65rem;line-height:1.5}
+.opts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem}
+.opt label{display:flex;align-items:flex-start;gap:.55rem;padding:.42rem .75rem;border-radius:7px;border:1.5px solid #e0dbd1;font-size:.875rem;cursor:pointer;transition:all .15s;background:#faf8f5;line-height:1.45}
+.opt label:hover{border-color:var(--accent);background:var(--accent-pale)}
+.opt input{flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.opt.cor label{border-color:#2d7a3a!important;background:#e8f5ed!important}
+.opt.wrg label{border-color:#8b1c1c!important;background:#fdf0f0!important}
+.kat-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0}
+.kat-tbl td{padding:.38rem .6rem;border-bottom:1px solid #f0ece4;vertical-align:middle}
+.kat-tbl td:first-child{font-weight:600;width:42%;color:#2d2d2d}
+.kat-radio{display:inline-flex;align-items:center;gap:.3rem;margin-right:.65rem;cursor:pointer;white-space:nowrap;font-size:.85rem}
+.kat-radio input{accent-color:var(--accent)}
+.qfb{margin-top:.55rem;font-size:.83rem;padding:.4rem .7rem;border-radius:6px;display:none;line-height:1.45}
+.qfb.show{display:block}.qfb.ok{background:#e8f5ed;color:#1e5229;border-left:3px solid #2d7a3a}.qfb.err{background:#fdf0f0;color:#6b1515;border-left:3px solid #8b1c1c}
+.quiz-foot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #e0dbd1}
+.btn-cek{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.62rem 1.35rem;font-family:'Nunito',sans-serif;font-size:.92rem;font-weight:800;cursor:pointer}
+.btn-cek:hover{opacity:.85}
+.btn-ulg{background:#fff;color:var(--accent);border:2px solid var(--accent);border-radius:8px;padding:.58rem 1.1rem;font-family:'Nunito',sans-serif;font-size:.87rem;font-weight:700;cursor:pointer;display:none}
+.btn-ulg:hover{background:var(--accent);color:#fff}
+.skor-txt{font-size:.93rem;font-weight:800;color:var(--accent);display:none}
+.page-nav{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e0dbd1;flex-wrap:wrap}
+.page-nav a{display:inline-flex;align-items:center;background:#fff;border:1.5px solid var(--accent);color:var(--accent);border-radius:8px;padding:.55rem 1rem;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s}
+.page-nav a:hover{background:var(--accent);color:#fff}
+footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="../../../index.html" class="brand">🏫 Belajar Mandiri</a>
+  <div class="nav-links"><a href="../../../index.html">Beranda</a><a href="../../index.html">Kelas 4</a><a href="../index.html">PP</a><a href="materi.html">Bab 1</a></div>
+</nav>
+<nav class="breadcrumb">
+  <a href="../../../index.html">Beranda</a><span>›</span><a href="../../index.html">Kelas 4</a><span>›</span><a href="../index.html">PP</a><span>›</span><a href="materi.html">Bab 1</a><span>›</span>Menjaga &amp; Merusak Kebinekaan
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Bab 1 · Sub-materi D</div>
+    <h1>Sikap dan Perilaku yang Menjaga dan Merusak Kebinekaan</h1>
+    <p class="lead">Setiap hari kita dihadapkan pada pilihan: apakah tindakan kita akan memperkuat atau justru melemahkan persatuan dalam keberagaman?</p>
+  </div>
+</header>
+<main class="content-wrap">
 
+<div class="tujuan">
+  <div class="tujuan-title">🎯 Tujuan Pembelajaran</div>
+  <ul>
+    <li>Membedakan sikap yang menjaga kebinekaan dari yang merusaknya.</li>
+    <li>Memahami dampak nyata dari perilaku yang merusak kebinekaan.</li>
+    <li>Berkomitmen menjadi penjaga kebinekaan di lingkungan sekitar.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Dua Pilihan Sikap dalam Menghadapi Perbedaan</h2>
+  <div class="compare-grid">
+    <div class="cmp-col">
+      <div class="cmp-head g">✅ Menjaga Kebinekaan</div>
+      <div class="cmp-body g"><ul>
+        <li>Berteman dengan semua orang tanpa pilih-pilih</li>
+        <li>Menghormati perbedaan agama dan kepercayaan</li>
+        <li>Menggunakan bahasa yang sopan kepada semua</li>
+        <li>Mau bekerja sama meski berbeda latar belakang</li>
+        <li>Membela teman yang dihina karena perbedaannya</li>
+        <li>Merayakan keberagaman bersama</li>
+      </ul></div>
+    </div>
+    <div class="cmp-col">
+      <div class="cmp-head r">❌ Merusak Kebinekaan</div>
+      <div class="cmp-body r"><ul>
+        <li>Hanya mau berteman dengan orang sesuku/seagama</li>
+        <li>Menghina atau meremehkan agama orang lain</li>
+        <li>Mengejek nama panggilan berdasarkan suku (rasis)</li>
+        <li>Menolak kerja sama karena perbedaan latar belakang</li>
+        <li>Menyebarkan cerita buruk tentang suku/agama tertentu</li>
+        <li>Diam saat melihat teman dihina karena perbedaannya</li>
+      </ul></div>
+    </div>
+  </div>
+  <div class="hl danger"><strong>Diskriminasi</strong> adalah perlakuan berbeda yang merugikan seseorang karena suku, agama, atau identitasnya. Ini bukan hanya tidak sopan — di Indonesia, ini termasuk pelanggaran hukum.</div>
+</div>
+
+<div class="section">
+  <h2>Dampak Merusak Kebinekaan</h2>
+  <ul>
+    <li><strong>Perpecahan</strong> — masyarakat terpecah menjadi kelompok yang saling bermusuhan.</li>
+    <li><strong>Konflik</strong> — perselisihan kecil bisa berkembang menjadi pertengkaran besar.</li>
+    <li><strong>Ketidakamanan</strong> — saling tidak percaya membuat lingkungan tidak aman.</li>
+    <li><strong>Trauma psikologis</strong> — orang yang dihina karena identitasnya bisa luka batin dalam.</li>
+    <li><strong>Menghambat kemajuan</strong> — energi terbuang untuk konflik, bukan untuk belajar dan berkarya.</li>
+  </ul>
+  <div class="scenario">
+    <div class="scenario-label">📖 Kisah: Doni dan Kelasnya</div>
+    <p>Doni baru pindah dari Medan ke sekolah di Depok. Suatu hari, sekelompok anak menirukan cara bicaranya dengan logat Batak untuk bercanda. Semua tertawa kecuali Doni. Sejak saat itu, Doni menjadi pendiam dan tidak mau bergaul.</p>
+    <p>Namun Sari melihat ini dan langsung berkata, "Hei, jangan gitu ya. Kita harus bikin Doni nyaman." Teman-teman pun meminta maaf, dan mereka malah jadi penasaran dengan budaya Batak. Doni dengan senang hati menceritakannya — dan kelas menjadi semakin seru dan hangat.</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Menjadi Penjaga Kebinekaan</h2>
+  <ul class="step-list">
+    <li><div class="num">1</div><div><strong>Kenali prasangkamu sendiri.</strong> Bertanyalah: "Apakah ada stereotip tentang suku/agama tertentu yang aku percaya? Dari mana aku tahu ini benar?"</div></li>
+    <li><div class="num">2</div><div><strong>Berani bersuara.</strong> Jika temanmu dihina, berikan dukungan. Cukup katakan: "Itu tidak benar dan tidak baik."</div></li>
+    <li><div class="num">3</div><div><strong>Pelajari budaya orang lain.</strong> Rasa ingin tahu yang tulus adalah antidot terbaik terhadap prasangka.</div></li>
+    <li><div class="num">4</div><div><strong>Jadilah jembatan.</strong> Kalau ada kelompok yang terpisah-pisah, undang semua orang untuk bermain bersama.</div></li>
+  </ul>
+</div>
+
+<div class="ringkasan">
+  <h2>📌 Ringkasan Materi</h2>
+  <ul>
+    <li>Menjaga kebinekaan: berteman dengan semua, menghormati perbedaan, membela yang dihina.</li>
+    <li>Merusak kebinekaan: diskriminasi, mengejek perbedaan, menyebarkan kebencian, eksklusif.</li>
+    <li>Dampak merusak: perpecahan, konflik, trauma, menghambat kemajuan.</li>
+    <li>"Hanya bercanda" bukan alasan — dampak menghina perbedaan tetap nyata dan menyakitkan.</li>
+    <li>Setiap orang bisa menjadi penjaga kebinekaan mulai dari langkah kecil hari ini.</li>
+  </ul>
+</div>
+
+<div class="quiz-wrap">
+  <h2>✏️ Latihan Soal</h2>
+  <p class="quiz-intro">Jawab semua soal, lalu klik <strong>Periksa Jawaban</strong>.</p>
+  <div id="kq"></div>
+  <div class="quiz-foot">
+    <button class="btn-cek" onclick="cek()">Periksa Jawaban</button>
+    <button class="btn-ulg" id="bU" onclick="ulang()">Coba Lagi</button>
+    <span class="skor-txt" id="sk"></span>
+  </div>
+</div>
+
+<div class="page-nav">
+  <a href="contoh-sikap-menghargai.html">← Sub-materi C</a>
+  <a href="../bab-negaraku-indonesia/materi.html">Lanjut Bab 2 →</a>
+</div>
+</main>
+<footer>&copy; 2026 Belajar Mandiri · Dibuat dengan ❤️ untuk siswa SD Indonesia</footer>
+<script>
+const Q=[
+  {t:'pg',q:'Perlakuan berbeda yang merugikan seseorang karena suku, agama, atau identitasnya disebut...',o:['Toleransi','Diskriminasi','Empati','Apresiasi'],a:1,fb:'Diskriminasi = perlakuan berbeda yang merugikan seseorang karena identitasnya.'},
+  {t:'pg',q:'Doni diejek karena logat Bataknya. Tindakan teman-temannya tersebut termasuk...',o:['Bercanda yang lucu dan tidak berbahaya','Bentuk diskriminasi yang dapat melukai perasaan','Cara yang tepat untuk mengenal budaya','Ekspresi persahabatan yang normal'],a:1,fb:'Mengejek cara bicara orang karena suku/asal daerahnya adalah bentuk diskriminasi, meski mengaku bercanda.'},
+  {t:'pg',q:'Sari membela Doni ketika teman-teman mengejeknya. Ini menunjukkan Sari adalah...',o:['Orang yang sok pahlawan','Teman yang mudah tersinggung','Penjaga kebinekaan yang nyata','Orang yang mencari perhatian'],a:2,fb:'Membela teman yang dihina karena identitasnya adalah tindakan nyata menjaga kebinekaan.'},
+  {t:'pg',q:'Alasan "hanya bercanda" saat mengejek perbedaan orang lain...',o:['Membuatnya sah dan tidak apa-apa','Tidak menghapus dampak luka yang ditimbulkan','Berarti tidak ada yang dirugikan','Menunjukkan keakraban persahabatan'],a:1,fb:'"Hanya bercanda" tidak menghapus rasa sakit yang dirasakan korban — dampaknya tetap nyata.'},
+  {t:'pg',q:'Menyebarkan cerita atau berita buruk tentang suku tertentu termasuk tindakan...',o:['Menjaga kebinekaan','Berpendapat bebas','Merusak kebinekaan dan berpotensi melanggar hukum','Memberikan informasi yang berguna'],a:2,fb:'Menyebarkan kebencian terhadap suku/agama tertentu adalah tindakan merusak kebinekaan dan melanggar hukum.'},
+  {t:'pg',q:'Cara terbaik untuk menjadi penjaga kebinekaan dimulai dari...',o:['Menunggu orang lain berubah lebih dulu','Mengenali dan memperbaiki prasangka dalam diri sendiri','Menghindari semua orang yang berbeda','Hanya bergaul dengan orang sesuku'],a:1,fb:'Menjadi penjaga kebinekaan dimulai dari dalam diri sendiri — kenali dan koreksi prasangkamu.'},
+  {t:'pg',q:'Apa yang dilakukan Sari untuk menjembatani Doni dengan teman-teman kelasnya?',o:['Diam dan membiarkan situasi berlanjut','Ikut menertawakan Doni','Berbicara kepada teman-teman dan mengajak semua berdamai','Melapor langsung ke kepala sekolah'],a:2,fb:'Sari bersuara kepada teman-temannya dan mengajak semua berdamai — ini adalah cara menjaga kebinekaan.'},
+  {t:'mc',q:'Manakah yang termasuk sikap MERUSAK kebinekaan?',o:['Hanya bergaul dengan orang sesuku','Membela teman yang dihina karena identitasnya','Mengejek cara makan orang dari daerah lain','Menolak kerja kelompok karena perbedaan agama','Merayakan festival budaya bersama'],a:[0,2,3],fb:'Merusak: hanya bergaul sesuku, mengejek cara makan, menolak kerja kelompok karena beda agama.'},
+  {t:'mc',q:'Apa saja dampak dari tindakan merusak kebinekaan?',o:['Perpecahan di masyarakat','Lingkungan menjadi lebih nyaman','Trauma psikologis pada korban','Semua orang merasa diterima','Menghambat kemajuan bersama'],a:[0,2,4],fb:'Dampak merusak kebinekaan: perpecahan, trauma psikologis pada korban, dan menghambat kemajuan.'},
+  {t:'kt',q:'Kategorikan tindakan berikut: Menjaga atau Merusak Kebinekaan?',cats:['Menjaga Kebinekaan','Merusak Kebinekaan'],items:['Membela teman yang diejek','Mengejek logat bicara orang','Mau bekerja sama dengan siapa saja','Menolak teman karena beda agama','Berteman dengan semua tanpa pilih-pilih','Menyebarkan hoaks tentang suku tertentu'],a:[0,1,0,1,0,1],fb:'Menjaga: membela, kerja sama, berteman semua. Merusak: mengejek, menolak teman beda agama, menyebar hoaks.'},
+  {t:'kt',q:'Kategorikan dampak berikut: akibat Menjaga atau Merusak kebinekaan?',cats:['Akibat Menjaga','Akibat Merusak'],items:['Lingkungan nyaman dan aman','Terjadi konflik antar kelompok','Semua orang bisa berkembang','Ada yang trauma dan terluka','Kerja sama mudah terwujud','Ketidakamanan dan saling curiga'],a:[0,1,0,1,0,1],fb:'Menjaga → nyaman, berkembang, kerja sama. Merusak → konflik, trauma, ketidakamanan.'},
+  {t:'pg',q:'Cara yang tepat untuk mengenal budaya teman dari daerah lain adalah...',o:['Mengejek budayanya agar dia menceritakannya','Bertanya dengan tulus dan rasa ingin tahu yang positif','Menganggap budayanya lebih rendah dari budaya kita','Melarangnya menampilkan budayanya di sekolah'],a:1,fb:'Bertanya dengan tulus dan rasa ingin tahu yang positif adalah cara terbaik mengenal budaya orang lain.'}
+];
+let done=false;
+function render(){document.getElementById('kq').innerHTML=Q.map((q,i)=>q.t==='pg'?renderPG(q,i):q.t==='mc'?renderMC(q,i):renderKt(q,i)).join('');}
+function renderPG(q,i){return`<div class="qblock" id="qb${i}"><span class="qtype qt-pg">Pilihan Ganda</span><p class="qtext">${i+1}. ${q.q}</p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="radio" name="q${i}" value="${j}"> ${o}</label></li>`).join('')}</ul><div class="qfb" id="fb${i}"></div></div>`;}
+function renderMC(q,i){return`<div class="qblock" id="qb${i}"><span class="qtype qt-mc">Pilih Semua yang Benar</span><p class="qtext">${i+1}. ${q.q} <em style="font-weight:400;font-size:.8rem">(bisa lebih dari satu)</em></p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="checkbox" name="q${i}" value="${j}"> ${o}</label></li>`).join('')}</ul><div class="qfb" id="fb${i}"></div></div>`;}
+function renderKt(q,i){const rows=q.items.map((item,j)=>`<tr><td>${item}</td><td>${q.cats.map((c,ci)=>`<label class="kat-radio"><input type="radio" name="ks${i}_${j}" value="${ci}"> ${c}</label>`).join('')}</td></tr>`).join('');return`<div class="qblock" id="qb${i}"><span class="qtype qt-kt">PG Kategori</span><p class="qtext">${i+1}. ${q.q}</p><table class="kat-tbl"><tbody>${rows}</tbody></table><div class="qfb" id="fb${i}"></div></div>`;}
+function showFb(i,ok,msg){const f=document.getElementById(`fb${i}`);f.className='qfb show '+(ok?'ok':'err');f.innerHTML=(ok?'✓ Benar! ':'✗ Belum tepat. ')+msg;}
+function cek(){
+  if(done)return;done=true;let b=0,t=0;
+  Q.forEach((q,i)=>{
+    if(q.t==='pg'){const s=document.querySelector(`input[name="q${i}"]:checked`);const a=s?+s.value:-1;if(a===q.a){b++;document.getElementById(`op${i}_${a}`).classList.add('cor');}else{if(a>=0)document.getElementById(`op${i}_${a}`).classList.add('wrg');document.getElementById(`op${i}_${q.a}`).classList.add('cor');}t++;showFb(i,a===q.a,q.fb||`Jawaban: <strong>${q.o[q.a]}</strong>`);}
+    if(q.t==='mc'){const ss=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(x=>+x.value);const ok=ss.length===q.a.length&&q.a.every(x=>ss.includes(x));q.o.forEach((_,j)=>{const e=document.getElementById(`op${i}_${j}`);if(q.a.includes(j))e.classList.add('cor');else if(ss.includes(j))e.classList.add('wrg');});if(ok)b++;t++;showFb(i,ok,q.fb||`Jawaban: <strong>${q.a.map(x=>q.o[x]).join(', ')}</strong>`);}
+    if(q.t==='kt'){let ok=true;q.items.forEach((_,j)=>{const s=document.querySelector(`input[name="ks${i}_${j}"]:checked`);if(!s||+s.value!==q.a[j]){ok=false;if(s)s.parentElement.style.cssText='text-decoration:line-through;color:#8b1c1c';const ci=document.querySelector(`input[name="ks${i}_${j}"][value="${q.a[j]}"]`);if(ci)ci.parentElement.style.cssText='font-weight:800;color:#2d7a3a';}});if(ok)b++;t++;showFb(i,ok,q.fb||'Perhatikan setiap item dan kategori yang benar.');}
+  });
+  document.querySelectorAll('.quiz-wrap input').forEach(x=>x.disabled=true);
+  const sk=document.getElementById('sk');sk.style.display='inline';sk.innerHTML=`Nilai: <strong>${b}/${t}</strong> (${Math.round(b/t*100)}%)`;
+  document.getElementById('bU').style.display='inline-block';
+}
+function ulang(){done=false;render();document.getElementById('sk').style.display='none';document.getElementById('bU').style.display='none';}
+render();
+</script>
+</body>
+</html>
