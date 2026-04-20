@@ -1,1 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menjaga dan Merusak Keutuhan NKRI — PP Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#8b1c1c;--ap:#fdf0f0;--ab:#e8b4b4}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#f7f3eb;color:#2d2d2d;line-height:1.75;font-size:16px}
+h1,h2,h3{font-family:'Lora',serif;line-height:1.35}h1{font-size:clamp(1.5rem,4vw,2.2rem)}h2{font-size:clamp(1.15rem,3vw,1.5rem);margin-bottom:.75rem}h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent)}
+p{margin-bottom:1rem}ul,ol{padding-left:1.5rem;margin-bottom:1rem}li{margin-bottom:.35rem}strong{font-weight:700}
+.topnav{background:#1a6b72;padding:.7rem clamp(1.25rem,5vw,3rem);display:flex;align-items:center;justify-content:space-between}
+.topnav .brand{color:#fff;text-decoration:none;font-family:'Lora',serif;font-size:1rem;font-weight:700}
+.topnav .nav-links{display:flex;gap:1.25rem}.topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600}
+.breadcrumb{background:#fff;border-bottom:1px solid #e0dbd1;padding:.55rem clamp(1.25rem,5vw,3rem);font-size:.8rem;color:#777}
+.breadcrumb a{color:#1a6b72;text-decoration:none}.breadcrumb span{margin:0 .3rem;color:#bbb}
+.hero{background:var(--accent);padding:clamp(2.5rem,6vw,4rem) clamp(1.25rem,5vw,3rem)}
+.hero-inner{max-width:1140px;margin:0 auto}
+.hero-tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.22rem .85rem;margin-bottom:.9rem;color:#fff}
+.hero h1{color:#fff;margin-bottom:.6rem}.hero .lead{color:rgba(255,255,255,.9);font-size:1.05rem;max-width:640px}
+.cw{max-width:1140px;margin:0 auto;padding:2.5rem clamp(1.25rem,5vw,3rem)}
+.tujuan{background:var(--ap);border:1.5px solid var(--ab);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.75rem}
+.tujuan-title{font-weight:800;color:var(--accent);font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.6rem}
+.tujuan ul{margin:0;padding-left:1.25rem}.tujuan li{font-size:.93rem}
+.sec{background:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem;border:1px solid #e0dbd1}
+.sec>h2{color:var(--accent);margin-top:0}
+.hl{border-left:4px solid var(--accent);background:var(--ap);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin:1rem 0}
+.hl.ok{border-left-color:#2d7a3a;background:#f0f8f1}.hl.danger{border-left-color:#8b1c1c;background:#fdf0f0}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+@media(max-width:560px){.compare{grid-template-columns:1fr}}
+.cv{border-radius:10px;overflow:hidden}
+.cv-h{padding:.65rem 1rem;font-weight:700;color:#fff;font-size:.88rem}
+.cv-h.g{background:#2d7a3a}.cv-h.r{background:#8b1c1c}
+.cv-b{padding:1rem;border:1px solid #e0dbd1;border-top:none;border-radius:0 0 10px 10px}
+.cv-b.g{background:#f0f8f1;border-color:#b5debb}.cv-b.r{background:#fdf0f0;border-color:#e8b4b4}
+.cv-b ul{margin:0;padding-left:1.2rem}.cv-b li{font-size:.875rem;margin-bottom:.4rem}
+.ring{background:var(--accent);color:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.ring h2{color:#fff;font-size:1.15rem;margin-bottom:.75rem}.ring li{font-size:.92rem;margin-bottom:.4rem;opacity:.95}
+.qw{background:#fff;border:1px solid #e0dbd1;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.qw>h2{color:var(--accent);margin-bottom:.3rem;font-size:1.2rem}
+.qi{font-size:.85rem;color:#777;margin-bottom:1.5rem}
+.qb{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0ece4}
+.qb:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.qt{display:inline-block;font-size:.65rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;border-radius:999px;padding:.12rem .55rem;margin-bottom:.35rem}
+.qt-pg{background:var(--ap);color:var(--accent)}.qt-mc{background:#e8f0fd;color:#1a4a8b}.qt-kt{background:#e8f5ed;color:#1e5229}
+.qtext{font-size:.93rem;font-weight:700;color:#2d2d2d;margin-bottom:.65rem;line-height:1.5}
+.opts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem}
+.opt label{display:flex;align-items:flex-start;gap:.55rem;padding:.42rem .75rem;border-radius:7px;border:1.5px solid #e0dbd1;font-size:.875rem;cursor:pointer;transition:all .15s;background:#faf8f5;line-height:1.45}
+.opt label:hover{border-color:var(--accent);background:var(--ap)}
+.opt input{flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.opt.cor label{border-color:#2d7a3a!important;background:#e8f5ed!important}
+.opt.wrg label{border-color:#8b1c1c!important;background:#fdf0f0!important}
+.kat-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0}
+.kat-tbl td{padding:.38rem .6rem;border-bottom:1px solid #f0ece4;vertical-align:middle}
+.kat-tbl td:first-child{font-weight:600;width:42%;color:#2d2d2d}
+.kr{display:inline-flex;align-items:center;gap:.3rem;margin-right:.65rem;cursor:pointer;white-space:nowrap;font-size:.85rem}
+.kr input{accent-color:var(--accent)}
+.fb{margin-top:.55rem;font-size:.83rem;padding:.4rem .7rem;border-radius:6px;display:none;line-height:1.45}
+.fb.show{display:block}.fb.ok{background:#e8f5ed;color:#1e5229;border-left:3px solid #2d7a3a}.fb.err{background:#fdf0f0;color:#6b1515;border-left:3px solid #8b1c1c}
+.qfoot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #e0dbd1}
+.bcek{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.62rem 1.35rem;font-family:'Nunito',sans-serif;font-size:.92rem;font-weight:800;cursor:pointer}
+.bcek:hover{opacity:.85}
+.bulg{background:#fff;color:var(--accent);border:2px solid var(--accent);border-radius:8px;padding:.58rem 1.1rem;font-family:'Nunito',sans-serif;font-size:.87rem;font-weight:700;cursor:pointer;display:none}
+.bulg:hover{background:var(--accent);color:#fff}
+.sk{font-size:.93rem;font-weight:800;color:var(--accent);display:none}
+.pn{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e0dbd1;flex-wrap:wrap}
+.pn a{display:inline-flex;align-items:center;background:#fff;border:1.5px solid var(--accent);color:var(--accent);border-radius:8px;padding:.55rem 1rem;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s}
+.pn a:hover{background:var(--accent);color:#fff}
+footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="../../../index.html" class="brand">🏫 Belajar Mandiri</a>
+  <div class="nav-links"><a href="../../../index.html">Beranda</a><a href="../../index.html">Kelas 4</a><a href="../index.html">PP</a><a href="materi.html">Bab 2</a></div>
+</nav>
+<nav class="breadcrumb">
+  <a href="../../../index.html">Beranda</a><span>›</span><a href="../../index.html">Kelas 4</a><span>›</span><a href="../index.html">PP</a><span>›</span><a href="materi.html">Bab 2</a><span>›</span>Menjaga &amp; Merusak Keutuhan NKRI
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Bab 2 · Sub-materi D</div>
+    <h1>Sikap dan Perilaku yang Menjaga dan Merusak Keutuhan NKRI</h1>
+    <p class="lead">Ada tindakan yang memperkuat NKRI, dan ada yang secara perlahan meruntuhkannya. Kita harus bisa membedakan keduanya.</p>
+  </div>
+</header>
+<main class="cw">
 
+<div class="tujuan">
+  <div class="tujuan-title">🎯 Tujuan Pembelajaran</div>
+  <ul>
+    <li>Membedakan sikap yang menjaga keutuhan NKRI dari yang merusaknya.</li>
+    <li>Memahami ancaman nyata terhadap keutuhan NKRI dan cara menghadapinya.</li>
+    <li>Berkomitmen bersikap sebagai warga negara yang menjaga keutuhan bangsa.</li>
+  </ul>
+</div>
+
+<div class="sec">
+  <h2>Dua Pilihan Sikap terhadap NKRI</h2>
+  <div class="compare">
+    <div class="cv">
+      <div class="cv-h g">✅ Menjaga Keutuhan NKRI</div>
+      <div class="cv-b g"><ul>
+        <li>Menghormati simbol negara: bendera, lagu kebangsaan, lambang Garuda</li>
+        <li>Menjaga kerukunan dengan semua warga tanpa memandang suku/agama</li>
+        <li>Patuh terhadap peraturan dan hukum negara</li>
+        <li>Bangga menggunakan dan membeli produk dalam negeri</li>
+        <li>Tidak menyebarkan berita bohong (hoaks) yang memecah belah</li>
+        <li>Ikut serta dalam kegiatan bela negara sesuai kemampuan</li>
+      </ul></div>
+    </div>
+    <div class="cv">
+      <div class="cv-h r">❌ Merusak Keutuhan NKRI</div>
+      <div class="cv-b r"><ul>
+        <li>Menghina atau merusak simbol negara</li>
+        <li>Menyebarkan ujaran kebencian berbasis suku, agama, ras, dan antar golongan (SARA)</li>
+        <li>Melanggar hukum dan tidak taat peraturan</li>
+        <li>Menghasut kelompok masyarakat untuk bermusuhan</li>
+        <li>Menyebarkan hoaks yang memecah belah persatuan</li>
+        <li>Mendukung gerakan yang ingin memisahkan diri dari NKRI</li>
+      </ul></div>
+    </div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2>Ancaman terhadap Keutuhan NKRI</h2>
+  <p>Ancaman terhadap keutuhan NKRI bisa datang dari dalam maupun dari luar negeri:</p>
+  <h3>Ancaman dari Dalam</h3>
+  <ul>
+    <li><strong>Konflik antar kelompok</strong> karena perbedaan suku, agama, atau kepentingan.</li>
+    <li><strong>Penyebaran hoaks dan berita bohong</strong> yang memprovokasi perpecahan.</li>
+    <li><strong>Korupsi</strong> yang menggerogoti kepercayaan rakyat kepada pemerintah.</li>
+    <li><strong>Gerakan separatis</strong> — kelompok yang ingin memisahkan diri dari Indonesia.</li>
+  </ul>
+  <h3>Ancaman dari Luar</h3>
+  <ul>
+    <li><strong>Campur tangan asing</strong> dalam urusan dalam negeri Indonesia.</li>
+    <li><strong>Spionase</strong> atau penggalian rahasia negara oleh pihak asing.</li>
+    <li><strong>Propaganda asing</strong> yang berusaha melemahkan semangat persatuan bangsa.</li>
+  </ul>
+  <div class="hl danger"><strong>Waspada hoaks!</strong> Di zaman media sosial, berita bohong bisa menyebar sangat cepat. Sebelum membagikan informasi, selalu periksa kebenarannya dari sumber terpercaya.</div>
+</div>
+
+<div class="sec">
+  <h2>Bela Negara Sesuai Kemampuan</h2>
+  <p>Bela negara bukan hanya soal perang. Setiap warga negara bisa membela negara sesuai kemampuannya:</p>
+  <ul>
+    <li>Siswa SD: <strong>belajar sungguh-sungguh</strong>, menjaga kerukunan di sekolah, bangga dengan budaya Indonesia.</li>
+    <li>Warga masyarakat: <strong>taat hukum</strong>, ikut ronda, jaga keamanan lingkungan.</li>
+    <li>Pegawai negeri: <strong>bekerja dengan jujur</strong> melayani rakyat.</li>
+    <li>TNI dan Polri: <strong>menjaga keamanan</strong> wilayah dan rakyat Indonesia.</li>
+  </ul>
+  <div class="hl ok">Kamu sudah membela negara ketika belajar dengan sungguh-sungguh! Anak-anak yang cerdas dan berkarakter adalah masa depan bangsa yang paling berharga.</div>
+</div>
+
+<div class="ring">
+  <h2>📌 Ringkasan Materi</h2>
+  <ul>
+    <li>Menjaga NKRI: menghormati simbol negara, rukun, taat hukum, tidak menyebar hoaks.</li>
+    <li>Merusak NKRI: menghina simbol negara, ujaran kebencian SARA, menyebar hoaks, gerakan separatis.</li>
+    <li>Ancaman dari dalam: konflik kelompok, hoaks, korupsi, separatisme.</li>
+    <li>Ancaman dari luar: campur tangan asing, spionase, propaganda asing.</li>
+    <li>Bela negara bisa dilakukan sesuai kemampuan — siswa SD mulai dari belajar sungguh-sungguh.</li>
+  </ul>
+</div>
+
+<div class="qw">
+  <h2>✏️ Latihan Soal</h2>
+  <p class="qi">Jawab semua soal, lalu klik <strong>Periksa Jawaban</strong>.</p>
+  <div id="kq"></div>
+  <div class="qfoot">
+    <button class="bcek" onclick="cek()">Periksa Jawaban</button>
+    <button class="bulg" id="bU" onclick="ulang()">Coba Lagi</button>
+    <span class="sk" id="skr"></span>
+  </div>
+</div>
+
+<div class="pn">
+  <a href="arti-penting-keutuhan.html">← Sub-materi C</a>
+  <a href="bangga-bangsa-indonesia.html">Sub-materi E →</a>
+</div>
+</main>
+<footer>&copy; 2026 Belajar Mandiri · Dibuat dengan ❤️ untuk siswa SD Indonesia</footer>
+<script>
+const Q=[
+  {t:'pg',q:'Menghormati bendera Merah Putih dan menyanyikan lagu Indonesia Raya dengan khidmat merupakan contoh sikap...',o:['Merusak keutuhan NKRI','Menjaga keutuhan NKRI','Tidak peduli terhadap negara','Tindakan yang berlebihan'],a:1,fb:'Menghormati simbol negara seperti bendera dan lagu kebangsaan adalah wujud nyata menjaga keutuhan NKRI.'},
+  {t:'pg',q:'Menyebarkan berita bohong (hoaks) tentang konflik antar suku melalui media sosial termasuk tindakan...',o:['Menjaga keutuhan NKRI','Memberi informasi yang berguna','Merusak keutuhan NKRI','Berpendapat secara bebas'],a:2,fb:'Menyebarkan hoaks tentang konflik antar suku adalah tindakan merusak keutuhan NKRI karena dapat memprovokasi perpecahan.'},
+  {t:'pg',q:'Kelompok yang ingin memisahkan wilayahnya dari Indonesia disebut gerakan...',o:['Nasionalis','Separatis','Pluralis','Federalis'],a:1,fb:'Gerakan separatis adalah gerakan yang ingin memisahkan diri dari NKRI — ini merupakan ancaman serius terhadap keutuhan bangsa.'},
+  {t:'pg',q:'Singkatan SARA dalam konteks ujaran kebencian berarti...',o:['Suku, Agama, Ras, dan Antar golongan','Sifat, Adat, Ragam, dan Asal','Suku, Adat, Ras, dan Asosiasi','Sosial, Agama, Ras, dan Aspirasi'],a:0,fb:'SARA = Suku, Agama, Ras, dan Antar golongan. Ujaran kebencian berbasis SARA sangat berbahaya bagi persatuan bangsa.'},
+  {t:'pg',q:'Cara terbaik siswa SD membela negara adalah...',o:['Bergabung dengan TNI saat masih SD','Mengkritik pemerintah setiap hari','Belajar sungguh-sungguh dan menjaga kerukunan','Tidak perlu melakukan apa-apa'],a:2,fb:'Siswa SD membela negara dengan belajar sungguh-sungguh — anak-anak cerdas dan berkarakter adalah masa depan bangsa.'},
+  {t:'pg',q:'Ancaman terhadap keutuhan NKRI yang berasal dari DALAM negeri adalah...',o:['Spionase oleh pihak asing','Campur tangan negara lain dalam urusan dalam negeri','Propaganda dari negara musuh','Konflik antar kelompok masyarakat karena perbedaan suku'],a:3,fb:'Konflik antar kelompok karena perbedaan suku adalah ancaman dari dalam negeri. Spionase dan campur tangan asing adalah ancaman dari luar.'},
+  {t:'pg',q:'Sebelum membagikan informasi di media sosial, sikap yang benar adalah...',o:['Langsung bagikan agar cepat diketahui banyak orang','Periksa dahulu kebenarannya dari sumber yang terpercaya','Tidak perlu peduli kebenaran yang penting viral','Bagikan hanya kepada teman dekat'],a:1,fb:'Selalu periksa kebenaran informasi dari sumber terpercaya sebelum membagikannya — ini mencegah penyebaran hoaks yang merusak persatuan.'},
+  {t:'mc',q:'Manakah yang termasuk sikap MENJAGA keutuhan NKRI?',o:['Menghormati simbol-simbol negara','Menyebarkan ujaran kebencian SARA','Taat terhadap peraturan dan hukum','Bangga menggunakan produk dalam negeri','Menghasut kelompok masyarakat untuk bermusuhan'],a:[0,2,3],fb:'Menjaga keutuhan: menghormati simbol negara, taat hukum, dan bangga produk dalam negeri.'},
+  {t:'mc',q:'Manakah yang termasuk ancaman dari DALAM terhadap keutuhan NKRI?',o:['Konflik antar kelompok masyarakat','Spionase oleh negara asing','Penyebaran hoaks yang memecah belah','Gerakan separatis','Campur tangan negara lain'],a:[0,2,3],fb:'Ancaman dari dalam: konflik antar kelompok, hoaks yang memecah belah, dan gerakan separatis.'},
+  {t:'kt',q:'Kategorikan tindakan berikut: Menjaga atau Merusak keutuhan NKRI?',cats:['Menjaga NKRI','Merusak NKRI'],items:['Menghormati lagu Indonesia Raya','Menyebarkan hoaks tentang suku lain','Taat terhadap peraturan negara','Mendukung gerakan separatis','Menjaga kerukunan di masyarakat','Menghina lambang negara Garuda'],a:[0,1,0,1,0,1],fb:'Menjaga: menghormati lagu, taat peraturan, kerukunan. Merusak: hoaks, separatis, menghina lambang negara.'},
+  {t:'kt',q:'Kategorikan ancaman berikut: dari Dalam atau dari Luar negeri?',cats:['Dari Dalam','Dari Luar'],items:['Konflik antar suku','Spionase oleh asing','Penyebaran hoaks lokal','Propaganda negara asing','Gerakan separatis','Campur tangan negara lain'],a:[0,1,0,1,0,1],fb:'Dari dalam: konflik suku, hoaks lokal, separatis. Dari luar: spionase, propaganda asing, campur tangan asing.'},
+  {t:'pg',q:'Mengapa bangga menggunakan produk dalam negeri termasuk sikap menjaga keutuhan NKRI?',o:['Karena produk luar negeri lebih mahal','Karena mendukung pengusaha dan pekerja Indonesia sehingga bangsa makin kuat','Karena pemerintah melarang produk asing','Karena produk dalam negeri selalu lebih bagus kualitasnya'],a:1,fb:'Membeli produk Indonesia berarti mendukung rakyat Indonesia — pengusaha dan pekerjanya — sehingga perekonomian bangsa semakin kuat.'}
+];
+let done=false;
+function render(){document.getElementById("kq").innerHTML=Q.map((q,i)=>q.t==="pg"?rPG(q,i):q.t==="mc"?rMC(q,i):rKT(q,i)).join("");}
+function rPG(q,i){return`<div class="qb" id="qb${i}"><span class="qt qt-pg">Pilihan Ganda</span><p class="qtext">${i+1}. ${q.q}</p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="radio" name="q${i}" value="${j}"> ${o}</label></li>`).join("")}</ul><div class="fb" id="fb${i}"></div></div>`;}
+function rMC(q,i){return`<div class="qb" id="qb${i}"><span class="qt qt-mc">Pilih Semua yang Benar</span><p class="qtext">${i+1}. ${q.q} <em style="font-weight:400;font-size:.8rem">(bisa lebih dari satu)</em></p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="checkbox" name="q${i}" value="${j}"> ${o}</label></li>`).join("")}</ul><div class="fb" id="fb${i}"></div></div>`;}
+function rKT(q,i){const rows=q.items.map((item,j)=>`<tr><td>${item}</td><td>${q.cats.map((c,ci)=>`<label class="kr"><input type="radio" name="ks${i}_${j}" value="${ci}"> ${c}</label>`).join("")}</td></tr>`).join("");return`<div class="qb" id="qb${i}"><span class="qt qt-kt">PG Kategori</span><p class="qtext">${i+1}. ${q.q}</p><table class="kat-tbl"><tbody>${rows}</tbody></table><div class="fb" id="fb${i}"></div></div>`;}
+function showFb(i,ok,msg){const f=document.getElementById(`fb${i}`);f.className="fb show "+(ok?"ok":"err");f.innerHTML=(ok?"✓ Benar! ":"✗ Belum tepat. ")+msg;}
+function cek(){
+  if(done)return;done=true;let b=0,t=0;
+  Q.forEach((q,i)=>{
+    if(q.t==="pg"){const s=document.querySelector(`input[name="q${i}"]:checked`);const a=s?+s.value:-1;if(a===q.a){b++;document.getElementById(`op${i}_${a}`).classList.add("cor");}else{if(a>=0)document.getElementById(`op${i}_${a}`).classList.add("wrg");document.getElementById(`op${i}_${q.a}`).classList.add("cor");}t++;showFb(i,a===q.a,q.fb);}
+    if(q.t==="mc"){const ss=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(x=>+x.value);const ok=ss.length===q.a.length&&q.a.every(x=>ss.includes(x));q.o.forEach((_,j)=>{const e=document.getElementById(`op${i}_${j}`);if(q.a.includes(j))e.classList.add("cor");else if(ss.includes(j))e.classList.add("wrg");});if(ok)b++;t++;showFb(i,ok,q.fb);}
+    if(q.t==="kt"){let ok=true;q.items.forEach((_,j)=>{const s=document.querySelector(`input[name="ks${i}_${j}"]:checked`);if(!s||+s.value!==q.a[j]){ok=false;if(s)s.parentElement.style.cssText="text-decoration:line-through;color:#8b1c1c";const ci=document.querySelector(`input[name="ks${i}_${j}"][value="${q.a[j]}"]`);if(ci)ci.parentElement.style.cssText="font-weight:800;color:#2d7a3a";}});if(ok)b++;t++;showFb(i,ok,q.fb);}
+  });
+  document.querySelectorAll(".qw input").forEach(x=>x.disabled=true);
+  const sk=document.getElementById("skr");sk.style.display="inline";sk.innerHTML=`Nilai: <strong>${b}/${t}</strong> (${Math.round(b/t*100)}%)`;
+  document.getElementById("bU").style.display="inline-block";
+}
+function ulang(){done=false;render();document.getElementById("skr").style.display="none";document.getElementById("bU").style.display="none";}
+render();
+</script>
+</body>
+</html>
