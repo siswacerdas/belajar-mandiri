@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelaksanaan Gotong Royong — PP Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#7a5c0a;--ap:#fffdf0;--ab:#e8d89a}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;background:#f7f3eb;color:#2d2d2d;line-height:1.75;font-size:16px}
+h1,h2,h3{font-family:'Lora',serif;line-height:1.35}
+h1{font-size:clamp(1.5rem,4vw,2.2rem)}h2{font-size:clamp(1.15rem,3vw,1.5rem);margin-bottom:.75rem}h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent)}
+p{margin-bottom:1rem}ul,ol{padding-left:1.5rem;margin-bottom:1rem}li{margin-bottom:.35rem}strong{font-weight:700}
+.topnav{background:#1a6b72;padding:.7rem clamp(1.25rem,5vw,3rem);display:flex;align-items:center;justify-content:space-between}
+.topnav .brand{color:#fff;text-decoration:none;font-family:'Lora',serif;font-size:1rem;font-weight:700}
+.topnav .nav-links{display:flex;gap:1.25rem}.topnav .nav-links a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;font-weight:600}
+.breadcrumb{background:#fff;border-bottom:1px solid #e0dbd1;padding:.55rem clamp(1.25rem,5vw,3rem);font-size:.8rem;color:#777}
+.breadcrumb a{color:#1a6b72;text-decoration:none}.breadcrumb span{margin:0 .3rem;color:#bbb}
+.hero{background:var(--accent);padding:clamp(2.5rem,6vw,4rem) clamp(1.25rem,5vw,3rem)}
+.hero-inner{max-width:1140px;margin:0 auto}
+.hero-tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.22rem .85rem;margin-bottom:.9rem;color:#fff}
+.hero h1{color:#fff;margin-bottom:.6rem}.hero .lead{color:rgba(255,255,255,.9);font-size:1.05rem;max-width:640px}
+.cw{max-width:1140px;margin:0 auto;padding:2.5rem clamp(1.25rem,5vw,3rem)}
+.tujuan{background:var(--ap);border:1.5px solid var(--ab);border-radius:10px;padding:1.25rem 1.5rem;margin-bottom:1.75rem}
+.tujuan-title{font-weight:800;color:var(--accent);font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.6rem}
+.tujuan ul{margin:0;padding-left:1.25rem}.tujuan li{font-size:.93rem}
+.sec{background:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem;border:1px solid #e0dbd1}
+.sec>h2{color:var(--accent);margin-top:0}
+.hl{border-left:4px solid var(--accent);background:var(--ap);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin:1rem 0}
+.hl.ok{border-left-color:#2d7a3a;background:#f0f8f1}
+.ling-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.25rem;margin:1rem 0}
+.ling-block{border-radius:10px;overflow:hidden;border:1px solid var(--ab)}
+.ling-head{background:var(--accent);color:#fff;padding:.65rem 1rem;font-weight:700;font-size:.9rem}
+.ling-body{background:var(--ap);padding:.9rem 1rem}
+.ling-body ul{margin:0;padding-left:1.2rem}.ling-body li{font-size:.875rem;margin-bottom:.4rem;color:#3a3a3a}
+.bentuk-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:1rem 0}
+.bentuk-tbl th{background:var(--accent);color:#fff;padding:.55rem .85rem;text-align:left}
+.bentuk-tbl td{padding:.45rem .85rem;border-bottom:1px solid #e0dbd1;vertical-align:top}
+.bentuk-tbl tr:nth-child(even) td{background:var(--ap)}
+.ring{background:var(--accent);color:#fff;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.ring h2{color:#fff;font-size:1.15rem;margin-bottom:.75rem}.ring li{font-size:.92rem;margin-bottom:.4rem;opacity:.95}
+.qw{background:#fff;border:1px solid #e0dbd1;border-radius:12px;padding:1.75rem 2rem;margin-bottom:1.5rem}
+.qw>h2{color:var(--accent);margin-bottom:.3rem;font-size:1.2rem}
+.qi{font-size:.85rem;color:#777;margin-bottom:1.5rem}
+.qb{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0ece4}
+.qb:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.qt{display:inline-block;font-size:.65rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;border-radius:999px;padding:.12rem .55rem;margin-bottom:.35rem}
+.qt-pg{background:var(--ap);color:var(--accent)}.qt-mc{background:#e8f0fd;color:#1a4a8b}.qt-kt{background:#e8f5ed;color:#1e5229}
+.qtext{font-size:.93rem;font-weight:700;color:#2d2d2d;margin-bottom:.65rem;line-height:1.5}
+.opts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem}
+.opt label{display:flex;align-items:flex-start;gap:.55rem;padding:.42rem .75rem;border-radius:7px;border:1.5px solid #e0dbd1;font-size:.875rem;cursor:pointer;transition:all .15s;background:#faf8f5;line-height:1.45}
+.opt label:hover{border-color:var(--accent);background:var(--ap)}
+.opt input{flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.opt.cor label{border-color:#2d7a3a!important;background:#e8f5ed!important}
+.opt.wrg label{border-color:#8b1c1c!important;background:#fdf0f0!important}
+.kat-tbl{width:100%;border-collapse:collapse;font-size:.875rem;margin:.25rem 0}
+.kat-tbl td{padding:.38rem .6rem;border-bottom:1px solid #f0ece4;vertical-align:middle}
+.kat-tbl td:first-child{font-weight:600;width:42%;color:#2d2d2d}
+.kr{display:inline-flex;align-items:center;gap:.3rem;margin-right:.65rem;cursor:pointer;white-space:nowrap;font-size:.85rem}
+.kr input{accent-color:var(--accent)}
+.fb{margin-top:.55rem;font-size:.83rem;padding:.4rem .7rem;border-radius:6px;display:none;line-height:1.45}
+.fb.show{display:block}.fb.ok{background:#e8f5ed;color:#1e5229;border-left:3px solid #2d7a3a}.fb.err{background:#fdf0f0;color:#6b1515;border-left:3px solid #8b1c1c}
+.qfoot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #e0dbd1}
+.bcek{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.62rem 1.35rem;font-family:'Nunito',sans-serif;font-size:.92rem;font-weight:800;cursor:pointer}
+.bcek:hover{opacity:.85}
+.bulg{background:#fff;color:var(--accent);border:2px solid var(--accent);border-radius:8px;padding:.58rem 1.1rem;font-family:'Nunito',sans-serif;font-size:.87rem;font-weight:700;cursor:pointer;display:none}
+.bulg:hover{background:var(--accent);color:#fff}
+.sk{font-size:.93rem;font-weight:800;color:var(--accent);display:none}
+.pn{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e0dbd1;flex-wrap:wrap}
+.pn a{display:inline-flex;align-items:center;background:#fff;border:1.5px solid var(--accent);color:var(--accent);border-radius:8px;padding:.55rem 1rem;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s}
+.pn a:hover{background:var(--accent);color:#fff}
+footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="../../../index.html" class="brand">🏫 Belajar Mandiri</a>
+  <div class="nav-links"><a href="../../../index.html">Beranda</a><a href="../../index.html">Kelas 4</a><a href="../index.html">PP</a><a href="materi.html">Bab 3</a></div>
+</nav>
+<nav class="breadcrumb">
+  <a href="../../../index.html">Beranda</a><span>›</span><a href="../../index.html">Kelas 4</a><span>›</span><a href="../index.html">PP</a><span>›</span><a href="materi.html">Bab 3</a><span>›</span>Pelaksanaan Gotong Royong
+</nav>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Bab 3 · Sub-materi B</div>
+    <h1>Pelaksanaan Gotong Royong untuk Memenuhi Kebutuhan</h1>
+    <p class="lead">Gotong royong bukan hanya teori — ia hidup dalam tindakan nyata sehari-hari di rumah, sekolah, dan masyarakat sekitar kita.</p>
+  </div>
+</header>
+<main class="cw">
 
+<div class="tujuan">
+  <div class="tujuan-title">🎯 Tujuan Pembelajaran</div>
+  <ul>
+    <li>Menyebutkan bentuk-bentuk pelaksanaan gotong royong di berbagai lingkungan.</li>
+    <li>Memahami bagaimana gotong royong membantu memenuhi kebutuhan masyarakat.</li>
+    <li>Membedakan gotong royong dari bentuk kerja sama lainnya.</li>
+  </ul>
+</div>
+
+<div class="sec">
+  <h2>Gotong Royong di Tiga Lingkungan</h2>
+  <p>Gotong royong dapat dilaksanakan di mana saja — mulai dari lingkup terkecil (keluarga) hingga masyarakat luas:</p>
+  <div class="ling-grid">
+    <div class="ling-block">
+      <div class="ling-head">🏠 Di Lingkungan Rumah</div>
+      <div class="ling-body"><ul>
+        <li>Membersihkan rumah bersama seluruh anggota keluarga</li>
+        <li>Memasak bersama untuk acara keluarga</li>
+        <li>Membantu orang tua mengerjakan pekerjaan rumah</li>
+        <li>Membantu tetangga yang sedang sakit atau kesusahan</li>
+        <li>Bergotong royong membersihkan selokan depan rumah</li>
+      </ul></div>
+    </div>
+    <div class="ling-block">
+      <div class="ling-head">🏫 Di Lingkungan Sekolah</div>
+      <div class="ling-body"><ul>
+        <li>Piket kelas membersihkan dan merapikan ruang belajar</li>
+        <li>Kerja kelompok mengerjakan tugas atau proyek bersama</li>
+        <li>Membantu teman yang kesulitan memahami pelajaran</li>
+        <li>Gotong royong menghias kelas saat perayaan HUT RI</li>
+        <li>Membersihkan halaman sekolah bersama-sama</li>
+      </ul></div>
+    </div>
+    <div class="ling-block">
+      <div class="ling-head">🏘️ Di Lingkungan Masyarakat</div>
+      <div class="ling-body"><ul>
+        <li>Kerja bakti membersihkan lingkungan RT/RW setiap minggu</li>
+        <li>Gotong royong membangun atau memperbaiki jalan kampung</li>
+        <li>Saling membantu saat ada warga yang punya hajatan</li>
+        <li>Ronda malam bersama menjaga keamanan lingkungan</li>
+        <li>Membantu warga yang terkena musibah (banjir, kebakaran)</li>
+      </ul></div>
+    </div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2>Bentuk-bentuk Gotong Royong</h2>
+  <p>Ada berbagai istilah gotong royong yang dikenal di Indonesia, tergantung daerah dan konteksnya:</p>
+  <table class="bentuk-tbl">
+    <thead><tr><th>Nama/Istilah</th><th>Daerah/Konteks</th><th>Bentuk Kegiatan</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Kerja Bakti</strong></td><td>Umum di seluruh Indonesia</td><td>Membersihkan lingkungan secara bersama-sama</td></tr>
+      <tr><td><strong>Sambatan</strong></td><td>Jawa Tengah &amp; DIY</td><td>Saling membantu membangun atau memperbaiki rumah</td></tr>
+      <tr><td><strong>Mapalus</strong></td><td>Minahasa, Sulawesi Utara</td><td>Gotong royong mengerjakan sawah atau ladang</td></tr>
+      <tr><td><strong>Subak</strong></td><td>Bali</td><td>Sistem irigasi sawah yang dikelola bersama-sama</td></tr>
+      <tr><td><strong>Gugur Gunung</strong></td><td>Jawa</td><td>Kerja sama untuk pekerjaan besar seperti membangun jembatan</td></tr>
+      <tr><td><strong>Arisan</strong></td><td>Umum di seluruh Indonesia</td><td>Kumpulan uang bersama secara bergiliran untuk memenuhi kebutuhan</td></tr>
+    </tbody>
+  </table>
+  <div class="hl">Gotong royong memiliki banyak nama dan bentuk di berbagai daerah, tapi esensinya sama: <strong>bekerja bersama untuk saling membantu dan memenuhi kebutuhan bersama.</strong></div>
+</div>
+
+<div class="sec">
+  <h2>Gotong Royong Memenuhi Kebutuhan</h2>
+  <p>Gotong royong membantu memenuhi kebutuhan yang sulit dipenuhi sendiri, misalnya:</p>
+  <ul>
+    <li><strong>Kebutuhan fisik</strong> — membangun rumah, memperbaiki jalan, atau membuat fasilitas umum yang tidak bisa dikerjakan satu orang.</li>
+    <li><strong>Kebutuhan sosial</strong> — rasa kebersamaan, persaudaraan, dan saling peduli yang tumbuh lewat kerja bersama.</li>
+    <li><strong>Kebutuhan keamanan</strong> — ronda malam bersama lebih efektif daripada satu orang menjaga lingkungan sendirian.</li>
+    <li><strong>Kebutuhan ekonomi</strong> — arisan dan koperasi adalah bentuk gotong royong untuk memenuhi kebutuhan finansial bersama.</li>
+  </ul>
+  <div class="hl ok"><strong>Contoh nyata:</strong> Di desa-desa Jawa Barat, ketika seseorang membangun rumah, para tetangga datang membantu tanpa dibayar. Si pemilik rumah hanya menyediakan makan. Sebuah rumah yang butuh berbulan-bulan jika dikerjakan sendiri bisa selesai dalam beberapa hari!</div>
+</div>
+
+<div class="sec">
+  <h2>Sikap yang Baik dalam Bergotong Royong</h2>
+  <ul>
+    <li>Datang tepat waktu dan tidak bermalas-malasan.</li>
+    <li>Mengerjakan tugas yang diberikan dengan sungguh-sungguh.</li>
+    <li>Tidak membeda-bedakan teman berdasarkan latar belakang.</li>
+    <li>Saling menghargai pendapat dan cara kerja orang lain.</li>
+    <li>Tidak hanya menikmati hasilnya tanpa ikut berkontribusi.</li>
+  </ul>
+</div>
+
+<div class="ring">
+  <h2>📌 Ringkasan Materi</h2>
+  <ul>
+    <li>Gotong royong bisa dilaksanakan di rumah, sekolah, dan masyarakat.</li>
+    <li>Berbagai nama gotong royong: kerja bakti, sambatan, mapalus, subak, gugur gunung, arisan.</li>
+    <li>Gotong royong membantu memenuhi kebutuhan fisik, sosial, keamanan, dan ekonomi.</li>
+    <li>Contoh: membangun rumah bersama tetangga di desa Jawa Barat.</li>
+    <li>Sikap baik: datang tepat waktu, serius bekerja, tidak pilih-pilih, saling menghargai.</li>
+  </ul>
+</div>
+
+<div class="qw">
+  <h2>✏️ Latihan Soal</h2>
+  <p class="qi">Jawab semua soal, lalu klik <strong>Periksa Jawaban</strong>.</p>
+  <div id="kq"></div>
+  <div class="qfoot">
+    <button class="bcek" onclick="cek()">Periksa Jawaban</button>
+    <button class="bulg" id="bU" onclick="ulang()">Coba Lagi</button>
+    <span class="sk" id="skr"></span>
+  </div>
+</div>
+
+<div class="pn">
+  <a href="gotong-royong-tujuan.html">← Sub-materi A</a>
+  <a href="masyarakat-sejahtera.html">Sub-materi C →</a>
+</div>
+</main>
+<footer>&copy; 2026 Belajar Mandiri · Dibuat dengan ❤️ untuk siswa SD Indonesia</footer>
+<script>
+const Q=[
+  {t:'pg',q:'Istilah gotong royong mengerjakan sawah bersama yang dikenal di Minahasa, Sulawesi Utara disebut...',o:['Sambatan','Mapalus','Subak','Gugur Gunung'],a:1,fb:'Mapalus adalah istilah gotong royong khas masyarakat Minahasa (Sulawesi Utara) untuk mengerjakan sawah atau ladang bersama.'},
+  {t:'pg',q:'Sistem irigasi sawah yang dikelola secara gotong royong di Bali disebut...',o:['Mapalus','Sambatan','Subak','Arisan'],a:2,fb:'Subak adalah sistem irigasi sawah di Bali yang dikelola bersama-sama secara gotong royong. Subak bahkan telah diakui UNESCO sebagai warisan budaya.'},
+  {t:'pg',q:'Piket kelas yang dilakukan siswa secara bergiliran merupakan contoh gotong royong di lingkungan...',o:['Rumah','Sekolah','Masyarakat','Pemerintahan'],a:1,fb:'Piket kelas adalah contoh gotong royong di lingkungan sekolah — siswa bergiliran menjaga kebersihan ruang kelas bersama.'},
+  {t:'pg',q:'Gotong royong membantu seorang warga membangun rumah tanpa dibayar merupakan contoh pemenuhan kebutuhan...',o:['Kebutuhan ekonomi','Kebutuhan rekreasi','Kebutuhan fisik','Kebutuhan hiburan'],a:2,fb:'Membangun rumah adalah kebutuhan fisik. Dengan gotong royong, kebutuhan fisik yang sulit dipenuhi sendiri bisa terpenuhi bersama.'},
+  {t:'pg',q:'Ronda malam bersama merupakan bentuk gotong royong untuk memenuhi kebutuhan...',o:['Ekonomi','Sosial','Keamanan','Pendidikan'],a:2,fb:'Ronda malam bersama adalah gotong royong untuk memenuhi kebutuhan keamanan lingkungan.'},
+  {t:'pg',q:'Sikap yang TIDAK baik saat bergotong royong adalah...',o:['Datang tepat waktu','Mengerjakan tugas dengan sungguh-sungguh','Hanya menikmati hasil tanpa ikut berkontribusi','Saling menghargai cara kerja orang lain'],a:2,fb:'Hanya menikmati hasil tanpa berkontribusi adalah sikap yang tidak baik — bertentangan dengan semangat gotong royong.'},
+  {t:'pg',q:'Arisan merupakan bentuk gotong royong yang bertujuan memenuhi kebutuhan...',o:['Keamanan','Sosial dan ekonomi','Pendidikan','Kesehatan'],a:1,fb:'Arisan adalah kumpulan uang bersama secara bergiliran — merupakan gotong royong untuk memenuhi kebutuhan sosial (kebersamaan) sekaligus ekonomi (finansial).'},
+  {t:'mc',q:'Manakah yang termasuk contoh gotong royong di lingkungan masyarakat?',o:['Kerja bakti membersihkan lingkungan RT','Piket kelas di sekolah','Ronda malam menjaga keamanan','Membantu warga yang terkena musibah banjir','Mengerjakan PR bersama keluarga'],a:[0,2,3],fb:'Gotong royong di masyarakat: kerja bakti RT, ronda malam, dan membantu warga kena musibah. Piket kelas = sekolah. PR bersama = rumah.'},
+  {t:'mc',q:'Manakah yang termasuk bentuk/istilah gotong royong tradisional Indonesia?',o:['Sambatan','Subak','Mapalus','Musyawarah','Gugur Gunung'],a:[0,1,2,4],fb:'Bentuk gotong royong tradisional: Sambatan (Jawa), Subak (Bali), Mapalus (Minahasa), Gugur Gunung (Jawa). Musyawarah adalah cara pengambilan keputusan, bukan gotong royong.'},
+  {t:'kt',q:'Kategorikan contoh gotong royong berikut ke lingkungan yang tepat!',cats:['Di Sekolah','Di Masyarakat'],items:['Piket kelas bersama','Kerja bakti RT','Kerja kelompok tugas','Gotong royong bangun jalan','Bersih kelas jelang HUT RI','Ronda malam bersama'],a:[0,1,0,1,0,1],fb:'Di Sekolah: piket kelas, kerja kelompok, bersih kelas. Di Masyarakat: kerja bakti RT, bangun jalan, ronda malam.'},
+  {t:'kt',q:'Kategorikan kebutuhan yang dipenuhi gotong royong berikut!',cats:['Kebutuhan Fisik','Kebutuhan Keamanan'],items:['Membangun rumah bersama','Ronda malam bersama','Memperbaiki jalan kampung','Menjaga pos keamanan','Gotong royong bangun balai desa','Siskamling (Sistem Keamanan Lingkungan)'],a:[0,1,0,1,0,1],fb:'Fisik: membangun rumah, perbaiki jalan, bangun balai desa. Keamanan: ronda malam, jaga pos keamanan, siskamling.'},
+  {t:'pg',q:'Di desa-desa Jawa Barat, ketika seseorang membangun rumah dan tetangga membantu tanpa dibayar, si pemilik rumah biasanya...',o:['Tidak perlu memberikan apa-apa','Hanya menyediakan makan bagi yang membantu','Membayar upah setelah selesai','Menjanjikan akan membantu balik nanti'],a:1,fb:'Tradisi gotong royong membangun rumah: pemilik rumah menyediakan makan bagi para tetangga yang membantu tanpa dibayar.'}
+];
+let done=false;
+function render(){document.getElementById("kq").innerHTML=Q.map((q,i)=>q.t==="pg"?rPG(q,i):q.t==="mc"?rMC(q,i):rKT(q,i)).join("");}
+function rPG(q,i){return`<div class="qb" id="qb${i}"><span class="qt qt-pg">Pilihan Ganda</span><p class="qtext">${i+1}. ${q.q}</p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="radio" name="q${i}" value="${j}"> ${o}</label></li>`).join("")}</ul><div class="fb" id="fb${i}"></div></div>`;}
+function rMC(q,i){return`<div class="qb" id="qb${i}"><span class="qt qt-mc">Pilih Semua yang Benar</span><p class="qtext">${i+1}. ${q.q} <em style="font-weight:400;font-size:.8rem">(bisa lebih dari satu)</em></p><ul class="opts">${q.o.map((o,j)=>`<li class="opt" id="op${i}_${j}"><label><input type="checkbox" name="q${i}" value="${j}"> ${o}</label></li>`).join("")}</ul><div class="fb" id="fb${i}"></div></div>`;}
+function rKT(q,i){const rows=q.items.map((item,j)=>`<tr><td>${item}</td><td>${q.cats.map((c,ci)=>`<label class="kr"><input type="radio" name="ks${i}_${j}" value="${ci}"> ${c}</label>`).join("")}</td></tr>`).join("");return`<div class="qb" id="qb${i}"><span class="qt qt-kt">PG Kategori</span><p class="qtext">${i+1}. ${q.q}</p><table class="kat-tbl"><tbody>${rows}</tbody></table><div class="fb" id="fb${i}"></div></div>`;}
+function showFb(i,ok,msg){const f=document.getElementById(`fb${i}`);f.className="fb show "+(ok?"ok":"err");f.innerHTML=(ok?"✓ Benar! ":"✗ Belum tepat. ")+msg;}
+function cek(){
+  if(done)return;done=true;let b=0,t=0;
+  Q.forEach((q,i)=>{
+    if(q.t==="pg"){const s=document.querySelector(`input[name="q${i}"]:checked`);const a=s?+s.value:-1;if(a===q.a){b++;document.getElementById(`op${i}_${a}`).classList.add("cor");}else{if(a>=0)document.getElementById(`op${i}_${a}`).classList.add("wrg");document.getElementById(`op${i}_${q.a}`).classList.add("cor");}t++;showFb(i,a===q.a,q.fb);}
+    if(q.t==="mc"){const ss=[...document.querySelectorAll(`input[name="q${i}"]:checked`)].map(x=>+x.value);const ok=ss.length===q.a.length&&q.a.every(x=>ss.includes(x));q.o.forEach((_,j)=>{const e=document.getElementById(`op${i}_${j}`);if(q.a.includes(j))e.classList.add("cor");else if(ss.includes(j))e.classList.add("wrg");});if(ok)b++;t++;showFb(i,ok,q.fb);}
+    if(q.t==="kt"){let ok=true;q.items.forEach((_,j)=>{const s=document.querySelector(`input[name="ks${i}_${j}"]:checked`);if(!s||+s.value!==q.a[j]){ok=false;if(s)s.parentElement.style.cssText="text-decoration:line-through;color:#8b1c1c";const ci=document.querySelector(`input[name="ks${i}_${j}"][value="${q.a[j]}"]`);if(ci)ci.parentElement.style.cssText="font-weight:800;color:#2d7a3a";}});if(ok)b++;t++;showFb(i,ok,q.fb);}
+  });
+  document.querySelectorAll(".qw input").forEach(x=>x.disabled=true);
+  const sk=document.getElementById("skr");sk.style.display="inline";sk.innerHTML=`Nilai: <strong>${b}/${t}</strong> (${Math.round(b/t*100)}%)`;
+  document.getElementById("bU").style.display="inline-block";
+}
+function ulang(){done=false;render();document.getElementById("skr").style.display="none";document.getElementById("bU").style.display="none";}
+render();
+</script>
+</body>
+</html>
