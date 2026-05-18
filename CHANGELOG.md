@@ -87,3 +87,32 @@
 - Repo `belajar-mandiri` → otomatis pakai akun `siswacerdas` via SSH
 - Repo `sdmuh01kukusan` → otomatis pakai akun `sdit-dpk` via HTTPS
 - Double-click `projek-saya.code-workspace` untuk buka kedua repo sekaligus
+## [Sesi 05] — 2026-05-19
+### Restrukturisasi Halaman + Redesign Admin Panel
+
+#### Perubahan Besar
+- `index.html` diubah total → halaman landing + login (dua kolom: info kiri, form login kanan)
+- `home.html` dibuat baru → halaman utama konten (protected, redirect ke index.html jika belum login)
+- `admin/index.html` dibangun ulang bersih dengan sidebar navigasi + dashboard + tabel user
+
+#### `index.html` (Landing + Login)
+- Layout dua kolom: kiri = branding/fitur/langkah, kanan atas = form login/daftar
+- Form login dan daftar langsung embedded (tidak pakai modal)
+- Redirect otomatis ke `home.html` jika sudah login
+- Status bar untuk feedback pending/rejected dari URL param
+- Semua informasi kunci website tersaji di kolom kiri
+
+#### `home.html` (Halaman Utama — Baru)
+- Auth guard: redirect ke index.html jika belum login atau akun belum approved
+- Navbar sederhana: nama user + tombol Keluar (tidak ada tombol Masuk lagi)
+- Tombol kelas langsung aktif (tidak dikunci) karena hanya bisa diakses setelah login
+- Redirect ke `index.html?status=pending` atau `?status=rejected` jika akun bermasalah
+
+#### `admin/index.html` (Dibangun Ulang)
+- Sidebar navigasi: Dashboard, Menunggu Approval, Semua User, Pengaturan
+- Dashboard: 4 stat card + tabel pending terbaru
+- Badge merah di sidebar jika ada pending
+- Panel Semua User: filter tab (Semua/Menunggu/Disetujui/Ditolak)
+- Tombol Setujui/Tolak/Cabut Akses dengan konfirmasi
+- Toast notifikasi untuk feedback aksi
+- Login langsung di halaman admin (tidak redirect ke index.html)

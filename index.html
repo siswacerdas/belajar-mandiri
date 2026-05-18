@@ -4,834 +4,450 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Belajar Mandiri — Platform Belajar Siswa SD</title>
-  <meta name="description" content="Platform belajar mandiri untuk siswa SD Kelas 4 & 5 — materi ringkas, kuis interaktif, berbasis GitHub Pages, gratis tanpa daftar."/>
+  <meta name="description" content="Platform belajar interaktif gratis untuk siswa SD Kelas 4–6. Materi ringkas, kuis seru, dan progres tersimpan otomatis."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <style>
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 16px; }
-
 :root {
   --primary:     #1a6b72;
+  --primary-dk:  #134f55;
   --primary-mid: #2a9aa4;
   --primary-lt:  #e0f4f5;
-  --primary-pal: #f0fafb;
   --sand:        #f7f3eb;
   --sand-dk:     #ede8dc;
   --white:       #ffffff;
   --ink:         #1a1f2e;
   --ink-mid:     #3d4460;
   --ink-lt:      #6b7280;
-  --success:     #166534;
-  --success-lt:  #dcfce7;
   --radius:      10px;
   --radius-lg:   16px;
-  --shadow-sm:   0 2px 8px rgba(26,107,114,0.08);
-  --shadow:      0 4px 20px rgba(26,107,114,0.11);
-  --max-w:       980px;
+  --shadow-lg:   0 12px 48px rgba(26,107,114,0.18);
 }
-
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--sand);
-  color: var(--ink);
-  line-height: 1.75;
-  overflow-x: hidden;
-}
-body::before {
-  content: '';
-  position: fixed; inset: 0; z-index: -1;
-  background:
-    radial-gradient(ellipse 70% 50% at 5% 15%,  rgba(42,154,164,0.06) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 70% at 95% 85%,  rgba(200,125,42,0.05) 0%, transparent 60%);
-  pointer-events: none;
-}
+body { font-family: 'Nunito', sans-serif; background: var(--sand); color: var(--ink); line-height: 1.75; min-height: 100vh; }
 a { text-decoration: none; color: inherit; }
+@keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+@keyframes spin   { to { transform:rotate(360deg); } }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(18px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-/* ── HERO ── */
-.hero {
-  background: var(--primary);
-  position: relative; overflow: hidden;
-  padding: 80px 32px 92px;
-}
-.hero::after {
-  content: ''; position: absolute;
-  bottom: -1px; left: 0; right: 0; height: 56px;
-  background: var(--sand);
-  clip-path: ellipse(54% 100% at 50% 100%);
-}
-.hero-deco {
-  position: absolute; border-radius: 50%;
-  background: #fff; pointer-events: none;
-}
-.d1 { width:440px; height:440px; opacity:.05; top:-140px; right:-110px; }
-.d2 { width:210px; height:210px; opacity:.04; bottom:10px; left:-70px; }
-.d3 { width: 90px; height: 90px; opacity:.08; top:36px; left:18%; }
-
-.hero-inner {
-  position: relative; z-index: 1;
-  max-width: var(--max-w); margin: 0 auto; text-align: center;
-}
-.hero-eyebrow {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(255,255,255,0.10);
-  border: 1px solid rgba(255,255,255,0.22);
-  color: rgba(255,255,255,0.88);
-  font-size: 11.5px; font-weight: 700;
-  letter-spacing: 1.6px; text-transform: uppercase;
-  padding: 5px 16px; border-radius: 20px; margin-bottom: 22px;
-  animation: fadeUp 0.55s ease both;
-}
-.hero-eyebrow .dot { width:6px; height:6px; border-radius:50%; background:var(--primary-mid); }
-.hero-title {
-  font-family: 'Lora', serif;
-  font-size: clamp(28px, 5.5vw, 54px);
-  font-weight: 700; color: #fff; line-height: 1.15; margin-bottom: 18px;
-  animation: fadeUp 0.55s 0.08s ease both;
-}
-.hero-title em { font-style: italic; color: #7dd8de; }
-.hero-sub {
-  font-size: clamp(14px, 2vw, 16.5px); color: rgba(255,255,255,0.68);
-  max-width: 560px; margin: 0 auto 36px; font-weight: 400;
-  animation: fadeUp 0.55s 0.16s ease both;
-}
-.hero-tags {
-  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
-  animation: fadeUp 0.55s 0.24s ease both;
-}
-.hero-tag {
-  background: rgba(255,255,255,0.09);
-  border: 1px solid rgba(255,255,255,0.16);
-  color: rgba(255,255,255,0.80);
-  font-size: 12px; font-weight: 500; padding: 4px 13px; border-radius: 20px;
-}
-
-/* ── AUTH NAVBAR ── */
-#nav-auth { margin-left: auto; display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-
-.btn-nav-masuk {
-  font-size: 13px; font-weight: 700;
-  color: var(--white); background: var(--primary);
-  border: none; border-radius: 8px;
-  padding: 7px 18px; cursor: pointer;
-  transition: background 0.18s, transform 0.12s;
-}
-.btn-nav-masuk:hover { background: var(--primary-mid); transform: translateY(-1px); }
-
-.nav-user {
-  display: none; align-items: center; gap: 10px;
-}
-.nav-user-nama {
-  font-size: 13px; font-weight: 600; color: var(--primary);
-  max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-}
-.btn-keluar {
-  font-size: 12px; font-weight: 600;
-  color: var(--ink-lt); background: var(--sand);
-  border: 1.5px solid var(--sand-dk); border-radius: 7px;
-  padding: 5px 13px; cursor: pointer;
-  transition: background 0.15s, color 0.15s;
-}
-.btn-keluar:hover { background: #fde8e8; color: #b91c1c; border-color: #fca5a5; }
-
-/* ── MODAL LOGIN ── */
-.modal-overlay {
-  display: none; position: fixed; inset: 0; z-index: 1000;
-  background: rgba(26,31,46,0.72); backdrop-filter: blur(4px);
-  align-items: center; justify-content: center;
-}
-.modal-overlay.aktif { display: flex; }
-
-.modal-box {
-  background: var(--white); border-radius: 16px;
-  padding: 36px 32px 32px;
-  width: 100%; max-width: 380px; margin: 16px;
-  box-shadow: 0 20px 60px rgba(26,107,114,0.18);
-  animation: fadeUp 0.25s ease both;
-}
-.modal-logo {
-  font-family: 'Lora', serif; font-size: 18px;
-  font-weight: 700; color: var(--primary);
-  margin-bottom: 4px;
-}
-.modal-subtitle {
-  font-size: 13px; color: var(--ink-lt);
-  margin-bottom: 24px;
-}
-.form-group { margin-bottom: 14px; }
-.form-group label {
-  display: block; font-size: 12px; font-weight: 700;
-  color: var(--ink-mid); margin-bottom: 5px;
-  letter-spacing: 0.4px; text-transform: uppercase;
-}
-.form-group input {
-  width: 100%; padding: 10px 13px;
-  border: 1.5px solid var(--sand-dk); border-radius: 8px;
-  font-family: inherit; font-size: 14px; color: var(--ink);
-  background: var(--sand); outline: none;
-  transition: border-color 0.18s, background 0.18s;
-}
-.form-group input:focus {
-  border-color: var(--primary-mid); background: var(--white);
-}
-.btn-login-submit {
-  width: 100%; padding: 11px;
-  background: var(--primary); color: #fff;
-  border: none; border-radius: 9px;
-  font-family: inherit; font-size: 15px; font-weight: 700;
-  cursor: pointer; margin-top: 6px;
-  transition: background 0.18s;
-}
-.btn-login-submit:hover { background: var(--primary-mid); }
-.btn-login-submit:disabled { background: #94b8bb; cursor: not-allowed; }
-
-.modal-tabs {
-  display: flex; gap: 4px; margin-bottom: 18px;
-  border-bottom: 2px solid var(--sand-dk); padding-bottom: 0;
-}
-.modal-tab {
-  flex: 1; padding: 9px; background: none; border: none;
-  font-family: inherit; font-size: 14px; font-weight: 700;
-  color: var(--ink-lt); cursor: pointer;
-  border-bottom: 2px solid transparent; margin-bottom: -2px;
-  transition: color 0.15s, border-color 0.15s;
-}
-.modal-tab.aktif { color: var(--primary); border-bottom-color: var(--primary); }
-.modal-tab:hover:not(.aktif) { color: var(--ink); }
-
-.daftar-sukses {
-  margin-top: 14px; background: #f0fdf4;
-  border: 1px solid #86efac; color: #166534;
-  font-size: 13px; font-weight: 600;
-  border-radius: 8px; padding: 12px;
-  line-height: 1.5;
-}
-
-.login-error {
-  display: none; margin-top: 12px;
-  background: #fef2f2; border: 1px solid #fca5a5;
-  color: #b91c1c; font-size: 13px; font-weight: 600;
-  border-radius: 8px; padding: 9px 12px;
-}
-.login-error.aktif { display: block; }
-
-.modal-hint {
-  text-align: center; font-size: 11px; color: var(--ink-lt);
-  margin-top: 14px;
-}
-.modal-hint kbd {
-  background: var(--sand); border: 1px solid var(--sand-dk);
-  border-radius: 4px; padding: 1px 5px; font-size: 11px;
-  font-family: inherit;
-}
-
-.modal-close {
-  position: absolute; top: 14px; right: 16px;
-  background: none; border: none; cursor: pointer;
-  font-size: 20px; color: var(--ink-lt); line-height: 1;
-}
-.modal-close:hover { color: var(--ink); }
-.modal-box { position: relative; }
-
-/* ── NAVBAR ── */
-.navbar {
-  background: var(--white); box-shadow: var(--shadow-sm);
-  position: sticky; top: 0; z-index: 200;
-  border-bottom: 2px solid var(--primary-lt);
-}
-.navbar-inner {
-  max-width: var(--max-w); margin: 0 auto; padding: 0 28px;
-  display: flex; align-items: center; gap: 4px;
-}
-.nav-logo {
-  font-family: 'Lora', serif; font-weight: 700; font-size: 15px;
-  color: var(--primary); white-space: nowrap;
-  padding: 15px 22px 15px 0;
-  border-right: 1.5px solid var(--sand-dk); margin-right: 8px; flex-shrink: 0;
-}
-.nav-link {
-  font-size: 13px; font-weight: 600; color: var(--ink-mid);
-  padding: 15px 14px; white-space: nowrap;
-  border-bottom: 2px solid transparent;
-  transition: color 0.18s, border-color 0.18s;
-}
-.nav-link:hover { color: var(--primary); border-bottom-color: var(--primary-mid); }
-
-/* ── PAGE ── */
-.page { max-width: var(--max-w); margin: 0 auto; padding: 60px 28px 100px; }
-
-.section-label {
-  font-size: 10.5px; font-weight: 700;
-  letter-spacing: 1.8px; text-transform: uppercase;
-  color: var(--primary-mid); margin-bottom: 6px;
-}
-.section-title {
-  font-family: 'Lora', serif;
-  font-size: clamp(20px, 3vw, 28px);
-  font-weight: 700; color: var(--ink); line-height: 1.25; margin-bottom: 10px;
-}
-.section-desc { font-size: 14.5px; color: var(--ink-lt); max-width: 600px; margin-bottom: 28px; }
-
-/* ── KELAS CARDS ── */
-.kelas-grid {
+/* ── LAYOUT ── */
+.page-wrap {
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px; margin-bottom: 56px;
+  grid-template-columns: 1fr 400px;
 }
-.kelas-card {
-  background: var(--white); border: 1.5px solid var(--sand-dk);
-  border-radius: var(--radius-lg); overflow: hidden;
-  box-shadow: var(--shadow-sm); display: flex; flex-direction: column;
-  transition: border-color 0.18s, box-shadow 0.2s, transform 0.2s;
-  animation: fadeUp 0.45s ease both;
-}
-.kelas-card:hover { border-color: var(--primary-mid); box-shadow: var(--shadow); transform: translateY(-4px); }
-.kelas-card:nth-child(1) { animation-delay: 0.05s; }
-.kelas-card:nth-child(2) { animation-delay: 0.12s; }
 
-.kelas-card-header {
-  background: var(--primary); padding: 28px 24px 24px;
+/* ── KOLOM KIRI ── */
+.col-left {
+  background: linear-gradient(160deg, var(--primary-dk) 0%, var(--primary-mid) 100%);
   position: relative; overflow: hidden;
+  padding: 52px 56px;
+  display: flex; flex-direction: column; gap: 36px;
 }
-.kelas-card-header.muted { background: var(--ink-mid); }
-.kelas-card-header::before {
-  content: ''; position: absolute; border-radius: 50%;
-  width: 160px; height: 160px; background: #fff; opacity:.05; top:-50px; right:-40px;
+.col-left::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(ellipse 60% 50% at 90% 10%, rgba(255,255,255,0.07) 0%, transparent 60%),
+              radial-gradient(ellipse 40% 60% at 10% 90%, rgba(0,0,0,0.15) 0%, transparent 60%);
+  pointer-events:none;
 }
-.kelas-card-header::after {
-  content: ''; position: absolute; border-radius: 50%;
-  width: 80px; height: 80px; background: #fff; opacity:.04; bottom:-25px; left:20px;
-}
-.kelas-num {
-  font-family: 'Lora', serif; font-size: 12px; font-weight: 700;
-  color: rgba(255,255,255,0.65); letter-spacing: 1px;
-  text-transform: uppercase; margin-bottom: 6px;
-}
-.kelas-card-header h3 {
-  font-family: 'Lora', serif; font-size: 22px; font-weight: 700;
-  color: #fff; line-height: 1.2; position: relative; z-index: 1;
-}
-.kelas-card-header h3 em { font-style: italic; color: #7dd8de; }
-.kelas-card-header.muted h3 em { color: rgba(255,255,255,0.45); }
+.deco { position:absolute; border-radius:50%; background:rgba(255,255,255,0.04); pointer-events:none; }
+.d1 { width:500px; height:500px; top:-180px; right:-140px; }
+.d2 { width:280px; height:280px; bottom:-80px; left:-60px; }
 
-.kelas-card-body { padding: 18px 22px 16px; flex: 1; }
-.kelas-card-body p { font-size: 13.5px; color: var(--ink-lt); margin-bottom: 16px; line-height: 1.6; }
-.mapel-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
-.mapel-tag {
-  font-size: 11px; font-weight: 700;
-  background: var(--sand); color: var(--ink-mid);
-  border: 1.5px solid var(--sand-dk); padding: 3px 10px; border-radius: 6px;
+/* Brand */
+.brand { position:relative; z-index:1; animation:fadeUp 0.5s ease both; }
+.brand-logo { display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+.brand-icon {
+  width:48px; height:48px; border-radius:14px;
+  background:rgba(255,255,255,0.15);
+  display:flex; align-items:center; justify-content:center; font-size:24px;
 }
-.mapel-tag.on { background: var(--primary-pal); color: var(--primary); border-color: var(--primary-lt); }
+.brand-name { font-family:'Lora',serif; font-size:20px; font-weight:700; color:#fff; }
+.brand-sub  { font-size:12px; color:rgba(255,255,255,0.5); margin-top:2px; }
 
-.kelas-card-footer {
-  padding: 14px 22px 18px; border-top: 1.5px solid var(--sand-dk);
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+.hero-headline {
+  font-family:'Lora',serif;
+  font-size:clamp(26px, 3vw, 44px); font-weight:700; color:#fff;
+  line-height:1.2; margin-bottom:14px;
 }
-.kelas-status {
-  font-size: 11.5px; font-weight: 700;
-  display: flex; align-items: center; gap: 6px;
-}
-.status-dot { width:7px; height:7px; border-radius:50%; flex-shrink: 0; }
-.status-dot.on  { background: #22c55e; }
-.status-dot.off { background: var(--sand-dk); }
-.kelas-status.aktif { color: var(--success); }
-.kelas-status.belum { color: var(--ink-lt); }
+.hero-headline em { font-style:italic; color:#7dd8de; }
+.hero-sub { font-size:15px; color:rgba(255,255,255,0.72); max-width:500px; line-height:1.7; }
 
-.btn-masuk {
-  font-family: 'Nunito', sans-serif; font-size: 13px; font-weight: 800;
-  padding: 9px 20px; border-radius: var(--radius); border: none; cursor: pointer;
-  display: inline-flex; align-items: center; gap: 6px;
-  transition: opacity 0.18s, transform 0.18s;
+/* Fitur */
+.features {
+  position:relative; z-index:1;
+  display:grid; grid-template-columns:1fr 1fr; gap:12px;
+  animation:fadeUp 0.5s 0.1s ease both;
 }
-.btn-masuk:hover { opacity:.85; transform: translateY(-1px); }
-.btn-masuk.primary { background: var(--primary); color: #fff; }
-.btn-masuk.disabled {
-  background: var(--sand-dk); color: var(--ink-lt);
-  cursor: not-allowed; pointer-events: none;
+.feature-item {
+  background:rgba(255,255,255,0.09); border:1px solid rgba(255,255,255,0.12);
+  border-radius:var(--radius-lg); padding:16px;
 }
+.fi-icon  { font-size:20px; margin-bottom:6px; }
+.fi-title { font-size:13px; font-weight:800; color:#fff; margin-bottom:3px; }
+.fi-desc  { font-size:12px; color:rgba(255,255,255,0.6); line-height:1.5; }
 
-/* ── CARA BELAJAR ── */
-.steps-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px; margin-top: 4px;
+/* Tersedia */
+.available { position:relative; z-index:1; animation:fadeUp 0.5s 0.15s ease both; }
+.section-label {
+  font-size:11px; font-weight:800; color:rgba(255,255,255,0.4);
+  text-transform:uppercase; letter-spacing:1px; margin-bottom:10px;
 }
-.step-card {
-  background: var(--white); border: 1.5px solid var(--sand-dk);
-  border-radius: var(--radius); padding: 22px 20px;
-  box-shadow: var(--shadow-sm); animation: fadeUp 0.45s ease both;
+.pills { display:flex; flex-wrap:wrap; gap:8px; }
+.pill {
+  display:inline-flex; align-items:center; gap:6px;
+  background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.18);
+  border-radius:20px; padding:5px 13px;
+  font-size:12px; font-weight:700; color:#fff;
 }
-.step-card:nth-child(1) { animation-delay: 0.05s; }
-.step-card:nth-child(2) { animation-delay: 0.10s; }
-.step-card:nth-child(3) { animation-delay: 0.15s; }
-.step-card:nth-child(4) { animation-delay: 0.20s; }
+.pill .dot { width:6px; height:6px; border-radius:50%; background:#7dd8de; flex-shrink:0; }
+
+/* Langkah */
+.steps { position:relative; z-index:1; animation:fadeUp 0.5s 0.2s ease both; }
+.steps-list { display:flex; flex-direction:column; gap:10px; }
+.step-row { display:flex; align-items:flex-start; gap:12px; }
 .step-num {
-  font-family: 'Lora', serif; font-size: 28px; font-weight: 700;
-  color: var(--primary-lt); line-height: 1; margin-bottom: 12px;
+  width:24px; height:24px; border-radius:50%; flex-shrink:0;
+  background:rgba(255,255,255,0.15);
+  display:flex; align-items:center; justify-content:center;
+  font-size:11px; font-weight:800; color:#fff;
 }
-.step-card h4 { font-size: 14.5px; font-weight: 800; color: var(--ink); margin-bottom: 6px; }
-.step-card p  { font-size: 13px; color: var(--ink-lt); line-height: 1.6; }
+.step-text { font-size:13px; color:rgba(255,255,255,0.72); line-height:1.5; }
+.step-text strong { color:#fff; }
 
-/* ── DIVIDER ── */
-.divider { border: none; border-top: 1.5px solid var(--sand-dk); margin: 52px 0; }
+/* Footer kiri */
+.left-footer {
+  position:relative; z-index:1; margin-top:auto;
+  font-size:12px; color:rgba(255,255,255,0.35);
+  border-top:1px solid rgba(255,255,255,0.1); padding-top:16px;
+  display:flex; gap:16px; flex-wrap:wrap;
+}
+.left-footer a { color:rgba(255,255,255,0.45); transition:color 0.15s; }
+.left-footer a:hover { color:rgba(255,255,255,0.8); }
 
-/* ── FOOTER ── */
-.site-footer { background: var(--ink); color: rgba(255,255,255,0.55); }
-.footer-inner {
-  max-width: var(--max-w); margin: 0 auto; padding: 48px 28px 36px;
-  display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: start;
+/* ── KOLOM KANAN ── */
+.col-right {
+  background: var(--sand);
+  display:flex; flex-direction:column;
+  align-items:stretch; justify-content:flex-start;
+  padding:28px 28px;
+  position:relative;
 }
-.footer-brand h3 {
-  font-family: 'Lora', serif; font-size: 17px; font-weight: 700;
-  color: #fff; margin-bottom: 8px;
-}
-.footer-brand p { font-size: 13px; max-width: 360px; line-height: 1.7; }
-.footer-links { display: flex; flex-direction: column; gap: 8px; text-align: right; }
-.footer-links a { font-size: 13px; color: rgba(255,255,255,0.55); transition: color 0.18s; }
-.footer-links a:hover { color: #fff; }
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.10);
-  padding: 14px 28px; max-width: var(--max-w); margin: 0 auto; width: 100%;
-  display: flex; justify-content: space-between;
-  font-size: 11.5px; flex-wrap: wrap; gap: 8px;
-}
-.footer-bottom a { color: rgba(255,255,255,0.55); }
-.footer-bottom a:hover { color: #fff; }
 
-@media (max-width: 640px) {
-  .hero { padding: 56px 20px 72px; }
-  .page { padding: 36px 18px 72px; }
-  .footer-inner { grid-template-columns: 1fr; }
-  .footer-links { text-align: left; }
-  .kelas-grid { grid-template-columns: 1fr; }
-  .steps-grid { grid-template-columns: 1fr 1fr; }
+/* Auth Card */
+.auth-card {
+  background:var(--white); border-radius:20px;
+  box-shadow:var(--shadow-lg); padding:28px 26px 24px;
+  animation:fadeUp 0.45s 0.05s ease both;
+  position:sticky; top:28px;
+}
+
+.status-bar {
+  display:none; padding:10px 13px; border-radius:9px;
+  font-size:13px; font-weight:700; margin-bottom:16px; line-height:1.4;
+}
+.status-bar.pending  { background:#fffbeb; border:1px solid #fcd34d; color:#92400e; display:block; }
+.status-bar.rejected { background:#fef2f2; border:1px solid #fca5a5; color:#991b1b; display:block; }
+
+.auth-tabs {
+  display:flex; gap:4px; margin-bottom:20px;
+  border-bottom:2px solid var(--sand-dk);
+}
+.auth-tab {
+  flex:1; padding:9px; background:none; border:none;
+  font-family:inherit; font-size:14px; font-weight:700;
+  color:var(--ink-lt); cursor:pointer;
+  border-bottom:2px solid transparent; margin-bottom:-2px;
+  transition:color 0.15s, border-color 0.15s;
+}
+.auth-tab.aktif { color:var(--primary); border-bottom-color:var(--primary); }
+.auth-tab:hover:not(.aktif) { color:var(--ink); }
+
+.form-label {
+  display:block; font-size:11px; font-weight:800;
+  color:var(--ink-mid); margin-bottom:5px;
+  text-transform:uppercase; letter-spacing:0.5px;
+}
+.form-input {
+  width:100%; padding:10px 12px;
+  border:2px solid var(--sand-dk); border-radius:var(--radius);
+  font-family:inherit; font-size:14px; color:var(--ink);
+  background:var(--sand); outline:none; margin-bottom:12px;
+  transition:border-color 0.18s, background 0.18s;
+}
+.form-input:focus { border-color:var(--primary-mid); background:var(--white); }
+
+.btn-submit {
+  width:100%; padding:12px;
+  background:var(--primary); color:#fff; border:none;
+  border-radius:var(--radius); font-family:inherit;
+  font-size:15px; font-weight:800; cursor:pointer;
+  margin-top:2px; letter-spacing:0.2px;
+  transition:background 0.18s, transform 0.12s;
+}
+.btn-submit:hover:not(:disabled) { background:var(--primary-mid); transform:translateY(-1px); }
+.btn-submit:disabled { background:#94b8bb; cursor:not-allowed; transform:none; }
+
+.form-error, .form-success {
+  display:none; margin-top:12px; padding:10px 12px;
+  border-radius:9px; font-size:13px; font-weight:600; line-height:1.4;
+}
+.form-error   { background:#fef2f2; border:1px solid #fca5a5; color:#991b1b; }
+.form-success { background:#f0fdf4; border:1px solid #86efac; color:#166534; }
+.form-error.show, .form-success.show { display:block; }
+
+.spinner {
+  display:inline-block; width:15px; height:15px;
+  border:2px solid rgba(255,255,255,0.3); border-top-color:#fff;
+  border-radius:50%; animation:spin 0.7s linear infinite; vertical-align:middle;
+}
+
+.auth-hint {
+  margin-top:18px; font-size:12px; color:var(--ink-lt);
+  text-align:center; line-height:1.6;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width:900px) {
+  .page-wrap { grid-template-columns:1fr; }
+  .col-left  { padding:36px 24px; gap:28px; }
+  .col-right { padding:24px 20px 40px; }
+  .features  { grid-template-columns:1fr 1fr; }
+  .auth-card { position:static; }
+  .d1, .d2   { display:none; }
+}
+@media (max-width:480px) {
+  .features { grid-template-columns:1fr; }
+  .col-left { padding:28px 18px; }
 }
   </style>
 </head>
 <body>
 
-  <header class="hero">
-    <div class="hero-deco d1"></div>
-    <div class="hero-deco d2"></div>
-    <div class="hero-deco d3"></div>
-    <div class="hero-inner">
-      <div class="hero-eyebrow">
-        <span class="dot"></span>Platform Belajar Mandiri · SD Kurikulum Merdeka
+<div class="page-wrap">
+
+  <!-- ════ KIRI: Info Website ════ -->
+  <div class="col-left">
+    <div class="deco d1"></div>
+    <div class="deco d2"></div>
+
+    <div class="brand">
+      <div class="brand-logo">
+        <div class="brand-icon">📚</div>
+        <div>
+          <div class="brand-name">Belajar Mandiri</div>
+          <div class="brand-sub">SD Kurikulum Merdeka · SDIT Al-Madinah Depok</div>
+        </div>
       </div>
-      <h1 class="hero-title">Belajar itu<br><em>Menyenangkan!</em></h1>
+      <h1 class="hero-headline">Belajar itu<br><em>Menyenangkan!</em></h1>
       <p class="hero-sub">
-        Materi pelajaran ringkas dan kuis latihan interaktif untuk siswa SD —
-        gratis, tanpa daftar akun, bisa diakses kapan saja.
+        Platform belajar interaktif gratis untuk siswa SD Kelas 4–6.
+        Materi pelajaran ringkas, kuis latihan seru, dan progres belajar
+        tersimpan otomatis — bisa diakses kapan saja dari HP maupun laptop.
       </p>
-      <div class="hero-tags">
-        <span class="hero-tag">📖 Materi Ringkas</span>
-        <span class="hero-tag">🎯 Kuis Interaktif</span>
-        <span class="hero-tag">✅ Gratis &amp; Tanpa Akun</span>
-        <span class="hero-tag">📱 HP &amp; Laptop</span>
-        <span class="hero-tag">🎒 Kelas 4 &amp; 5 SD</span>
+    </div>
+
+    <div class="features">
+      <div class="feature-item">
+        <div class="fi-icon">📖</div>
+        <div class="fi-title">Materi Ringkas</div>
+        <div class="fi-desc">Rangkuman setiap bab dalam bahasa yang mudah dipahami anak SD.</div>
+      </div>
+      <div class="feature-item">
+        <div class="fi-icon">🎯</div>
+        <div class="fi-title">Kuis Interaktif</div>
+        <div class="fi-desc">Soal latihan langsung terkoreksi — lihat hasil dan jawaban benar.</div>
+      </div>
+      <div class="feature-item">
+        <div class="fi-icon">📊</div>
+        <div class="fi-title">Progres Tersimpan</div>
+        <div class="fi-desc">Skor terbaik dan riwayat pengerjaan tersimpan ke akun masing-masing.</div>
+      </div>
+      <div class="feature-item">
+        <div class="fi-icon">✅</div>
+        <div class="fi-title">Gratis Sepenuhnya</div>
+        <div class="fi-desc">Tidak ada biaya, tidak ada iklan. Murni untuk mendukung belajar anak.</div>
       </div>
     </div>
-  </header>
 
-  <nav class="navbar">
-    <div class="navbar-inner">
-      <div class="nav-logo">Belajar Mandiri</div>
-      <a href="#kelas" class="nav-link">Pilih Kelas</a>
-      <a href="#cara"  class="nav-link">Cara Belajar</a>
-      <a href="https://github.com/siswacerdas/belajar-mandiri"
-         class="nav-link" target="_blank">GitHub ↗</a>
+    <div class="available">
+      <div class="section-label">Materi Tersedia Sekarang</div>
+      <div class="pills">
+        <span class="pill"><span class="dot"></span>🔬 IPAS Kelas 4 — 4 Bab</span>
+        <span class="pill"><span class="dot"></span>📝 Bhs. Indonesia Kelas 4 — 4 Bab</span>
+        <span class="pill"><span class="dot"></span>🇮🇩 PPKn Kelas 4 — 4 Bab</span>
+      </div>
+    </div>
 
-      <!-- Auth area -->
-      <div id="nav-auth">
-        <!-- Tombol Masuk (tampil saat belum login) -->
-        <button class="btn-nav-masuk" id="btn-masuk">Masuk</button>
-
-        <!-- Panel nama user (tampil saat sudah login) -->
-        <div class="nav-user" id="nav-user">
-          <span class="nav-user-nama" id="nav-user-nama">—</span>
-          <button class="btn-keluar" id="btn-keluar">Keluar</button>
+    <div class="steps">
+      <div class="section-label">Cara Memulai</div>
+      <div class="steps-list">
+        <div class="step-row">
+          <div class="step-num">1</div>
+          <div class="step-text"><strong>Orang tua mendaftar</strong> dengan nama anak, nama ortu, email, dan kata sandi.</div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">2</div>
+          <div class="step-text"><strong>Tunggu persetujuan</strong> dari admin — biasanya dalam 1×24 jam.</div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">3</div>
+          <div class="step-text"><strong>Mulai belajar!</strong> Masuk dan akses semua materi serta kuis.</div>
         </div>
       </div>
     </div>
-  </nav>
 
-  <!-- Modal Login / Daftar -->
-  <div class="modal-overlay" id="modal-login" role="dialog" aria-modal="true" aria-label="Masuk atau Daftar">
-    <div class="modal-box">
-      <button class="modal-close" id="modal-close" aria-label="Tutup">&times;</button>
-      <div class="modal-logo">📚 Belajar Mandiri</div>
-
-      <!-- Tab switcher -->
-      <div class="modal-tabs">
-        <button class="modal-tab aktif" id="tab-masuk"  data-tab="masuk">Masuk</button>
-        <button class="modal-tab"        id="tab-daftar" data-tab="daftar">Daftar</button>
-      </div>
-
-      <!-- Panel: Masuk -->
-      <div class="modal-panel" id="panel-masuk">
-        <p class="modal-subtitle">Masuk dengan akun yang didaftarkan orang tua</p>
-        <div class="form-group">
-          <label for="login-email">Email</label>
-          <input type="email" id="login-email" placeholder="contoh@email.com" autocomplete="email"/>
-        </div>
-        <div class="form-group">
-          <label for="login-password">Kata Sandi</label>
-          <input type="password" id="login-password" placeholder="••••••••" autocomplete="current-password"/>
-        </div>
-        <button class="btn-login-submit" id="btn-login-submit">Masuk</button>
-        <div class="login-error" id="login-error"></div>
-      </div>
-
-      <!-- Panel: Daftar -->
-      <div class="modal-panel" id="panel-daftar" style="display:none">
-        <p class="modal-subtitle">Daftar akun orang tua — anak bisa belajar setelah disetujui</p>
-        <div class="form-group">
-          <label for="daftar-nama-anak">Nama Anak</label>
-          <input type="text" id="daftar-nama-anak" placeholder="Nama lengkap anak"/>
-        </div>
-        <div class="form-group">
-          <label for="daftar-nama-ortu">Nama Orang Tua</label>
-          <input type="text" id="daftar-nama-ortu" placeholder="Nama lengkap orang tua"/>
-        </div>
-        <div class="form-group">
-          <label for="daftar-email">Email</label>
-          <input type="email" id="daftar-email" placeholder="contoh@email.com" autocomplete="email"/>
-        </div>
-        <div class="form-group">
-          <label for="daftar-password">Kata Sandi</label>
-          <input type="password" id="daftar-password" placeholder="Minimal 6 karakter"/>
-        </div>
-        <button class="btn-login-submit" id="btn-daftar-submit">Daftar</button>
-        <div class="login-error" id="daftar-error"></div>
-        <div class="daftar-sukses" id="daftar-sukses" style="display:none">
-          ✅ Pendaftaran berhasil! Akun sedang menunggu persetujuan admin. Kami akan menghubungi kamu setelah akun disetujui.
-        </div>
-      </div>
-
-      <p class="modal-hint">Tekan <kbd>Esc</kbd> atau klik <strong>×</strong> untuk menutup</p>
-
+    <div class="left-footer">
+      <span>© 2025 Belajar Mandiri</span>
+      <a href="https://github.com/siswacerdas/belajar-mandiri" target="_blank">GitHub ↗</a>
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
     </div>
   </div>
 
-  <main class="page">
+  <!-- ════ KANAN: Auth Card ════ -->
+  <div class="col-right">
+    <div class="auth-card" id="auth-card">
 
-    <section id="kelas">
-      <div class="section-label">Mulai dari Sini</div>
-      <h2 class="section-title">Pilih Kelas</h2>
-      <p class="section-desc">
-        Klik kelas yang sesuai untuk melihat semua mata pelajaran yang tersedia.
-      </p>
+      <div class="status-bar" id="status-bar"></div>
 
-      <div class="kelas-grid">
-
-        <!-- Kelas 4 — aktif -->
-        <div class="kelas-card">
-          <div class="kelas-card-header">
-            <div class="kelas-num">Kelas</div>
-            <h3>4 SD — <em>Tersedia</em></h3>
-          </div>
-          <div class="kelas-card-body">
-            <p>Materi dan kuis untuk siswa Kelas 4 SD. Tersedia 3 mata pelajaran dengan total 12 bab.</p>
-            <div class="mapel-tags">
-              <span class="mapel-tag on">🔬 IPAS <small>(4 bab)</small></span>
-              <span class="mapel-tag on">📝 Bhs. Indonesia <small>(4 bab)</small></span>
-              <span class="mapel-tag on">🇮🇩 PPKn <small>(4 bab)</small></span>
-              <span class="mapel-tag">🕌 Al-Islam</span>
-              <span class="mapel-tag">🔢 Matematika</span>
-              <span class="mapel-tag">🇬🇧 Bhs. Inggris</span>
-              <span class="mapel-tag">🌿 Bhs. Sunda</span>
-              <span class="mapel-tag">☀️ Kemuhammadiyahan</span>
-              <span class="mapel-tag">🌙 Bhs. Arab</span>
-            </div>
-          </div>
-          <div class="kelas-card-footer">
-            <span class="kelas-status aktif">
-              <span class="status-dot on"></span>3 Mapel Tersedia
-            </span>
-            <!-- Tombol ini dikunci JS sampai user login & approved -->
-            <button class="btn-masuk primary" id="btn-masuk-kelas4" data-href="kelas-4/index.html">
-              🔒 Masuk Kelas 4 →
-            </button>
-          </div>
-        </div>
-
-        <!-- Kelas 5 — belum -->
-        <div class="kelas-card" style="opacity:.72">
-          <div class="kelas-card-header muted">
-            <div class="kelas-num">Kelas</div>
-            <h3>5 SD — <em>Menyusul</em></h3>
-          </div>
-          <div class="kelas-card-body">
-            <p>Materi Kelas 5 akan mulai dikembangkan setelah konten Kelas 4 selesai.</p>
-            <div class="mapel-tags">
-              <span class="mapel-tag">🔬 IPAS</span>
-              <span class="mapel-tag">📝 Bhs. Indonesia</span>
-              <span class="mapel-tag">🔢 Matematika</span>
-              <span class="mapel-tag">🇬🇧 Bhs. Inggris</span>
-              <span class="mapel-tag">+ lainnya</span>
-            </div>
-          </div>
-          <div class="kelas-card-footer">
-            <span class="kelas-status belum">
-              <span class="status-dot off"></span>Belum tersedia
-            </span>
-            <span class="btn-masuk disabled">Segera Hadir</span>
-          </div>
-        </div>
-
+      <div class="auth-tabs">
+        <button class="auth-tab aktif" id="tab-masuk"  data-tab="masuk">Masuk</button>
+        <button class="auth-tab"       id="tab-daftar" data-tab="daftar">Daftar</button>
       </div>
-    </section>
 
-    <hr class="divider"/>
+      <!-- Panel: Masuk -->
+      <div id="panel-masuk">
+        <label class="form-label" for="l-email">Email</label>
+        <input class="form-input" type="email" id="l-email" placeholder="contoh@email.com" autocomplete="email"/>
 
-    <section id="cara">
-      <div class="section-label">Panduan</div>
-      <h2 class="section-title">Cara Belajar di Sini</h2>
-      <p class="section-desc">Cukup 4 langkah — login dengan akun yang didaftarkan orang tua.</p>
-      <div class="steps-grid">
-        <div class="step-card">
-          <div class="step-num">01</div>
-          <h4>Daftar &amp; Masuk</h4>
-          <p>Orang tua mendaftarkan akun. Setelah disetujui admin, siswa bisa mulai belajar.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-num">02</div>
-          <h4>Pilih Kelas &amp; Mapel</h4>
-          <p>Pilih kelasmu dan mata pelajaran yang ingin dipelajari hari ini.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-num">03</div>
-          <h4>Baca Materi</h4>
-          <p>Pelajari ringkasan materi dengan bahasa yang mudah dipahami.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-num">04</div>
-          <h4>Kerjakan Kuis</h4>
-          <p>Uji pemahamanmu dengan soal latihan dan lihat hasilnya langsung.</p>
+        <label class="form-label" for="l-pass">Kata Sandi</label>
+        <input class="form-input" type="password" id="l-pass" placeholder="••••••••" autocomplete="current-password"/>
+
+        <button class="btn-submit" id="btn-masuk">Masuk</button>
+        <div class="form-error" id="masuk-error"></div>
+      </div>
+
+      <!-- Panel: Daftar -->
+      <div id="panel-daftar" style="display:none">
+        <label class="form-label" for="d-nama-anak">Nama Anak</label>
+        <input class="form-input" type="text" id="d-nama-anak" placeholder="Nama lengkap anak"/>
+
+        <label class="form-label" for="d-nama-ortu">Nama Orang Tua</label>
+        <input class="form-input" type="text" id="d-nama-ortu" placeholder="Nama lengkap orang tua"/>
+
+        <label class="form-label" for="d-email">Email</label>
+        <input class="form-input" type="email" id="d-email" placeholder="contoh@email.com" autocomplete="email"/>
+
+        <label class="form-label" for="d-pass">Kata Sandi</label>
+        <input class="form-input" type="password" id="d-pass" placeholder="Minimal 6 karakter"/>
+
+        <button class="btn-submit" id="btn-daftar">Daftar</button>
+        <div class="form-error"   id="daftar-error"></div>
+        <div class="form-success" id="daftar-sukses">
+          ✅ Pendaftaran berhasil! Akun sedang menunggu persetujuan admin.
+          Biasanya diproses dalam 1×24 jam.
         </div>
       </div>
-    </section>
 
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <h3>Belajar Mandiri</h3>
-        <p>Platform belajar mandiri untuk siswa SD — materi ringkas, kuis interaktif, dan gratis.</p>
-      </div>
-      <div class="footer-links">
-        <a href="kelas-4/index.html">Kelas 4</a>
-        <a href="kelas-4/ipas/index.html">IPAS Kelas 4</a>
-        <a href="https://github.com/siswacerdas/belajar-mandiri" target="_blank">GitHub Repository ↗</a>
-      </div>
     </div>
-    <div class="footer-bottom">
-      <span>Belajar Mandiri · SD Kurikulum Merdeka · 2025</span>
-      <span>Lisensi <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></span>
-    </div>
-  </footer>
+    <p class="auth-hint">
+      Ingin mendaftar? Klik tab <strong>Daftar</strong> di atas.<br>
+      Untuk masuk ke panel admin: <a href="admin/">Admin Panel ↗</a>
+    </p>
+  </div>
 
+</div>
 
-  <script type="module">
-    import { login, logout, daftar, onAuthChange, getProfilUser }
-      from './assets/js/firebase.js';
+<script type="module">
+  import { login, daftar, onAuthChange } from './assets/js/firebase.js';
 
-    // ── ELEMEN ──────────────────────────────────────
-    const btnNavMasuk     = document.getElementById('btn-masuk');
-    const navUser         = document.getElementById('nav-user');
-    const navUserNama     = document.getElementById('nav-user-nama');
-    const btnKeluar       = document.getElementById('btn-keluar');
-    const modalLogin      = document.getElementById('modal-login');
-    const modalClose      = document.getElementById('modal-close');
-    const btnMasukKelas4  = document.getElementById('btn-masuk-kelas4');
+  // Cek status dari URL param (redirect dari home.html)
+  const params = new URLSearchParams(location.search);
+  const bar    = document.getElementById('status-bar');
+  if (params.get('status') === 'pending') {
+    bar.className   = 'status-bar pending';
+    bar.textContent = '⏳ Akun kamu masih menunggu persetujuan admin. Harap bersabar.';
+  } else if (params.get('status') === 'rejected') {
+    bar.className   = 'status-bar rejected';
+    bar.textContent = '❌ Pendaftaran ditolak. Hubungi admin untuk informasi lebih lanjut.';
+  }
 
-    // Tab
-    const tabMasuk        = document.getElementById('tab-masuk');
-    const tabDaftar       = document.getElementById('tab-daftar');
-    const panelMasuk      = document.getElementById('panel-masuk');
-    const panelDaftar     = document.getElementById('panel-daftar');
+  // Jika sudah login → langsung ke home.html
+  onAuthChange(user => { if (user) location.replace('./home.html'); });
 
-    // Form Masuk
-    const inputEmail      = document.getElementById('login-email');
-    const inputPassword   = document.getElementById('login-password');
-    const btnLoginSubmit  = document.getElementById('btn-login-submit');
-    const loginError      = document.getElementById('login-error');
+  // Tab
+  document.getElementById('tab-masuk').addEventListener('click',  () => gantiTab('masuk'));
+  document.getElementById('tab-daftar').addEventListener('click', () => gantiTab('daftar'));
+  function gantiTab(t) {
+    document.querySelectorAll('.auth-tab').forEach(el =>
+      el.classList.toggle('aktif', el.dataset.tab === t));
+    document.getElementById('panel-masuk').style.display  = t==='masuk'  ? '' : 'none';
+    document.getElementById('panel-daftar').style.display = t==='daftar' ? '' : 'none';
+  }
 
-    // Form Daftar
-    const inputNamaAnak   = document.getElementById('daftar-nama-anak');
-    const inputNamaOrtu   = document.getElementById('daftar-nama-ortu');
-    const inputDEmail     = document.getElementById('daftar-email');
-    const inputDPassword  = document.getElementById('daftar-password');
-    const btnDaftarSubmit = document.getElementById('btn-daftar-submit');
-    const daftarError     = document.getElementById('daftar-error');
-    const daftarSukses    = document.getElementById('daftar-sukses');
-
-    // ── TAB SWITCHER ────────────────────────────────
-    function gantiTab(tab) {
-      if (tab === 'masuk') {
-        tabMasuk.classList.add('aktif');
-        tabDaftar.classList.remove('aktif');
-        panelMasuk.style.display  = '';
-        panelDaftar.style.display = 'none';
-      } else {
-        tabDaftar.classList.add('aktif');
-        tabMasuk.classList.remove('aktif');
-        panelDaftar.style.display = '';
-        panelMasuk.style.display  = 'none';
-      }
+  // Masuk
+  const btnMasuk = document.getElementById('btn-masuk');
+  const errMasuk = document.getElementById('masuk-error');
+  async function prosesLogin() {
+    const email = document.getElementById('l-email').value.trim();
+    const pass  = document.getElementById('l-pass').value;
+    if (!email || !pass) { showErr(errMasuk, 'Email dan kata sandi wajib diisi.'); return; }
+    btnMasuk.disabled = true;
+    btnMasuk.innerHTML = '<span class="spinner"></span> Memproses…';
+    errMasuk.classList.remove('show');
+    try {
+      await login(email, pass);
+    } catch (e) {
+      showErr(errMasuk, pesan(e.code));
+      btnMasuk.disabled    = false;
+      btnMasuk.textContent = 'Masuk';
     }
-    tabMasuk.addEventListener('click',  () => gantiTab('masuk'));
-    tabDaftar.addEventListener('click', () => gantiTab('daftar'));
+  }
+  btnMasuk.addEventListener('click', prosesLogin);
+  document.getElementById('l-pass').addEventListener('keydown', e => { if(e.key==='Enter') prosesLogin(); });
 
-    // ── BUKA / TUTUP MODAL ──────────────────────────
-    function bukaModal(tabAwal = 'masuk') {
-      modalLogin.classList.add('aktif');
-      gantiTab(tabAwal);
-      loginError.classList.remove('aktif');
-      loginError.textContent = '';
-      if (tabAwal === 'masuk') inputEmail.focus();
-      else inputNamaAnak.focus();
+  // Daftar
+  const btnDaftar  = document.getElementById('btn-daftar');
+  const errDaftar  = document.getElementById('daftar-error');
+  const okDaftar   = document.getElementById('daftar-sukses');
+  async function prosesDaftar() {
+    const namaAnak = document.getElementById('d-nama-anak').value.trim();
+    const namaOrtu = document.getElementById('d-nama-ortu').value.trim();
+    const email    = document.getElementById('d-email').value.trim();
+    const pass     = document.getElementById('d-pass').value;
+    if (!namaAnak||!namaOrtu||!email||!pass) { showErr(errDaftar,'Semua kolom wajib diisi.'); return; }
+    if (pass.length < 6) { showErr(errDaftar,'Kata sandi minimal 6 karakter.'); return; }
+    btnDaftar.disabled = true;
+    btnDaftar.innerHTML = '<span class="spinner"></span> Mendaftarkan…';
+    errDaftar.classList.remove('show');
+    try {
+      await daftar(email, pass, namaAnak, namaOrtu);
+      okDaftar.classList.add('show');
+      btnDaftar.style.display = 'none';
+      ['d-nama-anak','d-nama-ortu','d-email','d-pass'].forEach(id =>
+        document.getElementById(id).value = '');
+    } catch (e) {
+      showErr(errDaftar, pesan(e.code));
+      btnDaftar.disabled    = false;
+      btnDaftar.textContent = 'Daftar';
     }
-    function tutupModal() {
-      modalLogin.classList.remove('aktif');
-      [inputEmail, inputPassword, inputNamaAnak, inputNamaOrtu,
-       inputDEmail, inputDPassword].forEach(el => el.value = '');
-      loginError.classList.remove('aktif');
-      daftarError.classList.remove('aktif');
-      daftarSukses.style.display = 'none';
-      btnDaftarSubmit.style.display = '';
-    }
+  }
+  btnDaftar.addEventListener('click', prosesDaftar);
+  document.getElementById('d-pass').addEventListener('keydown', e => { if(e.key==='Enter') prosesDaftar(); });
 
-    btnNavMasuk.addEventListener('click', () => bukaModal('masuk'));
-    modalClose.addEventListener('click', tutupModal);
-    // Klik di luar modal TIDAK menutup — harus klik tombol × atau tekan Escape
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupModal(); });
-
-    // Tombol kelas terkunci — klik saat belum login buka modal
-    btnMasukKelas4.addEventListener('click', () => {
-      const href = btnMasukKelas4.dataset.href;
-      if (href) {
-        window.location.href = href;
-      } else {
-        bukaModal('masuk');
-      }
-    });
-
-    // ── PROSES LOGIN ────────────────────────────────
-    async function prosesLogin() {
-      const email    = inputEmail.value.trim();
-      const password = inputPassword.value;
-
-      if (!email || !password) { tampilError(loginError, 'Email dan kata sandi wajib diisi.'); return; }
-
-      btnLoginSubmit.disabled    = true;
-      btnLoginSubmit.textContent = 'Memproses…';
-      loginError.classList.remove('aktif');
-
-      try {
-        await login(email, password);
-        tutupModal();
-      } catch (err) {
-        tampilError(loginError, pesanErrorAuth(err.code));
-      } finally {
-        btnLoginSubmit.disabled    = false;
-        btnLoginSubmit.textContent = 'Masuk';
-      }
-    }
-
-    btnLoginSubmit.addEventListener('click', prosesLogin);
-    inputPassword.addEventListener('keydown', e => { if (e.key === 'Enter') prosesLogin(); });
-
-    // ── PROSES DAFTAR ───────────────────────────────
-    async function prosesDaftar() {
-      const namaAnak  = inputNamaAnak.value.trim();
-      const namaOrtu  = inputNamaOrtu.value.trim();
-      const email     = inputDEmail.value.trim();
-      const password  = inputDPassword.value;
-
-      if (!namaAnak || !namaOrtu || !email || !password) {
-        tampilError(daftarError, 'Semua kolom wajib diisi.'); return;
-      }
-      if (password.length < 6) {
-        tampilError(daftarError, 'Kata sandi minimal 6 karakter.'); return;
-      }
-
-      btnDaftarSubmit.disabled    = true;
-      btnDaftarSubmit.textContent = 'Mendaftarkan…';
-      daftarError.classList.remove('aktif');
-
-      try {
-        await daftar(email, password, namaAnak, namaOrtu);
-        daftarSukses.style.display    = '';
-        btnDaftarSubmit.style.display = 'none';
-      } catch (err) {
-        tampilError(daftarError, pesanErrorAuth(err.code));
-      } finally {
-        btnDaftarSubmit.disabled    = false;
-        btnDaftarSubmit.textContent = 'Daftar';
-      }
-    }
-
-    btnDaftarSubmit.addEventListener('click', prosesDaftar);
-    inputDPassword.addEventListener('keydown', e => { if (e.key === 'Enter') prosesDaftar(); });
-
-    // ── LOGOUT ──────────────────────────────────────
-    btnKeluar.addEventListener('click', () => logout());
-
-    // ── PANTAU STATUS AUTH ──────────────────────────
-    onAuthChange(async (user) => {
-      if (user) {
-        const profil = await getProfilUser(user.uid);
-        const nama   = profil?.nama || user.email;
-
-        navUserNama.textContent = nama;
-        btnNavMasuk.style.display = 'none';
-        navUser.style.display     = 'flex';
-
-        // Buka kunci tombol kelas
-        btnMasukKelas4.textContent = 'Masuk Kelas 4 →';
-        btnMasukKelas4.dataset.href = 'kelas-4/index.html';
-        btnMasukKelas4.classList.remove('disabled');
-      } else {
-        btnNavMasuk.style.display = '';
-        navUser.style.display     = 'none';
-
-        // Kunci tombol kelas
-        btnMasukKelas4.textContent = '🔒 Masuk Kelas 4 →';
-        delete btnMasukKelas4.dataset.href;
-        btnMasukKelas4.classList.add('disabled');
-      }
-    });
-
-    // ── HELPER ──────────────────────────────────────
-    function tampilError(el, pesan) {
-      el.textContent = pesan;
-      el.classList.add('aktif');
-    }
-    function pesanErrorAuth(code) {
-      const map = {
-        'auth/invalid-email'          : 'Format email tidak valid.',
-        'auth/user-not-found'         : 'Email tidak terdaftar.',
-        'auth/wrong-password'         : 'Kata sandi salah.',
-        'auth/invalid-credential'     : 'Email atau kata sandi salah.',
-        'auth/email-already-in-use'   : 'Email sudah terdaftar. Coba masuk.',
-        'auth/weak-password'          : 'Kata sandi terlalu lemah (min. 6 karakter).',
-        'auth/too-many-requests'      : 'Terlalu banyak percobaan. Coba lagi nanti.',
-        'auth/network-request-failed' : 'Gagal terhubung. Periksa koneksi internet.',
-        'auth/pending-approval'       : '⏳ Akun sedang menunggu persetujuan admin.',
-        'auth/rejected'               : '❌ Pendaftaran ditolak. Hubungi admin.',
-        'auth/profil-tidak-ada'       : 'Profil tidak ditemukan. Hubungi admin.',
-      };
-      return map[code] || `Terjadi kesalahan (${code}). Coba lagi.`;
-    }
-  </script>
-
+  function showErr(el, msg) { el.textContent = msg; el.classList.add('show'); }
+  function pesan(code) {
+    return ({
+      'auth/invalid-credential'    : 'Email atau kata sandi salah.',
+      'auth/invalid-email'         : 'Format email tidak valid.',
+      'auth/email-already-in-use'  : 'Email sudah terdaftar. Silakan masuk.',
+      'auth/weak-password'         : 'Kata sandi terlalu lemah (min. 6 karakter).',
+      'auth/too-many-requests'     : 'Terlalu banyak percobaan. Coba lagi nanti.',
+      'auth/network-request-failed': 'Koneksi gagal. Periksa internet kamu.',
+      'auth/pending-approval'      : '⏳ Akun sedang menunggu persetujuan admin.',
+      'auth/rejected'              : '❌ Pendaftaran ditolak. Hubungi admin.',
+    })[code] || `Terjadi kesalahan (${code}).`;
+  }
+</script>
 </body>
 </html>
