@@ -112,6 +112,101 @@ a { text-decoration: none; color: inherit; }
   font-size: 12px; font-weight: 500; padding: 4px 13px; border-radius: 20px;
 }
 
+/* ── AUTH NAVBAR ── */
+#nav-auth { margin-left: auto; display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+
+.btn-nav-masuk {
+  font-size: 13px; font-weight: 700;
+  color: var(--white); background: var(--primary);
+  border: none; border-radius: 8px;
+  padding: 7px 18px; cursor: pointer;
+  transition: background 0.18s, transform 0.12s;
+}
+.btn-nav-masuk:hover { background: var(--primary-mid); transform: translateY(-1px); }
+
+.nav-user {
+  display: none; align-items: center; gap: 10px;
+}
+.nav-user-nama {
+  font-size: 13px; font-weight: 600; color: var(--primary);
+  max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.btn-keluar {
+  font-size: 12px; font-weight: 600;
+  color: var(--ink-lt); background: var(--sand);
+  border: 1.5px solid var(--sand-dk); border-radius: 7px;
+  padding: 5px 13px; cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-keluar:hover { background: #fde8e8; color: #b91c1c; border-color: #fca5a5; }
+
+/* ── MODAL LOGIN ── */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; z-index: 1000;
+  background: rgba(26,31,46,0.55); backdrop-filter: blur(3px);
+  align-items: center; justify-content: center;
+}
+.modal-overlay.aktif { display: flex; }
+
+.modal-box {
+  background: var(--white); border-radius: 16px;
+  padding: 36px 32px 32px;
+  width: 100%; max-width: 380px; margin: 16px;
+  box-shadow: 0 20px 60px rgba(26,107,114,0.18);
+  animation: fadeUp 0.25s ease both;
+}
+.modal-logo {
+  font-family: 'Lora', serif; font-size: 18px;
+  font-weight: 700; color: var(--primary);
+  margin-bottom: 4px;
+}
+.modal-subtitle {
+  font-size: 13px; color: var(--ink-lt);
+  margin-bottom: 24px;
+}
+.form-group { margin-bottom: 14px; }
+.form-group label {
+  display: block; font-size: 12px; font-weight: 700;
+  color: var(--ink-mid); margin-bottom: 5px;
+  letter-spacing: 0.4px; text-transform: uppercase;
+}
+.form-group input {
+  width: 100%; padding: 10px 13px;
+  border: 1.5px solid var(--sand-dk); border-radius: 8px;
+  font-family: inherit; font-size: 14px; color: var(--ink);
+  background: var(--sand); outline: none;
+  transition: border-color 0.18s, background 0.18s;
+}
+.form-group input:focus {
+  border-color: var(--primary-mid); background: var(--white);
+}
+.btn-login-submit {
+  width: 100%; padding: 11px;
+  background: var(--primary); color: #fff;
+  border: none; border-radius: 9px;
+  font-family: inherit; font-size: 15px; font-weight: 700;
+  cursor: pointer; margin-top: 6px;
+  transition: background 0.18s;
+}
+.btn-login-submit:hover { background: var(--primary-mid); }
+.btn-login-submit:disabled { background: #94b8bb; cursor: not-allowed; }
+
+.login-error {
+  display: none; margin-top: 12px;
+  background: #fef2f2; border: 1px solid #fca5a5;
+  color: #b91c1c; font-size: 13px; font-weight: 600;
+  border-radius: 8px; padding: 9px 12px;
+}
+.login-error.aktif { display: block; }
+
+.modal-close {
+  position: absolute; top: 14px; right: 16px;
+  background: none; border: none; cursor: pointer;
+  font-size: 20px; color: var(--ink-lt); line-height: 1;
+}
+.modal-close:hover { color: var(--ink); }
+.modal-box { position: relative; }
+
 /* ── NAVBAR ── */
 .navbar {
   background: var(--white); box-shadow: var(--shadow-sm);
@@ -319,8 +414,41 @@ a { text-decoration: none; color: inherit; }
       <a href="#cara"  class="nav-link">Cara Belajar</a>
       <a href="https://github.com/siswacerdas/belajar-mandiri"
          class="nav-link" target="_blank">GitHub ↗</a>
+
+      <!-- Auth area -->
+      <div id="nav-auth">
+        <!-- Tombol Masuk (tampil saat belum login) -->
+        <button class="btn-nav-masuk" id="btn-masuk">Masuk</button>
+
+        <!-- Panel nama user (tampil saat sudah login) -->
+        <div class="nav-user" id="nav-user">
+          <span class="nav-user-nama" id="nav-user-nama">—</span>
+          <button class="btn-keluar" id="btn-keluar">Keluar</button>
+        </div>
+      </div>
     </div>
   </nav>
+
+  <!-- Modal Login -->
+  <div class="modal-overlay" id="modal-login" role="dialog" aria-modal="true" aria-label="Form Masuk">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Tutup">&times;</button>
+      <div class="modal-logo">📚 Belajar Mandiri</div>
+      <p class="modal-subtitle">Masuk dengan akun yang dibuat orang tua</p>
+
+      <div class="form-group">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" placeholder="contoh@email.com" autocomplete="email"/>
+      </div>
+      <div class="form-group">
+        <label for="login-password">Kata Sandi</label>
+        <input type="password" id="login-password" placeholder="••••••••" autocomplete="current-password"/>
+      </div>
+
+      <button class="btn-login-submit" id="btn-login-submit">Masuk</button>
+      <div class="login-error" id="login-error"></div>
+    </div>
+  </div>
 
   <main class="page">
 
@@ -437,6 +565,107 @@ a { text-decoration: none; color: inherit; }
       <span>Lisensi <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></span>
     </div>
   </footer>
+
+
+  <script type="module">
+    import { login, logout, onAuthChange, getProfilUser } from './assets/js/firebase.js';
+
+    // ── ELEMEN ─────────────────────────────────────
+    const btnMasuk        = document.getElementById('btn-masuk');
+    const navUser         = document.getElementById('nav-user');
+    const navUserNama     = document.getElementById('nav-user-nama');
+    const btnKeluar       = document.getElementById('btn-keluar');
+    const modalLogin      = document.getElementById('modal-login');
+    const modalClose      = document.getElementById('modal-close');
+    const inputEmail      = document.getElementById('login-email');
+    const inputPassword   = document.getElementById('login-password');
+    const btnLoginSubmit  = document.getElementById('btn-login-submit');
+    const loginError      = document.getElementById('login-error');
+
+    // ── BUKA / TUTUP MODAL ──────────────────────────
+    function bukaModal() {
+      modalLogin.classList.add('aktif');
+      inputEmail.focus();
+      loginError.classList.remove('aktif');
+      loginError.textContent = '';
+    }
+    function tutupModal() {
+      modalLogin.classList.remove('aktif');
+      inputEmail.value = '';
+      inputPassword.value = '';
+      loginError.classList.remove('aktif');
+    }
+
+    btnMasuk.addEventListener('click', bukaModal);
+    modalClose.addEventListener('click', tutupModal);
+    modalLogin.addEventListener('click', e => { if (e.target === modalLogin) tutupModal(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupModal(); });
+
+    // ── PROSES LOGIN ────────────────────────────────
+    async function prosesLogin() {
+      const email    = inputEmail.value.trim();
+      const password = inputPassword.value;
+
+      if (!email || !password) {
+        tampilError('Email dan kata sandi wajib diisi.');
+        return;
+      }
+
+      btnLoginSubmit.disabled    = true;
+      btnLoginSubmit.textContent = 'Memproses…';
+      loginError.classList.remove('aktif');
+
+      try {
+        await login(email, password);
+        tutupModal();
+      } catch (err) {
+        const pesan = pesanError(err.code);
+        tampilError(pesan);
+      } finally {
+        btnLoginSubmit.disabled    = false;
+        btnLoginSubmit.textContent = 'Masuk';
+      }
+    }
+
+    btnLoginSubmit.addEventListener('click', prosesLogin);
+    inputPassword.addEventListener('keydown', e => { if (e.key === 'Enter') prosesLogin(); });
+
+    // ── LOGOUT ──────────────────────────────────────
+    btnKeluar.addEventListener('click', () => logout());
+
+    // ── PANTAU STATUS AUTH ──────────────────────────
+    onAuthChange(async (user) => {
+      if (user) {
+        // Ambil nama dari Firestore (kalau ada)
+        const profil = await getProfilUser(user.uid);
+        const nama   = profil?.nama || user.email;
+
+        navUserNama.textContent = nama;
+        btnMasuk.style.display  = 'none';
+        navUser.style.display   = 'flex';
+      } else {
+        btnMasuk.style.display  = '';
+        navUser.style.display   = 'none';
+      }
+    });
+
+    // ── HELPER: pesan error ramah ───────────────────
+    function tampilError(pesan) {
+      loginError.textContent = pesan;
+      loginError.classList.add('aktif');
+    }
+    function pesanError(code) {
+      const map = {
+        'auth/invalid-email'           : 'Format email tidak valid.',
+        'auth/user-not-found'          : 'Email tidak ditemukan.',
+        'auth/wrong-password'          : 'Kata sandi salah.',
+        'auth/invalid-credential'      : 'Email atau kata sandi salah.',
+        'auth/too-many-requests'       : 'Terlalu banyak percobaan. Coba lagi nanti.',
+        'auth/network-request-failed'  : 'Gagal terhubung. Periksa koneksi internet.',
+      };
+      return map[code] || `Terjadi kesalahan (${code}). Coba lagi.`;
+    }
+  </script>
 
 </body>
 </html>

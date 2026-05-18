@@ -1,5 +1,25 @@
 # Changelog — Belajar Mandiri
 
+## [Sesi 03] — 2026-05-18
+### UI Login — Navbar Auth + Modal Form
+
+#### Yang Dilakukan
+- Tambah tombol **Masuk** di navbar `index.html` (class `btn-nav-masuk`, id `btn-masuk`)
+- Tambah HTML **modal login** (overlay + form email/password) di `index.html`
+- Tambah CSS untuk: `btn-nav-masuk`, `nav-user`, `btn-keluar`, `modal-overlay`, `modal-box`, `form-group`, `btn-login-submit`, `login-error`
+- Tambah `<script type="module">` di akhir `index.html` yang:
+  - Import `login`, `logout`, `onAuthChange`, `getProfilUser` dari `assets/js/firebase.js`
+  - Buka/tutup modal dengan klik tombol, klik overlay, atau tekan `Escape`
+  - Proses login async + tampilkan pesan error yang ramah
+  - Pantau status auth dengan `onAuthChange`: tampilkan nama user atau tombol Masuk
+  - Enter di field password memicu proses login
+
+#### Hasil
+- User yang sudah login: nama tampil di navbar + tombol Keluar
+- User belum login: tombol Masuk tampil di navbar
+- Modal login bisa dibuka/ditutup dengan mulus
+- Pesan error dalam Bahasa Indonesia untuk semua kasus umum Firebase Auth
+
 ## [Sesi 02] — 2026-05-18
 ### Setup Firebase
 

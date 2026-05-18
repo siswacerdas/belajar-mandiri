@@ -34,3 +34,17 @@
 - Region Firestore: `asia-southeast1`
 - Metode login: Email/Password
 - Auth domain: `belajar-mandiri-5aa3f.firebaseapp.com`
+## Sesi 03 — UI Login
+
+### Jangan Lakukan Ini
+- ❌ Jangan rename atau hapus `id="btn-masuk"`, `id="nav-user"`, `id="modal-login"`
+  → Script module di `index.html` bergantung pada ID ini
+- ❌ Jangan ubah nama class `btn-nav-masuk` tanpa update CSS-nya
+  → `btn-masuk` sudah dipakai sebagai class tombol generik di halaman — kelasnya berbeda
+- ❌ Jangan hapus `<script type="module">` di akhir `index.html`
+  → Auth listener akan berhenti, tombol Masuk/Keluar tidak akan berfungsi
+
+### Informasi Penting
+- `firebase.js` di-import sebagai ES Module — `index.html` harus dibuka via server (live server), bukan `file://`
+- Modal login bisa ditutup dengan: klik tombol ×, klik overlay gelap, atau tekan `Escape`
+- Pesan error login ditampilkan di dalam `.login-error` dalam Bahasa Indonesia
