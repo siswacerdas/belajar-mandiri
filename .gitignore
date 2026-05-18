@@ -1,0 +1,7 @@
+# File setup sekali pakai — jangan di-push ke GitHub
+admin/setup-admin.html
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
