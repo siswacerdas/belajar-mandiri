@@ -143,7 +143,7 @@ a { text-decoration: none; color: inherit; }
 /* ── MODAL LOGIN ── */
 .modal-overlay {
   display: none; position: fixed; inset: 0; z-index: 1000;
-  background: rgba(26,31,46,0.55); backdrop-filter: blur(3px);
+  background: rgba(26,31,46,0.72); backdrop-filter: blur(4px);
   align-items: center; justify-content: center;
 }
 .modal-overlay.aktif { display: flex; }
@@ -220,6 +220,16 @@ a { text-decoration: none; color: inherit; }
   border-radius: 8px; padding: 9px 12px;
 }
 .login-error.aktif { display: block; }
+
+.modal-hint {
+  text-align: center; font-size: 11px; color: var(--ink-lt);
+  margin-top: 14px;
+}
+.modal-hint kbd {
+  background: var(--sand); border: 1px solid var(--sand-dk);
+  border-radius: 4px; padding: 1px 5px; font-size: 11px;
+  font-family: inherit;
+}
 
 .modal-close {
   position: absolute; top: 14px; right: 16px;
@@ -504,6 +514,8 @@ a { text-decoration: none; color: inherit; }
         </div>
       </div>
 
+      <p class="modal-hint">Tekan <kbd>Esc</kbd> atau klik <strong>×</strong> untuk menutup</p>
+
     </div>
   </div>
 
@@ -699,7 +711,7 @@ a { text-decoration: none; color: inherit; }
 
     btnNavMasuk.addEventListener('click', () => bukaModal('masuk'));
     modalClose.addEventListener('click', tutupModal);
-    modalLogin.addEventListener('click', e => { if (e.target === modalLogin) tutupModal(); });
+    // Klik di luar modal TIDAK menutup — harus klik tombol × atau tekan Escape
     document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupModal(); });
 
     // Tombol kelas terkunci — klik saat belum login buka modal
