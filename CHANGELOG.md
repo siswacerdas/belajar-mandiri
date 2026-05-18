@@ -1,5 +1,20 @@
 # Changelog — Belajar Mandiri
 
+## [Sesi 02] — 2026-05-18
+### Setup Firebase
+
+#### Yang Dilakukan
+- Buat project Firebase: `belajar-mandiri-5aa3f`
+- Aktifkan Authentication metode Email/Password
+- Buat Firestore Database di region `asia-southeast1`
+- Buat file `assets/js/firebase.js` (auth + firestore functions)
+- Amankan Firestore Rules (user hanya bisa akses data dirinya sendiri)
+- Daftarkan domain `siswacerdas.github.io` di Authorized Domains
+
+#### Hasil
+- Firebase siap digunakan untuk login dan menyimpan progres siswa
+- Firestore terlindungi — tidak bisa diakses tanpa login
+
 ## [Sesi 01] — 2026-05-18
 ### Setup Git Multi-Akun & Konfigurasi Repository
 

@@ -18,3 +18,19 @@
 5. Clone ulang repo via SSH alias
 6. Set ulang `git config --local` di masing-masing repo
 7. Buka VS Code → Add Folder to Workspace untuk kedua repo
+
+## Sesi 02 — Setup Firebase
+
+### Jangan Lakukan Ini
+- ❌ Jangan share file `firebase.js` yang berisi `apiKey` ke publik via repo publik
+  → Segera pindahkan ke environment variable sebelum repo dijadikan public
+- ❌ Jangan ubah Firestore Rules kembali ke test mode setelah production
+  → Data semua user bisa dibaca siapapun
+- ❌ Jangan hapus domain `siswacerdas.github.io` dari Authorized Domains
+  → Login dari GitHub Pages akan gagal
+
+### Informasi Penting
+- Project ID: `belajar-mandiri-5aa3f`
+- Region Firestore: `asia-southeast1`
+- Metode login: Email/Password
+- Auth domain: `belajar-mandiri-5aa3f.firebaseapp.com`
