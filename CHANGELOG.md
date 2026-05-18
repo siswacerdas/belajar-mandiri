@@ -1,5 +1,41 @@
 # Changelog — Belajar Mandiri
 
+## [Sesi 04] — 2026-05-18
+### Sistem Auth Lengkap — Approval Flow + Panel Admin
+
+#### Perubahan `assets/js/firebase.js`
+- Import `createUserWithEmailAndPassword`, `getDocs`, `query`, `where`, `updateDoc`
+- `login()` — tambah cek approval: jika `status: pending` atau `rejected` → auto logout + error spesifik
+- `loginAdmin()` — login khusus admin, wajib `role: 'admin'`
+- `daftar()` — buat akun + simpan ke Firestore `users/{uid}` dengan `status: pending`, lalu auto logout
+- `getPendingUsers()` → query users dengan status pending
+- `getAllUsers()` → query semua user dengan role 'user'
+- `approveUser(uid)` / `rejectUser(uid)` → update status di Firestore
+
+#### Perubahan `index.html`
+- Tombol "Masuk Kelas 4" diubah jadi `<button>` — dikunci (🔒) saat belum login, dibuka setelah login approved
+- Modal diperluas dengan tab **Masuk** / **Daftar**
+- Form Daftar: nama anak, nama orang tua, email, kata sandi
+- Setelah daftar berhasil: tampil pesan sukses, form disembunyikan
+- Teks "tidak perlu daftar, tidak perlu login" dihapus dari seluruh halaman
+- Info mapel Kelas 4 diupdate: IPAS ✅, Bhs. Indonesia ✅, PPKn ✅ (masing-masing 4 bab)
+- Section "Cara Belajar" diupdate: langkah pertama adalah Daftar & Masuk
+
+#### File Baru `admin/index.html`
+- Login terpisah untuk admin (via `loginAdmin()`)
+- Dashboard statistik: pending / approved / rejected / total
+- Tabel user dengan tab filter (Menunggu / Disetujui / Ditolak / Semua)
+- Tombol Setujui / Tolak per user dengan konfirmasi
+- Toast notifikasi untuk feedback aksi
+- Redirect otomatis jika bukan admin
+
+#### File Baru `firestore.rules`
+- User hanya bisa baca data dirinya sendiri
+- `create` hanya diizinkan dengan `status: pending` dan `role: user`
+- `update` dan `delete` hanya oleh admin
+- Admin bisa `list` (query) seluruh koleksi users
+- Progress kuis hanya bisa diakses user yang sudah `approved`
+
 ## [Sesi 03] — 2026-05-18
 ### UI Login — Navbar Auth + Modal Form
 

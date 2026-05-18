@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin — Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary:     #1a6b72;
+      --primary-mid: #2a8f99;
+      --primary-lt:  #d0edef;
+      --sand:        #f5f2eb;
+      --sand-dk:     #e2ddd2;
+      --ink:         #1a1e2e;
+      --ink-mid:     #4a5068;
+      --ink-lt:      #8a91a8;
+      --white:       #ffffff;
+      --success:     #16a34a;
+      --danger:      #dc2626;
+      --warn:        #d97706;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--sand); color: var(--ink);
+      min-height: 100vh;
+    }
+
+    /* ── LOGIN SCREEN ── */
+    #login-screen {
+      min-height: 100vh; display: flex;
+      align-items: center; justify-content: center;
+      padding: 24px;
+    }
+    .login-card {
+      background: var(--white); border-radius: 16px;
+      padding: 40px 36px; width: 100%; max-width: 380px;
+      box-shadow: 0 8px 40px rgba(26,107,114,0.14);
+    }
+    .login-logo { font-size: 24px; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
+    .login-sub  { font-size: 13px; color: var(--ink-lt); margin-bottom: 28px; }
+
+    .form-group { margin-bottom: 14px; }
+    .form-group label {
+      display: block; font-size: 12px; font-weight: 700;
+      color: var(--ink-mid); margin-bottom: 5px;
+      text-transform: uppercase; letter-spacing: 0.4px;
+    }
+    .form-group input {
+      width: 100%; padding: 10px 13px;
+      border: 1.5px solid var(--sand-dk); border-radius: 8px;
+      font-family: inherit; font-size: 14px; color: var(--ink);
+      background: var(--sand); outline: none;
+      transition: border-color 0.18s;
+    }
+    .form-group input:focus { border-color: var(--primary-mid); background: var(--white); }
+
+    .btn-primary {
+      width: 100%; padding: 11px;
+      background: var(--primary); color: #fff;
+      border: none; border-radius: 9px;
+      font-family: inherit; font-size: 15px; font-weight: 700;
+      cursor: pointer; transition: background 0.18s;
+    }
+    .btn-primary:hover { background: var(--primary-mid); }
+    .btn-primary:disabled { background: #94b8bb; cursor: not-allowed; }
+
+    .error-box {
+      display: none; margin-top: 12px;
+      background: #fef2f2; border: 1px solid #fca5a5;
+      color: #b91c1c; font-size: 13px; font-weight: 600;
+      border-radius: 8px; padding: 9px 12px;
+    }
+    .error-box.aktif { display: block; }
+
+    /* ── ADMIN DASHBOARD ── */
+    #admin-screen { display: none; }
+
+    .admin-nav {
+      background: var(--primary); padding: 0 24px;
+      display: flex; align-items: center; gap: 16px;
+      height: 56px;
+    }
+    .admin-nav-brand {
+      font-size: 16px; font-weight: 800; color: #fff;
+      margin-right: auto;
+    }
+    .admin-nav-user {
+      font-size: 13px; color: rgba(255,255,255,0.75); font-weight: 600;
+    }
+    .btn-logout {
+      font-size: 12px; font-weight: 700;
+      background: rgba(255,255,255,0.15); color: #fff;
+      border: 1px solid rgba(255,255,255,0.3); border-radius: 7px;
+      padding: 5px 14px; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-logout:hover { background: rgba(255,255,255,0.25); }
+
+    .admin-body { padding: 28px 24px; max-width: 900px; margin: 0 auto; }
+
+    /* Stats row */
+    .stats-row { display: flex; gap: 14px; margin-bottom: 28px; flex-wrap: wrap; }
+    .stat-card {
+      background: var(--white); border-radius: 12px;
+      padding: 16px 20px; flex: 1; min-width: 130px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .stat-label { font-size: 11px; font-weight: 700; color: var(--ink-lt); text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-value { font-size: 28px; font-weight: 800; color: var(--ink); margin-top: 4px; }
+    .stat-value.warn   { color: var(--warn); }
+    .stat-value.ok     { color: var(--success); }
+    .stat-value.danger { color: var(--danger); }
+
+    /* Tabs */
+    .section-tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid var(--sand-dk); }
+    .section-tab {
+      padding: 9px 18px; background: none; border: none;
+      font-family: inherit; font-size: 14px; font-weight: 700;
+      color: var(--ink-lt); cursor: pointer;
+      border-bottom: 2px solid transparent; margin-bottom: -2px;
+      transition: color 0.15s;
+    }
+    .section-tab.aktif { color: var(--primary); border-bottom-color: var(--primary); }
+
+    /* Table */
+    .user-table {
+      width: 100%; border-collapse: collapse;
+      background: var(--white); border-radius: 12px;
+      overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      font-size: 14px;
+    }
+    .user-table th {
+      background: var(--primary); color: #fff;
+      padding: 11px 14px; text-align: left;
+      font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px;
+    }
+    .user-table td { padding: 12px 14px; border-bottom: 1px solid var(--sand-dk); vertical-align: middle; }
+    .user-table tr:last-child td { border-bottom: none; }
+    .user-table tr:hover td { background: var(--sand); }
+
+    .badge {
+      display: inline-block; font-size: 11px; font-weight: 700;
+      padding: 3px 9px; border-radius: 20px;
+    }
+    .badge-pending  { background: #fef3c7; color: #92400e; }
+    .badge-approved { background: #dcfce7; color: #166534; }
+    .badge-rejected { background: #fee2e2; color: #991b1b; }
+
+    .action-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-approve {
+      font-size: 12px; font-weight: 700; padding: 5px 12px;
+      background: #dcfce7; color: #166534;
+      border: 1.5px solid #86efac; border-radius: 6px; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-approve:hover { background: #bbf7d0; }
+    .btn-reject {
+      font-size: 12px; font-weight: 700; padding: 5px 12px;
+      background: #fee2e2; color: #991b1b;
+      border: 1.5px solid #fca5a5; border-radius: 6px; cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-reject:hover { background: #fecaca; }
+
+    .empty-state {
+      text-align: center; padding: 40px 20px;
+      color: var(--ink-lt); font-size: 15px;
+      background: var(--white); border-radius: 12px;
+    }
+    .empty-state .icon { font-size: 36px; margin-bottom: 10px; }
+
+    .loading {
+      text-align: center; padding: 30px;
+      color: var(--ink-lt); font-size: 14px;
+    }
+
+    .toast {
+      position: fixed; bottom: 24px; right: 24px; z-index: 999;
+      background: var(--ink); color: #fff;
+      padding: 11px 18px; border-radius: 9px;
+      font-size: 14px; font-weight: 600;
+      opacity: 0; transform: translateY(12px);
+      transition: opacity 0.2s, transform 0.2s;
+      pointer-events: none;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 600px) {
+      .admin-body { padding: 16px; }
+      .user-table th:nth-child(3),
+      .user-table td:nth-child(3) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── LOGIN SCREEN ── -->
+  <div id="login-screen">
+    <div class="login-card">
+      <div class="login-logo">🔐 Admin Panel</div>
+      <p class="login-sub">Belajar Mandiri — Akses khusus admin</p>
+
+      <div class="form-group">
+        <label for="admin-email">Email Admin</label>
+        <input type="email" id="admin-email" placeholder="admin@email.com" autocomplete="email"/>
+      </div>
+      <div class="form-group">
+        <label for="admin-password">Kata Sandi</label>
+        <input type="password" id="admin-password" placeholder="••••••••"/>
+      </div>
+      <button class="btn-primary" id="btn-admin-login">Masuk</button>
+      <div class="error-box" id="admin-login-error"></div>
+    </div>
+  </div>
+
+  <!-- ── ADMIN DASHBOARD ── -->
+  <div id="admin-screen">
+    <nav class="admin-nav">
+      <div class="admin-nav-brand">📚 Belajar Mandiri — Admin</div>
+      <span class="admin-nav-user" id="admin-user-label">—</span>
+      <button class="btn-logout" id="btn-admin-logout">Keluar</button>
+    </nav>
+
+    <div class="admin-body">
+
+      <!-- Statistik -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-label">Menunggu</div>
+          <div class="stat-value warn" id="stat-pending">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Disetujui</div>
+          <div class="stat-value ok" id="stat-approved">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Ditolak</div>
+          <div class="stat-value danger" id="stat-rejected">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Total User</div>
+          <div class="stat-value" id="stat-total">—</div>
+        </div>
+      </div>
+
+      <!-- Tab filter -->
+      <div class="section-tabs">
+        <button class="section-tab aktif" data-filter="pending">⏳ Menunggu</button>
+        <button class="section-tab"       data-filter="approved">✅ Disetujui</button>
+        <button class="section-tab"       data-filter="rejected">❌ Ditolak</button>
+        <button class="section-tab"       data-filter="all">Semua</button>
+      </div>
+
+      <!-- Tabel user -->
+      <div id="user-table-wrap">
+        <div class="loading">Memuat data…</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast notifikasi -->
+  <div class="toast" id="toast"></div>
+
+  <script type="module">
+    import { loginAdmin, logout, onAuthChange, getProfilUser,
+             getAllUsers, approveUser, rejectUser }
+      from '../assets/js/firebase.js';
+
+    // ── ELEMEN ──────────────────────────────────────
+    const loginScreen     = document.getElementById('login-screen');
+    const adminScreen     = document.getElementById('admin-screen');
+    const inputEmail      = document.getElementById('admin-email');
+    const inputPassword   = document.getElementById('admin-password');
+    const btnLogin        = document.getElementById('btn-admin-login');
+    const loginError      = document.getElementById('admin-login-error');
+    const btnLogout       = document.getElementById('btn-admin-logout');
+    const adminUserLabel  = document.getElementById('admin-user-label');
+    const tableWrap       = document.getElementById('user-table-wrap');
+    const toastEl         = document.getElementById('toast');
+
+    let allUsers   = [];
+    let filterAktif = 'pending';
+
+    // ── LOGIN ────────────────────────────────────────
+    async function prosesLogin() {
+      const email    = inputEmail.value.trim();
+      const password = inputPassword.value;
+      if (!email || !password) { tampilError('Email dan kata sandi wajib diisi.'); return; }
+
+      btnLogin.disabled    = true;
+      btnLogin.textContent = 'Memproses…';
+      loginError.classList.remove('aktif');
+
+      try {
+        await loginAdmin(email, password);
+      } catch (err) {
+        tampilError(pesanError(err.code));
+      } finally {
+        btnLogin.disabled    = false;
+        btnLogin.textContent = 'Masuk';
+      }
+    }
+
+    btnLogin.addEventListener('click', prosesLogin);
+    inputPassword.addEventListener('keydown', e => { if (e.key === 'Enter') prosesLogin(); });
+    btnLogout.addEventListener('click', () => logout());
+
+    // ── AUTH STATE ───────────────────────────────────
+    onAuthChange(async (user) => {
+      if (user) {
+        const profil = await getProfilUser(user.uid);
+        if (!profil || profil.role !== 'admin') { await logout(); return; }
+
+        adminUserLabel.textContent = profil.nama || user.email;
+        loginScreen.style.display  = 'none';
+        adminScreen.style.display  = '';
+        await muatSemuaUser();
+      } else {
+        loginScreen.style.display  = '';
+        adminScreen.style.display  = 'none';
+      }
+    });
+
+    // ── MUAT SEMUA USER ──────────────────────────────
+    async function muatSemuaUser() {
+      tableWrap.innerHTML = '<div class="loading">Memuat data…</div>';
+      try {
+        allUsers = await getAllUsers();
+        updateStats();
+        renderTabel(filterAktif);
+      } catch (err) {
+        tableWrap.innerHTML = `<div class="empty-state"><div class="icon">⚠️</div>Gagal memuat data: ${err.message}</div>`;
+      }
+    }
+
+    // ── STATISTIK ────────────────────────────────────
+    function updateStats() {
+      const pending  = allUsers.filter(u => u.status === 'pending').length;
+      const approved = allUsers.filter(u => u.status === 'approved').length;
+      const rejected = allUsers.filter(u => u.status === 'rejected').length;
+
+      document.getElementById('stat-pending').textContent  = pending;
+      document.getElementById('stat-approved').textContent = approved;
+      document.getElementById('stat-rejected').textContent = rejected;
+      document.getElementById('stat-total').textContent    = allUsers.length;
+    }
+
+    // ── RENDER TABEL ─────────────────────────────────
+    function renderTabel(filter) {
+      filterAktif = filter;
+      const data = filter === 'all'
+        ? allUsers
+        : allUsers.filter(u => u.status === filter);
+
+      if (data.length === 0) {
+        const label = { pending:'menunggu', approved:'disetujui', rejected:'ditolak', all:'terdaftar' }[filter];
+        tableWrap.innerHTML = `<div class="empty-state"><div class="icon">📭</div>Tidak ada user ${label}.</div>`;
+        return;
+      }
+
+      const rows = data.map(u => {
+        const tgl = u.bergabung?.toDate
+          ? u.bergabung.toDate().toLocaleDateString('id-ID', { day:'2-digit', month:'short', year:'numeric' })
+          : '—';
+
+        const badge = {
+          pending:  '<span class="badge badge-pending">⏳ Menunggu</span>',
+          approved: '<span class="badge badge-approved">✅ Disetujui</span>',
+          rejected: '<span class="badge badge-rejected">❌ Ditolak</span>',
+        }[u.status] || '';
+
+        const actions = u.status === 'pending' ? `
+          <div class="action-btns">
+            <button class="btn-approve" data-uid="${u.id}">✅ Setujui</button>
+            <button class="btn-reject"  data-uid="${u.id}">❌ Tolak</button>
+          </div>` :
+          u.status === 'approved' ? `
+          <div class="action-btns">
+            <button class="btn-reject" data-uid="${u.id}">❌ Tolak</button>
+          </div>` :
+          `<div class="action-btns">
+            <button class="btn-approve" data-uid="${u.id}">✅ Setujui</button>
+          </div>`;
+
+        return `
+          <tr>
+            <td><strong>${escHtml(u.nama || '—')}</strong><br><small style="color:var(--ink-lt)">${escHtml(u.namaOrtu || '—')}</small></td>
+            <td>${escHtml(u.email || '—')}</td>
+            <td>${tgl}</td>
+            <td>${badge}</td>
+            <td>${actions}</td>
+          </tr>`;
+      }).join('');
+
+      tableWrap.innerHTML = `
+        <table class="user-table">
+          <thead>
+            <tr>
+              <th>Nama Anak / Orang Tua</th>
+              <th>Email</th>
+              <th>Daftar</th>
+              <th>Status</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+
+      // Event delegation untuk tombol approve/reject
+      tableWrap.querySelectorAll('.btn-approve').forEach(btn => {
+        btn.addEventListener('click', () => handleApprove(btn.dataset.uid));
+      });
+      tableWrap.querySelectorAll('.btn-reject').forEach(btn => {
+        btn.addEventListener('click', () => handleReject(btn.dataset.uid));
+      });
+    }
+
+    // ── APPROVE / REJECT ─────────────────────────────
+    async function handleApprove(uid) {
+      try {
+        await approveUser(uid);
+        const u = allUsers.find(x => x.id === uid);
+        if (u) u.status = 'approved';
+        updateStats();
+        renderTabel(filterAktif);
+        tampilToast(`✅ ${allUsers.find(x=>x.id===uid)?.nama || 'User'} disetujui`);
+      } catch (err) {
+        tampilToast('⚠️ Gagal: ' + err.message);
+      }
+    }
+
+    async function handleReject(uid) {
+      if (!confirm('Yakin ingin menolak pendaftaran ini?')) return;
+      try {
+        await rejectUser(uid);
+        const u = allUsers.find(x => x.id === uid);
+        if (u) u.status = 'rejected';
+        updateStats();
+        renderTabel(filterAktif);
+        tampilToast(`❌ Pendaftaran ditolak`);
+      } catch (err) {
+        tampilToast('⚠️ Gagal: ' + err.message);
+      }
+    }
+
+    // ── TAB FILTER ───────────────────────────────────
+    document.querySelectorAll('.section-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.section-tab').forEach(t => t.classList.remove('aktif'));
+        tab.classList.add('aktif');
+        renderTabel(tab.dataset.filter);
+      });
+    });
+
+    // ── HELPER ───────────────────────────────────────
+    function tampilError(pesan) {
+      loginError.textContent = pesan;
+      loginError.classList.add('aktif');
+    }
+    function pesanError(code) {
+      const map = {
+        'auth/invalid-credential' : 'Email atau kata sandi salah.',
+        'auth/bukan-admin'        : 'Akun ini bukan akun admin.',
+        'auth/too-many-requests'  : 'Terlalu banyak percobaan. Coba lagi nanti.',
+      };
+      return map[code] || `Login gagal (${code}).`;
+    }
+    function tampilToast(pesan) {
+      toastEl.textContent = pesan;
+      toastEl.classList.add('show');
+      setTimeout(() => toastEl.classList.remove('show'), 3000);
+    }
+    function escHtml(str) {
+      return String(str).replace(/[&<>"']/g, c =>
+        ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+  </script>
+</body>
+</html>

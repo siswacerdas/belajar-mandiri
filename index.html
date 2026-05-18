@@ -191,6 +191,28 @@ a { text-decoration: none; color: inherit; }
 .btn-login-submit:hover { background: var(--primary-mid); }
 .btn-login-submit:disabled { background: #94b8bb; cursor: not-allowed; }
 
+.modal-tabs {
+  display: flex; gap: 4px; margin-bottom: 18px;
+  border-bottom: 2px solid var(--sand-dk); padding-bottom: 0;
+}
+.modal-tab {
+  flex: 1; padding: 9px; background: none; border: none;
+  font-family: inherit; font-size: 14px; font-weight: 700;
+  color: var(--ink-lt); cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.modal-tab.aktif { color: var(--primary); border-bottom-color: var(--primary); }
+.modal-tab:hover:not(.aktif) { color: var(--ink); }
+
+.daftar-sukses {
+  margin-top: 14px; background: #f0fdf4;
+  border: 1px solid #86efac; color: #166534;
+  font-size: 13px; font-weight: 600;
+  border-radius: 8px; padding: 12px;
+  line-height: 1.5;
+}
+
 .login-error {
   display: none; margin-top: 12px;
   background: #fef2f2; border: 1px solid #fca5a5;
@@ -429,24 +451,59 @@ a { text-decoration: none; color: inherit; }
     </div>
   </nav>
 
-  <!-- Modal Login -->
-  <div class="modal-overlay" id="modal-login" role="dialog" aria-modal="true" aria-label="Form Masuk">
+  <!-- Modal Login / Daftar -->
+  <div class="modal-overlay" id="modal-login" role="dialog" aria-modal="true" aria-label="Masuk atau Daftar">
     <div class="modal-box">
       <button class="modal-close" id="modal-close" aria-label="Tutup">&times;</button>
       <div class="modal-logo">📚 Belajar Mandiri</div>
-      <p class="modal-subtitle">Masuk dengan akun yang dibuat orang tua</p>
 
-      <div class="form-group">
-        <label for="login-email">Email</label>
-        <input type="email" id="login-email" placeholder="contoh@email.com" autocomplete="email"/>
-      </div>
-      <div class="form-group">
-        <label for="login-password">Kata Sandi</label>
-        <input type="password" id="login-password" placeholder="••••••••" autocomplete="current-password"/>
+      <!-- Tab switcher -->
+      <div class="modal-tabs">
+        <button class="modal-tab aktif" id="tab-masuk"  data-tab="masuk">Masuk</button>
+        <button class="modal-tab"        id="tab-daftar" data-tab="daftar">Daftar</button>
       </div>
 
-      <button class="btn-login-submit" id="btn-login-submit">Masuk</button>
-      <div class="login-error" id="login-error"></div>
+      <!-- Panel: Masuk -->
+      <div class="modal-panel" id="panel-masuk">
+        <p class="modal-subtitle">Masuk dengan akun yang didaftarkan orang tua</p>
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" placeholder="contoh@email.com" autocomplete="email"/>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Kata Sandi</label>
+          <input type="password" id="login-password" placeholder="••••••••" autocomplete="current-password"/>
+        </div>
+        <button class="btn-login-submit" id="btn-login-submit">Masuk</button>
+        <div class="login-error" id="login-error"></div>
+      </div>
+
+      <!-- Panel: Daftar -->
+      <div class="modal-panel" id="panel-daftar" style="display:none">
+        <p class="modal-subtitle">Daftar akun orang tua — anak bisa belajar setelah disetujui</p>
+        <div class="form-group">
+          <label for="daftar-nama-anak">Nama Anak</label>
+          <input type="text" id="daftar-nama-anak" placeholder="Nama lengkap anak"/>
+        </div>
+        <div class="form-group">
+          <label for="daftar-nama-ortu">Nama Orang Tua</label>
+          <input type="text" id="daftar-nama-ortu" placeholder="Nama lengkap orang tua"/>
+        </div>
+        <div class="form-group">
+          <label for="daftar-email">Email</label>
+          <input type="email" id="daftar-email" placeholder="contoh@email.com" autocomplete="email"/>
+        </div>
+        <div class="form-group">
+          <label for="daftar-password">Kata Sandi</label>
+          <input type="password" id="daftar-password" placeholder="Minimal 6 karakter"/>
+        </div>
+        <button class="btn-login-submit" id="btn-daftar-submit">Daftar</button>
+        <div class="login-error" id="daftar-error"></div>
+        <div class="daftar-sukses" id="daftar-sukses" style="display:none">
+          ✅ Pendaftaran berhasil! Akun sedang menunggu persetujuan admin. Kami akan menghubungi kamu setelah akun disetujui.
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -468,12 +525,12 @@ a { text-decoration: none; color: inherit; }
             <h3>4 SD — <em>Tersedia</em></h3>
           </div>
           <div class="kelas-card-body">
-            <p>Materi dan kuis untuk siswa Kelas 4 SD. Saat ini fokus pada mata pelajaran IPAS Semester 2.</p>
+            <p>Materi dan kuis untuk siswa Kelas 4 SD. Tersedia 3 mata pelajaran dengan total 12 bab.</p>
             <div class="mapel-tags">
-              <span class="mapel-tag on">🔬 IPAS</span>
+              <span class="mapel-tag on">🔬 IPAS <small>(4 bab)</small></span>
+              <span class="mapel-tag on">📝 Bhs. Indonesia <small>(4 bab)</small></span>
+              <span class="mapel-tag on">🇮🇩 PPKn <small>(4 bab)</small></span>
               <span class="mapel-tag">🕌 Al-Islam</span>
-              <span class="mapel-tag">🇮🇩 Pancasila</span>
-              <span class="mapel-tag">📝 Bhs. Indonesia</span>
               <span class="mapel-tag">🔢 Matematika</span>
               <span class="mapel-tag">🇬🇧 Bhs. Inggris</span>
               <span class="mapel-tag">🌿 Bhs. Sunda</span>
@@ -483,9 +540,12 @@ a { text-decoration: none; color: inherit; }
           </div>
           <div class="kelas-card-footer">
             <span class="kelas-status aktif">
-              <span class="status-dot on"></span>IPAS Tersedia
+              <span class="status-dot on"></span>3 Mapel Tersedia
             </span>
-            <a href="kelas-4/index.html" class="btn-masuk primary">Masuk Kelas 4 →</a>
+            <!-- Tombol ini dikunci JS sampai user login & approved -->
+            <button class="btn-masuk primary" id="btn-masuk-kelas4" data-href="kelas-4/index.html">
+              🔒 Masuk Kelas 4 →
+            </button>
           </div>
         </div>
 
@@ -521,17 +581,17 @@ a { text-decoration: none; color: inherit; }
     <section id="cara">
       <div class="section-label">Panduan</div>
       <h2 class="section-title">Cara Belajar di Sini</h2>
-      <p class="section-desc">Cukup 4 langkah — tidak perlu daftar, tidak perlu login.</p>
+      <p class="section-desc">Cukup 4 langkah — login dengan akun yang didaftarkan orang tua.</p>
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-num">01</div>
-          <h4>Pilih Kelas &amp; Mapel</h4>
-          <p>Pilih kelasmu dan mata pelajaran yang ingin dipelajari hari ini.</p>
+          <h4>Daftar &amp; Masuk</h4>
+          <p>Orang tua mendaftarkan akun. Setelah disetujui admin, siswa bisa mulai belajar.</p>
         </div>
         <div class="step-card">
           <div class="step-num">02</div>
-          <h4>Pilih Bab</h4>
-          <p>Pilih bab sesuai materi yang sedang dipelajari di sekolah.</p>
+          <h4>Pilih Kelas &amp; Mapel</h4>
+          <p>Pilih kelasmu dan mata pelajaran yang ingin dipelajari hari ini.</p>
         </div>
         <div class="step-card">
           <div class="step-num">03</div>
@@ -552,7 +612,7 @@ a { text-decoration: none; color: inherit; }
     <div class="footer-inner">
       <div class="footer-brand">
         <h3>Belajar Mandiri</h3>
-        <p>Platform belajar mandiri untuk siswa SD berbasis GitHub Pages — materi ringkas, kuis interaktif, dan gratis tanpa daftar akun.</p>
+        <p>Platform belajar mandiri untuk siswa SD — materi ringkas, kuis interaktif, dan gratis.</p>
       </div>
       <div class="footer-links">
         <a href="kelas-4/index.html">Kelas 4</a>
@@ -568,48 +628,96 @@ a { text-decoration: none; color: inherit; }
 
 
   <script type="module">
-    import { login, logout, onAuthChange, getProfilUser } from './assets/js/firebase.js';
+    import { login, logout, daftar, onAuthChange, getProfilUser }
+      from './assets/js/firebase.js';
 
-    // ── ELEMEN ─────────────────────────────────────
-    const btnMasuk        = document.getElementById('btn-masuk');
+    // ── ELEMEN ──────────────────────────────────────
+    const btnNavMasuk     = document.getElementById('btn-masuk');
     const navUser         = document.getElementById('nav-user');
     const navUserNama     = document.getElementById('nav-user-nama');
     const btnKeluar       = document.getElementById('btn-keluar');
     const modalLogin      = document.getElementById('modal-login');
     const modalClose      = document.getElementById('modal-close');
+    const btnMasukKelas4  = document.getElementById('btn-masuk-kelas4');
+
+    // Tab
+    const tabMasuk        = document.getElementById('tab-masuk');
+    const tabDaftar       = document.getElementById('tab-daftar');
+    const panelMasuk      = document.getElementById('panel-masuk');
+    const panelDaftar     = document.getElementById('panel-daftar');
+
+    // Form Masuk
     const inputEmail      = document.getElementById('login-email');
     const inputPassword   = document.getElementById('login-password');
     const btnLoginSubmit  = document.getElementById('btn-login-submit');
     const loginError      = document.getElementById('login-error');
 
+    // Form Daftar
+    const inputNamaAnak   = document.getElementById('daftar-nama-anak');
+    const inputNamaOrtu   = document.getElementById('daftar-nama-ortu');
+    const inputDEmail     = document.getElementById('daftar-email');
+    const inputDPassword  = document.getElementById('daftar-password');
+    const btnDaftarSubmit = document.getElementById('btn-daftar-submit');
+    const daftarError     = document.getElementById('daftar-error');
+    const daftarSukses    = document.getElementById('daftar-sukses');
+
+    // ── TAB SWITCHER ────────────────────────────────
+    function gantiTab(tab) {
+      if (tab === 'masuk') {
+        tabMasuk.classList.add('aktif');
+        tabDaftar.classList.remove('aktif');
+        panelMasuk.style.display  = '';
+        panelDaftar.style.display = 'none';
+      } else {
+        tabDaftar.classList.add('aktif');
+        tabMasuk.classList.remove('aktif');
+        panelDaftar.style.display = '';
+        panelMasuk.style.display  = 'none';
+      }
+    }
+    tabMasuk.addEventListener('click',  () => gantiTab('masuk'));
+    tabDaftar.addEventListener('click', () => gantiTab('daftar'));
+
     // ── BUKA / TUTUP MODAL ──────────────────────────
-    function bukaModal() {
+    function bukaModal(tabAwal = 'masuk') {
       modalLogin.classList.add('aktif');
-      inputEmail.focus();
+      gantiTab(tabAwal);
       loginError.classList.remove('aktif');
       loginError.textContent = '';
+      if (tabAwal === 'masuk') inputEmail.focus();
+      else inputNamaAnak.focus();
     }
     function tutupModal() {
       modalLogin.classList.remove('aktif');
-      inputEmail.value = '';
-      inputPassword.value = '';
+      [inputEmail, inputPassword, inputNamaAnak, inputNamaOrtu,
+       inputDEmail, inputDPassword].forEach(el => el.value = '');
       loginError.classList.remove('aktif');
+      daftarError.classList.remove('aktif');
+      daftarSukses.style.display = 'none';
+      btnDaftarSubmit.style.display = '';
     }
 
-    btnMasuk.addEventListener('click', bukaModal);
+    btnNavMasuk.addEventListener('click', () => bukaModal('masuk'));
     modalClose.addEventListener('click', tutupModal);
     modalLogin.addEventListener('click', e => { if (e.target === modalLogin) tutupModal(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupModal(); });
+
+    // Tombol kelas terkunci — klik saat belum login buka modal
+    btnMasukKelas4.addEventListener('click', () => {
+      const href = btnMasukKelas4.dataset.href;
+      if (href) {
+        window.location.href = href;
+      } else {
+        bukaModal('masuk');
+      }
+    });
 
     // ── PROSES LOGIN ────────────────────────────────
     async function prosesLogin() {
       const email    = inputEmail.value.trim();
       const password = inputPassword.value;
 
-      if (!email || !password) {
-        tampilError('Email dan kata sandi wajib diisi.');
-        return;
-      }
+      if (!email || !password) { tampilError(loginError, 'Email dan kata sandi wajib diisi.'); return; }
 
       btnLoginSubmit.disabled    = true;
       btnLoginSubmit.textContent = 'Memproses…';
@@ -619,8 +727,7 @@ a { text-decoration: none; color: inherit; }
         await login(email, password);
         tutupModal();
       } catch (err) {
-        const pesan = pesanError(err.code);
-        tampilError(pesan);
+        tampilError(loginError, pesanErrorAuth(err.code));
       } finally {
         btnLoginSubmit.disabled    = false;
         btnLoginSubmit.textContent = 'Masuk';
@@ -630,38 +737,85 @@ a { text-decoration: none; color: inherit; }
     btnLoginSubmit.addEventListener('click', prosesLogin);
     inputPassword.addEventListener('keydown', e => { if (e.key === 'Enter') prosesLogin(); });
 
+    // ── PROSES DAFTAR ───────────────────────────────
+    async function prosesDaftar() {
+      const namaAnak  = inputNamaAnak.value.trim();
+      const namaOrtu  = inputNamaOrtu.value.trim();
+      const email     = inputDEmail.value.trim();
+      const password  = inputDPassword.value;
+
+      if (!namaAnak || !namaOrtu || !email || !password) {
+        tampilError(daftarError, 'Semua kolom wajib diisi.'); return;
+      }
+      if (password.length < 6) {
+        tampilError(daftarError, 'Kata sandi minimal 6 karakter.'); return;
+      }
+
+      btnDaftarSubmit.disabled    = true;
+      btnDaftarSubmit.textContent = 'Mendaftarkan…';
+      daftarError.classList.remove('aktif');
+
+      try {
+        await daftar(email, password, namaAnak, namaOrtu);
+        daftarSukses.style.display    = '';
+        btnDaftarSubmit.style.display = 'none';
+      } catch (err) {
+        tampilError(daftarError, pesanErrorAuth(err.code));
+      } finally {
+        btnDaftarSubmit.disabled    = false;
+        btnDaftarSubmit.textContent = 'Daftar';
+      }
+    }
+
+    btnDaftarSubmit.addEventListener('click', prosesDaftar);
+    inputDPassword.addEventListener('keydown', e => { if (e.key === 'Enter') prosesDaftar(); });
+
     // ── LOGOUT ──────────────────────────────────────
     btnKeluar.addEventListener('click', () => logout());
 
     // ── PANTAU STATUS AUTH ──────────────────────────
     onAuthChange(async (user) => {
       if (user) {
-        // Ambil nama dari Firestore (kalau ada)
         const profil = await getProfilUser(user.uid);
         const nama   = profil?.nama || user.email;
 
         navUserNama.textContent = nama;
-        btnMasuk.style.display  = 'none';
-        navUser.style.display   = 'flex';
+        btnNavMasuk.style.display = 'none';
+        navUser.style.display     = 'flex';
+
+        // Buka kunci tombol kelas
+        btnMasukKelas4.textContent = 'Masuk Kelas 4 →';
+        btnMasukKelas4.dataset.href = 'kelas-4/index.html';
+        btnMasukKelas4.classList.remove('disabled');
       } else {
-        btnMasuk.style.display  = '';
-        navUser.style.display   = 'none';
+        btnNavMasuk.style.display = '';
+        navUser.style.display     = 'none';
+
+        // Kunci tombol kelas
+        btnMasukKelas4.textContent = '🔒 Masuk Kelas 4 →';
+        delete btnMasukKelas4.dataset.href;
+        btnMasukKelas4.classList.add('disabled');
       }
     });
 
-    // ── HELPER: pesan error ramah ───────────────────
-    function tampilError(pesan) {
-      loginError.textContent = pesan;
-      loginError.classList.add('aktif');
+    // ── HELPER ──────────────────────────────────────
+    function tampilError(el, pesan) {
+      el.textContent = pesan;
+      el.classList.add('aktif');
     }
-    function pesanError(code) {
+    function pesanErrorAuth(code) {
       const map = {
-        'auth/invalid-email'           : 'Format email tidak valid.',
-        'auth/user-not-found'          : 'Email tidak ditemukan.',
-        'auth/wrong-password'          : 'Kata sandi salah.',
-        'auth/invalid-credential'      : 'Email atau kata sandi salah.',
-        'auth/too-many-requests'       : 'Terlalu banyak percobaan. Coba lagi nanti.',
-        'auth/network-request-failed'  : 'Gagal terhubung. Periksa koneksi internet.',
+        'auth/invalid-email'          : 'Format email tidak valid.',
+        'auth/user-not-found'         : 'Email tidak terdaftar.',
+        'auth/wrong-password'         : 'Kata sandi salah.',
+        'auth/invalid-credential'     : 'Email atau kata sandi salah.',
+        'auth/email-already-in-use'   : 'Email sudah terdaftar. Coba masuk.',
+        'auth/weak-password'          : 'Kata sandi terlalu lemah (min. 6 karakter).',
+        'auth/too-many-requests'      : 'Terlalu banyak percobaan. Coba lagi nanti.',
+        'auth/network-request-failed' : 'Gagal terhubung. Periksa koneksi internet.',
+        'auth/pending-approval'       : '⏳ Akun sedang menunggu persetujuan admin.',
+        'auth/rejected'               : '❌ Pendaftaran ditolak. Hubungi admin.',
+        'auth/profil-tidak-ada'       : 'Profil tidak ditemukan. Hubungi admin.',
       };
       return map[code] || `Terjadi kesalahan (${code}). Coba lagi.`;
     }

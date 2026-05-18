@@ -48,3 +48,25 @@
 - `firebase.js` di-import sebagai ES Module — `index.html` harus dibuka via server (live server), bukan `file://`
 - Modal login bisa ditutup dengan: klik tombol ×, klik overlay gelap, atau tekan `Escape`
 - Pesan error login ditampilkan di dalam `.login-error` dalam Bahasa Indonesia
+
+## Sesi 04 — Auth Approval + Admin Panel
+
+### Jangan Lakukan Ini
+- ❌ Jangan hapus field `status` dan `role` dari dokumen Firestore users
+  → Seluruh logika login, approval, dan admin bergantung pada kedua field ini
+- ❌ Jangan ubah `login()` kembali ke `signInWithEmailAndPassword` langsung
+  → Wajib melewati cek status approval
+- ❌ Jangan hapus `firestore.rules` atau ubah ke mode test
+  → Rules melindungi data user dari akses tidak sah
+- ❌ Jangan panggil `getAllUsers()` dari halaman utama
+  → Hanya untuk admin; query ini akan gagal jika dipanggil oleh non-admin
+- ❌ Jangan hardcode UID admin di kode JS
+  → Role admin ditentukan oleh field `role: 'admin'` di Firestore
+
+### Informasi Penting
+- Admin pertama harus dibuat manual di Firebase Console:
+  1. Buat akun di Authentication
+  2. Tambah dokumen di Firestore: `users/{uid}` dengan `{ nama, email, role: 'admin', status: 'approved' }`
+- `daftar()` langsung sign out setelah create akun — ini disengaja (tunggu approval)
+- Tombol "Masuk Kelas 4" pakai `data-href` attribute untuk switch antara locked/unlocked
+- `firestore.rules` harus di-deploy manual via Firebase Console atau `firebase deploy --only firestore:rules`
