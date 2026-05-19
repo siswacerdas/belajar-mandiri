@@ -361,6 +361,39 @@ a { text-decoration: none; color: inherit; }
 <script type="module">
   import { login, daftar, onAuthChange, getProfilUser } from './assets/js/firebase.js';
 
+  // Cek jika sudah login — tampilkan banner, jangan auto-redirect
+  onAuthChange(async (user) => {
+    if (!user) return;
+    const profil = await getProfilUser(user.uid);
+    const card   = document.getElementById('auth-card');
+    const nama   = profil?.nama || user.email;
+    const tujuan = profil?.role === 'admin' ? './admin/' : './home.html';
+    const label  = profil?.role === 'admin' ? 'Panel Admin' : 'Halaman Belajar';
+
+    card.innerHTML = `
+      <div style="text-align:center; padding:12px 0 8px;">
+        <div style="font-size:36px; margin-bottom:12px;">👋</div>
+        <div style="font-size:16px; font-weight:800; color:#1a1f2e; margin-bottom:6px;">
+          Halo, ${nama}!
+        </div>
+        <div style="font-size:13px; color:#6b7280; margin-bottom:24px; line-height:1.5;">
+          Kamu sudah masuk. Lanjutkan ke halaman kamu.
+        </div>
+        <a href="${tujuan}" style="
+          display:block; width:100%; padding:12px;
+          background:#1a6b72; color:#fff; border-radius:10px;
+          font-size:15px; font-weight:800; text-decoration:none;
+          transition:background 0.18s;
+        ">Lanjut ke ${label} →</a>
+        <button onclick="import('./assets/js/firebase.js').then(m=>m.logout())" style="
+          display:block; width:100%; margin-top:10px; padding:10px;
+          background:none; border:1.5px solid #e2ddd2; border-radius:10px;
+          font-family:inherit; font-size:13px; font-weight:700;
+          color:#6b7280; cursor:pointer;
+        ">Keluar dari akun ini</button>
+      </div>`;
+  });
+
   // Cek status dari URL param (redirect dari home.html)
   const params = new URLSearchParams(location.search);
   const bar    = document.getElementById('status-bar');
@@ -372,16 +405,15 @@ a { text-decoration: none; color: inherit; }
     bar.textContent = '❌ Pendaftaran ditolak. Hubungi admin untuk informasi lebih lanjut.';
   }
 
-  // Jika sudah login → cek role, arahkan ke halaman yang tepat
-  onAuthChange(async (user) => {
-    if (!user) return;
+  // Jika sudah login dan klik Masuk → cek role, arahkan ke halaman yang tepat
+  async function redirectSesuaiRole(user) {
     const profil = await getProfilUser(user.uid);
     if (profil?.role === 'admin') {
       location.replace('./admin/');
     } else {
       location.replace('./home.html');
     }
-  });
+  }
 
   // Tab
   document.getElementById('tab-masuk').addEventListener('click',  () => gantiTab('masuk'));
@@ -404,7 +436,8 @@ a { text-decoration: none; color: inherit; }
     btnMasuk.innerHTML = '<span class="spinner"></span> Memproses…';
     errMasuk.classList.remove('show');
     try {
-      await login(email, pass);
+      const cred = await login(email, pass);
+      await redirectSesuaiRole(cred.user);
     } catch (e) {
       showErr(errMasuk, pesan(e.code));
       btnMasuk.disabled    = false;
