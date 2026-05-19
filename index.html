@@ -359,7 +359,7 @@ a { text-decoration: none; color: inherit; }
 </div>
 
 <script type="module">
-  import { login, daftar, onAuthChange } from './assets/js/firebase.js';
+  import { login, daftar, onAuthChange, getProfilUser } from './assets/js/firebase.js';
 
   // Cek status dari URL param (redirect dari home.html)
   const params = new URLSearchParams(location.search);
@@ -372,8 +372,16 @@ a { text-decoration: none; color: inherit; }
     bar.textContent = '❌ Pendaftaran ditolak. Hubungi admin untuk informasi lebih lanjut.';
   }
 
-  // Jika sudah login → langsung ke home.html
-  onAuthChange(user => { if (user) location.replace('./home.html'); });
+  // Jika sudah login → cek role, arahkan ke halaman yang tepat
+  onAuthChange(async (user) => {
+    if (!user) return;
+    const profil = await getProfilUser(user.uid);
+    if (profil?.role === 'admin') {
+      location.replace('./admin/');
+    } else {
+      location.replace('./home.html');
+    }
+  });
 
   // Tab
   document.getElementById('tab-masuk').addEventListener('click',  () => gantiTab('masuk'));
