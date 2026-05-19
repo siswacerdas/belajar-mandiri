@@ -445,7 +445,10 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
   }
   btnLogin.addEventListener('click', prosesLogin);
   document.getElementById('a-pass').addEventListener('keydown', e => { if(e.key==='Enter') prosesLogin(); });
-  document.getElementById('btn-logout').addEventListener('click', () => logout());
+  document.getElementById('btn-logout').addEventListener('click', async () => {
+    await logout();
+    window.location.replace('../index.html');
+  });
 
   function showLoginErr(msg) { loginErr.textContent = msg; loginErr.classList.add('show'); }
 
@@ -458,10 +461,7 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
         const profil = await getProfilUser(user.uid);
         if (!profil || profil.role !== 'admin') {
           await logout();
-          loginScreen.style.display = 'block';
-          app.style.display         = 'none';
-          overlay.style.display     = 'none';
-          showLoginErr('Akun ini bukan akun admin.');
+          window.location.replace('../index.html');
           return;
         }
         document.getElementById('admin-name').textContent = profil.nama || user.email;
@@ -480,9 +480,8 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
         goTo('dashboard');
       }
     } else {
-      loginScreen.style.display = 'block';
-      app.style.display         = 'none';
-      overlay.style.display     = 'none';
+      // Belum login — arahkan ke halaman utama
+      window.location.replace('../index.html');
     }
   });
 

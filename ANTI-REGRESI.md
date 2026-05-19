@@ -125,3 +125,11 @@ layar yang benar (`loginScreen`/`app`) sempat di-set. Akibatnya ada flash blank.
 
 **Solusi wajib:** Sembunyikan overlay (`overlay.style.display = 'none'`) SETELAH
 `loginScreen` dan `app` sudah di-set dengan benar — di setiap branch if/catch/else.
+
+### Alur Login Admin (Sesi 05 — Final)
+- Admin login dari `index.html` (sama seperti user biasa)
+- Setelah login berhasil, `index.html` cek role → kalau admin → redirect ke `admin/`
+- `admin/index.html` TIDAK punya form login sendiri — semua dari `index.html`
+- Kalau buka `admin/` tanpa login → otomatis redirect ke `index.html`
+- Kalau buka `admin/` tapi bukan admin → logout + redirect ke `index.html`
+- Tombol Keluar di admin → logout + redirect ke `index.html`
