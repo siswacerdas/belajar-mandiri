@@ -233,6 +233,23 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
 </head>
 <body>
 
+<!-- Loading overlay — sembunyikan flash login form -->
+<div id="loading-overlay" style="
+  position:fixed; inset:0; z-index:999;
+  background:linear-gradient(135deg, #134f55 0%, #2a9aa4 100%);
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:14px;
+">
+  <div style="font-size:36px;">📚</div>
+  <div style="font-size:14px; font-weight:700; color:rgba(255,255,255,0.8);">Memuat panel admin…</div>
+  <div style="
+    width:36px; height:36px;
+    border:3px solid rgba(255,255,255,0.25);
+    border-top-color:#fff; border-radius:50%;
+    animation:spin 0.7s linear infinite;
+  "></div>
+</div>
+
 <!-- ════ LOGIN ════ -->
 <div id="login-screen">
   <div class="login-card">
@@ -296,6 +313,11 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
       <span class="topbar-sub"  id="topbar-sub"></span>
     </div>
     <div class="content">
+      <!-- Error banner — tampil jika Firestore gagal diakses -->
+      <div id="error-banner" style="display:none; margin-bottom:18px; padding:14px 18px;
+        background:#fef2f2; border:1.5px solid #fca5a5; border-radius:10px;
+        font-size:13px; color:#991b1b; line-height:1.6;">
+      </div>
 
       <!-- ── Dashboard ── -->
       <div class="panel aktif" id="panel-dashboard">
@@ -428,17 +450,31 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
   function showLoginErr(msg) { loginErr.textContent = msg; loginErr.classList.add('show'); }
 
   // ── AUTH STATE ───────────────────────────────────
+  // Sembunyikan loading overlay setelah Firebase selesai cek auth
   onAuthChange(async (user) => {
+    document.getElementById('loading-overlay').style.display = 'none';
     if (user) {
       try {
         const profil = await getProfilUser(user.uid);
-        if (!profil || profil.role !== 'admin') { await logout(); showLoginErr('Bukan akun admin.'); return; }
+        if (!profil || profil.role !== 'admin') {
+          await logout();
+          showLoginErr('Akun ini bukan akun admin.');
+          return;
+        }
         document.getElementById('admin-name').textContent = profil.nama || user.email;
         loginScreen.style.display = 'none';
         app.style.display         = '';
         await loadUsers();
         goTo('dashboard');
-      } catch(e) { await logout(); showLoginErr('Gagal memuat profil: ' + e.message); }
+      } catch(e) {
+        // getProfilUser gagal (misal rules belum publish) — jangan logout,
+        // coba tampilkan dashboard dulu dan biarkan loadUsers() menampilkan error
+        document.getElementById('admin-name').textContent = user.email;
+        loginScreen.style.display = 'none';
+        app.style.display         = '';
+        await loadUsers();
+        goTo('dashboard');
+      }
     } else {
       loginScreen.style.display = '';
       app.style.display         = 'none';
@@ -473,7 +509,18 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
     try {
       users = await getAllUsers();
       updateStats();
-    } catch(e) { toast('Gagal memuat data: ' + e.message, 'err'); }
+      // Sembunyikan error banner jika sebelumnya gagal
+      document.getElementById('error-banner').style.display = 'none';
+    } catch(e) {
+      const msg = e.message || e.code || 'Unknown error';
+      const banner = document.getElementById('error-banner');
+      banner.style.display = '';
+      banner.innerHTML = `<strong>⚠️ Gagal memuat data user</strong><br>
+        ${msg.includes('permission') || msg.includes('insufficient')
+          ? 'Firestore Rules belum dipublish. Buka <strong>Firebase Console → Firestore → Rules</strong> dan publish rules terbaru.'
+          : msg}`;
+      toast('Gagal memuat data: ' + msg, 'err');
+    }
   }
 
   function updateStats() {

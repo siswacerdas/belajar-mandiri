@@ -359,7 +359,7 @@ a { text-decoration: none; color: inherit; }
 </div>
 
 <script type="module">
-  import { login, daftar, onAuthChange, getProfilUser } from './assets/js/firebase.js';
+  import { login, daftar, logout, onAuthChange, getProfilUser } from './assets/js/firebase.js';
 
   // Cek jika sudah login — tampilkan banner, jangan auto-redirect
   onAuthChange(async (user) => {
@@ -383,15 +383,20 @@ a { text-decoration: none; color: inherit; }
           display:block; width:100%; padding:12px;
           background:#1a6b72; color:#fff; border-radius:10px;
           font-size:15px; font-weight:800; text-decoration:none;
-          transition:background 0.18s;
+          text-align:center;
         ">Lanjut ke ${label} →</a>
-        <button onclick="import('./assets/js/firebase.js').then(m=>m.logout())" style="
+        <button id="btn-keluar-banner" style="
           display:block; width:100%; margin-top:10px; padding:10px;
           background:none; border:1.5px solid #e2ddd2; border-radius:10px;
           font-family:inherit; font-size:13px; font-weight:700;
           color:#6b7280; cursor:pointer;
         ">Keluar dari akun ini</button>
       </div>`;
+
+    document.getElementById('btn-keluar-banner').addEventListener('click', async () => {
+      await logout();
+      location.reload();
+    });
   });
 
   // Cek status dari URL param (redirect dari home.html)
