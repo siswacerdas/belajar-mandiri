@@ -450,34 +450,39 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
   function showLoginErr(msg) { loginErr.textContent = msg; loginErr.classList.add('show'); }
 
   // ── AUTH STATE ───────────────────────────────────
-  // Sembunyikan loading overlay setelah Firebase selesai cek auth
+  const overlay = document.getElementById('loading-overlay');
+
   onAuthChange(async (user) => {
-    document.getElementById('loading-overlay').style.display = 'none';
     if (user) {
       try {
         const profil = await getProfilUser(user.uid);
         if (!profil || profil.role !== 'admin') {
           await logout();
+          loginScreen.style.display = 'block';
+          app.style.display         = 'none';
+          overlay.style.display     = 'none';
           showLoginErr('Akun ini bukan akun admin.');
           return;
         }
         document.getElementById('admin-name').textContent = profil.nama || user.email;
         loginScreen.style.display = 'none';
-        app.style.display         = '';
+        app.style.display         = 'block';
+        overlay.style.display     = 'none';
         await loadUsers();
         goTo('dashboard');
       } catch(e) {
-        // getProfilUser gagal (misal rules belum publish) — jangan logout,
-        // coba tampilkan dashboard dulu dan biarkan loadUsers() menampilkan error
+        // getProfilUser gagal — tampilkan dashboard dengan error banner
         document.getElementById('admin-name').textContent = user.email;
         loginScreen.style.display = 'none';
-        app.style.display         = '';
+        app.style.display         = 'block';
+        overlay.style.display     = 'none';
         await loadUsers();
         goTo('dashboard');
       }
     } else {
-      loginScreen.style.display = '';
+      loginScreen.style.display = 'block';
       app.style.display         = 'none';
+      overlay.style.display     = 'none';
     }
   });
 

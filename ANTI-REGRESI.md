@@ -70,3 +70,58 @@
 - `daftar()` langsung sign out setelah create akun — ini disengaja (tunggu approval)
 - Tombol "Masuk Kelas 4" pakai `data-href` attribute untuk switch antara locked/unlocked
 - `firestore.rules` harus di-deploy manual via Firebase Console atau `firebase deploy --only firestore:rules`
+
+## Sesi 05 — Restrukturisasi Halaman + Admin Panel
+
+### ❗ AKAR MASALAH BERULANG: Firestore Rules Belum Di-publish
+
+**Ini adalah penyebab utama admin panel kosong/blank di setiap sesi.**
+
+`getAllUsers()` melakukan collection query (`getDocs(query(...))`) yang membutuhkan
+`allow list` di Firestore Rules. Rules di repo (`firestore.rules`) hanya file referensi —
+**tidak otomatis berlaku**. Harus di-paste manual ke Firebase Console lalu di-Publish.
+
+**Setiap kali ada perubahan `firestore.rules` di repo → wajib di-publish ulang ke Firebase Console:**
+1. Buka https://console.firebase.google.com → project `belajar-mandiri-5aa3f`
+2. Firestore Database → tab **Rules**
+3. Hapus semua teks lama → paste isi `firestore.rules` terbaru
+4. Klik **Publish**
+
+**Jangan diagnosa ulang masalah "admin panel kosong" sebelum memastikan rules sudah di-publish.**
+
+### Struktur Halaman (Sesi 05)
+| File | Fungsi | Akses |
+|---|---|---|
+| `index.html` | Landing page + form login/daftar | Publik |
+| `home.html` | Halaman utama kelas | Login + approved |
+| `admin/index.html` | Panel admin | Login + role admin |
+
+### Jangan Lakukan Ini
+- ❌ Jangan tambahkan auto-redirect `onAuthChange` di `index.html`
+  → Menyebabkan admin langsung diarahkan ke panel tanpa melihat landing page
+- ❌ Jangan pakai `onclick="import(...)"` inline untuk memanggil fungsi ES Module
+  → Tidak bisa mengakses variabel yang sudah diimport di scope module; pakai `addEventListener`
+- ❌ Jangan hapus loading overlay di `admin/index.html`
+  → Tanpa overlay, login form akan flash sebentar sebelum dashboard muncul
+- ❌ Jangan auto-logout di catch block `onAuthChange` admin
+  → Jika `getProfilUser` gagal karena rules belum publish, admin akan ter-logout terus-menerus
+
+### Informasi Penting
+- `index.html` menampilkan banner "Halo, X!" jika sudah login — tidak auto-redirect
+- Tombol "Keluar dari akun ini" di banner harus pakai `addEventListener`, bukan `onclick` inline
+- `admin/index.html` punya loading overlay hijau saat pertama dibuka — normal
+- Admin dibuat via `admin/setup-admin.html` (jalankan via Live Server, hapus setelahnya)
+- `admin/setup-admin.html` ada di `.gitignore` — tidak ikut push ke GitHub
+
+### ❗ BUG BERULANG: Halaman Admin Blank Setelah Loading
+
+**Penyebab:** `app.style.display = ''` hanya menghapus inline style — tidak menjamin
+elemen tampil jika tidak ada CSS rule eksplisit untuk `#app`.
+
+**Solusi wajib:** Selalu pakai `app.style.display = 'block'` (eksplisit), bukan `''`.
+
+**Penyebab kedua:** Overlay disembunyikan di baris pertama `onAuthChange`, sebelum
+layar yang benar (`loginScreen`/`app`) sempat di-set. Akibatnya ada flash blank.
+
+**Solusi wajib:** Sembunyikan overlay (`overlay.style.display = 'none'`) SETELAH
+`loginScreen` dan `app` sudah di-set dengan benar — di setiap branch if/catch/else.
