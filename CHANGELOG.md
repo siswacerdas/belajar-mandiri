@@ -1,118 +1,135 @@
 # Changelog — Belajar Mandiri
 
+Semua perubahan signifikan dicatat di sini secara kronologis.
+Format: `[Sesi XX] — YYYY-MM-DD` → deskripsi perubahan.
+
+---
+
+## [Sesi 05b] — 2026-05-20
+### Hotfix: Admin Panel Blank + Alur Login Disatukan
+
+#### Bug yang Diperbaiki
+- **Admin panel blank** — `app.style.display = ''` tidak menjamin elemen tampil;
+  diganti ke `display: 'block'` eksplisit di setiap branch `onAuthChange`
+- **Overlay disembunyikan terlalu awal** — overlay kini disembunyikan SETELAH
+  `loginScreen`/`app` sudah di-set, bukan di baris pertama callback
+- **Tombol Keluar tidak berfungsi** — `onclick="import(...)"` inline tidak bisa
+  mengakses scope ES Module; diganti ke `addEventListener`
+- **Form login admin muncul setelah logout** — tombol Keluar di admin sekarang
+  redirect ke `index.html`, bukan menampilkan form login lokal
+
+#### Perubahan Alur Login (Final)
+- Semua login (admin maupun user) dilakukan dari `index.html`
+- `admin/index.html` tidak punya form login sendiri
+- Buka `admin/` tanpa login → otomatis redirect ke `index.html`
+- Buka `admin/` tapi bukan admin → logout + redirect ke `index.html`
+- Keluar dari admin → redirect ke `index.html`
+
+---
+
+## [Sesi 05] — 2026-05-20
+### Restrukturisasi Halaman + Redesign Admin Panel
+
+#### Perubahan Arsitektur Halaman
+| File | Sebelum | Sesudah |
+|---|---|---|
+| `index.html` | Halaman utama + modal login | Landing page + form login/daftar embedded |
+| `home.html` | Tidak ada | Halaman utama konten (protected) |
+| `admin/index.html` | Form login admin terpisah | Panel admin (no form login, semua dari index.html) |
+
+#### `index.html` — Landing Page + Login
+- Layout dua kolom: kiri = branding + fitur + langkah daftar, kanan = auth card sticky
+- Auth card punya tab **Masuk** / **Daftar** tanpa modal
+- Jika sudah login: auth card berubah jadi banner "Halo, X!" + tombol lanjut
+- URL param `?status=pending` / `?status=rejected` menampilkan status bar
+- Klik Masuk → cek role → admin ke `admin/`, user ke `home.html`
+
+#### `home.html` — Halaman Utama (Baru)
+- Auth guard di awal: cek login + approved, redirect ke `index.html` jika gagal
+- Navbar hanya tampilkan nama user + tombol Keluar
+- Tombol kelas langsung aktif (tidak dikunci — sudah di-guard di level halaman)
+- Keluar → redirect ke `index.html`
+
+#### `admin/index.html` — Panel Admin (Dibangun Ulang)
+- Loading overlay saat auth check (mencegah flash login form)
+- Sidebar: Dashboard, Menunggu Approval (+ badge), Semua User, Pengaturan
+- Dashboard: 4 stat card + tabel pending terbaru + tombol refresh
+- Panel "Menunggu Approval": tabel khusus pending + tombol Setujui/Tolak
+- Panel "Semua User": filter tab (Semua/Menunggu/Disetujui/Ditolak) + aksi per user
+- Toast notifikasi untuk setiap aksi berhasil/gagal
+- Error banner permanen jika `getAllUsers()` gagal (misal rules belum publish)
+
+---
+
 ## [Sesi 04] — 2026-05-18
 ### Sistem Auth Lengkap — Approval Flow + Panel Admin
 
-#### Perubahan `assets/js/firebase.js`
-- Import `createUserWithEmailAndPassword`, `getDocs`, `query`, `where`, `updateDoc`
-- `login()` — tambah cek approval: jika `status: pending` atau `rejected` → auto logout + error spesifik
-- `loginAdmin()` — login khusus admin, wajib `role: 'admin'`
-- `daftar()` — buat akun + simpan ke Firestore `users/{uid}` dengan `status: pending`, lalu auto logout
-- `getPendingUsers()` → query users dengan status pending
-- `getAllUsers()` → query semua user dengan role 'user'
-- `approveUser(uid)` / `rejectUser(uid)` → update status di Firestore
+#### `assets/js/firebase.js`
+- `login(email, pass)` — tambah cek Firestore setelah login:
+  - `status: pending` → auto logout + error `auth/pending-approval`
+  - `status: rejected` → auto logout + error `auth/rejected`
+  - Profil tidak ada → auto logout + error `auth/profil-tidak-ada`
+- `loginAdmin(email, pass)` — login + wajib `role: 'admin'`, else logout
+- `daftar(email, pass, namaAnak, namaOrtu)` — buat akun Firebase Auth +
+  simpan ke `users/{uid}` dengan `status: 'pending'`, `role: 'user'`, lalu auto logout
+- `getPendingUsers()` — query `where('status', '==', 'pending')`
+- `getAllUsers()` — query `where('role', '==', 'user')`
+- `approveUser(uid)` — `updateDoc` set `status: 'approved'`
+- `rejectUser(uid)` — `updateDoc` set `status: 'rejected'`
 
-#### Perubahan `index.html`
-- Tombol "Masuk Kelas 4" diubah jadi `<button>` — dikunci (🔒) saat belum login, dibuka setelah login approved
-- Modal diperluas dengan tab **Masuk** / **Daftar**
-- Form Daftar: nama anak, nama orang tua, email, kata sandi
-- Setelah daftar berhasil: tampil pesan sukses, form disembunyikan
-- Teks "tidak perlu daftar, tidak perlu login" dihapus dari seluruh halaman
-- Info mapel Kelas 4 diupdate: IPAS ✅, Bhs. Indonesia ✅, PPKn ✅ (masing-masing 4 bab)
-- Section "Cara Belajar" diupdate: langkah pertama adalah Daftar & Masuk
+#### `firestore.rules` (Baru)
+- User hanya bisa `get` dokumen dirinya sendiri
+- `create` hanya untuk UID sendiri + `status: pending` + `role: user`
+- Admin bisa `get`, `list`, `update`, `delete` semua dokumen `users`
+- Progress kuis hanya bisa diakses user dengan `status: approved`
+- ⚠️ File ini harus di-publish manual ke Firebase Console — tidak otomatis berlaku
 
-#### File Baru `admin/index.html`
-- Login terpisah untuk admin (via `loginAdmin()`)
-- Dashboard statistik: pending / approved / rejected / total
-- Tabel user dengan tab filter (Menunggu / Disetujui / Ditolak / Semua)
-- Tombol Setujui / Tolak per user dengan konfirmasi
-- Toast notifikasi untuk feedback aksi
-- Redirect otomatis jika bukan admin
+#### `admin/index.html` (Versi Pertama)
+- Form login admin dengan `loginAdmin()`
+- Dashboard statistik 4 kartu
+- Tabel user dengan tab filter dan tombol Setujui/Tolak
 
-#### File Baru `firestore.rules`
-- User hanya bisa baca data dirinya sendiri
-- `create` hanya diizinkan dengan `status: pending` dan `role: user`
-- `update` dan `delete` hanya oleh admin
-- Admin bisa `list` (query) seluruh koleksi users
-- Progress kuis hanya bisa diakses user yang sudah `approved`
+---
 
 ## [Sesi 03] — 2026-05-18
-### UI Login — Navbar Auth + Modal Form
+### UI Login — Modal Auth di Navbar
 
-#### Yang Dilakukan
-- Tambah tombol **Masuk** di navbar `index.html` (class `btn-nav-masuk`, id `btn-masuk`)
-- Tambah HTML **modal login** (overlay + form email/password) di `index.html`
-- Tambah CSS untuk: `btn-nav-masuk`, `nav-user`, `btn-keluar`, `modal-overlay`, `modal-box`, `form-group`, `btn-login-submit`, `login-error`
-- Tambah `<script type="module">` di akhir `index.html` yang:
-  - Import `login`, `logout`, `onAuthChange`, `getProfilUser` dari `assets/js/firebase.js`
-  - Buka/tutup modal dengan klik tombol, klik overlay, atau tekan `Escape`
-  - Proses login async + tampilkan pesan error yang ramah
-  - Pantau status auth dengan `onAuthChange`: tampilkan nama user atau tombol Masuk
-  - Enter di field password memicu proses login
+#### `index.html`
+- Tambah `#nav-auth` di navbar: tombol Masuk + panel nama user
+- Modal login dengan tab Masuk / Daftar
+- Form Daftar: nama anak, nama ortu, email, kata sandi
+- `onAuthChange`: tampilkan nama user atau tombol Masuk
+- Tombol "Masuk Kelas 4" dikunci (🔒) saat belum login
+- CSS: `.btn-nav-masuk`, `.nav-user`, `.modal-overlay`, `.modal-tabs`, `.daftar-sukses`
 
-#### Hasil
-- User yang sudah login: nama tampil di navbar + tombol Keluar
-- User belum login: tombol Masuk tampil di navbar
-- Modal login bisa dibuka/ditutup dengan mulus
-- Pesan error dalam Bahasa Indonesia untuk semua kasus umum Firebase Auth
+---
 
 ## [Sesi 02] — 2026-05-18
-### Setup Firebase
+### Setup Firebase Auth + Firestore
 
-#### Yang Dilakukan
-- Buat project Firebase: `belajar-mandiri-5aa3f`
-- Aktifkan Authentication metode Email/Password
-- Buat Firestore Database di region `asia-southeast1`
-- Buat file `assets/js/firebase.js` (auth + firestore functions)
-- Amankan Firestore Rules (user hanya bisa akses data dirinya sendiri)
-- Daftarkan domain `siswacerdas.github.io` di Authorized Domains
+#### Firebase Project
+- Project ID: `belajar-mandiri-5aa3f`
+- Auth domain: `belajar-mandiri-5aa3f.firebaseapp.com`
+- Firestore region: `asia-southeast1` (Singapore)
+- Metode login: Email/Password
+- Authorized domain: `siswacerdas.github.io`
 
-#### Hasil
-- Firebase siap digunakan untuk login dan menyimpan progres siswa
-- Firestore terlindungi — tidak bisa diakses tanpa login
+#### `assets/js/firebase.js` (Versi Awal)
+- `initializeApp`, `getAuth`, `getFirestore`
+- `login(email, pass)` — `signInWithEmailAndPassword`
+- `logout()` — `signOut`
+- `onAuthChange(callback)` — `onAuthStateChanged`
+- `getProfilUser(uid)` — `getDoc` dari `users/{uid}`
+- `simpanHasilKuis(user, kuisId, skor, total)` — `setDoc` ke `users/{uid}/progress/{kuisId}`
+
+---
 
 ## [Sesi 01] — 2026-05-18
-### Setup Git Multi-Akun & Konfigurasi Repository
+### Setup Git Multi-Akun & Repository
 
-#### Yang Dilakukan
-- Setup SSH key (`id_siswacerdas`) untuk akun GitHub `siswacerdas`
-- Konfigurasi `~/.ssh/config` dengan alias `github-siswacerdas`
-- Clone repo via SSH: `git@github-siswacerdas:siswacerdas/belajar-mandiri.git`
-- Set identitas lokal repo: `siswacerdas / arif.azwar79@gmail.com`
-- Set identitas lokal repo `sdmuh01kukusan`: `sdit-dpk / keyla.sugihara2011@gmail.com`
-- Buat VS Code Workspace agar kedua repo tampil bersamaan
+- SSH key `id_siswacerdas` dibuat dan didaftarkan ke GitHub akun `siswacerdas`
+- `~/.ssh/config` dikonfigurasi dengan alias `github-siswacerdas`
+- Repo di-clone via SSH: `git@github-siswacerdas:siswacerdas/belajar-mandiri.git`
+- `git config --local` diset: `siswacerdas / arif.azwar79@gmail.com`
+- VS Code Workspace `projek-saya.code-workspace` dibuat untuk dua repo paralel
 
-#### Hasil
-- Dua akun GitHub berjalan paralel tanpa konflik
-- Repo `belajar-mandiri` → otomatis pakai akun `siswacerdas` via SSH
-- Repo `sdmuh01kukusan` → otomatis pakai akun `sdit-dpk` via HTTPS
-- Double-click `projek-saya.code-workspace` untuk buka kedua repo sekaligus
-## [Sesi 05] — 2026-05-19
-### Restrukturisasi Halaman + Redesign Admin Panel
-
-#### Perubahan Besar
-- `index.html` diubah total → halaman landing + login (dua kolom: info kiri, form login kanan)
-- `home.html` dibuat baru → halaman utama konten (protected, redirect ke index.html jika belum login)
-- `admin/index.html` dibangun ulang bersih dengan sidebar navigasi + dashboard + tabel user
-
-#### `index.html` (Landing + Login)
-- Layout dua kolom: kiri = branding/fitur/langkah, kanan atas = form login/daftar
-- Form login dan daftar langsung embedded (tidak pakai modal)
-- Redirect otomatis ke `home.html` jika sudah login
-- Status bar untuk feedback pending/rejected dari URL param
-- Semua informasi kunci website tersaji di kolom kiri
-
-#### `home.html` (Halaman Utama — Baru)
-- Auth guard: redirect ke index.html jika belum login atau akun belum approved
-- Navbar sederhana: nama user + tombol Keluar (tidak ada tombol Masuk lagi)
-- Tombol kelas langsung aktif (tidak dikunci) karena hanya bisa diakses setelah login
-- Redirect ke `index.html?status=pending` atau `?status=rejected` jika akun bermasalah
-
-#### `admin/index.html` (Dibangun Ulang)
-- Sidebar navigasi: Dashboard, Menunggu Approval, Semua User, Pengaturan
-- Dashboard: 4 stat card + tabel pending terbaru
-- Badge merah di sidebar jika ada pending
-- Panel Semua User: filter tab (Semua/Menunggu/Disetujui/Ditolak)
-- Tombol Setujui/Tolak/Cabut Akses dengan konfirmasi
-- Toast notifikasi untuk feedback aksi
-- Login langsung di halaman admin (tidak redirect ke index.html)

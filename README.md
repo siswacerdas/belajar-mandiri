@@ -1,126 +1,163 @@
-# 📚 Belajar Mandiri — Platform Belajar Seru untuk Siswa SD
+# 📚 Belajar Mandiri
 
-Selamat datang di **Belajar Mandiri**, website belajar interaktif untuk siswa Sekolah Dasar! 🎉
+Platform belajar interaktif gratis untuk siswa SD Kelas 4–6, berbasis static site
+(HTML/CSS/JS) yang dihosting di GitHub Pages dengan backend Firebase.
 
-> Belajar itu seru, asal tahu caranya! 🌟
-
----
-
-## 🎯 Tentang Website Ini
-
-**Belajar Mandiri** adalah platform belajar gratis berbasis GitHub Pages yang dirancang khusus untuk siswa Sekolah Dasar kelas 1–6. Website ini menyediakan materi pelajaran dan kuis latihan yang bisa dikerjakan kapan saja dan di mana saja — tanpa perlu daftar akun!
+🌐 **Live:** https://siswacerdas.github.io/belajar-mandiri/
 
 ---
 
-## 📖 Mata Pelajaran
+## Tentang Proyek
 
-| Mata Pelajaran | Status |
-|---|---|
-| 🔢 Matematika | 🚧 Segera hadir |
-| 🔤 Bahasa Indonesia | 🚧 Segera hadir |
-| 🌍 IPS (Ilmu Pengetahuan Sosial) | 🚧 Segera hadir |
-| 🔬 IPA (Ilmu Pengetahuan Alam) | 🚧 Segera hadir |
-| 🇬🇧 Bahasa Inggris | 🚧 Segera hadir |
-| 🎨 SBdP (Seni Budaya dan Prakarya) | 🚧 Segera hadir |
+**Belajar Mandiri** dirancang untuk membantu siswa SD belajar secara mandiri di rumah.
+Platform ini menyediakan materi ringkas dan kuis interaktif yang bisa dikerjakan
+kapan saja dari HP maupun laptop — dengan progres tersimpan otomatis ke akun masing-masing.
+
+**Dibuat untuk:** Siswa SDIT Al-Madinah Depok, Kurikulum Merdeka
 
 ---
 
-## 🗂️ Struktur Folder
+## Fitur Saat Ini
+
+- 📖 Materi ringkas per bab dalam Bahasa Indonesia yang mudah dipahami
+- 🎯 Kuis interaktif dengan koreksi langsung
+- 📊 Progres dan skor tersimpan otomatis ke akun
+- 🔐 Sistem login dengan approval admin
+- 👤 Panel admin untuk mengelola pendaftaran user
+- ✅ Gratis, tanpa iklan
+
+---
+
+## Materi Tersedia
+
+| Kelas | Mata Pelajaran | Bab | Status |
+|---|---|---|---|
+| 4 SD | IPAS | 4 bab | ✅ Tersedia |
+| 4 SD | Bahasa Indonesia | 4 bab | ✅ Tersedia |
+| 4 SD | PPKn | 4 bab | ✅ Tersedia |
+| 5 SD | Semua mapel | — | 🚧 Menyusul |
+| 6 SD | Semua mapel | — | 🚧 Menyusul |
+
+---
+
+## Cara Menggunakan
+
+### Untuk Orang Tua / Siswa
+1. Buka https://siswacerdas.github.io/belajar-mandiri/
+2. Klik tab **Daftar** → isi nama anak, nama ortu, email, kata sandi
+3. Tunggu persetujuan admin (biasanya 1×24 jam)
+4. Setelah disetujui, login dan mulai belajar
+
+### Untuk Admin
+1. Buka https://siswacerdas.github.io/belajar-mandiri/ → login dengan akun admin
+2. Otomatis diarahkan ke panel admin
+3. Tinjau pendaftaran baru di menu **Menunggu Approval**
+4. Klik **Setujui** atau **Tolak**
+
+---
+
+## Struktur Folder
 
 ```
 belajar-mandiri/
 │
-├── index.html              # Halaman utama website
-├── README.md               # Dokumentasi ini
+├── index.html              # Landing page + form login/daftar (publik)
+├── home.html               # Halaman utama kelas (login required)
+├── CHANGELOG.md            # Log perubahan per sesi
+├── ANTI-REGRESI.md         # Panduan mencegah regresi
+├── firestore.rules         # Firestore security rules (referensi)
 │
-├── matematika/             # Folder mata pelajaran Matematika
-│   ├── kelas-1/
-│   ├── kelas-2/
-│   └── ...
-│
-├── bahasa-indonesia/       # Folder mata pelajaran Bahasa Indonesia
-│   ├── kelas-1/
-│   └── ...
-│
-├── ipa/                    # Folder mata pelajaran IPA
-├── ips/                    # Folder mata pelajaran IPS
-├── bahasa-inggris/         # Folder mata pelajaran Bahasa Inggris
+├── admin/
+│   ├── index.html          # Panel admin (admin login required)
+│   └── setup-admin.html    # Buat akun admin (sekali pakai, di .gitignore)
 │
 ├── assets/
-│   ├── css/                # File stylesheet
-│   ├── js/                 # File JavaScript
-│   └── img/                # Gambar dan ilustrasi
+│   ├── css/
+│   │   ├── style.css       # CSS utama + variabel
+│   │   ├── layout.css      # Grid & layout
+│   │   ├── kuis.css        # Komponen kuis
+│   │   └── latihan.css     # Komponen latihan
+│   └── js/
+│       ├── firebase.js     # Auth + Firestore functions
+│       ├── kuis.js         # KuisEngine — mesin kuis reusable
+│       └── latihan.js      # Logika latihan interaktif
 │
-└── kuis/                   # Folder kuis latihan
-    ├── matematika/
-    ├── bahasa-indonesia/
-    └── ...
+└── kelas-4/
+    ├── index.html          # Daftar mapel Kelas 4
+    ├── ipas/               # 4 bab IPAS
+    ├── bahasa-indonesia/   # 4 bab Bahasa Indonesia
+    └── pp/                 # 4 bab PPKn
 ```
 
 ---
 
-## 🚀 Cara Menggunakan
+## Stack Teknologi
 
-### Untuk Siswa
-1. Buka website di browser kamu
-2. Pilih mata pelajaran yang ingin dipelajari
-3. Pilih kelas dan topik
-4. Pelajari materinya, lalu coba kuis latihannya!
-5. Lihat hasilmu dan ulangi jika perlu 💪
-
-### Untuk Guru & Orang Tua
-1. Website ini bisa diakses langsung dari browser, tanpa instalasi
-2. Pantau topik apa saja yang tersedia di masing-masing mata pelajaran
-3. Dorong siswa/anak untuk mengerjakan kuis secara rutin
+| Komponen | Teknologi |
+|---|---|
+| Hosting | GitHub Pages |
+| Frontend | HTML / CSS / JavaScript (vanilla, no framework) |
+| Auth | Firebase Authentication (Email/Password) |
+| Database | Firebase Firestore (asia-southeast1) |
+| Fonts | Google Fonts (Lora + Nunito) |
 
 ---
 
-## 🛠️ Cara Berkontribusi
+## Setup Firebase
 
-Kamu guru, orang tua, atau developer yang ingin ikut membantu? Yuk kontribusi!
+| Konfigurasi | Nilai |
+|---|---|
+| Project ID | `belajar-mandiri-5aa3f` |
+| Auth Domain | `belajar-mandiri-5aa3f.firebaseapp.com` |
+| Firestore Region | `asia-southeast1` (Singapore) |
+| Authorized Domain | `siswacerdas.github.io` |
 
-1. **Fork** repository ini
-2. Buat **branch** baru: `git checkout -b fitur/nama-fitur`
-3. **Commit** perubahan kamu: `git commit -m "Tambah: materi kelas 3 IPA bab 1"`
-4. **Push** ke branch: `git push origin fitur/nama-fitur`
-5. Buat **Pull Request** dan jelaskan perubahanmu
-
-### Panduan Kontribusi Materi
-- Materi harus sesuai dengan kurikulum Merdeka Belajar
-- Bahasa yang digunakan harus mudah dipahami siswa SD
-- Setiap topik sebaiknya dilengkapi dengan kuis minimal 5 soal
-- Gunakan gambar/ilustrasi yang ramah anak
+> ⚠️ `firestore.rules` di repo ini hanya file referensi. Setiap perubahan rules harus
+> di-publish manual ke Firebase Console → Firestore → Rules.
 
 ---
 
-## 📋 Roadmap
+## Roadmap
 
-- [ ] Halaman utama & navigasi
-- [ ] Materi Matematika Kelas 1–3
-- [ ] Kuis interaktif Matematika
-- [ ] Materi Bahasa Indonesia Kelas 1–3
-- [ ] Kuis interaktif Bahasa Indonesia
-- [ ] Materi IPA & IPS
-- [ ] Sistem poin & lencana motivasi
-- [ ] Mode gelap (dark mode)
-- [ ] Versi mobile yang lebih optimal
+### Segera (Sesi Berikutnya)
+- [ ] Dashboard progres siswa (skor terbaik, kuis yang belum dikerjakan)
+- [ ] Integrasi KuisEngine + simpan hasil ke Firestore
 
----
+### Jangka Menengah
+- [ ] Halaman orang tua — pantau progres anak
+- [ ] Ekspansi konten Kelas 5
+- [ ] Matematika, IPA, Bhs. Inggris Kelas 4
 
-## 📄 Lisensi
-
-Konten dalam repository ini dilisensikan di bawah **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
-Artinya, kamu bebas menggunakan, menyebarkan, dan mengembangkan konten ini selama mencantumkan sumber aslinya.
+### Jangka Panjang
+- [ ] Gamifikasi — poin, lencana, streak harian
+- [ ] Notifikasi approval via email
+- [ ] Mode offline (PWA)
 
 ---
 
-## 💬 Kontak & Saran
+## Cara Push ke GitHub
 
-Punya saran, masukan, atau menemukan kesalahan materi?  
-Silakan buka **Issues** di repository ini dan tuliskan pesanmu. Kami akan segera menanggapi! 😊
+```powershell
+cd "C:\Users\USER\Documents\belajar-mandiri-git"
+git add .
+git commit -m "feat/fix/docs: deskripsi singkat"
+git push
+```
+
+Repo menggunakan SSH alias `github-siswacerdas`. Jangan clone atau push via HTTPS.
+
+---
+
+## Lisensi
+
+Konten materi pelajaran dilisensikan di bawah
+**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** —
+bebas digunakan dengan mencantumkan sumber.
+
+Kode sumber bebas digunakan untuk keperluan pendidikan non-komersial.
 
 ---
 
 <div align="center">
-  Dibuat dengan ❤️ untuk siswa-siswi Indonesia yang semangat belajar!
+  Dibuat dengan ❤️ untuk siswa-siswi SDIT Al-Madinah Depok
 </div>
