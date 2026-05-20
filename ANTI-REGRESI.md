@@ -227,3 +227,88 @@ Gunakan **absolute path** `/belajar-mandiri/assets/js/auth-guard.js` — bukan p
 ### Halaman yang TIDAK perlu guard
 - `index.html` — halaman publik (landing + login)
 - `admin/setup-admin.html` — hanya dijalankan lokal, tidak di-push
+
+---
+
+## 🏆 SISTEM LOG KUIS & RANKING (Sesi 06)
+
+### Arsitektur Baru
+
+#### Koleksi Firestore Baru: `hasilKuis`
+```
+hasilKuis/
+  {autoId}/
+    uid        : string   — Firebase Auth UID
+    nama       : string   — nama anak (dari profil Firestore)
+    kuisId     : string   — mis. "kuis_bi_bab8"
+    mapel      : string   — mis. "B. Indonesia"
+    bab        : string   — mis. "Bab 8 — Aku Anak Sehat"
+    kelas      : string   — mis. "Kelas 4"
+    nilai      : number   — 0–100
+    waktuDetik : number   — durasi pengerjaan dalam detik
+    timestamp  : timestamp
+```
+Koleksi ini terpisah dari `users/{uid}/progress` karena diperlukan
+untuk query lintas-user (ranking).
+
+#### Alur Data
+```
+Siswa selesai kuis
+  → submitExam() di kuis.html
+  → window.kuisLogger?.simpan(...)          ← panggilan plain JS
+  → kuis-logger.js (jembatan)
+  → simpanLogKuis() di firebase.js          ← ES Module
+  → hasilKuis/{autoId}                       ← dokumen baru
+  → users/{uid}/progress/{kuisId}            ← update skor terbaik
+```
+
+### ❗ Index Firestore WAJIB Dibuat Manual
+Fungsi `getRankingKuis()` menggunakan `orderBy` dua field (nilai + waktuDetik).
+Firestore memerlukan composite index untuk query ini.
+
+**Cara membuat index:**
+1. Buka https://console.firebase.google.com → project `belajar-mandiri-5aa3f`
+2. Firestore Database → tab **Indexes**
+3. Klik **Add Index**
+4. Collection ID: `hasilKuis`
+5. Fields:
+   - `kuisId` — Ascending
+   - `nilai` — Descending
+   - `waktuDetik` — Ascending
+6. Query scope: **Collection** → klik **Save**
+7. Tunggu status "Building..." berubah jadi "Enabled" (biasanya 1–2 menit)
+
+**Gejala index belum ada:**
+Error di console: `The query requires an index.` disertai link langsung ke Firebase Console.
+Klik link tersebut untuk membuat index otomatis.
+
+### ❗ Rules hasilKuis WAJIB di-publish
+Sama seperti rules lain, `firestore.rules` tidak otomatis berlaku.
+Setelah sesi ini, publish ulang `firestore.rules` ke Firebase Console.
+
+### ❗ Jangan ubah nama field di hasilKuis
+| Field | Digunakan oleh |
+|---|---|
+| `uid` | Firestore rules (validasi pemilik), ranking |
+| `nilai` | Composite index, sorting |
+| `kuisId` | Filter ranking per kuis |
+| `waktuDetik` | Tiebreaker ranking |
+| `timestamp` | Query global terbaru |
+
+### ❗ kuis-logger.js harus dimuat setelah auth-guard.js
+Urutan script di kuis.html WAJIB:
+```html
+<script src="/belajar-mandiri/assets/js/auth-guard.js"></script>
+<script src="/belajar-mandiri/assets/js/kuis-logger.js"></script>
+```
+Jangan dibalik — kuis-logger perlu Firebase yang sama dengan auth-guard.
+
+### ❗ window.kuisLogger.simpan() bersifat fire-and-forget
+Fungsi ini tidak menunggu respons — jika gagal, error hanya tercatat di console,
+tidak mengganggu tampilan hasil kuis. Ini disengaja agar UX tidak terganggu.
+
+### Halaman Baru: ranking.html
+- Protected dengan auth-guard.js (user harus login + approved)
+- Menggunakan `type="module"` dengan dynamic import firebase.js
+- Tambahkan link ke ranking.html dari home.html jika diinginkan
+

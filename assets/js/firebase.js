@@ -5,11 +5,11 @@ import {
   signOut, onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 import {
-  getFirestore, doc, setDoc, getDoc, getDocs,
-  collection, query, where, updateDoc, serverTimestamp
+  getFirestore, doc, setDoc, getDoc, getDocs, addDoc,
+  collection, query, where, orderBy, limit, updateDoc, serverTimestamp
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-// ── CONFIG ────────────────────────────────────
+// ── CONFIG ────────────────────────────────────────────────────────────
 const firebaseConfig = {
   apiKey:            "AIzaSyCln8Ysb4ULDP44QURJ7xHGDBTC0IX_sfM",
   authDomain:        "belajar-mandiri-5aa3f.firebaseapp.com",
@@ -23,13 +23,12 @@ const app  = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db   = getFirestore(app);
 
-// ── LOGIN (dengan cek approval) ───────────────
+// ── LOGIN (dengan cek approval) ───────────────────────────────────────
 export async function login(email, password) {
   const cred = await signInWithEmailAndPassword(auth, email, password);
   const profil = await getProfilUser(cred.user.uid);
 
   if (!profil) {
-    // Akun Firebase Ada tapi dokumen Firestore belum — kemungkinan akun lama
     await signOut(auth);
     const err = new Error('Profil tidak ditemukan. Hubungi admin.');
     err.code = 'auth/profil-tidak-ada';
@@ -37,7 +36,6 @@ export async function login(email, password) {
   }
 
   if (profil.role === 'admin') {
-    // Admin login dari halaman utama — perbolehkan
     return cred;
   }
 
@@ -55,11 +53,10 @@ export async function login(email, password) {
     throw err;
   }
 
-  return cred; // status: 'approved'
+  return cred;
 }
 
-// ── LOGIN ADMIN (untuk halaman admin) ─────────
-// Sama seperti login biasa tapi wajib role admin
+// ── LOGIN ADMIN ───────────────────────────────────────────────────────
 export async function loginAdmin(email, password) {
   const cred   = await signInWithEmailAndPassword(auth, email, password);
   const profil = await getProfilUser(cred.user.uid);
@@ -73,7 +70,7 @@ export async function loginAdmin(email, password) {
   return cred;
 }
 
-// ── DAFTAR (registrasi orang tua — status: pending) ──
+// ── DAFTAR ───────────────────────────────────────────────────────────
 export async function daftar(email, password, namaAnak, namaOrtu) {
   const cred = await createUserWithEmailAndPassword(auth, email, password);
   await setDoc(doc(db, 'users', cred.user.uid), {
@@ -85,42 +82,46 @@ export async function daftar(email, password, namaAnak, namaOrtu) {
     status:     'pending',
     bergabung:  serverTimestamp()
   });
-  // Langsung sign out — harus tunggu approval dulu
   await signOut(auth);
   return cred;
 }
 
-// ── LOGOUT ────────────────────────────────────
+// ── LOGOUT ────────────────────────────────────────────────────────────
 export function logout() {
   return signOut(auth);
 }
 
-// ── AUTH STATE LISTENER ───────────────────────
+// ── AUTH STATE LISTENER ───────────────────────────────────────────────
 export function onAuthChange(callback) {
   return onAuthStateChanged(auth, callback);
 }
 
-// ── FIRESTORE: Ambil profil user ──────────────
+// ── GET CURRENT USER (sinkron) ────────────────────────────────────────
+export function getCurrentUser() {
+  return auth.currentUser;
+}
+
+// ── FIRESTORE: Ambil profil user ──────────────────────────────────────
 export async function getProfilUser(uid) {
   const snap = await getDoc(doc(db, 'users', uid));
   return snap.exists() ? snap.data() : null;
 }
 
-// ── FIRESTORE: Daftar pending registrasi (admin) ──
+// ── FIRESTORE: Daftar pending (admin) ─────────────────────────────────
 export async function getPendingUsers() {
   const q    = query(collection(db, 'users'), where('status', '==', 'pending'));
   const snap = await getDocs(q);
   return snap.docs.map(d => ({ id: d.id, ...d.data() }));
 }
 
-// ── FIRESTORE: Semua user non-admin (admin) ───
+// ── FIRESTORE: Semua user non-admin (admin) ───────────────────────────
 export async function getAllUsers() {
   const q    = query(collection(db, 'users'), where('role', '==', 'user'));
   const snap = await getDocs(q);
   return snap.docs.map(d => ({ id: d.id, ...d.data() }));
 }
 
-// ── FIRESTORE: Approve / Reject user (admin) ─
+// ── FIRESTORE: Approve / Reject user (admin) ──────────────────────────
 export async function approveUser(uid) {
   await updateDoc(doc(db, 'users', uid), { status: 'approved' });
 }
@@ -128,7 +129,7 @@ export async function rejectUser(uid) {
   await updateDoc(doc(db, 'users', uid), { status: 'rejected' });
 }
 
-// ── FIRESTORE: Simpan hasil kuis ──────────────
+// ── FIRESTORE: Simpan hasil kuis (legacy — tetap dipertahankan) ───────
 export async function simpanHasilKuis(user, kuisId, skor, total) {
   const ref  = doc(db, 'users', user.uid, 'progress', kuisId);
   const snap = await getDoc(ref);
@@ -139,6 +140,70 @@ export async function simpanHasilKuis(user, kuisId, skor, total) {
     kuisId, skor, total, skorTerbaik, attempts,
     terakhirDikerjakan: serverTimestamp()
   });
+}
+
+// ── FIRESTORE: Simpan log kuis lengkap + update progress ─────────────
+// Dipanggil dari kuis-logger.js setelah kuis selesai.
+// uid       : Firebase Auth UID pengguna
+// nama      : nama anak (dari profil Firestore)
+// kuisId    : ID kuis, mis. "kuis_bi_bab8"
+// mapel     : mis. "B. Indonesia"
+// bab       : mis. "Bab 8 — Aku Anak Sehat"
+// kelas     : mis. "Kelas 4"
+// nilai     : 0–100
+// waktuDetik: durasi pengerjaan dalam detik
+export async function simpanLogKuis(uid, nama, kuisId, mapel, bab, kelas, nilai, waktuDetik) {
+  // 1. Simpan ke koleksi top-level hasilKuis (untuk query ranking)
+  await addDoc(collection(db, 'hasilKuis'), {
+    uid, nama, kuisId, mapel, bab, kelas, nilai, waktuDetik,
+    timestamp: serverTimestamp()
+  });
+
+  // 2. Update progress user — simpan skor terbaik
+  const progressRef = doc(db, 'users', uid, 'progress', kuisId);
+  const snap        = await getDoc(progressRef);
+  const existing    = snap.exists() ? snap.data() : null;
+
+  await setDoc(progressRef, {
+    kuisId, mapel, bab,
+    nilaiTerakhir: nilai,
+    nilaiTerbaik:  existing ? Math.max(existing.nilaiTerbaik || 0, nilai) : nilai,
+    attempts:      existing ? (existing.attempts || 0) + 1 : 1,
+    terakhirDikerjakan: serverTimestamp()
+  });
+}
+
+// ── FIRESTORE: Ranking per kuis ───────────────────────────────────────
+// Mengembalikan top N hasil kuis tertentu, urut nilai desc, waktu asc.
+// CATATAN: butuh composite index di Firestore Console:
+//   Collection: hasilKuis | Fields: kuisId ASC, nilai DESC, waktuDetik ASC
+export async function getRankingKuis(kuisId, limitN = 20) {
+  const q = query(
+    collection(db, 'hasilKuis'),
+    where('kuisId', '==', kuisId),
+    orderBy('nilai', 'desc'),
+    orderBy('waktuDetik', 'asc'),
+    limit(limitN)
+  );
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+
+// ── FIRESTORE: Semua hasil kuis terbaru (admin / ranking global) ──────
+export async function getSemuaHasilKuis(limitN = 200) {
+  const q = query(
+    collection(db, 'hasilKuis'),
+    orderBy('timestamp', 'desc'),
+    limit(limitN)
+  );
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+
+// ── FIRESTORE: Progress semua kuis milik satu user ────────────────────
+export async function getProgressUser(uid) {
+  const snap = await getDocs(collection(db, 'users', uid, 'progress'));
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
 }
 
 export { auth, db };

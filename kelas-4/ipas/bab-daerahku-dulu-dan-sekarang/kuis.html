@@ -395,6 +395,7 @@
 <body>
   <!-- Auth Guard: redirect ke index.html jika belum login -->
   <script src="/belajar-mandiri/assets/js/auth-guard.js"></script>
+  <script src="/belajar-mandiri/assets/js/kuis-logger.js"></script>
 
 <!-- ════ LOADING SCREEN ════ -->
 <div class="loading-screen" id="loading-screen">
@@ -662,7 +663,9 @@ const CONFIG = {
   SCRIPT_URL  : "https://script.google.com/macros/s/AKfycbwEDyFu1gJGHKlZLyvxMfXqGD1DmW9T43Zr5XgPrbvey-njXOfEHO1KQYQHZTNgsf2dzQ/exec",
   STORAGE_KEY : "kuis_ipas_bab1_sesi",
   FS_KEY      : "kuis_fontsize",
-  DURATION    : 90 * 60,   // detik
+  MAPEL       : 'IPAS',
+  BAB         : 'Bab 1 — Daerahku Dulu dan Sekarang',
+    DURATION    : 90 * 60,   // detik
   JUMLAH_SOAL : 20,
   // Proporsi per jumlah soal → [PG, PGK, PGK_KAT]
   PROPORSI    : { 20:[12,4,4], 30:[18,6,6], 40:[24,8,8] }
@@ -1138,6 +1141,17 @@ const app = {
     const mnp = document.getElementById('mob-nav-panel');
     if (mnp) { mnp.classList.remove('open'); document.getElementById('mob-nav-chevron')?.classList.remove('open'); }
     document.getElementById('modal-loading').classList.remove('show');
+
+
+    // ── Simpan ke Firebase (non-blocking) ──────────────────────────────
+    window.kuisLogger?.simpan(
+      CONFIG.STORAGE_KEY.replace('_sesi', ''),
+      CONFIG.MAPEL,
+      CONFIG.BAB,
+      this.session.kelas || 'Kelas 4',
+      nilaiAkhir,
+      Math.floor((Date.now() - this.session.startTime) / 1000)
+    );
 
     // Simpan ke Apps Script (non-blocking)
     this._submitToServer(nilaiAkhir, ringkasan, deskripsi);

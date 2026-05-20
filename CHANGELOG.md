@@ -5,6 +5,47 @@ Format: `[Sesi XX] — YYYY-MM-DD` → deskripsi perubahan.
 
 ---
 
+## [Sesi 06] — 2026-05-20
+### Sistem Log Kuis Firebase + Papan Peringkat
+
+#### Fitur Baru
+- **`hasilKuis` (Firestore collection baru)** — setiap kali siswa menyelesaikan kuis,
+  hasilnya disimpan ke koleksi top-level `hasilKuis` untuk keperluan ranking
+- **`ranking.html`** — halaman papan peringkat baru (protected, hanya user approved):
+  - Filter per kuis atau mode global (rata-rata semua kuis)
+  - Podium 🥇🥈🥉 untuk tiga besar
+  - Tabel ranking lengkap: nama, nilai, waktu pengerjaan
+  - Statistik: peserta aktif, rata-rata nilai, jumlah tuntas, nilai tertinggi
+  - Badge "Kamu" untuk menandai posisi user yang sedang login
+
+#### File Baru
+- **`assets/js/kuis-logger.js`** — jembatan antara mesin kuis (plain JS) dan Firebase
+  (ES Module). Dimuat di semua kuis.html via `<script src>` biasa.
+  Menyimpan hasil kuis ke Firebase secara non-blocking.
+
+#### File Dimodifikasi
+- **`assets/js/firebase.js`** — fungsi baru:
+  - `simpanLogKuis(uid, nama, kuisId, mapel, bab, kelas, nilai, waktuDetik)`
+  - `getRankingKuis(kuisId, limitN)` — ranking per kuis
+  - `getSemuaHasilKuis(limitN)` — semua hasil terbaru
+  - `getProgressUser(uid)` — progress lengkap satu user
+  - `getCurrentUser()` — akses sinkron ke `auth.currentUser`
+- **`firestore.rules`** — tambah rules untuk koleksi `hasilKuis`:
+  - User approved: boleh buat log miliknya sendiri + baca semua
+  - Admin: baca & hapus
+- **9 file `kuis.html`** (semua bab) — tambahkan:
+  - `<script kuis-logger.js>` setelah auth-guard
+  - `MAPEL` dan `BAB` ke `CONFIG`
+  - `window.kuisLogger?.simpan(...)` di `submitExam()` sebelum `_submitToServer`
+
+#### Firestore Index yang Perlu Dibuat
+Untuk `getRankingKuis()` (query dengan `orderBy` dua field), buat composite index:
+- Collection: `hasilKuis`
+- Fields: `kuisId` (Ascending) → `nilai` (Descending) → `waktuDetik` (Ascending)
+- Lihat ANTI-REGRESI.md untuk langkah lengkapnya
+
+---
+
 ## [Sesi 05b] — 2026-05-20
 ### Hotfix: Admin Panel Blank + Alur Login Disatukan
 

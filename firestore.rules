@@ -2,50 +2,56 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // ── Helper: cek apakah request dari admin ──
+    // ── Helper: cek apakah request dari admin ──────────────────────
     function isAdmin() {
       return request.auth != null
         && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
     }
 
-    // ── Helper: cek apakah user sudah approved ──
+    // ── Helper: cek apakah user sudah approved ─────────────────────
     function isApproved() {
       return request.auth != null
         && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.status == 'approved';
     }
 
-    // ── Koleksi: users ──
+    // ── Koleksi: users ─────────────────────────────────────────────
     match /users/{uid} {
-      // User bisa baca dokumen dirinya sendiri
       allow get: if request.auth != null && request.auth.uid == uid;
 
-      // Buat dokumen baru saat daftar — hanya untuk UID sendiri,
-      // status wajib 'pending', role wajib 'user'
       allow create: if request.auth != null
         && request.auth.uid == uid
         && request.resource.data.status == 'pending'
         && request.resource.data.role == 'user';
 
-      // Admin bisa baca satu dokumen manapun
-      allow get: if isAdmin();
-
-      // Admin bisa query/list seluruh koleksi users
-      allow list: if isAdmin();
-
-      // Admin bisa update dan delete
+      allow get:    if isAdmin();
+      allow list:   if isAdmin();
       allow update: if isAdmin();
       allow delete: if isAdmin();
     }
 
-    // ── Koleksi: progress kuis ──
+    // ── Koleksi: progress kuis (sub-koleksi users) ─────────────────
     match /users/{uid}/progress/{kuisId} {
-      // User hanya bisa akses progress miliknya sendiri, dan harus approved
       allow read, write: if request.auth != null
         && request.auth.uid == uid
         && isApproved();
 
-      // Admin bisa baca semua progress
       allow read: if isAdmin();
+    }
+
+    // ── Koleksi: hasilKuis (top-level, untuk log & ranking) ────────
+    // User approved: bisa buat log miliknya sendiri + baca semua
+    // Admin: akses penuh
+    match /hasilKuis/{docId} {
+      // Buat log — uid di dokumen harus cocok dengan uid login
+      allow create: if request.auth != null
+        && isApproved()
+        && request.resource.data.uid == request.auth.uid;
+
+      // Baca semua (untuk tampilkan ranking ke semua user)
+      allow read: if request.auth != null && isApproved();
+
+      // Admin: baca & hapus
+      allow read, delete: if isAdmin();
     }
 
   }
