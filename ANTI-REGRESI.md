@@ -190,3 +190,40 @@ Sebelum mulai coding di sesi baru, pastikan:
 - [ ] Firestore Rules sudah di-publish (cek di Firebase Console)
 - [ ] Semua perubahan sesi sebelumnya sudah di-push ke GitHub
 
+
+---
+
+## 🛡️ AUTH GUARD UNTUK HALAMAN KONTEN
+
+### Cara kerja
+File `assets/js/auth-guard.js` adalah guard universal yang:
+1. Menyembunyikan seluruh halaman (`visibility: hidden`) sebelum auth selesai dicek
+2. Memeriksa login + status `approved` via Firebase
+3. Redirect ke `index.html` jika gagal, atau tampilkan halaman jika berhasil
+
+### Cara pasang di halaman baru
+Tambahkan **tepat setelah tag `<body>`** — sebelum konten apapun:
+```html
+<body>
+  <script src="/belajar-mandiri/assets/js/auth-guard.js"></script>
+  <!-- konten halaman di bawah ini -->
+```
+
+Gunakan **absolute path** `/belajar-mandiri/assets/js/auth-guard.js` — bukan path relatif
+(`../../../assets/js/auth-guard.js`). Absolute path bekerja di semua kedalaman folder.
+
+### ❌ Jangan lakukan ini
+- Jangan pakai path relatif untuk auth-guard.js — akan rusak di kedalaman folder berbeda
+- Jangan taruh `<script>` auth-guard di dalam `<head>` — harus di dalam `<body>`
+- Jangan ubah nama file `auth-guard.js` tanpa update semua `<script src="">` di 60+ file
+- Jangan hapus `document.documentElement.style.visibility = 'hidden'` di auth-guard.js
+  → Tanpa ini konten akan flash sebentar sebelum redirect terjadi
+
+### Halaman yang sudah punya guard (tidak perlu tambah lagi)
+- `home.html` — guard inline di dalam file (bukan pakai auth-guard.js)
+- `admin/index.html` — guard inline + loading overlay
+- Semua file di `kelas-4/` (64 file) — sudah pakai auth-guard.js
+
+### Halaman yang TIDAK perlu guard
+- `index.html` — halaman publik (landing + login)
+- `admin/setup-admin.html` — hanya dijalankan lokal, tidak di-push
