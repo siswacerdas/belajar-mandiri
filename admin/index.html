@@ -290,6 +290,11 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
       <div class="sb-item" data-panel="all-users">
         <span class="ico">👥</span>Semua User
       </div>
+      <div class="sb-section">Aktivitas</div>
+      <div class="sb-item" data-panel="kuis-log">
+        <span class="ico">📊</span>Log Kuis
+        <span class="sb-badge" id="badge-kuis" style="display:none">0</span>
+      </div>
       <div class="sb-section">Sistem</div>
       <div class="sb-item" data-panel="settings">
         <span class="ico">⚙️</span>Pengaturan
@@ -341,6 +346,11 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
             <div class="stat-label">Total User</div>
             <div class="stat-value" id="s-total">—</div>
             <div class="stat-desc">Terdaftar</div>
+          </div>
+          <div class="stat-card" style="border-top-color:#7c3aed">
+            <div class="stat-label" style="color:#7c3aed">Kuis Dikerjakan</div>
+            <div class="stat-value" id="s-kuis" style="color:#7c3aed">—</div>
+            <div class="stat-desc">Total percobaan</div>
           </div>
         </div>
         <div class="info-card" id="dash-info">
@@ -397,6 +407,27 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
         </div>
       </div>
 
+      <!-- ── Log Kuis ── -->
+      <div class="panel" id="panel-kuis-log">
+        <div class="sec-header">
+          <h3>📊 Log Hasil Kuis</h3>
+          <div class="spacer"></div>
+          <button class="btn-refresh" id="btn-kuis-refresh">↻ Refresh</button>
+        </div>
+        <!-- Stat ringkasan -->
+        <div class="stats-grid" id="kuis-stats-grid" style="margin-bottom:18px"></div>
+        <!-- Filter -->
+        <div class="filter-tabs" id="kuis-filter-tabs" style="margin-bottom:14px">
+          <button class="filter-tab aktif" data-kf="semua">Semua Kuis</button>
+          <button class="filter-tab" data-kf="bi">📝 B. Indonesia</button>
+          <button class="filter-tab" data-kf="ipas">🔬 IPAS</button>
+          <button class="filter-tab" data-kf="pp">🇮🇩 Pend. Pancasila</button>
+        </div>
+        <div id="kuis-table-wrap">
+          <div class="state-box"><div class="icon">⌛</div><p>Memuat data…</p></div>
+        </div>
+      </div>
+
     </div>
   </main>
 </div>
@@ -406,11 +437,13 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
 <script type="module">
   import {
     loginAdmin, logout, onAuthChange, getProfilUser,
-    getAllUsers, approveUser, rejectUser
+    getAllUsers, approveUser, rejectUser, getSemuaHasilKuis
   } from '../assets/js/firebase.js';
 
   // ── STATE ────────────────────────────────────────
   let users      = [];
+  let kuisLog    = [];   // cache hasil kuis dari Firestore
+  let kuisFilter = 'semua';
   let userFilter = 'semua';
   let activePanel = 'dashboard';
 
@@ -469,6 +502,7 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
         app.style.display         = 'block';
         overlay.style.display     = 'none';
         await loadUsers();
+        await loadKuisLog();
         goTo('dashboard');
       } catch(e) {
         // getProfilUser gagal — tampilkan dashboard dengan error banner
@@ -477,6 +511,7 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
         app.style.display         = 'block';
         overlay.style.display     = 'none';
         await loadUsers();
+        await loadKuisLog();
         goTo('dashboard');
       }
     } else {
@@ -496,6 +531,7 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
       'dashboard'  : ['Dashboard',             'Ringkasan aktivitas'],
       'pending'    : ['Menunggu Approval',      'Tinjau dan setujui pendaftaran baru'],
       'all-users'  : ['Semua User',             'Kelola akun pengguna'],
+      'kuis-log'   : ['Log Hasil Kuis',         'Riwayat semua kuis yang dikerjakan siswa'],
       'settings'   : ['Pengaturan',             'Konfigurasi sistem'],
     };
     const [t, s] = meta[panel] || ['—',''];
@@ -504,6 +540,7 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
     if (panel === 'dashboard') renderDashboard();
     if (panel === 'pending')   renderPending();
     if (panel === 'all-users') renderUsers();
+    if (panel === 'kuis-log')  renderKuisLog();
   }
   document.querySelectorAll('.sb-item[data-panel]').forEach(el =>
     el.addEventListener('click', () => goTo(el.dataset.panel)));
@@ -535,9 +572,28 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
     document.getElementById('s-approved').textContent = a;
     document.getElementById('s-rejected').textContent = r;
     document.getElementById('s-total').textContent    = users.length;
+    document.getElementById('s-kuis').textContent     = kuisLog.length || '—';
     const badge = document.getElementById('badge-pending');
     badge.textContent   = p;
     badge.style.display = p > 0 ? '' : 'none';
+  }
+
+  async function loadKuisLog() {
+    try {
+      kuisLog = await getSemuaHasilKuis(200);
+      // Update badge dengan jumlah log hari ini
+      const today   = new Date(); today.setHours(0,0,0,0);
+      const harIni  = kuisLog.filter(k => {
+        const ts = k.timestamp?.toDate?.();
+        return ts && ts >= today;
+      }).length;
+      const bKuis   = document.getElementById('badge-kuis');
+      bKuis.textContent   = harIni;
+      bKuis.style.display = harIni > 0 ? '' : 'none';
+      document.getElementById('s-kuis').textContent = kuisLog.length;
+    } catch(e) {
+      console.warn('loadKuisLog gagal:', e.message);
+    }
   }
 
   // ── RENDER: DASHBOARD ────────────────────────────
@@ -591,6 +647,118 @@ body { font-family:'Nunito',sans-serif; background:#f0f4f8; color:var(--ink); mi
     tab.classList.add('aktif');
     userFilter = tab.dataset.s;
     renderUsers();
+  });
+
+  // ── RENDER: LOG KUIS ─────────────────────────────
+  const MAPEL_PREFIX = { bi:'B. Indonesia', ipas:'IPAS', pp:'Pendidikan Pancasila' };
+
+  function renderKuisLog() {
+    const wrap = document.getElementById('kuis-table-wrap');
+
+    // Filter data
+    const data = kuisFilter === 'semua'
+      ? kuisLog
+      : kuisLog.filter(k => {
+          const m = (k.mapel || '').toLowerCase();
+          if (kuisFilter === 'bi')   return m.includes('indonesia');
+          if (kuisFilter === 'ipas') return m.includes('ipas');
+          if (kuisFilter === 'pp')   return m.includes('pancasila');
+          return true;
+        });
+
+    // Stat ringkasan
+    const grid = document.getElementById('kuis-stats-grid');
+    if (data.length > 0) {
+      const rata    = Math.round(data.reduce((s,k)=>s+k.nilai,0) / data.length);
+      const tuntas  = data.filter(k=>k.nilai>=70).length;
+      const unikSiswa = new Set(data.map(k=>k.uid)).size;
+      grid.innerHTML = `
+        <div class="stat-card" style="border-top-color:#7c3aed">
+          <div class="stat-label" style="color:#7c3aed">Total Percobaan</div>
+          <div class="stat-value" style="color:#7c3aed">${data.length}</div>
+          <div class="stat-desc">pada filter ini</div>
+        </div>
+        <div class="stat-card c-ok">
+          <div class="stat-label">Rata-rata Nilai</div>
+          <div class="stat-value">${rata}</div>
+          <div class="stat-desc">dari 100</div>
+        </div>
+        <div class="stat-card" style="border-top-color:#0284c7">
+          <div class="stat-label" style="color:#0284c7">Tuntas (≥70)</div>
+          <div class="stat-value" style="color:#0284c7">${tuntas}</div>
+          <div class="stat-desc">${Math.round(tuntas/data.length*100)}% siswa</div>
+        </div>
+        <div class="stat-card c-primary">
+          <div class="stat-label">Siswa Aktif</div>
+          <div class="stat-value">${unikSiswa}</div>
+          <div class="stat-desc">mengerjakan kuis</div>
+        </div>`;
+      grid.style.display = 'grid';
+    } else {
+      grid.innerHTML = '';
+      grid.style.display = 'none';
+    }
+
+    if (data.length === 0) {
+      wrap.innerHTML = stateBox('📭', 'Belum ada data kuis', 'Siswa belum mengerjakan kuis apapun');
+      return;
+    }
+
+    // Tabel
+    const rows = data.map(k => {
+      const tgl = k.timestamp?.toDate
+        ? k.timestamp.toDate().toLocaleString('id-ID',{
+            day:'2-digit', month:'short', year:'numeric',
+            hour:'2-digit', minute:'2-digit'
+          })
+        : '—';
+      const nilaiCls = k.nilai >= 70 ? 'color:#16a34a;font-weight:800'
+                                      : 'color:#dc2626;font-weight:800';
+      const nilaiIcon = k.nilai >= 70 ? '✅' : '⚠️';
+      const waktu = k.waktuDetik
+        ? `${Math.floor(k.waktuDetik/60)}m ${k.waktuDetik%60}d`
+        : '—';
+      const babShort = (k.bab||'').replace(/^Bab \d+ — /, '');
+
+      return `<tr>
+        <td style="white-space:nowrap;font-size:12px;color:#64748b">${tgl}</td>
+        <td><div class="cell-name">
+          <strong>${esc(k.nama||'—')}</strong>
+          <small>${esc(k.kelas||'')}</small>
+        </div></td>
+        <td style="font-size:12px">${esc(k.mapel||'—')}</td>
+        <td style="font-size:12px;color:#475569">${esc(babShort)}</td>
+        <td style="${nilaiCls}">${nilaiIcon} ${k.nilai}</td>
+        <td style="font-size:12px;color:#64748b">${waktu}</td>
+      </tr>`;
+    }).join('');
+
+    wrap.innerHTML = `<div class="table-wrap"><table class="data-table">
+      <thead><tr>
+        <th>Tanggal</th>
+        <th>Nama Siswa</th>
+        <th>Mapel</th>
+        <th>Bab</th>
+        <th>Nilai</th>
+        <th>Waktu</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  document.getElementById('btn-kuis-refresh').addEventListener('click', async () => {
+    document.getElementById('kuis-table-wrap').innerHTML =
+      '<div class="state-box"><div class="icon">⌛</div><p>Memuat ulang…</p></div>';
+    await loadKuisLog();
+    renderKuisLog();
+  });
+  document.getElementById('kuis-filter-tabs').addEventListener('click', e => {
+    const tab = e.target.closest('.filter-tab');
+    if (!tab) return;
+    document.querySelectorAll('#kuis-filter-tabs .filter-tab').forEach(t=>t.classList.remove('aktif'));
+    tab.classList.add('aktif');
+    kuisFilter = tab.dataset.kf;
+    renderKuisLog();
   });
 
   // ── BUILD TABLE ──────────────────────────────────
