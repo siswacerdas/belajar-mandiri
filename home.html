@@ -262,6 +262,16 @@ a { text-decoration: none; color: inherit; }
   transition: color 0.18s, border-color 0.18s;
 }
 .nav-link:hover { color: var(--primary); border-bottom-color: var(--primary-mid); }
+.nav-link-ranking {
+  color: var(--primary) !important;
+  font-weight: 700 !important;
+  background: var(--primary-lt, #d1fae5);
+  border-radius: 20px;
+  padding: 6px 14px !important;
+  border-bottom: none !important;
+  transition: background 0.18s, transform 0.18s;
+}
+.nav-link-ranking:hover { background: #a7f3d0; transform: translateY(-1px); border-bottom: none !important; }
 
 /* ── PAGE ── */
 .page { max-width: var(--max-w); margin: 0 auto; padding: 60px 28px 100px; }
@@ -439,8 +449,9 @@ a { text-decoration: none; color: inherit; }
   <nav class="navbar">
     <div class="navbar-inner">
       <div class="nav-logo">📚 Belajar Mandiri</div>
-      <a href="#kelas" class="nav-link">Pilih Kelas</a>
-      <a href="#cara"  class="nav-link">Cara Belajar</a>
+      <a href="#kelas"   class="nav-link">Pilih Kelas</a>
+      <a href="#cara"    class="nav-link">Cara Belajar</a>
+      <a href="/belajar-mandiri/ranking.html" class="nav-link nav-link-ranking">🏆 Peringkat</a>
       <div class="nav-user-area">
         <span class="nav-user-nama" id="nav-user-nama">…</span>
         <button class="btn-keluar" id="btn-keluar">Keluar</button>
@@ -509,6 +520,47 @@ a { text-decoration: none; color: inherit; }
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <!-- ── BANNER PAPAN PERINGKAT ─────────────────────── -->
+    <section id="ranking-banner" style="margin-top:36px;">
+      <div style="
+        background: linear-gradient(135deg, #059669 0%, #0284c7 100%);
+        border-radius: 18px;
+        padding: 28px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 20px rgba(5,150,105,.2);
+      ">
+        <div>
+          <div style="font-size:1.05rem; font-weight:800; color:#fff; margin-bottom:5px;">
+            🏆 Papan Peringkat
+          </div>
+          <div style="font-size:.88rem; color:rgba(255,255,255,.85); max-width:420px; line-height:1.5;">
+            Lihat siapa yang punya nilai tertinggi! Ranking diperbarui otomatis setiap kuis selesai dikerjakan.
+          </div>
+        </div>
+        <a href="/belajar-mandiri/ranking.html" style="
+          background: #fff;
+          color: #059669;
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: .92rem;
+          padding: 11px 24px;
+          border-radius: 12px;
+          text-decoration: none;
+          white-space: nowrap;
+          box-shadow: 0 2px 8px rgba(0,0,0,.12);
+          transition: transform 0.18s, box-shadow 0.18s;
+          flex-shrink: 0;
+        " onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 16px rgba(0,0,0,.15)'"
+           onmouseout="this.style.transform='';this.style.boxShadow='0 2px 8px rgba(0,0,0,.12)'">
+          Lihat Peringkat →
+        </a>
       </div>
     </section>
 
