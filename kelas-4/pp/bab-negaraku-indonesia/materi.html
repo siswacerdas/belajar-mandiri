@@ -42,7 +42,28 @@ p{margin-bottom:1rem}
 .sub-card .arrow{margin-top:.85rem;color:var(--accent);font-weight:800;font-size:.85rem;display:block;transition:transform .2s}
 .sub-card:hover .arrow{transform:translateX(4px)}
 footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:1rem}
-</style>
+
+    /* ── Kuis Card ─────────────────────────────────── */
+    .kuis-card{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;
+      text-decoration:none;margin-top:1.5rem;padding:1.4rem 1.75rem;border-radius:16px;
+      color:#fff;flex-wrap:wrap;transition:transform .2s,box-shadow .2s;}
+    .kuis-card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.18);}
+    .kuis-left{display:flex;align-items:center;gap:1rem;}
+    .kuis-icon{width:52px;height:52px;background:rgba(255,255,255,.2);border-radius:14px;
+      display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0;}
+    .kuis-text h3{font-family:'Lora',serif;font-size:1.05rem;font-weight:700;margin-bottom:.2rem;}
+    .kuis-text p{font-size:.83rem;opacity:.88;margin:0;}
+    .kuis-cta{background:#fff;border-radius:50px;padding:.55rem 1.25rem;
+      font-weight:800;font-size:.85rem;white-space:nowrap;}
+    @media(max-width:540px){.kuis-card{flex-direction:column;align-items:flex-start;}}
+
+    /* ── Back Nav ──────────────────────────────────── */
+    .back-nav{margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e8e2d8;}
+    .nav-btn{display:inline-flex;align-items:center;padding:.6rem 1.25rem;border-radius:10px;
+      font-weight:700;font-size:.88rem;text-decoration:none;transition:all .18s;}
+    .nav-btn-outline{background:transparent;color:#555;border:1.5px solid #ccc;}
+    .nav-btn-outline:hover{background:#f0ece4;color:#333;border-color:#aaa;}
+  </style>
 </head>
 <body>
   <!-- Auth Guard: redirect ke index.html jika belum login -->
@@ -119,6 +140,23 @@ footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.
       <span class="arrow">Belajar Sekarang →</span>
     </a>
   </div>
+
+
+    <!-- KUIS BAB -->
+    <a href="kuis.html" class="kuis-card" style="background:linear-gradient(135deg,#8b1c1c,#8b1c1ccc)">
+      <div class="kuis-left">
+        <div class="kuis-icon">🎯</div>
+        <div class="kuis-text">
+          <h3>Kuis Bab 2 — Negaraku Indonesia</h3>
+          <p>Uji pemahamanmu! Tersedia 3 paket: 20, 30, atau 40 soal — pilih sesuai kemampuanmu.</p>
+        </div>
+      </div>
+      <div class="kuis-cta" style="color:#8b1c1c">Mulai Kuis →</div>
+    </a>
+
+    <nav class="back-nav">
+      <a href="../index.html" class="nav-btn nav-btn-outline">← Kembali ke Pendidikan Pancasila</a>
+    </nav>
 
 </main>
 

@@ -73,6 +73,14 @@ a{color:#1a6b72}
 .info-strip p{font-size:.9rem;color:#555;margin:0}
 
 footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.25rem;font-size:.78rem;color:#aaa;margin-top:1rem}
+
+.bab-card-bottom{padding:1rem 1.5rem;background:#faf8f5;display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-top:auto;flex-wrap:wrap}
+.bab-actions{display:flex;gap:.6rem;flex-wrap:wrap}
+.bab-btn{display:inline-flex;align-items:center;gap:.35rem;padding:.5rem 1rem;border-radius:8px;font-size:.82rem;font-weight:700;text-decoration:none;transition:all .18s;white-space:nowrap}
+.bab-btn-materi{background:#f7f3eb;color:#1a6b72;border:1.5px solid #c8c0b0}
+.bab-btn-materi:hover{background:#e8e0d0;color:#1a6b72}
+.bab-btn-kuis{background:#1a6b72;color:#fff;border:1.5px solid #1a6b72}
+.bab-btn-kuis:hover{background:#145559;color:#fff}
 </style>
 </head>
 <body>
@@ -120,7 +128,7 @@ footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.
 
   <div class="bab-cards">
 
-    <a href="bab-jati-diri-kebinekaan/materi.html" class="bab-card bab-1">
+    <div class="bab-card bab-1">
       <div class="bab-card-top">
         <div class="bab-num">Bab 1</div>
         <h2>Membangun Jati Diri dalam Kebinekaan</h2>
@@ -134,11 +142,15 @@ footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.
       </div>
       <div class="bab-card-bottom">
         <span class="sub-count">4 sub-materi</span>
-        <span class="arrow" style="color:#6b3a8a">Mulai Belajar →</span>
+        <div class="bab-actions">
+          <a href="bab-jati-diri-kebinekaan/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
+          <a href="bab-jati-diri-kebinekaan/kuis.html" class="bab-btn bab-btn-kuis">🎯 Kuis</a>
+        </div>
       </div>
-    </a>
+    </div>
 
-    <a href="bab-negaraku-indonesia/materi.html" class="bab-card bab-2">
+    <div class="bab-card bab-2">
+    
       <div class="bab-card-top">
         <div class="bab-num">Bab 2</div>
         <h2>Negaraku Indonesia</h2>
@@ -152,11 +164,15 @@ footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.
       </div>
       <div class="bab-card-bottom">
         <span class="sub-count">5 sub-materi</span>
-        <span class="arrow" style="color:#8b1c1c">Mulai Belajar →</span>
+        <div class="bab-actions">
+          <a href="bab-negaraku-indonesia/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
+          <a href="bab-negaraku-indonesia/kuis.html" class="bab-btn bab-btn-kuis">🎯 Kuis</a>
+        </div>
       </div>
-    </a>
+    </div>
 
-    <a href="bab-gotong-royong/materi.html" class="bab-card bab-3">
+    <div class="bab-card bab-3">
+    
       <div class="bab-card-top">
         <div class="bab-num">Bab 3</div>
         <h2>Pola Hidup Gotong Royong</h2>
@@ -170,9 +186,12 @@ footer{background:#fff;border-top:1px solid #e0dbd1;text-align:center;padding:1.
       </div>
       <div class="bab-card-bottom">
         <span class="sub-count">4 sub-materi</span>
-        <span class="arrow" style="color:#7a5c0a">Mulai Belajar →</span>
+        <div class="bab-actions">
+          <a href="bab-gotong-royong/materi.html" class="bab-btn bab-btn-materi">📖 Materi</a>
+          <a href="bab-gotong-royong/kuis.html" class="bab-btn bab-btn-kuis">🎯 Kuis</a>
+        </div>
       </div>
-    </a>
+    </div>
 
   </div>
 
