@@ -1,0 +1,140 @@
+{
+  "status": "ok",
+  "mapel": "Pendidikan Pancasila",
+  "bab": "Bab 3 — Pola Hidup Gotong Royong",
+  "soal": [
+    {
+      "id": "pp3_001", "sub_materi": "A", "type": "pg", "score": 5,
+      "topik": "Makna Gotong Royong",
+      "stimulus": "Warga RT 05 berencana membuat taman bermain di lahan kosong dekat balai warga. Karena tidak ada dana yang cukup, Pak RT mengajak seluruh warga bergabung. Ada yang menyumbang bibit tanaman, ada yang membantu menggali tanah, ada yang membawa peralatan, dan ada yang memasak untuk para pekerja. Dalam tiga hari, taman bermain berhasil diselesaikan.",
+      "q": "Mengapa warga RT 05 berhasil menyelesaikan taman bermain dalam waktu tiga hari meski tidak memiliki dana yang cukup?",
+      "opt": [
+        "Karena mereka menyewa tenaga ahli yang bekerja cepat dan profesional",
+        "Karena setiap warga berkontribusi sesuai kemampuannya masing-masing",
+        "Karena pemerintah memberikan bantuan dana khusus untuk taman bermain",
+        "Karena pekerjaan membuat taman bermain tidak membutuhkan banyak tenaga"
+      ],
+      "ans": "B",
+      "pembahasan": "Keberhasilan warga RT 05 mencerminkan gotong royong: setiap orang menyumbang sesuai kemampuannya — bibit tanaman, tenaga menggali, peralatan, dan masakan. Bukan karena tenaga ahli (A), bantuan pemerintah (C), atau karena pekerjaannya mudah (D)."
+    },
+    {
+      "id": "pp3_002", "sub_materi": "A", "type": "pg", "score": 5,
+      "topik": "Nilai Kesukarelaan",
+      "stimulus": "Pak Hamid dan Pak Soni adalah tetangga lama. Suatu hari, atap rumah Pak Hamid rusak akibat hujan lebat. Pak Soni segera mengajak warga sekitar membantu memperbaikinya tanpa diminta. Mereka bekerja bersama setengah hari hingga atap selesai. Pak Soni berkata, \"Kita ini tetangga, sudah seharusnya saling bantu.\"",
+      "q": "Nilai gotong royong apa yang paling kuat tercermin dari tindakan Pak Soni dan warga?",
+      "opt": [
+        "Rasa tanggung jawab karena atap tetangga termasuk milik bersama",
+        "Semangat bersaing agar pekerjaan selesai lebih cepat dari tetangga lain",
+        "Kesukarelaan membantu orang lain tanpa mengharapkan imbalan",
+        "Kewajiban membantu karena sudah saling kenal sejak lama"
+      ],
+      "ans": "C",
+      "pembahasan": "Pak Soni membantu tanpa diminta dan tanpa mengharapkan imbalan — inilah nilai kesukarelaan, inti dari gotong royong. Membantu karena kewajiban sosial (D) atau rasa bersaing (B) tidak mencerminkan gotong royong yang sesungguhnya."
+    },
+    {
+      "id": "pp3_003", "sub_materi": "A", "type": "pgk", "score": 10,
+      "topik": "Manfaat Gotong Royong",
+      "stimulus": "",
+      "q": "Manakah manfaat-manfaat yang benar-benar diperoleh dari praktik gotong royong dalam kehidupan masyarakat?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pekerjaan besar dapat diselesaikan lebih cepat karena dikerjakan bersama",
+        "Hubungan dan rasa kebersamaan antarwarga menjadi semakin erat",
+        "Setiap warga mendapatkan upah uang yang lebih besar daripada bekerja sendiri",
+        "Beban yang berat menjadi lebih ringan karena ditanggung bersama-sama",
+        "Ide dan solusi yang dihasilkan menjadi lebih beragam dan kreatif",
+        "Semua warga bebas dari tanggung jawab karena sudah ada orang lain yang membantu"
+      ],
+      "ans": ["A","B","D","E"],
+      "pembahasan": "C salah: gotong royong bersifat sukarela, bukan untuk mendapat upah lebih besar. F salah: gotong royong justru menumbuhkan rasa tanggung jawab masing-masing, bukan menghilangkannya."
+    },
+    {
+      "id": "pp3_004", "sub_materi": "B", "type": "pg", "score": 5,
+      "topik": "Alasan Gotong Royong",
+      "stimulus": "Di sebuah desa terpencil, jalan menuju sekolah rusak parah setelah banjir besar. Orang tua murid khawatir anak-anak mereka celaka saat berangkat sekolah. Pemerintah daerah sudah diberitahu, namun belum ada kepastian kapan perbaikan akan dilakukan. Kepala desa mengumpulkan warga dan mengajak mereka bergotong royong memperbaiki jalan secara swadaya.",
+      "q": "Apa alasan paling tepat mengapa gotong royong merupakan pilihan yang tepat untuk mengatasi masalah ini?",
+      "opt": [
+        "Karena warga desa lebih ahli dari pemerintah dalam hal memperbaiki jalan",
+        "Karena gotong royong tidak memerlukan biaya apapun untuk dilaksanakan",
+        "Karena situasinya mendesak dan warga perlu mengambil tindakan nyata sambil menunggu pemerintah",
+        "Karena memperbaiki jalan adalah kewajiban warga, bukan tanggung jawab pemerintah"
+      ],
+      "ans": "C",
+      "pembahasan": "Kuncinya pada konteks 'belum ada kepastian kapan' sementara keselamatan anak-anak terancam. Gotong royong tepat karena mendesak dan perlu tindakan nyata. Bukan karena warga lebih ahli (A), karena tetap butuh bahan (B), atau bukan tanggung jawab pemerintah (D)."
+    },
+    {
+      "id": "pp3_005", "sub_materi": "B", "type": "pgk-cat", "score": 10,
+      "topik": "Membedakan Gotong Royong",
+      "stimulus": "",
+      "q": "Bacalah setiap kegiatan berikut dengan cermat.\nKategorikan ke dalam kolom yang tepat:\n• Gotong Royong: kegiatan dilakukan bersama secara sukarela untuk kepentingan bersama\n• Bukan Gotong Royong: kegiatan dilakukan sendiri atau untuk kepentingan pribadi",
+      "rows": [
+        "Warga RT membersihkan selokan bersama-sama setiap Minggu pagi",
+        "Pak Ahmad membayar tukang untuk memperbaiki pagar rumahnya sendiri",
+        "Siswa kelas 4 bergotong royong menghias kelas untuk perayaan HUT RI",
+        "Bu Sari pergi ke pasar membeli sayuran untuk keperluan masaknya sendiri",
+        "Pemuda kampung melaksanakan ronda malam bergantian menjaga keamanan lingkungan",
+        "Ibu-ibu PKK memasak bersama untuk acara pernikahan warga yang tidak mampu"
+      ],
+      "cols": ["Gotong Royong", "Bukan Gotong Royong"],
+      "ans": ["Gotong Royong","Bukan Gotong Royong","Gotong Royong","Bukan Gotong Royong","Gotong Royong","Gotong Royong"],
+      "pembahasan": "Kegiatan 1, 3, 5, 6 dilakukan bersama secara sukarela untuk kepentingan bersama = gotong royong. Kegiatan 2 (membayar tukang untuk keperluan pribadi) dan 4 (belanja untuk diri sendiri) bukan gotong royong karena untuk kepentingan pribadi, bukan kolektif sukarela."
+    },
+    {
+      "id": "pp3_006", "sub_materi": "C", "type": "pg", "score": 5,
+      "topik": "Gotong Royong dan Kesejahteraan",
+      "stimulus": "RT Mawar dan RT Melati adalah dua permukiman yang berdekatan. RT Mawar rutin mengadakan kerja bakti setiap dua minggu. Warganya saling kenal dan sering berkumpul. Ketika ada warga yang sakit atau kesusahan, yang lain langsung membantu. RT Melati tidak memiliki kegiatan bersama. Warganya sibuk sendiri-sendiri dan tidak saling kenal dengan baik.",
+      "q": "Apa yang membuat RT Mawar lebih mungkin menjadi lingkungan yang sejahtera dibandingkan RT Melati?",
+      "opt": [
+        "RT Mawar memiliki lebih banyak warga yang kaya dan berpendidikan tinggi",
+        "Kebiasaan bekerja sama dan saling peduli membuat warga lebih kuat menghadapi masalah",
+        "Warga RT Melati tidak mau bergotong royong karena pada dasarnya mereka malas",
+        "Kerja bakti dua minggu sekali membuat lingkungan RT Mawar selalu lebih bersih"
+      ],
+      "ans": "B",
+      "pembahasan": "Yang membuat RT Mawar lebih mungkin sejahtera bukan karena warganya kaya (A — tidak disebutkan), bukan hanya karena bersih (D — hanya satu aspek), dan bukan karena RT Melati 'malas' (C — tidak ada informasi itu). Alasan tepat: kebiasaan saling peduli dan bekerja sama membuat warga lebih kuat menghadapi masalah bersama."
+    },
+    {
+      "id": "pp3_007", "sub_materi": "C", "type": "pgk", "score": 10,
+      "topik": "Ciri Masyarakat Sejahtera",
+      "stimulus": "Pak Lurah mengadakan musyawarah untuk menilai kondisi kampungnya. Ia membacakan daftar kondisi yang ada dan meminta warga menilai mana yang menunjukkan ciri masyarakat sejahtera.",
+      "q": "Manakah kondisi-kondisi di bawah ini yang mencerminkan ciri lingkungan masyarakat yang sejahtera?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Seluruh anak-anak di kampung bersekolah dan tidak ada yang putus sekolah",
+        "Warga hidup damai dan tidak ada konflik yang berlarut-larut",
+        "Setiap warga memiliki rumah mewah dan kendaraan pribadi",
+        "Warga yang sakit atau kesusahan segera mendapat bantuan dari tetangga",
+        "Kebersihan lingkungan terjaga karena warga aktif menjaga bersama-sama",
+        "Semua warga memiliki pekerjaan yang sama dan penghasilan yang benar-benar setara"
+      ],
+      "ans": ["A","B","D","E"],
+      "pembahasan": "C salah: sejahtera bukan berarti semua memiliki barang mewah. F salah: sejahtera tidak mensyaratkan penghasilan sama persis — yang penting kebutuhan terpenuhi dan ada kepedulian antarwarga."
+    },
+    {
+      "id": "pp3_008", "sub_materi": "D", "type": "pg", "score": 5,
+      "topik": "Cara Berbuat Baik yang Tepat",
+      "stimulus": "Dini melihat temannya, Rara, duduk sendirian di sudut kelas saat istirahat. Wajah Rara terlihat sedih. Dini ingin membantu, tetapi bingung harus berbuat apa. Ia memikirkan beberapa pilihan: (1) langsung memeluk Rara dan berkata 'Kamu harus kuat!'; (2) menghampiri Rara dan bertanya pelan 'Rara, kamu baik-baik saja?'; (3) langsung meminta guru menangani masalah Rara; (4) pura-pura tidak melihat agar tidak ikut campur.",
+      "q": "Di antara pilihan yang dipikirkan Dini, mana yang paling mencerminkan cara berbuat baik yang tulus sekaligus menghormati perasaan Rara?",
+      "opt": [
+        "Pilihan 1 — langsung memeluk dan memberi semangat menunjukkan kepedulian yang besar",
+        "Pilihan 2 — menghampiri dan bertanya pelan memberi Rara kesempatan bercerita jika mau",
+        "Pilihan 3 — melibatkan guru adalah cara paling tepat agar masalah cepat terselesaikan",
+        "Pilihan 4 — tidak ikut campur adalah pilihan yang paling menghormati privasi Rara"
+      ],
+      "ans": "B",
+      "pembahasan": "Pilihan 2 paling sesuai prinsip berbuat baik yang tepat: mendekati dengan lembut dan memberi Rara ruang untuk bercerita atau tidak. Pilihan 1 bisa terlalu tiba-tiba. Pilihan 3 belum tentu perlu. Pilihan 4 adalah sikap tidak peduli, bukan berbuat baik."
+    },
+    {
+      "id": "pp3_009", "sub_materi": "D", "type": "pg", "score": 5,
+      "topik": "Perbuatan Baik dan Pancasila",
+      "stimulus": "Di halaman sekolah, Bima melihat seorang adik kelas menjatuhkan buku-bukunya dan tidak ada yang membantu. Bima sedang terburu-buru karena akan ada latihan paskibra. Meski demikian, Bima berhenti sejenak, membantu mengambilkan buku, dan memastikan adik kelas itu baik-baik saja sebelum melanjutkan langkahnya.",
+      "q": "Tindakan Bima paling kuat mencerminkan nilai Pancasila sila keberapa?",
+      "opt": [
+        "Sila ke-1, karena menolong sesama termasuk bentuk ibadah kepada Tuhan Yang Maha Esa",
+        "Sila ke-2, karena menolong orang lain mencerminkan kemanusiaan yang adil dan beradab",
+        "Sila ke-3, karena membantu adik kelas menjaga persatuan di lingkungan sekolah",
+        "Sila ke-5, karena tindakan Bima memastikan semua orang mendapatkan keadilan yang sama"
+      ],
+      "ans": "B",
+      "pembahasan": "Tindakan Bima — menolong orang lain dengan tulus meski sedang sibuk — paling kuat mencerminkan sila ke-2: Kemanusiaan yang Adil dan Beradab. Sila ini mendorong kita memperlakukan sesama manusia dengan penuh kasih sayang dan kepedulian."
+    }
+  ]
+}

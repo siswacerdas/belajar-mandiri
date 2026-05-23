@@ -476,12 +476,6 @@
                 <option value="4C">Kelas 4C</option>
               </select>
             </div>
-            <div class="field">
-              <label>Email Orang Tua <span style="font-weight:400;text-transform:none;">(opsional)</span></label>
-              <input type="email" id="inp-email" placeholder="email.orangtua@gmail.com"/>
-              <div class="hint">Hasil kuis akan dikirimkan ke email ini.</div>
-            </div>
-
             <div id="err-login" style="display:none;color:var(--danger);font-size:.85rem;margin-bottom:12px;font-weight:700;">⚠️ Nama dan kelas wajib diisi!</div>
             <button class="btn btn-primary btn-full" onclick="app.login()">Lanjut ke Petunjuk →</button>
 
@@ -578,9 +572,7 @@
             <p style="color:var(--text-lt);text-align:center;font-size:.9rem;margin-bottom:0;">Jawaban kamu sudah diproses.</p>
             <div id="result-content" style="margin-top:24px;"></div>
             <div style="margin-top:24px;display:flex;gap:10px;flex-wrap:wrap;">
-              <button class="btn btn-outline" style="flex:1" onclick="app.ulangi()">&#x1F504; Latihan Lagi</button>
-              <button class="btn btn-primary" style="flex:1" id="btn-kirim-email" onclick="app.kirimEmailManual()">&#x1F4E7; Kirim ke Email</button>
-            </div>
+              <button class="btn btn-outline" style="flex:1" onclick="app.ulangi()">&#x1F504; Latihan Lagi</button>            </div>
             <button class="btn btn-outline btn-full" style="margin-top:10px;border-color:var(--primary);color:var(--primary);" onclick="app.togglePembahasan()">&#x1F4D6; Lihat Pembahasan Soal</button>
             <div id="pembahasan-section" style="display:none;margin-top:4px;"></div>
             <div style="margin-top:10px;text-align:center;">
@@ -660,8 +652,8 @@
 //  KONFIGURASI
 // ════════════════════════════════════════════════════════════════════════
 const CONFIG = {
-  SCRIPT_URL  : "https://script.google.com/macros/s/AKfycbw2-SZwvPjluAQV-Rc5F5QgU9CQTThCIPovrtojtWff2s3LeW7T3D8EFqZIZwZ5VsIK/exec",
   STORAGE_KEY : "kuis_pp_bab1_sesi",
+  SOAL_URL    : "soal.json",
   FS_KEY      : "kuis_fontsize",
   MAPEL       : 'Pendidikan Pancasila',
   BAB         : 'Bab 1 — Keberagaman Budaya',
@@ -700,9 +692,9 @@ const app = {
 
     // Ambil soal
     try {
-      const res  = await fetch(CONFIG.SCRIPT_URL + "?action=get_soal");
+      const res  = await fetch(CONFIG.SOAL_URL);
       const data = await res.json();
-      if (data.status !== "ok" || !data.soal?.length) throw new Error(data.pesan || "Data soal kosong");
+      if (!data.soal?.length) throw new Error("File soal.json kosong atau tidak ditemukan");
       this.allSoal = data.soal;
       document.getElementById('loading-screen').classList.add('hide');
       document.getElementById('app').style.display = '';
@@ -739,8 +731,7 @@ const app = {
     document.getElementById('err-login').style.display = 'none';
     this.session = {
       nama  : nama,
-      kelas : kelas,
-      emailOrangtua: document.getElementById('inp-email').value.trim()
+      kelas : kelas
     };
     this.showSlide('rules');
   },
@@ -783,7 +774,7 @@ const app = {
 
     this.soal = [...pg, ...pgk, ...kat];
 
-    if (!this.soal.length) { alert('Soal belum tersedia. Periksa bank soal di Google Sheet.'); return; }
+    if (!this.soal.length) { alert('Soal belum tersedia. Periksa file soal.json.'); return; }
 
     this.session.soal      = this.soal;
     this.session.answers   = {};
@@ -1154,9 +1145,6 @@ const app = {
       Math.floor((Date.now() - this.session.startTime) / 1000)
     );
 
-    // Simpan ke Apps Script (non-blocking)
-    this._submitToServer(nilaiAkhir, ringkasan, deskripsi);
-
     // Hapus sesi tersimpan
     try { localStorage.removeItem(CONFIG.STORAGE_KEY); } catch(e) {}
   },
@@ -1309,35 +1297,6 @@ const app = {
     </div>`;
   },
 
-  _submitToServer: function(skor, ringkasan, deskripsi) {
-    fetch(CONFIG.SCRIPT_URL, {
-      method: 'POST', mode: 'no-cors',
-      headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify({
-        action        : 'submit_exam',
-        mapel         : 'Pendidikan Pancasila',
-        bab           : 'Bab 1 — Keberagaman Budaya',
-        nama          : this.session.nama,
-        kelas         : this.session.kelas,
-        emailOrangtua : this.session.emailOrangtua || '',
-        skor          : skor,
-        deskripsi     : deskripsi,
-        jawaban       : this.session.answers,
-        ringkasanNilai: ringkasan
-      })
-    }).catch(() => {});
-  },
-
-  // ── KIRIM EMAIL MANUAL (dari halaman hasil) ──────────────────────────
-  kirimEmailManual: function() {
-    const btn = document.getElementById('btn-kirim-email');
-    btn.disabled = true;
-    btn.textContent = '📤 Mengirim…';
-    const rc = document.getElementById('result-content');
-    const nilai = parseInt(rc.querySelector('.score-big')?.textContent || '0');
-    btn.textContent = '✅ Terkirim!';
-    setTimeout(() => { btn.disabled = false; btn.textContent = '📧 Kirim ke Email'; }, 3000);
-  },
 
   // ── ULANGI KUIS ─────────────────────────────────────────────────────
   ulangi: function() {
@@ -1353,7 +1312,6 @@ const app = {
     document.getElementById('nav-grid').innerHTML = '';
     document.getElementById('inp-nama').value  = '';
     document.getElementById('inp-kelas').value = '';
-    document.getElementById('inp-email').value = '';
     this.showSlide('login');
   },
 

@@ -1,0 +1,4462 @@
+{
+  "status": "ok",
+  "mapel": "IPAS",
+  "bab": "Bab 1 — Daerahku Dulu dan Sekarang",
+  "soal": [
+    {
+      "id": "PG-001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Kerajaan Hindu tertua di Indonesia adalah ...",
+      "opt": [
+        "Majapahit, berdiri di Jawa Timur sekitar abad ke-13",
+        "Kutai, berdiri di Kalimantan Timur sekitar abad ke-4",
+        "Tarumanegara, berdiri di Jawa Barat sekitar abad ke-5",
+        "Mataram Kuno, berdiri di Jawa Tengah sekitar abad ke-8"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-002",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Raja Kutai yang namanya tercantum paling awal dalam Prasasti Yupa sebagai pendiri wangsa kerajaan adalah ...",
+      "opt": [
+        "Mulawarman, raja yang terkenal karena kemurahan hatinya",
+        "Kudungga, nama pertama yang disebutkan sebagai cikal-bakal wangsa",
+        "Aswawarman, raja yang dikenal sebagai pembangun dinasti",
+        "Balaputradewa, raja yang membawa kerajaan ke puncak kejayaan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-003",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Prasasti Yupa dari Kerajaan Kutai ditulis menggunakan huruf Pallawa dan bahasa ...",
+      "opt": [
+        "Melayu Kuno, bahasa kerajaan di kepulauan Nusantara",
+        "Jawa Kuno, bahasa resmi kerajaan-kerajaan di Jawa",
+        "Sansekerta, bahasa keagamaan yang berasal dari India",
+        "Tamil, bahasa yang dibawa oleh pedagang dari India Selatan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-004",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Kerajaan Tarumanegara merupakan kerajaan Hindu yang berdiri di wilayah yang sekarang menjadi Provinsi ...",
+      "opt": [
+        "Jawa Timur, di pesisir timur Pulau Jawa",
+        "Jawa Tengah, di sekitar dataran tinggi Dieng",
+        "Jawa Barat, di sekitar daerah Bogor dan Bekasi",
+        "Sumatera Selatan, di tepi Sungai Musi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-005",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Raja Purnawarman dari Tarumanegara sangat dihormati rakyat karena memerintahkan pembangunan ...",
+      "opt": [
+        "jalan raya yang menghubungkan kota-kota di Jawa Barat",
+        "candi besar sebagai pusat pemujaan dewa-dewa Hindu",
+        "saluran irigasi yang memperlancar pengairan lahan pertanian",
+        "benteng pertahanan untuk melindungi ibu kota dari musuh"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-006",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Perhatikan keterangan berikut: 'Kerajaan Hindu di Jawa Tengah, berdiri sekitar abad ke-8. Dinasti Sanjaya meninggalkan Candi Prambanan.' Kerajaan yang dimaksud adalah ...",
+      "opt": [
+        "Singosari, kerajaan yang berkembang di Jawa Timur",
+        "Majapahit, kerajaan terbesar di seluruh Nusantara",
+        "Mataram Kuno, kerajaan yang berdiri di Jawa Tengah",
+        "Kediri, kerajaan yang terkenal karena karya sastranya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-007",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Sumpah Palapa yang diucapkan Mahapatih Gajah Mada berisi tekad untuk ...",
+      "opt": [
+        "mendirikan kerajaan baru yang lebih besar dari Majapahit",
+        "menyatukan seluruh kepulauan Nusantara di bawah kekuasaan Majapahit",
+        "mengalahkan pedagang-pedagang asing yang datang ke Nusantara",
+        "mengubah seluruh rakyat Majapahit menjadi penganut Hindu taat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-008",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Kerajaan Majapahit mencapai puncak kejayaannya pada masa pemerintahan Raja ...",
+      "opt": [
+        "Ken Arok, raja pendiri yang memperluas wilayah kekuasaan",
+        "Kertanegara, raja yang berani menghadapi ancaman Mongol",
+        "Hayam Wuruk, raja yang didampingi Mahapatih Gajah Mada",
+        "Raden Wijaya, raja pertama Majapahit yang bijaksana"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-009",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Kerajaan Sriwijaya disebut kerajaan maritim karena kekuatannya sangat bergantung pada ...",
+      "opt": [
+        "tentara darat yang sangat besar dan terlatih",
+        "armada laut yang kuat dan penguasaan jalur perdagangan laut",
+        "jumlah rakyat yang sangat banyak di pedalaman Sumatera",
+        "kekayaan hutan yang menghasilkan kayu dan rempah-rempah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-010",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Kerajaan Sriwijaya berpusat di wilayah yang sekarang menjadi Provinsi ...",
+      "opt": [
+        "Aceh, di ujung paling barat Pulau Sumatera",
+        "Riau, di bagian tengah pesisir timur Sumatera",
+        "Sumatera Selatan, di sekitar kota Palembang",
+        "Jambi, di sekitar muara Sungai Batanghari"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-011",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Candi Borobudur yang merupakan peninggalan agama Buddha dibangun oleh Dinasti ...",
+      "opt": [
+        "Sanjaya, dinasti Hindu yang berkuasa di Jawa Tengah",
+        "Syailendra, dinasti Buddha yang berkuasa di Jawa Tengah",
+        "Isyana, dinasti yang kemudian berkuasa di Jawa Timur",
+        "Rajasa, dinasti yang mendirikan Kerajaan Singosari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-012",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Sriwijaya berperan penting dalam penyebaran agama Buddha karena ...",
+      "opt": [
+        "raja-rajanya selalu melakukan perjalanan ke India untuk belajar agama",
+        "menjadi pusat pendidikan agama Buddha yang dikunjungi banyak pelajar asing",
+        "membangun candi-candi Buddha terbesar di seluruh penjuru dunia",
+        "mewajibkan semua pedagang yang singgah untuk mempelajari ajaran Buddha"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-013",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Bahasa Melayu Kuno Sriwijaya memiliki kedudukan penting bagi Indonesia karena ...",
+      "opt": [
+        "bahasa Melayu Kuno langsung berubah menjadi bahasa Indonesia tanpa berkembang",
+        "bahasa Melayu Sriwijaya berkembang dan menjadi cikal bakal Bahasa Indonesia",
+        "seluruh kosakata bahasa Indonesia diadaptasi langsung dari Melayu Sriwijaya",
+        "raja Sriwijaya pernah menetapkan bahasa Melayu sebagai bahasa pemersatu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-014",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Candi Borobudur memiliki bentuk bertingkat seperti bukit. Dalam ajaran Buddha, bentuk bertingkat itu melambangkan ...",
+      "opt": [
+        "kekayaan dan kemewahan Dinasti Syailendra yang membangunnya",
+        "tingkatan perjalanan jiwa manusia menuju pencerahan sempurna",
+        "jumlah wilayah yang berhasil ditaklukkan oleh Dinasti Syailendra",
+        "kekuatan militer kerajaan yang makin meningkat setiap generasi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-015",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Raja Balaputradewa yang memimpin Sriwijaya menuju kejayaan berasal dari Dinasti yang sebelumnya berkuasa di Jawa Tengah, yaitu Dinasti ...",
+      "opt": [
+        "Syailendra, yang juga membangun Candi Borobudur",
+        "Sanjaya, yang membangun Candi Prambanan",
+        "Isyana, yang berkuasa setelah runtuhnya Mataram Kuno",
+        "Rajasa, yang mendirikan Kerajaan Singosari di Jawa Timur"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-016",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Kesultanan Islam pertama di Indonesia yang berdiri di wilayah Aceh adalah ...",
+      "opt": [
+        "Kesultanan Demak, didirikan oleh Raden Patah",
+        "Kesultanan Banten, didirikan oleh Maulana Hasanuddin",
+        "Samudera Pasai, didirikan oleh Sultan Malik al-Saleh",
+        "Kesultanan Ternate, didirikan oleh Baab Mashur Malamo"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-017",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Kesultanan Islam pertama di Pulau Jawa yang didirikan oleh Raden Patah adalah ...",
+      "opt": [
+        "Kesultanan Banten, berpusat di ujung barat Pulau Jawa",
+        "Kesultanan Demak, berpusat di pantai utara Jawa Tengah",
+        "Kesultanan Mataram, berpusat di pedalaman Jawa Tengah",
+        "Kesultanan Cirebon, berpusat di pantai utara Jawa Barat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-018",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Kesultanan Banten di Jawa Barat didirikan oleh tokoh penyebar Islam bernama ...",
+      "opt": [
+        "Raden Patah, putra raja Majapahit yang memeluk Islam",
+        "Maulana Hasanuddin, putra Sunan Gunung Jati",
+        "Sultan Agung, raja yang pernah menyerang VOC di Batavia",
+        "Iskandar Muda, sultan yang memperluas wilayah Aceh"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-019",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Kesultanan Ternate dan Tidore di Maluku sangat dikenal dunia karena menjadi pusat ...",
+      "opt": [
+        "produksi kain sutra terbaik yang diperdagangkan ke seluruh Asia",
+        "perdagangan rempah-rempah cengkeh dan pala ke berbagai penjuru dunia",
+        "penyebaran agama Islam pertama di kawasan Asia Tenggara",
+        "armada militer terkuat di kawasan Indonesia bagian timur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-020",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Sultan Agung dari Mataram Islam terkenal dalam sejarah karena ...",
+      "opt": [
+        "membangun masjid terbesar di Jawa sebagai pusat penyebaran Islam",
+        "pernah menyerang kedudukan VOC Belanda di Batavia sebanyak dua kali",
+        "berhasil menyatukan semua kerajaan Islam di seluruh Nusantara",
+        "membuat perjanjian damai dengan Belanda demi kesejahteraan rakyat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-021",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Cara masuknya Islam ke Nusantara yang paling berpengaruh dan berlangsung secara damai adalah melalui ...",
+      "opt": [
+        "penaklukan militer dari kerajaan-kerajaan Islam di Arab",
+        "jalur perdagangan dan pernikahan dengan para pedagang Muslim",
+        "pengiriman pasukan dakwah khusus dari Mekah ke seluruh Nusantara",
+        "perintah raja-raja Hindu yang berpindah memeluk agama Islam"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-022",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Sultan Hasanuddin dari Gowa-Tallo dijuluki 'Ayam Jantan dari Timur' karena ...",
+      "opt": [
+        "keberanian dan semangat pantang menyerahnya melawan kekuatan VOC Belanda",
+        "kemampuannya membangun armada laut terkuat di seluruh Nusantara",
+        "keberhasilannya menyebarkan Islam ke seluruh wilayah Indonesia timur",
+        "kecerdasannya dalam berdiplomasi dengan kerajaan-kerajaan tetangga"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-023",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Peninggalan Kerajaan Kutai berupa tugu batu bertulisan yang menjadi sumber sejarah tertua di Indonesia disebut ...",
+      "opt": [
+        "Prasasti Ciaruteun, ditemukan di dekat sungai di Bogor",
+        "Prasasti Tugu, berisi tentang pembangunan saluran irigasi",
+        "Prasasti Yupa, berisi silsilah raja dan upacara keagamaan",
+        "Prasasti Kebon Kopi, berisi jejak telapak kaki gajah raja"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-024",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Prasasti Ciaruteun yang ditemukan di Bogor, Jawa Barat adalah peninggalan Kerajaan ...",
+      "opt": [
+        "Mataram Kuno yang berpusat di Jawa Tengah",
+        "Majapahit yang berpusat di Jawa Timur",
+        "Sriwijaya yang berpusat di Sumatera Selatan",
+        "Tarumanegara yang berpusat di Jawa Barat"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-025",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Candi Borobudur yang merupakan candi Buddha terbesar di dunia terletak di Kabupaten ...",
+      "opt": [
+        "Prambanan, di perbatasan Jawa Tengah dan Yogyakarta",
+        "Magelang, di Jawa Tengah",
+        "Malang, di Jawa Timur",
+        "Banyuwangi, di ujung timur Pulau Jawa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-026",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Kitab Negarakertagama yang ditulis oleh Mpu Prapanca berisi tentang ...",
+      "opt": [
+        "perjalanan peziarah Buddha dari Nusantara ke India",
+        "kisah perang antara Majapahit dan pasukan Mongol",
+        "keadaan Kerajaan Majapahit beserta daftar wilayah kekuasaannya",
+        "ajaran agama Hindu yang dianut raja-raja Kerajaan Kutai"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-027",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Semboyan 'Bhinneka Tunggal Ika' yang menjadi dasar persatuan Indonesia berasal dari Kitab ...",
+      "opt": [
+        "Negarakertagama karya Mpu Prapanca dari Majapahit",
+        "Sutasoma karya Mpu Tantular dari Majapahit",
+        "Pararaton yang berisi riwayat raja-raja Singosari",
+        "Ramayana yang merupakan cerita epik dari India kuno"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-028",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Candi Prambanan dibangun untuk memuliakan tiga dewa utama Hindu (Trimurti), yaitu ...",
+      "opt": [
+        "Wisnu, Brahma, dan Indra, para dewa penjaga alam semesta",
+        "Brahma, Wisnu, dan Siwa, dewa pencipta, penjaga, dan perusak",
+        "Ganesha, Siwa, dan Krisna, dewa ilmu dan kebijaksanaan",
+        "Rama, Wisnu, dan Siwa, para dewa kepahlawanan dan kebaikan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-029",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Masjid Agung Demak merupakan peninggalan Kesultanan Demak yang istimewa karena ...",
+      "opt": [
+        "dibangun menggunakan batu pualam yang didatangkan dari India",
+        "menjadi salah satu masjid tertua dan paling bersejarah di Pulau Jawa",
+        "memiliki menara setinggi 100 meter yang terlihat dari kejauhan",
+        "dibangun oleh seluruh Wali Songo dan selesai hanya dalam satu malam"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-030",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Gajah Mada adalah tokoh penting Kerajaan Majapahit yang menjabat sebagai ...",
+      "opt": [
+        "raja tertinggi yang memerintah dengan kekuasaan penuh",
+        "pendeta agung yang menjaga tradisi Hindu di lingkungan istana",
+        "mahapatih (perdana menteri) yang setia mendampingi raja",
+        "panglima perang yang selalu berada di barisan terdepan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-031",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Raja Mulawarman dari Kerajaan Kutai terkenal karena kedermawanannya, yaitu ...",
+      "opt": [
+        "membangun irigasi besar untuk mengairi sawah-sawah rakyat",
+        "memberikan 20.000 ekor sapi kepada para Brahmana sebagai sedekah",
+        "mengalahkan kerajaan-kerajaan tetangga yang lebih besar",
+        "membangun armada laut yang menguasai perairan Kalimantan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-032",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Raja Purnawarman dari Tarumanegara memiliki jasa besar bagi rakyat Jawa Barat, yaitu ...",
+      "opt": [
+        "membawa agama Hindu dari India dan menyebarkannya di Jawa",
+        "membangun saluran irigasi sepanjang 11 km untuk mengairi sawah penduduk",
+        "mendirikan candi-candi megah yang menjadi warisan budaya dunia",
+        "mengembangkan perdagangan internasional dengan kerajaan-kerajaan asing"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-033",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Tokoh Wali Songo yang mendirikan Kesultanan Cirebon dan berjasa menyebarkan Islam di Jawa Barat adalah ...",
+      "opt": [
+        "Sunan Kalijaga, yang menyebarkan Islam melalui kesenian wayang",
+        "Sunan Giri, yang menyebarkan Islam melalui musik dan lagu anak-anak",
+        "Sunan Bonang, yang mengajarkan Islam melalui alat musik rebab",
+        "Sunan Gunung Jati, yang mendirikan Kesultanan Cirebon"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-034",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Raden Patah, pendiri Kesultanan Demak, memiliki latar belakang unik karena ...",
+      "opt": [
+        "berasal dari keluarga pedagang Arab yang menetap di Jawa",
+        "merupakan putra dari raja Majapahit yang kemudian memeluk Islam",
+        "pernah belajar selama 20 tahun di Mekah sebelum kembali ke Jawa",
+        "berhasil memenangkan perebutan takhta dari saudaranya sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-035",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Pada masa pemerintahan Hayam Wuruk bersama Gajah Mada, Majapahit berhasil ...",
+      "opt": [
+        "membangun jalur perdagangan ke seluruh benua Asia dan Eropa",
+        "menyatukan hampir seluruh kepulauan Nusantara di bawah satu kekuasaan",
+        "mengalahkan pasukan Mongol yang menyerang dari Tiongkok",
+        "menyebarkan agama Hindu ke seluruh penjuru dunia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-036",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Kerajaan Sriwijaya dan Dinasti Syailendra dapat dikelompokkan ke dalam kerajaan bercorak ...",
+      "opt": [
+        "Hindu, karena raja-rajanya menyembah dewa-dewa Hindu",
+        "Buddha, karena raja-rajanya menganut ajaran agama Buddha",
+        "Islam, karena sudah mendapat pengaruh dari pedagang Arab",
+        "Animisme, karena masih percaya pada kekuatan roh leluhur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-037",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Kerajaan-kerajaan yang semuanya termasuk kerajaan bercorak Hindu adalah ...",
+      "opt": [
+        "Kutai, Sriwijaya, dan Syailendra",
+        "Kutai, Tarumanegara, dan Majapahit",
+        "Demak, Banten, dan Mataram Islam",
+        "Sriwijaya, Syailendra, dan Mataram Kuno"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-038",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Mataram Kuno disebut kerajaan Hindu-Buddha karena ...",
+      "opt": [
+        "raja-rajanya secara bergantian memeluk Hindu kemudian Buddha",
+        "memiliki dua dinasti besar: Sanjaya (Hindu) dan Syailendra (Buddha)",
+        "wilayahnya dibagi dua antara penganut Hindu dan penganut Buddha",
+        "agama Hindu dan Buddha dicampur menjadi satu kepercayaan baru"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-039",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Di antara kerajaan-kerajaan berikut, yang termasuk kesultanan Islam di Jawa Barat adalah ...",
+      "opt": [
+        "Kesultanan Demak dan Mataram",
+        "Kesultanan Banten dan Cirebon",
+        "Kesultanan Mataram dan Ternate",
+        "Kesultanan Ternate dan Tidore"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-040",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Kerajaan di Nusantara yang terkenal sekaligus sebagai pusat perdagangan rempah-rempah dan penyebaran Islam adalah ...",
+      "opt": [
+        "Kutai dan Tarumanegara di Kalimantan dan Jawa",
+        "Ternate, Tidore, dan Gowa-Tallo di kawasan Indonesia Timur",
+        "Majapahit dan Singosari di Jawa Timur",
+        "Sriwijaya dan Mataram Kuno di Sumatera dan Jawa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-041",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Perhatikan daftar kerajaan berikut: (1) Kutai (2) Demak (3) Sriwijaya (4) Ternate (5) Tarumanegara. Yang termasuk kerajaan/kesultanan bercorak Islam adalah nomor ...",
+      "opt": [
+        "(1) dan (3), keduanya kerajaan di luar Pulau Jawa",
+        "(2) dan (4), keduanya kesultanan yang menyebarkan Islam",
+        "(1) dan (5), keduanya kerajaan Hindu tertua di Indonesia",
+        "(3) dan (4), keduanya kerajaan yang berpengaruh di bidang maritim"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-042",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Salah satu penyebab utama kemunduran Kerajaan Majapahit adalah ...",
+      "opt": [
+        "serangan besar-besaran dari kerajaan-kerajaan Eropa yang bersenjata",
+        "perang saudara memperebutkan takhta yang melemahkan kekuatan kerajaan",
+        "bencana alam dahsyat yang menghancurkan seluruh ibu kota kerajaan",
+        "pemberontakan rakyat yang tidak puas terhadap raja yang zalim"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-043",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Posisi Indonesia diapit oleh dua samudra besar, yaitu ...",
+      "opt": [
+        "Samudra Arktik di utara dan Samudra Hindia di selatan",
+        "Samudra Hindia di barat/selatan dan Samudra Pasifik di timur/utara",
+        "Samudra Atlantik di barat dan Samudra Pasifik di timur",
+        "Samudra Pasifik di utara dan Samudra Antartika di selatan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-044",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Indonesia memiliki gunung berapi aktif yang sangat banyak karena berada di kawasan ...",
+      "opt": [
+        "Garis Khatulistiwa yang membagi bumi menjadi dua bagian",
+        "Cincin Api (Ring of Fire) tempat bertemunya lempeng-lempeng bumi",
+        "Zona Tropis yang mendapat sinar matahari sepanjang tahun",
+        "Kawasan Monsun yang mempengaruhi pola curah hujan di Asia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-045",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Danau Toba di Sumatera Utara terbentuk akibat ...",
+      "opt": [
+        "erosi tanah oleh aliran sungai besar selama ribuan tahun",
+        "letusan supervulkan yang membentuk kaldera raksasa, lalu terisi air",
+        "pergerakan lempeng bumi yang menciptakan cekungan besar",
+        "bendungan alam dari longsoran batu yang menghentikan aliran sungai"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-046",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Pulau Jawa merupakan pulau yang paling padat penduduknya di Indonesia. Salah satu alasan utamanya adalah ...",
+      "opt": [
+        "luasnya paling besar dibandingkan pulau-pulau lain di Indonesia",
+        "tanahnya sangat subur karena banyak terdapat gunung berapi aktif",
+        "terletak di dekat khatulistiwa sehingga cuacanya paling nyaman",
+        "dekat dengan laut sehingga mudah mendapat ikan dan hasil laut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-047",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Dataran tinggi di Indonesia umumnya dimanfaatkan oleh penduduk sebagai ...",
+      "opt": [
+        "kawasan industri dan pabrik-pabrik besar",
+        "lahan perkebunan teh, kopi, dan sayuran",
+        "kawasan perdagangan dan pelabuhan laut",
+        "daerah wisata pantai dan olahraga air"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-048",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Indonesia dikenal sebagai negara kepulauan terbesar di dunia. Artinya, Indonesia ...",
+      "opt": [
+        "memiliki satu pulau besar yang sangat luas",
+        "terdiri atas lebih dari 17.000 pulau yang tersebar di lautan",
+        "dikelilingi oleh lautan yang dalam di semua sisinya",
+        "memiliki garis pantai yang paling panjang di Asia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-049",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Sungai-sungai besar di Indonesia umumnya terdapat di pulau-pulau besar seperti ...",
+      "opt": [
+        "Bali, Lombok, dan Flores",
+        "Kalimantan, Sumatera, dan Papua",
+        "Jawa, Sulawesi, dan Madura",
+        "Nusa Tenggara, Maluku, dan Bali"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-050",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Indonesia memiliki iklim tropis sepanjang tahun. Hal ini disebabkan oleh posisi Indonesia yang ...",
+      "opt": [
+        "dikelilingi oleh lautan yang sangat luas di semua sisi",
+        "terletak di sekitar garis khatulistiwa",
+        "memiliki banyak pegunungan yang menangkap awan hujan",
+        "berbatasan langsung dengan benua Asia dan Australia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-051",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Kawasan pantai di Indonesia sangat bermanfaat bagi penduduk setempat. Salah satu manfaatnya adalah ...",
+      "opt": [
+        "tempat bercocok tanam padi dan palawija",
+        "sumber mata pencaharian nelayan dan tambak garam",
+        "lokasi pertambangan batu bara dan minyak bumi",
+        "kawasan hutan produksi yang menghasilkan kayu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-052",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Gunung Semeru di Jawa Timur merupakan gunung tertinggi di Pulau Jawa. Jenis gunung ini termasuk gunung ...",
+      "opt": [
+        "berapi aktif yang masih sering mengeluarkan lava dan abu",
+        "berapi mati yang sudah tidak aktif sejak ratusan tahun lalu",
+        "batuan keras hasil pergerakan lempeng tektonik bumi",
+        "es yang puncaknya tertutup salju sepanjang tahun"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-053",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Flora khas Indonesia bagian barat seperti Jawa dan Sumatera termasuk dalam kelompok flora ...",
+      "opt": [
+        "Australis, karena terpengaruh iklim dari benua Australia",
+        "Asiatis, karena memiliki kemiripan dengan tumbuhan di Asia",
+        "Peralihan, karena berada di antara dua kawasan berbeda",
+        "Endemik, karena hanya ditemukan di Indonesia saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-054",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Bunga Rafflesia Arnoldii merupakan bunga terbesar di dunia yang hanya tumbuh di wilayah ...",
+      "opt": [
+        "hutan Papua dan kepulauan Maluku",
+        "hutan Sumatera dan sebagian Kalimantan",
+        "hutan Jawa Barat dan Jawa Tengah",
+        "hutan Sulawesi dan Nusa Tenggara"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-055",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Hutan hujan tropis Indonesia sangat kaya akan keanekaragaman hayati karena ...",
+      "opt": [
+        "banyak pohon yang sengaja ditanam oleh manusia untuk keperluan industri",
+        "mendapat curah hujan tinggi dan sinar matahari sepanjang tahun",
+        "terletak di sekitar pegunungan yang udaranya sejuk dan lembab",
+        "dilindungi oleh pemerintah sehingga tidak ada yang menebangnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-056",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Fauna endemik Pulau Komodo, yaitu Komodo, termasuk jenis binatang ...",
+      "opt": [
+        "mamalia besar yang mirip dengan hewan di Afrika",
+        "reptil terbesar di dunia yang hanya ada di Indonesia",
+        "amfibi unik yang hidup di air dan di darat",
+        "burung langka yang tidak bisa terbang tinggi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-057",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Orang Utan merupakan hewan endemik yang hanya ditemukan di dua pulau di Indonesia, yaitu ...",
+      "opt": [
+        "Jawa dan Bali",
+        "Kalimantan dan Sumatera",
+        "Sulawesi dan Papua",
+        "Nusa Tenggara dan Maluku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-058",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Salah satu contoh fauna yang khas daerah peralihan (Sulawesi dan sekitarnya) adalah ...",
+      "opt": [
+        "harimau Sumatera, hewan pemangsa terbesar di Sumatera",
+        "anoa, kerbau kerdil yang hanya terdapat di Sulawesi",
+        "cenderawasih, burung berbulu indah dari Papua",
+        "orangutan, kera besar yang terdapat di Kalimantan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-059",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Pohon jati banyak tumbuh di Jawa karena ...",
+      "opt": [
+        "pulau Jawa memiliki curah hujan tertinggi sepanjang tahun",
+        "Jawa memiliki musim kemarau yang cukup panjang, cocok untuk jati",
+        "tanah Jawa mengandung mineral langka yang dibutuhkan pohon jati",
+        "pemerintah mewajibkan penanaman jati di semua daerah di Jawa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-060",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Kawasan Indonesia bagian timur seperti Papua dikenal memiliki fauna yang mirip dengan Australia. Contoh hewan tersebut adalah ...",
+      "opt": [
+        "harimau dan gajah, hewan besar berukuran raksasa",
+        "kanguru pohon dan burung cenderawasih, fauna khas Papua",
+        "orang utan dan bekantan, primata yang banyak di Kalimantan",
+        "anoa dan babirusa, hewan endemik khas Sulawesi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-061",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Garis Wallace adalah garis khayal yang memisahkan ...",
+      "opt": [
+        "fauna Asiatis di timur dari fauna Australis di barat",
+        "fauna Asiatis di barat dari fauna Peralihan di timur",
+        "flora tropis di utara dari flora subtropis di selatan",
+        "wilayah Indonesia bagian barat dari wilayah Indonesia Timur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-062",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Garis Weber membatasi ...",
+      "opt": [
+        "wilayah fauna Asiatis dari wilayah fauna Peralihan",
+        "wilayah fauna Peralihan dari wilayah fauna Australis",
+        "wilayah flora Asia Tenggara dari flora Asia Selatan",
+        "wilayah Indonesia bagian barat dari Indonesia bagian timur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-063",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Garis Wallace membujur melewati antara pulau Bali dan Lombok, serta antara Kalimantan dan ...",
+      "opt": [
+        "Sulawesi, memisahkan fauna Asiatis dari fauna Peralihan",
+        "Papua, memisahkan fauna Peralihan dari fauna Australis",
+        "Jawa, memisahkan fauna barat dari fauna timur",
+        "Sumatera, memisahkan fauna utara dari fauna selatan"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-064",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Alfred Russel Wallace menetapkan garis yang kini dikenal sebagai Garis Wallace berdasarkan penemuannya bahwa ...",
+      "opt": [
+        "curah hujan di sisi barat dan timur garis itu sangat berbeda",
+        "jenis-jenis hewan di sisi barat dan timur garis itu berbeda jauh",
+        "jenis tanah di sisi barat dan timur garis itu sangat berbeda",
+        "suhu udara di sisi barat dan timur garis itu berbeda jauh"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-065",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Fauna di wilayah Peralihan (antara Garis Wallace dan Weber) bersifat unik karena ...",
+      "opt": [
+        "sama persis dengan fauna di Afrika yang belum pernah ditemukan",
+        "campuran antara ciri fauna Asiatis dan ciri fauna Australis",
+        "seluruhnya merupakan hewan laut yang tidak ditemukan di darat",
+        "hanya terdiri dari serangga dan reptil yang sangat langka"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-066",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Fauna Australis di Indonesia bagian timur memiliki ciri khas ...",
+      "opt": [
+        "tubuh besar, banyak gigi, pemangsa, dan berkulit tebal",
+        "banyak jenis marsupial (berkantung) dan burung berbulu indah",
+        "seluruhnya merupakan mamalia berukuran sangat besar",
+        "tidak dijumpai reptil dan mayoritas adalah primata"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-067",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Berdasarkan pembagian zona fauna, harimau Sumatera termasuk kelompok fauna ...",
+      "opt": [
+        "Australis, karena mirip dengan hewan di benua Australia",
+        "Peralihan, karena berada di antara dua zona fauna besar",
+        "Asiatis, karena memiliki kesamaan dengan fauna di Asia",
+        "Endemik, karena tidak memiliki kerabat di mana pun"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-068",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Komodo yang hidup di kepulauan Nusa Tenggara, berdasarkan garis persebaran fauna, termasuk kelompok fauna ...",
+      "opt": [
+        "Asiatis karena masih berada di sisi barat Garis Wallace",
+        "Peralihan karena berada di antara Garis Wallace dan Weber",
+        "Australis karena berada di sisi timur Garis Weber",
+        "Endemik karena hanya ada di Indonesia dan tidak ada di mana pun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-069",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Sumber daya alam yang dapat diperbarui adalah sumber daya alam yang ...",
+      "opt": [
+        "tidak dapat habis karena terbentuk di dalam perut bumi",
+        "dapat pulih kembali secara alami jika dikelola dengan bijak",
+        "diproduksi oleh manusia menggunakan teknologi canggih",
+        "hanya dapat digunakan satu kali lalu tidak bisa dipakai lagi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-070",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Contoh sumber daya alam yang tidak dapat diperbarui adalah ...",
+      "opt": [
+        "air sungai, udara bersih, dan sinar matahari",
+        "pohon kayu, ikan laut, dan tanaman pangan",
+        "batu bara, minyak bumi, dan gas alam",
+        "angin, gelombang laut, dan panas bumi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-071",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Matahari dan angin termasuk sumber daya alam yang dapat diperbarui karena ...",
+      "opt": [
+        "manusia dapat menciptakannya menggunakan teknologi modern",
+        "jumlahnya tidak terbatas dan tersedia secara alami setiap hari",
+        "mudah disimpan dalam wadah khusus untuk digunakan sewaktu-waktu",
+        "dapat ditemukan di semua negara tanpa perlu penambangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-072",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Hutan Indonesia sangat berharga karena memiliki banyak fungsi. Salah satu fungsi hutan bagi lingkungan adalah ...",
+      "opt": [
+        "menghasilkan devisa negara dari hasil penjualan kayu ke luar negeri",
+        "menyerap karbon dioksida dan menghasilkan oksigen untuk kehidupan",
+        "menyediakan lahan pertanian bagi penduduk yang tidak memiliki sawah",
+        "menghasilkan mineral berharga seperti emas dan batubara"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-073",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Tanah yang subur di sekitar gunung berapi sangat cocok untuk pertanian karena ...",
+      "opt": [
+        "suhu di sekitar gunung berapi lebih dingin dari daerah lain",
+        "abu vulkanik yang mengandung mineral menyuburkan tanah",
+        "curah hujan di sekitar gunung berapi lebih tinggi",
+        "tidak ada angin kencang yang merusak tanaman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-074",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Indonesia merupakan salah satu penghasil batu bara terbesar di dunia. Batu bara merupakan sumber daya alam yang terbentuk dari ...",
+      "opt": [
+        "sisa-sisa organisme laut yang tertimbun di dasar samudra",
+        "sisa tumbuhan purba yang terkubur dan tertekan jutaan tahun",
+        "mineral besi dan logam yang terdapat di dalam kerak bumi",
+        "lava gunung berapi yang mengeras dan berubah wujud"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-075",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Laut Indonesia sangat kaya akan sumber daya alam. Contoh sumber daya alam laut yang dapat diperbarui adalah ...",
+      "opt": [
+        "minyak bumi yang terdapat di bawah dasar laut",
+        "ikan, rumput laut, dan terumbu karang",
+        "gas alam yang tersimpan di lapisan batuan bawah laut",
+        "pasir, kerikil, dan mineral yang ditambang dari dasar laut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-076",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Pemanfaatan sumber daya alam yang bijak berarti ...",
+      "opt": [
+        "menggunakan sebanyak mungkin selama masih ada",
+        "menggunakan sesuai kebutuhan dan menjaga kelestariannya",
+        "tidak menggunakan sama sekali agar tetap terjaga",
+        "menggunakan hanya untuk kepentingan industri besar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-077",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Daerah yang dikenal sebagai penghasil minyak bumi terbesar di Indonesia adalah ...",
+      "opt": [
+        "Jawa Tengah, Yogyakarta, dan Bali",
+        "Riau, Kalimantan Timur, dan Papua",
+        "Sulawesi, Maluku, dan Nusa Tenggara",
+        "Jawa Barat, Jawa Timur, dan Sumatera Selatan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-078",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Provinsi Jawa Barat dikenal sebagai daerah penghasil teh dan kina karena ...",
+      "opt": [
+        "memiliki sungai-sungai besar yang mengairi perkebunan",
+        "memiliki dataran tinggi dengan udara sejuk yang cocok untuk perkebunan",
+        "berbatasan langsung dengan laut sehingga udaranya lembab",
+        "tanahnya mengandung mineral khusus yang tidak ada di daerah lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-079",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Hasil tambang emas terbesar di Indonesia terdapat di Provinsi ...",
+      "opt": [
+        "Kalimantan Selatan, penghasil batubara terbesar",
+        "Papua, tempat tambang emas Grasberg yang terkenal",
+        "Jawa Barat, daerah Banten dan Cilegon",
+        "Sulawesi Utara, daerah Manado dan sekitarnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-080",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Indonesia dikenal sebagai salah satu penghasil kelapa sawit terbesar di dunia. Perkebunan kelapa sawit paling luas terdapat di ...",
+      "opt": [
+        "Papua dan Maluku di Indonesia bagian timur",
+        "Sumatera dan Kalimantan di Indonesia bagian barat",
+        "Jawa dan Bali di Indonesia bagian tengah",
+        "Sulawesi dan Nusa Tenggara di Indonesia bagian tengah-timur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-081",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Kawasan pesisir Jawa Barat seperti Indramayu dan Subang dikenal sebagai daerah penghasil ...",
+      "opt": [
+        "teh dan kopi dari perkebunan di dataran tinggi",
+        "padi dan ikan laut karena tanahnya datar dan dekat pantai",
+        "batu bara dan minyak bumi dari penambangan bawah tanah",
+        "kayu jati dan rotan dari hutan produksi yang luas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-082",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Sumber daya panas bumi (geothermal) banyak terdapat di daerah ...",
+      "opt": [
+        "pantai yang langsung berhadapan dengan laut dalam",
+        "sekitar gunung berapi aktif seperti di Jawa dan Sumatera",
+        "dataran rendah yang dekat dengan muara sungai besar",
+        "hutan hujan tropis yang mendapat curah hujan sangat tinggi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-083",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Hasil laut berupa mutiara yang berkualitas tinggi banyak dihasilkan di ...",
+      "opt": [
+        "Teluk Jakarta dan sekitar Kepulauan Seribu",
+        "Nusa Tenggara Barat, terutama di Lombok dan Sumbawa",
+        "Selat Sunda yang berada di antara Jawa dan Sumatera",
+        "Selat Malaka yang menjadi jalur perdagangan internasional"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-084",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Hutan mangrove (bakau) di pesisir Indonesia memiliki fungsi penting, yaitu ...",
+      "opt": [
+        "sebagai bahan baku industri kertas yang dibutuhkan pabrik",
+        "melindungi pantai dari abrasi dan menjadi tempat hidup ikan kecil",
+        "menghasilkan kayu keras berkualitas tinggi untuk bangunan",
+        "menyerap logam berat yang mencemari air laut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-085",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Perhatikan pernyataan berikut: 'Daerah ini terkenal penghasil beras, memiliki banyak sawah di dataran rendah, dan dilintasi banyak sungai.' Pernyataan tersebut paling cocok menggambarkan daerah ...",
+      "opt": [
+        "dataran tinggi Dieng di Jawa Tengah",
+        "pesisir utara Jawa yang meliputi Karawang dan Indramayu",
+        "kawasan kepulauan kecil di Nusa Tenggara",
+        "hutan tropis lebat di pedalaman Kalimantan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-086",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Fauna Asiatis di Indonesia memiliki ciri khas ...",
+      "opt": [
+        "banyak hewan berkantung dan burung berbulu indah",
+        "banyak mamalia besar seperti gajah, harimau, dan badak",
+        "hewan berukuran kecil dan kebanyakan adalah reptil",
+        "fauna yang hanya ditemukan di kepulauan dan tidak di daratan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-087",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Burung cenderawasih yang berbulu sangat indah merupakan fauna khas Indonesia bagian timur, yaitu Pulau ...",
+      "opt": [
+        "Kalimantan, pulau terbesar di Indonesia",
+        "Sulawesi, pulau berbentuk huruf K",
+        "Papua, pulau yang berbatasan dengan Papua Nugini",
+        "Lombok, pulau kecil di Nusa Tenggara"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-088",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Badak Jawa adalah salah satu hewan yang terancam punah. Badak ini merupakan fauna Asiatis yang kini hanya tersisa di ...",
+      "opt": [
+        "Taman Nasional Bromo Tengger Semeru, Jawa Timur",
+        "Taman Nasional Ujung Kulon, Jawa Barat",
+        "Taman Nasional Baluran, Jawa Timur",
+        "Taman Nasional Alas Purwo, Jawa Timur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-089",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Hewan-hewan berikut semuanya termasuk fauna Australis, kecuali ...",
+      "opt": [
+        "kuskus, hewan berkantung dari Papua",
+        "wallaby, mirip kanguru berukuran lebih kecil",
+        "kasuari, burung besar yang tidak bisa terbang",
+        "proboscis monkey (bekantan), primata hidung panjang"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-090",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Anoa adalah hewan endemik yang termasuk fauna Peralihan. Anoa adalah sejenis ...",
+      "opt": [
+        "buaya kerdil yang hidup di hutan rawa",
+        "kerbau kerdil yang hanya ada di Sulawesi",
+        "burung pemangsa yang mendiami hutan tropis",
+        "primata kecil yang mirip monyet berekor panjang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-091",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Mengapa fauna di pulau-pulau kecil Indonesia cenderung lebih kecil ukurannya dibandingkan kerabat mereka di daratan besar?",
+      "opt": [
+        "Karena suhu di pulau kecil lebih panas sehingga tubuh mengecil",
+        "Karena ketersediaan makanan yang terbatas mendorong evolusi tubuh lebih kecil",
+        "Karena air laut mempengaruhi pertumbuhan genetik hewan pulau",
+        "Karena hewan pulau jarang bergerak sehingga tubuh tidak berkembang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-092",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Komodo termasuk zona fauna Peralihan karena ...",
+      "opt": [
+        "cirinya mirip hewan Asia dan juga mirip hewan Australia",
+        "hidupnya berpindah-pindah melintasi Garis Wallace dan Weber",
+        "ditemukan pertama kali oleh ilmuwan yang berbeda zona",
+        "tubuhnya sangat besar sehingga sulit dikategorikan"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-093",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Penduduk yang tinggal di daerah pantai umumnya bermata pencaharian sebagai ...",
+      "opt": [
+        "petani padi yang menggarap sawah di dataran rendah",
+        "nelayan yang mencari ikan di laut",
+        "penambang batu yang menggali gunung",
+        "peternak sapi yang membutuhkan padang rumput luas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-094",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Penduduk yang tinggal di dataran tinggi seperti kawasan Puncak, Jawa Barat, umumnya bekerja sebagai ...",
+      "opt": [
+        "nelayan dan pengolah ikan",
+        "petani sayuran, pekebun teh, dan pekerja pariwisata",
+        "penambang batu bara dan minyak bumi",
+        "pedagang ekspor yang menjual barang ke luar negeri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-095",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Kondisi alam suatu daerah sangat mempengaruhi jenis pekerjaan warganya. Hal ini karena ...",
+      "opt": [
+        "pemerintah menetapkan aturan jenis pekerjaan sesuai daerah",
+        "penduduk memanfaatkan sumber daya alam yang tersedia di sekitar mereka",
+        "setiap daerah hanya boleh memiliki satu jenis mata pencaharian",
+        "pendidikan yang berbeda di tiap daerah menghasilkan keahlian berbeda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-096",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Petani di Jawa Barat umumnya menanam padi di sawah karena ...",
+      "opt": [
+        "sawah Jawa Barat menggunakan teknologi pertanian paling modern",
+        "tanahnya subur dan tersedia irigasi yang baik dari pegunungan",
+        "pemerintah memberikan subsidi khusus untuk petani padi",
+        "tidak ada jenis tanaman lain yang cocok untuk iklim Jawa Barat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-097",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Batik merupakan salah satu kerajinan tradisional yang menjadi mata pencaharian warga di beberapa kota Jawa. Pembuatan batik tulis membutuhkan ...",
+      "opt": [
+        "mesin besar dan bahan kimia yang hanya ada di pabrik",
+        "keahlian tangan dan kesabaran yang tinggi dalam proses pembuatannya",
+        "bahan baku impor yang tidak tersedia di dalam negeri",
+        "teknologi komputer untuk membuat pola yang rumit"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-098",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Di daerah Jawa Barat yang banyak dikunjungi wisatawan seperti Bandung dan Puncak, banyak penduduk yang bermata pencaharian di bidang ...",
+      "opt": [
+        "perikanan laut dan pengolahan hasil laut",
+        "pariwisata, kuliner, dan kerajinan tangan",
+        "pertambangan minyak bumi dan gas alam",
+        "perdagangan internasional ekspor-impor"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-099",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Upacara adat Seren Taun yang dilakukan masyarakat Sunda adalah bentuk rasa syukur atas ...",
+      "opt": [
+        "keberhasilan nelayan mendapatkan banyak ikan di laut",
+        "hasil panen padi yang melimpah sebagai anugerah alam",
+        "keberhasilan pembangunan sarana umum di kampung",
+        "selesainya musim kemarau yang panjang dan melelahkan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-100",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Rumah tradisional Sunda (Rumah Panggung) memiliki kolong di bawahnya. Fungsi kolong ini adalah ...",
+      "opt": [
+        "tempat menyimpan kendaraan milik pemilik rumah",
+        "sirkulasi udara dan menghindari banjir atau binatang liar",
+        "tempat penyimpanan hasil panen dan peralatan bertani",
+        "tempat berkumpul anak-anak untuk bermain saat sore hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-101",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Lagu dan tari tradisional Jawa Barat banyak mengambil tema tentang ...",
+      "opt": [
+        "kehidupan laut dan para pelaut pemberani",
+        "alam pegunungan, sawah, dan kehidupan petani Sunda",
+        "kisah kepahlawanan pasukan perang kerajaan masa lalu",
+        "kehidupan di kota besar yang modern dan sibuk"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-102",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Masyarakat pesisir utara Jawa Barat memiliki tradisi Nadran (pesta laut), yaitu ...",
+      "opt": [
+        "upacara panen raya sebagai tanda syukur kepada Tuhan",
+        "upacara sedekah laut sebagai rasa syukur atas rezeki dari laut",
+        "festival layang-layang yang digelar setiap tahun di tepi pantai",
+        "tradisi memancing bersama-sama saat musim ikan berlimpah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-103",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Pakaian adat yang dikenakan masyarakat di pegunungan biasanya berbahan tebal karena ...",
+      "opt": [
+        "bahan tebal lebih mudah dihias dengan motif tradisional",
+        "suhu di pegunungan lebih dingin sehingga butuh pakaian hangat",
+        "bahan tebal lebih murah dan mudah didapat di daerah pegunungan",
+        "adat istiadat melarang penggunaan bahan tipis di daerah tinggi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-104",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Angklung merupakan alat musik tradisional Jawa Barat yang terbuat dari bambu. Bahan bambu dipilih karena ...",
+      "opt": [
+        "bambu adalah bahan paling keras yang banyak di Jawa Barat",
+        "bambu tumbuh melimpah di Jawa Barat dan mudah dibentuk menjadi alat musik",
+        "bambu tidak bisa dipakai untuk bahan bangunan sehingga lebih baik dibuat alat musik",
+        "bambu menghasilkan suara yang lebih indah dari semua bahan lainnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-105",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Kearifan lokal adalah pengetahuan dan cara hidup masyarakat setempat yang ...",
+      "opt": [
+        "selalu bertentangan dengan ilmu pengetahuan modern",
+        "diwariskan turun-temurun untuk menjaga keseimbangan hidup bersama alam",
+        "hanya berlaku di satu desa dan tidak berlaku di daerah lain",
+        "dibuat oleh pemerintah untuk mengatur kehidupan masyarakat adat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-106",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Masyarakat Sunda mengenal konsep 'leuweung larangan' (hutan terlarang). Fungsi kearifan lokal ini adalah ...",
+      "opt": [
+        "menyimpan harta karun milik leluhur yang tidak boleh diambil",
+        "melindungi kawasan hutan agar tetap lestari dan menjaga sumber air",
+        "melarang orang luar masuk ke wilayah desa untuk menjaga keamanan",
+        "tempat ritual adat yang sangat sakral dan tidak boleh diganggu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-107",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Masyarakat yang tinggal di daerah rawan banjir beradaptasi dengan cara ...",
+      "opt": [
+        "pindah ke daerah yang lebih tinggi secara permanen",
+        "membangun rumah panggung yang lantainya di atas permukaan air",
+        "membangun tembok besar di sekitar rumah agar aman",
+        "menanam pohon sebanyak mungkin di sekitar rumah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-108",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Masyarakat yang tinggal di daerah gurun atau sangat kering beradaptasi dengan cara ...",
+      "opt": [
+        "membangun rumah dengan banyak jendela agar angin masuk",
+        "memakai pakaian tebal untuk menahan suhu panas",
+        "membangun sistem penampungan air hujan dan sumur dalam",
+        "menanam pohon besar untuk menghasilkan banyak hujan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-109",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Petani di Jawa Barat sudah sejak lama menggunakan sistem terasering (sawah bertingkat) di pegunungan. Tujuan terasering adalah ...",
+      "opt": [
+        "agar tanaman padi mendapat lebih banyak sinar matahari",
+        "mencegah erosi dan memudahkan pengairan di lahan miring",
+        "membuat pemandangan indah yang dapat menarik wisatawan",
+        "meningkatkan produksi padi sebanyak tiga kali lipat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-110",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Perahu nelayan tradisional di Jawa Barat (perahu cadik) dirancang dengan dua pelampung di sisinya. Fungsi desain ini adalah ...",
+      "opt": [
+        "mempercepat laju perahu saat melaju di laut lepas",
+        "menjaga keseimbangan perahu agar tidak mudah terbalik di ombak",
+        "tempat menyimpan ikan hasil tangkapan nelayan",
+        "hiasan tradisional yang menjadi ciri khas perahu Sunda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-001",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Peninggalan Kerajaan Tarumanegara yang berwujud prasasti dan ditemukan di wilayah Jawa Barat di antaranya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Prasasti Yupa, ditemukan di tepi Sungai Mahakam, Kalimantan",
+        "Prasasti Ciaruteun, ditemukan di tepi Sungai Ciaruteun, Bogor",
+        "Prasasti Kebon Kopi, ditemukan di Bogor dengan gambar telapak gajah",
+        "Prasasti Canggal, ditemukan di Jawa Tengah tentang Dinasti Sanjaya"
+      ],
+      "ans": [
+        "B",
+        "C"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-002",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Hal-hal yang menjadikan Majapahit disebut kerajaan Hindu terbesar di Nusantara adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Wilayah kekuasaannya mencakup hampir seluruh kepulauan Nusantara",
+        "Memiliki mahapatih Gajah Mada yang mengucapkan Sumpah Palapa",
+        "Berhasil menjadi kesultanan Islam pertama di Asia Tenggara",
+        "Rajanya berasal dari keturunan langsung Nabi Muhammad SAW"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-003",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Kerajaan Mataram Kuno meninggalkan dua warisan budaya besar berupa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Candi Borobudur, karya Dinasti Syailendra penganut Buddha",
+        "Candi Prambanan, karya Dinasti Sanjaya penganut Hindu",
+        "Candi Muara Takus, peninggalan kerajaan Buddha di Sumatera",
+        "Candi Singosari, peninggalan Kerajaan Singosari di Jawa Timur"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-004",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Faktor utama yang mendukung kejayaan Kerajaan Majapahit meliputi ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kepemimpinan Raja Hayam Wuruk yang cakap dan bijaksana",
+        "Peran Mahapatih Gajah Mada yang berhasil menyatukan Nusantara",
+        "Letak ibu kota di tepi pantai yang mudah dijangkau dari luar negeri",
+        "Penerimaan ajaran Buddha sebagai agama resmi satu-satunya kerajaan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-005",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Prasasti-prasasti Kerajaan Kutai yang ditulis pada yupa (tiang batu) berisi informasi tentang ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Silsilah raja-raja Kutai dari Kudungga hingga Mulawarman",
+        "Upacara persembahan ribuan sapi kepada para Brahmana",
+        "Pembangunan saluran irigasi untuk mengairi sawah penduduk",
+        "Daftar wilayah yang berhasil ditaklukkan Kerajaan Kutai"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-006",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Ciri khas kerajaan-kerajaan Hindu-Buddha di Nusantara antara lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menggunakan bahasa Sansekerta dalam prasasti dan kitab suci keagamaan",
+        "Membangun candi sebagai pusat kegiatan keagamaan dan pemujaan dewa",
+        "Tidak meninggalkan karya sastra atau peninggalan fisik apapun",
+        "Rajanya dipilih secara langsung oleh seluruh rakyat setiap lima tahun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-007",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Kerajaan Singosari merupakan pendahulu Majapahit. Yang termasuk peninggalan Kerajaan Singosari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Arca Prajnaparamita, lambang dewi kebijaksanaan",
+        "Candi Kidal di Malang, tempat pemujaan Raja Anusapati",
+        "Candi Borobudur di Magelang, karya Dinasti Syailendra",
+        "Kitab Sutasoma karya Mpu Tantular dari masa Majapahit"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-008",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Kejayaan Sriwijaya sebagai kerajaan maritim ditopang oleh ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Letaknya yang sangat strategis di Selat Malaka, jalur perdagangan dunia",
+        "Armada laut yang kuat untuk mengamankan jalur pelayaran",
+        "Pasukan darat yang sangat besar untuk menaklukkan kerajaan tetangga",
+        "Kemampuan produksi batu bara yang menjadi komoditi ekspor utama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-009",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Cara para Wali Songo menyebarkan Islam di Jawa yang paling dikenal efektif dan damai adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menggunakan seni wayang dan gamelan sebagai media dakwah",
+        "Mendirikan pesantren sebagai pusat pendidikan dan syiar Islam",
+        "Mewajibkan seluruh penduduk Jawa memeluk Islam dengan aturan ketat",
+        "Membakar tempat-tempat ibadah agama lain yang sudah ada"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-010",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Kesultanan-kesultanan di wilayah Jawa Barat yang memiliki sejarah panjang dan meninggalkan warisan budaya hingga sekarang adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kesultanan Banten, yang menjadi pusat perdagangan lada",
+        "Kesultanan Cirebon, yang meninggalkan Keraton Kasepuhan",
+        "Kesultanan Mataram Islam, yang berpusat di pedalaman Jawa Tengah",
+        "Kesultanan Demak, yang berpusat di pantai utara Jawa Tengah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-011",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Faktor yang mendorong penyebaran Islam di Nusantara berlangsung dengan cepat dan damai adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pedagang Muslim bersikap ramah dan tidak memaksa orang untuk memeluk Islam",
+        "Ajaran Islam yang menekankan persamaan derajat semua manusia menarik hati rakyat",
+        "Armada militer Islam yang kuat berhasil menaklukkan semua kerajaan Hindu-Buddha",
+        "Raja-raja Hindu berpindah agama Islam karena dipaksa oleh pedagang Arab"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-012",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Peninggalan Kesultanan Islam yang masih dapat kita jumpai hingga hari ini meliputi ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masjid Agung Banten, masjid bersejarah di ujung barat Pulau Jawa",
+        "Keraton Kasepuhan Cirebon, istana peninggalan Kesultanan Cirebon",
+        "Candi Singosari, peninggalan Kerajaan Hindu di Jawa Timur",
+        "Candi Muara Takus, peninggalan Kerajaan Buddha di Sumatera"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-013",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Bukti tertulis yang menjadi sumber sejarah Kerajaan Tarumanegara di Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Prasasti Ciaruteun yang berisi jejak telapak kaki Raja Purnawarman",
+        "Prasasti Tugu yang berisi cerita pembangunan saluran irigasi",
+        "Prasasti Yupa yang berisi silsilah raja-raja Kutai di Kalimantan",
+        "Prasasti Canggal yang berisi tentang berdirinya Kerajaan Mataram Kuno"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-014",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Peran penting Sunan Gunung Jati dalam sejarah Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mendirikan Kesultanan Cirebon sebagai pusat penyebaran Islam di Jawa Barat",
+        "Menyebarkan Islam secara damai melalui pendekatan budaya dan adat Sunda",
+        "Memimpin serangan besar terhadap markas VOC Belanda di Batavia",
+        "Menulis ensiklopedi agama Islam dalam bahasa Arab dan Jawa Kuno"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-015",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Kerajaan-kerajaan yang termasuk bercorak Buddha di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sriwijaya, berpusat di Palembang, Sumatera Selatan",
+        "Dinasti Syailendra, penguasa Jawa Tengah abad ke-8",
+        "Kerajaan Kutai, kerajaan Hindu tertua di Indonesia",
+        "Kerajaan Majapahit, kerajaan Hindu-Buddha terbesar di Nusantara"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-016",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Kondisi geografis Indonesia yang khas dan membedakannya dari banyak negara lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Terdiri dari ribuan pulau yang tersebar di antara dua samudra besar",
+        "Terletak di kawasan Cincin Api (Ring of Fire) yang aktif secara geologis",
+        "Memiliki iklim empat musim yang bergantian setiap tiga bulan",
+        "Dikelilingi oleh es abadi di bagian utara dan selatan wilayahnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-017",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Manfaat yang dapat diambil dari keberadaan gunung berapi aktif di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tanah di sekitar gunung berapi sangat subur karena abu vulkanik yang kaya mineral",
+        "Energi panas bumi (geothermal) yang dapat dimanfaatkan sebagai sumber listrik",
+        "Gunung berapi aktif menjamin tidak ada gempa bumi di sekitarnya",
+        "Kawah gunung berapi menghasilkan air bersih yang dapat diminum langsung"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-018",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Ciri-ciri fauna Asiatis yang terdapat di Indonesia bagian barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Banyak jenis mamalia besar seperti gajah, badak, dan harimau",
+        "Memiliki banyak jenis kera dan primata seperti orang utan",
+        "Banyak jenis marsupial (hewan berkantung) seperti kanguru",
+        "Tidak terdapat jenis mamalia besar sama sekali di wilayahnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-019",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Alasan mengapa keanekaragaman hayati Indonesia termasuk terbesar di dunia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Iklim tropis yang hangat dan lembab mendukung kelangsungan banyak jenis kehidupan",
+        "Keberadaan ribuan pulau menciptakan isolasi geografis yang mendorong evolusi unik",
+        "Seluruh wilayah hutan Indonesia tidak pernah ditebang atau diganggu manusia",
+        "Indonesia sengaja mengimpor jutaan jenis hewan dari seluruh penjuru dunia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-020",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Perbedaan fauna di sisi barat dan timur Garis Wallace menunjukkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jenis fauna di sisi barat (Asiatis) berbeda nyata dari fauna di sisi timur (Peralihan)",
+        "Garis Wallace merupakan batas pemisah biogeografi yang nyata dan dapat dibuktikan",
+        "Semua jenis fauna dapat berpindah bebas melewati garis tersebut tanpa hambatan",
+        "Garis Wallace adalah batas administratif yang dibuat pemerintah Indonesia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-021",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Fauna yang termasuk zona Peralihan dan dapat ditemukan di Pulau Sulawesi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Anoa, kerbau kerdil yang merupakan hewan endemik Sulawesi",
+        "Babirusa, babi bertaring panjang yang hanya ada di Sulawesi",
+        "Harimau Sumatera, kucing besar endemik yang hidup di Sumatera",
+        "Cenderawasih, burung berbulu indah yang merupakan maskot Papua"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-022",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Sumber daya alam yang termasuk kategori dapat diperbarui adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ikan laut yang dapat berkembang biak kembali setiap musim",
+        "Pohon hutan yang dapat tumbuh kembali jika ditanam ulang",
+        "Batu bara yang terbentuk dari tumbuhan purba selama jutaan tahun",
+        "Minyak bumi yang tersimpan di lapisan batuan jauh di dalam bumi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-023",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Dampak negatif penebangan hutan secara liar (illegal logging) bagi lingkungan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berkurangnya habitat satwa liar yang dapat mengancam kepunahan",
+        "Meningkatnya erosi tanah dan risiko banjir di musim penghujan",
+        "Berkurangnya produksi kayu sehingga harga mebel menjadi lebih mahal",
+        "Semakin banyak wisatawan yang tertarik berkunjung ke hutan gundul"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-024",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Daerah-daerah di Indonesia yang dikenal sebagai penghasil minyak bumi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Riau di Sumatera, salah satu penghasil minyak bumi terbesar",
+        "Kalimantan Timur, daerah dengan ladang minyak dan gas yang luas",
+        "Yogyakarta, daerah pariwisata budaya di pedalaman Jawa Tengah",
+        "Bali, pulau yang terkenal dengan pariwisata dan kesenian Hindu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-025",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Jawa Barat memiliki sumber daya alam yang beragam. Yang termasuk SDA unggulan Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perkebunan teh di kawasan Puncak, Garut, dan Ciwidey",
+        "Energi panas bumi (geothermal) di Kamojang yang menghasilkan listrik",
+        "Tambang emas terbesar dunia di Grasberg, Papua",
+        "Perkebunan kelapa sawit terluas di Indonesia di Kalimantan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-026",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Ciri-ciri fauna Australis yang terdapat di wilayah Papua adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Terdapat berbagai jenis marsupial seperti kanguru pohon",
+        "Terdapat burung berbulu sangat indah seperti cenderawasih",
+        "Terdapat harimau dan badak yang merupakan mamalia besar Asiatis",
+        "Terdapat primata besar seperti orang utan yang hidupnya di pohon"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-027",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Hewan-hewan berikut yang terancam punah dan sangat perlu dilindungi di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Badak Jawa yang kini hanya tersisa sekitar 70 ekor di Ujung Kulon",
+        "Harimau Sumatera yang habitatnya terus menyempit akibat deforestasi",
+        "Ayam kampung yang sangat mudah berkembang biak hampir di mana saja",
+        "Sapi Bali yang sudah banyak diternakkan oleh petani di Nusa Tenggara"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-028",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Cara bijak memanfaatkan sumber daya alam agar tidak cepat habis adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menggunakan energi terbarukan seperti tenaga matahari dan angin",
+        "Melakukan reboisasi (penanaman pohon kembali) setelah penebangan hutan",
+        "Mengambil semua ikan laut sebanyak-banyaknya sebelum musim berubah",
+        "Membuang limbah industri ke sungai agar tidak mencemari tanah pertanian"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-029",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Keuntungan yang diperoleh Indonesia dari memiliki wilayah laut yang sangat luas adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Potensi perikanan yang sangat besar untuk mendukung ketahanan pangan",
+        "Posisi jalur pelayaran dan perdagangan internasional yang sangat strategis",
+        "Wilayah laut yang luas menyebabkan cuaca di Indonesia selalu buruk",
+        "Laut yang dalam menyebabkan nelayan kesulitan menangkap ikan setiap hari"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-030",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Upaya pelestarian keanekaragaman hayati Indonesia yang dilakukan secara nyata adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mendirikan taman nasional sebagai kawasan perlindungan flora dan fauna",
+        "Membuat peraturan dan undang-undang tentang larangan perburuan liar",
+        "Membuka lahan hutan seluas-luasnya untuk dijadikan perkebunan baru",
+        "Mendatangkan hewan-hewan asing untuk menggantikan hewan lokal yang punah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-031",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Faktor alam yang secara langsung mempengaruhi jenis mata pencaharian penduduk suatu daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kondisi tanah, apakah subur dan cocok untuk pertanian atau tidak",
+        "Letak geografis, apakah di pesisir pantai, dataran rendah, atau pegunungan",
+        "Jumlah penduduk yang tinggal di suatu daerah tertentu",
+        "Kebijakan pemerintah daerah tentang besarnya upah minimum pekerja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-032",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Mata pencaharian yang umumnya dilakukan oleh penduduk di daerah pegunungan Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bertani sayuran dan buah-buahan di lahan lereng yang dibangun terasering",
+        "Berkebun teh, kopi, dan cengkeh di perkebunan dataran tinggi",
+        "Menangkap ikan di laut lepas menggunakan kapal penangkap ikan",
+        "Bekerja sebagai nelayan budidaya di tambak udang dekat pantai"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-033",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Pengaruh kondisi alam terhadap budaya masyarakat Jawa Barat tampak nyata pada ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Upacara Seren Taun sebagai ungkapan syukur atas hasil panen padi",
+        "Penggunaan bambu sebagai bahan utama pembuatan alat musik Angklung",
+        "Tradisi berpakaian modern yang mengikuti mode terkini dari kota besar",
+        "Kebiasaan menggunakan drone pertanian paling canggih di lahan sawah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-034",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Manfaat nyata kearifan lokal bagi masyarakat dan kelestarian lingkungan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjaga keseimbangan ekosistem alam dan sumber daya alam tetap lestari",
+        "Memperkuat identitas budaya dan rasa kebersamaan dalam masyarakat",
+        "Menghambat kemajuan teknologi sehingga daerah tidak berkembang",
+        "Mencegah generasi muda mendapatkan pendidikan formal yang memadai"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-035",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Contoh nyata adaptasi masyarakat Jawa Barat terhadap kondisi alam setempat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membuat terasering di lahan miring untuk mencegah longsor dan erosi",
+        "Membangun rumah panggung di daerah-daerah yang rawan banjir",
+        "Memakai pakaian berlapis-lapis agar terlihat lebih berwibawa di depan umum",
+        "Membangun gedung pencakar langit di tengah kawasan hutan lindung"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-036",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Kondisi alam Jawa Barat yang secara langsung mempengaruhi kesenian dan kebudayaan setempat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Banyaknya pegunungan hijau yang menginspirasi lagu-lagu Sunda tentang keindahan alam",
+        "Melimpahnya tanaman bambu yang menjadi bahan baku kerajinan dan alat musik",
+        "Luasnya sawah dan kebun yang menginspirasi motif batik Sunda yang khas",
+        "Dinginnya udara pegunungan yang mendorong tradisi kain tenun hangat Sunda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-037",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Contoh kearifan lokal masyarakat Sunda dalam menjaga kelestarian alam adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Leuweung larangan, kawasan hutan adat yang tidak boleh ditebang sembarangan",
+        "Larangan nyieun imah di sisi walungan, pantangan mendirikan bangunan di bantaran sungai",
+        "Membuang sampah di sungai agar langsung terbawa arus ke laut",
+        "Menjual seluruh kayu hutan kepada pengusaha untuk mendapat uang lebih banyak"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-038",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Teknologi dan cara tradisional yang digunakan petani Jawa Barat untuk beradaptasi dengan lingkungan alamnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sistem terasering untuk bercocok tanam di lahan miring tanpa merusak tanah",
+        "Kincir air dari bambu untuk mengalirkan air irigasi ke sawah-sawah",
+        "Traktor berbahan bakar minyak bumi untuk mengolah tanah pertanian",
+        "Pupuk kimia impor untuk meningkatkan hasil panen secara instan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-039",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Contoh nyata pengaruh kondisi alam terhadap pakaian tradisional masyarakat Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masyarakat di pegunungan memakai pakaian berbahan tebal karena udaranya dingin",
+        "Masyarakat di pesisir pantai memakai pakaian ringan dan tidak tebal karena udaranya panas",
+        "Semua masyarakat Indonesia dari Sabang sampai Merauke memakai pakaian yang sama",
+        "Pakaian tradisional Indonesia dirancang agar sesuai dengan tren mode internasional"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-040",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Kegiatan ekonomi masyarakat Jawa Barat yang secara langsung memanfaatkan potensi alam setempat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Budidaya ikan mas dan nila di kolam-kolam air deras Cianjur dan Sukabumi",
+        "Perkebunan teh di Garut dan Ciwidey yang memanfaatkan udara dingin dataran tinggi",
+        "Pengelolaan media sosial dan pembuatan konten video berbasis internet",
+        "Pembuatan film animasi dan aplikasi smartphone berbasis teknologi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-041",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Bukti yang menunjukkan bahwa Sriwijaya merupakan pusat perdagangan internasional adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ditemukannya banyak barang dari Tiongkok, India, dan Arab di situs Sriwijaya",
+        "Catatan perjalanan pendeta Buddha I-Tsing yang singgah belajar di Sriwijaya",
+        "Adanya prasasti-prasasti yang ditulis dalam bahasa Sansekerta milik Sriwijaya",
+        "Lokasi Sriwijaya yang jauh dari pantai sehingga sangat aman dari serangan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-042",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Persamaan antara Kesultanan Banten dan Kesultanan Cirebon adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keduanya terletak di wilayah yang kini menjadi Provinsi Jawa Barat dan Banten",
+        "Keduanya merupakan kesultanan yang bercorak Islam",
+        "Keduanya didirikan oleh tokoh yang sama, yaitu Sunan Gunung Jati",
+        "Keduanya memiliki ibu kota di kota yang sama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-043",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Fungsi prasasti sebagai sumber sejarah bagi Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sebagai sumber informasi tertulis tentang kehidupan kerajaan pada masa lalu",
+        "Sebagai bukti fisik nyata bahwa suatu kerajaan memang pernah ada",
+        "Sebagai panduan wisata resmi untuk mengunjungi berbagai situs kerajaan",
+        "Sebagai buku teks pelajaran sejarah yang digunakan di semua sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-044",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Tokoh-tokoh yang paling berjasa dalam penyebaran Islam di wilayah Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sunan Gunung Jati, pendiri dan pemimpin Kesultanan Cirebon",
+        "Maulana Hasanuddin, pendiri Kesultanan Banten putra Sunan Gunung Jati",
+        "Sultan Agung, raja Mataram Islam yang berpusat di Jawa Tengah",
+        "Gajah Mada, mahapatih Kerajaan Majapahit penganut Hindu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-045",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Yang membedakan kerajaan bercorak Islam dari kerajaan bercorak Hindu-Buddha adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pemimpin kerajaan Islam disebut Sultan, sedangkan Hindu-Buddha disebut Raja atau Maharaja",
+        "Tempat ibadah kerajaan Islam berupa masjid, sedangkan Hindu-Buddha berupa candi",
+        "Kerajaan Islam tidak memiliki sistem pemerintahan yang teratur seperti Hindu-Buddha",
+        "Kerajaan Islam tidak meninggalkan warisan budaya atau peninggalan bangunan apapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-046",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Hewan-hewan yang termasuk fauna Asiatis dan terdapat di Indonesia bagian barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Harimau Sumatera, kucing besar yang kini terancam punah",
+        "Gajah Sumatera, mamalia besar yang hidup di hutan Sumatera",
+        "Kanguru pohon, mamalia berkantung yang hidup di hutan Papua",
+        "Kasuari, burung besar yang tidak bisa terbang dari Papua"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-047",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Dampak positif letak geografis Indonesia bagi kehidupan rakyatnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tanah yang subur di sekitar gunung berapi untuk mendukung pertanian",
+        "Keanekaragaman hayati yang sangat tinggi karena posisi di khatulistiwa",
+        "Seringnya terjadi gempa bumi dan erupsi yang merusak bangunan penduduk",
+        "Cuaca yang sulit diprediksi karena intensitas hujan yang tidak menentu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-048",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Energi terbarukan yang berpotensi besar dikembangkan di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Energi panas bumi dari gunung berapi aktif yang tersebar di seluruh Indonesia",
+        "Energi surya dari sinar matahari yang bersinar sepanjang tahun di daerah tropis",
+        "Energi dari batu bara yang jumlahnya sangat terbatas dan tidak dapat diperbarui",
+        "Energi nuklir yang reaktornya dibangun di dalam kawah gunung berapi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-049",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Wilayah Indonesia yang menjadi penghasil utama hasil pertanian dan perkebunan pangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pulau Jawa, dengan hamparan sawah dan lumbung padi yang sangat luas",
+        "Sumatera, dengan perkebunan karet dan kelapa sawit terluas di Indonesia",
+        "Papua, terutama dikenal untuk pertambangan emas dan tembaga",
+        "Kalimantan Timur, terutama dikenal untuk pengeboran minyak bumi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-050",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Hewan endemik yang hanya bisa ditemukan di Indonesia dan tidak ada di negara lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Komodo, kadal terbesar di dunia yang hanya hidup di kepulauan NTT",
+        "Orang Utan Kalimantan, primata besar hutan tropis endemik Kalimantan",
+        "Buaya Nil, reptil air besar yang banyak ditemukan di Afrika",
+        "Koala, mamalia berkantung yang hidupnya di pohon eukaliptus Australia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-051",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Persamaan antara Kerajaan Kutai dan Kerajaan Tarumanegara adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keduanya merupakan kerajaan bercorak Hindu yang tertua di Indonesia",
+        "Keduanya meninggalkan prasasti sebagai sumber sejarah tertulis",
+        "Keduanya terletak di Pulau Jawa dan berdiri hampir bersamaan",
+        "Keduanya dipimpin oleh raja yang sama bernama Gajah Mada"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-052",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Alasan mengapa perdagangan rempah-rempah menjadikan kesultanan di Maluku sangat kaya dan berpengaruh adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rempah-rempah Maluku sangat langka dan mahal, dicari pedagang dari Eropa, Arab, dan Asia",
+        "Posisi Maluku yang strategis menjadikannya pusat pertemuan pedagang dari berbagai penjuru",
+        "Maluku memiliki armada perang terkuat dan terbesar di seluruh Asia",
+        "Raja-raja Maluku sangat keras sehingga tidak ada pedagang yang berani meninggalkan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-053",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Bukti bahwa kondisi alam Jawa Barat secara nyata mempengaruhi tradisi dan kebudayaan masyarakatnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lagu-lagu Sunda yang banyak melukiskan keindahan alam pegunungan dan persawahan",
+        "Angklung yang dibuat dari bambu, tumbuhan yang tumbuh melimpah di Jawa Barat",
+        "Kesenian gambang yang berasal dari tradisi masyarakat pesisir utara Jawa",
+        "Tari Kecak yang lahir dari kebudayaan masyarakat Hindu Bali"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-054",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Bentuk adaptasi masyarakat terhadap alam yang mencerminkan kecerdasan dan kearifan lokal adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penggunaan sistem terasering untuk bercocok tanam di lereng gunung",
+        "Pembuatan rumah panggung agar terhindar dari banjir dan binatang buas",
+        "Penggunaan pestisida kimia berbahaya untuk membasmi semua serangga di ladang",
+        "Penebangan hutan seluas-luasnya untuk membuka lahan pertanian baru"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-055",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Nilai-nilai yang terkandung dalam kearifan lokal masyarakat adat Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penghormatan dan rasa syukur terhadap alam sebagai bagian dari kehidupan",
+        "Semangat kebersamaan dan gotong royong dalam mengelola sumber daya alam",
+        "Persaingan dan sikap individualistis untuk meraih keuntungan pribadi sebesar-besarnya",
+        "Pengabaian aturan adat demi kemudahan dan kenyamanan hidup yang modern"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-001",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Pasangkan nama kerajaan dengan corak agamanya yang benar!",
+      "rows": [
+        "Kutai",
+        "Sriwijaya",
+        "Kesultanan Demak",
+        "Majapahit"
+      ],
+      "cols": [
+        "Hindu",
+        "Buddha",
+        "Islam"
+      ],
+      "ans": [
+        "Hindu",
+        "Buddha",
+        "Islam",
+        "Hindu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-002",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Pasangkan nama kerajaan dengan letak/pusat kerajaannya yang benar!",
+      "rows": [
+        "Kutai",
+        "Sriwijaya",
+        "Majapahit",
+        "Tarumanegara"
+      ],
+      "cols": [
+        "Kalimantan Timur",
+        "Sumatera Selatan",
+        "Jawa Timur"
+      ],
+      "ans": [
+        "Kalimantan Timur",
+        "Sumatera Selatan",
+        "Jawa Timur",
+        "Jawa Timur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-003",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan peninggalan sejarah dengan kerajaan yang meninggalkannya!",
+      "rows": [
+        "Prasasti Yupa",
+        "Prasasti Ciaruteun",
+        "Candi Borobudur",
+        "Candi Prambanan"
+      ],
+      "cols": [
+        "Kerajaan Kutai",
+        "Kerajaan Tarumanegara",
+        "Dinasti Syailendra"
+      ],
+      "ans": [
+        "Kerajaan Kutai",
+        "Kerajaan Tarumanegara",
+        "Dinasti Syailendra",
+        "Dinasti Syailendra"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-004",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan nama tokoh dengan kerajaan atau kesultanan tempatnya berperan!",
+      "rows": [
+        "Gajah Mada",
+        "Balaputradewa",
+        "Maulana Hasanuddin",
+        "Hayam Wuruk"
+      ],
+      "cols": [
+        "Majapahit",
+        "Sriwijaya",
+        "Kesultanan Banten"
+      ],
+      "ans": [
+        "Majapahit",
+        "Sriwijaya",
+        "Kesultanan Banten",
+        "Majapahit"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-005",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Pasangkan nama raja dengan kerajaan yang dipimpinnya!",
+      "rows": [
+        "Mulawarman",
+        "Purnawarman",
+        "Sanjaya",
+        "Aswawarman"
+      ],
+      "cols": [
+        "Kutai",
+        "Tarumanegara",
+        "Mataram Kuno"
+      ],
+      "ans": [
+        "Kutai",
+        "Tarumanegara",
+        "Mataram Kuno",
+        "Kutai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-006",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Pasangkan nama kesultanan dengan lokasi/provinsinya sekarang!",
+      "rows": [
+        "Kesultanan Banten",
+        "Kesultanan Demak",
+        "Kesultanan Ternate",
+        "Kesultanan Cirebon"
+      ],
+      "cols": [
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Maluku"
+      ],
+      "ans": [
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Maluku",
+        "Jawa Barat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-007",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan jenis peninggalan sejarah dengan contohnya yang tepat!",
+      "rows": [
+        "Candi Prambanan",
+        "Candi Borobudur",
+        "Masjid Agung Demak",
+        "Prasasti Yupa"
+      ],
+      "cols": [
+        "Peninggalan Hindu",
+        "Peninggalan Buddha",
+        "Peninggalan Islam"
+      ],
+      "ans": [
+        "Peninggalan Hindu",
+        "Peninggalan Buddha",
+        "Peninggalan Islam",
+        "Peninggalan Hindu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-008",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan nama tokoh sejarah dengan julukan atau peran terkenalnya!",
+      "rows": [
+        "Raden Wijaya",
+        "Gajah Mada",
+        "Sunan Gunung Jati",
+        "Hayam Wuruk"
+      ],
+      "cols": [
+        "Pendiri/pemimpin kerajaan",
+        "Mahapatih / panglima",
+        "Penyebar Islam"
+      ],
+      "ans": [
+        "Pendiri/pemimpin kerajaan",
+        "Mahapatih / panglima",
+        "Penyebar Islam",
+        "Pendiri/pemimpin kerajaan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-009",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Pasangkan nama kerajaan dengan abad/masa berdirinya yang tepat!",
+      "rows": [
+        "Kutai",
+        "Sriwijaya",
+        "Majapahit",
+        "Tarumanegara"
+      ],
+      "cols": [
+        "Abad ke-4",
+        "Abad ke-7",
+        "Abad ke-13"
+      ],
+      "ans": [
+        "Abad ke-4",
+        "Abad ke-7",
+        "Abad ke-13",
+        "Abad ke-4"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-010",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kerajaan Buddha",
+      "stimulus": "",
+      "q": "Pasangkan informasi tentang Sriwijaya dengan kategorinya yang tepat!",
+      "rows": [
+        "Menjadi pusat pendidikan Buddha",
+        "Menguasai Selat Malaka",
+        "Memiliki armada laut kuat",
+        "Balaputradewa jadi raja"
+      ],
+      "cols": [
+        "Bukti kemajuan agama",
+        "Bukti kemajuan perdagangan",
+        "Bukti kemajuan militer"
+      ],
+      "ans": [
+        "Bukti kemajuan agama",
+        "Bukti kemajuan perdagangan",
+        "Bukti kemajuan militer",
+        "Bukti kemajuan agama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-011",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan nama kitab/karya sastra dengan pengarangnya yang benar!",
+      "rows": [
+        "Negarakertagama",
+        "Sutasoma",
+        "Pararaton",
+        "Ramayana versi Jawa"
+      ],
+      "cols": [
+        "Mpu Prapanca",
+        "Mpu Tantular",
+        "Tidak diketahui pengarangnya"
+      ],
+      "ans": [
+        "Mpu Prapanca",
+        "Mpu Tantular",
+        "Tidak diketahui pengarangnya",
+        "Tidak diketahui pengarangnya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-012",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesultanan Islam",
+      "stimulus": "",
+      "q": "Pasangkan nama tokoh Wali Songo dengan cara dakwahnya yang terkenal!",
+      "rows": [
+        "Sunan Kalijaga",
+        "Sunan Giri",
+        "Sunan Ampel",
+        "Sunan Bonang"
+      ],
+      "cols": [
+        "Kesenian dan budaya",
+        "Pendidikan pesantren",
+        "Perdagangan"
+      ],
+      "ans": [
+        "Kesenian dan budaya",
+        "Pendidikan pesantren",
+        "Perdagangan",
+        "Kesenian dan budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-013",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Pasangkan nama kerajaan dengan sumber kekuatan utamanya!",
+      "rows": [
+        "Majapahit",
+        "Sriwijaya",
+        "Kesultanan Ternate",
+        "Mataram Kuno"
+      ],
+      "cols": [
+        "Pertanian",
+        "Maritim dan perdagangan",
+        "Rempah-rempah"
+      ],
+      "ans": [
+        "Pertanian",
+        "Maritim dan perdagangan",
+        "Rempah-rempah",
+        "Pertanian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-014",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tokoh Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan nama pahlawan kerajaan dengan keberaniannya yang terkenal!",
+      "rows": [
+        "Kertanegara",
+        "Sultan Hasanuddin",
+        "Gajah Mada",
+        "Sultan Agung"
+      ],
+      "cols": [
+        "Melawan Mongol",
+        "Melawan VOC Belanda",
+        "Menyatukan Nusantara"
+      ],
+      "ans": [
+        "Melawan Mongol",
+        "Melawan VOC Belanda",
+        "Menyatukan Nusantara",
+        "Melawan VOC Belanda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-015",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan nama prasasti dengan isinya yang benar!",
+      "rows": [
+        "Prasasti Yupa",
+        "Prasasti Ciaruteun",
+        "Prasasti Canggal",
+        "Prasasti Tugu"
+      ],
+      "cols": [
+        "Kerajaan Kutai",
+        "Kerajaan Tarumanegara",
+        "Kerajaan Mataram Kuno"
+      ],
+      "ans": [
+        "Kerajaan Kutai",
+        "Kerajaan Tarumanegara",
+        "Kerajaan Mataram Kuno",
+        "Kerajaan Tarumanegara"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-016",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Pasangkan candi dengan agama yang melatarbelakangi pembangunannya!",
+      "rows": [
+        "Candi Prambanan",
+        "Candi Borobudur",
+        "Candi Mendut",
+        "Candi Sewu"
+      ],
+      "cols": [
+        "Hindu",
+        "Buddha",
+        "Hindu-Buddha"
+      ],
+      "ans": [
+        "Hindu",
+        "Buddha",
+        "Buddha",
+        "Buddha"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-017",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Pasangkan nama hewan dengan zona fauna tempat hidupnya di Indonesia!",
+      "rows": [
+        "Harimau Sumatera",
+        "Anoa Sulawesi",
+        "Kanguru pohon Papua",
+        "Gajah Sumatera"
+      ],
+      "cols": [
+        "Fauna Asiatis",
+        "Fauna Peralihan",
+        "Fauna Australis"
+      ],
+      "ans": [
+        "Fauna Asiatis",
+        "Fauna Peralihan",
+        "Fauna Australis",
+        "Fauna Asiatis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-018",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Pasangkan nama garis khayal dengan fungsinya dalam biogeografi Indonesia!",
+      "rows": [
+        "Garis Wallace",
+        "Garis Weber",
+        "Garis Khatulistiwa",
+        "Garis Bujur 108°"
+      ],
+      "cols": [
+        "Batas Asiatis-Peralihan",
+        "Batas Peralihan-Australis",
+        "Bukan garis fauna"
+      ],
+      "ans": [
+        "Batas Asiatis-Peralihan",
+        "Batas Peralihan-Australis",
+        "Bukan garis fauna",
+        "Bukan garis fauna"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-019",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Pasangkan nama hewan endemik dengan pulau asalnya di Indonesia!",
+      "rows": [
+        "Orang Utan",
+        "Anoa",
+        "Cenderawasih",
+        "Harimau Sumatera"
+      ],
+      "cols": [
+        "Sumatera",
+        "Sulawesi",
+        "Papua"
+      ],
+      "ans": [
+        "Sumatera",
+        "Sulawesi",
+        "Papua",
+        "Sumatera"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-020",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Pasangkan contoh sumber daya alam dengan jenisnya yang benar!",
+      "rows": [
+        "Ikan laut",
+        "Batu bara",
+        "Energi matahari",
+        "Hutan tropis"
+      ],
+      "cols": [
+        "Dapat diperbarui",
+        "Tidak dapat diperbarui",
+        "Energi terbarukan"
+      ],
+      "ans": [
+        "Dapat diperbarui",
+        "Tidak dapat diperbarui",
+        "Energi terbarukan",
+        "Dapat diperbarui"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-021",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Pasangkan nama daerah dengan hasil alam utamanya!",
+      "rows": [
+        "Minyak bumi",
+        "Emas dan tembaga",
+        "Teh dan kina",
+        "Gas alam"
+      ],
+      "cols": [
+        "Riau/Kaltim",
+        "Papua",
+        "Jawa Barat"
+      ],
+      "ans": [
+        "Riau/Kaltim",
+        "Papua",
+        "Jawa Barat",
+        "Riau/Kaltim"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-022",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Pasangkan jenis flora/fauna dengan statusnya yang tepat!",
+      "rows": [
+        "Orang Utan",
+        "Badak Jawa",
+        "Ayam kampung",
+        "Komodo"
+      ],
+      "cols": [
+        "Endemik Indonesia",
+        "Terancam punah",
+        "Aman dan banyak"
+      ],
+      "ans": [
+        "Endemik Indonesia",
+        "Terancam punah",
+        "Aman dan banyak",
+        "Endemik Indonesia"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-023",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Pasangkan nama kenampakan alam dengan lokasinya di Indonesia!",
+      "rows": [
+        "Danau Toba",
+        "Gunung Semeru",
+        "Pegunungan Jayawijaya",
+        "Gunung Sinabung"
+      ],
+      "cols": [
+        "Sumatera",
+        "Jawa",
+        "Papua"
+      ],
+      "ans": [
+        "Sumatera",
+        "Jawa",
+        "Papua",
+        "Sumatera"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-024",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Pasangkan nama SDA dengan cara terbentuknya yang benar!",
+      "rows": [
+        "Minyak bumi",
+        "Air hujan",
+        "Benda elektronik",
+        "Batu bara"
+      ],
+      "cols": [
+        "Proses alam jutaan tahun",
+        "Proses alam yang cepat",
+        "Dibuat manusia"
+      ],
+      "ans": [
+        "Proses alam jutaan tahun",
+        "Proses alam yang cepat",
+        "Dibuat manusia",
+        "Proses alam jutaan tahun"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-025",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Pasangkan nama tumbuhan dengan daerah tumbuh utamanya di Indonesia!",
+      "rows": [
+        "Pohon meranti",
+        "Pohon teh",
+        "Pohon lontar",
+        "Rafflesia arnoldii"
+      ],
+      "cols": [
+        "Sumatera/Kalimantan",
+        "Jawa Barat (dataran tinggi)",
+        "Nusa Tenggara"
+      ],
+      "ans": [
+        "Sumatera/Kalimantan",
+        "Jawa Barat (dataran tinggi)",
+        "Nusa Tenggara",
+        "Sumatera/Kalimantan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-026",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Pasangkan nama provinsi dengan SDA unggulan yang dihasilkannya!",
+      "rows": [
+        "Batu bara",
+        "Teh",
+        "Mutiara",
+        "Minyak bumi"
+      ],
+      "cols": [
+        "Kalimantan Timur",
+        "Jawa Barat",
+        "Nusa Tenggara Barat"
+      ],
+      "ans": [
+        "Kalimantan Timur",
+        "Jawa Barat",
+        "Nusa Tenggara Barat",
+        "Kalimantan Timur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-027",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Pasangkan ciri fauna dengan zona fauna yang memiliki ciri tersebut!",
+      "rows": [
+        "Banyak mamalia besar seperti gajah",
+        "Unik campuran Asiatis-Australis",
+        "Banyak marsupial berkantung",
+        "Terdapat badak dan harimau"
+      ],
+      "cols": [
+        "Fauna Asiatis",
+        "Fauna Peralihan",
+        "Fauna Australis"
+      ],
+      "ans": [
+        "Fauna Asiatis",
+        "Fauna Peralihan",
+        "Fauna Australis",
+        "Fauna Asiatis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-028",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Pasangkan contoh pemanfaatan SDA dengan kategori kegiatannya!",
+      "rows": [
+        "Menanam padi di sawah",
+        "Menambang batu bara",
+        "Menebang pohon jati",
+        "Berkebun teh"
+      ],
+      "cols": [
+        "Pertanian",
+        "Pertambangan",
+        "Kehutanan"
+      ],
+      "ans": [
+        "Pertanian",
+        "Pertambangan",
+        "Kehutanan",
+        "Pertanian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-029",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Pasangkan nama kenampakan alam dengan manfaat utamanya bagi manusia!",
+      "rows": [
+        "Sungai besar",
+        "Gunung berapi",
+        "Laut",
+        "Danau"
+      ],
+      "cols": [
+        "Sumber air dan irigasi",
+        "Sumber mineral dan pertanian subur",
+        "Jalur transportasi dan ikan"
+      ],
+      "ans": [
+        "Sumber air dan irigasi",
+        "Sumber mineral dan pertanian subur",
+        "Jalur transportasi dan ikan",
+        "Sumber air dan irigasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-030",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Pasangkan nama hewan dengan ciri khas yang membedakannya!",
+      "rows": [
+        "Badak Jawa",
+        "Badak Sumatera",
+        "Gajah Sumatera",
+        "Harimau Sumatera"
+      ],
+      "cols": [
+        "Badak bercula satu",
+        "Badak bercula dua",
+        "Bukan badak"
+      ],
+      "ans": [
+        "Badak bercula satu",
+        "Badak bercula dua",
+        "Bukan badak",
+        "Bukan badak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-031",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Garis Wallace & Weber",
+      "stimulus": "",
+      "q": "Pasangkan nama pulau dengan zona fauna berdasarkan Garis Wallace dan Weber!",
+      "rows": [
+        "Sumatera",
+        "Sulawesi",
+        "Papua",
+        "Kalimantan"
+      ],
+      "cols": [
+        "Fauna Asiatis",
+        "Fauna Peralihan",
+        "Fauna Australis"
+      ],
+      "ans": [
+        "Fauna Asiatis",
+        "Fauna Peralihan",
+        "Fauna Australis",
+        "Fauna Asiatis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-032",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Persebaran SDA",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan ekonomi dengan daerah yang terkenal melakukannya!",
+      "rows": [
+        "Indramayu, Jawa Barat",
+        "Ciwidey, Jawa Barat",
+        "Kalimantan Timur",
+        "Palabuhanratu, Jabar"
+      ],
+      "cols": [
+        "Nelayan dan budidaya ikan",
+        "Perkebunan teh",
+        "Penambangan batu bara"
+      ],
+      "ans": [
+        "Nelayan dan budidaya ikan",
+        "Perkebunan teh",
+        "Penambangan batu bara",
+        "Nelayan dan budidaya ikan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-033",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Pasangkan lokasi tempat tinggal dengan mata pencaharian yang paling umum dilakukan warganya!",
+      "rows": [
+        "Nelayan",
+        "Pekebun teh",
+        "Petani padi",
+        "Pembudidaya ikan laut"
+      ],
+      "cols": [
+        "Pesisir pantai",
+        "Dataran tinggi",
+        "Dataran rendah"
+      ],
+      "ans": [
+        "Pesisir pantai",
+        "Dataran tinggi",
+        "Dataran rendah",
+        "Pesisir pantai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-034",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Pasangkan tradisi/kesenian Jawa Barat dengan latar alam yang menginspirasinya!",
+      "rows": [
+        "Lagu Sunda bertemakan sawah",
+        "Tradisi Nadran (sedekah laut)",
+        "Kesenian Angklung",
+        "Tari Jaipong"
+      ],
+      "cols": [
+        "Alam pegunungan",
+        "Alam pesisir",
+        "Alam hutan/bambu"
+      ],
+      "ans": [
+        "Alam pegunungan",
+        "Alam pesisir",
+        "Alam hutan/bambu",
+        "Alam pegunungan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-035",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Pasangkan kearifan lokal dengan tujuan utamanya!",
+      "rows": [
+        "Leuweung larangan (hutan larangan)",
+        "Gotong royong membersihkan lingkungan",
+        "Pantangan mendirikan rumah di lereng curam",
+        "Seren Taun"
+      ],
+      "cols": [
+        "Menjaga kelestarian alam",
+        "Menjaga keharmonisan sosial",
+        "Menjaga keselamatan diri"
+      ],
+      "ans": [
+        "Menjaga kelestarian alam",
+        "Menjaga keharmonisan sosial",
+        "Menjaga keselamatan diri",
+        "Menjaga kelestarian alam"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-036",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan bentuk adaptasi dengan tujuan utamanya!",
+      "rows": [
+        "Membuat terasering",
+        "Membangun rumah panggung",
+        "Menanam di pot",
+        "Memperkuat dinding tanah"
+      ],
+      "cols": [
+        "Mencegah longsor/erosi",
+        "Menghindari banjir",
+        "Memanfaatkan lahan sempit"
+      ],
+      "ans": [
+        "Mencegah longsor/erosi",
+        "Menghindari banjir",
+        "Memanfaatkan lahan sempit",
+        "Mencegah longsor/erosi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-037",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Pasangkan hasil alam dengan jenis pekerjaan yang memanfaatkannya!",
+      "rows": [
+        "Padi dan sayuran",
+        "Ikan dan hasil laut",
+        "Bambu dan kayu",
+        "Buah-buahan"
+      ],
+      "cols": [
+        "Petani",
+        "Nelayan",
+        "Pengrajin"
+      ],
+      "ans": [
+        "Petani",
+        "Nelayan",
+        "Pengrajin",
+        "Petani"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-038",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Pasangkan ciri alam daerah dengan pengaruhnya pada pakaian tradisional!",
+      "rows": [
+        "Pakaian berbahan tebal dan tertutup",
+        "Pakaian berbahan tipis dan ringan",
+        "Pakaian dengan motif tanaman",
+        "Pakaian berlapis tebal"
+      ],
+      "cols": [
+        "Pegunungan (dingin)",
+        "Pesisir (panas)",
+        "Dataran tinggi (sejuk)"
+      ],
+      "ans": [
+        "Pegunungan (dingin)",
+        "Pesisir (panas)",
+        "Dataran tinggi (sejuk)",
+        "Pegunungan (dingin)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-039",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Pasangkan tradisi masyarakat dengan nilai yang terkandung di dalamnya!",
+      "rows": [
+        "Upacara Seren Taun",
+        "Kerja bakti membersihkan lingkungan",
+        "Tidak menebang pohon di sumber air",
+        "Pesta panen bersama"
+      ],
+      "cols": [
+        "Syukur atas hasil alam",
+        "Kebersamaan dan gotong royong",
+        "Penghormatan pada alam"
+      ],
+      "ans": [
+        "Syukur atas hasil alam",
+        "Kebersamaan dan gotong royong",
+        "Penghormatan pada alam",
+        "Syukur atas hasil alam"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-040",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan tantangan alam dengan cara adaptasi yang tepat untuk menghadapinya!",
+      "rows": [
+        "Membuat terasering",
+        "Membangun rumah panggung",
+        "Membuat sumur dan tampungan air",
+        "Memperkuat tanggul"
+      ],
+      "cols": [
+        "Lahan miring",
+        "Daerah banjir",
+        "Daerah kering"
+      ],
+      "ans": [
+        "Lahan miring",
+        "Daerah banjir",
+        "Daerah kering",
+        "Daerah banjir"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-041",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Pasangkan produk unggulan dengan daerah penghasilnya di Jawa Barat!",
+      "rows": [
+        "Teh dan kambing",
+        "Padi sawah",
+        "Ikan laut",
+        "Dodol dan kulit"
+      ],
+      "cols": [
+        "Garut/Bandung",
+        "Indramayu/Karawang",
+        "Palabuhanratu/Cirebon"
+      ],
+      "ans": [
+        "Garut/Bandung",
+        "Indramayu/Karawang",
+        "Palabuhanratu/Cirebon",
+        "Garut/Bandung"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-042",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Pasangkan alat musik tradisional Jawa Barat dengan bahan baku utamanya!",
+      "rows": [
+        "Angklung",
+        "Kendang",
+        "Gambang",
+        "Suling"
+      ],
+      "cols": [
+        "Bambu",
+        "Kulit hewan",
+        "Kayu dan logam"
+      ],
+      "ans": [
+        "Bambu",
+        "Kulit hewan",
+        "Kayu dan logam",
+        "Bambu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-043",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Pasangkan contoh kearifan lokal dengan dampak positif yang dihasilkannya!",
+      "rows": [
+        "Leuweung larangan",
+        "Larangan mengotori sumber mata air",
+        "Sistem tanam bergilir",
+        "Tradisi gotong royong"
+      ],
+      "cols": [
+        "Hutan terjaga",
+        "Air bersih tersedia",
+        "Pangan tercukupi"
+      ],
+      "ans": [
+        "Hutan terjaga",
+        "Air bersih tersedia",
+        "Pangan tercukupi",
+        "Pangan tercukupi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-044",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan jenis tempat tinggal tradisional dengan fungsi desain yang membedakannya!",
+      "rows": [
+        "Rumah panggung",
+        "Rumah dari bambu yang fleksibel",
+        "Rumah dengan dinding tebal",
+        "Rumah di atas air"
+      ],
+      "cols": [
+        "Melindungi dari banjir",
+        "Melindungi dari gempa",
+        "Cocok di pegunungan dingin"
+      ],
+      "ans": [
+        "Melindungi dari banjir",
+        "Melindungi dari gempa",
+        "Cocok di pegunungan dingin",
+        "Melindungi dari banjir"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-045",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mata Pencaharian",
+      "stimulus": "",
+      "q": "Pasangkan jenis pekerjaan dengan sektor ekonomi yang sesuai!",
+      "rows": [
+        "Nelayan mencari ikan",
+        "Pengolah ikan menjadi abon",
+        "Penjual di pasar",
+        "Petani sayuran"
+      ],
+      "cols": [
+        "Sektor primer (mengelola SDA)",
+        "Sektor sekunder (mengolah hasil)",
+        "Sektor tersier (jasa)"
+      ],
+      "ans": [
+        "Sektor primer (mengelola SDA)",
+        "Sektor sekunder (mengolah hasil)",
+        "Sektor tersier (jasa)",
+        "Sektor primer (mengelola SDA)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-046",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kerajaan Hindu",
+      "stimulus": "",
+      "q": "Pasangkan nama kerajaan dengan peninggalan budaya yang paling terkenal!",
+      "rows": [
+        "Prasasti Yupa",
+        "Prasasti Ciaruteun",
+        "Kitab Negarakertagama",
+        "Candi Singosari"
+      ],
+      "cols": [
+        "Kerajaan Kutai",
+        "Kerajaan Tarumanegara",
+        "Kerajaan Majapahit"
+      ],
+      "ans": [
+        "Kerajaan Kutai",
+        "Kerajaan Tarumanegara",
+        "Kerajaan Majapahit",
+        "Kerajaan Majapahit"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-047",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Flora & Fauna",
+      "stimulus": "",
+      "q": "Pasangkan nama flora khas dengan daerah atau jenis habitatnya di Indonesia!",
+      "rows": [
+        "Rafflesia arnoldii",
+        "Pohon bakau (mangrove)",
+        "Pohon teh",
+        "Kantong semar"
+      ],
+      "cols": [
+        "Hutan hujan Sumatera/Kalimantan",
+        "Pesisir dan pantai",
+        "Dataran tinggi Jawa Barat"
+      ],
+      "ans": [
+        "Hutan hujan Sumatera/Kalimantan",
+        "Pesisir dan pantai",
+        "Dataran tinggi Jawa Barat",
+        "Hutan hujan Sumatera/Kalimantan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-048",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Klasifikasi Kerajaan",
+      "stimulus": "",
+      "q": "Pasangkan nama kerajaan dengan julukan yang terkenal dalam sejarah!",
+      "rows": [
+        "Sriwijaya",
+        "Majapahit",
+        "Kesultanan Demak",
+        "Kerajaan Kutai"
+      ],
+      "cols": [
+        "Kerajaan maritim terkuat",
+        "Kerajaan Hindu-Buddha terbesar",
+        "Kesultanan Islam pertama di Jawa"
+      ],
+      "ans": [
+        "Kerajaan maritim terkuat",
+        "Kerajaan Hindu-Buddha terbesar",
+        "Kesultanan Islam pertama di Jawa",
+        "Kerajaan Hindu-Buddha terbesar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-049",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SDA & Jenisnya",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan manusia dengan dampaknya terhadap SDA!",
+      "rows": [
+        "Penebangan hutan liar",
+        "Penanaman pohon (reboisasi)",
+        "Membaca buku di perpustakaan",
+        "Membuang limbah di sungai"
+      ],
+      "cols": [
+        "Merusak SDA",
+        "Melestarikan SDA",
+        "Tidak berpengaruh"
+      ],
+      "ans": [
+        "Merusak SDA",
+        "Melestarikan SDA",
+        "Tidak berpengaruh",
+        "Merusak SDA"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-050",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengaruh Alam terhadap Budaya",
+      "stimulus": "",
+      "q": "Pasangkan nama makanan khas dengan daerah asal di Jawa Barat yang dikenal menghasilkannya!",
+      "rows": [
+        "Batagor dan siomay",
+        "Empal gentong",
+        "Nasi tutug oncom",
+        "Surabi"
+      ],
+      "cols": [
+        "Bandung/sekitarnya",
+        "Cirebon",
+        "Tasikmalaya"
+      ],
+      "ans": [
+        "Bandung/sekitarnya",
+        "Cirebon",
+        "Tasikmalaya",
+        "Bandung/sekitarnya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-051",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Zona Fauna",
+      "stimulus": "",
+      "q": "Pasangkan pulau di Indonesia dengan jenis fauna khasnya!",
+      "rows": [
+        "Orang utan",
+        "Anoa",
+        "Cenderawasih",
+        "Bekantan"
+      ],
+      "cols": [
+        "Kalimantan",
+        "Sulawesi",
+        "Papua"
+      ],
+      "ans": [
+        "Kalimantan",
+        "Sulawesi",
+        "Papua",
+        "Kalimantan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-052",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peninggalan Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan isi kitab sastra dengan judul kitabnya!",
+      "rows": [
+        "Daftar wilayah Majapahit",
+        "Asal-usul Bhinneka Tunggal Ika",
+        "Kisah Ken Arok",
+        "Perjalanan peziarah"
+      ],
+      "cols": [
+        "Negarakertagama",
+        "Sutasoma",
+        "Pararaton"
+      ],
+      "ans": [
+        "Negarakertagama",
+        "Sutasoma",
+        "Pararaton",
+        "Negarakertagama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-053",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kenampakan Alam",
+      "stimulus": "",
+      "q": "Pasangkan nama danau terkenal di Indonesia dengan pulau tempat danau itu berada!",
+      "rows": [
+        "Danau Toba",
+        "Danau Poso",
+        "Danau Rawa Pening",
+        "Danau Maninjau"
+      ],
+      "cols": [
+        "Sumatera",
+        "Sulawesi",
+        "Jawa"
+      ],
+      "ans": [
+        "Sumatera",
+        "Sulawesi",
+        "Jawa",
+        "Sumatera"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-054",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan bahan alam yang digunakan dengan produk kerajinan Jawa Barat yang dihasilkannya!",
+      "rows": [
+        "Anyaman dan perabot",
+        "Gerabah dan keramik",
+        "Jaket kulit Bandung",
+        "Angklung dan suling"
+      ],
+      "cols": [
+        "Bambu",
+        "Tanah liat",
+        "Kulit domba"
+      ],
+      "ans": [
+        "Bambu",
+        "Tanah liat",
+        "Kulit domba",
+        "Bambu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-055",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kearifan Lokal",
+      "stimulus": "",
+      "q": "Pasangkan sikap masyarakat terhadap alam dengan kategorinya!",
+      "rows": [
+        "Tidak menebang pohon di lereng curam",
+        "Membuang sampah di sungai",
+        "Tidak mengubah apa pun",
+        "Membuat terasering di sawah"
+      ],
+      "cols": [
+        "Kearifan lokal positif",
+        "Tindakan merusak alam",
+        "Sikap netral"
+      ],
+      "ans": [
+        "Kearifan lokal positif",
+        "Tindakan merusak alam",
+        "Sikap netral",
+        "Kearifan lokal positif"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "Bahasa Indonesia",
+  "bab": "Bab 4 — Aku Anak Sehat",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Masalah tokoh dalam cerita adalah ...",
+      "opt": [
+        "Nama dan latar belakang tokoh utama yang diceritakan",
+        "Hambatan, kesulitan, atau tantangan yang harus dihadapi tokoh",
+        "Pelajaran moral yang ingin disampaikan penulis kepada pembaca",
+        "Suasana dan latar tempat di mana cerita berlangsung"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Masalah tokoh berperan penting dalam cerita karena ...",
+      "opt": [
+        "Membuat cerita menjadi lebih panjang dan lebih tebal",
+        "Masalah itulah yang menggerakkan jalan cerita dari awal hingga akhir",
+        "Tanpa masalah, cerita tidak bisa dibaca oleh siswa",
+        "Masalah membuat pembaca ikut merasa bersalah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Contoh masalah dengan DIRI SENDIRI yang dialami tokoh adalah ...",
+      "opt": [
+        "Bertengkar dengan teman sekelas karena berbeda pendapat",
+        "Kehilangan dompet saat perjalanan ke sekolah",
+        "Merasa tidak percaya diri sebelum tampil di depan kelas",
+        "Banjir yang merendam jalan menuju sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Contoh masalah dengan ORANG LAIN yang dialami tokoh adalah ...",
+      "opt": [
+        "Sakit perut karena tidak sarapan",
+        "Takut gelap saat listrik mati",
+        "Kesalahpahaman dengan sahabat yang membuatnya merasa sedih",
+        "Malas belajar untuk ujian besok"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pertanyaan PERTAMA untuk menemukan masalah tokoh adalah ...",
+      "opt": [
+        "Apa pesan moral yang ingin disampaikan penulis?",
+        "Apa yang membuat tokoh sedih, bingung, atau khawatir?",
+        "Di mana latar tempat cerita berlangsung?",
+        "Siapa tokoh utama dan siapa tokoh pendamping?"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pertanyaan KEDUA untuk menemukan masalah tokoh adalah ...",
+      "opt": [
+        "Bagaimana gaya bahasa yang digunakan penulis?",
+        "Apa nama dan usia tokoh utama?",
+        "Apa yang ingin dicapai tokoh tapi terhalang oleh sesuatu?",
+        "Kapan cerita ini ditulis oleh pengarangnya?"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pertanyaan KETIGA untuk menemukan masalah tokoh adalah ...",
+      "opt": [
+        "Bagaimana tokoh menyelesaikan masalahnya?",
+        "Siapa yang paling jahat dalam cerita?",
+        "Berapa panjang cerita yang harus dibaca?",
+        "Di mana tempat favorit tokoh dalam cerita?"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita 'Andi dan Sarapan Pagi', masalah utama yang dialami Andi adalah ...",
+      "opt": [
+        "Andi tidak suka pergi ke sekolah",
+        "Andi sering melewatkan sarapan sehingga lemas dan mengantuk di sekolah",
+        "Andi bertengkar dengan teman-temannya di sekolah",
+        "Andi tidak bisa mengerjakan soal matematika"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Penyebab masalah yang dialami Andi dalam cerita 'Andi dan Sarapan Pagi' adalah ...",
+      "opt": [
+        "Andi tidak suka makanan yang disajikan ibunya",
+        "Andi begadang menonton TV sehingga bangun terlambat dan tidak sempat sarapan",
+        "Andi tidak punya uang untuk membeli makanan di kantin",
+        "Andi alergi terhadap makanan tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Titik puncak masalah Andi dalam cerita adalah ...",
+      "opt": [
+        "Andi mendapat nilai jelek pada ujian akhir semester",
+        "Andi bertengkar dengan Bu Ratna, guru olahraganya",
+        "Andi hampir pingsan saat pelajaran olahraga di lapangan",
+        "Andi lupa membawa buku pelajaran ke sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Solusi yang dilakukan Andi untuk mengatasi masalahnya adalah ...",
+      "opt": [
+        "Andi berhenti mengikuti pelajaran olahraga",
+        "Andi meminta ibu membangunkannya setiap pagi",
+        "Andi berjanji tidur pukul 21.00 dan selalu sarapan sebelum berangkat",
+        "Andi pindah ke sekolah yang lebih dekat dari rumah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita 'Siti dan Air Bersih', masalah yang dialami Siti adalah ...",
+      "opt": [
+        "Siti tidak punya uang untuk membeli minuman di sekolah",
+        "Siti sering sakit kepala, bibir kering, dan cepat lelah karena kurang minum air putih",
+        "Siti bertengkar dengan Pak Hendra, guru kelasnya",
+        "Siti tidak suka berolahraga di luar ruangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Penyebab masalah Siti dalam ceritanya adalah ...",
+      "opt": [
+        "Siti tinggal di daerah yang sering kekurangan air bersih",
+        "Siti tidak diizinkan membawa minuman ke sekolah",
+        "Siti sangat menyukai minuman manis dan hampir tidak pernah minum air putih",
+        "Siti alergi terhadap air putih"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pesan moral dari cerita 'Andi dan Sarapan Pagi' adalah ...",
+      "opt": [
+        "Jangan pernah menonton televisi malam-malam",
+        "Sarapan penting sebagai bahan bakar tubuh; pola tidur yang baik mendukung kesehatan",
+        "Selalu pergi ke UKS jika merasa tidak enak badan",
+        "Guru olahraga adalah orang yang paling peduli dengan kesehatan siswa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pertanyaan yang membantu menemukan MASALAH dalam cerita adalah ...",
+      "opt": [
+        "Apakah tokoh utama anak laki-laki atau perempuan?'",
+        "Di kelas berapa tokoh bersekolah?'",
+        "Apa yang membuat tokoh bingung atau merasa tidak nyaman?'",
+        "Siapa nama guru yang mengajar tokoh?'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Seorang siswa sangat ingin mengikuti lomba menyanyi di sekolah, tetapi ia sangat gugup dan tidak percaya diri. Masalah tokoh dalam deskripsi tersebut termasuk jenis ...",
+      "opt": [
+        "Masalah dengan keadaan",
+        "Masalah dengan orang lain",
+        "Masalah dengan diri sendiri",
+        "Masalah dengan lingkungan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Ketika menemukan masalah tokoh, kita juga perlu memperhatikan solusinya karena ...",
+      "opt": [
+        "Solusi selalu berada di paragraf pertama cerita",
+        "Solusi menunjukkan bagaimana tokoh mengatasi masalahnya dan bisa menjadi pelajaran",
+        "Tanpa solusi, cerita dianggap tidak memiliki masalah",
+        "Solusi selalu diberikan oleh tokoh pembantu, bukan tokoh utama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Cerita yang baik biasanya memiliki masalah yang ...",
+      "opt": [
+        "Sangat mudah diselesaikan oleh tokoh dalam satu kalimat",
+        "Tidak perlu diselesaikan sama sekali",
+        "Cukup menantang sehingga pembaca penasaran bagaimana tokoh akan mengatasinya",
+        "Selalu berupa bencana alam yang besar"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Ciri bagian cerita yang menunjukkan adanya masalah adalah ...",
+      "opt": [
+        "Penulisan nama tokoh dan tempat tinggalnya",
+        "Gambaran tokoh yang merasa tidak nyaman, khawatir, atau menghadapi hambatan",
+        "Deskripsi cuaca dan suasana alam di sekitar tokoh",
+        "Penjelasan tokoh tentang hobinya sehari-hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita tentang Dimas yang mengikuti lomba lari, masalah utama yang dihadapinya adalah ...",
+      "opt": [
+        "Dimas tidak diizinkan mengikuti lomba oleh orang tuanya",
+        "Dimas kelelahan karena latihan berlebihan sehingga kakinya nyeri menjelang lomba",
+        "Dimas tidak tahu rute lomba lari yang harus ditempuh",
+        "Dimas bertengkar dengan peserta lain sebelum lomba dimulai"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Masalah Lina dalam cerita 'Bekal Sehat Lina' adalah ...",
+      "opt": [
+        "Lina tidak suka makan sayur sama sekali",
+        "Lina malu membawa bekal sayur ke sekolah karena takut diejek teman",
+        "Lina tidak mendapat bekal dari ibunya setiap hari",
+        "Lina sering terlambat ke sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Saat membaca kalimat 'Ia tidak mengerti mengapa badannya terasa berbeda dari teman-temannya yang masih kuat bermain', kita bisa mengetahui bahwa tokoh mengalami ...",
+      "opt": [
+        "Kebingungan dan masalah yang belum terpecahkan",
+        "Kesenangan yang sangat besar",
+        "Rasa marah kepada teman-temannya",
+        "Kekaguman terhadap kemampuan temannya"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Contoh masalah dengan KEADAAN yang dialami tokoh adalah ...",
+      "opt": [
+        "Tidak percaya diri saat tampil di depan kelas",
+        "Salah paham dengan teman baik",
+        "Banjir merendam jalan sehingga tidak bisa berangkat sekolah",
+        "Malas mengerjakan tugas rumah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang masalah tokoh adalah ...",
+      "opt": [
+        "Setiap cerita hanya boleh memiliki satu jenis masalah",
+        "Masalah tokoh selalu diselesaikan oleh tokoh lain, bukan tokoh utama",
+        "Masalah tokoh bisa bermacam-macam dan sering kali saling berkaitan",
+        "Cerita tanpa masalah adalah cerita yang paling baik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Bu Ratna menjelaskan kepada Andi bahwa sarapan adalah 'bahan bakar tubuh, seperti bensin untuk kendaraan'. Penjelasan ini merupakan ...",
+      "opt": [
+        "Kritikan Bu Ratna terhadap kebiasaan makan Andi",
+        "Informasi yang membantu Andi memahami penyebab masalahnya",
+        "Cara Bu Ratna menghukum Andi yang tidak sarapan",
+        "Deskripsi tentang jenis kendaraan yang disukai Bu Ratna"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Bagian cerita di mana masalah utama tokoh terungkap secara paling jelas disebut ...",
+      "opt": [
+        "Bagian akhir resolusi",
+        "Bagian pengenalan tokoh",
+        "Titik puncak atau klimaks",
+        "Bagian penutup cerita"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Hasil akhir yang dicapai Andi setelah mengatasi masalahnya adalah ...",
+      "opt": [
+        "Andi mendapat hadiah dari Bu Ratna karena selalu sarapan",
+        "Andi dua minggu kemudian merasa lebih bertenaga dan nilainya mulai membaik",
+        "Andi tidak lagi menonton televisi selamanya",
+        "Andi menjadi atlet olahraga terbaik di sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi dalam teks dikatakan SESUAI jika ...",
+      "opt": [
+        "Gambarnya lebih indah dan berwarna dari teks aslinya",
+        "Gambar menggambarkan hal yang sama dengan isi teks dari segi tokoh, latar, suasana, atau tema",
+        "Gambarnya dibuat oleh ilustrator yang sangat terkenal",
+        "Gambar memenuhi seluruh halaman buku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi dikatakan TIDAK sesuai dengan isi teks jika ...",
+      "opt": [
+        "Warna pakaian tokoh dalam gambar sedikit berbeda dari deskripsi di teks",
+        "Ada perbedaan yang mencolok antara gambar dan isi teks, misalnya kegiatan yang digambar berbeda",
+        "Gambar tidak memiliki keterangan teks di bawahnya",
+        "Ukuran gambar lebih kecil dari teks yang diceritakan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Ada 5 aspek yang perlu diperiksa saat menilai kesesuaian ilustrasi. Yang BUKAN termasuk adalah ...",
+      "opt": [
+        "Tokoh — apakah tokoh di gambar sesuai dengan teks",
+        "Latar tempat — apakah tempat di gambar sesuai teks",
+        "Harga buku — apakah bukunya cukup mahal",
+        "Suasana — apakah suasana gambar cocok dengan cerita"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Aspek TOKOH dalam checklist menilai ilustrasi berarti kita memeriksa ...",
+      "opt": [
+        "Apakah nama tokoh disebutkan dalam gambar",
+        "Apakah tokoh di gambar sesuai dengan yang diceritakan di teks dari segi jumlah, usia, dan penampilan",
+        "Apakah tokoh di gambar terlihat lebih cantik dari aslinya",
+        "Apakah tokoh gambar menggunakan pakaian bermerk"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Aspek LATAR TEMPAT dalam checklist berarti kita memeriksa ...",
+      "opt": [
+        "Apakah tempat cerita cukup mewah untuk divisualisasikan",
+        "Apakah tempat di gambar sama dengan latar cerita seperti sekolah, rumah, atau lapangan",
+        "Apakah tempat di gambar benar-benar ada di kota yang disebutkan",
+        "Apakah gambar memiliki nama tempat yang tertulis jelas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Aspek SUASANA dalam checklist berarti kita memeriksa ...",
+      "opt": [
+        "Apakah cuaca di gambar sama persis dengan yang dideskripsikan",
+        "Apakah ekspresi tokoh di gambar cocok dengan suasana cerita — sedih, gembira, tegang, damai",
+        "Apakah gambar menggunakan warna yang cerah dan menarik",
+        "Apakah ada efek animasi dalam gambar tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Aspek OBJEK atau KEGIATAN dalam checklist berarti kita memeriksa ...",
+      "opt": [
+        "Apakah benda atau kegiatan yang digambar sesuai dengan yang diceritakan di teks",
+        "Apakah objek gambar cukup besar untuk dilihat",
+        "Apakah benda-benda dalam gambar terlihat mahal",
+        "Apakah gambar menggunakan perspektif yang benar"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Aspek TEMA dalam checklist berarti kita memeriksa ...",
+      "opt": [
+        "Apakah tema besar gambar dan teks sama, misalnya kesehatan, persahabatan, atau lingkungan",
+        "Apakah tema gambar cukup menarik untuk anak-anak",
+        "Apakah tema gambar sesuai dengan kurikulum pelajaran",
+        "Apakah gambar menggunakan teknik pewarnaan yang tepat"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi 'sekelompok anak SD berseragam sedang senam pagi di lapangan, guru olahraga memimpin di depan' dinilai SESUAI dengan teks 'Senam Pagi di Sekolah' karena ...",
+      "opt": [
+        "Gambarnya sangat indah dan berwarna",
+        "Tokoh, latar, kegiatan, dan suasananya cocok dengan isi teks",
+        "Gambar tersebut paling populer di antara ilustrasi lainnya",
+        "Ukuran gambar sesuai dengan ukuran halaman buku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi 'hamburger besar, kentang goreng, dan minuman bersoda' dinilai TIDAK SESUAI dengan teks 'Makan Sayur Bersama Keluarga' karena ...",
+      "opt": [
+        "Gambarnya tidak cukup berwarna",
+        "Objek dalam gambar bertentangan dengan isi cerita yang bertemakan makanan sehat",
+        "Gambar tidak mencantumkan nama makanan",
+        "Ukuran gambar terlalu besar untuk halaman tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang penilaian kesesuaian ilustrasi adalah ...",
+      "opt": [
+        "Ilustrasi harus menggambarkan setiap detail dalam teks secara persis sama",
+        "Warna baju tokoh boleh berbeda, tapi jenis kegiatan yang digambar harus sama",
+        "Ilustrasi yang tidak berwarna otomatis tidak sesuai",
+        "Ilustrasi harus lebih panjang dari teks yang diceritakan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Teks menceritakan Rina yang awalnya tidak suka sayur lalu mencoba dan menyukainya. Ilustrasi yang SESUAI adalah ...",
+      "opt": [
+        "Gambar anak sedang makan hamburger sambil senyum",
+        "Gambar keluarga makan bersama di meja dengan hidangan sayur dan anak tampak senang",
+        "Gambar toko sayuran yang sangat besar",
+        "Gambar ibu memasak di dapur seorang diri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Kemampuan menilai kesesuaian ilustrasi penting karena ...",
+      "opt": [
+        "Agar kita bisa mengkritik pekerjaan ilustrator",
+        "Ilustrasi yang tidak sesuai bisa membuat pembaca salah paham tentang isi bacaan",
+        "Agar kita bisa menggambar ulang ilustrasi yang lebih baik",
+        "Karena setiap buku diwajibkan memiliki ilustrasi yang indah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Teks: 'Andi hampir pingsan saat pelajaran olahraga di lapangan.' Ilustrasi yang PALING SESUAI adalah ...",
+      "opt": [
+        "Gambar anak berseragam berlari di lapangan dengan ekspresi ceria",
+        "Gambar anak berseragam di lapangan dengan ekspresi lemas dan guru mendekatinya",
+        "Gambar dokter di rumah sakit memeriksa pasien",
+        "Gambar anak tidur di tempat tidur sambil berselimut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Manakah ilustrasi yang TIDAK SESUAI untuk teks tentang pentingnya minum air putih?",
+      "opt": [
+        "Gambar anak minum air putih dari botol yang bening",
+        "Gambar tabel perbandingan kandungan minuman sehat",
+        "Gambar pesta ulang tahun dengan kue dan balon berwarna-warni",
+        "Gambar anak terlihat segar setelah minum air putih"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Teks: 'Dimas berlari dengan hati-hati meski kakinya belum sepenuhnya pulih.' Suasana yang COCOK untuk ilustrasi ini adalah ...",
+      "opt": [
+        "Gembira dan penuh tawa",
+        "Tegang dan penuh perjuangan",
+        "Santai dan tenang",
+        "Sedih dan menangis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Cara menilai kesesuaian ilustrasi yang benar adalah ...",
+      "opt": [
+        "Langsung memutuskan cocok atau tidak berdasarkan keindahan gambar",
+        "Membandingkan gambar dengan isi teks menggunakan checklist aspek tokoh, latar, suasana, objek, dan tema",
+        "Bertanya kepada guru apakah gambar itu cocok atau tidak",
+        "Menghitung jumlah warna yang digunakan dalam gambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Teks bertema 'semangat olahraga pagi' namun ilustrasinya menunjukkan anak sedang rebahan di sofa. Kesimpulan yang tepat adalah ...",
+      "opt": [
+        "Ilustrasi sesuai karena masih berkaitan dengan anak",
+        "Ilustrasi tidak sesuai karena kegiatan dan suasananya bertentangan dengan isi teks",
+        "Ilustrasi sesuai karena menampilkan tokoh anak",
+        "Ilustrasi sesuai jika dibaca dengan sudut pandang berbeda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Checklist kesesuaian ilustrasi dengan teks 'Senam Pagi di Sekolah' untuk aspek LATAR TEMPAT yang tepat adalah ...",
+      "opt": [
+        "Tidak cocok — gambar menampilkan lapangan, bukan gedung olahraga",
+        "Cocok — teks menyebutkan lapangan sekolah dan gambar juga menampilkan lapangan sekolah",
+        "Tidak cocok — teks tidak menyebutkan lapangan",
+        "Cocok — semua cerita anak berlatar di sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Perbedaan antara menilai kesesuaian ilustrasi (Bab 8) dengan menyampaikan pendapat tentang ilustrasi (Bab 6) adalah ...",
+      "opt": [
+        "Tidak ada perbedaan, keduanya sama",
+        "Bab 8 menilai secara objektif menggunakan checklist; Bab 6 menyampaikan pendapat pribadi",
+        "Bab 6 menggunakan checklist; Bab 8 hanya pendapat pribadi",
+        "Bab 8 hanya berlaku untuk buku teks, Bab 6 untuk cerita fiksi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Gambar menampilkan seorang anak minum dari botol transparan berisi air bening di sekolah. Teks bercerita tentang pentingnya minum air putih. Aspek TEMA checklist-nya adalah ...",
+      "opt": [
+        "Tidak cocok — gambar tidak cukup menarik",
+        "Cocok — tema gambar dan teks sama-sama tentang hidrasi dan kesehatan",
+        "Tidak cocok — gambar seharusnya menampilkan lebih banyak karakter",
+        "Cocok — semua gambar anak otomatis sesuai untuk teks kesehatan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Teks bercerita tentang Lina malu membawa bekal sayur. Ilustrasi menunjukkan anak perempuan dengan wajah cemas sambil memegang kotak makan di kelas. Aspek SUASANA checklist adalah ...",
+      "opt": [
+        "Tidak cocok — wajah cemas tidak menggambarkan malu",
+        "Cocok — suasana cemas/khawatir sesuai dengan perasaan malu Lina",
+        "Tidak cocok — seharusnya gambar menampilkan sayuran",
+        "Cocok — semua gambar anak perempuan cocok dengan cerita Lina"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Teks menceritakan Siti yang sering sakit kepala karena dehidrasi. Ilustrasi yang paling TIDAK SESUAI adalah ...",
+      "opt": [
+        "Gambar anak memegang kepala dengan ekspresi kesakitan",
+        "Gambar anak yang terlihat lesu dengan bibir kering",
+        "Gambar anak sedang berlompat-lompat dengan gembira di taman",
+        "Gambar anak sedang minum tetapi dengan wajah yang tidak segar"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Aspek OBJEK/KEGIATAN dalam checklist adalah yang paling kritis karena ...",
+      "opt": [
+        "Objek adalah bagian yang paling mudah digambar",
+        "Jika kegiatan yang digambar berbeda dari teks, pembaca bisa salah memahami isi cerita",
+        "Objek selalu lebih mahal untuk digambar oleh ilustrator",
+        "Kegiatan dalam gambar tidak berpengaruh pada pemahaman pembaca"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Teks tentang keluarga yang makan sayur sop bersama. Dua ilustrasi yang tersedia: (A) keluarga di meja makan dengan mangkuk sop dan wajah senang; (B) restoran pizza dengan keluarga makan pizza. Yang SESUAI adalah ...",
+      "opt": [
+        "Ilustrasi B, karena restoran terlihat lebih menarik",
+        "Ilustrasi A, karena kegiatan dan objeknya cocok dengan isi cerita",
+        "Keduanya sesuai karena keduanya menampilkan keluarga",
+        "Keduanya tidak sesuai karena warnanya kurang cerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Checklist 5 aspek kesesuaian ilustrasi digunakan agar penilaian kita ...",
+      "opt": [
+        "Terlihat lebih panjang dan formal",
+        "Lebih objektif dan tidak hanya berdasarkan selera pribadi",
+        "Bisa digunakan untuk semua jenis teks tanpa pengecualian",
+        "Membuat ilustrator menjadi lebih kreatif"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi untuk teks 'Andi berjanji tidur pukul 21.00' yang paling SESUAI adalah ...",
+      "opt": [
+        "Gambar anak berseragam lari di lapangan",
+        "Gambar anak di tempat tidur dengan lampu meja yang dimatikan, jam menunjukkan pukul 21.00",
+        "Gambar anak sarapan nasi goreng di pagi hari",
+        "Gambar ibu memasak di dapur untuk anaknya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C01",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Fakta adalah pernyataan yang ...",
+      "opt": [
+        "Dibuat oleh orang yang sangat ahli dan berpengalaman",
+        "Bisa dibuktikan kebenarannya dengan data, pengukuran, atau pengamatan langsung",
+        "Disetujui oleh mayoritas orang dalam suatu masyarakat",
+        "Terdengar meyakinkan dan logis saat dibacakan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C02",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Opini adalah pernyataan yang ...",
+      "opt": [
+        "Sudah terbukti benar melalui penelitian ilmiah",
+        "Merupakan pendapat, penilaian, atau perasaan seseorang yang bisa berbeda antar orang",
+        "Selalu benar karena diucapkan oleh tokoh terkenal",
+        "Berisi angka dan data yang bisa diverifikasi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C03",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Ciri utama sebuah kalimat FAKTA adalah ...",
+      "opt": [
+        "Menggunakan kata 'menurut saya' atau 'saya rasa'",
+        "Berisi penilaian pribadi yang bisa berbeda antar pembaca",
+        "Berisi angka, tanggal, nama resmi, atau hasil pengukuran yang bisa dicek",
+        "Menggunakan gaya bahasa yang sangat meyakinkan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C04",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kata-kata penanda OPINI yang sering digunakan adalah ...",
+      "opt": [
+        "Angka-angka spesifik dan nama ilmiah",
+        "Tanggal dan tempat kejadian yang terverifikasi",
+        "Menurut saya', 'sebaiknya', 'paling', 'terbaik', 'membosankan'",
+        "Nama lembaga resmi dan data statistik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C05",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Trik cepat membedakan fakta dan opini adalah dengan bertanya ...",
+      "opt": [
+        "Apakah kalimat ini menggunakan bahasa yang formal?'",
+        "Apakah kalimat ini ditulis oleh orang terkenal?'",
+        "Apakah kalimat ini bisa dibuktikan benar atau salah?'",
+        "Apakah kalimat ini terdapat di buku pelajaran?'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C06",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Kalimat 'Olahraga renang membakar sekitar 400–700 kalori per jam' merupakan ...",
+      "opt": [
+        "Opini, karena setiap orang bisa memiliki pendapat berbeda tentang renang",
+        "Fakta, karena berisi angka kalori yang bisa diverifikasi",
+        "Opini, karena kata 'sekitar' menunjukkan perkiraan",
+        "Fakta, karena semua orang suka berenang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C07",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Renang adalah olahraga paling menyenangkan' merupakan ...",
+      "opt": [
+        "Fakta, karena renang memang menyenangkan",
+        "Fakta, karena banyak orang setuju",
+        "Opini, karena 'paling menyenangkan' adalah penilaian pribadi yang bisa berbeda",
+        "Fakta, karena ada data yang mendukung"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C08",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Kalimat 'Anak usia 6–12 tahun membutuhkan tidur 9–12 jam setiap malam' merupakan ...",
+      "opt": [
+        "Opini, karena setiap anak bisa berbeda kebutuhannya",
+        "Fakta, karena berisi data ilmiah yang bisa diverifikasi",
+        "Opini, karena ada kata 'membutuhkan'",
+        "Fakta, karena disebutkan dalam buku kesehatan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C09",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Menurut saya, tidur siang itu membosankan' merupakan ...",
+      "opt": [
+        "Fakta, karena diucapkan oleh banyak anak",
+        "Fakta, karena tidur siang memang tidak bermanfaat",
+        "Opini, karena menggunakan kata 'menurut saya' dan 'membosankan'",
+        "Fakta, karena berisi kegiatan nyata yaitu tidur siang"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C10",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Kalimat 'Wortel mengandung vitamin A yang baik untuk kesehatan mata' merupakan ...",
+      "opt": [
+        "Opini, karena tidak semua orang suka wortel",
+        "Fakta, karena kandungan nutrisi wortel bisa dibuktikan secara ilmiah",
+        "Opini, karena vitamin A tidak bisa dilihat dengan mata",
+        "Fakta, karena semua sayuran mengandung vitamin"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C11",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Sebaiknya, setiap kota di Indonesia menyediakan jalur sepeda' merupakan ...",
+      "opt": [
+        "Fakta, karena jalur sepeda memang penting",
+        "Opini, karena menggunakan kata 'sebaiknya' yang menunjukkan saran",
+        "Fakta, karena Kementerian Perhubungan sudah menyatakannya",
+        "Opini, karena tidak semua kota punya jalur sepeda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C12",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Kalimat 'Kota Bandung telah menyediakan jalur khusus sepeda sepanjang 12 kilometer' merupakan ...",
+      "opt": [
+        "Opini, karena 12 km terdengar terlalu pendek",
+        "Fakta, karena berisi ukuran panjang yang bisa diukur dan diverifikasi",
+        "Opini, karena jalur sepeda tidak penting bagi semua orang",
+        "Fakta, karena Bandung adalah kota besar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C13",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Bersepeda adalah olahraga paling menyenangkan karena bisa dilakukan sambil menikmati pemandangan' merupakan ...",
+      "opt": [
+        "Fakta, karena bersepeda memang bisa dilakukan di mana saja",
+        "Opini, karena 'paling menyenangkan' adalah penilaian subjektif",
+        "Fakta, karena pemandangan memang bisa dilihat saat bersepeda",
+        "Opini, karena hanya berlaku di daerah tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C14",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Dari bacaan tentang bersepeda: 'Bersepeda selama 30 menit setiap hari setara dengan membakar sekitar 200 kalori. Data ini dari Kementerian Kesehatan.' Kalimat tersebut merupakan ...",
+      "opt": [
+        "Opini, karena tidak semua orang membakar kalori yang sama",
+        "Fakta, karena berisi data dari lembaga resmi yang bisa diverifikasi",
+        "Opini, karena ada kata 'sekitar'",
+        "Fakta, karena olahraga memang membakar kalori"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C15",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Kalimat 'BPOM menemukan bahwa 15% jajanan anak di sekolah mengandung bahan berbahaya' merupakan ...",
+      "opt": [
+        "Opini, karena BPOM bisa saja salah",
+        "Fakta, karena berisi data persentase dari lembaga resmi yang bisa dicek",
+        "Opini, karena 15% terdengar kecil",
+        "Fakta, karena semua makanan anak berbahaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C16",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Menurut saya, semua jajanan di depan sekolah sebaiknya dilarang karena tidak bisa dipastikan kebersihannya' merupakan ...",
+      "opt": [
+        "Fakta, karena jajanan pinggir jalan memang tidak bersih",
+        "Opini, karena menggunakan 'menurut saya', 'sebaiknya', dan penilaian subjektif",
+        "Fakta, karena BPOM sudah membuktikannya",
+        "Opini, karena hanya berlaku di depan sekolah tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C17",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Trik untuk mengenali OPINI: jika kalimat bisa diperdebatkan dan orang lain bisa tidak setuju, maka kalimat tersebut adalah ...",
+      "opt": [
+        "Fakta",
+        "Informasi",
+        "Data",
+        "Opini"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C18",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang fakta adalah ...",
+      "opt": [
+        "Fakta selalu disampaikan oleh orang yang terkenal",
+        "Fakta adalah kebenaran yang bisa dibuktikan dan berlaku untuk semua orang",
+        "Fakta adalah sesuatu yang disetujui oleh banyak orang",
+        "Fakta hanya bisa ditemukan di buku pelajaran"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C19",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangan kalimat berikut: (A) 'Tubuh manusia membutuhkan 6-8 gelas air per hari' dan (B) 'Air putih itu membosankan.' Yang merupakan fakta dan opini secara berturutan adalah ...",
+      "opt": [
+        "A = fakta, B = fakta",
+        "A = opini, B = fakta",
+        "A = fakta, B = opini",
+        "A = opini, B = opini"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C20",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Sayur wortel rasanya kurang enak jika dimakan mentah' merupakan opini karena ...",
+      "opt": [
+        "Wortel memang tidak enak dimakan mentah",
+        "Rasa adalah pengalaman pribadi yang bisa berbeda antar orang",
+        "Wortel selalu dimakan matang di Indonesia",
+        "Kata 'kurang enak' adalah kata baku bahasa Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C21",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Mengapa kemampuan membedakan fakta dan opini penting?",
+      "opt": [
+        "Agar kita bisa menulis lebih banyak fakta dalam karangan",
+        "Agar kita tidak mudah tertipu oleh informasi yang belum tentu benar",
+        "Agar kita bisa mengkritik pendapat orang lain",
+        "Agar kita bisa menghindari membaca teks opini"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C22",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Kalimat 'SD Cerdas Mandiri memiliki 480 siswa pada tahun ajaran 2025/2026' merupakan fakta karena ...",
+      "opt": [
+        "Semua sekolah dasar memiliki jumlah siswa yang sama",
+        "Jumlah siswa adalah data yang bisa dihitung dan diverifikasi",
+        "Nama sekolah terdengar meyakinkan",
+        "Data tahun ajaran selalu benar adanya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C23",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Di antara kalimat berikut, yang merupakan OPINI adalah ...",
+      "opt": [
+        "Bersepeda 30 menit membakar 200 kalori.'",
+        "Kota Bandung memiliki jalur sepeda 12 km.'",
+        "Menurutku, berolahraga di pagi hari terasa lebih menyegarkan.'",
+        "Anak usia SD membutuhkan tidur 9–12 jam.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C24",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Satu teks bisa mengandung fakta DAN opini sekaligus. Contohnya dalam teks bersepeda: fakta berupa data kalori dan opini berupa 'paling menyenangkan'. Kesimpulan yang tepat adalah ...",
+      "opt": [
+        "Teks yang berisi opini otomatis tidak bisa dipercaya",
+        "Teks yang berisi fakta berarti tidak punya opini",
+        "Membaca teks kritis berarti mengenali mana yang fakta dan mana yang opini",
+        "Opini lebih baik dari fakta karena lebih menarik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C25",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Saya rasa olahraga renang lebih baik dari lari untuk anak-anak' merupakan opini karena ...",
+      "opt": [
+        "Renang memang lebih baik dari lari secara ilmiah",
+        "Kata 'saya rasa' dan 'lebih baik' menunjukkan penilaian subjektif",
+        "Pernyataan ini sudah dibuktikan oleh dokter",
+        "Lari memang tidak baik untuk anak-anak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C26",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Di antara kalimat berikut, yang merupakan FAKTA adalah ...",
+      "opt": [
+        "Senam pagi adalah kegiatan terbaik untuk pelajar.'",
+        "Menurut saya, sayur bayam paling bergizi.'",
+        "Vitamin C terdapat dalam buah jeruk dan dapat meningkatkan imunitas.'",
+        "Sebaiknya semua siswa rutin berolahraga setiap hari.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C27",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Menurut data WHO, orang dewasa harus berolahraga minimal 150 menit per minggu' merupakan ...",
+      "opt": [
+        "Opini, karena setiap orang punya kemampuan fisik berbeda",
+        "Fakta, karena berisi data dari lembaga resmi dunia yang bisa diverifikasi",
+        "Opini, karena 150 menit bisa terasa berbeda bagi setiap orang",
+        "Fakta, karena olahraga memang penting bagi semua orang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D01",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Struktur cerita adalah ...",
+      "opt": [
+        "Jumlah kata dan panjang cerita dari awal sampai akhir",
+        "Susunan atau kerangka yang membentuk cerita dari awal sampai selesai",
+        "Daftar nama tokoh dan peran mereka dalam cerita",
+        "Cara penulis memilih kata-kata dalam cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D02",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Struktur cerita yang paling dasar terdiri dari ...",
+      "opt": [
+        "Dua bagian: masalah dan penyelesaian",
+        "Empat bagian: perkenalan, masalah, puncak, dan kesimpulan",
+        "Tiga bagian: awal, tengah, dan akhir",
+        "Lima bagian: pembuka, pengembangan, klimaks, antiklimaks, dan penutup"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D03",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Bagian AWAL cerita (Orientasi) berisi ...",
+      "opt": [
+        "Masalah yang muncul dan konflik antar tokoh",
+        "Penyelesaian masalah dan pesan moral cerita",
+        "Perkenalan tokoh, latar tempat dan waktu, serta suasana cerita",
+        "Tindakan tokoh dalam menghadapi rintangan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D04",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Pertanyaan yang terjawab dari bagian AWAL cerita adalah ...",
+      "opt": [
+        "Apa masalah yang dihadapi? Bagaimana tokoh mengatasinya?",
+        "Siapa? Di mana? Kapan?",
+        "Bagaimana akhir cerita? Apa pesan moralnya?",
+        "Siapa yang menang dan siapa yang kalah?"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D05",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Bagian TENGAH cerita (Komplikasi) berisi ...",
+      "opt": [
+        "Perkenalan nama dan latar belakang tokoh utama",
+        "Penyelesaian semua masalah yang ada dalam cerita",
+        "Masalah yang muncul, konflik terjadi, dan ketegangan meningkat",
+        "Deskripsi suasana alam dan lingkungan sekitar tokoh"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D06",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Pertanyaan yang terjawab dari bagian TENGAH cerita adalah ...",
+      "opt": [
+        "Siapa tokoh dan di mana cerita berlangsung?",
+        "Apa pesan moral yang ingin disampaikan penulis?",
+        "Bagaimana akhir yang dialami tokoh?",
+        "Apa masalahnya? Bagaimana tokoh menghadapinya?"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D07",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Bagian AKHIR cerita (Resolusi) berisi ...",
+      "opt": [
+        "Kemunculan masalah baru yang membuat cerita semakin rumit",
+        "Perkenalan tokoh baru yang menggantikan tokoh utama",
+        "Masalah terselesaikan, pelajaran didapat, dan cerita ditutup",
+        "Deskripsi awal suasana tempat dan waktu cerita"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D08",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Pertanyaan yang terjawab dari bagian AKHIR cerita adalah ...",
+      "opt": [
+        "Siapa tokoh utama dan siapa tokoh pembantu?",
+        "Apa yang menyebabkan masalah muncul?",
+        "Bagaimana akhirnya? Apa pesan ceritanya?",
+        "Di mana dan kapan cerita ini berlangsung?"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D09",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita 'Lomba Lari Dimas', paragraf yang menceritakan 'Dimas siswa kelas 4 yang suka lari. Ia berlatih bersama ayahnya di Dayeuhkolot. Sekolah mengadakan lomba lari.' termasuk bagian ...",
+      "opt": [
+        "Tengah — karena membicarakan lomba",
+        "Awal — karena memperkenalkan tokoh, latar, dan situasi awal",
+        "Akhir — karena menyebutkan hasil lomba",
+        "Tengah — karena Dimas berlatih"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D10",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita 'Lomba Lari Dimas', paragraf yang menceritakan 'kaki Dimas nyeri setelah latihan berlebihan; saat lomba ia tertinggal dan hampir menyerah' termasuk bagian ...",
+      "opt": [
+        "Awal — karena memperkenalkan masalah",
+        "Akhir — karena menyebutkan hasil",
+        "Tengah — karena berisi masalah dan konflik yang harus dihadapi",
+        "Awal — karena menceritakan latihan Dimas"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D11",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita 'Lomba Lari Dimas', paragraf 'Dimas finis di posisi keempat. Ayahnya memeluknya. Dimas belajar bahwa kemenangan bukan tentang jadi yang pertama.' termasuk bagian ...",
+      "opt": [
+        "Tengah — karena menceritakan akhir lomba",
+        "Akhir — karena berisi penyelesaian dan pesan moral",
+        "Awal — karena menceritakan Dimas dan ayahnya",
+        "Tengah — karena ada tindakan memeluk"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D12",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita 'Bekal Sehat Lina', kalimat 'Lina tinggal bersama ibu dan adiknya di Lembang. Ibunya penjual sayur di pasar.' termasuk bagian ...",
+      "opt": [
+        "Tengah — karena menceritakan pekerjaan ibu",
+        "Awal — karena memperkenalkan tokoh dan latar kehidupan Lina",
+        "Akhir — karena menceritakan tempat tinggal",
+        "Tengah — karena ada konflik antara Lina dan ibunya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D13",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita Andi, bagian 'Andi hampir pingsan saat olahraga. Bu Ratna membawanya ke UKS dan menjelaskan pentingnya sarapan' termasuk bagian ...",
+      "opt": [
+        "Awal — karena memperkenalkan Bu Ratna",
+        "Tengah — karena berisi konflik dan masalah yang mencapai titik puncak",
+        "Akhir — karena Bu Ratna memberikan solusi",
+        "Awal — karena menceritakan pelajaran olahraga"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D14",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita Andi, bagian 'Dua minggu kemudian, Andi merasa jauh lebih bertenaga dan nilainya mulai membaik' termasuk bagian ...",
+      "opt": [
+        "Tengah — karena masalah masih berlangsung",
+        "Awal — karena menceritakan perubahan Andi",
+        "Akhir — karena berisi hasil penyelesaian masalah",
+        "Tengah — karena dua minggu masih dalam proses"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D15",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Analogi struktur cerita seperti 'roti lapis' menggambarkan bahwa ...",
+      "opt": [
+        "Setiap cerita harus memiliki gambar di tengah-tengahnya",
+        "Roti atas = awal (perkenalan), isi = tengah (masalah), roti bawah = akhir (penyelesaian)",
+        "Cerita yang baik harus selalu tentang makanan",
+        "Bagian tengah cerita adalah yang paling tidak penting"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D16",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Mengapa bagian TENGAH cerita adalah bagian yang paling panjang dan paling penting?",
+      "opt": [
+        "Karena bagian tengah harus memuat seluruh data dan fakta cerita",
+        "Karena bagian tengah berisi masalah, konflik, dan ketegangan yang membuat pembaca penasaran",
+        "Karena penulis biasanya kehabisan ide di bagian akhir",
+        "Karena bagian tengah adalah tempat menyebutkan nama semua tokoh"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D17",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Nama lain untuk bagian AWAL cerita dalam istilah sastra adalah ...",
+      "opt": [
+        "Komplikasi",
+        "Resolusi",
+        "Klimaks",
+        "Orientasi"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D18",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Nama lain untuk bagian TENGAH cerita yang berisi masalah dan konflik adalah ...",
+      "opt": [
+        "Orientasi",
+        "Resolusi",
+        "Komplikasi",
+        "Epilog"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D19",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Nama lain untuk bagian AKHIR cerita yang berisi penyelesaian adalah ...",
+      "opt": [
+        "Orientasi",
+        "Komplikasi",
+        "Klimaks",
+        "Resolusi"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D20",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Mengapa struktur cerita yang lengkap (awal-tengah-akhir) penting?",
+      "opt": [
+        "Agar cerita menjadi lebih panjang dan tebal",
+        "Tanpa salah satu bagian, cerita menjadi tidak lengkap dan terasa menggantung",
+        "Agar penulis bisa mendapat nilai bagus",
+        "Karena aturan penulisan mewajibkan tiga bagian"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D21",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Jika kamu mulai membaca cerita dan tiba-tiba langsung ada konflik tanpa perkenalan tokoh dulu, bagian yang hilang adalah ...",
+      "opt": [
+        "Bagian tengah",
+        "Bagian akhir",
+        "Bagian awal",
+        "Bagian klimaks"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D22",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Pesan moral dalam cerita biasanya ditemukan di bagian ...",
+      "opt": [
+        "Awal — karena ingin langsung tersampaikan",
+        "Tengah — karena muncul saat konflik",
+        "Akhir — karena merupakan pelajaran setelah masalah terselesaikan",
+        "Di semua bagian dengan porsi yang sama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D23",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita Dimas, kalimat 'Dimas merasa ingin menyerah, tapi teriakan ayahnya dari pinggir lapangan memberi semangat' termasuk bagian ...",
+      "opt": [
+        "Awal",
+        "Tengah — karena berisi konflik batin dan pemicu semangat",
+        "Akhir",
+        "Awal — karena menceritakan ayah Dimas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D24",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Dalam cerita Dimas, pesan 'kemenangan bukan hanya tentang jadi yang pertama, tapi tentang pantang menyerah' termasuk bagian ...",
+      "opt": [
+        "Awal — karena mempersiapkan pembaca",
+        "Tengah — karena saat konflik",
+        "Akhir — karena merupakan pelajaran setelah cerita selesai",
+        "Tengah — karena diucapkan saat lomba"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D25",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Seorang siswa membaca cerita dan menemukan bagian: 'Lina tinggal di Lembang (awal) → Lina malu bawa bekal sayur (tengah) → Lina akhirnya bangga dengan bekalnya (akhir)'. Ini menunjukkan bahwa cerita tersebut ...",
+      "opt": [
+        "Memiliki struktur yang kurang lengkap",
+        "Memiliki struktur awal-tengah-akhir yang lengkap",
+        "Terlalu pendek untuk memiliki struktur yang jelas",
+        "Hanya memiliki bagian awal dan akhir"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D26",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Bagian cerita yang membuat pembaca paling penasaran dan ingin terus membaca adalah bagian ...",
+      "opt": [
+        "Awal — karena perkenalan tokoh selalu menarik",
+        "Tengah — karena berisi masalah dan konflik yang belum terselesaikan",
+        "Akhir — karena penyelesaian selalu mengejutkan",
+        "Semua bagian sama menariknya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D27",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Cerita tentang anak sehat yang paling baik strukturnya adalah yang ...",
+      "opt": [
+        "Langsung memulai dengan solusi tanpa masalah",
+        "Memiliki awal yang memperkenalkan tokoh, tengah yang menceritakan masalah kesehatan, dan akhir yang berisi pelajaran hidup sehat",
+        "Hanya berisi deskripsi tokoh yang sangat panjang",
+        "Tidak memiliki akhir agar pembaca bisa menebak sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Jenis-jenis masalah yang bisa dialami tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masalah dengan diri sendiri seperti tidak percaya diri atau sakit",
+        "Masalah dengan orang lain seperti kesalahpahaman atau pertengkaran",
+        "Masalah dengan keadaan seperti kehilangan barang atau bencana",
+        "Hanya masalah yang berkaitan dengan sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Tiga pertanyaan untuk menemukan masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apa yang membuat tokoh sedih, bingung, atau khawatir?",
+        "Apa yang ingin dicapai tokoh tapi terhalang?",
+        "Bagaimana tokoh menyelesaikan masalahnya?",
+        "Siapa nama tokoh dan berapa usianya?"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita 'Andi dan Sarapan Pagi', dua hal yang terkait langsung dengan masalah Andi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Andi begadang menonton TV sehingga bangun terlambat",
+        "Andi tidak sempat sarapan dan lemas di sekolah",
+        "Andi tidak suka pelajaran olahraga",
+        "Andi tidak punya teman di sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dua informasi yang bisa kita temukan setelah mengidentifikasi masalah tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penyebab mengapa masalah itu muncul",
+        "Cara atau solusi yang digunakan tokoh untuk mengatasi masalah",
+        "Jumlah halaman cerita yang membahas masalah",
+        "Nama orang tua dari tokoh utama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dari cerita 'Siti dan Air Bersih', dua gejala yang menjadi tanda adanya masalah Siti adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Siti sering sakit kepala dan bibir kering",
+        "Siti merasa lebih cepat lelah saat bermain",
+        "Siti tidak mau pergi ke sekolah",
+        "Siti bertengkar dengan teman-temannya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masalah menggerakkan jalan cerita dari awal sampai akhir",
+        "Cerita tanpa masalah terasa hambar dan membosankan",
+        "Masalah selalu diselesaikan oleh tokoh lain, bukan tokoh utama",
+        "Masalah hanya boleh ada di bagian akhir cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Solusi yang berhasil mengatasi masalah dalam kedua cerita (Andi dan Siti) adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Andi berjanji tidur lebih awal dan selalu sarapan",
+        "Siti mulai rutin minum 6-8 gelas air putih setiap hari",
+        "Andi meminta temannya membawakan sarapan",
+        "Siti berhenti minum minuman manis sepenuhnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pesan moral yang terkandung dalam cerita tentang kesehatan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sarapan penting sebagai bahan bakar tubuh untuk belajar dan beraktivitas",
+        "Minum air putih yang cukup penting untuk menjaga kesehatan tubuh",
+        "Guru olahraga adalah orang yang paling penting di sekolah",
+        "Minuman manis harus sepenuhnya dihindari oleh semua orang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Cara yang tepat untuk menemukan masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mencari kalimat yang menggambarkan tokoh merasa tidak nyaman atau khawatir",
+        "Mencari bagian yang menceritakan tokoh menghadapi hambatan untuk mencapai tujuannya",
+        "Hanya membaca paragraf pertama cerita",
+        "Menghitung berapa kali nama tokoh disebut"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dua contoh masalah dengan DIRI SENDIRI yang bisa dialami tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merasa takut dan tidak percaya diri saat tampil di depan umum",
+        "Malas belajar sehingga nilai ujiannya jelek",
+        "Bertengkar dengan sahabat karena berbeda pendapat",
+        "Kehilangan tas saat perjalanan ke sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita Dimas, dua masalah yang ia hadapi sebelum lomba lari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kaki nyeri setelah latihan yang terlalu berat",
+        "Dokter menyarankan istirahat dua hari tidak berlari",
+        "Tidak punya sepatu lari yang bagus",
+        "Tidak mendapat dukungan dari orang tua"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Manfaat kemampuan mengidentifikasi masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memahami cerita lebih mendalam dan menemukan nilai-nilai positif",
+        "Bisa menentukan solusi terbaik jika menghadapi situasi serupa",
+        "Bisa menghafal nama semua tokoh dengan mudah",
+        "Mengetahui jumlah kata dalam cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Dua pernyataan yang tepat tentang titik puncak masalah dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Titik puncak adalah saat masalah terasa paling berat bagi tokoh",
+        "Titik puncak biasanya mendorong tokoh untuk mengambil tindakan",
+        "Titik puncak selalu ada di awal cerita",
+        "Titik puncak tidak berpengaruh pada alur cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Lima aspek yang diperiksa saat menilai kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tokoh dan latar tempat",
+        "Suasana dan objek/kegiatan",
+        "Harga dan ukuran buku",
+        "Nama ilustrator dan tahun pembuatan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi dikatakan sesuai dengan teks jika ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tokoh yang digambar sesuai dengan tokoh yang diceritakan",
+        "Kegiatan dan objek dalam gambar sesuai dengan isi cerita",
+        "Warna gambar terlihat lebih cerah dari biasanya",
+        "Gambar lebih besar dari teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Checklist kesesuaian ilustrasi untuk teks 'Senam Pagi di Sekolah' yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tokoh — cocok: gambar anak SD dan guru sesuai cerita",
+        "Latar — cocok: gambar lapangan sekolah sesuai teks",
+        "Suasana — tidak cocok: seharusnya sedih",
+        "Objek — tidak cocok: gambar bola basket bukan senam"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi TIDAK sesuai dengan teks jika ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kegiatan yang digambar berbeda dari apa yang diceritakan di teks",
+        "Suasana gambar bertentangan dengan suasana dalam cerita",
+        "Warna baju tokoh sedikit berbeda dari deskripsi",
+        "Gambar tidak memiliki keterangan tulisan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Dua pertanyaan dari checklist yang paling kritis dalam menilai kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apakah kegiatan yang digambar sama dengan yang diceritakan?'",
+        "Apakah suasana gambar cocok dengan perasaan cerita?'",
+        "Apakah gambar cukup berwarna?'",
+        "Apakah ukuran gambar sesuai halaman?'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Dari checklist kesesuaian, gambar 'hamburger dan minuman bersoda' untuk teks 'Makan Sayur Bersama Keluarga' memiliki masalah pada aspek ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Objek/kegiatan — gambar makanan tidak sehat untuk teks makanan sehat",
+        "Tema — tema makanan cepat saji bertentangan dengan tema makan sayur sehat",
+        "Latar tempat — lapangan dan ruang makan",
+        "Tokoh — jumlah tokoh dalam gambar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang penilaian kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ilustrasi tidak harus 100% persis sama dengan teks",
+        "Yang paling penting adalah tidak ada perbedaan yang mencolok dan menyesatkan",
+        "Warna yang berbeda otomatis membuat ilustrasi tidak sesuai",
+        "Ilustrasi harus menggambarkan setiap kalimat dalam teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Ilustrasi yang menggambarkan 'anak minum air putih dari botol bening di sekolah' untuk teks 'Pentingnya Minum Air Putih' sesuai pada aspek ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Objek — botol air putih sesuai topik hidrasi",
+        "Tema — tema kesehatan dan hidrasi sesuai",
+        "Latar — sekolah tidak disebutkan dalam teks",
+        "Suasana — anak terlihat sakit"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Manfaat kemampuan menilai kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tidak salah memahami isi bacaan akibat gambar yang menyesatkan",
+        "Bisa memilih buku dengan ilustrasi yang paling baik",
+        "Bisa menggambar ulang ilustrasi yang tidak sesuai",
+        "Tidak perlu membaca teks jika ilustrasinya bagus"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Untuk teks cerita Dimas yang berlari meski kakinya sakit, ilustrasi yang sesuai harus memiliki ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tokoh anak berlari di lapangan — sesuai cerita",
+        "Suasana perjuangan atau tegang — sesuai situasi cerita",
+        "Suasana gembira dan tawa — tidak sesuai",
+        "Latar pantai — tidak sesuai"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Dua alasan mengapa ilustrasi yang tidak sesuai bisa berbahaya bagi pembaca adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pembaca bisa salah memahami isi cerita",
+        "Pembaca bisa mendapat kesan yang berbeda dari yang dimaksud penulis",
+        "Gambarnya pasti terlihat jelek dan tidak menarik",
+        "Ukuran buku menjadi tidak konsisten"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Perbedaan menilai kesesuaian ilustrasi (Bab 8) dengan menyampaikan pendapat tentang ilustrasi (Bab 6) adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bab 8 menggunakan checklist objektif; Bab 6 menyampaikan pendapat pribadi",
+        "Bab 8 lebih sistematis dengan 5 aspek yang jelas; Bab 6 bebas berpendapat",
+        "Bab 8 tidak memerlukan alasan; Bab 6 memerlukan alasan",
+        "Bab 6 lebih ilmiah daripada Bab 8"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Dua pertanyaan yang tepat untuk memulai penilaian kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apakah tokoh di gambar sama dengan yang ada di teks?'",
+        "Apakah kegiatan yang digambar sesuai dengan isi cerita?'",
+        "Apakah gambarnya cukup besar untuk dilihat?'",
+        "Apakah ilustratornya terkenal?'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C01",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Ciri-ciri kalimat FAKTA yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berisi angka, data, atau hasil pengukuran yang bisa diverifikasi",
+        "Kebenarannya bisa dibuktikan dan berlaku untuk semua orang",
+        "Menggunakan kata 'menurut saya' atau 'sebaiknya'",
+        "Bisa diperdebatkan dan orang lain bisa tidak setuju"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C02",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Ciri-ciri kalimat OPINI yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merupakan pendapat atau penilaian pribadi seseorang",
+        "Menggunakan kata penanda seperti 'paling', 'terbaik', 'membosankan'",
+        "Berisi angka statistik dari lembaga resmi",
+        "Kebenarannya bisa dibuktikan secara ilmiah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C03",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Dari teks bersepeda, dua kalimat yang merupakan FAKTA adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bersepeda 30 menit membakar sekitar 200 kalori (data Kemenkes)'",
+        "Kota Bandung telah menyediakan jalur sepeda 12 kilometer'",
+        "Bersepeda adalah olahraga paling menyenangkan'",
+        "Sebaiknya setiap kota menyediakan jalur sepeda'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C04",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Dari teks bersepeda, dua kalimat yang merupakan OPINI adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bersepeda adalah olahraga paling menyenangkan karena bisa menikmati pemandangan'",
+        "Sebaiknya setiap kota di Indonesia menyediakan jalur sepeda'",
+        "Bersepeda meningkatkan kesehatan jantung dan paru-paru'",
+        "Bandung punya jalur sepeda 12 km di beberapa ruas jalan'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C05",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Dari teks jajanan sekolah, dua kalimat yang merupakan FAKTA adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "BPOM menemukan 15% jajanan sekolah mengandung bahan berbahaya'",
+        "Data diperoleh dari pengujian 30 sekolah dasar di Jawa Barat tahun 2024'",
+        "Semua jajanan di depan sekolah sebaiknya dilarang'",
+        "Lebih baik anak-anak membawa bekal dari rumah saja'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C06",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Trik membedakan fakta dan opini yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tanya: 'Apakah kalimat ini bisa dibuktikan benar atau salah?' — jika bisa, itu fakta",
+        "Tanya: 'Apakah ada kata penilaian seperti paling, sebaiknya, saya rasa?' — jika ada, itu opini",
+        "Tanya: 'Apakah kalimat ini panjang?' — jika panjang, itu fakta",
+        "Tanya: 'Apakah ada nama orang?' — jika ada, itu opini"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C07",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Kata-kata yang PASTI menandakan opini dalam sebuah kalimat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menurut saya', 'saya rasa', 'sebaiknya'",
+        "Paling enak', 'terbaik', 'terburuk', 'membosankan'",
+        "Angka dan persentase spesifik",
+        "Nama lembaga resmi dan tahun penelitian"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C08",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang perbedaan fakta dan opini adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Fakta bisa dibuktikan; opini merupakan penilaian yang bisa diperdebatkan",
+        "Satu teks bisa mengandung fakta dan opini sekaligus",
+        "Opini selalu lebih menarik dari fakta",
+        "Fakta hanya bisa ditemukan di teks ilmiah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C09",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Dua contoh kalimat fakta yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Anak usia 6-12 tahun membutuhkan tidur 9-12 jam setiap malam'",
+        "Wortel mengandung vitamin A yang baik untuk kesehatan mata'",
+        "Tidur siang itu membosankan menurut banyak anak'",
+        "Sayur wortel paling enak dimakan sebagai sup'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C10",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Dua contoh kalimat opini yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Renang adalah olahraga paling menyenangkan'",
+        "Menurut saya, wortel rasanya kurang enak jika dimakan mentah'",
+        "Renang membakar 400-700 kalori per jam'",
+        "Wortel mengandung beta-karoten yang baik untuk tubuh'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C11",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Manfaat kemampuan membedakan fakta dan opini adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tidak mudah tertipu oleh informasi yang belum tentu benar",
+        "Bisa menilai keandalan sebuah teks lebih kritis",
+        "Tidak perlu membaca opini dari siapapun",
+        "Bisa menulis hanya fakta tanpa opini"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C12",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Kalimat 'Data ini diperoleh dari pengujian sampel di 30 sekolah dasar' merupakan fakta karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berisi informasi yang bisa diverifikasi — jumlah sekolah dan metode pengujian",
+        "Proses pengujian di sekolah dasar bisa dibuktikan keberadaannya",
+        "Data adalah pendapat yang paling ilmiah",
+        "Pengujian di sekolah selalu menghasilkan fakta"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C13",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang kalimat yang mengandung kata 'terbaik' atau 'paling' adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kata-kata tersebut biasanya menandakan penilaian subjektif",
+        "Kalimat yang menggunakan kata-kata itu cenderung merupakan opini",
+        "Kata-kata itu selalu menandakan fakta ilmiah",
+        "Kalimat dengan 'paling' selalu bisa dibuktikan benar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C14",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Membaca teks secara kritis berarti ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengenali mana kalimat yang merupakan fakta",
+        "Mengenali mana kalimat yang merupakan opini",
+        "Langsung percaya semua yang tertulis",
+        "Hanya membaca bagian yang berisi angka dan data"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D01",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Tiga bagian utama dalam struktur cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Awal (orientasi) — perkenalan tokoh dan latar",
+        "Tengah (komplikasi) — masalah dan konflik",
+        "Akhir (resolusi) — penyelesaian dan pesan",
+        "Bagian data statistik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D02",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Informasi yang biasanya ditemukan di bagian AWAL cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Nama dan karakteristik tokoh utama",
+        "Latar tempat dan waktu cerita berlangsung",
+        "Puncak konflik yang paling menegangkan",
+        "Penyelesaian masalah tokoh"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D03",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Informasi yang biasanya ditemukan di bagian TENGAH cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masalah atau konflik yang harus dihadapi tokoh",
+        "Cara tokoh menghadapi rintangan yang muncul",
+        "Perkenalan nama dan latar belakang tokoh",
+        "Pesan moral yang ingin disampaikan penulis"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D04",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Informasi yang biasanya ditemukan di bagian AKHIR cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penyelesaian masalah yang dihadapi tokoh",
+        "Pesan moral atau pelajaran yang bisa dipetik",
+        "Perkenalan tokoh baru yang menggantikan tokoh utama",
+        "Masalah baru yang membuat cerita semakin rumit"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D05",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Dari cerita 'Lomba Lari Dimas', dua informasi yang termasuk bagian AWAL adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dimas adalah siswa kelas 4 yang suka lari",
+        "Ia berlatih bersama ayahnya di kompleks Dayeuhkolot",
+        "Kaki Dimas nyeri setelah latihan berlebihan",
+        "Dimas finis di posisi keempat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D06",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Dari cerita 'Lomba Lari Dimas', dua informasi yang termasuk bagian TENGAH adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kaki Dimas nyeri dan dokter menyarankan istirahat",
+        "Saat lomba, Dimas tertinggal dan hampir menyerah",
+        "Dimas mendaftar lomba lari 1.000 meter",
+        "Ayah memeluk Dimas setelah melewati garis akhir"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D07",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Dari cerita 'Lomba Lari Dimas', dua informasi yang termasuk bagian AKHIR adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dimas finis di posisi keempat tetapi berhasil menyelesaikan lomba",
+        "Dimas belajar bahwa kemenangan bukan tentang jadi yang pertama",
+        "Kaki Dimas terasa nyeri menjelang hari lomba",
+        "Teman-teman Dimas juga mengikuti lomba"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D08",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang struktur cerita awal-tengah-akhir adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tanpa salah satu bagian, cerita menjadi tidak lengkap",
+        "Bagian tengah biasanya paling panjang karena berisi masalah dan konflik",
+        "Bagian awal selalu lebih panjang dari bagian lainnya",
+        "Bagian akhir tidak perlu ada jika ceritanya sudah panjang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D09",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Nama lain dan isi dari bagian awal cerita yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Namanya orientasi",
+        "Isinya: siapa tokohnya, di mana, dan kapan cerita berlangsung",
+        "Namanya komplikasi",
+        "Isinya: masalah yang muncul dan konflik yang terjadi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D10",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Nama lain dan ciri dari bagian tengah cerita yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Namanya komplikasi",
+        "Berisi masalah, konflik, dan ketegangan yang membuat pembaca penasaran",
+        "Namanya resolusi",
+        "Berisi penyelesaian dan pesan moral cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D11",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Nama lain dan ciri dari bagian akhir cerita yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Namanya resolusi",
+        "Berisi penyelesaian masalah dan pelajaran yang dipetik",
+        "Namanya orientasi",
+        "Berisi perkenalan tokoh dan latar cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D12",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Manfaat memahami struktur cerita awal-tengah-akhir adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu memahami cerita lebih cepat dan teratur",
+        "Bisa menulis cerita yang terstruktur dengan baik",
+        "Membuat cerita menjadi lebih panjang",
+        "Tidak perlu membaca seluruh cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D13",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang bagian TENGAH cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berisi konflik atau masalah utama yang dihadapi tokoh",
+        "Membuat pembaca penasaran dan ingin terus membaca",
+        "Berisi perkenalan nama dan usia tokoh utama",
+        "Selalu sangat pendek hanya satu paragraf"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D14",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Dari cerita Andi, dua bagian yang dapat diidentifikasi dengan tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Awal: Andi siswa kelas 4 yang sering lemas dan mengantuk di sekolah",
+        "Akhir: Dua minggu kemudian Andi lebih bertenaga dan nilainya membaik",
+        "Tengah: Andi mendaftar ke SD Cerdas Mandiri",
+        "Awal: Andi hampir pingsan saat olahraga"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan jenis masalah tokoh dengan contohnya!",
+      "rows": [
+        "Tidak percaya diri sebelum tampil di panggung",
+        "Bertengkar dengan teman karena salah paham",
+        "Banjir yang merendam jalan ke sekolah",
+        "Malas belajar untuk ujian"
+      ],
+      "cols": [
+        "Masalah diri sendiri",
+        "Masalah orang lain",
+        "Masalah keadaan"
+      ],
+      "ans": [
+        "Masalah diri sendiri",
+        "Masalah orang lain",
+        "Masalah keadaan",
+        "Masalah diri sendiri"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan menemukan masalah dengan informasi yang dicarinya!",
+      "rows": [
+        "Apa yang membuat tokoh sedih, bingung, atau khawatir?",
+        "Apa yang ingin dicapai tokoh tapi terhalang?",
+        "Bagaimana tokoh menyelesaikan masalahnya?",
+        "Di mana latar tempat cerita?"
+      ],
+      "cols": [
+        "Pertanyaan 1",
+        "Pertanyaan 2",
+        "Pertanyaan 3"
+      ],
+      "ans": [
+        "Pertanyaan 1",
+        "Pertanyaan 2",
+        "Pertanyaan 3",
+        "Pertanyaan 1"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan informasi dari cerita Andi dengan kategorinya!",
+      "rows": [
+        "Begadang menonton TV hingga bangun terlambat",
+        "Lemas dan mengantuk karena tidak sarapan",
+        "Berjanji tidur pukul 21.00 dan selalu sarapan",
+        "Hampir pingsan saat pelajaran olahraga"
+      ],
+      "cols": [
+        "Penyebab masalah",
+        "Masalah utama",
+        "Solusi"
+      ],
+      "ans": [
+        "Penyebab masalah",
+        "Masalah utama",
+        "Solusi",
+        "Masalah utama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan informasi dari cerita Siti dengan kategorinya!",
+      "rows": [
+        "Siti terlalu banyak minum minuman manis dan jarang minum air putih",
+        "Sering sakit kepala, bibir kering, cepat lelah",
+        "Mulai rutin minum 6-8 gelas air putih setiap hari",
+        "Tidak punya botol minum yang bagus"
+      ],
+      "cols": [
+        "Penyebab masalah",
+        "Gejala masalah",
+        "Solusi"
+      ],
+      "ans": [
+        "Penyebab masalah",
+        "Gejala masalah",
+        "Solusi",
+        "Penyebab masalah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan bagian cerita Andi dengan peran atau fungsinya!",
+      "rows": [
+        "Andi begadang dan tidak sarapan setiap hari",
+        "Andi hampir pingsan saat pelajaran olahraga",
+        "Andi berjanji tidur lebih awal dan selalu sarapan",
+        "Bu Ratna menjelaskan pentingnya sarapan"
+      ],
+      "cols": [
+        "Latar belakang masalah",
+        "Titik puncak masalah",
+        "Penyelesaian"
+      ],
+      "ans": [
+        "Latar belakang masalah",
+        "Titik puncak masalah",
+        "Penyelesaian",
+        "Penyelesaian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan jenis masalah dengan cerita yang sesuai!",
+      "rows": [
+        "Andi lemas karena tidak sarapan",
+        "Lina malu membawa bekal sayur ke sekolah",
+        "Siti kurang minum air putih",
+        "Dimas kakinya nyeri sebelum lomba"
+      ],
+      "cols": [
+        "Masalah kesehatan",
+        "Masalah kepercayaan diri",
+        "Masalah pola makan"
+      ],
+      "ans": [
+        "Masalah kesehatan",
+        "Masalah kepercayaan diri",
+        "Masalah pola makan",
+        "Masalah kesehatan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan dengan jawaban dari cerita Dimas!",
+      "rows": [
+        "Kaki Dimas nyeri dan belum pulih menjelang lomba",
+        "Latihan yang terlalu keras sebelum lomba",
+        "Menguatkan tekad dan terus berlari meski tidak menang",
+        "Dokter menyarankan istirahat dua hari"
+      ],
+      "cols": [
+        "Apa masalahnya?",
+        "Apa penyebabnya?",
+        "Bagaimana solusinya?"
+      ],
+      "ans": [
+        "Apa masalahnya?",
+        "Apa penyebabnya?",
+        "Bagaimana solusinya?",
+        "Apa masalahnya?"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan pesan moral dengan cerita yang menyampaikannya!",
+      "rows": [
+        "Sarapan penting sebagai bahan bakar tubuh",
+        "Minum air putih cukup penting untuk hidrasi",
+        "Pantang menyerah lebih penting dari sekadar menang",
+        "Tidur yang cukup mendukung prestasi belajar"
+      ],
+      "cols": [
+        "Cerita Andi",
+        "Cerita Siti",
+        "Cerita Dimas"
+      ],
+      "ans": [
+        "Cerita Andi",
+        "Cerita Siti",
+        "Cerita Dimas",
+        "Cerita Andi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang masalah tokoh dengan nilainya — benar atau salah!",
+      "rows": [
+        "Masalah menggerakkan jalan cerita dari awal sampai akhir",
+        "Cerita yang baik tidak boleh memiliki masalah tokoh",
+        "Masalah tokoh bisa berupa masalah diri sendiri, orang lain, atau keadaan",
+        "Masalah selalu diselesaikan oleh tokoh lain"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan jenis masalah diri sendiri dengan contoh ceritanya!",
+      "rows": [
+        "Tokoh takut naik ke panggung pertunjukan",
+        "Tokoh malas mengerjakan PR sampai menumpuk",
+        "Tokoh tidak berani maju ke depan kelas",
+        "Tokoh bertengkar dengan temannya"
+      ],
+      "cols": [
+        "Rasa takut",
+        "Rasa malas",
+        "Tidak percaya diri"
+      ],
+      "ans": [
+        "Rasa takut",
+        "Rasa malas",
+        "Tidak percaya diri",
+        "Rasa takut"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pasangkan bagian analisis masalah dengan pertanyaan yang memancingnya!",
+      "rows": [
+        "Apa yang membuat tokoh merasa tidak nyaman?'",
+        "Mengapa masalah ini bisa terjadi?'",
+        "Apa yang dilakukan tokoh untuk mengatasinya?'",
+        "Di mana cerita berlangsung?'"
+      ],
+      "cols": [
+        "Menemukan masalah",
+        "Menemukan penyebab",
+        "Menemukan solusi"
+      ],
+      "ans": [
+        "Menemukan masalah",
+        "Menemukan penyebab",
+        "Menemukan solusi",
+        "Menemukan masalah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan tokoh dengan masalah utamanya dalam cerita-cerita Bab 8!",
+      "rows": [
+        "Andi",
+        "Siti",
+        "Dimas",
+        "Lina"
+      ],
+      "cols": [
+        "Masalah pola tidur & sarapan",
+        "Masalah kurang minum air putih",
+        "Masalah cidera menjelang lomba"
+      ],
+      "ans": [
+        "Masalah pola tidur & sarapan",
+        "Masalah kurang minum air putih",
+        "Masalah cidera menjelang lomba",
+        "Masalah pola tidur & sarapan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Masalah Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan komponen analisis masalah tokoh dengan deskripsinya!",
+      "rows": [
+        "Hambatan utama yang dihadapi tokoh",
+        "Saat masalah paling berat dan memaksa tokoh bertindak",
+        "Pelajaran yang bisa dipetik dari cerita",
+        "Cara tokoh mengatasi masalah"
+      ],
+      "cols": [
+        "Masalah utama",
+        "Titik puncak",
+        "Pesan moral"
+      ],
+      "ans": [
+        "Masalah utama",
+        "Titik puncak",
+        "Pesan moral",
+        "Masalah utama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Pertanyaan",
+      "stimulus": "",
+      "q": "Pasangkan informasi dari cerita Lina dengan pertanyaan yang menjawabnya!",
+      "rows": [
+        "Lina malu membawa bekal sayur ke sekolah",
+        "Lina takut diejek teman karena membawa sayur",
+        "Lina akhirnya bangga dengan bekal sehatnya",
+        "Teman-teman Lina mengejek bekalnya"
+      ],
+      "cols": [
+        "Masalahnya apa?",
+        "Penyebabnya apa?",
+        "Solusinya apa?"
+      ],
+      "ans": [
+        "Masalahnya apa?",
+        "Penyebabnya apa?",
+        "Solusinya apa?",
+        "Masalahnya apa?"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Pasangkan aspek checklist kesesuaian ilustrasi dengan pertanyaannya!",
+      "rows": [
+        "Apakah tokoh di gambar sesuai dengan yang diceritakan?",
+        "Apakah tempat di gambar sama dengan latar cerita?",
+        "Apakah suasana gambar cocok dengan perasaan cerita?",
+        "Apakah warnanya cukup cerah?"
+      ],
+      "cols": [
+        "Aspek Tokoh",
+        "Aspek Latar Tempat",
+        "Aspek Suasana"
+      ],
+      "ans": [
+        "Aspek Tokoh",
+        "Aspek Latar Tempat",
+        "Aspek Suasana",
+        "Aspek Tokoh"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Pasangkan aspek checklist dengan pertanyaannya!",
+      "rows": [
+        "Apakah benda atau kegiatan di gambar sesuai dengan yang diceritakan?",
+        "Apakah tema besar gambar dan teks sama?",
+        "Apakah jumlah dan penampilan tokoh sesuai?",
+        "Apakah harga bukunya sesuai?"
+      ],
+      "cols": [
+        "Aspek Objek/Kegiatan",
+        "Aspek Tema",
+        "Aspek Tokoh"
+      ],
+      "ans": [
+        "Aspek Objek/Kegiatan",
+        "Aspek Tema",
+        "Aspek Tokoh",
+        "Aspek Tokoh"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan ilustrasi dengan penilaian kesesuaiannya terhadap teks!",
+      "rows": [
+        "Gambar anak senam di lapangan untuk teks senam pagi",
+        "Gambar hamburger untuk teks makan sayur sehat",
+        "Gambar anak minum air putih untuk teks hidrasi",
+        "Gambar pizza untuk teks lomba lari"
+      ],
+      "cols": [
+        "Sesuai",
+        "Tidak sesuai",
+        "Sesuai"
+      ],
+      "ans": [
+        "Sesuai",
+        "Tidak sesuai",
+        "Sesuai",
+        "Tidak sesuai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Checklist kesesuaian ilustrasi untuk teks 'Senam Pagi di Sekolah' — pasangkan aspek dengan penilaiannya!",
+      "rows": [
+        "Tokoh: anak SD dan guru sesuai cerita",
+        "Latar: lapangan sekolah sesuai teks",
+        "Suasana: wajah sedih (teks menyebut semangat/antusias)",
+        "Objek: siswa sedang senam sesuai teks"
+      ],
+      "cols": [
+        "Cocok",
+        "Cocok",
+        "Tidak cocok"
+      ],
+      "ans": [
+        "Cocok",
+        "Cocok",
+        "Tidak cocok",
+        "Cocok"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan aspek yang bermasalah dengan contoh ketidaksesuaian ilustrasi!",
+      "rows": [
+        "Teks: bermain sepak bola. Gambar: bermain basket",
+        "Teks: suasana sedih. Gambar: semua tertawa",
+        "Teks: di dapur. Gambar: di lapangan",
+        "Teks: anak makan sayur. Gambar: makan hamburger"
+      ],
+      "cols": [
+        "Objek tidak sesuai",
+        "Suasana tidak sesuai",
+        "Latar tidak sesuai"
+      ],
+      "ans": [
+        "Objek tidak sesuai",
+        "Suasana tidak sesuai",
+        "Latar tidak sesuai",
+        "Objek tidak sesuai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Pasangkan ilustrasi dengan aspek checklist yang menjadi masalah utamanya!",
+      "rows": [
+        "Gambar hamburger untuk teks sayur sehat",
+        "Gambar semua orang tertawa untuk teks cerita sedih",
+        "Gambar pesta ulang tahun untuk teks olahraga kesehatan",
+        "Gambar renang untuk teks lari maraton"
+      ],
+      "cols": [
+        "Objek bermasalah",
+        "Suasana bermasalah",
+        "Tema bermasalah"
+      ],
+      "ans": [
+        "Objek bermasalah",
+        "Suasana bermasalah",
+        "Tema bermasalah",
+        "Objek bermasalah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kesesuaian ilustrasi dengan nilainya — benar atau salah!",
+      "rows": [
+        "Ilustrasi tidak harus 100% persis sama dengan teks",
+        "Warna baju yang berbeda langsung membuat ilustrasi tidak sesuai",
+        "Yang penting tidak ada perbedaan yang mencolok dan menyesatkan",
+        "Ilustrasi yang bagus pasti selalu sesuai dengan teks"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan teks dengan ilustrasi yang paling sesuai!",
+      "rows": [
+        "Gambar anak lemas di lapangan, guru mendekatinya",
+        "Gambar anak membuka bungkusan minuman kotak",
+        "Gambar anak berlari di lintasan dengan wajah berjuang",
+        "Gambar anak tidur di tempat tidur"
+      ],
+      "cols": [
+        "Teks: Andi hampir pingsan",
+        "Teks: Siti minum minuman manis",
+        "Teks: Dimas berlari di lomba"
+      ],
+      "ans": [
+        "Teks: Andi hampir pingsan",
+        "Teks: Siti minum minuman manis",
+        "Teks: Dimas berlari di lomba",
+        "Teks: Andi hampir pingsan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Pasangkan aspek checklist ilustrasi dengan contoh yang tepat!",
+      "rows": [
+        "Gambar menampilkan dua anak perempuan sesuai teks dua tokoh utama",
+        "Gambar dapur sesuai teks yang berlatar di dapur",
+        "Gambar wortel dan brokoli sesuai teks sayur yang dimasak",
+        "Gambar suasana sedih sesuai teks"
+      ],
+      "cols": [
+        "Aspek Tokoh cocok",
+        "Aspek Latar cocok",
+        "Aspek Objek cocok"
+      ],
+      "ans": [
+        "Aspek Tokoh cocok",
+        "Aspek Latar cocok",
+        "Aspek Objek cocok",
+        "Aspek Tokoh cocok"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan perbedaan antara dua cara menilai ilustrasi!",
+      "rows": [
+        "Menggunakan checklist 5 aspek yang objektif",
+        "Menyampaikan penilaian pribadi dengan alasan",
+        "Tujuannya memahami hubungan gambar dan teks",
+        "Memerlukan alasan yang jelas"
+      ],
+      "cols": [
+        "Menilai kesesuaian (Bab 8)",
+        "Menyampaikan pendapat (Bab 6)",
+        "Sama-sama digunakan"
+      ],
+      "ans": [
+        "Menilai kesesuaian (Bab 8)",
+        "Menyampaikan pendapat (Bab 6)",
+        "Sama-sama digunakan",
+        "Menyampaikan pendapat (Bab 6)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan akibat dari ilustrasi yang tidak sesuai dengan dampaknya!",
+      "rows": [
+        "Pembaca bisa salah memahami isi cerita",
+        "Pembaca mendapat kesan berbeda dari yang dimaksud penulis",
+        "Gambar yang kurang berwarna",
+        "Ukuran gambar yang terlalu kecil"
+      ],
+      "cols": [
+        "Salah paham",
+        "Kesan keliru",
+        "Tidak ada dampak"
+      ],
+      "ans": [
+        "Salah paham",
+        "Kesan keliru",
+        "Tidak ada dampak",
+        "Tidak ada dampak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Pasangkan hasil penilaian ilustrasi dengan penjelasannya!",
+      "rows": [
+        "Semua aspek checklist menunjukkan kesesuaian antara gambar dan teks",
+        "Ada satu atau lebih aspek yang berbeda signifikan antara gambar dan teks",
+        "Gambar perlu diubah agar sesuai dengan isi teks",
+        "Gambar boleh dipertahankan meskipun ada perbedaan kecil"
+      ],
+      "cols": [
+        "Ilustrasi sesuai",
+        "Ilustrasi tidak sesuai",
+        "Perbaikan diperlukan"
+      ],
+      "ans": [
+        "Ilustrasi sesuai",
+        "Ilustrasi tidak sesuai",
+        "Perbaikan diperlukan",
+        "Ilustrasi sesuai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesesuaian Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan teks dengan ilustrasi yang TIDAK sesuai!",
+      "rows": [
+        "Gambar hamburger dan kentang goreng",
+        "Gambar anak tertawa santai di sofa",
+        "Gambar anak rebahan menonton TV",
+        "Gambar anak berlari dengan penuh semangat"
+      ],
+      "cols": [
+        "Teks: makan sayur sehat",
+        "Teks: lomba lari serius",
+        "Teks: semangat senam pagi"
+      ],
+      "ans": [
+        "Teks: makan sayur sehat",
+        "Teks: lomba lari serius",
+        "Teks: semangat senam pagi",
+        "Teks: semangat senam pagi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Checklist",
+      "stimulus": "",
+      "q": "Pasangkan lima aspek checklist kesesuaian ilustrasi dengan contoh pertanyaan singkatnya!",
+      "rows": [
+        "Siapa yang ada di gambar?",
+        "Di mana gambar ini berlangsung?",
+        "Tentang apa gambar ini secara keseluruhan?",
+        "Apa suasana yang terasa dari gambar?"
+      ],
+      "cols": [
+        "Tokoh",
+        "Latar Tempat",
+        "Tema"
+      ],
+      "ans": [
+        "Tokoh",
+        "Latar Tempat",
+        "Tema",
+        "Tema"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C01",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan jenisnya — fakta atau opini!",
+      "rows": [
+        "Olahraga renang membakar 400–700 kalori per jam",
+        "Renang adalah olahraga paling menyenangkan",
+        "Wortel mengandung vitamin A untuk kesehatan mata",
+        "Wortel rasanya kurang enak jika dimakan mentah"
+      ],
+      "cols": [
+        "Fakta",
+        "Opini",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Opini",
+        "Fakta",
+        "Opini"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C02",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan jenisnya!",
+      "rows": [
+        "Anak usia 6–12 tahun butuh tidur 9–12 jam per malam",
+        "Menurut saya tidur siang itu membosankan",
+        "Kota Bandung punya jalur sepeda sepanjang 12 km",
+        "Sebaiknya setiap kota menyediakan jalur sepeda"
+      ],
+      "cols": [
+        "Fakta",
+        "Opini",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Opini",
+        "Fakta",
+        "Opini"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C03",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dari teks bersepeda dengan jenisnya!",
+      "rows": [
+        "Bersepeda 30 menit membakar 200 kalori (data Kemenkes)",
+        "Bersepeda olahraga paling menyenangkan",
+        "Bersepeda meningkatkan kesehatan jantung dan paru-paru",
+        "Rasanya sangat segar dan menyegarkan pikiran"
+      ],
+      "cols": [
+        "Fakta",
+        "Opini",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Opini",
+        "Fakta",
+        "Opini"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C04",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Pasangkan kata penanda opini dengan contoh penggunaannya!",
+      "rows": [
+        "Menurut saya, bersepeda olahraga terbaik'",
+        "Sebaiknya setiap kota ada jalur sepeda'",
+        "Renang adalah olahraga paling seru'",
+        "Saya rasa tidur siang itu tidak berguna'"
+      ],
+      "cols": [
+        "Menurut saya'",
+        "Sebaiknya'",
+        "Paling'"
+      ],
+      "ans": [
+        "Menurut saya'",
+        "Sebaiknya'",
+        "Paling'",
+        "Menurut saya'"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C05",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang fakta dan opini dengan nilainya!",
+      "rows": [
+        "Fakta bisa dibuktikan dan berlaku untuk semua orang",
+        "Opini merupakan penilaian yang bisa berbeda antar orang",
+        "Opini selalu lebih penting dari fakta",
+        "Fakta hanya ada di teks ilmiah"
+      ],
+      "cols": [
+        "Benar tentang fakta",
+        "Benar tentang opini",
+        "Salah"
+      ],
+      "ans": [
+        "Benar tentang fakta",
+        "Benar tentang opini",
+        "Salah",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C06",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta",
+      "stimulus": "",
+      "q": "Pasangkan kalimat fakta dengan alasan mengapa itu fakta!",
+      "rows": [
+        "Renang membakar 400–700 kalori per jam'",
+        "Data BPOM menemukan 15% jajanan berbahaya'",
+        "Pengujian dilakukan di 30 sekolah dasar tahun 2024'",
+        "Bersepeda meningkatkan kesehatan jantung'"
+      ],
+      "cols": [
+        "Ada angka terukur",
+        "Ada nama lembaga resmi",
+        "Ada data yang bisa diverifikasi"
+      ],
+      "ans": [
+        "Ada angka terukur",
+        "Ada nama lembaga resmi",
+        "Ada data yang bisa diverifikasi",
+        "Ada angka terukur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C07",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Opini",
+      "stimulus": "",
+      "q": "Pasangkan kalimat opini dengan alasan mengapa itu opini!",
+      "rows": [
+        "Renang olahraga paling menyenangkan'",
+        "Sebaiknya semua jajanan sekolah dilarang'",
+        "Menurut saya, olahraga pagi lebih baik'",
+        "Saya rasa sayur tidak enak'"
+      ],
+      "cols": [
+        "Kata 'paling'",
+        "Kata 'sebaiknya'",
+        "Kata 'menurut saya'"
+      ],
+      "ans": [
+        "Kata 'paling'",
+        "Kata 'sebaiknya'",
+        "Kata 'menurut saya'",
+        "Kata 'paling'"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C08",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan jenis kalimat dengan cara yang digunakan untuk membuktikannya!",
+      "rows": [
+        "Wortel mengandung vitamin A' — bisa dicek secara ilmiah",
+        "Wortel tidak enak' — selera berbeda antar orang",
+        "Halo, apa kabar?' — kalimat sapa",
+        "Siapa nama kamu?' — pertanyaan"
+      ],
+      "cols": [
+        "Fakta — bisa dibuktikan",
+        "Opini — tidak bisa dibuktikan secara objektif",
+        "Bukan keduanya"
+      ],
+      "ans": [
+        "Fakta — bisa dibuktikan",
+        "Opini — tidak bisa dibuktikan secara objektif",
+        "Bukan keduanya",
+        "Bukan keduanya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C09",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dari teks jajanan sekolah dengan jenisnya!",
+      "rows": [
+        "15% jajanan sekolah mengandung bahan berbahaya (BPOM)",
+        "Semua jajanan di sekolah sebaiknya dilarang",
+        "Pengujian dilakukan di 30 SD di Jawa Barat 2024",
+        "Lebih baik anak-anak membawa bekal dari rumah"
+      ],
+      "cols": [
+        "Fakta",
+        "Opini",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Opini",
+        "Fakta",
+        "Opini"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C10",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan trik membedakan fakta-opini dengan caranya!",
+      "rows": [
+        "Tanya: 'Bisakah ini dibuktikan benar atau salah?'",
+        "Cari kata: 'menurut saya', 'sebaiknya', 'paling'",
+        "Baca kalimat dengan cermat",
+        "Gunakan logika berpikir"
+      ],
+      "cols": [
+        "Trik untuk fakta",
+        "Trik untuk opini",
+        "Berlaku untuk keduanya"
+      ],
+      "ans": [
+        "Trik untuk fakta",
+        "Trik untuk opini",
+        "Berlaku untuk keduanya",
+        "Berlaku untuk keduanya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C11",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan dua kalimat tentang olahraga yang sama dengan jenisnya!",
+      "rows": [
+        "Berlari 30 menit meningkatkan detak jantung'",
+        "Lari adalah olahraga yang sangat membosankan'",
+        "Renang melatih hampir semua otot tubuh'",
+        "Menurutku, berenang lebih seru dari berlari'"
+      ],
+      "cols": [
+        "Fakta",
+        "Opini",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Opini",
+        "Fakta",
+        "Opini"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C12",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan alasan mengapa itu bisa dikategorikan fakta atau opini!",
+      "rows": [
+        "Bandung punya jalur sepeda 12 km' — angka bisa diukur",
+        "Bersepeda paling menyenangkan' — penilaian subjektif",
+        "Anak SD perlu tidur 9-12 jam' — standar ilmiah",
+        "Menurut saya renang lebih baik' — pendapat pribadi"
+      ],
+      "cols": [
+        "Fakta (ada data)",
+        "Opini (ada kata penilaian)",
+        "Fakta (bisa diukur)"
+      ],
+      "ans": [
+        "Fakta (ada data)",
+        "Opini (ada kata penilaian)",
+        "Fakta (bisa diukur)",
+        "Fakta (ada data)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C13",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Fakta vs Opini",
+      "stimulus": "",
+      "q": "Pasangkan jenis kalimat dengan manfaat mengenalinya!",
+      "rows": [
+        "Kita tahu mana informasi yang bisa dipercaya dan diverifikasi",
+        "Kita tahu mana yang hanya pendapat dan bisa diperdebatkan",
+        "Kita menjadi pembaca yang lebih kritis dan tidak mudah tertipu",
+        "Kita bisa menulis teks yang lebih panjang"
+      ],
+      "cols": [
+        "Mengenali fakta",
+        "Mengenali opini",
+        "Mengenali keduanya"
+      ],
+      "ans": [
+        "Mengenali fakta",
+        "Mengenali opini",
+        "Mengenali keduanya",
+        "Mengenali fakta"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D01",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan bagian cerita dengan nama istilahnya!",
+      "rows": [
+        "Orientasi — perkenalan tokoh dan latar",
+        "Komplikasi — masalah dan konflik",
+        "Resolusi — penyelesaian dan pesan moral",
+        "Klimaks — titik tertinggi konflik"
+      ],
+      "cols": [
+        "Awal",
+        "Tengah",
+        "Akhir"
+      ],
+      "ans": [
+        "Awal",
+        "Tengah",
+        "Akhir",
+        "Tengah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D02",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan dengan bagian cerita yang menjawabnya!",
+      "rows": [
+        "Siapa? Di mana? Kapan?",
+        "Apa masalahnya? Bagaimana menghadapinya?",
+        "Bagaimana akhirnya? Apa pesannya?",
+        "Berapa lama cerita berlangsung?"
+      ],
+      "cols": [
+        "Bagian Awal",
+        "Bagian Tengah",
+        "Bagian Akhir"
+      ],
+      "ans": [
+        "Bagian Awal",
+        "Bagian Tengah",
+        "Bagian Akhir",
+        "Bagian Awal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D03",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Pasangkan kutipan dari cerita Dimas dengan bagian strukturnya!",
+      "rows": [
+        "Dimas siswa kelas 4 yang suka lari, berlatih di Dayeuhkolot'",
+        "Kaki Dimas nyeri; dokter menyarankan istirahat'",
+        "Dimas finis posisi 4; belajar arti pantang menyerah'",
+        "Sekolah mengumumkan lomba lari 1.000 meter'"
+      ],
+      "cols": [
+        "Awal (Orientasi)",
+        "Tengah (Komplikasi)",
+        "Akhir (Resolusi)"
+      ],
+      "ans": [
+        "Awal (Orientasi)",
+        "Tengah (Komplikasi)",
+        "Akhir (Resolusi)",
+        "Awal (Orientasi)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D04",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Pasangkan kutipan dari cerita Andi dengan bagian strukturnya!",
+      "rows": [
+        "Andi siswa kelas 4 yang sering lemas dan mengantuk'",
+        "Andi hampir pingsan; Bu Ratna membawanya ke UKS'",
+        "Dua minggu kemudian, Andi lebih bertenaga dan nilainya membaik'",
+        "Andi berjanji tidur pukul 21.00 dan selalu sarapan'"
+      ],
+      "cols": [
+        "Awal",
+        "Tengah",
+        "Akhir"
+      ],
+      "ans": [
+        "Awal",
+        "Tengah",
+        "Akhir",
+        "Akhir"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D05",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan bagian cerita dengan fungsinya!",
+      "rows": [
+        "Awal (orientasi)",
+        "Tengah (komplikasi)",
+        "Akhir (resolusi)",
+        "Klimaks"
+      ],
+      "cols": [
+        "Memperkenalkan",
+        "Membangun konflik",
+        "Menyelesaikan"
+      ],
+      "ans": [
+        "Memperkenalkan",
+        "Membangun konflik",
+        "Menyelesaikan",
+        "Membangun konflik"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D06",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Pasangkan pesan moral dari cerita dengan cerita yang menyampaikannya!",
+      "rows": [
+        "Sarapan dan tidur cukup penting untuk energi belajar",
+        "Pantang menyerah lebih berharga dari kemenangan",
+        "Bekal sehat dan tidak malu dengan hal yang baik",
+        "Minum air putih cukup untuk hidrasi tubuh"
+      ],
+      "cols": [
+        "Cerita Andi",
+        "Cerita Dimas",
+        "Cerita Lina"
+      ],
+      "ans": [
+        "Cerita Andi",
+        "Cerita Dimas",
+        "Cerita Lina",
+        "Cerita Andi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D07",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan analogi 'roti lapis' dengan bagian cerita yang diwakilinya!",
+      "rows": [
+        "Awal — perkenalan tokoh dan latar",
+        "Tengah — masalah dan kejadian seru",
+        "Akhir — penyelesaian cerita",
+        "Klimaks — puncak ketegangan"
+      ],
+      "cols": [
+        "Roti bagian atas",
+        "Isian roti",
+        "Roti bagian bawah"
+      ],
+      "ans": [
+        "Roti bagian atas",
+        "Isian roti",
+        "Roti bagian bawah",
+        "Isian roti"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D08",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang bagian TENGAH cerita dengan nilainya — benar atau salah!",
+      "rows": [
+        "Bagian tengah berisi konflik yang membuat pembaca penasaran",
+        "Bagian tengah selalu lebih pendek dari bagian lainnya",
+        "Bagian tengah menjawab pertanyaan 'Apa masalahnya?'",
+        "Bagian tengah berisi perkenalan tokoh utama"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D09",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Awal Cerita",
+      "stimulus": "",
+      "q": "Pasangkan informasi dari cerita 'Bekal Sehat Lina' dengan bagian strukturnya!",
+      "rows": [
+        "Lina tinggal di Lembang bersama ibu dan adiknya'",
+        "Lina malu membawa bekal sayur, takut diejek teman'",
+        "Lina akhirnya bangga dengan bekal sehatnya'",
+        "Ibu memberi Lina bekal sayur dari kebun'"
+      ],
+      "cols": [
+        "Awal",
+        "Tengah",
+        "Akhir"
+      ],
+      "ans": [
+        "Awal",
+        "Tengah",
+        "Akhir",
+        "Awal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D10",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan nama bagian struktur cerita dengan pertanyaan kunci yang dijawabnya!",
+      "rows": [
+        "Siapa, di mana, kapan?",
+        "Apa masalah dan bagaimana menghadapinya?",
+        "Bagaimana akhirnya dan apa pesannya?",
+        "Mengapa masalah bisa terjadi?"
+      ],
+      "cols": [
+        "Orientasi",
+        "Komplikasi",
+        "Resolusi"
+      ],
+      "ans": [
+        "Orientasi",
+        "Komplikasi",
+        "Resolusi",
+        "Komplikasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D11",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akhir Cerita",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dari cerita dengan bagian struktur yang tepat!",
+      "rows": [
+        "Dimas mendaftar lomba lari 1.000 meter di sekolah'",
+        "Dimas hampir menyerah, tapi teriakan ayah memberi semangat'",
+        "Dimas belajar bahwa kemenangan bukan soal jadi yang pertama'",
+        "Kaki Dimas nyeri setelah latihan berlebihan'"
+      ],
+      "cols": [
+        "Awal",
+        "Tengah",
+        "Akhir"
+      ],
+      "ans": [
+        "Awal",
+        "Tengah",
+        "Akhir",
+        "Tengah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D12",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan bagian struktur cerita yang tepat!",
+      "rows": [
+        "Berisi siapa tokohnya dan di mana cerita berlangsung",
+        "Berisi masalah, konflik, dan rintangan yang harus diatasi",
+        "Berisi penyelesaian masalah dan pesan moral cerita",
+        "Berisi semua detail kehidupan tokoh"
+      ],
+      "cols": [
+        "Awal",
+        "Tengah",
+        "Akhir"
+      ],
+      "ans": [
+        "Awal",
+        "Tengah",
+        "Akhir",
+        "Awal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D13",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tengah Cerita",
+      "stimulus": "",
+      "q": "Pasangkan jenis konflik di bagian TENGAH cerita dengan contoh dari cerita Bab 8!",
+      "rows": [
+        "Kaki Dimas nyeri sebelum lomba",
+        "Dimas merasa ingin menyerah tapi ingat kerja kerasnya",
+        "Andi tidak sempat sarapan karena bangun terlambat",
+        "Lina merasa malu dengan bekalnya"
+      ],
+      "cols": [
+        "Konflik fisik",
+        "Konflik batin",
+        "Konflik dengan keadaan"
+      ],
+      "ans": [
+        "Konflik fisik",
+        "Konflik batin",
+        "Konflik dengan keadaan",
+        "Konflik batin"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D14",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan bagian struktur cerita dengan 'rasa' yang dibawa kepada pembaca!",
+      "rows": [
+        "Penasaran: siapa tokoh ini dan ada apa?",
+        "Tegang: apa yang akan terjadi selanjutnya?",
+        "Puas atau terharu: masalah terselesaikan dengan baik",
+        "Bingung: terlalu banyak informasi"
+      ],
+      "cols": [
+        "Awal — rasa",
+        "Tengah — rasa",
+        "Akhir — rasa"
+      ],
+      "ans": [
+        "Awal — rasa",
+        "Tengah — rasa",
+        "Akhir — rasa",
+        "Awal — rasa"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

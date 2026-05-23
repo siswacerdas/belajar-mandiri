@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "Bahasa Indonesia",
+  "bab": "Bab 2 — Tulus dalam Berkarya",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Kata baru adalah kata yang ...",
+      "opt": [
+        "Paling sering muncul dalam sebuah teks",
+        "Belum pernah kita kenal atau pahami artinya saat membaca",
+        "Paling sulit diucapkan dengan lantang",
+        "Hanya ada di kamus dan tidak dipakai sehari-hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Menemukan kata baru saat membaca sebenarnya adalah hal yang baik karena ...",
+      "opt": [
+        "Menunjukkan teks tersebut sangat buruk dan membingungkan",
+        "Artinya kita sedang belajar dan menambah kosakata",
+        "Artinya kita harus mencari teks yang lebih mudah",
+        "Menunjukkan bahwa kita salah memilih buku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Perbendaharaan kata atau kosakata yang semakin kaya membuat seseorang ...",
+      "opt": [
+        "Lebih lambat dalam memahami bacaan",
+        "Lebih percaya diri saat berbicara dan menulis",
+        "Lebih sering bingung saat membaca teks",
+        "Lebih sulit menjelaskan pikiran kepada orang lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Kata-kata baru paling sering muncul dalam teks tentang ...",
+      "opt": [
+        "Hal-hal umum yang sudah diketahui semua orang",
+        "Topik khusus seperti seni, alam, kesehatan, atau teknologi",
+        "Cerita yang sangat pendek dan mudah dipahami",
+        "Teks yang ditulis dengan huruf kecil semua"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Perhatikan kalimat: 'Pelukis itu memilih warna dari palet-nya, lalu mengoleskannya ke kanvas.' Arti kata 'palet' berdasarkan konteks kalimat adalah ...",
+      "opt": [
+        "Kain putih untuk melukis",
+        "Tempat mencampur cat warna pelukis",
+        "Pigura untuk memajang lukisan",
+        "Kuas yang digunakan pelukis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Perhatikan kalimat: 'Di sore hari, siluet gunung terlihat gelap dengan latar langit jingga.' Arti kata 'siluet' berdasarkan konteks kalimat adalah ...",
+      "opt": [
+        "Puncak gunung yang tertutup salju",
+        "Langit jingga di sore hari",
+        "Bayangan gelap suatu benda di depan latar yang terang",
+        "Foto pemandangan gunung di sore hari"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Perhatikan kalimat: 'Nenek mengajari Dinda merajut syal menggunakan benang wol dan dua jarum panjang.' Arti kata 'merajut' adalah ...",
+      "opt": [
+        "Memotong kain menjadi potongan-potongan kecil",
+        "Mencuci kain wol dengan benang berwarna",
+        "Membuat kain atau pakaian dari benang dengan jarum khusus",
+        "Mewarnai benang wol dengan berbagai warna"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Dalam teks batik, disebutkan 'kain mori yang berwarna putih polos'. Berdasarkan konteks, 'kain mori' adalah ...",
+      "opt": [
+        "Kain yang sudah berwarna dan bermotif",
+        "Kain putih polos sebagai bahan dasar batik",
+        "Kain yang sudah selesai dibatik",
+        "Alat untuk mewarnai kain batik"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Dalam teks batik, disebutkan 'canting — alat kecil seperti pulpen yang berisi cairan lilin panas'. Cara penulis menjelaskan kata 'canting' tersebut adalah ...",
+      "opt": [
+        "Dengan membandingkan canting dengan kuas lukis",
+        "Dengan memberikan penjelasan langsung di dalam kalimat",
+        "Dengan meminta pembaca membuka kamus",
+        "Dengan menampilkan gambar canting di sebelah teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Cara yang paling sering dan paling cepat untuk memahami arti kata baru adalah ...",
+      "opt": [
+        "Langsung menutup buku dan mencari kamus",
+        "Menebak arti dari konteks kalimat di sekitar kata tersebut",
+        "Menanyakan kepada teman yang duduk di sebelah",
+        "Menghafal semua kata sulit sebelum membaca"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Trik kilat menebak arti kata baru adalah dengan bertanya ...",
+      "opt": [
+        "Berapa panjang kata tersebut dalam jumlah huruf",
+        "Apakah kata itu berasal dari bahasa Indonesia atau bukan",
+        "Apa yang sedang dibicarakan di kalimat ini?'",
+        "Siapa penulis yang menggunakan kata itu pertama kali"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Cara yang tepat saat menemukan kata baru dalam teks adalah ...",
+      "opt": [
+        "Langsung melewatinya tanpa membaca",
+        "Membaca kalimat di depan dan di belakang kata tersebut untuk mencari petunjuk",
+        "Mengganti kata tersebut dengan kata lain yang lebih mudah",
+        "Menghentikan bacaan dan tidak melanjutkan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Jika kamu menemukan kata baru dalam teks tentang seni lukis, kemungkinan besar kata baru itu berhubungan dengan ...",
+      "opt": [
+        "Olahraga dan kebugaran",
+        "Alat, teknik, atau istilah dalam dunia melukis",
+        "Cara memasak makanan tradisional",
+        "Istilah dalam pelajaran matematika"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Latar langit dibuat Dinda dengan teknik gradasi — perlahan berubah dari biru tua di atas menjadi biru muda di dekat bunga.' Arti 'gradasi' berdasarkan konteks adalah ...",
+      "opt": [
+        "Perubahan warna secara bertahap dari tua ke muda",
+        "Cara melukis dengan cat yang sangat tebal",
+        "Teknik mencampurkan cat dengan air",
+        "Motif garis lurus yang digunakan dalam lukisan"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'UNESCO telah mengakui batik sebagai warisan budaya dunia.' Berdasarkan konteks, 'warisan budaya' berarti ...",
+      "opt": [
+        "Benda mahal yang dijual di pasar internasional",
+        "Hasil karya atau tradisi leluhur yang perlu dijaga dan dilestarikan",
+        "Produk yang diekspor ke seluruh dunia",
+        "Kain yang hanya boleh dipakai pada hari raya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Saat menemukan kata 'gamelan' dalam teks cerita Rara, petunjuk konteks yang membantu memahami artinya adalah kalimat ...",
+      "opt": [
+        "Rara bermimpi bisa tampil di depan semua orang'",
+        "Musik gamelan mengalun, dan Rara mulai menari'",
+        "Bu Wati datang menjenguk Rara di rumahnya'",
+        "Kaki Rara masih agak sakit saat hari pentas'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Jika kita tidak bisa menebak arti kata dari konteks, langkah selanjutnya yang tepat adalah ...",
+      "opt": [
+        "Langsung melanjutkan membaca dan mengabaikan kata itu",
+        "Membuka KBBI (Kamus Besar Bahasa Indonesia) untuk mencari artinya",
+        "Meminta teman untuk membacakan seluruh teks",
+        "Menulis ulang teks tanpa menyertakan kata tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "KBBI adalah singkatan dari ...",
+      "opt": [
+        "Kumpulan Buku Bahasa Indonesia",
+        "Kamus Besar Bahasa Indonesia",
+        "Kajian Baku Bahasa Ilmiah",
+        "Kata Baku Bahasa Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Teks batik menyebutkan 'corak yang khas'. Kata 'corak' dalam konteks seni batik berarti ...",
+      "opt": [
+        "Warna dasar kain batik yang digunakan",
+        "Motif atau pola yang menjadi ciri khas suatu batik",
+        "Harga jual kain batik di pasar",
+        "Nama pengrajin yang membuat batik"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Cara ketiga untuk memahami kata baru jika konteks dan kamus tidak membantu adalah ...",
+      "opt": [
+        "Membaca ulang teks dari awal sampai akhir",
+        "Menebak sembarangan tanpa dasar apapun",
+        "Bertanya kepada guru, orang tua, atau kakak",
+        "Mencari teks lain yang tidak mengandung kata sulit"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Kalimat: 'Para penari menggunakan kostum yang dihiasi payet berkilauan.' Kata 'payet' kemungkinan berarti ...",
+      "opt": [
+        "Sejenis bunga yang biasa dipakai penari",
+        "Hiasan kecil berkilau yang dijahit di kain kostum",
+        "Kain khusus yang sangat ringan dan tipis",
+        "Nama tari tradisional dari Jawa Barat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Beni berlatih melukis setiap hari dengan penuh dedikasi.' Arti kata 'dedikasi' berdasarkan konteks adalah ...",
+      "opt": [
+        "Kemarahan yang ditunjukkan seseorang",
+        "Pengabdian dan kesungguhan hati dalam melakukan sesuatu",
+        "Kemalasan dalam mengerjakan tugas",
+        "Hadiah yang diterima setelah bekerja keras"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Membaca secara rutin akan membantu memperkaya kosakata karena ...",
+      "opt": [
+        "Kita bisa membaca lebih cepat tanpa memahami isi",
+        "Setiap bacaan menghadirkan kata-kata baru yang bisa dipelajari",
+        "Kita tidak perlu lagi membuka kamus seumur hidup",
+        "Kosakata hanya bisa bertambah dari pelajaran di kelas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang kosakata adalah ...",
+      "opt": [
+        "Semakin sedikit kosakata yang dikuasai, semakin mudah memahami bacaan",
+        "Kosakata yang kaya hanya berguna saat menulis, bukan saat berbicara",
+        "Semakin banyak kosakata yang dikuasai, semakin mudah memahami bacaan",
+        "Kosakata yang baik hanya bisa dipelajari di sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Teks batik menyebutkan 'motif yang dipengaruhi oleh alam sekitar seperti bunga, daun, dan binatang'. Kata 'motif' dalam konteks ini berarti ...",
+      "opt": [
+        "Alasan seseorang membuat batik",
+        "Pola atau gambar yang dijadikan hiasan dalam karya seni",
+        "Warna yang digunakan dalam proses pewarnaan",
+        "Nama daerah tempat pembuatan batik"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Proses pembuatan batik tulis 'bisa memakan waktu berminggu-minggu'. Kata 'memakan waktu' dalam konteks ini berarti ...",
+      "opt": [
+        "Membuang waktu tanpa hasil",
+        "Membutuhkan atau menghabiskan waktu",
+        "Menikmati waktu luang",
+        "Mempersingkat waktu pengerjaan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda menggunakan cat akrilik untuk melukis.' Jika kamu tidak tahu arti 'akrilik', petunjuk konteks yang paling membantu adalah ...",
+      "opt": [
+        "Kata 'Dinda' menunjukkan nama seseorang",
+        "Kata 'cat' sebelum 'akrilik' menunjukkan bahwa akrilik adalah jenis cat",
+        "Kata 'melukis' menunjukkan kegiatan seni",
+        "Kata 'menggunakan' menunjukkan cara memakai sesuatu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pendapat adalah ...",
+      "opt": [
+        "Fakta yang sudah terbukti kebenarannya",
+        "Pemikiran, perasaan, atau penilaian seseorang terhadap sesuatu",
+        "Informasi yang diperoleh dari kamus",
+        "Ringkasan isi teks yang ditulis ulang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pendapat yang baik harus selalu disertai ...",
+      "opt": [
+        "Gambar yang mendukung pendapat tersebut",
+        "Alasan yang jelas mengapa kita berpendapat demikian",
+        "Kutipan langsung dari tokoh terkenal",
+        "Persetujuan dari semua teman sekelas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Perbedaan antara fakta dan pendapat adalah ...",
+      "opt": [
+        "Fakta selalu lebih menarik dari pendapat",
+        "Fakta benar untuk semua orang, sedangkan pendapat bisa berbeda antar orang",
+        "Pendapat selalu benar dan fakta bisa salah",
+        "Fakta hanya ada di buku pelajaran, pendapat hanya di cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pernyataan 'Bandung adalah kota terindah di Indonesia' termasuk ...",
+      "opt": [
+        "Fakta, karena semua orang setuju",
+        "Pendapat, karena orang lain bisa punya pilihan kota yang berbeda",
+        "Informasi, karena disebutkan di berita",
+        "Data, karena bisa dibuktikan dengan angka"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Kata pembuka yang TEPAT untuk menyampaikan pendapat dengan sopan adalah ...",
+      "opt": [
+        "Kamu pasti tidak tahu bahwa ...'",
+        "Menurut saya, ...'",
+        "Semua orang setuju bahwa ...'",
+        "Sudah pasti benar bahwa ...'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Rumus pendapat yang baik terdiri dari tiga bagian, yaitu ...",
+      "opt": [
+        "Judul, isi, dan penutup",
+        "Pendapat, alasan, dan bukti dari teks",
+        "Fakta, opini, dan kesimpulan",
+        "Kalimat tanya, kalimat pernyataan, dan kalimat seru"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Contoh kalimat pendapat yang BAIK dan lengkap adalah ...",
+      "opt": [
+        "Cerita ini bagus.'",
+        "Menurut saya, cerita ini sangat menarik karena tokohnya mengalami perubahan yang nyata sepanjang cerita.'",
+        "Semua orang pasti suka cerita ini.'",
+        "Ceritanya panjang sekali dan membosankan.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pendapat yang baik boleh bersifat kritis, artinya ...",
+      "opt": [
+        "Harus selalu memuji teks atau ilustrasi yang dinilai",
+        "Boleh menyampaikan kekurangan secara sopan disertai alasan yang jelas",
+        "Harus mengkritik setiap bagian dari teks tanpa terkecuali",
+        "Tidak boleh menyebutkan hal positif apapun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Bagian 'bukti dari teks' dalam rumus pendapat berfungsi untuk ...",
+      "opt": [
+        "Menunjukkan bahwa kita sudah selesai membaca teks tersebut",
+        "Mendukung pendapat dengan merujuk pada bagian teks yang relevan",
+        "Memperpanjang pendapat agar terlihat lebih pintar",
+        "Menggantikan pendapat jika buktinya tidak ditemukan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Mengapa pendapat harus disertai alasan?",
+      "opt": [
+        "Agar pendapat terlihat lebih panjang dan formal",
+        "Agar pendapat dapat dipahami dan dipercaya oleh pendengar",
+        "Karena alasan bisa mengubah fakta menjadi pendapat",
+        "Karena tanpa alasan, pendapat dianggap tidak sopan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi dalam sebuah teks adalah ...",
+      "opt": [
+        "Penjelasan panjang tentang topik yang dibahas",
+        "Gambar atau visual yang menyertai teks untuk memperjelas isi",
+        "Ringkasan isi teks dalam beberapa kalimat",
+        "Kalimat penutup di akhir teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Saat memberikan pendapat tentang ilustrasi, pertanyaan yang tepat adalah ...",
+      "opt": [
+        "Siapa yang membuat ilustrasi ini?'",
+        "Apakah gambarnya cocok dengan isi cerita dan mudah dipahami?'",
+        "Berapa harga buku yang memiliki ilustrasi ini?'",
+        "Kapan ilustrasi ini dibuat?'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Contoh pendapat tentang ilustrasi yang BAIK dan menggunakan rumus lengkap adalah ...",
+      "opt": [
+        "Saya tidak suka gambarnya.'",
+        "Menurut saya, ilustrasi bunga matahari ini cocok dengan cerita karena menggambarkan semangat dan keceriaan tokoh Dinda.'",
+        "Gambarnya biasa saja, tidak ada yang menarik sama sekali.'",
+        "Ilustrasi ini sangat bagus sekali.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi dalam teks cerita berfungsi untuk ...",
+      "opt": [
+        "Menggantikan teks agar pembaca tidak perlu membaca",
+        "Memperjelas gambaran visual tentang isi atau suasana cerita",
+        "Membuat teks menjadi lebih panjang",
+        "Menunjukkan kemampuan penulis dalam menggambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi 'tiga bunga matahari kuning cerah dengan latar langit biru' dinilai cocok dengan teks cerita Dinda karena ...",
+      "opt": [
+        "Bunga matahari adalah bunga favorit semua anak Indonesia",
+        "Gambar tersebut menggambarkan objek yang memang dilukis Dinda dalam cerita",
+        "Langit biru selalu cocok dengan cerita apapun",
+        "Warna kuning lebih cerah dari warna lainnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Kata-kata pembuka pendapat yang dapat kamu gunakan saat menyatakan persetujuan adalah ...",
+      "opt": [
+        "Sudah jelas bahwa ...'",
+        "Saya setuju dengan ... karena ...'",
+        "Semua orang pasti tahu ...'",
+        "Memang seharusnya ...'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Kamu membaca teks tentang pameran lukisan anak. Pendapat tentang ISI TEKS yang lengkap adalah ...",
+      "opt": [
+        "Teksnya pendek.'",
+        "Menurut saya, teks ini menginspirasi karena menunjukkan bahwa anak-anak bisa menghasilkan karya seni yang luar biasa.'",
+        "Saya suka teksnya.'",
+        "Teksnya tentang lukisan.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Pendapat netral artinya ...",
+      "opt": [
+        "Tidak ada pendapat sama sekali",
+        "Tidak secara tegas memuji atau mengkritik, tetapi memberikan penilaian yang seimbang",
+        "Pendapat yang dimiliki oleh semua orang",
+        "Pendapat yang tidak disertai alasan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pernyataan berikut yang merupakan PENDAPAT dan bukan fakta adalah ...",
+      "opt": [
+        "Dinda menghabiskan tiga minggu untuk menyelesaikan lukisannya'",
+        "Lukisan Dinda berjudul Bunga Matahari di Kebun Nenek'",
+        "Menurut saya, lukisan Dinda menunjukkan betapa ia mencintai alam'",
+        "Bu Rita adalah guru kesenian di SD Cerdas Mandiri'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Seorang teman berkata: 'Cerita Rara sangat bagus.' Kalimat itu kurang baik sebagai pendapat karena ...",
+      "opt": [
+        "Menggunakan kata 'sangat' yang berlebihan",
+        "Tidak ada alasan yang menjelaskan mengapa ceritanya bagus",
+        "Menggunakan kata ganti orang ketiga",
+        "Terlalu pendek untuk dijadikan pendapat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Kamu melihat ilustrasi berupa gambar cat dan kuas di samping cerita tentang pameran lukisan. Pendapat yang tepat adalah ...",
+      "opt": [
+        "Saya tidak punya pendapat tentang ilustrasi.'",
+        "Menurut saya, ilustrasi cat dan kuas sangat sesuai karena cerita memang tentang kegiatan melukis.'",
+        "Gambarnya sangat bagus dan semua orang pasti suka.'",
+        "Ilustrasi ini tidak ada hubungannya dengan cerita.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Kalimat: 'Saya rasa pesan moral cerita ini sangat kuat, yaitu bahwa karya yang baik lahir dari ketulusan hati.' Yang menjadi ALASAN dalam kalimat tersebut adalah ...",
+      "opt": [
+        "Saya rasa'",
+        "pesan moral cerita ini sangat kuat'",
+        "yaitu bahwa karya yang baik lahir dari ketulusan hati'",
+        "Seluruh kalimat tersebut"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Dalam pandangan saya, cerita Beni sangat menyentuh karena ...' merupakan kalimat yang menunjukkan ...",
+      "opt": [
+        "Penyampaian fakta tentang Beni",
+        "Penyampaian pendapat dengan kata pembuka yang sopan",
+        "Kalimat pertanyaan tentang cerita Beni",
+        "Ringkasan isi cerita Beni"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Pendapat tentang ilustrasi yang KURANG TEPAT adalah ...",
+      "opt": [
+        "Menurut saya, warna ilustrasi ini kurang cerah sehingga kurang menggambarkan semangat tokoh.'",
+        "Saya pikir ilustrasi ini sangat sesuai karena gambar penari cocok dengan cerita tentang pentas seni.'",
+        "Ilustrasi ini pasti bagus karena dibuat oleh seniman terkenal.'",
+        "Dalam pandangan saya, gambarnya mudah dipahami dan relevan dengan isi teks.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Saat memberikan pendapat tentang isi cerita, yang perlu diperhatikan adalah ...",
+      "opt": [
+        "Harga dan ketebalan buku yang memuat cerita",
+        "Apakah ceritanya menarik, pesannya jelas, dan tokohnya terasa nyata",
+        "Nama penulis dan tahun terbit cerita",
+        "Jumlah halaman dan ukuran huruf dalam cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Contoh bukti dari teks yang baik untuk mendukung pendapat adalah ...",
+      "opt": [
+        "Cerita ini bagus karena saya suka membacanya.'",
+        "Cerita ini menginspirasi, misalnya ketika Rara tetap tampil meski kakinya sakit — itu menunjukkan keberanian yang nyata.'",
+        "Semua cerita tentang seni pasti bagus.'",
+        "Saya sudah membaca cerita ini dua kali.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Kalimat pendapat yang menggunakan rumus lengkap (pendapat + alasan + bukti) adalah ...",
+      "opt": [
+        "Saya suka Rara.'",
+        "Cerita tentang Rara sangat bagus sekali.'",
+        "Menurut saya, tokoh Rara sangat menginspirasi karena ia tidak menyerah meski kakinya sakit, terbukti ia tetap naik ke panggung dan tampil.'",
+        "Rara menari di atas panggung.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C01",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Memahami perubahan perasaan tokoh dalam cerita berguna untuk ...",
+      "opt": [
+        "Menghitung jumlah tokoh dalam cerita",
+        "Memahami cerita lebih mendalam dan merasakan empati terhadap tokoh",
+        "Menentukan latar tempat dan waktu cerita",
+        "Menemukan kesalahan yang dibuat penulis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C02",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Perasaan tokoh dalam cerita berubah karena ...",
+      "opt": [
+        "Penulis sengaja membuat pembaca bingung",
+        "Kejadian-kejadian penting dalam alur cerita yang mempengaruhi tokoh",
+        "Tokoh cerita tidak punya pendirian yang tetap",
+        "Jumlah halaman cerita yang semakin bertambah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C03",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Cara menemukan perasaan tokoh dalam teks adalah dengan memperhatikan ...",
+      "opt": [
+        "Panjang kalimat yang digunakan penulis",
+        "Kata-kata seperti 'merasa sedih', 'hatinya berdebar', atau 'senyumnya merekah'",
+        "Jumlah tanda seru dalam teks",
+        "Nama tokoh yang paling sering disebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C04",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat 'Rara bersemangat saat namanya terpilih untuk menari di pentas seni sekolah.' Perasaan Rara pada awal cerita adalah ...",
+      "opt": [
+        "Sedih dan kecewa",
+        "Takut dan cemas",
+        "Semangat dan antusias",
+        "Marah dan tidak puas"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C05",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat: 'Rara sangat sedih dan kecewa. Air matanya menetes deras. Aku pasti tidak bisa tampil, gumamnya putus asa.' Perasaan Rara dalam kutipan ini adalah ...",
+      "opt": [
+        "Bahagia dan bangga",
+        "Sedih, kecewa, dan putus asa",
+        "Marah dan kesal",
+        "Lega dan tenang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C06",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pemicu yang membuat Rara berubah dari sedih menjadi bertekad dalam cerita 'Pentas Seni Rara' adalah ...",
+      "opt": [
+        "Kaki Rara tiba-tiba sembuh total",
+        "Dukungan dan semangat dari Bu Wati, guru kesenian",
+        "Teman-teman Rara bertepuk tangan",
+        "Rara mendapat hadiah dari sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C07",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pemicu yang membuat Rara berubah dari gugup menjadi berani saat berada di panggung adalah ...",
+      "opt": [
+        "Musik gamelan yang sangat merdu",
+        "Penonton yang berteriak-teriak",
+        "Senyuman ibu di barisan penonton",
+        "Kostum tari yang sangat bagus"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C08",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat: 'Rara terharu dan sangat bangga. Air matanya menetes lagi — tapi kali ini, air mata kebahagiaan.' Perasaan Rara di akhir cerita adalah ...",
+      "opt": [
+        "Sedih dan kecewa",
+        "Marah dan kesal",
+        "Terharu dan bangga",
+        "Cemas dan takut"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C09",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Urutan perubahan perasaan Rara dari awal hingga akhir cerita 'Pentas Seni Rara' adalah ...",
+      "opt": [
+        "Sedih → Bersemangat → Gugup → Bangga",
+        "Bersemangat → Sedih/Kecewa → Cemas tapi Bertekad → Gugup → Terharu/Bangga",
+        "Bangga → Bersemangat → Sedih → Lega",
+        "Cemas → Takut → Sedih → Bahagia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C10",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Penulis menggambarkan perasaan tokoh tidak hanya melalui kata-kata langsung seperti 'merasa sedih', tetapi juga melalui ...",
+      "opt": [
+        "Jumlah dialog yang dimiliki tokoh",
+        "Tindakan tokoh, seperti 'menunduk lesu' yang menunjukkan kesedihan",
+        "Nama tokoh yang dipilih penulis",
+        "Latar waktu dan tempat dalam cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C11",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat: 'Hatinya berdebar-debar saat melangkah ke atas panggung.' Kata 'hatinya berdebar-debar' menggambarkan perasaan ...",
+      "opt": [
+        "Marah dan kesal",
+        "Bahagia dan senang",
+        "Gugup atau cemas",
+        "Lega dan tenang"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C12",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Dalam sebuah cerita, perubahan perasaan tokoh dari sedih menjadi senang biasanya terjadi karena ...",
+      "opt": [
+        "Cerita sudah hampir selesai",
+        "Ada kejadian atau bantuan yang mengubah situasi menjadi lebih baik",
+        "Tokoh memutuskan untuk tidak peduli lagi",
+        "Penonton bertepuk tangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C13",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Kemampuan memahami perubahan perasaan tokoh membantu kita ...",
+      "opt": [
+        "Menghafal nama semua tokoh dalam cerita",
+        "Memahami watak/karakter tokoh dan merasakan empati",
+        "Menghitung berapa kali tokoh berbicara",
+        "Menemukan latar belakang penulis cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C14",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat: 'Beni menunduk lesu setelah lukisannya dicoret.' Tindakan 'menunduk lesu' menggambarkan perasaan ...",
+      "opt": [
+        "Bangga dan puas",
+        "Sedih, kecewa, atau putus asa",
+        "Marah dan tidak terima",
+        "Tenang dan sabar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C15",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Mengapa memahami perubahan perasaan tokoh penting dalam membaca cerita?",
+      "opt": [
+        "Agar bisa menjawab soal pilihan ganda dengan benar",
+        "Agar kita bisa memahami jalan cerita dengan lebih mendalam",
+        "Agar bisa menulis cerita yang lebih panjang",
+        "Agar bisa menghafal seluruh isi cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C16",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Perhatikan kalimat: 'Senyumnya merekah saat melihat lukisannya dipajang di dinding.' Perasaan tokoh dalam kalimat tersebut adalah ...",
+      "opt": [
+        "Sedih dan kecewa",
+        "Marah dan tidak puas",
+        "Senang dan bangga",
+        "Cemas dan khawatir"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C17",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Dalam cerita 'Pentas Seni Rara', ada empat pemicu yang mengubah perasaan Rara. Pemicu pertama (dari semangat menjadi sedih) adalah ...",
+      "opt": [
+        "Musik gamelan mulai mengalun",
+        "Rara jatuh saat latihan dan kakinya keseleo",
+        "Bu Wati datang menjenguk Rara",
+        "Penonton bertepuk tangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C18",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Kata-kata berikut yang menunjukkan perasaan POSITIF adalah ...",
+      "opt": [
+        "Sedih, cemas, dan kecewa",
+        "Takut, marah, dan malu",
+        "Terharu, bangga, dan lega",
+        "Gugup, putus asa, dan khawatir"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C19",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat: 'Matanya berkaca-kaca saat mendengar kabar itu.' Ungkapan 'matanya berkaca-kaca' menggambarkan ...",
+      "opt": [
+        "Tokoh sedang mengantuk",
+        "Tokoh hampir menangis karena terharu atau sedih",
+        "Tokoh terkejut dan tidak percaya",
+        "Tokoh sedang membaca sesuatu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C20",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Perubahan perasaan tokoh dari takut menjadi berani biasanya menunjukkan bahwa ...",
+      "opt": [
+        "Tokoh itu penakut dan mudah goyah",
+        "Ada pertumbuhan atau perkembangan karakter pada tokoh",
+        "Ceritanya tidak realistis",
+        "Tokoh tidak punya pendirian"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C21",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita, ungkapan 'jantungnya berdetak kencang' biasanya menggambarkan perasaan ...",
+      "opt": [
+        "Malas dan mengantuk",
+        "Sedih dan kecewa",
+        "Tegang, gugup, atau bersemangat",
+        "Tenang dan santai"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C22",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kalimat mana yang menggambarkan perasaan LEGA pada tokoh?",
+      "opt": [
+        "Air matanya menetes karena sedih'",
+        "Ia menarik napas panjang setelah mengetahui kabar baik itu'",
+        "Tangannya gemetar saat naik ke panggung'",
+        "Ia berjalan tertunduk sepulang sekolah'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C23",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Seorang tokoh awalnya merasa tidak percaya diri, lalu di akhir cerita ia merasa bangga. Perubahan ini menunjukkan ...",
+      "opt": [
+        "Tokoh tidak konsisten dalam berperasaan",
+        "Ada kejadian yang mendorong pertumbuhan karakter tokoh",
+        "Cerita tidak memiliki alur yang jelas",
+        "Perasaan tokoh tidak penting untuk dipahami"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C24",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Cara paling tepat untuk melacak perubahan perasaan tokoh saat membaca cerita adalah ...",
+      "opt": [
+        "Membaca hanya dialog-dialog yang ada",
+        "Mencatat perasaan tokoh di setiap kejadian penting",
+        "Menghitung jumlah kalimat dalam setiap paragraf",
+        "Hanya membaca awal dan akhir cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C25",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang perasaan tokoh dalam cerita adalah ...",
+      "opt": [
+        "Perasaan tokoh selalu dinyatakan langsung dan tidak pernah tersirat",
+        "Perasaan tokoh hanya berubah di bagian akhir cerita",
+        "Perasaan tokoh bisa tergambar dari kata-kata maupun tindakan tokoh",
+        "Perasaan tokoh tidak berpengaruh pada jalannya cerita"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C26",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Kalimat: 'Awalnya Beni ragu, namun setelah Bu Wati memuji sketsa pertamanya, ia mulai percaya diri.' Perubahan perasaan Beni adalah ...",
+      "opt": [
+        "Dari marah menjadi lega",
+        "Dari ragu/tidak percaya diri menjadi percaya diri",
+        "Dari senang menjadi sedih",
+        "Dari takut menjadi marah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C27",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Empati dalam membaca cerita berarti ...",
+      "opt": [
+        "Menghafal semua detail cerita dari awal hingga akhir",
+        "Ikut merasakan apa yang dirasakan oleh tokoh dalam cerita",
+        "Mengkritik setiap tindakan yang dilakukan tokoh",
+        "Menceritakan kembali seluruh isi cerita kepada teman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D01",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat efektif adalah kalimat yang ...",
+      "opt": [
+        "Paling panjang dan paling lengkap dalam sebuah paragraf",
+        "Jelas, tidak bertele-tele, dan pesannya mudah dipahami",
+        "Menggunakan kata-kata asing yang canggih",
+        "Mengandung banyak tanda baca"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D02",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat yang TIDAK efektif adalah kalimat yang ...",
+      "opt": [
+        "Singkat dan langsung ke inti",
+        "Menggunakan kata-kata yang tepat dan jelas",
+        "Panjang, bertele-tele, dan banyak kata yang tidak perlu",
+        "Memiliki subjek dan predikat yang jelas"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D03",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Perhatikan dua kalimat berikut: (A) 'Rara dia itu suka sekali dengan yang namanya itu menari tarian tradisional.' (B) 'Rara sangat suka menari tarian tradisional.' Kalimat yang efektif adalah ...",
+      "opt": [
+        "Kalimat A karena lebih panjang dan lengkap",
+        "Kalimat B karena singkat, jelas, dan langsung ke intinya",
+        "Keduanya sama-sama efektif",
+        "Keduanya tidak efektif karena membicarakan tari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D04",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Ada 4 ciri kalimat efektif. Yang BUKAN termasuk ciri kalimat efektif adalah ...",
+      "opt": [
+        "Jelas dan tidak ambigu",
+        "Hemat kata, tidak mengulang",
+        "Memiliki unsur SPOK yang lengkap",
+        "Menggunakan kata-kata asing sebanyak mungkin"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D05",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Hemat kata' sebagai ciri kalimat efektif berarti ...",
+      "opt": [
+        "Kalimat harus sangat pendek, maksimal 5 kata",
+        "Tidak mengulang kata yang artinya sama dan tidak menambah kata yang tidak perlu",
+        "Menghapus semua kata keterangan dari kalimat",
+        "Hanya menggunakan kata benda dan kata kerja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D06",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat: 'Para siswa-siswa sedang belajar di kelas.' Kalimat tersebut tidak efektif karena ...",
+      "opt": [
+        "Tidak ada keterangan tempat",
+        "Kata 'para' dan 'siswa-siswa' keduanya berarti jamak — pengulangan yang tidak perlu",
+        "Kata 'sedang' tidak diperlukan",
+        "Tidak ada kata kerja dalam kalimat tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D07",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Perbaikan yang tepat untuk kalimat 'Para siswa-siswa sedang belajar di kelas' adalah ...",
+      "opt": [
+        "Para siswa-siswa yang sedang belajar di kelas'",
+        "Para siswa sedang belajar di kelas.' atau 'Siswa-siswa sedang belajar di kelas.'",
+        "Siswa yang belajar di dalam di kelas'",
+        "Belajar di kelas para siswa-siswa'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D08",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat: 'Beni itu adalah merupakan seorang siswa yang rajin.' Kata mana yang membuat kalimat ini tidak efektif?",
+      "opt": [
+        "Kata 'Beni' dan 'rajin'",
+        "Kata 'itu', 'adalah', dan 'merupakan' digunakan sekaligus padahal bermakna sama",
+        "Kata 'seorang' dan 'siswa'",
+        "Kata 'yang' dan 'rajin'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D09",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Perbaikan yang tepat untuk kalimat 'Beni itu adalah merupakan seorang siswa yang rajin dan tekun' adalah ...",
+      "opt": [
+        "Beni itu adalah seorang yang merupakan siswa rajin tekun'",
+        "Beni adalah siswa yang rajin dan tekun.'",
+        "Siswa yang rajin dan tekun itu adalah Beni yang merupakan'",
+        "Beni merupakan adalah siswa tekun yang rajin'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D10",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat: 'Ibu guru baru datang.' merupakan kalimat ambigu karena ...",
+      "opt": [
+        "Tidak jelas siapa ibu gurunya",
+        "Bisa bermakna 'guru yang baru' ATAU 'guru yang baru saja datang'",
+        "Tidak ada keterangan waktu yang jelas",
+        "Kata 'baru' tidak boleh digunakan bersama kata 'guru'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D11",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Perbaikan yang tepat untuk kalimat ambigu 'Ibu guru baru datang' jika maknanya 'guru yang baru saja tiba' adalah ...",
+      "opt": [
+        "Ibu guru yang baru sudah datang.'",
+        "Ibu guru baru saja datang.'",
+        "Guru ibu baru telah datang.'",
+        "Ibu adalah guru baru yang datang.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D12",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Unsur minimal yang harus ada dalam kalimat efektif adalah ...",
+      "opt": [
+        "Subjek, Predikat, Objek, dan Keterangan",
+        "Subjek dan Predikat",
+        "Objek dan Keterangan",
+        "Predikat dan Keterangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D13",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Dalam kalimat SPOK, huruf 'S' merujuk pada ...",
+      "opt": [
+        "Siapa atau apa yang menjadi pokok kalimat",
+        "Seberapa banyak atau seberapa sering",
+        "Syarat yang harus dipenuhi dalam kalimat",
+        "Susunan kata yang paling awal"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D14",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda melukis bunga matahari di studio sekolah.' Bagian manakah yang menjadi Subjek (S)?",
+      "opt": [
+        "melukis",
+        "bunga matahari",
+        "Dinda",
+        "di studio sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D15",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda melukis bunga matahari di studio sekolah.' Bagian manakah yang menjadi Predikat (P)?",
+      "opt": [
+        "Dinda",
+        "melukis",
+        "bunga matahari",
+        "di studio sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D16",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda melukis bunga matahari di studio sekolah.' Bagian manakah yang menjadi Objek (O)?",
+      "opt": [
+        "Dinda",
+        "melukis",
+        "bunga matahari",
+        "di studio sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D17",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda melukis bunga matahari di studio sekolah.' Bagian manakah yang menjadi Keterangan (K)?",
+      "opt": [
+        "Dinda",
+        "melukis",
+        "bunga matahari",
+        "di studio sekolah"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D18",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Melukis bunga matahari di studio sekolah.' Kalimat ini tidak efektif karena ...",
+      "opt": [
+        "Terlalu banyak keterangan tempat",
+        "Tidak ada subjek — tidak jelas siapa yang melukis",
+        "Kata 'melukis' tidak cocok untuk kalimat ini",
+        "Keterangan tempatnya salah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D19",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Perbaikan kalimat 'Sangat menyukai seni batik sejak kecil' adalah ...",
+      "opt": [
+        "Seni batik sangat menyukai sejak kecil'",
+        "Rara sangat menyukai seni batik sejak kecil.'",
+        "Menyukai seni batik sangat sejak kecil'",
+        "Sangat sejak kecil menyukai seni batik Rara'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D20",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Rara menari tari Jaipong di atas panggung dengan penuh semangat.' Unsur Keterangan (K) dari kalimat tersebut adalah ...",
+      "opt": [
+        "Rara",
+        "menari",
+        "tari Jaipong",
+        "di atas panggung dengan penuh semangat"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D21",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat: 'Di sekolah, lukisan dibuat Dinda dengan cat air yang indah.' Kalimat ini tidak efektif karena ...",
+      "opt": [
+        "Kalimat terlalu pendek",
+        "Susunannya terbalik dan sulit dipahami siapa yang melakukan apa",
+        "Tidak ada keterangan waktu",
+        "Kata 'indah' tidak cocok untuk melukis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D22",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Perbaikan kalimat 'Di sekolah, lukisan dibuat Dinda dengan cat air yang indah' adalah ...",
+      "opt": [
+        "Di sekolah Dinda yang membuat lukisan cat air indah'",
+        "Dinda membuat lukisan yang indah dengan cat air di sekolah.'",
+        "Lukisan indah Dinda dibuat cat air di sekolah'",
+        "Cat air di sekolah Dinda membuat lukisan yang indah'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D23",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Trik cepat memeriksa apakah kalimat kita sudah efektif adalah dengan bertanya ...",
+      "opt": [
+        "Apakah kalimat ini sudah panjang?'",
+        "Apakah ada kata yang bisa dihapus tanpa mengubah artinya?'",
+        "Apakah kalimat ini menggunakan kata asing?'",
+        "Apakah kalimat ini mengandung lebih dari dua kata kerja?'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D24",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat efektif tidak harus sangat pendek, tetapi harus ...",
+      "opt": [
+        "Mengandung setidaknya 10 kata",
+        "Menggunakan kata-kata yang tinggi dan formal",
+        "Pesannya tersampaikan dengan jelas tanpa kata yang mubazir",
+        "Selalu diakhiri dengan tanda titik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D25",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Di antara kalimat berikut, yang paling efektif adalah ...",
+      "opt": [
+        "Beni itu dia adalah merupakan anak yang rajin tekun giat.'",
+        "Beni adalah anak yang rajin dan tekun.'",
+        "Rajin dan tekun Beni itu adalah dia.'",
+        "Anak yang rajin dan tekun itu adalah Beni merupakan.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D26",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat: 'Rara berlatih keras setiap sore demi penampilan terbaiknya.' Kalimat tersebut merupakan kalimat efektif karena ...",
+      "opt": [
+        "Kalimatnya sangat panjang sehingga lengkap",
+        "Singkat, jelas, ada subjek (Rara), predikat, dan tidak ada kata yang mubazir",
+        "Menggunakan kata 'keras' yang terdengar kuat",
+        "Tidak ada kata asing dalam kalimat tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D27",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat SPOK yang BENAR dan lengkap adalah ...",
+      "opt": [
+        "Menari di atas panggung sekolah.'",
+        "Rara yang menari itu dengan semangat.'",
+        "Rara menari tari Jaipong di pentas seni sekolah.'",
+        "Di pentas seni tari Jaipong Rara.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Yang termasuk cara yang tepat untuk memahami kata baru dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menebak arti dari konteks kalimat di sekitar kata baru",
+        "Membuka KBBI untuk mencari arti kata tersebut",
+        "Langsung melewati kata itu dan tidak membacanya",
+        "Menghapus kata tersebut dari teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Pelukis menyapukan kuas ke kanvas dengan gerakan lembut.' Berdasarkan konteks, kata yang berhubungan dengan alat melukis adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "kuas — alat untuk mengoleskan cat",
+        "kanvas — permukaan tempat melukis",
+        "lembut — kata sifat yang menggambarkan gerakan",
+        "menyapukan — kata kerja yang menggambarkan tindakan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Manfaat memiliki kosakata yang kaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lebih mudah memahami berbagai bacaan",
+        "Lebih percaya diri saat berbicara dan menulis",
+        "Tidak perlu lagi membaca buku apapun",
+        "Bisa menghafal semua kalimat dalam teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Canting digunakan untuk menebalkan garis motif batik dengan lilin panas.' Petunjuk konteks yang membantu memahami kata 'canting' adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kata 'digunakan' menunjukkan bahwa canting adalah alat",
+        "Kata 'menebalkan garis motif' menunjukkan fungsi canting",
+        "Kata 'batik' menunjukkan jenis kain yang dibuat",
+        "Kata 'panas' menunjukkan suhu udara"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang cara memahami kata baru adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Konteks kalimat adalah cara paling cepat dan sering dipakai",
+        "KBBI adalah sumber terpercaya untuk mencari arti kata yang tepat",
+        "Kata baru sebaiknya langsung dilewati agar tidak membuang waktu",
+        "Kata baru hanya bisa dipahami jika ada gambarnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Rara memakai kostum tari yang dihiasi ukiran emas.' Dua kata yang menunjukkan benda atau hiasan pada kostum adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "kostum — pakaian khusus untuk menari",
+        "ukiran emas — hiasan bermotif pada kostum",
+        "memakai — kata kerja tentang tindakan Rara",
+        "menari — kata kerja tentang kegiatan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Alasan mengapa menemukan kata baru saat membaca itu baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menandakan kita sedang belajar sesuatu yang baru",
+        "Menambah perbendaharaan kata yang kita miliki",
+        "Menunjukkan teks tersebut sulit dan harus dihindari",
+        "Berarti kita harus segera mengganti buku bacaan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Beni menggoreskan kuas ke kanvas dengan penuh percaya diri, menciptakan siluet pegunungan yang dramatis.' Dua kata yang bisa dipahami artinya dari konteks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "siluet — bentuk bayangan gelap (dari 'pegunungan yang dramatis')",
+        "kanvas — permukaan untuk melukis (dari 'menggoreskan kuas ke kanvas')",
+        "menggoreskan — kata kerja yang sudah umum",
+        "percaya diri — kata yang sudah diketahui artinya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Teks batik menyebutkan bahwa 'batik adalah warisan budaya Indonesia yang diakui UNESCO'. Dua informasi penting dalam kalimat tersebut adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Batik adalah warisan budaya Indonesia",
+        "UNESCO telah mengakui batik sebagai warisan budaya dunia",
+        "Proses membuat batik memerlukan waktu berminggu-minggu",
+        "Batik berasal dari Jawa Barat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Cara menebak arti kata baru dari konteks yang tepat adalah dengan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memperhatikan kata-kata di sekitar kata baru yang memberikan petunjuk",
+        "Menghubungkan kata baru dengan topik yang dibahas dalam teks",
+        "Langsung menyimpulkan tanpa membaca kalimatnya",
+        "Menebak sembarangan berdasarkan bunyi kata"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Topik-topik yang sering memunculkan banyak kata baru dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Topik seni dan kebudayaan seperti batik, tari, dan lukisan",
+        "Topik ilmu pengetahuan seperti alam dan teknologi",
+        "Topik yang sangat familiar di kehidupan sehari-hari",
+        "Topik tentang benda-benda yang sudah diketahui semua orang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Dua cara utama untuk memperkaya kosakata adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rajin membaca berbagai jenis teks",
+        "Mencatat dan mempelajari kata-kata baru yang ditemukan",
+        "Hanya membaca teks yang mudah dan tidak ada kata barunya",
+        "Menghindari teks tentang topik yang belum dikenal"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda terinspirasi dari kebun nenek di Lembang yang penuh bunga matahari setiap musim panas.' Dua kata yang maknanya bisa ditebak dari konteks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "terinspirasi — mendapat ide/dorongan (dari 'kebun yang penuh bunga')",
+        "musim panas — waktu ketika bunga matahari bermekaran",
+        "Lembang — nama orang yang disebutkan",
+        "kebun — benda yang tidak perlu dijelaskan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A14",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang kata baru dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kata baru bisa dipahami melalui konteks kalimat di sekitarnya",
+        "Menemukan kata baru adalah tanda bahwa kita sedang belajar",
+        "Kata baru selalu membuat teks menjadi sangat sulit dibaca",
+        "Kata baru hanya ditemukan di teks yang sangat panjang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A15",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Dua pernyataan yang tepat tentang KBBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "KBBI adalah Kamus Besar Bahasa Indonesia",
+        "KBBI tersedia dalam bentuk buku maupun versi online",
+        "KBBI hanya boleh digunakan oleh guru dan dosen",
+        "KBBI berisi kosakata bahasa Inggris saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Ciri-ciri pendapat yang baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Disertai alasan yang jelas mengapa kita berpendapat demikian",
+        "Menggunakan kata pembuka yang sopan seperti 'menurut saya'",
+        "Disampaikan tanpa alasan apapun",
+        "Harus disetujui oleh semua orang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Perbedaan antara fakta dan pendapat yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Fakta dapat dibuktikan kebenarannya oleh siapapun",
+        "Pendapat bersifat pribadi dan bisa berbeda antar orang",
+        "Fakta dan pendapat adalah hal yang sama",
+        "Pendapat selalu lebih benar daripada fakta"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Tiga bagian dalam rumus pendapat yang baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pendapat — apa penilaianmu terhadap teks",
+        "Alasan — mengapa kamu berpendapat demikian",
+        "Bukti dari teks — bagian teks yang mendukung pendapatmu",
+        "Judul teks — nama teks yang kamu baca"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Hal-hal yang bisa kamu perhatikan saat memberikan pendapat tentang ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apakah gambarnya cocok dengan isi cerita",
+        "Apakah warna dan tampilan visualnya menarik dan mudah dipahami",
+        "Harga buku yang memuat ilustrasi tersebut",
+        "Nama penerbit yang mencetak buku tersebut"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Kata-kata pembuka yang tepat untuk menyampaikan pendapat secara sopan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menurut saya, ...' dan 'Saya berpendapat bahwa ...'",
+        "Saya setuju/tidak setuju karena ...' dan 'Dalam pandangan saya, ...'",
+        "Sudah pasti ...' dan 'Semua orang tahu ...'",
+        "Kamu pasti salah karena ...' dan 'Jelas sekali bahwa ...'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Ilustrasi dikatakan cocok dengan isi teks jika ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Gambar menggambarkan suasana, tokoh, atau kejadian dalam teks",
+        "Warna dan detail ilustrasi sesuai dengan deskripsi dalam cerita",
+        "Ilustrasinya dibuat oleh seniman terkenal",
+        "Ukurannya memenuhi seluruh halaman buku"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Dua contoh kalimat yang merupakan PENDAPAT dan bukan fakta adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menurut saya, cerita Rara sangat menyentuh hati.'",
+        "Saya rasa pesan moral batik tulis sangat kuat bagi generasi muda.'",
+        "Dinda menggunakan cat akrilik untuk melukis.'",
+        "Rara menari tari Jaipong di pentas seni sekolah.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Pendapat tentang isi teks yang lengkap dan baik mengandung ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penilaian kita tentang cerita, tokoh, atau pesan",
+        "Alasan dan bukti dari teks yang mendukung penilaian tersebut",
+        "Jumlah kata dan halaman teks tersebut",
+        "Nama penulis dan tahun terbit teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pendapat yang bersifat kritis tetapi sopan mengandung ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penyampaian kekurangan disertai alasan yang jelas",
+        "Bahasa yang tetap santun meskipun tidak setuju",
+        "Kemarahan yang ditujukan kepada penulis teks",
+        "Penghinaan terhadap karya yang dinilai"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Pendapat tentang ilustrasi yang baik dan lengkap adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menurut saya, ilustrasi penari dalam teks ini sangat sesuai karena menggambarkan semangat Rara.'",
+        "Saya rasa warna ilustrasi yang cerah berhasil menyampaikan keceriaan dalam cerita.'",
+        "Gambarnya bagus.'",
+        "Ilustrasi itu pasti dibuat dengan komputer.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang menyampaikan pendapat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pendapat boleh berbeda antara satu orang dengan orang lainnya",
+        "Pendapat yang baik menggunakan kata sopan dan disertai alasan",
+        "Pendapat harus sama dengan pendapat semua teman",
+        "Pendapat tanpa alasan sudah cukup baik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Dalam pendapat: 'Menurut saya, kisah Dinda menginspirasi karena ia berlatih tiga minggu untuk satu lukisan — misalnya ketika ia tidak menyerah meski cat pertamanya tumpah.' Yang merupakan ALASAN adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "ia berlatih tiga minggu untuk satu lukisan",
+        "ketika ia tidak menyerah meski cat pertamanya tumpah — ini adalah bukti",
+        "Menurut saya — ini adalah kata pembuka",
+        "kisah Dinda — ini adalah nama tokoh"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Dua hal yang perlu diperhatikan saat memberikan pendapat tentang isi teks cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apakah ceritanya menarik dan tokohnya terasa nyata",
+        "Apakah pesannya jelas dan mudah dipahami pembaca",
+        "Berapa panjang cerita dalam jumlah kata",
+        "Di kota mana cerita itu berlatar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C01",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Kata-kata yang menggambarkan perasaan POSITIF dalam sebuah cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bangga dan terharu",
+        "Senang dan lega",
+        "Sedih dan kecewa",
+        "Takut dan cemas"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C02",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Cara menemukan perasaan tokoh yang tepat adalah dengan memperhatikan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kata-kata yang menggambarkan emosi seperti 'merasa sedih' atau 'sangat bangga'",
+        "Tindakan tokoh yang mencerminkan perasaan seperti 'menunduk lesu'",
+        "Jumlah kalimat dalam setiap paragraf cerita",
+        "Nama tokoh yang paling sering disebut dalam cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C03",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Dalam cerita 'Pentas Seni Rara', dua pemicu yang mengubah perasaan Rara adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bu Wati menyemangati Rara — mengubah Rara dari putus asa menjadi bertekad",
+        "Senyuman ibu di penonton — mengubah Rara dari gugup menjadi berani",
+        "Musik gamelan — membuat Rara langsung merasa bangga",
+        "Kaki Rara yang sakit — membuat Rara menjadi lebih kuat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C04",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Ungkapan-ungkapan dalam cerita yang menggambarkan perasaan SEDIH atau KECEWA adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "air matanya menetes deras'",
+        "ia menunduk lesu pulang ke rumah'",
+        "senyumnya merekah lebar'",
+        "tepuk tangan riuh memenuhi ruangan'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C05",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Manfaat memahami perubahan perasaan tokoh dalam membaca cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu kita memahami jalan cerita lebih mendalam",
+        "Membantu kita mengenal watak atau karakter tokoh",
+        "Membantu kita menghafal semua nama tokoh",
+        "Membantu kita mengetahui latar tempat cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C06",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Dalam cerita Rara, dua perasaan yang dialami Rara di AKHIR cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Terharu — karena berhasil tampil di hadapan penonton",
+        "Bangga — karena penonton bertepuk tangan meriah",
+        "Sedih — karena kakinya masih terasa sakit",
+        "Marah — karena latihan selama ini terasa sia-sia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C07",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Perubahan perasaan tokoh dalam cerita menunjukkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tokoh mengalami pertumbuhan karakter sepanjang cerita",
+        "Ada kejadian-kejadian penting yang mempengaruhi emosi tokoh",
+        "Penulis cerita tidak konsisten dalam menulis",
+        "Perasaan tokoh tidak perlu dipahami pembaca"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C08",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Ungkapan yang menggambarkan perasaan GUGUP atau TEGANG dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "hatinya berdebar-debar'",
+        "tangannya sedikit gemetar'",
+        "ia tertidur lelap'",
+        "senyumnya merekah bahagia'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C09",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Empati dalam membaca cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kemampuan ikut merasakan apa yang dirasakan tokoh",
+        "Memahami mengapa tokoh bertindak atau merasa seperti itu",
+        "Hanya menghitung berapa kali tokoh menangis",
+        "Mencatat semua perasaan positif tokoh saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C10",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Kata-kata yang menunjukkan perasaan NEGATIF yang bisa berubah menjadi positif dalam sebuah cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Cemas — bisa berubah menjadi lega",
+        "Kecewa — bisa berubah menjadi bangga",
+        "Senang — selalu berubah menjadi sedih",
+        "Bangga — selalu berubah menjadi cemas"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C11",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Tindakan tokoh yang mencerminkan perasaan BAHAGIA atau BANGGA adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "senyumnya merekah lebar melihat hasilnya'",
+        "air matanya menetes — air mata kebahagiaan'",
+        "ia menunduk lesu dan tidak mau bicara'",
+        "ia berlari menjauh karena takut'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C12",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Dua hal yang bisa kita pelajari dari memahami perubahan perasaan tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Cara menghadapi tantangan seperti yang dilakukan tokoh",
+        "Nilai-nilai baik yang ditunjukkan tokoh dalam cerita",
+        "Cara menghafal seluruh isi cerita dengan cepat",
+        "Cara menghitung jumlah paragraf dalam cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C13",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang perubahan perasaan tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perasaan tokoh bisa berubah beberapa kali dalam satu cerita",
+        "Pemicu perubahan perasaan biasanya adalah kejadian penting dalam alur",
+        "Perasaan tokoh hanya berubah satu kali di akhir cerita",
+        "Perasaan tokoh tidak terpengaruh oleh kejadian dalam cerita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D01",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Ciri-ciri kalimat efektif yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jelas dan tidak ambigu — hanya punya satu makna",
+        "Hemat kata — tidak mengulang dan tidak ada kata mubazir",
+        "Sangat panjang agar penjelasannya lengkap",
+        "Selalu menggunakan kata-kata asing"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D02",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Dinda melukis bunga matahari di studio sekolah setiap sore.' Bagian-bagian yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dinda = Subjek (S)",
+        "melukis = Predikat (P)",
+        "di studio sekolah = Objek (O)",
+        "setiap sore = Subjek (S)"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D03",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat-kalimat yang TIDAK efektif karena pengulangan kata yang tidak perlu adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Para siswa-siswa sedang belajar.' — 'para' dan 'siswa-siswa' bermakna sama",
+        "Beni itu adalah merupakan siswa rajin.' — 'adalah' dan 'merupakan' bermakna sama",
+        "Rara menari tari Jaipong di panggung.'",
+        "Dinda sangat suka melukis.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D04",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Trik cepat memeriksa kalimat agar efektif adalah dengan bertanya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apakah ada subjek — siapa atau apa yang melakukan?'",
+        "Apakah ada kata yang bisa dihapus tanpa mengubah arti?'",
+        "Apakah kalimat ini sudah cukup panjang?'",
+        "Apakah kalimat ini menggunakan kata asing?'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D05",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat yang TIDAK efektif karena tidak memiliki subjek adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sangat menyukai seni batik sejak kecil.' — tidak ada subjek",
+        "Melukis bunga di atas kanvas setiap hari.' — tidak ada subjek",
+        "Rara menari tari Jaipong.' — sudah ada subjek",
+        "Dinda membuat lukisan yang indah.' — sudah ada subjek"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D06",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Perbaikan kalimat tidak efektif yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Para siswa-siswa' diperbaiki menjadi 'Para siswa' atau 'Siswa-siswa'",
+        "Beni adalah merupakan siswa rajin' diperbaiki menjadi 'Beni adalah siswa rajin'",
+        "Rara menari di panggung' diperbaiki menjadi 'Rara dia menari di panggung'",
+        "Dinda melukis' diperbaiki menjadi 'Dinda itu adalah merupakan melukis'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D07",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat ambigu adalah kalimat yang ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memiliki lebih dari satu makna yang membingungkan pembaca",
+        "Tidak jelas karena bisa diartikan dengan dua cara berbeda",
+        "Kalimatnya sangat panjang dan bertele-tele",
+        "Tidak memiliki subjek dan predikat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D08",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Rara berlatih tari Jaipong di studio sekolah setiap sore.' Kalimat ini efektif karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ada subjek yang jelas — Rara",
+        "Tidak ada kata yang diulang atau mubazir",
+        "Kalimatnya sangat panjang",
+        "Menggunakan kata-kata asing yang canggih"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D09",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Unsur SPOK yang WAJIB ada dalam kalimat efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "S (Subjek) — siapa atau apa yang melakukan",
+        "P (Predikat) — apa yang dilakukan atau terjadi",
+        "O (Objek) — wajib ada di semua jenis kalimat",
+        "K (Keterangan) — wajib ada di semua jenis kalimat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D10",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Kalimat efektif memiliki ciri ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Logis dan runtut — susunannya masuk akal dan teratur",
+        "Jelas dan tidak ambigu — hanya punya satu makna",
+        "Selalu menggunakan kata-kata yang sangat panjang",
+        "Harus terdiri dari lebih dari sepuluh kata"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D11",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Kalimat: 'Di sekolah, lukisan dibuat Dinda.' Dua masalah dalam kalimat ini adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Susunan S-P-O-nya terbalik sehingga sulit dipahami",
+        "Lebih jelas jika diubah menjadi 'Dinda membuat lukisan di sekolah'",
+        "Kata 'di sekolah' tidak boleh di awal kalimat",
+        "Kata 'lukisan' harus dihapus dari kalimat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D12",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Dari contoh perbandingan kalimat efektif dan tidak efektif, dua penyebab kalimat tidak efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengulangan kata yang bermakna sama dalam satu kalimat",
+        "Susunan kata yang terbalik sehingga makna menjadi tidak jelas",
+        "Kalimat yang terlalu singkat dan langsung ke inti",
+        "Kalimat yang menggunakan bahasa baku"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D13",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Dua kalimat yang efektif dari pilihan berikut adalah ...",
+      "opt": [
+        "Rara sangat suka menari tarian tradisional.'",
+        "Dinda membuat lukisan yang indah dengan cat air di studio.'",
+        "Rara dia itu suka sekali dengan yang namanya menari.'",
+        "Dinda itu adalah merupakan pelukis yang sangat bagus.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Pasangkan kata baru dengan artinya berdasarkan konteks teks batik!",
+      "rows": [
+        "Canting",
+        "Kain mori",
+        "Motif",
+        "Corak"
+      ],
+      "cols": [
+        "Alat membatik",
+        "Bahan dasar",
+        "Teknik hiasan"
+      ],
+      "ans": [
+        "Alat membatik",
+        "Bahan dasar",
+        "Teknik hiasan",
+        "Teknik hiasan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Pasangkan kata baru dengan cara yang digunakan untuk memahaminya!",
+      "rows": [
+        "Membaca kalimat di sekitar kata baru",
+        "Membuka kbbi.kemdikbud.go.id",
+        "Bertanya kepada guru atau orang tua",
+        "Melihat gambar ilustrasi"
+      ],
+      "cols": [
+        "Konteks kalimat",
+        "Kamus (KBBI)",
+        "Bertanya orang dewasa"
+      ],
+      "ans": [
+        "Konteks kalimat",
+        "Kamus (KBBI)",
+        "Bertanya orang dewasa",
+        "Konteks kalimat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Pasangkan kata dalam teks cerita Rara dengan artinya berdasarkan konteks!",
+      "rows": [
+        "Gamelan",
+        "Tari Jaipong",
+        "Bu Wati",
+        "Pentas seni"
+      ],
+      "cols": [
+        "Alat musik tradisional",
+        "Seni tari Jawa Barat",
+        "Guru kesenian"
+      ],
+      "ans": [
+        "Alat musik tradisional",
+        "Seni tari Jawa Barat",
+        "Guru kesenian",
+        "Alat musik tradisional"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Pasangkan kata dengan contoh penggunaannya yang tepat dalam kalimat!",
+      "rows": [
+        "Bayangan gelap gunung di latar jingga",
+        "Perubahan warna dari biru tua ke biru muda",
+        "Tempat mencampur cat pelukis",
+        "Kain putih bahan batik"
+      ],
+      "cols": [
+        "Siluet",
+        "Gradasi",
+        "Palet"
+      ],
+      "ans": [
+        "Siluet",
+        "Gradasi",
+        "Palet",
+        "Siluet"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kata baru dengan nilainya — benar atau salah!",
+      "rows": [
+        "Konteks kalimat adalah cara tercepat memahami kata baru",
+        "Kata baru sebaiknya langsung dilewati",
+        "Menemukan kata baru artinya kita sedang belajar",
+        "KBBI bisa membantu memahami kata baru"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kata baru yang bisa dipahami artinya dari konteks tersebut!",
+      "rows": [
+        "menyapukan kuas ke kanvas'",
+        "menggunakan cat akrilik'",
+        "teknik gradasi warna'",
+        "menebalkan garis motif'"
+      ],
+      "cols": [
+        "Alat melukis",
+        "Bahan seni",
+        "Teknik melukis"
+      ],
+      "ans": [
+        "Alat melukis",
+        "Bahan seni",
+        "Teknik melukis",
+        "Alat melukis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Pasangkan kata dengan topik bidang yang paling berhubungan!",
+      "rows": [
+        "Canting dan kain mori",
+        "Tari Jaipong dan gamelan",
+        "Kuas, kanvas, dan cat",
+        "Palet dan gradasi"
+      ],
+      "cols": [
+        "Seni batik",
+        "Seni tari",
+        "Seni lukis"
+      ],
+      "ans": [
+        "Seni batik",
+        "Seni tari",
+        "Seni lukis",
+        "Seni lukis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Pasangkan petunjuk konteks dengan kata baru yang bisa dipahami darinya!",
+      "rows": [
+        "memilih warna dari ...-nya lalu mengoleskan ke kanvas'",
+        "terlihat gelap dengan latar langit jingga'",
+        "menggunakan benang wol dan dua jarum panjang'",
+        "menebalkan garis motif batik'"
+      ],
+      "cols": [
+        "palet",
+        "siluet",
+        "merajut"
+      ],
+      "ans": [
+        "palet",
+        "siluet",
+        "merajut",
+        "palet"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Pasangkan urutan langkah memahami kata baru dengan deskripsinya!",
+      "rows": [
+        "Baca kalimat di sekitar kata baru — cari petunjuk konteks",
+        "Buka KBBI jika konteks tidak membantu",
+        "Tanya guru atau orang tua jika masih belum paham",
+        "Langsung lanjutkan membaca"
+      ],
+      "cols": [
+        "Langkah pertama",
+        "Langkah kedua",
+        "Langkah ketiga"
+      ],
+      "ans": [
+        "Langkah pertama",
+        "Langkah kedua",
+        "Langkah ketiga",
+        "Langkah pertama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Pasangkan kata dengan maknanya dalam konteks teks seni dan kreativitas!",
+      "rows": [
+        "Lukisan, batik, dan kerajinan tangan",
+        "Melukis, menari, dan membatik",
+        "Memuji dan menghargai hasil karya",
+        "Alat dan bahan seni"
+      ],
+      "cols": [
+        "Karya seni",
+        "Kegiatan seni",
+        "Apresiasi seni"
+      ],
+      "ans": [
+        "Karya seni",
+        "Kegiatan seni",
+        "Apresiasi seni",
+        "Karya seni"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan pertanyaan trik yang membantu menebak kata baru!",
+      "rows": [
+        "Palet berisi warna-warna yang dipilih pelukis'",
+        "Dinda merajut syal dengan dua jarum'",
+        "Cat akrilik digunakan untuk melukis kanvas'",
+        "Kain mori putih bahan dasar batik'"
+      ],
+      "cols": [
+        "Tentang alat seni",
+        "Tentang kegiatan seni",
+        "Tentang bahan seni"
+      ],
+      "ans": [
+        "Tentang alat seni",
+        "Tentang kegiatan seni",
+        "Tentang bahan seni",
+        "Tentang bahan seni"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Baru",
+      "stimulus": "",
+      "q": "Pasangkan kata dengan kategori cara mempelajarinya!",
+      "rows": [
+        "Membaca kalimat sebelum dan sesudahnya",
+        "Mencari di KBBI online atau cetak",
+        "Melihat foto atau gambar yang menyertai teks",
+        "Bertanya kepada guru"
+      ],
+      "cols": [
+        "Dari konteks kalimat",
+        "Dari kamus",
+        "Dari gambar/ilustrasi"
+      ],
+      "ans": [
+        "Dari konteks kalimat",
+        "Dari kamus",
+        "Dari gambar/ilustrasi",
+        "Dari konteks kalimat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kosakata",
+      "stimulus": "",
+      "q": "Pasangkan deskripsi dengan kata yang tepat dalam teks Bab 6!",
+      "rows": [
+        "Pengabdian dan kesungguhan hati",
+        "Hasil karya leluhur yang perlu dilestarikan",
+        "Hiasan kecil berkilau pada kostum",
+        "Bayangan gelap di depan cahaya"
+      ],
+      "cols": [
+        "dedikasi",
+        "warisan budaya",
+        "payet"
+      ],
+      "ans": [
+        "dedikasi",
+        "warisan budaya",
+        "payet",
+        "dedikasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konteks Kalimat",
+      "stimulus": "",
+      "q": "Pasangkan contoh teks dengan topik yang mungkin memunculkan kata baru!",
+      "rows": [
+        "Batik, tari, lukisan, gamelan",
+        "Fotosintesis, ekosistem, metamorfosis",
+        "Komputer, internet, aplikasi",
+        "Makanan, minuman, resep"
+      ],
+      "cols": [
+        "Seni dan budaya",
+        "Ilmu pengetahuan alam",
+        "Teknologi"
+      ],
+      "ans": [
+        "Seni dan budaya",
+        "Ilmu pengetahuan alam",
+        "Teknologi",
+        "Seni dan budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan kategorinya — fakta atau pendapat!",
+      "rows": [
+        "Dinda menghabiskan tiga minggu untuk lukisannya",
+        "Menurut saya, lukisan Dinda sangat menginspirasi",
+        "SD Cerdas Mandiri mengadakan pameran seni",
+        "Bu Rita adalah guru kesenian"
+      ],
+      "cols": [
+        "Fakta",
+        "Pendapat",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Pendapat",
+        "Fakta",
+        "Fakta"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan bagian rumus pendapat dengan contohnya!",
+      "rows": [
+        "Menurut saya, cerita Rara sangat menginspirasi'",
+        "karena ia tidak menyerah meski kakinya sakit'",
+        "terbukti saat ia tetap naik panggung dan menari'",
+        "saya sangat suka cerita ini'"
+      ],
+      "cols": [
+        "Pendapat",
+        "Alasan",
+        "Bukti dari teks"
+      ],
+      "ans": [
+        "Pendapat",
+        "Alasan",
+        "Bukti dari teks",
+        "Pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan jenis pendapat dengan contohnya tentang ilustrasi!",
+      "rows": [
+        "Ilustrasinya sangat cocok dengan cerita'",
+        "Warnanya kurang cerah untuk menggambarkan semangat'",
+        "Ilustrasinya cukup baik, tidak terlalu menonjol'",
+        "Gambarnya sangat bagus'"
+      ],
+      "cols": [
+        "Pendapat positif",
+        "Pendapat kritis",
+        "Pendapat netral"
+      ],
+      "ans": [
+        "Pendapat positif",
+        "Pendapat kritis",
+        "Pendapat netral",
+        "Pendapat positif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan kata pembuka dengan fungsinya saat menyampaikan pendapat!",
+      "rows": [
+        "Menurut saya, ...'",
+        "Saya setuju karena ...'",
+        "Saya tidak setuju karena ...'",
+        "Dalam pandangan saya, ...'"
+      ],
+      "cols": [
+        "Menyatakan pendapat",
+        "Menyatakan persetujuan",
+        "Menyatakan ketidaksetujuan"
+      ],
+      "ans": [
+        "Menyatakan pendapat",
+        "Menyatakan persetujuan",
+        "Menyatakan ketidaksetujuan",
+        "Menyatakan pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan ilustrasi dengan teks yang paling cocok untuk menyertainya!",
+      "rows": [
+        "Gambar canting dan kain bermotif",
+        "Gambar penari di atas panggung",
+        "Gambar kuas dan kanvas",
+        "Gambar kamus"
+      ],
+      "cols": [
+        "Teks tentang batik",
+        "Teks tentang pentas seni",
+        "Teks tentang melukis"
+      ],
+      "ans": [
+        "Teks tentang batik",
+        "Teks tentang pentas seni",
+        "Teks tentang melukis",
+        "Teks tentang melukis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Pasangkan bagian kalimat dengan fungsinya dalam pendapat!",
+      "rows": [
+        "Saya berpendapat bahwa'",
+        "cerita ini sangat menginspirasi'",
+        "karena pesannya tentang ketulusan berkarya'",
+        "terbukti dari akhir cerita yang mengharukan'"
+      ],
+      "cols": [
+        "Kata pembuka pendapat",
+        "Isi pendapat",
+        "Alasan pendapat"
+      ],
+      "ans": [
+        "Kata pembuka pendapat",
+        "Isi pendapat",
+        "Alasan pendapat",
+        "Alasan pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan nilainya — merupakan pendapat baik atau kurang baik!",
+      "rows": [
+        "Menurut saya, cerita ini menarik karena tokohnya nyata'",
+        "Cerita ini bagus.'",
+        "Saya rasa ilustrasinya cocok karena warnanya ceria'",
+        "Gambarnya bagus sekali pokoknya'"
+      ],
+      "cols": [
+        "Pendapat baik",
+        "Pendapat kurang baik",
+        "Pendapat baik"
+      ],
+      "ans": [
+        "Pendapat baik",
+        "Pendapat kurang baik",
+        "Pendapat baik",
+        "Pendapat kurang baik"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan dengan hal yang dinilai saat memberikan pendapat!",
+      "rows": [
+        "Apakah ceritanya menarik dan pesannya jelas?'",
+        "Apakah gambarnya sesuai dengan isi cerita?'",
+        "Berapa harga buku ini?'",
+        "Siapa nama pengarangnya?'"
+      ],
+      "cols": [
+        "Tentang isi teks",
+        "Tentang ilustrasi",
+        "Tidak relevan"
+      ],
+      "ans": [
+        "Tentang isi teks",
+        "Tentang ilustrasi",
+        "Tidak relevan",
+        "Tidak relevan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan jenis pernyataannya!",
+      "rows": [
+        "Rara menari tari Jaipong di pentas seni'",
+        "Saya pikir penampilan Rara sangat berani'",
+        "Bu Wati adalah guru kesenian Rara'",
+        "Saya rasa cerita ini menginspirasi'"
+      ],
+      "cols": [
+        "Fakta",
+        "Pendapat",
+        "Fakta"
+      ],
+      "ans": [
+        "Fakta",
+        "Pendapat",
+        "Fakta",
+        "Pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Pasangkan unsur pendapat dengan pertanyaan yang memancingnya!",
+      "rows": [
+        "Apa penilaianmu tentang teks ini?'",
+        "Mengapa kamu berpendapat demikian?'",
+        "Bagian mana dari teks yang mendukung pendapatmu?'",
+        "Kapan kamu membaca teks ini?'"
+      ],
+      "cols": [
+        "Isi pendapat",
+        "Alasan",
+        "Bukti"
+      ],
+      "ans": [
+        "Isi pendapat",
+        "Alasan",
+        "Bukti",
+        "Isi pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan pendapat tentang cerita Dinda dengan kelengkapannya!",
+      "rows": [
+        "Menurut saya kisah Dinda menginspirasi karena ia berlatih 3 minggu'",
+        "Saya suka cerita Dinda.'",
+        "Saya rasa Dinda gigih karena tidak menyerah meski sulitnya'",
+        "Ceritanya bagus.'"
+      ],
+      "cols": [
+        "Lengkap (ada alasan)",
+        "Kurang lengkap (tanpa alasan)",
+        "Lengkap (ada alasan)"
+      ],
+      "ans": [
+        "Lengkap (ada alasan)",
+        "Kurang lengkap (tanpa alasan)",
+        "Lengkap (ada alasan)",
+        "Kurang lengkap (tanpa alasan)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ilustrasi",
+      "stimulus": "",
+      "q": "Pasangkan keterangan ilustrasi dengan nilainya — cocok atau tidak cocok dengan isi teks!",
+      "rows": [
+        "Gambar penari untuk teks tentang Rara menari",
+        "Gambar mobil untuk teks tentang seni batik",
+        "Gambar kuas dan cat untuk teks tentang melukis",
+        "Gambar bunga untuk teks tentang pameran lukisan"
+      ],
+      "cols": [
+        "Cocok dengan teks",
+        "Tidak cocok dengan teks",
+        "Cocok dengan teks"
+      ],
+      "ans": [
+        "Cocok dengan teks",
+        "Tidak cocok dengan teks",
+        "Cocok dengan teks",
+        "Cocok dengan teks"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alasan",
+      "stimulus": "",
+      "q": "Pasangkan cara menyampaikan pendapat dengan sifatnya!",
+      "rows": [
+        "Menurut saya warnanya kurang cerah, sehingga ...'",
+        "Gambar ini jelek dan tidak berguna!'",
+        "Saya rasa masih bisa ditingkatkan dengan ...'",
+        "Ilustrasinya tidak ada artinya.'"
+      ],
+      "cols": [
+        "Sopan dan baik",
+        "Kurang sopan",
+        "Sopan dan baik"
+      ],
+      "ans": [
+        "Sopan dan baik",
+        "Kurang sopan",
+        "Sopan dan baik",
+        "Kurang sopan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang pendapat dengan nilai benar atau salah!",
+      "rows": [
+        "Pendapat yang baik disertai alasan yang jelas",
+        "Pendapat harus disetujui semua orang",
+        "Fakta bisa dibuktikan; pendapat bersifat pribadi",
+        "Pendapat tidak boleh bersifat kritis"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C01",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan perasaan tokoh dengan kata atau ungkapan yang menggambarkannya!",
+      "rows": [
+        "air matanya menetes deras'",
+        "senyumnya merekah lebar'",
+        "tangannya sedikit gemetar'",
+        "ia menunduk lesu'"
+      ],
+      "cols": [
+        "Sedih/kecewa",
+        "Senang/bangga",
+        "Gugup/cemas"
+      ],
+      "ans": [
+        "Sedih/kecewa",
+        "Senang/bangga",
+        "Gugup/cemas",
+        "Sedih/kecewa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C02",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pasangkan kejadian dalam cerita Rara dengan perubahan perasaan yang ditimbulkannya!",
+      "rows": [
+        "Rara jatuh dan kakinya keseleo",
+        "Bu Wati menyemangati Rara",
+        "Rara melihat senyum ibunya di penonton",
+        "Rara terpilih menari"
+      ],
+      "cols": [
+        "Bersemangat → Sedih",
+        "Putus asa → Bertekad",
+        "Gugup → Berani"
+      ],
+      "ans": [
+        "Bersemangat → Sedih",
+        "Putus asa → Bertekad",
+        "Gugup → Berani",
+        "Bersemangat → Sedih"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C03",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan ungkapan dengan perasaan yang digambarkannya!",
+      "rows": [
+        "menangis bahagia'",
+        "gumamnya putus asa'",
+        "matanya membelalak lebar'",
+        "hatinya berdebar'"
+      ],
+      "cols": [
+        "Senang/bahagia",
+        "Sedih/putus asa",
+        "Terkejut"
+      ],
+      "ans": [
+        "Senang/bahagia",
+        "Sedih/putus asa",
+        "Terkejut",
+        "Senang/bahagia"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C04",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pasangkan urutan perasaan Rara dengan bagian cerita yang sesuai!",
+      "rows": [
+        "Bersemangat saat terpilih menari",
+        "Sedih dan kecewa setelah jatuh keseleo",
+        "Terharu dan bangga setelah penonton bertepuk tangan",
+        "Gugup saat naik ke panggung"
+      ],
+      "cols": [
+        "Awal cerita",
+        "Bagian tengah",
+        "Akhir cerita"
+      ],
+      "ans": [
+        "Awal cerita",
+        "Bagian tengah",
+        "Akhir cerita",
+        "Bagian tengah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C05",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan kata emosi dengan kategorinya — positif atau negatif!",
+      "rows": [
+        "Bangga, terharu, lega",
+        "Cemas, kecewa, putus asa",
+        "Senang, semangat, kagum",
+        "Sedih, takut, marah"
+      ],
+      "cols": [
+        "Perasaan positif",
+        "Perasaan negatif",
+        "Perasaan positif"
+      ],
+      "ans": [
+        "Perasaan positif",
+        "Perasaan negatif",
+        "Perasaan positif",
+        "Perasaan negatif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C06",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan manfaat memahami perubahan perasaan tokoh dengan penjelasannya!",
+      "rows": [
+        "Tahu mengapa cerita berjalan seperti itu",
+        "Tahu apakah tokoh itu berani, penakut, dll",
+        "Ikut merasakan apa yang dirasakan tokoh",
+        "Bisa menceritakan kembali lebih menarik"
+      ],
+      "cols": [
+        "Memahami cerita lebih dalam",
+        "Mengenal watak tokoh",
+        "Merasakan empati"
+      ],
+      "ans": [
+        "Memahami cerita lebih dalam",
+        "Mengenal watak tokoh",
+        "Merasakan empati",
+        "Memahami cerita lebih dalam"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C07",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan tindakan tokoh dengan perasaan yang tercermin darinya!",
+      "rows": [
+        "menunduk lesu sepulang sekolah'",
+        "melompat kegirangan setelah mendengar kabar baik'",
+        "tangan gemetar saat maju ke depan kelas'",
+        "matanya berbinar saat melihat lukisannya'"
+      ],
+      "cols": [
+        "Sedih/kecewa",
+        "Bangga/bahagia",
+        "Gugup/cemas"
+      ],
+      "ans": [
+        "Sedih/kecewa",
+        "Bangga/bahagia",
+        "Gugup/cemas",
+        "Bangga/bahagia"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C08",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pasangkan perubahan perasaan tokoh dengan nama perubahannya!",
+      "rows": [
+        "Dari bersemangat menjadi kecewa",
+        "Dari putus asa menjadi bertekad",
+        "Dari cemas menjadi takut",
+        "Dari lega menjadi sangat bahagia"
+      ],
+      "cols": [
+        "Positif ke negatif",
+        "Negatif ke positif",
+        "Negatif ke lebih negatif"
+      ],
+      "ans": [
+        "Positif ke negatif",
+        "Negatif ke positif",
+        "Negatif ke lebih negatif",
+        "Negatif ke positif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C09",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan cara penulis menggambarkan perasaan tokoh dengan contohnya!",
+      "rows": [
+        "Rara merasa sangat sedih'",
+        "Rara menunduk dan tidak mau bicara'",
+        "Hatinya dipenuhi rasa bangga'",
+        "Ia duduk termenung sendirian'"
+      ],
+      "cols": [
+        "Langsung (kata emosi)",
+        "Tidak langsung (tindakan)",
+        "Langsung (kata emosi)"
+      ],
+      "ans": [
+        "Langsung (kata emosi)",
+        "Tidak langsung (tindakan)",
+        "Langsung (kata emosi)",
+        "Tidak langsung (tindakan)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C10",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang perubahan perasaan tokoh dengan nilainya — benar atau salah!",
+      "rows": [
+        "Perasaan tokoh bisa berubah beberapa kali dalam satu cerita",
+        "Perasaan tokoh hanya berubah satu kali di akhir cerita",
+        "Pemicu perubahan biasanya adalah kejadian penting",
+        "Perasaan tokoh tidak berpengaruh pada jalan cerita"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C11",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan deskripsi tokoh dengan kemungkinan perasaannya!",
+      "rows": [
+        "Menunggu hasil pengumuman lomba",
+        "Mendengar namanya masuk 5 besar",
+        "Tidak terpilih dalam seleksi pentas seni",
+        "Berhasil tampil dengan lancar"
+      ],
+      "cols": [
+        "Cemas/khawatir",
+        "Lega/bahagia",
+        "Kecewa/sedih"
+      ],
+      "ans": [
+        "Cemas/khawatir",
+        "Lega/bahagia",
+        "Kecewa/sedih",
+        "Lega/bahagia"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C12",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perubahan",
+      "stimulus": "",
+      "q": "Pasangkan perubahan karakter tokoh dengan maknanya dalam cerita!",
+      "rows": [
+        "Dari tidak percaya diri menjadi berani",
+        "Dari bersemangat menjadi sangat kecewa",
+        "Dari berjuang keras menjadi berhasil dan bangga",
+        "Dari senang menjadi sedikit gugup"
+      ],
+      "cols": [
+        "Pertumbuhan positif",
+        "Tekanan yang berat",
+        "Keberhasilan akhir"
+      ],
+      "ans": [
+        "Pertumbuhan positif",
+        "Tekanan yang berat",
+        "Keberhasilan akhir",
+        "Pertumbuhan positif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C13",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alur Cerita",
+      "stimulus": "",
+      "q": "Pasangkan kejadian dalam cerita dengan perasaan yang biasanya muncul!",
+      "rows": [
+        "Tampil pertama kali di depan banyak orang",
+        "Mendapat tepuk tangan meriah",
+        "Gagal di ujian yang sudah dipersiapkan",
+        "Mendengar kabar buruk yang tidak terduga"
+      ],
+      "cols": [
+        "Gugup/cemas",
+        "Terharu/bangga",
+        "Sedih/kecewa"
+      ],
+      "ans": [
+        "Gugup/cemas",
+        "Terharu/bangga",
+        "Sedih/kecewa",
+        "Sedih/kecewa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C14",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perasaan Tokoh",
+      "stimulus": "",
+      "q": "Pasangkan kata emosi dengan padanannya dalam kehidupan nyata!",
+      "rows": [
+        "Berhasil menyelesaikan lukisan terbaik",
+        "Menunggu pengumuman lomba",
+        "Ternyata lulus ujian yang dianggap sulit",
+        "Melihat karya sendiri dipajang di pameran"
+      ],
+      "cols": [
+        "Bangga",
+        "Cemas",
+        "Lega"
+      ],
+      "ans": [
+        "Bangga",
+        "Cemas",
+        "Lega",
+        "Bangga"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D01",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan penilaiannya — efektif atau tidak efektif!",
+      "rows": [
+        "Rara sangat suka menari tarian tradisional.'",
+        "Rara dia itu suka sekali dengan menari.'",
+        "Dinda melukis bunga matahari di sekolah.'",
+        "Beni itu adalah merupakan siswa yang rajin.'"
+      ],
+      "cols": [
+        "Efektif",
+        "Tidak efektif",
+        "Efektif"
+      ],
+      "ans": [
+        "Efektif",
+        "Tidak efektif",
+        "Efektif",
+        "Tidak efektif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D02",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Pasangkan unsur kalimat SPOK dengan contohnya dari kalimat 'Rara menari tari Jaipong di panggung sekolah'!",
+      "rows": [
+        "Rara",
+        "menari",
+        "tari Jaipong",
+        "di panggung sekolah"
+      ],
+      "cols": [
+        "Subjek (S)",
+        "Predikat (P)",
+        "Objek (O)"
+      ],
+      "ans": [
+        "Subjek (S)",
+        "Predikat (P)",
+        "Objek (O)",
+        "Objek (O)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D03",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan masalah dalam kalimat dengan perbaikan yang tepat!",
+      "rows": [
+        "Para siswa-siswa' → 'Para siswa'",
+        "Sangat suka menari' → 'Rara sangat suka menari'",
+        "Di sekolah lukisan dibuat Dinda' → 'Dinda membuat lukisan di sekolah'",
+        "Adalah merupakan' → pilih salah satu"
+      ],
+      "cols": [
+        "Pengulangan kata",
+        "Tanpa subjek",
+        "Susunan terbalik"
+      ],
+      "ans": [
+        "Pengulangan kata",
+        "Tanpa subjek",
+        "Susunan terbalik",
+        "Pengulangan kata"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D04",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan ciri kalimat efektif dengan penjelasannya!",
+      "rows": [
+        "Hanya punya satu makna, tidak membingungkan",
+        "Tidak mengulang kata yang artinya sama",
+        "Minimal ada subjek dan predikat",
+        "Susunannya logis dan runtut"
+      ],
+      "cols": [
+        "Jelas/tidak ambigu",
+        "Hemat kata",
+        "Memiliki SPOK"
+      ],
+      "ans": [
+        "Jelas/tidak ambigu",
+        "Hemat kata",
+        "Memiliki SPOK",
+        "Jelas/tidak ambigu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D05",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Pasangkan unsur SPOK dengan fungsinya dalam kalimat!",
+      "rows": [
+        "Siapa atau apa yang melakukan",
+        "Apa yang dilakukan atau terjadi",
+        "Di mana, kapan, atau bagaimana",
+        "Siapa yang dikenai tindakan"
+      ],
+      "cols": [
+        "S (Subjek)",
+        "P (Predikat)",
+        "K (Keterangan)"
+      ],
+      "ans": [
+        "S (Subjek)",
+        "P (Predikat)",
+        "K (Keterangan)",
+        "S (Subjek)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D06",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan contoh kalimat ambigu dengan perbaikan yang tepat!",
+      "rows": [
+        "Ibu guru yang baru sudah datang'",
+        "Ibu guru baru saja datang'",
+        "Ibu guru baru datang'",
+        "Guru baru ibu datang'"
+      ],
+      "cols": [
+        "Versi A: guru yang baru",
+        "Versi B: baru saja datang",
+        "Ambigu (belum jelas)"
+      ],
+      "ans": [
+        "Versi A: guru yang baru",
+        "Versi B: baru saja datang",
+        "Ambigu (belum jelas)",
+        "Ambigu (belum jelas)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D07",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan jenis masalah yang membuatnya tidak efektif!",
+      "rows": [
+        "Beni adalah merupakan siswa tekun'",
+        "Ibu guru baru datang'",
+        "Sangat menyukai seni batik'",
+        "Para siswa-siswa sedang belajar'"
+      ],
+      "cols": [
+        "Pengulangan kata",
+        "Ambigu/bermakna ganda",
+        "Tanpa subjek"
+      ],
+      "ans": [
+        "Pengulangan kata",
+        "Ambigu/bermakna ganda",
+        "Tanpa subjek",
+        "Pengulangan kata"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D08",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kelengkapan unsurnya!",
+      "rows": [
+        "Rara menari tari Jaipong di panggung'",
+        "Melukis bunga matahari setiap sore'",
+        "Dinda membuat lukisan di studio'",
+        "Sangat menyukai musik gamelan'"
+      ],
+      "cols": [
+        "Lengkap (ada S dan P)",
+        "Tidak lengkap (tanpa S)",
+        "Lengkap (ada S dan P)"
+      ],
+      "ans": [
+        "Lengkap (ada S dan P)",
+        "Tidak lengkap (tanpa S)",
+        "Lengkap (ada S dan P)",
+        "Tidak lengkap (tanpa S)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D09",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kalimat efektif dengan nilainya — benar atau salah!",
+      "rows": [
+        "Kalimat efektif tidak boleh mengulang kata yang artinya sama",
+        "Kalimat efektif harus selalu sangat panjang",
+        "Kalimat efektif minimal punya subjek dan predikat",
+        "Kata 'adalah' dan 'merupakan' boleh digunakan sekaligus"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D10",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "SPOK",
+      "stimulus": "",
+      "q": "Pasangkan bagian kalimat 'Bu Wati mengajarkan tari Jaipong kepada Rara di studio sekolah' dengan unsur SPOK-nya!",
+      "rows": [
+        "Bu Wati",
+        "mengajarkan",
+        "di studio sekolah",
+        "tari Jaipong"
+      ],
+      "cols": [
+        "Subjek (S)",
+        "Predikat (P)",
+        "Keterangan (K)"
+      ],
+      "ans": [
+        "Subjek (S)",
+        "Predikat (P)",
+        "Keterangan (K)",
+        "Keterangan (K)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D11",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan trik memeriksa kalimat efektif dengan pertanyaan yang diajukan!",
+      "rows": [
+        "Siapa atau apa yang melakukan?'",
+        "Adakah kata yang bisa dihapus tanpa mengubah arti?'",
+        "Adakah dua kata yang artinya sama dipakai sekaligus?'",
+        "Apakah kalimat sudah cukup panjang?'"
+      ],
+      "cols": [
+        "Cek subjek",
+        "Cek kata mubazir",
+        "Cek pengulangan"
+      ],
+      "ans": [
+        "Cek subjek",
+        "Cek kata mubazir",
+        "Cek pengulangan",
+        "Cek subjek"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D12",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan perbaikannya yang paling tepat!",
+      "rows": [
+        "Diperbaiki: 'Para siswa sedang belajar'",
+        "Diperbaiki: 'Rara sangat suka batik'",
+        "Diperbaiki: 'Dinda membuat lukisan di sekolah'",
+        "Diperbaiki: 'Beni adalah siswa rajin'"
+      ],
+      "cols": [
+        "Pengulangan 'para siswa-siswa'",
+        "Tanpa subjek 'Sangat suka batik'",
+        "Susunan terbalik"
+      ],
+      "ans": [
+        "Pengulangan 'para siswa-siswa'",
+        "Tanpa subjek 'Sangat suka batik'",
+        "Susunan terbalik",
+        "Pengulangan 'para siswa-siswa'"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D13",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kalimat Efektif",
+      "stimulus": "",
+      "q": "Pasangkan jenis kalimat dengan contohnya!",
+      "rows": [
+        "Rara berlatih keras setiap sore demi penampilannya'",
+        "Para siswa-siswa sedang belajar di kelas'",
+        "Sangat menyukai seni batik sejak kecil'",
+        "Beni adalah siswa yang rajin dan tekun'"
+      ],
+      "cols": [
+        "Kalimat efektif",
+        "Kalimat tidak efektif — pengulangan",
+        "Kalimat tidak efektif — tanpa subjek"
+      ],
+      "ans": [
+        "Kalimat efektif",
+        "Kalimat tidak efektif — pengulangan",
+        "Kalimat tidak efektif — tanpa subjek",
+        "Kalimat efektif"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "status": "ok",
+  "mapel": "Pendidikan Pancasila",
+  "bab": "Bab 2 — Negaraku Indonesia",
+  "soal": [
+    {
+      "id": "pp2_001", "sub_materi": "A", "type": "pg", "score": 5,
+      "topik": "Makna Negara Kesatuan",
+      "stimulus": "",
+      "q": "Apa yang dimaksud dengan kata 'Kesatuan' dalam Negara Kesatuan Republik Indonesia?",
+      "opt": [
+        "Negara yang dipimpin oleh satu presiden yang berkuasa atas seluruh bidang pemerintahan",
+        "Negara yang wilayahnya terbagi dalam beberapa negara bagian yang berdiri sendiri",
+        "Negara yang seluruh wilayahnya merupakan satu kesatuan yang tidak dapat dipisahkan",
+        "Negara yang penduduknya berasal dari satu suku bangsa dan satu bahasa yang sama"
+      ],
+      "ans": "C",
+      "pembahasan": "'Kesatuan' berarti seluruh wilayah Indonesia — dari Sabang sampai Merauke — merupakan satu kesatuan utuh yang tidak terpisahkan. Berbeda dengan negara federal yang terdiri dari negara-negara bagian (B). Bukan tentang satu presiden berkuasa penuh (A) atau satu suku bangsa (D)."
+    },
+    {
+      "id": "pp2_002", "sub_materi": "A", "type": "pg", "score": 5,
+      "topik": "Pancasila dalam Kehidupan Sehari-hari",
+      "stimulus": "Lambang negara Garuda Pancasila memuat perisai dengan simbol kelima sila. Kepala banteng melambangkan sila ke-4: Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan. Dua teman yang berselisih kemudian sepakat duduk bersama dan mencari jalan keluar secara berdiskusi.",
+      "q": "Nilai Pancasila sila keberapa yang paling kuat tercermin dari cara mereka menyelesaikan masalah tersebut?",
+      "opt": [
+        "Sila ke-2, karena berdiskusi menunjukkan rasa saling menghargai antarmanusia",
+        "Sila ke-3, karena berdiskusi bertujuan menjaga persatuan dan mencegah perpecahan",
+        "Sila ke-4, karena pengambilan keputusan dilakukan melalui musyawarah bersama",
+        "Sila ke-5, karena berdiskusi memastikan semua pihak mendapatkan keadilan"
+      ],
+      "ans": "C",
+      "pembahasan": "Musyawarah untuk mencapai mufakat adalah inti sila ke-4. Meski berdiskusi juga berkaitan dengan persatuan (sila ke-3) dan keadilan (sila ke-5), cara menyelesaikan masalah melalui musyawarah paling langsung mencerminkan sila ke-4."
+    },
+    {
+      "id": "pp2_003", "sub_materi": "A", "type": "pgk", "score": 10,
+      "topik": "Fakta tentang Indonesia",
+      "stimulus": "",
+      "q": "Manakah pernyataan-pernyataan di bawah ini yang benar tentang Indonesia sebagai bangsa dan negara?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Indonesia memiliki lebih dari 17.000 pulau yang tersebar dari barat hingga timur",
+        "Indonesia adalah negara dengan jumlah penduduk terbanyak ke-4 di dunia",
+        "Semua penduduk Indonesia berbicara dalam satu bahasa daerah yang sama",
+        "Indonesia memiliki ratusan suku bangsa dengan budaya dan bahasa yang berbeda-beda",
+        "Garuda Pancasila adalah lambang negara yang mencerminkan dasar dan identitas bangsa",
+        "Indonesia hanya mengakui satu agama resmi yang diakui oleh negara"
+      ],
+      "ans": ["A","B","D","E"],
+      "pembahasan": "C salah: Indonesia memiliki ratusan bahasa daerah yang berbeda-beda. F salah: Indonesia mengakui enam agama resmi. Keberagaman bahasa dan agama adalah ciri khas Indonesia, bukan keseragamannya."
+    },
+    {
+      "id": "pp2_004", "sub_materi": "B", "type": "pgk", "score": 10,
+      "topik": "Empat Pilar Kebangsaan",
+      "stimulus": "",
+      "q": "Empat Pilar Kebangsaan adalah fondasi utama yang menjaga keutuhan NKRI.\n\nManakah yang termasuk bagian dari Empat Pilar Kebangsaan Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pancasila sebagai dasar dan falsafah negara Indonesia",
+        "Bahasa Indonesia sebagai bahasa pemersatu seluruh rakyat",
+        "Undang-Undang Dasar 1945 sebagai konstitusi dasar negara",
+        "Bhinneka Tunggal Ika sebagai semboyan persatuan dalam keberagaman",
+        "Negara Kesatuan Republik Indonesia (NKRI) sebagai bentuk negara",
+        "Sumpah Pemuda 1928 sebagai ikrar pemersatu pemuda Indonesia"
+      ],
+      "ans": ["A","C","D","E"],
+      "pembahasan": "Empat Pilar Kebangsaan adalah: Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika. Bahasa Indonesia (B) dan Sumpah Pemuda (F) adalah faktor penting perekat bangsa, tetapi tidak termasuk dalam Empat Pilar Kebangsaan secara resmi."
+    },
+    {
+      "id": "pp2_005", "sub_materi": "B", "type": "pg", "score": 5,
+      "topik": "Makna Sumpah Pemuda",
+      "stimulus": "Pada tahun 1928, para pemuda dari berbagai daerah berkumpul di Jakarta. Mereka berasal dari Jawa, Sumatra, Kalimantan, Sulawesi, dan daerah lainnya. Meskipun berbeda suku, bahasa daerah, dan adat istiadat, mereka bersatu mengucapkan ikrar: bertumpah darah satu, berbangsa satu, dan menjunjung bahasa persatuan — Indonesia. Ikrar ini dikenal sebagai Sumpah Pemuda.",
+      "q": "Apa yang paling tepat menggambarkan makna penting Sumpah Pemuda bagi kita hari ini?",
+      "opt": [
+        "Bukti bahwa pemuda Indonesia pada tahun 1928 lebih pintar dari generasi sekarang",
+        "Pengingat bahwa perbedaan suku dan bahasa tidak harus menghalangi persatuan bangsa",
+        "Perintah agar semua rakyat Indonesia melupakan bahasa dan budaya daerah masing-masing",
+        "Simbol bahwa hanya kaum pemuda yang memiliki tanggung jawab menjaga persatuan"
+      ],
+      "ans": "B",
+      "pembahasan": "Sumpah Pemuda menunjukkan bahwa meski sangat berbeda-beda, para pemuda bisa bersatu demi Indonesia. Maknanya hari ini: perbedaan tidak harus memecah belah. Bukan tentang kepintaran generasi (A), bukan perintah melupakan budaya daerah (C), dan persatuan bukan hanya tanggung jawab pemuda (D)."
+    },
+    {
+      "id": "pp2_006", "sub_materi": "B", "type": "pgk-cat", "score": 10,
+      "topik": "Menjaga dan Melemahkan NKRI",
+      "stimulus": "",
+      "q": "Bacalah setiap pernyataan berikut dengan cermat.\nKategorikan ke dalam kolom yang tepat:\n• Memperkuat NKRI: tindakan yang menjaga persatuan dan keutuhan bangsa\n• Melemahkan NKRI: tindakan yang mengancam atau merusak persatuan bangsa",
+      "rows": [
+        "Rudi menggunakan bahasa Indonesia yang baik saat berbicara dengan teman dari daerah lain",
+        "Sekelompok warga menolak memberikan pelayanan kepada pendatang dari suku berbeda",
+        "Siswa dari berbagai daerah belajar bersama dengan rukun di asrama pelajar nasional",
+        "Beberapa pemuda menyebarkan berita bohong yang memecah belah antarsuku di media sosial",
+        "Pemerintah membangun jalan dan jembatan di daerah terpencil agar semua wilayah terhubung",
+        "Seseorang mengajak teman-temannya tidak mempercayai warga yang berbeda agama"
+      ],
+      "cols": ["Memperkuat NKRI", "Melemahkan NKRI"],
+      "ans": ["Memperkuat NKRI","Melemahkan NKRI","Memperkuat NKRI","Melemahkan NKRI","Memperkuat NKRI","Melemahkan NKRI"],
+      "pembahasan": "Sikap 1, 3, 5 mendukung persatuan dan kesetaraan antarwarga. Sikap 2 (diskriminasi suku), 4 (menyebar berita bohong pemecah belah), dan 6 (menghasut ketidakpercayaan antaragama) melemahkan NKRI karena menciptakan perpecahan."
+    },
+    {
+      "id": "pp2_007", "sub_materi": "C", "type": "pg", "score": 5,
+      "topik": "Mengapa Keutuhan NKRI Penting",
+      "stimulus": "Bayangkan sebuah keluarga besar yang tinggal di satu rumah besar. Masing-masing anggota punya kamar sendiri dan kebiasaan berbeda-beda. Namun, mereka berbagi dapur, ruang tamu, dan halaman. Ketika atap bocor, seluruh penghuni terdampak — baik yang kamarnya terkena maupun tidak. Ketika salah satu anggota berprestasi, seluruh keluarga ikut bangga.",
+      "q": "Apa hubungan antara perumpamaan keluarga besar tersebut dengan kondisi NKRI?",
+      "opt": [
+        "Setiap daerah harus membuat aturan sendiri agar tidak bergantung satu sama lain",
+        "Nasib satu daerah memengaruhi kondisi seluruh bangsa, baik dalam masalah maupun kemajuan",
+        "Daerah yang lebih besar dan kaya harus selalu membantu daerah yang lebih kecil",
+        "Pemerintah pusat harus mengatur semua hal agar tidak ada perbedaan antardaerah"
+      ],
+      "ans": "B",
+      "pembahasan": "Perumpamaan rumah besar menggambarkan Indonesia sebagai satu kesatuan: masalah di satu daerah berdampak ke daerah lain, dan keberhasilan satu daerah menjadi kebanggaan semua. Inilah inti mengapa keutuhan NKRI penting bagi seluruh rakyat."
+    },
+    {
+      "id": "pp2_008", "sub_materi": "D", "type": "pg", "score": 5,
+      "topik": "Sikap Menjaga Keutuhan NKRI",
+      "stimulus": "Galuh dan Nia membaca sebuah unggahan di media sosial yang berisi pernyataan merendahkan salah satu suku di Indonesia. Galuh berkata, 'Kita bagikan saja, biar orang-orang tahu.' Nia menjawab, 'Tunggu dulu — kita harus periksa kebenarannya. Menyebarkan konten seperti ini bisa memecah belah masyarakat.'",
+      "q": "Mengapa sikap Nia lebih mencerminkan perilaku menjaga keutuhan NKRI dibandingkan sikap Galuh?",
+      "opt": [
+        "Karena Nia tidak suka membaca berita dan memilih untuk mengabaikannya saja",
+        "Karena Nia menyadari bahwa menyebarkan konten yang merendahkan suku tertentu dapat memicu perpecahan",
+        "Karena Galuh memang berniat jahat dan ingin memecah belah masyarakat Indonesia",
+        "Karena di media sosial semua konten harus diperiksa oleh pemerintah terlebih dahulu"
+      ],
+      "ans": "B",
+      "pembahasan": "Nia mencerminkan sikap bijak: tidak langsung menyebarkan konten yang merendahkan suku tertentu karena berpotensi memecah belah. Ini tindakan nyata menjaga keutuhan NKRI. Bukan karena Nia tidak suka berita (A), bukan karena Galuh berniat jahat (C — tidak ada informasi itu), dan bukan soal kewajiban pemerintah (D)."
+    },
+    {
+      "id": "pp2_009", "sub_materi": "E", "type": "pgk", "score": 10,
+      "topik": "Manfaat Keutuhan NKRI",
+      "stimulus": "",
+      "q": "Apa saja manfaat yang dirasakan rakyat Indonesia ketika NKRI tetap utuh dan bersatu?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Seluruh wilayah Indonesia dapat membangun dan berkembang bersama-sama",
+        "Rakyat dari berbagai daerah dapat hidup dengan aman tanpa ancaman konflik antarwilayah",
+        "Tidak ada lagi perbedaan budaya, suku, dan bahasa di seluruh wilayah Indonesia",
+        "Kekayaan alam dapat dikelola dan hasilnya dinikmati untuk kepentingan seluruh rakyat",
+        "Indonesia diakui dan dihormati sebagai bangsa yang bersatu oleh negara-negara lain",
+        "Semua warga negara otomatis menjadi kaya karena kekayaan alam dibagi sama rata"
+      ],
+      "ans": ["A","B","D","E"],
+      "pembahasan": "C salah: keutuhan NKRI tidak menghilangkan keberagaman — justru keberagaman itu yang dirayakan dalam persatuan. F salah: keutuhan bukan berarti kekayaan dibagi rata secara otomatis, melainkan dikelola untuk kepentingan seluruh rakyat (D)."
+    },
+    {
+      "id": "pp2_010", "sub_materi": "E", "type": "pg", "score": 5,
+      "topik": "Bangga sebagai Bangsa Indonesia",
+      "stimulus": "Aldo sangat mengagumi budaya dan produk dari negara lain. Ia merasa budaya luar lebih keren dari budaya Indonesia. Gurunya menantang Aldo mencari satu hal dari Indonesia yang membuatnya bangga. Setelah mencari tahu, Aldo terkejut mengetahui bahwa batik Indonesia telah diakui UNESCO sebagai warisan budaya dunia, dan gamelan Jawa baru-baru ini mendapat pengakuan serupa.",
+      "q": "Sikap bangga sebagai bangsa Indonesia yang sehat ditunjukkan oleh perilaku berikut ini, KECUALI…",
+      "opt": [
+        "Mempelajari dan melestarikan kesenian daerah agar tidak punah",
+        "Bangga menggunakan dan mempromosikan produk buatan Indonesia",
+        "Menganggap semua budaya dan produk asing pasti lebih buruk dari milik Indonesia",
+        "Memperkenalkan kekayaan budaya Indonesia kepada teman dari negara lain"
+      ],
+      "ans": "C",
+      "pembahasan": "Rasa bangga yang sehat bukan berarti merendahkan budaya atau produk negara lain. Bersikap bahwa semua milik asing pasti lebih buruk (C) adalah chauvinisme yang berlebihan dan tidak sehat. Bangga sebagai bangsa Indonesia berarti menghargai dan melestarikan budaya sendiri (A, B, D) tanpa merendahkan yang lain."
+    }
+  ]
+}

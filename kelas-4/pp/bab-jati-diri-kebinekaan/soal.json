@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "PP",
+  "bab": "Bab 1 — Membangun Jati Diri dalam Kebinekaan",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Keragaman budaya adalah ...",
+      "opt": [
+        "Persamaan cara hidup semua suku bangsa di Indonesia",
+        "Adanya berbagai macam budaya yang berbeda-beda dalam satu wilayah atau negara",
+        "Kumpulan tradisi yang hanya dimiliki satu suku bangsa",
+        "Perbedaan bahasa yang menyebabkan masyarakat sulit berkomunikasi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Budaya meliputi berbagai aspek kehidupan masyarakat. Yang TIDAK termasuk aspek budaya adalah ...",
+      "opt": [
+        "Bahasa dan adat istiadat",
+        "Makanan dan pakaian khas",
+        "Nilai harga emas di pasaran",
+        "Kesenian dan cara hidup suatu kelompok"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Indonesia memiliki lebih dari ... suku bangsa dan ... bahasa daerah.",
+      "opt": [
+        "100 suku bangsa dan 300 bahasa daerah",
+        "300 suku bangsa dan 700 bahasa daerah",
+        "700 suku bangsa dan 1.000 bahasa daerah",
+        "1.300 suku bangsa dan 700 bahasa daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Semboyan bangsa Indonesia yang mencerminkan keragaman budaya adalah ...",
+      "opt": [
+        "Garuda Pancasila",
+        "Tut Wuri Handayani",
+        "Bhinneka Tunggal Ika",
+        "Pancasila Dasar Negara"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Bhinneka Tunggal Ika' bermakna ...",
+      "opt": [
+        "Satu nusa satu bangsa satu bahasa",
+        "Berbeda-beda tetapi tetap satu jua",
+        "Dari Sabang sampai Merauke",
+        "Bersatu kita teguh bercerai kita runtuh"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Keragaman budaya bukan merupakan masalah, melainkan ...",
+      "opt": [
+        "Sumber konflik yang harus diatasi",
+        "Kekayaan bangsa yang membuat Indonesia unik dan istimewa",
+        "Hambatan dalam berkomunikasi antar warga",
+        "Penyebab ketidakmerataan pembangunan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Kota Depok berada di provinsi ...",
+      "opt": [
+        "DKI Jakarta",
+        "Jawa Tengah",
+        "Jawa Barat",
+        "Banten"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Penduduk asli Kota Depok adalah masyarakat ...",
+      "opt": [
+        "Betawi",
+        "Jawa",
+        "Batak",
+        "Sunda"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Alasan utama Kota Depok dihuni masyarakat dari berbagai daerah adalah ...",
+      "opt": [
+        "Pemerintah mewajibkan semua suku tinggal di Depok",
+        "Letak Depok yang strategis berbatasan langsung dengan Jakarta",
+        "Depok adalah ibu kota Jawa Barat",
+        "Harga tanah di Depok paling murah di Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Angklung, wayang golek, dan tari jaipong adalah kebudayaan khas suku ...",
+      "opt": [
+        "Betawi",
+        "Batak",
+        "Jawa",
+        "Sunda"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Lenong, tanjidor, kerak telor, dan ondel-ondel adalah kebudayaan khas suku ...",
+      "opt": [
+        "Sunda",
+        "Betawi",
+        "Minangkabau",
+        "Jawa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Ulos, tor-tor, dan gondang adalah kebudayaan khas suku ...",
+      "opt": [
+        "Minangkabau",
+        "Jawa",
+        "Batak",
+        "Betawi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Rumah gadang, rendang, dan tari piring adalah kebudayaan khas suku ...",
+      "opt": [
+        "Batak",
+        "Betawi",
+        "Sunda",
+        "Minangkabau"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Batik, gamelan, wayang kulit, dan gudeg adalah kebudayaan khas suku ...",
+      "opt": [
+        "Sunda",
+        "Betawi",
+        "Jawa",
+        "Minangkabau"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Angklung diakui oleh UNESCO sebagai warisan budaya dunia pada tahun ...",
+      "opt": [
+        "2003.0",
+        "2008.0",
+        "2010.0",
+        "2015.0"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Angklung adalah alat musik tradisional yang dibuat dari bahan ...",
+      "opt": [
+        "Kayu jati",
+        "Bambu",
+        "Besi",
+        "Kulit binatang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Wayang golek adalah pertunjukan khas Sunda yang menggunakan ...",
+      "opt": [
+        "Bayangan kulit di balik layar putih",
+        "Boneka kayu tiga dimensi",
+        "Kain batik yang diperagakan",
+        "Topeng-topeng kayu warna-warni"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Tari jaipong lahir di daerah ...",
+      "opt": [
+        "Bandung",
+        "Cirebon",
+        "Karawang",
+        "Bogor"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Batagor, siomay, nasi timbel, dan karedok adalah makanan khas dari daerah ...",
+      "opt": [
+        "Betawi / Jakarta",
+        "Jawa Barat / Sunda",
+        "Jawa Tengah",
+        "Sumatera Barat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Kerak telor, soto Betawi, dan ketoprak adalah makanan khas ...",
+      "opt": [
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Betawi",
+        "Minangkabau"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Contoh bukti keragaman budaya yang bisa kita temui di Depok adalah ...",
+      "opt": [
+        "Semua penduduk berbicara bahasa yang sama",
+        "Hanya ada satu jenis makanan khas",
+        "Adanya berbagai tempat ibadah, makanan, dan kesenian dari berbagai daerah",
+        "Semua warga memakai pakaian yang sama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang keragaman budaya Indonesia adalah ...",
+      "opt": [
+        "Keragaman menyebabkan Indonesia mudah terpecah-belah",
+        "Keragaman hanya terjadi di kota-kota besar",
+        "Keragaman adalah kekayaan yang membuat Indonesia unik di mata dunia",
+        "Keragaman harus dihilangkan agar Indonesia lebih bersatu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Suku apa yang berasal dari Jakarta dan sekitarnya yang juga banyak tinggal di Depok?",
+      "opt": [
+        "Sunda",
+        "Batak",
+        "Betawi",
+        "Minangkabau"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Di sebuah kelas di Depok, ada anak yang membawa bekal gudeg, ada yang membawa nasi timbel, ada yang membawa kerak telor. Keberagaman ini menunjukkan ...",
+      "opt": [
+        "Tidak ada kerukunan di kelas tersebut",
+        "Keanekaragaman budaya yang ada di Depok melalui makanan khas",
+        "Tidak ada makanan yang enak di Depok",
+        "Siswa tidak setuju dengan menu kantin sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Analogi yang paling tepat untuk menggambarkan keragaman budaya Indonesia adalah ...",
+      "opt": [
+        "Sebuah gambar dengan satu warna saja",
+        "Taman dengan berbagai jenis bunga berwarna-warni yang indah",
+        "Sungai yang airnya deras dan berbahaya",
+        "Buku yang hanya ditulis dalam satu bahasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Sikap yang tepat saat melihat keberagaman budaya di lingkungan sekitar adalah ...",
+      "opt": [
+        "Menganggap budaya sendiri paling baik dari semua yang ada",
+        "Bingung karena tidak tahu mana budaya yang benar",
+        "Mensyukuri dan merasa bangga karena keberagaman adalah kekayaan",
+        "Menolak bergaul dengan orang yang berbeda budaya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Keberagaman di Depok bisa kita lihat melalui ...",
+      "opt": [
+        "Hanya perbedaan bahasa daerah",
+        "Berbagai tempat ibadah, makanan khas, seni budaya, dan pakaian tradisional berbagai daerah",
+        "Hanya perbedaan warna kulit penduduknya",
+        "Hanya perbedaan jenis pekerjaan penduduknya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Menghargai keberagaman berarti ...",
+      "opt": [
+        "Memaksa semua orang untuk memiliki budaya yang sama",
+        "Menerima, menghormati, dan merayakan perbedaan yang ada",
+        "Menganggap budaya sendiri lebih baik dari semua",
+        "Menghindari orang-orang yang berbeda budaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Menghargai keberagaman TIDAK berarti kita harus ...",
+      "opt": [
+        "Terbuka terhadap budaya orang lain",
+        "Menerima perbedaan dengan tulus",
+        "Meninggalkan budaya sendiri dan meniru budaya orang lain",
+        "Menghormati cara hidup yang berbeda"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Tiga nilai utama yang menjadi landasan menghargai keberagaman adalah ...",
+      "opt": [
+        "Kekuatan, kecerdasan, dan keberanian",
+        "Toleransi, empati, dan kasih sayang",
+        "Kepatuhan, ketaatan, dan kesetiaan",
+        "Kekayaan, kecantikan, dan kecerdasan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Toleransi",
+      "stimulus": "",
+      "q": "Toleransi dalam menghargai keberagaman artinya ...",
+      "opt": [
+        "Menyetujui semua yang dilakukan orang lain",
+        "Bersedia menerima dan membiarkan orang lain melakukan sesuatu yang berbeda selama tidak merugikan",
+        "Memaksa orang lain mengikuti kebiasaan kita",
+        "Hanya bertoleransi kepada orang yang seagama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Empati",
+      "stimulus": "",
+      "q": "Empati dalam konteks menghargai keberagaman adalah ...",
+      "opt": [
+        "Kemampuan menyamakan diri dengan budaya lain",
+        "Kemampuan merasakan apa yang dirasakan orang lain sehingga bisa memahami teman dari latar belakang berbeda",
+        "Kemauan untuk menghafal semua budaya yang ada",
+        "Sikap pura-pura baik kepada orang yang berbeda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kasih Sayang",
+      "stimulus": "",
+      "q": "Kasih sayang dalam menghargai keberagaman berarti ...",
+      "opt": [
+        "Hanya peduli kepada teman dekat yang sesuku",
+        "Peduli kepada sesama tanpa memandang siapa mereka, dari mana asalnya, atau apa agamanya",
+        "Memberikan hadiah kepada orang yang berbeda budaya",
+        "Menyukai budaya asing lebih dari budaya sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Mencintai sesama dalam konteks keberagaman artinya ...",
+      "opt": [
+        "Hanya mencintai orang yang sesuku dan seagama",
+        "Peduli terhadap keselamatan dan kebahagiaan orang lain tanpa memandang latar belakang",
+        "Memberikan uang kepada semua orang yang berbeda budaya",
+        "Selalu menyetujui pendapat orang lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Cara mewujudkan cinta kasih kepada sesama yang tepat adalah ...",
+      "opt": [
+        "Berteman hanya dengan orang yang sama sukunya",
+        "Tidak mengejek cara bicara, kebiasaan makan, atau penampilan yang berbeda",
+        "Menghindari bergaul dengan orang yang berbeda agama",
+        "Memaksa teman mengikuti budaya kita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Mengapa menyapa orang lain dengan ramah adalah wujud menghargai keberagaman?",
+      "opt": [
+        "Karena sapaan membuat kita terlihat pandai",
+        "Karena sapaan sederhana membuat seseorang merasa diterima tanpa memandang latar belakangnya",
+        "Karena sapaan diwajibkan oleh pemerintah",
+        "Karena sapaan hanya berlaku kepada atasan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Mengapa mencintai lingkungan merupakan bagian dari menghargai keberagaman?",
+      "opt": [
+        "Karena lingkungan adalah milik satu suku saja",
+        "Karena lingkungan adalah rumah bersama yang dinikmati semua orang tanpa memandang suku atau agama",
+        "Karena lingkungan harus dijaga untuk keuntungan satu kelompok",
+        "Karena hanya orang kaya yang bisa menikmati lingkungan yang bersih"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Filosofi Sunda 'Silih Asah, Silih Asih, Silih Asuh' mengandung makna ...",
+      "opt": [
+        "Bersaing satu sama lain untuk menjadi yang terbaik",
+        "Saling mendidik, saling mengasihi, dan saling merawat — termasuk alam sekitarnya",
+        "Hanya peduli kepada anggota suku Sunda",
+        "Mengabaikan orang lain demi kepentingan sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang hubungan menjaga lingkungan dan menghargai keberagaman adalah ...",
+      "opt": [
+        "Tidak ada hubungannya sama sekali",
+        "Lingkungan dijaga agar hanya suku tertentu yang bisa menikmatinya",
+        "Menjaga lingkungan adalah wujud menghargai sesama karena lingkungan dinikmati semua warga",
+        "Lingkungan dijaga agar terlihat bagus di foto"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Contoh penerapan toleransi dalam kehidupan sehari-hari adalah ...",
+      "opt": [
+        "Melarang teman yang berbeda agama untuk beribadah",
+        "Membiarkan teman menjalankan ibadahnya tanpa mengganggu",
+        "Mewajibkan semua teman ikut tradisi budaya kita",
+        "Mengejek orang yang berbeda keyakinan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Saat melihat teman baru yang kesepian karena berbeda suku, kita merasakan sedihnya. Ini adalah contoh ...",
+      "opt": [
+        "Toleransi",
+        "Kasih sayang",
+        "Empati",
+        "Kepatuhan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Pernyataan yang menggambarkan sikap mencintai sesama dalam keberagaman adalah ...",
+      "opt": [
+        "Hanya menolong teman yang sama agamanya",
+        "Menolong siapa pun yang membutuhkan tanpa memperhitungkan suku atau agamanya",
+        "Mendengarkan hanya teman yang sependapat",
+        "Makan bersama hanya dengan teman sesuku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Analogi 'taman yang indah karena ada berbagai jenis bunga' mengajarkan bahwa ...",
+      "opt": [
+        "Semua bunga harus berwarna sama agar indah",
+        "Keberagaman justru menciptakan keindahan dan kekayaan",
+        "Bunga yang berbeda warna tidak bisa tumbuh bersama",
+        "Taman yang indah tidak memerlukan perawatan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Contoh tindakan mencintai lingkungan sebagai wujud menghargai keberagaman adalah ...",
+      "opt": [
+        "Membuang sampah ke sungai agar cepat hanyut",
+        "Ikut kerja bakti membersihkan lingkungan bersama tetangga dari berbagai latar belakang",
+        "Hanya membersihkan depan rumah sendiri",
+        "Menebang pohon untuk memperindah pandangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Perbedaan antara toleransi dan kasih sayang dalam menghargai keberagaman adalah ...",
+      "opt": [
+        "Toleransi dan kasih sayang berarti hal yang sama",
+        "Toleransi = membiarkan yang berbeda; kasih sayang = peduli kepada sesama tanpa memandang latar belakang",
+        "Kasih sayang hanya untuk keluarga; toleransi untuk orang lain",
+        "Toleransi lebih penting dari kasih sayang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Sikap yang benar terhadap orang yang berbeda cara pandang adalah ...",
+      "opt": [
+        "Menolak mendengarkan karena pasti salah",
+        "Mendengarkan dengan penuh perhatian meskipun pendapatnya berbeda",
+        "Memaksanya mengubah pendapat menjadi sama dengan kita",
+        "Mengejek pendapatnya di depan orang banyak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Seorang anak selalu mau bekerja sama dalam kelompok dengan siapa pun tanpa pilih-pilih. Ini mencerminkan nilai ...",
+      "opt": [
+        "Hanya empati",
+        "Hanya toleransi",
+        "Kasih sayang dan toleransi sekaligus",
+        "Kepatuhan terhadap aturan kelas"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Mengapa tidak merusak fasilitas umum termasuk wujud menghargai keberagaman?",
+      "opt": [
+        "Karena fasilitas umum sangat mahal",
+        "Karena fasilitas umum milik bersama yang digunakan semua warga dari berbagai latar belakang",
+        "Karena ada sanksi hukum jika merusaknya",
+        "Karena fasilitas umum hanya untuk orang dewasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang toleransi adalah ...",
+      "opt": [
+        "Toleransi berarti menyetujui semua perilaku orang lain tanpa terkecuali",
+        "Toleransi hanya berlaku untuk perbedaan agama",
+        "Toleransi berarti membiarkan perbedaan ada selama tidak merugikan orang lain",
+        "Toleransi membuat kita kehilangan identitas budaya sendiri"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Menghargai keberagaman TIDAK berarti ...",
+      "opt": [
+        "Bangga dengan budaya sendiri",
+        "Terbuka terhadap budaya orang lain",
+        "Menganggap semua budaya buruk kecuali budaya sendiri",
+        "Menghormati perbedaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Seorang anak baru dari Papua pindah ke sekolah di Depok. Sikap yang mencerminkan menghargai keberagaman adalah ...",
+      "opt": [
+        "Mengejek cara bicaranya karena berbeda",
+        "Menghindarinya karena berasal dari daerah yang jauh",
+        "Menyambutnya dengan ramah dan mengajaknya bergabung bermain",
+        "Membiarkannya saja tanpa disapa"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Filosofi 'Silih Asuh' dalam budaya Sunda berarti ...",
+      "opt": [
+        "Saling mendidik satu sama lain",
+        "Saling mengasihi satu sama lain",
+        "Saling merawat satu sama lain — termasuk merawat alam",
+        "Saling bersaing untuk menjadi yang terbaik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Manfaat menghargai keberagaman bagi kehidupan bermasyarakat adalah ...",
+      "opt": [
+        "Membuat semua orang menjadi sama dan tidak ada perbedaan",
+        "Masyarakat menjadi terpecah karena terlalu banyak perbedaan",
+        "Menciptakan kehidupan yang harmonis, damai, dan saling memperkaya",
+        "Menghambat kemajuan karena terlalu fokus pada perbedaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Urutan tiga nilai utama dalam menghargai keberagaman yang benar adalah ...",
+      "opt": [
+        "Kasih sayang → Toleransi → Empati",
+        "Toleransi → Empati → Kasih Sayang",
+        "Empati → Kasih Sayang → Toleransi",
+        "Ketiga nilai sama pentingnya dan tidak ada urutan yang benar"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C01",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap menghargai keberagaman di RUMAH yang paling tepat adalah ...",
+      "opt": [
+        "Menghindari tetangga yang berbeda agama",
+        "Mengucapkan selamat kepada tetangga yang merayakan hari besar agamanya",
+        "Hanya berteman dengan tetangga yang sesuku",
+        "Melarang anggota keluarga berteman dengan orang berbeda budaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C02",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap menghargai keberagaman di SEKOLAH yang paling tepat adalah ...",
+      "opt": [
+        "Hanya mau duduk sekelompok dengan teman yang sesuku",
+        "Mengejek teman yang cara bicaranya berbeda (logat)",
+        "Berteman dengan semua teman tanpa pilih-pilih suku atau agama",
+        "Menolak bekerja kelompok dengan teman yang berbeda agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C03",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap menghargai keberagaman di MASYARAKAT yang paling tepat adalah ...",
+      "opt": [
+        "Menghindari prosesi adat dari suku lain",
+        "Ikut kerja bakti bersama warga dari berbagai latar belakang",
+        "Mengganggu ibadah orang dari agama lain",
+        "Bersikap sopan hanya kepada orang yang sesuku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C04",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Teman sekelasmu berpuasa. Sikap menghargai keberagaman yang tepat adalah ...",
+      "opt": [
+        "Makan di depannya sambil memuji makananmu",
+        "Mengejek karena tidak mau makan siang bersama",
+        "Menghormatinya dan tidak mengajaknya makan siang",
+        "Tidak mengajaknya bicara selama ia berpuasa"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C05",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Temanmu membawakan pertunjukan tari daerahnya. Sikap yang mencerminkan menghargai keberagaman adalah ...",
+      "opt": [
+        "Menertawakannya karena gerakannya aneh",
+        "Tidak memperhatikan karena bukan budayamu",
+        "Mendukungnya dan bertepuk tangan dengan antusias",
+        "Mengkritik penampilanya di depan teman lain"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C06",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Seorang warga ikut menghormati prosesi pernikahan adat suku lain yang sedang berlangsung di lingkungannya. Ini adalah contoh menghargai keberagaman di ...",
+      "opt": [
+        "Rumah",
+        "Sekolah",
+        "Masyarakat",
+        "Tempat kerja"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C07",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Anggota keluargamu dan tetanggamu berbeda agama. Sikap yang tepat adalah ...",
+      "opt": [
+        "Melarang anggota keluarga berteman dengan tetangga tersebut",
+        "Membantu tetangga tersebut tanpa memandang perbedaan agamanya",
+        "Berpura-pura tidak mengenal tetangga tersebut",
+        "Mengajak tetangga tersebut untuk mengikuti agama kita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C08",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Daftar Periksa Menghargai Keberagaman' mencakup tindakan-tindakan seperti ...",
+      "opt": [
+        "Hanya berteman dengan satu suku",
+        "Berteman dengan siapa saja tanpa memilih-milih suku atau agama",
+        "Mengejek teman yang berbeda",
+        "Menolak bekerja sama dengan yang berbeda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C09",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap yang TIDAK menghargai keberagaman di sekolah adalah ...",
+      "opt": [
+        "Mau bekerja sama dalam kelompok dengan siapa pun",
+        "Menghormati teman yang sedang berpuasa",
+        "Mengejek logat atau cara bicara teman yang berbeda daerah",
+        "Mendukung teman yang tampil membawakan kesenian daerahnya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C10",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Contoh perilaku yang TIDAK menghargai keberagaman di masyarakat adalah ...",
+      "opt": [
+        "Ikut kerja bakti bersama warga",
+        "Mengganggu ibadah orang dari agama lain",
+        "Bersikap sopan kepada semua orang",
+        "Menikmati kesenian budaya lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C11",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Mengapa penting untuk mau mendengarkan cerita tentang adat dan budaya teman-teman?",
+      "opt": [
+        "Agar bisa mengkritik budaya mereka",
+        "Karena memahami budaya orang lain mengurangi prasangka dan mempererat persaudaraan",
+        "Agar bisa menceritakannya kepada orang lain untuk bercanda",
+        "Karena nilai pelajaran PP bergantung pada pengetahuan budaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C12",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang menghargai keberagaman dalam tindakan adalah ...",
+      "opt": [
+        "Cukup tidak mengejek, tidak perlu aktif menghargai",
+        "Menghargai keberagaman harus diwujudkan dalam tindakan nyata setiap hari",
+        "Menghargai hanya diperlukan saat ada acara nasional",
+        "Hanya orang dewasa yang bertanggung jawab menghargai keberagaman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C13",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Seorang anak menolak bekerja kelompok dengan teman yang berbeda agama. Akibat yang mungkin terjadi adalah ...",
+      "opt": [
+        "Anak tersebut dianggap sangat percaya diri",
+        "Teman yang berbeda agama merasa diterima dan dihargai",
+        "Hubungan pertemanan menjadi tegang, dan teman yang ditolak merasa sakit hati",
+        "Anak tersebut mendapat nilai lebih baik karena tidak terganggu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C14",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Ketika melihat tetangga yang berbeda suku sedang kesulitan, sikap yang benar adalah ...",
+      "opt": [
+        "Membiarkannya karena bukan urusan kita",
+        "Membantu hanya jika tetangga itu sesuku dengan kita",
+        "Membantu tanpa memandang perbedaan suku atau agama",
+        "Menghindarinya agar tidak perlu repot"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C15",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Cara terkecil yang bisa dilakukan siswa SD untuk menghargai keberagaman mulai hari ini adalah ...",
+      "opt": [
+        "Menghafal semua nama suku bangsa di Indonesia",
+        "Menyapa dan menyambut teman baru dengan ramah tanpa memandang asalnya",
+        "Menjadi pemimpin dalam setiap acara pelajaran",
+        "Mengkritik teman yang dianggap belum menghargai keberagaman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C16",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Tindakan menjaga kebersihan sekolah bersama-sama termasuk menghargai keberagaman karena ...",
+      "opt": [
+        "Sekolah adalah milik satu suku tertentu",
+        "Sekolah adalah ruang bersama yang dinikmati semua siswa dari berbagai latar belakang",
+        "Hanya siswa yang rajin yang wajib membersihkan",
+        "Menjaga kebersihan adalah kewajiban petugas kebersihan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C17",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Sikap yang PALING jelas menunjukkan tidak menghargai keberagaman adalah ...",
+      "opt": [
+        "Bertanya tentang budaya teman dengan rasa ingin tahu",
+        "Bergabung bermain bersama teman dari berbagai daerah",
+        "Menirukan logat teman dari daerah lain untuk bercanda di depan kelas",
+        "Menyambut teman baru yang pindah dari luar kota"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C18",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Seorang siswa baru yang berbeda agama merasa tidak nyaman di kelas. Tindakan paling tepat yang bisa dilakukan teman-temannya adalah ...",
+      "opt": [
+        "Membiarkannya sampai ia bisa menyesuaikan diri sendiri",
+        "Menghindarinya agar tidak terjadi perselisihan",
+        "Menyapanya dengan ramah dan mengajaknya bergabung dalam kegiatan kelas",
+        "Menyuruhnya kembali ke sekolah lama yang lebih sesuai dengannya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C19",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh menghargai tradisi keluarga dari pihak ayah maupun ibu yang berbeda adalah ...",
+      "opt": [
+        "Hanya merayakan tradisi dari satu pihak keluarga saja",
+        "Menganggap tradisi salah satu pihak lebih baik",
+        "Menghormati dan merayakan tradisi kedua belah pihak keluarga",
+        "Melarang tradisi dari pihak keluarga manapun"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C20",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Mengapa menghormati prosesi adat suku lain termasuk sikap menghargai keberagaman?",
+      "opt": [
+        "Karena prosesi adat selalu menarik untuk ditonton",
+        "Karena menghormati prosesi adat berarti kita mengakui dan menghargai warisan budaya mereka",
+        "Karena prosesi adat suku lain lebih baik dari adat kita",
+        "Karena ada sanksi hukum jika tidak menghormati"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C21",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Seorang anak mengejek makanan khas yang dibawa temannya dari Sumatera. Norma apa yang dilanggar?",
+      "opt": [
+        "Hanya aturan sekolah tentang makanan",
+        "Sikap menghargai keberagaman dan norma kesopanan",
+        "Tidak ada norma yang dilanggar karena hanya bercanda",
+        "Hanya aturan tentang makanan bergizi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C22",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Dari 'Daftar Periksa Menghargai Keberagaman', siswa yang sudah melakukan semua poin disebut sebagai ...",
+      "opt": [
+        "Siswa teladan yang selalu juara",
+        "Penjaga kebinekaan yang nyata",
+        "Pemimpin yang paling bijaksana",
+        "Duta budaya nasional"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C23",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Mengikuti festival budaya daerah di sekolah termasuk sikap menghargai keberagaman karena ...",
+      "opt": [
+        "Kita terpaksa menghadirinya karena diharuskan guru",
+        "Kita menunjukkan apresiasi dan rasa ingin tahu terhadap budaya yang berbeda",
+        "Festival budaya hanya untuk siswa yang berasal dari daerah tersebut",
+        "Kita bisa mencicipi makanan gratis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C24",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Mana yang merupakan contoh TIDAK menghargai keberagaman di rumah?",
+      "opt": [
+        "Mengucapkan selamat kepada tetangga yang merayakan hari besarnya",
+        "Membantu tetangga tanpa memandang latar belakangnya",
+        "Menghindari tetangga yang berbeda agama saat lewat depan rumah",
+        "Menghormati tradisi dari kedua belah pihak keluarga"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C25",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang menghargai keberagaman di sekolah adalah ...",
+      "opt": [
+        "Cukup tidak mengejek teman, sudah dianggap menghargai",
+        "Menghargai keberagaman termasuk aktif menyambut dan mendukung teman dari berbagai latar belakang",
+        "Menghargai hanya diperlukan saat pelajaran PP saja",
+        "Siswa tidak perlu aktif menghargai karena tugas guru yang mengaturnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C26",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Tindakan berikut yang PALING mencerminkan menghargai keberagaman di masyarakat adalah ...",
+      "opt": [
+        "Hanya bergaul dengan warga yang sesuku",
+        "Ikut merayakan hari kemerdekaan bersama seluruh warga dari berbagai latar belakang",
+        "Menghindari acara yang dihadiri banyak suku berbeda",
+        "Hanya ikut kerja bakti jika ada imbalan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C27",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Jika kamu belum melakukan semua poin daftar periksa menghargai keberagaman, hal yang paling tepat dilakukan adalah ...",
+      "opt": [
+        "Menyerah karena terlalu sulit",
+        "Meminta orang lain yang melakukannya",
+        "Memulai dari hal terkecil yang bisa dilakukan hari ini",
+        "Menunggu sampai teman-teman melakukannya lebih dulu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D01",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Sikap yang MENJAGA kebinekaan adalah ...",
+      "opt": [
+        "Hanya mau berteman dengan orang sesuku dan seagama",
+        "Mengejek nama panggilan berdasarkan suku",
+        "Berteman dengan semua orang tanpa memilih-milih",
+        "Menolak kerja sama karena perbedaan latar belakang"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D02",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Sikap yang MERUSAK kebinekaan adalah ...",
+      "opt": [
+        "Menghormati perbedaan agama dan kepercayaan",
+        "Mau bekerja sama meski berbeda latar belakang",
+        "Mengejek nama panggilan berdasarkan suku (rasis)",
+        "Merayakan keberagaman bersama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D03",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Diskriminasi adalah ...",
+      "opt": [
+        "Pemberian penghargaan kepada suku tertentu",
+        "Perlakuan berbeda yang merugikan seseorang karena suku, agama, atau identitasnya",
+        "Perayaan keberagaman yang diadakan pemerintah",
+        "Cara melestarikan budaya daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D04",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Diskriminasi di Indonesia bukan hanya tindakan tidak sopan, tetapi juga ...",
+      "opt": [
+        "Dianggap wajar jika dilakukan untuk bercanda",
+        "Termasuk pelanggaran hukum",
+        "Tidak ada sanksinya",
+        "Diizinkan jika pelakunya masih anak-anak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D05",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Dampak utama dari perilaku yang merusak kebinekaan adalah ...",
+      "opt": [
+        "Masyarakat menjadi lebih bersatu",
+        "Kehidupan menjadi lebih nyaman bagi semua",
+        "Perpecahan, konflik, dan ketidakamanan di masyarakat",
+        "Semua orang menjadi sadar untuk menghargai perbedaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D06",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Seseorang yang sering dihina karena identitasnya bisa mengalami ...",
+      "opt": [
+        "Semangat belajar yang semakin tinggi",
+        "Trauma psikologis atau luka batin yang dalam",
+        "Kemampuan berteman yang semakin baik",
+        "Rasa percaya diri yang meningkat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D07",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Konflik yang terjadi akibat merusak kebinekaan berdampak pada kemajuan karena ...",
+      "opt": [
+        "Konflik mendorong masyarakat untuk lebih giat bekerja",
+        "Energi masyarakat terbuang untuk konflik, bukan untuk belajar dan berkarya",
+        "Konflik membuat orang lebih menghargai perbedaan",
+        "Konflik hanya mempengaruhi orang dewasa saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D08",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Dalam kisah Doni dan kelasnya, apa yang dilakukan Sari saat melihat teman-temannya menirukan logat Doni?",
+      "opt": [
+        "Ikut menirukan logat Doni karena seru",
+        "Diam saja karena bukan masalahnya",
+        "Berkata 'Hei, jangan gitu ya. Kita harus bikin Doni nyaman'",
+        "Melaporkan kejadian itu kepada guru"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D09",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Setelah teman-temannya meminta maaf dan mendengarkan cerita Doni, apa yang terjadi pada kelas mereka?",
+      "opt": [
+        "Doni pindah sekolah karena masih tidak nyaman",
+        "Teman-teman menjadi semakin tidak tertarik dengan budaya Batak",
+        "Kelas menjadi semakin seru dan hangat karena saling mengenal budaya",
+        "Guru menghukum semua yang pernah mengejek Doni"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D10",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Pelajaran utama dari kisah Doni adalah ...",
+      "opt": [
+        "Hanya bercanda' tidak mengurangi dampak menyakitkan dari penghinaan perbedaan",
+        "Siswa pindahan harus menyesuaikan diri sendiri",
+        "Menirukan logat orang lain adalah bentuk apresiasi budaya",
+        "Seorang guru harus selalu hadir untuk menyelesaikan masalah"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D11",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Termasuk tindakan menjaga kebinekaan adalah ...",
+      "opt": [
+        "Menyebarkan cerita buruk tentang suku tertentu",
+        "Membela teman yang dihina karena perbedaannya",
+        "Menghina agama orang lain",
+        "Hanya bergaul dengan yang sesuku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D12",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Seseorang yang diam saja saat melihat temannya dihina karena berbeda suku termasuk ...",
+      "opt": [
+        "Menjaga kebinekaan karena tidak ikut menghina",
+        "Bersikap netral yang baik dalam konflik",
+        "Ikut merusak kebinekaan karena membiarkan penghinaan terjadi",
+        "Bijaksana karena tidak ikut campur urusan orang lain"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D13",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Cara menjadi penjaga kebinekaan yang pertama adalah 'kenali prasangkamu sendiri'. Artinya ...",
+      "opt": [
+        "Percayai semua stereotip yang pernah kamu dengar",
+        "Tanyakan pada dirimu: apakah ada stereotip tentang suku/agama tertentu yang aku percaya?",
+        "Hindari semua orang yang berbeda denganmu",
+        "Anggap semua orang sama tanpa perlu mengenal budayanya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D14",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Berani bersuara' sebagai penjaga kebinekaan berarti ...",
+      "opt": [
+        "Berbicara keras-keras di tempat umum",
+        "Jika ada teman yang dihina, memberikan dukungan dengan berkata 'Itu tidak benar dan tidak baik'",
+        "Selalu berdebat dengan siapa pun yang berbeda pendapat",
+        "Menjadi pemimpin di setiap diskusi kelompok"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D15",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pelajari budaya orang lain' adalah cara menjaga kebinekaan karena ...",
+      "opt": [
+        "Kita bisa mengkritik budaya orang lain jika sudah paham",
+        "Rasa ingin tahu yang tulus adalah antidot terbaik terhadap prasangka",
+        "Kita bisa mengajarkan budaya kita kepada mereka",
+        "Budaya orang lain lebih menarik dari budaya sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D16",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Jadilah jembatan' sebagai penjaga kebinekaan maksudnya ...",
+      "opt": [
+        "Membangun jembatan fisik di lingkungan sekitar",
+        "Jika ada kelompok yang terpisah-pisah, mengundang semua orang untuk bermain bersama",
+        "Menghubungkan Indonesia dengan negara lain",
+        "Menjadi perantara dalam transaksi jual beli"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D17",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Seseorang yang selalu menyebarkan cerita buruk tentang suku tertentu termasuk ...",
+      "opt": [
+        "Menjaga kebinekaan dengan menyebarkan informasi",
+        "Merusak kebinekaan melalui penyebaran kebencian",
+        "Bersikap netral tentang keberagaman",
+        "Membantu masyarakat lebih waspada"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D18",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Perpecahan yang terjadi akibat merusak kebinekaan menyebabkan ...",
+      "opt": [
+        "Masyarakat menjadi lebih kuat dan bersatu",
+        "Saling tidak percaya dan munculnya kelompok-kelompok yang bermusuhan",
+        "Keragaman budaya menjadi lebih terjaga",
+        "Semua warga menjadi lebih toleran"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D19",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Mengapa kalimat 'Hanya bercanda' bukan alasan yang bisa diterima saat mengejek perbedaan seseorang?",
+      "opt": [
+        "Karena bercanda memang tidak boleh dilakukan",
+        "Karena dampak menghina perbedaan tetap nyata dan menyakitkan meskipun niatnya bercanda",
+        "Karena guru tidak mengizinkan bercanda di kelas",
+        "Karena bercanda hanya boleh dilakukan dalam keadaan tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D20",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Contoh sikap eksklusif yang merusak kebinekaan adalah ...",
+      "opt": [
+        "Mengundang semua teman untuk bermain bersama",
+        "Hanya mau berteman dengan orang yang sesuku dan seagama",
+        "Mau bekerja sama dengan siapa pun",
+        "Menghormati perbedaan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D21",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Setiap orang bisa menjadi penjaga kebinekaan mulai dari ...",
+      "opt": [
+        "Menunggu pemerintah membuat kebijakan yang lebih baik",
+        "Langkah kecil dalam kehidupan sehari-hari",
+        "Setelah lulus sekolah dan dewasa",
+        "Memiliki kekuasaan dan jabatan tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D22",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Saling tidak percaya yang timbul akibat merusak kebinekaan menyebabkan ...",
+      "opt": [
+        "Kehidupan masyarakat menjadi lebih produktif",
+        "Lingkungan menjadi tidak aman",
+        "Semua orang menjadi lebih berhati-hati dalam berbuat baik",
+        "Konflik dapat diselesaikan dengan lebih cepat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D23",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang menjaga kebinekaan adalah ...",
+      "opt": [
+        "Hanya perlu dilakukan oleh pemimpin dan pejabat",
+        "Cukup tidak mengejek perbedaan, sudah menjaga kebinekaan",
+        "Menjaga kebinekaan adalah tanggung jawab setiap orang, termasuk anak SD",
+        "Kebinekaan hanya perlu dijaga pada hari-hari nasional"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D24",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merusak Kebinekaan",
+      "stimulus": "",
+      "q": "Di antara pilihan berikut, yang merupakan bentuk perilaku merusak kebinekaan adalah ...",
+      "opt": [
+        "Menikmati makanan khas daerah lain",
+        "Belajar lagu daerah dari berbagai suku",
+        "Menolak satu anggota kelompok kerja karena berbeda agama",
+        "Mengucapkan selamat kepada teman yang berbeda agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D25",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Dalam kisah Doni, tindakan Sari yang berkata 'Hei, jangan gitu ya' adalah contoh ...",
+      "opt": [
+        "Mencampuri urusan orang lain yang tidak perlu",
+        "Berani bersuara untuk membela teman yang dihina karena perbedaannya",
+        "Melaporkan masalah kepada guru",
+        "Memaksa teman-temannya untuk berteman dengan Doni"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D26",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Mengapa konflik akibat merusak kebinekaan 'menghambat kemajuan'?",
+      "opt": [
+        "Karena konflik membuat banyak warga pindah ke kota lain",
+        "Karena energi dan waktu yang seharusnya untuk belajar dan berkarya terbuang untuk konflik",
+        "Karena konflik membuat bangunan-bangunan rusak",
+        "Karena konflik menarik perhatian media internasional"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D27",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pesan utama yang ingin disampaikan dalam Sub-materi D adalah ...",
+      "opt": [
+        "Keberagaman di Indonesia sudah sempurna dan tidak perlu dijaga lagi",
+        "Hanya tindakan besar yang bisa menjaga kebinekaan",
+        "Setiap hari kita dihadapkan pada pilihan untuk memperkuat atau melemahkan persatuan dalam keberagaman",
+        "Konflik antar suku adalah hal yang wajar dan tidak bisa dihindari"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang keragaman budaya Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Indonesia memiliki lebih dari 300 suku bangsa dan 700 bahasa daerah",
+        "Keragaman adalah kekayaan yang membuat Indonesia unik di mata dunia",
+        "Keragaman menyebabkan Indonesia mudah terpecah-belah",
+        "Semua suku bangsa Indonesia memiliki budaya yang sama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Aspek Budaya",
+      "stimulus": "",
+      "q": "Aspek-aspek yang termasuk dalam budaya suatu masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bahasa dan adat istiadat",
+        "Makanan, pakaian, dan kesenian khas",
+        "Nilai harga emas dan saham",
+        "Teknologi canggih yang digunakan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Fakta-fakta yang benar tentang Kota Depok adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berada di Provinsi Jawa Barat dan berbatasan dengan Jakarta",
+        "Penduduk aslinya adalah masyarakat Sunda",
+        "Merupakan kota yang hanya dihuni satu suku bangsa",
+        "Tidak memiliki keberagaman budaya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Kebudayaan khas suku Sunda yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Angklung, alat musik bambu yang diakui UNESCO",
+        "Wayang golek dan tari jaipong",
+        "Kerak telor dan ondel-ondel",
+        "Ulos dan tor-tor"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Kebudayaan khas suku Betawi yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lenong dan tanjidor",
+        "Kerak telor dan ondel-ondel",
+        "Angklung dan wayang golek",
+        "Rendang dan rumah gadang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Makanan khas yang berasal dari daerah Jawa Barat (Sunda) adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Batagor dan siomay",
+        "Nasi timbel dan karedok",
+        "Kerak telor dan soto Betawi",
+        "Gudeg dan gado-gado"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang angklung adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Terbuat dari bambu dan berasal dari Jawa Barat",
+        "Diakui UNESCO sebagai warisan budaya dunia pada tahun 2010",
+        "Merupakan alat musik khas suku Betawi",
+        "Dibuat dari kayu jati dan besi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang semboyan 'Bhinneka Tunggal Ika' adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bermakna 'berbeda-beda tetapi tetap satu jua'",
+        "Mencerminkan keragaman budaya Indonesia yang menjadi kekuatan",
+        "Mengharuskan semua suku memiliki budaya yang sama",
+        "Merupakan nama resmi dari Kota Depok"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Bukti keragaman budaya yang bisa ditemui di Depok adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berbagai tempat ibadah dari berbagai agama",
+        "Berbagai makanan khas dari berbagai daerah",
+        "Semua warga berbicara satu bahasa yang sama",
+        "Hanya satu jenis kesenian yang ada"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Kebudayaan khas suku Minangkabau yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rumah gadang sebagai rumah adat",
+        "Rendang dan tari piring",
+        "Batik dan gamelan",
+        "Lenong dan tanjidor"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Dua pernyataan yang benar tentang kesenian khas Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Wayang golek adalah pertunjukan boneka kayu tiga dimensi khas Sunda",
+        "Tari jaipong lahir di Karawang dan merupakan tarian khas Jawa Barat",
+        "Tari jaipong adalah tarian khas suku Betawi",
+        "Wayang golek menggunakan bayangan di balik layar seperti wayang kulit"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Mengapa keragaman budaya Indonesia merupakan kekayaan bangsa?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membuat Indonesia unik dan istimewa di mata dunia",
+        "Menjadi kebanggaan nasional yang bisa dikembangkan",
+        "Menyebabkan Indonesia mudah terpecah",
+        "Membuat bahasa Indonesia tidak diperlukan lagi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Suku-suku yang banyak mendiami Kota Depok selain suku Sunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Suku Betawi dari Jakarta dan sekitarnya",
+        "Suku Batak dari Sumatera Utara",
+        "Suku Asmat dari Papua yang sebagian besar tinggal di Depok",
+        "Tidak ada suku lain selain Sunda di Depok"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menerima, menghormati, dan merayakan perbedaan yang ada",
+        "Bangga dengan budaya sendiri sambil terbuka terhadap budaya lain",
+        "Meninggalkan budaya sendiri dan mengikuti budaya orang lain",
+        "Memaksa semua orang memiliki budaya yang sama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Tiga nilai utama dalam menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Toleransi — bersedia menerima perbedaan selama tidak merugikan",
+        "Empati — merasakan apa yang dirasakan orang lain",
+        "Kesombongan tentang budaya sendiri",
+        "Eksklusivitas dalam bergaul"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Toleransi",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang toleransi dalam keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Toleransi berarti membiarkan perbedaan ada selama tidak merugikan",
+        "Toleransi membantu kita hidup berdampingan dengan damai",
+        "Toleransi berarti menyetujui semua perilaku orang lain",
+        "Toleransi hanya berlaku untuk perbedaan agama saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Empati",
+      "stimulus": "",
+      "q": "Manfaat empati dalam konteks menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu kita memahami teman dari latar belakang yang berbeda",
+        "Mencegah kita bertindak menyakiti orang lain tanpa sadar",
+        "Membuat kita selalu setuju dengan pendapat orang lain",
+        "Memaksa kita mengubah budaya sendiri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Cara mewujudkan cinta kasih kepada sesama dalam keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berteman tanpa memilih-milih berdasarkan suku, agama, atau status",
+        "Menolong tanpa memperhitungkan apakah ia sesuku atau seagama",
+        "Hanya menolong sesama suku",
+        "Menghindari bergaul dengan yang berbeda budaya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Hubungan yang benar antara mencintai lingkungan dan menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lingkungan adalah rumah bersama semua warga tanpa memandang suku",
+        "Menjaga lingkungan berarti menjaga 'ruang bersama' yang dinikmati semua orang",
+        "Lingkungan hanya perlu dijaga oleh suku asli setempat",
+        "Mencintai lingkungan tidak ada hubungannya dengan keberagaman"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Filosofi Sunda",
+      "stimulus": "",
+      "q": "Filosofi Sunda 'Silih Asah, Silih Asih, Silih Asuh' mengandung nilai ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Saling mendidik dan mengajarkan satu sama lain",
+        "Saling mengasihi dan merawat — termasuk alam",
+        "Bersaing untuk menjadi yang paling unggul",
+        "Mengabaikan orang lain demi kepentingan sendiri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Contoh tindakan mencintai lingkungan sebagai wujud menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ikut kerja bakti membersihkan lingkungan bersama semua warga",
+        "Merawat tanaman di sekitar rumah dan sekolah",
+        "Membuang sampah ke sungai agar cepat hanyut",
+        "Menebang pohon untuk memperindah pandangan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Dua contoh sikap yang mencerminkan menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mendengarkan dengan penuh perhatian meskipun pendapatnya berbeda",
+        "Menyapa dengan ramah agar seseorang merasa diterima",
+        "Hanya menyapa orang yang sesuku",
+        "Menghindari orang yang berbeda agama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Kasih sayang dalam menghargai keberagaman berarti ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Peduli kepada sesama tanpa memandang suku, agama, atau asal daerah",
+        "Membantu orang yang berbeda budaya tanpa syarat",
+        "Hanya peduli kepada sesama yang sama budayanya",
+        "Memberikan uang kepada semua orang yang berbeda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Manfaat menghargai keberagaman bagi kehidupan bermasyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menciptakan kehidupan yang harmonis dan damai",
+        "Memperkaya pengetahuan dan wawasan kita tentang budaya yang beragam",
+        "Membuat semua orang menjadi sama dan tidak ada perbedaan",
+        "Menghilangkan identitas budaya masing-masing suku"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghargai bukan berarti harus meninggalkan budaya sendiri",
+        "Kita bisa bangga dengan budaya sendiri sambil menghormati budaya orang lain",
+        "Menghargai berarti menganggap semua budaya sama nilainya",
+        "Menghargai berarti melupakan budaya asal kita sendiri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Mengapa tidak merusak fasilitas umum termasuk menghargai keberagaman?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Fasilitas umum digunakan bersama oleh semua warga dari berbagai latar belakang",
+        "Merusaknya berarti merugikan semua orang yang membutuhkannya",
+        "Fasilitas umum hanya untuk orang dari suku tertentu",
+        "Merusak fasilitas tidak berpengaruh pada orang lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C01",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap menghargai keberagaman di rumah yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengucapkan selamat kepada tetangga yang merayakan hari besar agamanya",
+        "Membantu tetangga tanpa memandang latar belakangnya",
+        "Menghindari tetangga yang berbeda agama",
+        "Hanya bergaul dengan tetangga yang sesuku"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C02",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap menghargai keberagaman di sekolah yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berteman dengan semua teman tanpa pilih-pilih suku/agama",
+        "Mau bekerja sama dalam kelompok dengan siapa pun",
+        "Mengejek teman yang cara bicaranya berbeda",
+        "Menolak satu teman karena berbeda agama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C03",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap menghargai keberagaman di masyarakat yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ikut kerja bakti bersama warga dari berbagai latar belakang",
+        "Menghormati prosesi adat atau upacara keagamaan yang berbeda",
+        "Menghindari prosesi adat dari suku lain",
+        "Bersikap sopan hanya kepada orang yang sesuku"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C04",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Contoh sikap yang TIDAK menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengejek logat bicara teman yang berasal dari daerah lain",
+        "Menolak bekerja kelompok karena teman berbeda agama",
+        "Mendukung teman yang tampil membawakan kesenian daerahnya",
+        "Menyambut teman baru dari daerah lain dengan ramah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C05",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang menghargai keberagaman dalam tindakan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Harus diwujudkan dalam tindakan nyata setiap hari, bukan hanya dalam pikiran",
+        "Mencakup tindakan di rumah, sekolah, dan masyarakat",
+        "Cukup tidak mengejek, tidak perlu aktif menghargai",
+        "Hanya perlu dilakukan pada hari-hari nasional"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C06",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Daftar Periksa",
+      "stimulus": "",
+      "q": "Tindakan yang termasuk dalam daftar periksa menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berteman dengan siapa saja tanpa memilih-milih suku atau agama",
+        "Menghormati teman yang sedang menjalankan ibadahnya",
+        "Mengejek teman karena cara bicaranya berbeda",
+        "Menolak bergabung dalam kegiatan yang melibatkan suku lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C07",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Mengapa penting untuk mendukung teman yang tampil membawakan kesenian daerahnya?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menunjukkan apresiasi terhadap kesenian daerah lain",
+        "Membuat teman merasa dihargai dan keseniannya diakui",
+        "Karena pertunjukannya pasti selalu bagus",
+        "Karena guru mewajibkannya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C08",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Dua dampak dari sikap tidak menghargai keberagaman di sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Teman yang berbeda budaya merasa tidak diterima dan tersisih",
+        "Suasana kelas menjadi tegang dan tidak nyaman",
+        "Teman yang berbeda budaya menjadi lebih percaya diri",
+        "Kelas menjadi lebih akrab karena ada konflik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C09",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Dua cara menghargai keberagaman yang bisa dilakukan siswa SD setiap hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menyapa dan menyambut teman baru dengan ramah tanpa memandang asalnya",
+        "Mau bergabung dalam kegiatan kelompok tanpa pilih-pilih",
+        "Hanya menyapa teman yang sesuku",
+        "Menolak berbagi makanan dengan teman yang berbeda budaya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C10",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Tindakan konkret menghargai keberagaman yang berkaitan dengan tradisi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghormati tradisi dari kedua belah pihak keluarga yang berbeda",
+        "Menonton dan menghargai pertunjukan kesenian dari suku lain",
+        "Memaksakan tradisi kita kepada orang lain",
+        "Mengkritik tradisi yang dianggap kuno"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C11",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Daftar Periksa",
+      "stimulus": "",
+      "q": "Sikap seorang 'penjaga kebinekaan yang nyata' mencakup ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Aktif membela teman yang dihina karena perbedaannya",
+        "Ikut menjaga kebersihan lingkungan sekolah dan perumahan",
+        "Hanya berdiam diri jika ada penghinaan",
+        "Bergabung mengejek jika teman lain melakukannya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C12",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Mengapa menghargai keberagaman harus diwujudkan dalam tindakan nyata?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Karena niat baik saja tidak cukup jika tidak ada tindakan nyata",
+        "Karena tindakan nyata membuktikan bahwa kita benar-benar menghargai perbedaan",
+        "Karena pemerintah mewajibkannya",
+        "Karena tindakan nyata mendapat nilai tambahan dari guru"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C13",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Dua contoh sikap tidak menghargai keberagaman di masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengganggu ibadah orang dari agama lain",
+        "Menolak berpartisipasi dalam kegiatan bersama warga yang berbeda suku",
+        "Ikut serta dalam kerja bakti bersama semua warga",
+        "Menghormati prosesi adat dari suku lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C14",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang daftar periksa menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Setiap tindakan kecil seperti menyapa adalah wujud nyata menghargai",
+        "Jika belum melakukan semua poin, bisa dimulai dari hal terkecil hari ini",
+        "Hanya anak yang sempurna yang bisa melakukan semua poinnya",
+        "Daftar periksa ini hanya untuk siswa kelas 4"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D01",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Sikap yang MENJAGA kebinekaan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berteman dengan semua orang tanpa memilih-milih",
+        "Membela teman yang dihina karena perbedaannya",
+        "Menyebarkan cerita buruk tentang suku tertentu",
+        "Hanya mau bergaul dengan yang sesuku"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D02",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Sikap yang MERUSAK kebinekaan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengejek nama panggilan berdasarkan suku (rasis)",
+        "Menolak kerja sama karena perbedaan latar belakang",
+        "Menghormati perbedaan agama dan kepercayaan",
+        "Mau bekerja sama meski berbeda latar belakang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D03",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Dampak nyata yang terjadi akibat perilaku merusak kebinekaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perpecahan — masyarakat terpecah menjadi kelompok yang bermusuhan",
+        "Trauma psikologis — orang yang dihina bisa luka batin dalam",
+        "Masyarakat menjadi lebih bersatu dan kuat",
+        "Konflik diselesaikan lebih cepat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D04",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Dari kisah Doni dan kelasnya, dua pelajaran penting yang bisa dipetik adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Hanya bercanda' bukan alasan yang sah karena dampaknya tetap menyakitkan",
+        "Satu orang berani bersuara bisa mengubah suasana kelas menjadi lebih baik",
+        "Siswa yang berbeda daerah sebaiknya duduk terpisah",
+        "Guru harus selalu hadir untuk menyelesaikan semua konflik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D05",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Cara menjadi penjaga kebinekaan yang bisa dilakukan oleh siswa SD adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berani bersuara jika ada teman yang dihina karena perbedaannya",
+        "Jadilah jembatan — undang semua orang untuk bermain bersama",
+        "Membiarkan penghinaan terjadi karena bukan urusan kita",
+        "Hanya bergaul dengan teman yang sesuku untuk menghindari konflik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D06",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pelajari budaya orang lain' penting karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rasa ingin tahu yang tulus adalah antidot terbaik terhadap prasangka",
+        "Memahami budaya lain membuat kita lebih menghargai perbedaan",
+        "Kita bisa mengkritik budaya orang lain lebih baik",
+        "Kita harus meninggalkan budaya sendiri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D07",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Diskriminasi",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang diskriminasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perlakuan berbeda yang merugikan seseorang karena identitasnya",
+        "Di Indonesia, diskriminasi termasuk pelanggaran hukum",
+        "Diskriminasi diizinkan jika hanya dalam konteks bercanda",
+        "Diskriminasi hanya terjadi pada orang dewasa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D08",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Dampak 'menghambat kemajuan' akibat merusak kebinekaan maksudnya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Energi terbuang untuk konflik, bukan untuk belajar dan berkarya",
+        "Masyarakat tidak bisa fokus membangun karena sibuk dengan pertengkaran",
+        "Konflik membuat masyarakat lebih produktif",
+        "Perpecahan mendorong persaingan yang sehat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D09",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Kenali prasangkamu sendiri' sebagai langkah menjaga kebinekaan artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bertanya apakah ada stereotip yang kita percaya tentang suku atau agama tertentu",
+        "Mempertanyakan dari mana kita tahu bahwa stereotip itu benar",
+        "Meyakini semua stereotip yang pernah kita dengar",
+        "Menghindari semua orang yang berbeda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D10",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang pilihan sikap dalam menghadapi perbedaan adalah ...",
+      "opt": [
+        "Setiap hari kita dihadapkan pada pilihan memperkuat atau melemahkan persatuan",
+        "Setiap orang bisa menjadi penjaga kebinekaan mulai dari langkah kecil",
+        "Hanya orang dewasa yang bisa menjaga kebinekaan",
+        "Kebinekaan otomatis terjaga tanpa usaha siapapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D11",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Dua dampak merusak kebinekaan yang berkaitan langsung dengan keamanan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ketidakamanan — saling tidak percaya membuat lingkungan tidak aman",
+        "Konflik — perselisihan kecil bisa berkembang menjadi pertengkaran besar",
+        "Lingkungan menjadi lebih damai",
+        "Masyarakat menjadi lebih saling percaya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D12",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Peran setiap individu dalam menjaga kebinekaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ikut bertanggung jawab menjaga kebinekaan dalam kehidupan sehari-hari",
+        "Berkomitmen untuk tidak merusak persatuan meski perbedaan ada",
+        "Hanya menunggu pemerintah yang mengambil tindakan",
+        "Baru berperan setelah dewasa dan punya kekuasaan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D13",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Tindakan Sari yang berkata 'Hei, jangan gitu ya' dalam kisah Doni adalah contoh ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berani bersuara untuk membela teman yang dihina",
+        "Menjadi jembatan yang mempersatukan teman-teman",
+        "Melaporkan masalah kepada kepala sekolah",
+        "Bersikap netral dalam konflik antar teman"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D14",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang sikap merusak kebinekaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghina perbedaan meski 'hanya bercanda' tetap menyakitkan",
+        "Diam saat melihat teman dihina karena perbedaannya termasuk ikut merusak kebinekaan",
+        "Mengejek suku lain adalah bentuk kebebasan berekspresi",
+        "Diskriminasi tidak apa-apa jika pelakunya masih anak-anak"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Pasangkan suku bangsa dengan kebudayaan khasnya!",
+      "rows": [
+        "Angklung, wayang golek, tari jaipong",
+        "Lenong, kerak telor, ondel-ondel",
+        "Ulos, tor-tor, gondang",
+        "Rendang, rumah gadang, tari piring"
+      ],
+      "cols": [
+        "Sunda",
+        "Betawi",
+        "Batak"
+      ],
+      "ans": [
+        "Sunda",
+        "Betawi",
+        "Batak",
+        "Sunda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Pasangkan makanan khas dengan daerah asalnya!",
+      "rows": [
+        "Batagor dan nasi timbel",
+        "Kerak telor dan soto Betawi",
+        "Gudeg dan bakso Solo",
+        "Rendang dan pempek"
+      ],
+      "cols": [
+        "Jawa Barat",
+        "Betawi",
+        "Jawa Tengah"
+      ],
+      "ans": [
+        "Jawa Barat",
+        "Betawi",
+        "Jawa Tengah",
+        "Jawa Barat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Pasangkan kesenian Jawa Barat dengan deskripsinya!",
+      "rows": [
+        "Alat musik bambu yang diakui UNESCO 2010",
+        "Pertunjukan boneka kayu 3D khas Sunda",
+        "Tarian khas Jawa Barat yang lahir di Karawang",
+        "Pertunjukan wayang kulit khas Jawa"
+      ],
+      "cols": [
+        "Angklung",
+        "Wayang Golek",
+        "Tari Jaipong"
+      ],
+      "ans": [
+        "Angklung",
+        "Wayang Golek",
+        "Tari Jaipong",
+        "Angklung"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Pasangkan fakta tentang Kota Depok dengan penjelasannya!",
+      "rows": [
+        "Berada di Jawa Barat, berbatasan dengan Jakarta",
+        "Masyarakat Sunda",
+        "Letak strategis menarik warga dari berbagai daerah",
+        "Pemerintah mewajibkan semua suku tinggal di sana"
+      ],
+      "cols": [
+        "Letak geografis",
+        "Penduduk asli",
+        "Alasan keberagaman"
+      ],
+      "ans": [
+        "Letak geografis",
+        "Penduduk asli",
+        "Alasan keberagaman",
+        "Letak geografis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Pasangkan suku bangsa dengan daerah asalnya!",
+      "rows": [
+        "Jawa Barat",
+        "Jakarta dan sekitarnya",
+        "Sumatera Barat",
+        "Sumatera Utara"
+      ],
+      "cols": [
+        "Sunda",
+        "Betawi",
+        "Minangkabau"
+      ],
+      "ans": [
+        "Sunda",
+        "Betawi",
+        "Minangkabau",
+        "Sunda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Pasangkan semboyan dengan maknanya!",
+      "rows": [
+        "Berbeda-beda tetapi tetap satu jua",
+        "Keragaman budaya sebagai kekuatan bangsa",
+        "Lambang negara Garuda Pancasila",
+        "Lagu kebangsaan Indonesia Raya"
+      ],
+      "cols": [
+        "Artinya",
+        "Mencerminkan",
+        "Terdapat pada"
+      ],
+      "ans": [
+        "Artinya",
+        "Mencerminkan",
+        "Terdapat pada",
+        "Artinya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Pasangkan jenis budaya dengan contoh-contohnya!",
+      "rows": [
+        "Angklung, tari jaipong, wayang golek",
+        "Batagor, rendang, gudeg",
+        "Ulos (Batak), kebaya (Jawa)",
+        "Bahasa Sunda, bahasa Jawa"
+      ],
+      "cols": [
+        "Kesenian",
+        "Makanan khas",
+        "Pakaian adat"
+      ],
+      "ans": [
+        "Kesenian",
+        "Makanan khas",
+        "Pakaian adat",
+        "Kesenian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan aspek budaya dengan contohnya!",
+      "rows": [
+        "Bahasa Sunda, Jawa, Batak, Betawi",
+        "Upacara adat pernikahan dan seren taun",
+        "Angklung, wayang golek, tari piring",
+        "Tari Kecak, lenong, tanjidor"
+      ],
+      "cols": [
+        "Bahasa",
+        "Adat istiadat",
+        "Kesenian"
+      ],
+      "ans": [
+        "Bahasa",
+        "Adat istiadat",
+        "Kesenian",
+        "Kesenian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebudayaan Suku",
+      "stimulus": "",
+      "q": "Pasangkan ciri khas budaya dengan suku yang memilikinya!",
+      "rows": [
+        "Tari Jaipong energetik dan angklung bambu",
+        "Batik, gamelan, dan wayang kulit",
+        "Rumah gadang dan tari piring",
+        "Siomay, batagor, dan nasi timbel"
+      ],
+      "cols": [
+        "Sunda",
+        "Jawa",
+        "Minangkabau"
+      ],
+      "ans": [
+        "Sunda",
+        "Jawa",
+        "Minangkabau",
+        "Sunda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan nilainya — benar atau salah tentang keragaman budaya!",
+      "rows": [
+        "Indonesia memiliki lebih dari 300 suku bangsa",
+        "Semua suku di Indonesia memiliki budaya yang sama",
+        "Bhinneka Tunggal Ika berarti berbeda-beda tetapi tetap satu",
+        "Keragaman budaya menyebabkan Indonesia mudah terpecah"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kesenian Jawa Barat",
+      "stimulus": "",
+      "q": "Pasangkan fakta tentang angklung dengan informasinya!",
+      "rows": [
+        "Bambu",
+        "Jawa Barat (Sunda)",
+        "Diakui UNESCO sebagai warisan budaya 2010",
+        "Terbuat dari kayu jati pilihan"
+      ],
+      "cols": [
+        "Bahan",
+        "Asal daerah",
+        "Pengakuan internasional"
+      ],
+      "ans": [
+        "Bahan",
+        "Asal daerah",
+        "Pengakuan internasional",
+        "Bahan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kota Depok",
+      "stimulus": "",
+      "q": "Pasangkan suku dengan kekhasan budaya yang bisa ditemukan di Depok!",
+      "rows": [
+        "Angklung, wayang golek, nasi timbel",
+        "Lenong, kerak telor, ondel-ondel",
+        "Batik, gamelan, gudeg",
+        "Karedok, dodol Garut"
+      ],
+      "cols": [
+        "Sunda",
+        "Betawi",
+        "Jawa"
+      ],
+      "ans": [
+        "Sunda",
+        "Betawi",
+        "Jawa",
+        "Sunda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Indonesia Kaya Budaya",
+      "stimulus": "",
+      "q": "Pasangkan analogi dengan makna yang diajarkannya!",
+      "rows": [
+        "Keberagaman menciptakan keindahan dan kekayaan",
+        "Berbeda-beda tapi tetap satu jua",
+        "Kekayaan bangsa yang harus disyukuri",
+        "Keseragaman yang membosankan"
+      ],
+      "cols": [
+        "Taman berbunga-warni",
+        "Bhinneka Tunggal Ika",
+        "Keragaman Indonesia"
+      ],
+      "ans": [
+        "Taman berbunga-warni",
+        "Bhinneka Tunggal Ika",
+        "Keragaman Indonesia",
+        "Taman berbunga-warni"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Keragaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang keragaman dengan sikapnya yang tepat!",
+      "rows": [
+        "Mensyukuri keragaman sebagai kekayaan bangsa",
+        "Menganggap keragaman sebagai sumber konflik",
+        "Bangga dengan budaya daerah sendiri",
+        "Menolak bergaul dengan orang berbeda budaya"
+      ],
+      "cols": [
+        "Sikap benar",
+        "Sikap salah",
+        "Sikap benar"
+      ],
+      "ans": [
+        "Sikap benar",
+        "Sikap salah",
+        "Sikap benar",
+        "Sikap salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Pasangkan nilai utama menghargai keberagaman dengan deskripsinya!",
+      "rows": [
+        "Bersedia menerima perbedaan selama tidak merugikan",
+        "Kemampuan merasakan apa yang dirasakan orang lain",
+        "Peduli kepada sesama tanpa memandang latar belakang",
+        "Memaksakan budaya sendiri kepada orang lain"
+      ],
+      "cols": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang"
+      ],
+      "ans": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang",
+        "Toleransi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Pasangkan cara mewujudkan cinta kasih kepada sesama dengan contohnya!",
+      "rows": [
+        "Bermain dengan teman dari berbagai suku dan agama",
+        "Membantu teman yang kesulitan tanpa melihat sukunya",
+        "Mendengarkan pendapat orang lain meski berbeda",
+        "Hanya berteman dengan sesuku"
+      ],
+      "cols": [
+        "Berteman tanpa pilih-pilih",
+        "Menolong sesama",
+        "Mendengarkan"
+      ],
+      "ans": [
+        "Berteman tanpa pilih-pilih",
+        "Menolong sesama",
+        "Mendengarkan",
+        "Berteman tanpa pilih-pilih"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Filosofi Sunda",
+      "stimulus": "",
+      "q": "Pasangkan bagian filosofi Sunda dengan maknanya!",
+      "rows": [
+        "Saling mendidik dan mencerdaskan satu sama lain",
+        "Saling mengasihi dan menyayangi",
+        "Saling merawat dan membimbing",
+        "Saling bersaing untuk menjadi terbaik"
+      ],
+      "cols": [
+        "Silih Asah",
+        "Silih Asih",
+        "Silih Asuh"
+      ],
+      "ans": [
+        "Silih Asah",
+        "Silih Asih",
+        "Silih Asuh",
+        "Silih Asah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Pasangkan tindakan dengan kategorinya — mencintai lingkungan atau tidak!",
+      "rows": [
+        "Membuang sampah pada tempatnya",
+        "Membuang sampah ke sungai",
+        "Ikut kerja bakti membersihkan lingkungan",
+        "Merusak tanaman di taman bersama"
+      ],
+      "cols": [
+        "Mencintai lingkungan",
+        "Tidak mencintai",
+        "Mencintai lingkungan"
+      ],
+      "ans": [
+        "Mencintai lingkungan",
+        "Tidak mencintai",
+        "Mencintai lingkungan",
+        "Tidak mencintai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang menghargai keberagaman dengan nilainya!",
+      "rows": [
+        "Menghargai berarti bangga dengan budaya sendiri sambil terbuka terhadap budaya lain",
+        "Menghargai berarti meninggalkan budaya sendiri",
+        "Lingkungan adalah rumah bersama semua warga",
+        "Mencintai lingkungan tidak ada hubungannya dengan keberagaman"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Pasangkan situasi dengan nilai yang paling tepat diterapkan!",
+      "rows": [
+        "Membiarkan teman beribadah tanpa mengganggu",
+        "Merasakan sedih saat teman baru terlihat kesepian",
+        "Menolong tetangga yang kesusahan tanpa peduli agamanya",
+        "Bersikap diam saat melihat penghinaan"
+      ],
+      "cols": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang"
+      ],
+      "ans": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang",
+        "Toleransi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan nilai yang dicerminkannya!",
+      "rows": [
+        "Membiarkan teman merayakan ulang tahun agamanya",
+        "Ikut merasa sedih saat teman diejek karena sukunya",
+        "Membantu teman sakit tanpa memandang agamanya",
+        "Menolong teman belajar tanpa pilih suku"
+      ],
+      "cols": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang"
+      ],
+      "ans": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang",
+        "Kasih Sayang"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Pasangkan tindakan menjaga lingkungan dengan manfaatnya!",
+      "rows": [
+        "Lingkungan bersih dinikmati semua warga",
+        "Mempererat hubungan antar warga berbeda suku",
+        "Lingkungan hijau dan asri bagi semua",
+        "Membiarkan sampah berserakan"
+      ],
+      "cols": [
+        "Membuang sampah pada tempatnya",
+        "Ikut kerja bakti RT",
+        "Merawat tanaman"
+      ],
+      "ans": [
+        "Membuang sampah pada tempatnya",
+        "Ikut kerja bakti RT",
+        "Merawat tanaman",
+        "Merawat tanaman"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Pasangkan analogi dengan pelajaran tentang menghargai keberagaman!",
+      "rows": [
+        "Perbedaan menciptakan keindahan, bukan masalah",
+        "Masyarakat yang kaya karena beragam budaya",
+        "Saling mengasihi tanpa memandang suku",
+        "Keseragaman adalah kunci keindahan"
+      ],
+      "cols": [
+        "Taman bunga berwarna-warni",
+        "Keberagaman Indonesia",
+        "Filosof Silih Asih"
+      ],
+      "ans": [
+        "Taman bunga berwarna-warni",
+        "Keberagaman Indonesia",
+        "Filosof Silih Asih",
+        "Taman bunga berwarna-warni"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Pasangkan nilai dengan cara menerapkannya!",
+      "rows": [
+        "Tidak mengganggu teman yang berpuasa",
+        "Mencoba memahami perasaan teman yang berbeda budaya",
+        "Menyapa semua teman dengan ramah tanpa pilih-pilih",
+        "Hanya bergaul dengan yang sesuku"
+      ],
+      "cols": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang"
+      ],
+      "ans": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang",
+        "Toleransi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mencintai Sesama",
+      "stimulus": "",
+      "q": "Pasangkan sikap dengan kategorinya — mencintai sesama atau tidak!",
+      "rows": [
+        "Menolong teman yang terjatuh tanpa memandang sukunya",
+        "Menolak membantu karena berbeda agama",
+        "Menyambut teman baru dengan ramah",
+        "Mengejek makanan yang dibawa teman"
+      ],
+      "cols": [
+        "Mencintai sesama",
+        "Tidak mencintai",
+        "Mencintai sesama"
+      ],
+      "ans": [
+        "Mencintai sesama",
+        "Tidak mencintai",
+        "Mencintai sesama",
+        "Tidak mencintai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Mencintai Lingkungan",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang mencintai lingkungan dengan nilainya!",
+      "rows": [
+        "Menjaga lingkungan adalah wujud menghargai sesama",
+        "Lingkungan hanya perlu dijaga oleh suku asli setempat",
+        "Ikut kerja bakti mempererat hubungan warga berbeda latar belakang",
+        "Kebersihan lingkungan hanya tanggung jawab petugas kebersihan"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menghargai Keberagaman",
+      "stimulus": "",
+      "q": "Pasangkan cara mewujudkan menghargai keberagaman dengan contoh konkretnya!",
+      "rows": [
+        "Berteman dengan semua suku tanpa pilih-pilih",
+        "Ikut kerja bakti dengan warga dari berbagai latar belakang",
+        "Menyapa dan mendengarkan siapa pun dengan ramah",
+        "Hanya bercengkrama dengan sesuku"
+      ],
+      "cols": [
+        "Dalam pertemanan",
+        "Dalam gotong royong",
+        "Dalam komunikasi"
+      ],
+      "ans": [
+        "Dalam pertemanan",
+        "Dalam gotong royong",
+        "Dalam komunikasi",
+        "Dalam pertemanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tiga Nilai Utama",
+      "stimulus": "",
+      "q": "Pasangkan kalimat penjelasan dengan nilai yang dimaksud!",
+      "rows": [
+        "Aku membiarkan temanku beribadah sesuai agamanya'",
+        "Aku bisa memahami mengapa teman itu merasa sedih'",
+        "Aku peduli kepada siapa pun yang butuh bantuan'",
+        "Aku selalu setuju dengan pendapat temanku'"
+      ],
+      "cols": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang"
+      ],
+      "ans": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang",
+        "Toleransi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C01",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan sikap menghargai keberagaman dengan lingkungan tempat dilakukannya!",
+      "rows": [
+        "Membantu tetangga tanpa memandang latar belakang",
+        "Berteman dengan semua teman tanpa pilih-pilih",
+        "Ikut kerja bakti bersama semua warga",
+        "Mengerjakan PR bersama-sama"
+      ],
+      "cols": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat"
+      ],
+      "ans": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat",
+        "Di Sekolah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C02",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan contoh tindakan dengan penilaiannya — menghargai atau tidak menghargai!",
+      "rows": [
+        "Mendukung teman yang tampil membawakan tari daerahnya",
+        "Mengejek logat bicara teman dari daerah lain",
+        "Menyambut teman baru dari luar kota dengan ramah",
+        "Menolak satu teman karena berbeda agama"
+      ],
+      "cols": [
+        "Menghargai",
+        "Tidak menghargai",
+        "Menghargai"
+      ],
+      "ans": [
+        "Menghargai",
+        "Tidak menghargai",
+        "Menghargai",
+        "Tidak menghargai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C03",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Daftar Periksa",
+      "stimulus": "",
+      "q": "Pasangkan tindakan dalam daftar periksa dengan lingkungan penerapannya!",
+      "rows": [
+        "Tidak mengejek teman karena cara bicaranya berbeda",
+        "Menghormati tradisi keluarga dari ayah maupun ibu",
+        "Menyapa semua orang dengan sopan tanpa pandang bulu",
+        "Hanya bicara dengan teman sesuku"
+      ],
+      "cols": [
+        "Di Sekolah",
+        "Di Rumah",
+        "Di Mana Saja"
+      ],
+      "ans": [
+        "Di Sekolah",
+        "Di Rumah",
+        "Di Mana Saja",
+        "Di Sekolah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C04",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan contoh tidak menghargai keberagaman dengan dampaknya!",
+      "rows": [
+        "Teman yang diejek merasa tersisih dari pergaulan",
+        "Teman yang dihina bisa luka batin",
+        "Suasana kelas menjadi tegang dan tidak nyaman",
+        "Persahabatan menjadi lebih retak"
+      ],
+      "cols": [
+        "Dampak sosial",
+        "Dampak psikologis",
+        "Dampak pada suasana"
+      ],
+      "ans": [
+        "Dampak sosial",
+        "Dampak psikologis",
+        "Dampak pada suasana",
+        "Dampak sosial"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C05",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan norma yang berlaku dengan sikap menghargai keberagaman yang berkaitan!",
+      "rows": [
+        "Berbicara sopan kepada semua orang tanpa memandang suku",
+        "Menolong orang yang kesusahan karena iba",
+        "Menghormati teman yang sedang beribadah",
+        "Mengejek cara makan teman dari daerah lain"
+      ],
+      "cols": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Agama"
+      ],
+      "ans": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Agama",
+        "Norma Kesopanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C06",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Daftar Periksa",
+      "stimulus": "",
+      "q": "Pasangkan poin daftar periksa dengan nilai yang diwakilinya!",
+      "rows": [
+        "Menghormati saat teman menjalankan ibadahnya",
+        "Senang mendengar cerita tentang adat teman",
+        "Mau bergabung dalam kegiatan kelompok bersama siapa pun",
+        "Mengejek teman karena cara bicaranya berbeda"
+      ],
+      "cols": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang"
+      ],
+      "ans": [
+        "Toleransi",
+        "Empati",
+        "Kasih Sayang",
+        "Toleransi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C07",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan tindakan menghargai keberagaman di sekolah dengan manfaatnya!",
+      "rows": [
+        "Semua siswa merasa diterima dan dihargai",
+        "Tugas selesai lebih baik karena perspektif beragam",
+        "Wawasan tentang budaya lain bertambah",
+        "Hanya siswa populer yang didengar"
+      ],
+      "cols": [
+        "Berteman dengan semua",
+        "Mau bekerja kelompok",
+        "Mendengarkan presentasi budaya"
+      ],
+      "ans": [
+        "Berteman dengan semua",
+        "Mau bekerja kelompok",
+        "Mendengarkan presentasi budaya",
+        "Berteman dengan semua"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C08",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan sikap tidak menghargai dengan lingkungan terjadinya!",
+      "rows": [
+        "Melarang anggota keluarga berteman dengan tetangga berbeda agama",
+        "Mengejek cara bicara teman yang punya logat berbeda",
+        "Mengganggu ibadah orang dari agama lain",
+        "Menghindari prosesi adat suku lain"
+      ],
+      "cols": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat"
+      ],
+      "ans": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat",
+        "Di Masyarakat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C09",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Daftar Periksa",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang daftar periksa menghargai keberagaman dengan nilainya!",
+      "rows": [
+        "Setiap tindakan kecil adalah wujud nyata menghargai keberagaman",
+        "Hanya anak yang sempurna bisa melakukan semua poinnya",
+        "Jika belum melakukan semua, mulailah dari hal terkecil hari ini",
+        "Daftar periksa ini hanya untuk guru dan orang dewasa"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C10",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan tindakan dengan jenis sikap yang dicerminkannya!",
+      "rows": [
+        "Menyambut teman baru dari daerah lain dengan ramah",
+        "Mengejek makanan khas yang dibawa teman",
+        "Menonton pertunjukan tari daerah lain dengan antusias",
+        "Menghindari bergaul dengan yang berbeda budaya"
+      ],
+      "cols": [
+        "Menghargai keberagaman",
+        "Tidak menghargai",
+        "Menghargai keberagaman"
+      ],
+      "ans": [
+        "Menghargai keberagaman",
+        "Tidak menghargai",
+        "Menghargai keberagaman",
+        "Tidak menghargai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C11",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sikap Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan tindakan konkret dengan tempat melakukannya!",
+      "rows": [
+        "Mengucapkan selamat hari besar kepada tetangga beda agama",
+        "Tidak mengejek teman yang logat bicaranya berbeda",
+        "Bersikap sopan kepada semua warga tanpa memandang suku",
+        "Membeli hadiah hanya untuk teman sesuku"
+      ],
+      "cols": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat"
+      ],
+      "ans": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat",
+        "Di Rumah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C12",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tidak Menghargai",
+      "stimulus": "",
+      "q": "Pasangkan contoh tidak menghargai dengan akibatnya!",
+      "rows": [
+        "Merasa sedih, tersisih, dan tidak mau bergaul",
+        "Suasana menjadi tegang dan tidak nyaman",
+        "Persahabatan dan kepercayaan rusak",
+        "Kepercayaan diri yang dihina menurun"
+      ],
+      "cols": [
+        "Akibat bagi yang dihina",
+        "Akibat bagi kelas/lingkungan",
+        "Akibat jangka panjang"
+      ],
+      "ans": [
+        "Akibat bagi yang dihina",
+        "Akibat bagi kelas/lingkungan",
+        "Akibat jangka panjang",
+        "Akibat bagi yang dihina"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C13",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Daftar Periksa",
+      "stimulus": "",
+      "q": "Pasangkan situasi siswa dengan status 'sudah' atau 'belum' dalam daftar periksa!",
+      "rows": [
+        "Riko bermain bersama teman dari semua suku tanpa pilih-pilih",
+        "Sari mengejek cara makan teman yang berasal dari Sulawesi",
+        "Doni selalu menyapa guru dan teman dengan sopan tanpa pandang bulu",
+        "Tuti menolak bekerja kelompok dengan teman yang berbeda agama"
+      ],
+      "cols": [
+        "Sudah menghargai",
+        "Belum menghargai",
+        "Sudah menghargai"
+      ],
+      "ans": [
+        "Sudah menghargai",
+        "Belum menghargai",
+        "Sudah menghargai",
+        "Belum menghargai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D01",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Pasangkan sikap dengan kategorinya — menjaga atau merusak kebinekaan!",
+      "rows": [
+        "Berteman dengan semua tanpa pilih-pilih",
+        "Mengejek suku tertentu dengan nama panggilan rasis",
+        "Membela teman yang dihina karena perbedaannya",
+        "Menyebarkan cerita buruk tentang agama tertentu"
+      ],
+      "cols": [
+        "Menjaga Kebinekaan",
+        "Merusak Kebinekaan",
+        "Menjaga Kebinekaan"
+      ],
+      "ans": [
+        "Menjaga Kebinekaan",
+        "Merusak Kebinekaan",
+        "Menjaga Kebinekaan",
+        "Merusak Kebinekaan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D02",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Pasangkan dampak merusak kebinekaan dengan penjelasannya!",
+      "rows": [
+        "Masyarakat terpecah menjadi kelompok bermusuhan",
+        "Orang yang dihina bisa mengalami luka batin dalam",
+        "Energi terbuang untuk konflik, bukan untuk belajar",
+        "Semua orang menjadi lebih menghargai perbedaan"
+      ],
+      "cols": [
+        "Perpecahan",
+        "Trauma psikologis",
+        "Menghambat kemajuan"
+      ],
+      "ans": [
+        "Perpecahan",
+        "Trauma psikologis",
+        "Menghambat kemajuan",
+        "Perpecahan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D03",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Pasangkan tokoh dalam kisah Doni dengan peranannya!",
+      "rows": [
+        "Siswa pindahan dari Medan yang logat Bataknya ditiru-tiru",
+        "Siswa yang berani bersuara membela Doni",
+        "Awalnya menirukan logat, lalu meminta maaf dan jadi akrab dengan Doni",
+        "Menjadi malu setelah menirukan Doni"
+      ],
+      "cols": [
+        "Doni",
+        "Sari",
+        "Teman-teman lain"
+      ],
+      "ans": [
+        "Doni",
+        "Sari",
+        "Teman-teman lain",
+        "Teman-teman lain"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D04",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pasangkan cara menjadi penjaga kebinekaan dengan penjelasannya!",
+      "rows": [
+        "Pertanyakan stereotip yang kamu percaya tentang suku/agama lain",
+        "Beri dukungan jika temanmu dihina karena perbedaannya",
+        "Undang semua orang untuk bergabung jika ada kelompok yang terpisah",
+        "Hindari semua yang berbeda darimu"
+      ],
+      "cols": [
+        "Kenali prasangkamu",
+        "Berani bersuara",
+        "Jadilah jembatan"
+      ],
+      "ans": [
+        "Kenali prasangkamu",
+        "Berani bersuara",
+        "Jadilah jembatan",
+        "Kenali prasangkamu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D05",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Pasangkan contoh perilaku dengan kategorinya!",
+      "rows": [
+        "Mengundang semua teman untuk bermain bersama",
+        "Diam saja saat melihat teman dihina karena sukunya",
+        "Mau bekerja sama dalam kelompok dengan siapa pun",
+        "Menyebarkan gosip tentang suku tertentu"
+      ],
+      "cols": [
+        "Menjaga",
+        "Merusak",
+        "Menjaga"
+      ],
+      "ans": [
+        "Menjaga",
+        "Merusak",
+        "Menjaga",
+        "Merusak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D06",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Pasangkan dampak merusak kebinekaan dengan contoh konkretnya!",
+      "rows": [
+        "Warga saling tidak percaya dan takut keluar malam",
+        "Pertengkaran kecil berkembang jadi perselisihan besar",
+        "Waktu belajar terbuang karena siswa sibuk bertengkar",
+        "Persatuan semakin kuat"
+      ],
+      "cols": [
+        "Ketidakamanan",
+        "Konflik",
+        "Menghambat kemajuan"
+      ],
+      "ans": [
+        "Ketidakamanan",
+        "Konflik",
+        "Menghambat kemajuan",
+        "Ketidakamanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D07",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kisah Doni",
+      "stimulus": "",
+      "q": "Pasangkan bagian dari kisah Doni dengan pelajaran yang bisa dipetik!",
+      "rows": [
+        "Hanya bercanda' tetap menyakitkan dan merusak kebinekaan",
+        "Satu orang berani bersuara bisa mengubah suasana",
+        "Mengenal budaya orang lain membuat kelas lebih seru dan hangat",
+        "Kelas menjadi semakin erat karena saling mengenal"
+      ],
+      "cols": [
+        "Teman menirukan logat Doni",
+        "Sari bersuara membela Doni",
+        "Akhir kisah"
+      ],
+      "ans": [
+        "Teman menirukan logat Doni",
+        "Sari bersuara membela Doni",
+        "Akhir kisah",
+        "Akhir kisah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D08",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kebinekaan dengan nilainya — benar atau salah!",
+      "rows": [
+        "Setiap orang bisa menjadi penjaga kebinekaan mulai dari langkah kecil",
+        "Hanya pejabat yang bertanggung jawab menjaga kebinekaan",
+        "Diam saat ada teman dihina berarti ikut merusak kebinekaan",
+        "Mengejek suku lain itu wajar selama hanya bercanda"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D09",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Diskriminasi",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan kategorinya — diskriminasi atau bukan!",
+      "rows": [
+        "Menolak satu teman dalam kelompok kerja karena berbeda agama",
+        "Memilih teman berdasarkan kemampuan akademiknya untuk proyek",
+        "Mengejek nama panggilan berdasarkan suku tertentu",
+        "Mengucapkan selamat kepada teman yang berbeda agama"
+      ],
+      "cols": [
+        "Diskriminasi",
+        "Bukan diskriminasi",
+        "Diskriminasi"
+      ],
+      "ans": [
+        "Diskriminasi",
+        "Bukan diskriminasi",
+        "Diskriminasi",
+        "Bukan diskriminasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D10",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pasangkan peran penjaga kebinekaan dengan kalimat yang mencerminkannya!",
+      "rows": [
+        "Itu tidak benar dan tidak baik' — saat melihat penghinaan",
+        "Bertanya dengan tulus tentang budaya teman dari daerah lain",
+        "Mengundang teman yang terisolasi untuk bergabung bermain",
+        "Diam saja agar tidak terlibat masalah"
+      ],
+      "cols": [
+        "Berani bersuara",
+        "Pelajari budaya lain",
+        "Jadilah jembatan"
+      ],
+      "ans": [
+        "Berani bersuara",
+        "Pelajari budaya lain",
+        "Jadilah jembatan",
+        "Berani bersuara"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D11",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Pasangkan tindakan dengan dampak yang paling mungkin terjadi!",
+      "rows": [
+        "Mengundang semua bermain → semua merasa diterima",
+        "Mengejek suku → teman merasa tersisih dan luka batin",
+        "Membela yang dihina → suasana kelas menjadi hangat",
+        "Menyebarkan kebencian → perpecahan dan konflik"
+      ],
+      "cols": [
+        "Menjaga kebinekaan → dampak positif",
+        "Merusak kebinekaan → dampak negatif",
+        "Menjaga kebinekaan → dampak positif"
+      ],
+      "ans": [
+        "Menjaga kebinekaan → dampak positif",
+        "Merusak kebinekaan → dampak negatif",
+        "Menjaga kebinekaan → dampak positif",
+        "Merusak kebinekaan → dampak negatif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D12",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga vs Merusak",
+      "stimulus": "",
+      "q": "Pasangkan situasi sehari-hari dengan pilihan sikap yang tepat!",
+      "rows": [
+        "Saat teman baru belum punya teman, mengajaknya bergabung",
+        "Saat teman berbeda dialek, menirukan cara bicaranya untuk bercanda",
+        "Saat ada diskusi kelompok, menerima pendapat semua anggota",
+        "Saat teman makan makanan khas daerahnya, memandang jijik"
+      ],
+      "cols": [
+        "Menjaga kebinekaan",
+        "Merusak kebinekaan",
+        "Menjaga kebinekaan"
+      ],
+      "ans": [
+        "Menjaga kebinekaan",
+        "Merusak kebinekaan",
+        "Menjaga kebinekaan",
+        "Merusak kebinekaan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D13",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Dampak Merusak",
+      "stimulus": "",
+      "q": "Pasangkan dampak merusak kebinekaan dengan pihak yang paling terdampak!",
+      "rows": [
+        "Mengalami trauma psikologis dan luka batin",
+        "Suasana menjadi tegang, tidak nyaman, tidak kondusif",
+        "Perpecahan dan konflik yang menghabiskan energi",
+        "Semua orang menjadi lebih waspada"
+      ],
+      "cols": [
+        "Individu yang dihina",
+        "Kelompok/kelas",
+        "Masyarakat luas"
+      ],
+      "ans": [
+        "Individu yang dihina",
+        "Kelompok/kelas",
+        "Masyarakat luas",
+        "Individu yang dihina"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D14",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menjaga Kebinekaan",
+      "stimulus": "",
+      "q": "Pasangkan kalimat pesan dalam Sub-materi D dengan maknanya!",
+      "rows": [
+        "Dampak penghinaan tetap nyata meski niatnya bercanda",
+        "Setiap orang bisa berkontribusi menjaga kebinekaan dari hal kecil",
+        "Setiap hari kita memilih memperkuat atau melemahkan persatuan",
+        "Kebinekaan akan terjaga sendiri tanpa usaha"
+      ],
+      "cols": [
+        "Hanya bercanda' bukan alasan",
+        "Setiap langkah kecil berarti",
+        "Pilihan ada di tanganmu"
+      ],
+      "ans": [
+        "Hanya bercanda' bukan alasan",
+        "Setiap langkah kecil berarti",
+        "Pilihan ada di tanganmu",
+        "Hanya bercanda' bukan alasan"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

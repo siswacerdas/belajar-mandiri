@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "IPAS",
+  "bab": "Bab 4 — Masyarakat yang Beradab",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Norma",
+      "stimulus": "",
+      "q": "Norma adalah ...",
+      "opt": [
+        "Peraturan yang hanya berlaku di kantor pemerintah",
+        "Aturan atau pedoman yang mengatur tingkah laku manusia dalam kehidupan bermasyarakat",
+        "Keinginan seseorang yang ingin dituruti oleh orang lain",
+        "Hukuman yang diberikan kepada orang yang berbuat salah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Norma",
+      "stimulus": "",
+      "q": "Kata 'norma' berasal dari bahasa Latin yang artinya ...",
+      "opt": [
+        "Kebaikan",
+        "Aturan atau patokan",
+        "Hukuman",
+        "Kebebasan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Norma",
+      "stimulus": "",
+      "q": "Norma dalam kehidupan sehari-hari sering disebut juga dengan istilah ...",
+      "opt": [
+        "Kebiasaan, keinginan, dan cita-cita",
+        "Tata krama, kaidah, dan etika",
+        "Hukuman, sanksi, dan aturan paksaan",
+        "Ilmu, pengetahuan, dan teknologi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Norma",
+      "stimulus": "",
+      "q": "Manusia membutuhkan norma karena ...",
+      "opt": [
+        "Manusia bisa hidup sempurna sendiri tanpa orang lain",
+        "Norma diwajibkan pemerintah untuk semua warga",
+        "Manusia adalah makhluk sosial yang perlu hidup bersama secara tertib dan saling menghormati",
+        "Norma membuat hidup manusia menjadi lebih mewah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Salah satu ciri norma adalah 'berlaku umum'. Artinya ...",
+      "opt": [
+        "Hanya berlaku untuk orang kaya dan berkuasa",
+        "Berlaku bagi semua anggota masyarakat di suatu kelompok, bukan hanya orang tertentu",
+        "Bisa dipilih-pilih mana yang mau dipatuhi",
+        "Hanya berlaku di tempat-tempat umum seperti pasar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Salah satu ciri norma adalah 'ada sanksi'. Artinya ...",
+      "opt": [
+        "Norma selalu memiliki hadiah bagi yang mematuhinya",
+        "Pelanggaran norma berakibat pada sanksi seperti teguran atau hukuman",
+        "Sanksi hanya diberikan oleh polisi",
+        "Norma tanpa sanksi tetap dipatuhi semua orang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Norma bisa berubah seiring zaman. Contohnya adalah ...",
+      "opt": [
+        "Norma jujur yang berlaku sepanjang masa",
+        "Tata cara berpakaian yang dianggap sopan berubah dari waktu ke waktu",
+        "Norma tidak mencuri yang selalu berlaku",
+        "Norma menghormati orang tua yang abadi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Norma yang bersumber dari ajaran agama atau kepercayaan disebut ...",
+      "opt": [
+        "Norma kesopanan",
+        "Norma kesusilaan",
+        "Norma agama",
+        "Norma hukum"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Norma yang bersumber dari kebiasaan dan adat istiadat turun-temurun adalah ...",
+      "opt": [
+        "Norma hukum",
+        "Norma kesopanan",
+        "Norma agama",
+        "Norma kesusilaan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Norma yang bersumber dari hati nurani manusia adalah ...",
+      "opt": [
+        "Norma agama",
+        "Norma kesopanan",
+        "Norma hukum",
+        "Norma kesusilaan"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Norma yang dibuat secara resmi oleh negara dan bersifat memaksa adalah ...",
+      "opt": [
+        "Norma agama",
+        "Norma kesopanan",
+        "Norma kesusilaan",
+        "Norma hukum"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Norma agama bersifat mutlak karena ...",
+      "opt": [
+        "Diputuskan oleh pemerintah",
+        "Diyakini sebagai perintah dan larangan langsung dari Tuhan",
+        "Hanya berlaku bagi orang yang taat beragama",
+        "Dibuat berdasarkan kesepakatan umat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Sanksi bagi yang melanggar norma agama adalah ...",
+      "opt": [
+        "Penjara dan denda dari pemerintah",
+        "Dikucilkan dari masyarakat",
+        "Rasa dosa dan sanksi di akhirat menurut kepercayaan",
+        "Ditegur oleh polisi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Norma agama mengatur hubungan manusia dengan ...",
+      "opt": [
+        "Pemerintah dan negara saja",
+        "Tuhannya, sesama manusia, dan alam sekitarnya",
+        "Hukum dan peraturan tertulis",
+        "Adat dan kebiasaan masyarakat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Meski berbeda tata cara ibadah, nilai inti yang hampir sama di semua agama adalah ...",
+      "opt": [
+        "Waktu dan cara beribadah yang sama",
+        "Jujur, tidak mencuri, menghormati orang tua, dan tidak menyakiti orang lain",
+        "Pakaian ibadah yang sama",
+        "Hari besar keagamaan yang sama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Persamaan nilai inti di semua agama menunjukkan bahwa ...",
+      "opt": [
+        "Semua agama sebenarnya sama persis",
+        "Nilai-nilai kebaikan bersifat universal dan diakui baik oleh semua manusia",
+        "Tidak perlu ada agama yang berbeda-beda",
+        "Hanya agama tertentu yang benar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Norma kesopanan bersumber dari ...",
+      "opt": [
+        "Kitab suci agama",
+        "Hati nurani manusia",
+        "Kebiasaan, tradisi, dan budaya masyarakat",
+        "Peraturan negara"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Norma kesopanan bersifat relatif, artinya ...",
+      "opt": [
+        "Berlaku sama persis di semua daerah",
+        "Bisa berbeda-beda antar daerah dan antar bangsa",
+        "Hanya berlaku di kota besar",
+        "Semakin lama semakin tidak diperlukan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Sanksi bagi yang melanggar norma kesopanan adalah ...",
+      "opt": [
+        "Penjara dan denda resmi",
+        "Dikucilkan, dianggap tidak sopan, dan dijauhi",
+        "Rasa dosa dalam hati",
+        "Hukuman dari pengadilan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Contoh norma kesopanan dalam kehidupan sehari-hari adalah ...",
+      "opt": [
+        "Mengikuti peraturan lalu lintas",
+        "Berpuasa di bulan Ramadan",
+        "Memberi salam saat bertemu orang lain",
+        "Merasa bersalah setelah berbohong"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Di Indonesia, mengangguk berarti setuju. Di Bulgaria, mengangguk berarti tidak setuju. Ini menunjukkan bahwa norma kesopanan ...",
+      "opt": [
+        "Salah satu negara pasti salah",
+        "Berbeda-beda tergantung budaya setempat",
+        "Harus diseragamkan di seluruh dunia",
+        "Tidak penting untuk dipelajari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Seorang tamu menyisakan makanan di piring bisa dianggap sopan di satu budaya (menunjukkan kenyang) namun tidak sopan di budaya lain. Ini adalah contoh ...",
+      "opt": [
+        "Norma hukum yang berbeda antar negara",
+        "Norma kesopanan yang bersifat relatif dan berbeda antar budaya",
+        "Norma agama yang bertentangan",
+        "Norma kesusilaan yang universal"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesusilaan",
+      "stimulus": "",
+      "q": "Norma kesusilaan bersumber dari ...",
+      "opt": [
+        "Ajaran agama dalam kitab suci",
+        "Peraturan pemerintah",
+        "Hati nurani manusia — rasa batin tentang mana yang baik dan buruk",
+        "Kebiasaan masyarakat"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesusilaan",
+      "stimulus": "",
+      "q": "Sanksi bagi yang melanggar norma kesusilaan berasal dari ...",
+      "opt": [
+        "Pengadilan dan aparat hukum",
+        "Masyarakat yang mengucilkan",
+        "Diri sendiri — rasa bersalah dan malu pada diri sendiri",
+        "Pemimpin agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesusilaan",
+      "stimulus": "",
+      "q": "Contoh norma kesusilaan yang tepat adalah ...",
+      "opt": [
+        "Mengikuti upacara bendera",
+        "Membayar pajak tepat waktu",
+        "Merasa bersalah setelah berbohong meski tidak ada yang tahu",
+        "Memberi salam kepada tetangga"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesusilaan",
+      "stimulus": "",
+      "q": "Seorang anak menemukan dompet berisi uang di jalan. Meski tidak ada yang melihat, ia merasa tidak nyaman mengambilnya. Ini adalah contoh ...",
+      "opt": [
+        "Norma hukum karena mengambil milik orang adalah melanggar hukum",
+        "Norma kesopanan karena dipengaruhi budaya",
+        "Norma kesusilaan karena timbul dari hati nurani",
+        "Norma agama karena ajaran agama melarang mencuri"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Kesusilaan",
+      "stimulus": "",
+      "q": "Perbedaan norma kesusilaan dengan norma kesopanan adalah ...",
+      "opt": [
+        "Norma kesusilaan lebih kuat dari norma hukum",
+        "Norma kesusilaan bersumber dari hati nurani; norma kesopanan dari adat budaya",
+        "Norma kesusilaan berlaku di luar negeri saja",
+        "Norma kesopanan lebih penting dari kesusilaan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A28",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Norma hukum bersifat memaksa karena ...",
+      "opt": [
+        "Manusia takut pada polisi",
+        "Norma hukum dibuat oleh negara dan berlaku untuk semua warga secara paksa",
+        "Sanksinya paling berat",
+        "Norma lain tidak cukup kuat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A29",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Ciri khas norma hukum yang membedakannya dari norma lain adalah ...",
+      "opt": [
+        "Bersumber dari hati nurani",
+        "Berasal dari kebiasaan masyarakat",
+        "Tertulis, memaksa, dan berlaku merata bagi semua warga negara",
+        "Sanksinya hanya berupa teguran"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A30",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Sanksi bagi yang melanggar norma hukum dapat berupa ...",
+      "opt": [
+        "Rasa dosa dan malu",
+        "Dikucilkan dari masyarakat",
+        "Denda, penjara, dan sanksi resmi dari negara",
+        "Teguran dari orang tua"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A31",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Contoh norma hukum dalam kehidupan sehari-hari adalah ...",
+      "opt": [
+        "Memberi salam kepada tetangga",
+        "Merasa bersalah saat berbohong",
+        "Membayar pajak dan menaati rambu lalu lintas",
+        "Melaksanakan ibadah sesuai agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A32",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Mengapa norma hukum diperlukan selain norma agama, kesopanan, dan kesusilaan?",
+      "opt": [
+        "Karena norma lain tidak penting",
+        "Karena ada perilaku berbahaya yang perlu sanksi tegas dan mengikat secara resmi",
+        "Karena norma hukum lebih mulia dari norma lainnya",
+        "Karena pemerintah ingin menambah penghasilan dari denda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A33",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Urutan norma berdasarkan kekuatan sanksinya dari yang paling ringan ke terberat adalah ...",
+      "opt": [
+        "Hukum → Agama → Kesusilaan → Kesopanan",
+        "Kesusilaan → Kesopanan → Agama → Hukum",
+        "Kesopanan → Kesusilaan → Agama → Hukum",
+        "Agama → Hukum → Kesopanan → Kesusilaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A34",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Norma yang paling mudah berubah seiring perkembangan zaman dan budaya adalah ...",
+      "opt": [
+        "Norma agama",
+        "Norma hukum",
+        "Norma kesopanan",
+        "Norma kesusilaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A35",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Seorang siswa berbicara dengan suara keras kepada gurunya. Norma yang dilanggar adalah ...",
+      "opt": [
+        "Norma hukum",
+        "Norma kesusilaan",
+        "Norma kesopanan",
+        "Norma agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A36",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Seorang pengemudi menerobos lampu merah. Norma yang dilanggar adalah ...",
+      "opt": [
+        "Norma kesopanan",
+        "Norma kesusilaan",
+        "Norma agama",
+        "Norma hukum"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A37",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Seseorang sengaja berbohong kepada temannya dan kemudian merasa bersalah. Norma yang paling langsung dilanggar adalah ...",
+      "opt": [
+        "Norma hukum",
+        "Norma kesopanan",
+        "Norma kesusilaan",
+        "Norma agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A38",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang keempat jenis norma adalah ...",
+      "opt": [
+        "Keempat norma saling bertentangan satu sama lain",
+        "Norma hukum adalah satu-satunya norma yang penting",
+        "Keempat norma saling melengkapi untuk membentuk kehidupan yang tertib",
+        "Norma agama menggantikan semua norma lain"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A39",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Seseorang yang tidak melaksanakan salat (bagi Muslim) melanggar ...",
+      "opt": [
+        "Norma hukum karena bisa dipidana",
+        "Norma kesopanan karena dilihat orang",
+        "Norma agama karena meninggalkan kewajiban kepada Tuhan",
+        "Norma kesusilaan karena merasa bersalah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A40",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Membuang sampah sembarangan melanggar ...",
+      "opt": [
+        "Hanya norma hukum",
+        "Norma hukum dan norma kesusilaan sekaligus",
+        "Hanya norma agama",
+        "Hanya norma kesopanan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A41",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Mengantri dengan tertib di kasir supermarket adalah contoh norma ...",
+      "opt": [
+        "Agama",
+        "Hukum",
+        "Kesopanan",
+        "Kesusilaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A42",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Tidak mencuri adalah norma yang termasuk dalam ...",
+      "opt": [
+        "Norma kesopanan saja",
+        "Norma kesusilaan dan agama saja",
+        "Norma agama, kesusilaan, dan hukum sekaligus",
+        "Norma hukum saja"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A43",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Menyapa tetangga dengan ramah saat berpapasan termasuk ...",
+      "opt": [
+        "Norma hukum",
+        "Norma kesopanan",
+        "Norma kesusilaan",
+        "Norma agama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A44",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Menolong orang yang jatuh karena merasa iba adalah contoh norma ...",
+      "opt": [
+        "Norma hukum",
+        "Norma kesopanan",
+        "Norma kesusilaan",
+        "Norma agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A45",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Mendirikan salat lima waktu (bagi Muslim) adalah contoh norma ...",
+      "opt": [
+        "Norma kesopanan",
+        "Norma hukum",
+        "Norma kesusilaan",
+        "Norma agama"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A46",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Membayar pajak kendaraan tepat waktu adalah contoh norma ...",
+      "opt": [
+        "Norma agama",
+        "Norma kesusilaan",
+        "Norma kesopanan",
+        "Norma hukum"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A47",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh Norma",
+      "stimulus": "",
+      "q": "Berpakaian dengan rapi dan menutup aurat saat ke tempat ibadah adalah contoh norma ...",
+      "opt": [
+        "Agama dan kesopanan sekaligus",
+        "Hukum saja",
+        "Kesusilaan saja",
+        "Kesopanan saja"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A48",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Di sebuah daerah, ada adat bahwa tamu harus menyantap makanan yang disajikan tuan rumah. Ini adalah contoh norma ...",
+      "opt": [
+        "Hukum",
+        "Agama",
+        "Kesusilaan",
+        "Kesopanan"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A49",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Norma 'berteriak di masjid adalah tidak sopan' berlaku bagi semua yang masuk ke masjid, termasuk tamu dari luar daerah. Ini menunjukkan ciri norma ...",
+      "opt": [
+        "Berubah seiring zaman",
+        "Berlaku umum",
+        "Bersumber dari hati nurani",
+        "Bisa dipilih-pilih"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A50",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Undang-Undang Lalu Lintas yang mengatur cara berkendara termasuk norma yang bersumber dari ...",
+      "opt": [
+        "Hati nurani masyarakat",
+        "Adat dan kebiasaan turun-temurun",
+        "Kesepakatan bersama yang dibuat pemerintah",
+        "Kitab suci agama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A51",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Seorang siswa tidak mencontek saat ujian meskipun pengawas tidak melihat. Motivasi utamanya adalah norma ...",
+      "opt": [
+        "Hukum karena mencontek bisa dikeluarkan",
+        "Kesopanan karena diajarkan orang tua",
+        "Kesusilaan karena hati nurani mengatakan mencontek itu salah",
+        "Agama karena dilarang dalam kitab suci"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A52",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang perbedaan norma agama dan norma hukum adalah ...",
+      "opt": [
+        "Norma agama dibuat pemerintah; norma hukum dari Tuhan",
+        "Norma agama bersumber dari Tuhan dan bersifat mutlak; norma hukum dibuat negara dan memaksa",
+        "Keduanya memiliki sanksi yang sama",
+        "Norma hukum lebih penting dari norma agama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A53",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Perasaan tidak enak (risih) saat melihat orang membuang sampah sembarangan meski tidak ada yang tahu adalah manifestasi dari ...",
+      "opt": [
+        "Norma hukum",
+        "Norma agama",
+        "Norma kesusilaan dari hati nurani",
+        "Norma kesopanan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A54",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Satu perbuatan bisa melanggar lebih dari satu norma sekaligus. Misalnya mencuri melanggar ...",
+      "opt": [
+        "Hanya norma hukum",
+        "Hanya norma agama",
+        "Norma agama, kesusilaan, dan hukum sekaligus",
+        "Hanya norma kesopanan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Tanpa norma, kehidupan bermasyarakat akan ...",
+      "opt": [
+        "Lebih bebas dan menyenangkan bagi semua",
+        "Mengalami kekacauan karena tidak ada aturan yang disepakati",
+        "Tetap berjalan dengan baik karena manusia itu baik hatinya",
+        "Lebih adil karena tidak ada yang memaksa siapapun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Analogi norma sebagai 'peraturan permainan kehidupan' menggambarkan bahwa ...",
+      "opt": [
+        "Kehidupan seperti permainan yang bisa diulang",
+        "Norma membuat kehidupan bersama bisa berjalan dengan teratur seperti permainan yang punya aturan",
+        "Kita harus selalu menang dalam kehidupan",
+        "Hidup hanya soal siapa yang kuat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Fungsi utama norma sebagai pedoman perilaku adalah ...",
+      "opt": [
+        "Memberikan hukuman bagi yang salah",
+        "Memberi tahu apa yang boleh dan tidak boleh dilakukan dalam kehidupan bersama",
+        "Membuat semua orang takut untuk berbuat apapun",
+        "Memaksa orang untuk setuju dengan pendapat pemimpin"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Norma juga berfungsi sebagai pelindung, artinya ...",
+      "opt": [
+        "Melindungi pemimpin dari kritik masyarakat",
+        "Melindungi hak dan kepentingan setiap orang dari perilaku orang lain yang merugikan",
+        "Melindungi norma itu sendiri dari perubahan",
+        "Melindungi aturan pemerintah dari pelanggaran"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma menciptakan ketertiban artinya ...",
+      "opt": [
+        "Semua orang dipaksa melakukan hal yang sama",
+        "Norma mengatur perilaku sehingga tidak ada yang bertindak semau sendiri",
+        "Ketertiban hanya bisa terjadi dengan norma hukum",
+        "Ketertiban membuat hidup menjadi membosankan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma melindungi hak setiap orang, yaitu ...",
+      "opt": [
+        "Hanya hak orang kaya yang perlu dilindungi",
+        "Hak untuk merasa aman, hak atas milik sendiri, dan hak untuk diperlakukan adil",
+        "Hanya hak warga yang taat hukum",
+        "Hak untuk berbuat apapun tanpa tanggung jawab"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma mempererat hubungan sosial karena ...",
+      "opt": [
+        "Norma membuat semua orang takut berinteraksi",
+        "Norma sopan santun membuat interaksi antar manusia menjadi menyenangkan dan saling menghargai",
+        "Norma memaksakan persahabatan antara orang asing",
+        "Norma membatasi pertemanan hanya dengan yang satu suku"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma menciptakan keadilan maksudnya ...",
+      "opt": [
+        "Semua orang mendapat bagian harta yang sama",
+        "Norma, terutama norma hukum, memastikan semua orang diperlakukan sama dan tidak ada yang sewenang-wenang",
+        "Keadilan hanya bisa dicapai dengan norma hukum",
+        "Orang yang lebih kuat berhak mendapat lebih banyak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma membentuk karakter karena ...",
+      "opt": [
+        "Norma memaksa semua orang berpikiran sama",
+        "Dengan terbiasa mematuhi norma sejak kecil, kita tumbuh menjadi pribadi berakhlak baik dan bertanggung jawab",
+        "Karakter hanya terbentuk dari hukuman",
+        "Norma menghilangkan kreativitas seseorang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma menjaga keutuhan masyarakat karena ...",
+      "opt": [
+        "Norma membuat semua orang menjadi sama dan seragam",
+        "Norma menjadi perekat sosial yang menyatukan masyarakat yang beragam agar bisa hidup rukun",
+        "Norma memaksa semua suku melebur menjadi satu budaya",
+        "Keutuhan hanya bisa dijaga dengan kekuatan militer"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Manfaat norma yang paling langsung dirasakan dalam kehidupan sehari-hari adalah ...",
+      "opt": [
+        "Mendapat hadiah dari pemerintah",
+        "Kehidupan menjadi lebih tertib, aman, dan nyaman bagi semua",
+        "Tidak perlu bekerja keras",
+        "Bebas dari semua permasalahan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Akibat melanggar norma kesopanan adalah ...",
+      "opt": [
+        "Dipenjara dan didenda",
+        "Rasa dosa yang mendalam",
+        "Ditegur, dijauhi, dan dianggap tidak beradab",
+        "Tidak ada akibat apapun"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Akibat melanggar norma kesusilaan terutama dirasakan oleh ...",
+      "opt": [
+        "Masyarakat yang mengucilkan pelanggar",
+        "Aparat hukum yang menindak",
+        "Pelanggar itu sendiri melalui rasa bersalah dan malu",
+        "Pemimpin agama yang memberi sanksi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Akibat melanggar norma hukum yang paling tegas adalah ...",
+      "opt": [
+        "Hanya dibicarakan tetangga",
+        "Denda, penjara, dan sanksi resmi dari negara",
+        "Rasa bersalah dalam hati",
+        "Tidak diundang ke acara RT"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Sanksi sosial seperti dijauhi tetangga bisa lebih terasa dampaknya dari sanksi hukum karena ...",
+      "opt": [
+        "Sanksi sosial lebih keras dari penjara",
+        "Manusia adalah makhluk sosial yang sangat membutuhkan penerimaan orang lain",
+        "Hukum tidak pernah ditegakkan di Indonesia",
+        "Tetangga lebih berkuasa dari polisi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Jika banyak orang melanggar norma secara bersamaan, akibatnya bagi masyarakat adalah ...",
+      "opt": [
+        "Masyarakat menjadi lebih bebas dan bahagia",
+        "Masyarakat mengalami kekacauan, ketidakamanan, dan hilangnya kepercayaan antar warga",
+        "Pemerintah menjadi lebih kuat",
+        "Tidak ada dampak yang berarti"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Novel Lord of the Flies mengisahkan anak-anak yang hidup tanpa norma dan menjadi kacau. Pesan dari kisah itu adalah ...",
+      "opt": [
+        "Anak-anak tidak perlu norma karena masih polos",
+        "Norma sangat penting; tanpa norma yang dijaga bersama, kehidupan mudah jatuh ke kekacauan",
+        "Orang dewasa tidak diperlukan dalam kehidupan bermasyarakat",
+        "Pulau terpencil adalah tempat terbaik untuk hidup"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Norma di lingkungan rumah yang paling utama adalah ...",
+      "opt": [
+        "Aturan yang dibuat pemerintah untuk semua rumah",
+        "Aturan yang disepakati dalam keluarga untuk menciptakan keharmonisan rumah tangga",
+        "Peraturan RT/RW yang berlaku di lingkungan",
+        "Hukum yang berlaku di seluruh Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Contoh norma di lingkungan rumah adalah ...",
+      "opt": [
+        "Menaati lampu merah di jalan",
+        "Membayar pajak tepat waktu",
+        "Membantu orang tua di rumah, menghormati anggota keluarga, dan tidur tepat waktu",
+        "Menghormati guru di sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Seorang anak selalu menyapa dan berpamitan kepada orang tua sebelum pergi sekolah. Ini adalah contoh norma di lingkungan ...",
+      "opt": [
+        "Sekolah",
+        "Masyarakat",
+        "Rumah",
+        "Hukum"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Manfaat mematuhi norma di rumah bagi anggota keluarga adalah ...",
+      "opt": [
+        "Membuat orang tua menjadi kaya",
+        "Menciptakan suasana rumah yang harmonis, saling menghormati, dan nyaman",
+        "Anak-anak mendapat nilai bagus di sekolah",
+        "Menghindari sanksi hukum dari pemerintah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Seorang anak tidak mau membantu pekerjaan rumah dan selalu minta dilayani. Ia melanggar norma ...",
+      "opt": [
+        "Hukum karena melanggar aturan negara",
+        "Di rumah karena tidak berkontribusi dalam kehidupan keluarga",
+        "Kesusilaan karena berbohong kepada orang tua",
+        "Agama karena tidak beribadah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Norma di lingkungan sekolah yang paling formal adalah ...",
+      "opt": [
+        "Kebiasaan siswa bermain bersama",
+        "Tata tertib sekolah yang dibuat dan disepakati bersama",
+        "Perintah langsung dari Tuhan",
+        "Keinginan guru kelas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Contoh norma di lingkungan sekolah yang benar adalah ...",
+      "opt": [
+        "Membayar pajak dan menaati undang-undang",
+        "Datang tepat waktu, berseragam rapi, menghormati guru, tidak mencontek",
+        "Menghormati pemimpin agama",
+        "Mematuhi adat istiadat kampung"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Mengapa datang tepat waktu ke sekolah termasuk norma yang penting?",
+      "opt": [
+        "Agar guru tidak marah kepada siswa",
+        "Karena menghargai waktu dan tidak mengganggu orang lain yang sudah siap belajar",
+        "Karena ada sanksi hukum yang berat jika terlambat",
+        "Karena pintu sekolah dikunci setelah jam tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Seorang siswa mencontek saat ujian. Norma sekolah yang dilanggar adalah ...",
+      "opt": [
+        "Norma berpakaian rapi",
+        "Norma kejujuran dalam akademik yang merupakan inti dari tata tertib sekolah",
+        "Norma datang tepat waktu",
+        "Norma kebersihan kelas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Manfaat norma di sekolah bagi proses belajar mengajar adalah ...",
+      "opt": [
+        "Membuat siswa takut kepada guru",
+        "Menciptakan suasana belajar yang kondusif dan tertib sehingga semua bisa belajar dengan baik",
+        "Membuat sekolah menjadi lebih terkenal",
+        "Meningkatkan nilai ujian secara otomatis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B28",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Seorang siswa membuang sampah sembarangan di kelas. Ia melanggar norma ...",
+      "opt": [
+        "Hukum negara saja",
+        "Agama saja",
+        "Sekolah dan juga norma kesusilaan",
+        "Hanya norma di rumah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B29",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Norma di lingkungan masyarakat mencakup ...",
+      "opt": [
+        "Hanya peraturan yang dibuat pemerintah pusat",
+        "Norma adat, peraturan RT/RW, dan undang-undang yang berlaku di wilayah tersebut",
+        "Hanya kebiasaan pribadi masing-masing warga",
+        "Aturan yang berlaku di negara lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B30",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Contoh norma di lingkungan masyarakat yang tepat adalah ...",
+      "opt": [
+        "Membantu pekerjaan rumah dan menghormati anggota keluarga",
+        "Datang tepat waktu ke sekolah",
+        "Mengikuti kerja bakti RT, tidak membuang sampah sembarangan, menghormati tetangga",
+        "Membayar biaya sekolah tepat waktu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B31",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Kerja bakti membersihkan lingkungan RT mencerminkan norma ...",
+      "opt": [
+        "Hukum yang memaksa semua warga",
+        "Masyarakat tentang gotong royong dan kepedulian bersama",
+        "Agama yang mewajibkan kebersihan",
+        "Sekolah tentang kebersihan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B32",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Seorang warga membunyikan musik keras-keras tengah malam saat tetangga sedang beristirahat. Ia melanggar norma ...",
+      "opt": [
+        "Agama saja",
+        "Hukum saja",
+        "Masyarakat tentang menghargai ketenangan dan kebutuhan orang lain",
+        "Kesusilaan saja"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B33",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Peraturan RT/RW merupakan contoh norma yang bersumber dari ...",
+      "opt": [
+        "Kitab suci agama",
+        "Hati nurani individu",
+        "Kesepakatan bersama warga di lingkungan tersebut",
+        "Pemerintah pusat"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B34",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Menghormati adat istiadat daerah setempat saat berkunjung ke suatu daerah adalah sikap ...",
+      "opt": [
+        "Yang tidak perlu dilakukan jika kita dari luar daerah",
+        "Yang menunjukkan penghargaan terhadap norma kesopanan setempat",
+        "Yang wajib hanya bagi warga asli daerah tersebut",
+        "Yang berlebihan dan tidak perlu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B35",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Sebagai siswa, cara paling nyata menjaga norma di sekolah adalah ...",
+      "opt": [
+        "Menyuruh teman yang melanggar norma untuk dihukum",
+        "Mematuhi tata tertib sekolah dan menjadi contoh yang baik bagi teman",
+        "Melaporkan semua pelanggaran ke kepala sekolah",
+        "Hanya guru yang bertanggung jawab menjaga norma"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B36",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Mengapa menjaga norma adalah tanggung jawab semua anggota masyarakat?",
+      "opt": [
+        "Karena pemerintah tidak mampu mengawasi semua orang",
+        "Karena norma hanya berlaku jika semua orang bersama-sama mematuhi dan menjaganya",
+        "Karena hanya orang baik yang perlu menjaga norma",
+        "Karena norma hanya berlaku untuk orang dewasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B37",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Contoh tindakan menjaga norma di lingkungan masyarakat yang bisa dilakukan anak SD adalah ...",
+      "opt": [
+        "Hanya orang dewasa yang bisa menjaga norma",
+        "Membuang sampah pada tempatnya, menyapa tetangga, dan tidak membuat keributan",
+        "Membuat peraturan baru di lingkungan RT",
+        "Menghukum tetangga yang melanggar norma"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B38",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Sikap yang baik saat melihat teman melanggar norma adalah ...",
+      "opt": [
+        "Ikut-ikutan melanggar norma",
+        "Mendiamkan saja karena bukan urusan kita",
+        "Mengingatkan dengan cara yang sopan dan baik",
+        "Melaporkan langsung ke polisi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B39",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Jalan raya yang tertib karena semua mematuhi rambu lalu lintas adalah contoh manfaat norma yaitu ...",
+      "opt": [
+        "Membentuk karakter",
+        "Menjaga keutuhan masyarakat",
+        "Menciptakan ketertiban",
+        "Melindungi hak"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B40",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Seseorang merasa aman meninggalkan sepeda di depan rumah karena ada norma yang melarang mencuri. Ini adalah manfaat norma yaitu ...",
+      "opt": [
+        "Menciptakan ketertiban",
+        "Melindungi hak setiap orang",
+        "Menjaga keutuhan masyarakat",
+        "Membentuk karakter"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B41",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Di sebuah wilayah, banyak warga yang membuang sampah sembarangan. Akibat yang paling mungkin terjadi adalah ...",
+      "opt": [
+        "Warga semakin rukun dan kompak",
+        "Lingkungan menjadi kotor, kumuh, dan timbul banjir",
+        "Pemerintah memberikan bantuan lebih banyak",
+        "Tidak ada dampak yang berarti"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B42",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Persamaan norma di rumah, sekolah, dan masyarakat adalah ...",
+      "opt": [
+        "Semuanya memiliki sanksi hukum yang sama",
+        "Semuanya bertujuan menciptakan kehidupan yang tertib, aman, dan saling menghormati",
+        "Semuanya dibuat oleh pemerintah pusat",
+        "Semuanya bersumber dari kitab suci agama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B43",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Seorang anak yang terbiasa mematuhi norma di rumah dan sekolah cenderung tumbuh menjadi ...",
+      "opt": [
+        "Seseorang yang selalu takut melakukan apapun",
+        "Seseorang yang tidak kreatif karena terbiasa mengikuti aturan",
+        "Pribadi yang berakhlak baik, bertanggung jawab, dan peduli sesama",
+        "Seseorang yang selalu bergantung pada orang lain"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B44",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Norma disebut sebagai 'perekat sosial' karena ...",
+      "opt": [
+        "Norma membuat semua orang menempel di satu tempat",
+        "Norma menyatukan masyarakat yang beragam agar bisa hidup rukun dan berdampingan",
+        "Norma membuat semua orang menjadi identik",
+        "Norma mengikat orang dalam kontrak tertulis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B45",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Kelas yang kondusif dan nyaman untuk belajar bisa terwujud jika ...",
+      "opt": [
+        "Hanya ada satu siswa yang pintar",
+        "Semua siswa dan guru saling menghormati dan mematuhi tata tertib bersama",
+        "Guru selalu memberikan hukuman",
+        "Tidak ada siswa yang bertanya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B46",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Seseorang yang dikenal sebagai pembohong akan mengalami akibat berupa ...",
+      "opt": [
+        "Mendapat hukuman dari pemerintah",
+        "Dirasuki rasa dosa yang terus-menerus",
+        "Kehilangan kepercayaan dari orang-orang di sekitarnya",
+        "Dianggap orang yang cerdas"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B47",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Mengapa norma di suatu daerah bisa berbeda dengan norma di daerah lain?",
+      "opt": [
+        "Karena pemerintah membuat norma yang berbeda di tiap daerah",
+        "Karena norma adat dan kesopanan dipengaruhi oleh kebiasaan dan budaya setempat yang berbeda-beda",
+        "Karena masyarakat satu daerah lebih baik dari daerah lain",
+        "Karena perbedaan iklim di setiap daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B48",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pernyataan yang paling tepat tentang hubungan norma dan kebebasan adalah ...",
+      "opt": [
+        "Norma menghilangkan semua kebebasan manusia",
+        "Norma dan kebebasan tidak bisa bersama-sama",
+        "Norma justru melindungi kebebasan setiap orang dengan mencegah orang lain berbuat semau sendiri",
+        "Kebebasan hanya bisa ada tanpa norma"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B49",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Contoh menjaga norma agama dalam kehidupan sehari-hari di sekolah adalah ...",
+      "opt": [
+        "Tidak mengganggu teman yang sedang beribadah atau berdoa sesuai keyakinan masing-masing",
+        "Mewajibkan semua teman mengikuti ibadah yang sama",
+        "Menolak berteman dengan yang berbeda agama",
+        "Mengkritik cara ibadah teman yang berbeda"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B50",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Seseorang yang sering menerobos antrean akan mengalami sanksi berupa ...",
+      "opt": [
+        "Dipenjara karena melanggar hukum",
+        "Dosa besar menurut agama",
+        "Pandangan negatif dan kemarahan dari orang-orang yang mengantri tertib",
+        "Tidak ada akibat karena antrean hanya kebiasaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B51",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Seseorang berperilaku sangat berbeda — sopan di sekolah tapi kasar di rumah. Ini menunjukkan bahwa ...",
+      "opt": [
+        "Norma di rumah lebih longgar dari di sekolah",
+        "Ia belum benar-benar menginternalisasi norma, karena norma yang baik seharusnya diterapkan di semua tempat",
+        "Rumah adalah tempat bebas dari norma",
+        "Ini adalah perilaku yang normal dan wajar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B52",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Pernyataan yang PALING tepat tentang pentingnya norma adalah ...",
+      "opt": [
+        "Norma hanya penting bagi orang dewasa",
+        "Norma hanya diperlukan di kota, tidak di pedesaan",
+        "Norma penting bagi semua manusia di manapun karena manusia adalah makhluk sosial",
+        "Norma hanya penting jika ada polisi yang mengawasi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B53",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Sekelompok warga bersepakat untuk tidak membuang sampah di sungai. Mereka sedang ...",
+      "opt": [
+        "Membuat norma hukum yang resmi",
+        "Menciptakan dan menjaga norma bersama untuk kebaikan lingkungan hidup mereka",
+        "Melanggar kebebasan warga lain",
+        "Hanya membuang waktu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B54",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Contoh norma yang berlaku sekaligus di rumah, sekolah, dan masyarakat adalah ...",
+      "opt": [
+        "Tata cara berpakaian seragam sekolah",
+        "Peraturan RT yang dibuat warga",
+        "Jujur, sopan, dan tidak merugikan orang lain",
+        "Aturan jam malam yang dibuat orang tua"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengertian Norma",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang norma adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Aturan atau pedoman yang mengatur tingkah laku manusia dalam kehidupan bermasyarakat",
+        "Diperlukan karena manusia adalah makhluk sosial yang perlu hidup bersama secara tertib",
+        "Hanya berlaku di kantor pemerintah",
+        "Hanya diperlukan di negara yang tidak aman"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Ciri-ciri norma yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berlaku umum bagi semua anggota masyarakat",
+        "Ada sanksi bagi yang melanggarnya",
+        "Hanya berlaku untuk orang kaya",
+        "Tidak pernah berubah sepanjang masa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Sumber-sumber yang melahirkan norma dalam kehidupan manusia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Agama dan kepercayaan sebagai perintah Tuhan",
+        "Adat istiadat yang diwariskan turun-temurun",
+        "Keinginan pribadi seseorang",
+        "Tren mode yang sedang populer"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Ciri-ciri norma agama yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bersumber dari ajaran agama dan diyakini sebagai perintah Tuhan",
+        "Sanksinya berupa rasa dosa dan hukuman di akhirat",
+        "Dibuat oleh pemerintah negara",
+        "Bisa berubah sesuai keinginan penganutnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Ciri-ciri norma kesopanan yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bersumber dari kebiasaan, tradisi, dan budaya masyarakat",
+        "Bersifat relatif — bisa berbeda antar daerah dan budaya",
+        "Bersumber dari hati nurani manusia",
+        "Dibuat oleh negara dan bersifat memaksa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Kesusilaan",
+      "stimulus": "",
+      "q": "Ciri-ciri norma kesusilaan yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bersumber dari hati nurani manusia",
+        "Sanksinya berupa rasa bersalah dan malu pada diri sendiri",
+        "Dibuat oleh adat istiadat masyarakat",
+        "Sanksinya berupa penjara dan denda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Ciri-ciri norma hukum yang membedakannya dari norma lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dibuat secara resmi oleh negara",
+        "Bersifat memaksa dan berlaku merata bagi semua warga negara",
+        "Bersumber dari hati nurani",
+        "Hanya berlaku bagi yang melanggarnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Norma yang sanksinya bersifat batin (dari dalam diri) adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma kesusilaan — sanksinya rasa bersalah",
+        "Norma agama — sanksinya rasa dosa",
+        "Norma hukum — sanksinya penjara",
+        "Norma kesopanan — sanksinya dikucilkan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Contoh norma agama yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjalankan ibadah sesuai ajaran agama masing-masing",
+        "Jujur dan tidak mencuri sebagai nilai yang diperintahkan Tuhan",
+        "Mengantri dengan tertib di kasir",
+        "Membayar pajak tepat waktu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Contoh norma kesopanan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memberi salam kepada tetangga saat berpapasan",
+        "Berpakaian sopan sesuai tempat dan situasi",
+        "Merasa bersalah saat berbohong",
+        "Membayar denda jika melanggar aturan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Contoh norma kesusilaan yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merasa iba dan menolong orang yang jatuh",
+        "Merasa bersalah setelah berbohong meski tidak ada yang tahu",
+        "Mengantri karena diwajibkan",
+        "Memberi salam karena adat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Contoh norma hukum dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menaati rambu lalu lintas",
+        "Membayar pajak tepat waktu",
+        "Merasa bersalah saat tidak jujur",
+        "Memberi salam kepada orang yang lebih tua"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Nilai-nilai yang hampir sama di semua agama adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jujur dan tidak mencuri",
+        "Menghormati orang tua dan tidak menyakiti orang lain",
+        "Cara dan waktu beribadah yang sama",
+        "Nama kitab suci yang sama"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A14",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Satu perbuatan bisa melanggar lebih dari satu norma. Mencuri misalnya melanggar ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma agama karena mencuri dilarang semua agama",
+        "Norma hukum karena mencuri adalah tindakan kriminal",
+        "Norma kesopanan karena dikucilkan",
+        "Tidak ada norma yang dilanggar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A15",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Norma kesopanan bersifat relatif. Artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apa yang dianggap sopan di satu budaya bisa berbeda di budaya lain",
+        "Norma kesopanan berbeda-beda tergantung kebiasaan setempat",
+        "Norma kesopanan sama persis di seluruh dunia",
+        "Norma kesopanan tidak perlu dipatuhi jika kita dari daerah berbeda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A16",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Norma yang bersumber dari kesepakatan bersama contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Peraturan RT/RW yang disepakati warga",
+        "Tata tertib sekolah yang dibuat bersama",
+        "Ajaran dalam kitab suci agama",
+        "Perasaan batin yang membedakan baik dan buruk"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A17",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Perbedaan antara norma kesusilaan dan norma kesopanan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kesusilaan bersumber dari hati nurani; kesopanan dari adat budaya",
+        "Sanksi kesusilaan batin (rasa bersalah); sanksi kesopanan sosial (dikucilkan)",
+        "Keduanya sama persis",
+        "Kesopanan lebih penting dari kesusilaan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A18",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Hukum",
+      "stimulus": "",
+      "q": "Keistimewaan norma hukum dibanding norma lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sanksinya tegas dan resmi dari negara",
+        "Berlaku merata bagi semua warga tanpa pengecualian",
+        "Sanksinya hanya berupa teguran lisan",
+        "Hanya berlaku bagi yang menyetujuinya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A19",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang keempat jenis norma adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keempat norma saling melengkapi untuk kehidupan yang tertib",
+        "Norma agama, kesopanan, kesusilaan, dan hukum semuanya diperlukan",
+        "Norma hukum menggantikan semua norma lain",
+        "Norma agama hanya berlaku bagi yang beragama saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A20",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengertian Norma",
+      "stimulus": "",
+      "q": "Manusia memerlukan norma dalam kehidupan bersama karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Manusia tidak bisa hidup sendirian dan perlu aturan agar bisa berdampingan",
+        "Norma membantu masyarakat hidup tertib, aman, dan saling menghormati",
+        "Norma hanya diperlukan oleh orang yang berbuat salah",
+        "Hanya pemerintah yang perlu norma"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A21",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Ciri norma yang menyatakan bahwa norma 'ditaati bersama' artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma diakui dan dipatuhi sebagai kesepakatan bersama anggota masyarakat",
+        "Norma berlaku bukan hanya untuk individu tertentu saja",
+        "Norma hanya berlaku bagi yang mau mematuhinya",
+        "Norma bisa dipilih mana yang dipatuhi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A22",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Norma yang sanksinya datang dari luar diri (eksternal) adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma hukum dengan sanksi denda dan penjara",
+        "Norma kesopanan dengan sanksi dikucilkan dan ditegur",
+        "Norma kesusilaan dengan sanksi rasa bersalah",
+        "Norma agama dengan sanksi rasa dosa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A23",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Hati nurani manusia melahirkan norma kesusilaan karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Manusia secara alami bisa membedakan mana yang baik dan mana yang buruk",
+        "Rasa batin ini mendorong manusia untuk berbuat baik tanpa perlu dipaksa",
+        "Hati nurani hanya ada pada orang beragama",
+        "Hati nurani bisa dibeli dengan uang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A24",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Norma agama mengatur hubungan yang meliputi ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Hubungan manusia dengan Tuhannya (ibadah)",
+        "Hubungan manusia dengan sesama dan alam sekitarnya",
+        "Hanya hubungan manusia dengan pemerintah",
+        "Hanya hubungan manusia dengan kekayaan alam"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A25",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Contoh yang menunjukkan seseorang mematuhi norma kesusilaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu orang yang kesusahan meski tidak ada yang melihat",
+        "Merasa tidak enak saat melihat orang membuang sampah sembarangan",
+        "Patuh pada hukum hanya karena takut ditilang",
+        "Sopan hanya jika ada orang yang memperhatikan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A26",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Contoh perbedaan norma kesopanan antar budaya yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Di sebagian budaya, menyisakan makanan berarti puas; di budaya lain berarti tidak menghargai tuan rumah",
+        "Di Indonesia anggukan berarti setuju; di Bulgaria anggukan berarti tidak setuju",
+        "Norma kesopanan selalu sama di seluruh dunia",
+        "Perbedaan norma kesopanan tidak mungkin terjadi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A27",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang hubungan antara norma agama dan norma kesusilaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keduanya memiliki sanksi yang bersifat batin",
+        "Banyak nilai norma agama sejalan dengan nilai norma kesusilaan",
+        "Keduanya dibuat oleh pemerintah",
+        "Keduanya hanya berlaku di tempat ibadah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Norma sangat penting bagi kehidupan bermasyarakat karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tanpa norma, kehidupan bersama akan mengalami kekacauan",
+        "Norma memungkinkan manusia bisa hidup berdampingan dengan damai",
+        "Norma membuat semua orang menjadi kaya",
+        "Norma hanya penting bagi orang yang sering berbuat salah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Manfaat norma bagi kehidupan bersama yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menciptakan ketertiban sehingga tidak ada yang bertindak semau sendiri",
+        "Melindungi hak setiap orang untuk merasa aman dan diperlakukan adil",
+        "Membuat semua orang menjadi sama dan seragam",
+        "Menghilangkan semua perbedaan dalam masyarakat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma mempererat hubungan sosial dan membentuk karakter. Artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma membuat interaksi menjadi menyenangkan dan saling menghargai",
+        "Dengan terbiasa mematuhi norma, kita tumbuh menjadi pribadi yang berakhlak baik",
+        "Norma memaksa semua orang untuk berteman",
+        "Norma menghilangkan kreativitas seseorang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Akibat melanggar norma dalam kehidupan bermasyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mendapat sanksi sesuai jenis norma yang dilanggar",
+        "Hubungan sosial dengan orang lain menjadi terganggu",
+        "Mendapat hadiah dari pemerintah",
+        "Tidak ada akibat apapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Contoh norma yang berlaku di lingkungan rumah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghormati orang tua dan anggota keluarga",
+        "Membantu pekerjaan rumah sesuai kemampuan",
+        "Membayar pajak tepat waktu",
+        "Mengikuti upacara bendera"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Contoh norma yang berlaku di lingkungan sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Datang tepat waktu dan berseragam rapi",
+        "Menghormati guru dan tidak mencontek",
+        "Mengikuti kerja bakti RT",
+        "Menyapa tetangga"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Contoh norma yang berlaku di lingkungan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengikuti kerja bakti lingkungan",
+        "Menjaga ketenangan malam hari agar tetangga bisa beristirahat",
+        "Menghormati guru",
+        "Mengerjakan PR tepat waktu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma menciptakan keadilan dan menjaga keutuhan masyarakat. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma hukum memastikan semua orang diperlakukan sama di hadapan hukum",
+        "Norma menjadi perekat yang menyatukan masyarakat yang beragam",
+        "Norma membuat orang kaya dan miskin tidak perlu berinteraksi",
+        "Norma memisahkan suku yang berbeda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pernyataan benar tentang sanksi pelanggaran norma adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma hukum sanksinya denda dan penjara dari negara",
+        "Norma kesopanan sanksinya dikucilkan dan dianggap tidak sopan",
+        "Semua norma memiliki sanksi penjara",
+        "Norma kesusilaan sanksinya denda uang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Fungsi norma sebagai pedoman dan pelindung artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma memberi tahu apa yang boleh dan tidak boleh dilakukan",
+        "Norma melindungi hak dan kepentingan setiap orang dari perilaku yang merugikan",
+        "Norma hanya melindungi orang yang kuat",
+        "Norma hanya berlaku jika ada polisi yang mengawasi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Perbandingan masyarakat dengan dan tanpa norma menunjukkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dengan norma: jalan raya tertib, antrean lancar, lingkungan terjaga",
+        "Tanpa norma: orang saling serobot, semua orang merasa tidak aman",
+        "Tanpa norma kehidupan lebih bebas dan bahagia",
+        "Dengan norma semua orang menjadi robot"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Persamaan antara norma di rumah, sekolah, dan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Semuanya bertujuan menciptakan kehidupan yang tertib dan saling menghormati",
+        "Semuanya bisa berlaku di lebih dari satu lingkungan",
+        "Semuanya dibuat oleh pemerintah pusat",
+        "Semuanya bersumber dari kitab suci"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Cara siswa SD menjaga norma dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mematuhi tata tertib sekolah dan menjadi contoh yang baik",
+        "Mengingatkan teman yang melanggar norma dengan cara yang sopan",
+        "Melaporkan semua pelanggaran ke polisi",
+        "Hanya guru yang bertanggung jawab menjaga norma"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B14",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Jika banyak warga melanggar norma di lingkungan masyarakat, dampaknya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lingkungan menjadi tidak aman dan tidak nyaman",
+        "Kepercayaan antar warga hilang dan konflik mudah terjadi",
+        "Lingkungan menjadi lebih maju",
+        "Pemerintah memberikan lebih banyak bantuan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B15",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Manfaat norma di sekolah bagi siswa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menciptakan suasana belajar yang kondusif dan nyaman",
+        "Membantu siswa belajar disiplin dan bertanggung jawab sejak dini",
+        "Membuat siswa takut kepada guru",
+        "Menghalangi siswa untuk berkreasi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B16",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Manfaat mematuhi norma di rumah bagi keluarga adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menciptakan suasana rumah yang harmonis dan saling menghormati",
+        "Anggota keluarga belajar tanggung jawab sejak dari lingkungan terdekat",
+        "Membuat orang tua menjadi lebih kaya",
+        "Menghasilkan nilai bagus di sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B17",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Mengapa norma di masyarakat bisa berbeda antar daerah?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Karena norma adat dipengaruhi oleh kebiasaan dan budaya setempat yang berbeda",
+        "Karena kondisi geografis dan sejarah tiap daerah berbeda-beda",
+        "Karena pemerintah membuat norma yang berbeda di tiap daerah",
+        "Karena orang di satu daerah lebih baik dari daerah lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B18",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma menjaga keutuhan masyarakat karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma menjadi perekat yang menyatukan masyarakat yang beragam",
+        "Dengan norma, perbedaan suku, agama, dan budaya bisa tetap hidup rukun",
+        "Norma memaksakan satu kebudayaan yang sama pada semua",
+        "Tanpa norma, keberagaman justru membuat masyarakat lebih kuat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B19",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Contoh akibat melanggar norma kesopanan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dijauhi teman karena dianggap tidak menghargai orang lain",
+        "Ditegur oleh orang yang lebih tua atau anggota masyarakat",
+        "Dipenjara oleh aparat hukum",
+        "Dihukum berdasarkan kitab suci"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B20",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Contoh tindakan konkret menjaga norma di masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membuang sampah pada tempatnya agar lingkungan bersih",
+        "Menghormati tetangga dengan tidak membuat keributan",
+        "Mengabaikan norma yang dianggap kuno",
+        "Hanya menjaga norma yang menguntungkan diri sendiri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B21",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang norma dan kebebasan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Norma melindungi kebebasan setiap orang dengan mencegah orang lain berbuat semau sendiri",
+        "Norma justru diperlukan agar kebebasan bisa dinikmati bersama secara adil",
+        "Norma sepenuhnya menghilangkan kebebasan manusia",
+        "Kebebasan sejati hanya bisa ada tanpa norma"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B22",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Norma yang berlaku sekaligus di rumah, sekolah, dan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jujur dan tidak berbohong",
+        "Menghormati orang lain dan tidak merugikan sesama",
+        "Tata cara berseragam sekolah",
+        "Aturan jam malam yang dibuat orang tua"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B23",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Sanksi sosial dianggap lebih terasa dampaknya karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Manusia adalah makhluk sosial yang membutuhkan penerimaan orang lain",
+        "Dijauhi teman atau tetangga bisa membuat hidup sangat tidak nyaman",
+        "Sanksi sosial lebih keras dari hukuman penjara",
+        "Hukum tidak pernah ditegakkan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B24",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Norma membentuk karakter sejak kecil. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Anak yang terbiasa mengantri sejak kecil tumbuh menjadi orang yang sabar",
+        "Anak yang dibiasakan menghormati orang tua tumbuh menjadi pribadi yang sopan",
+        "Anak yang tidak pernah diajari norma tumbuh menjadi lebih kreatif",
+        "Norma tidak berpengaruh pada karakter anak"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B25",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Pernyataan benar tentang norma tidak mencontek di sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mencontek melanggar norma kejujuran akademik",
+        "Terbiasa tidak mencontek membangun karakter jujur dan bertanggung jawab",
+        "Mencontek tidak apa-apa jika tidak ketahuan",
+        "Norma tidak mencontek hanya dibuat guru untuk menyusahkan siswa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B26",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Kisah Lord of the Flies mengajarkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tanpa norma yang dijaga bersama, kehidupan bisa jatuh ke kekacauan",
+        "Norma sangat penting bahkan bagi anak-anak sekalipun",
+        "Orang dewasa tidak penting dalam kehidupan bermasyarakat",
+        "Pulau terpencil adalah tempat terbaik untuk hidup"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B27",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang manfaat norma bagi individu dan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Individu: terlindungi haknya dan terbentuk karakternya",
+        "Masyarakat: hidup tertib, aman, adil, dan keutuhan terjaga",
+        "Individu menjadi tidak bebas sama sekali",
+        "Masyarakat tanpa norma justru lebih maju"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan jenis norma dengan sumbernya!",
+      "rows": [
+        "Kitab suci dan ajaran agama",
+        "Kebiasaan dan adat budaya masyarakat",
+        "Hati nurani manusia",
+        "Peraturan negara"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Kesusilaan"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Agama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan jenis norma dengan sanksinya!",
+      "rows": [
+        "Rasa dosa dan hukuman akhirat",
+        "Dikucilkan dan dianggap tidak sopan",
+        "Denda dan penjara dari negara",
+        "Rasa bersalah pada diri sendiri"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum",
+        "Norma Agama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh perilaku dengan norma yang dilanggar!",
+      "rows": [
+        "Menerobos lampu merah",
+        "Berbicara kasar kepada orang tua",
+        "Sengaja berbohong demi keuntungan sendiri",
+        "Membuang sampah di sungai"
+      ],
+      "cols": [
+        "Norma Hukum",
+        "Norma Kesopanan",
+        "Norma Kesusilaan"
+      ],
+      "ans": [
+        "Norma Hukum",
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh perilaku dengan norma yang diikuti!",
+      "rows": [
+        "Mendirikan salat lima waktu (Muslim)",
+        "Memberi salam saat bertemu tetangga",
+        "Membayar pajak kendaraan tepat waktu",
+        "Menolong orang jatuh karena iba"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum",
+        "Norma Agama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan ciri norma dengan jenis norma yang sesuai!",
+      "rows": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum",
+        "Norma Kesusilaan"
+      ],
+      "cols": [
+        "Mutlak dari Tuhan",
+        "Relatif antar budaya",
+        "Memaksa dari negara"
+      ],
+      "ans": [
+        "Mutlak dari Tuhan",
+        "Relatif antar budaya",
+        "Memaksa dari negara",
+        "Relatif antar budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Pasangkan sumber norma dengan contoh norma yang dihasilkan!",
+      "rows": [
+        "Dilarang berbohong (ajaran semua agama)",
+        "Tradisi menghormati tamu saat berkunjung",
+        "Merasa tidak nyaman saat melihat ketidakadilan",
+        "Peraturan lalu lintas negara"
+      ],
+      "cols": [
+        "Dari agama",
+        "Dari adat istiadat",
+        "Dari hati nurani"
+      ],
+      "ans": [
+        "Dari agama",
+        "Dari adat istiadat",
+        "Dari hati nurani",
+        "Dari agama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Pasangkan ciri norma dengan penjelasannya!",
+      "rows": [
+        "Berlaku bagi semua anggota masyarakat, bukan orang tertentu",
+        "Pelanggaran berakibat teguran, sanksi, atau hukuman",
+        "Norma bisa berubah mengikuti perkembangan masyarakat",
+        "Norma diakui oleh anggota masyarakat"
+      ],
+      "cols": [
+        "Berlaku umum",
+        "Ada sanksi",
+        "Berubah seiring zaman"
+      ],
+      "ans": [
+        "Berlaku umum",
+        "Ada sanksi",
+        "Berubah seiring zaman",
+        "Berlaku umum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan situasi dengan norma yang paling relevan!",
+      "rows": [
+        "Seseorang berpuasa di bulan Ramadan",
+        "Seseorang merasa bersalah setelah menemukan dompet dan mengambilnya",
+        "Seseorang ditilang karena tidak memakai helm",
+        "Seseorang memberi salam kepada tetangga"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesusilaan",
+        "Norma Hukum",
+        "Norma Agama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Pasangkan agama dengan contoh norma agamanya!",
+      "rows": [
+        "Salat lima waktu dan tidak mencuri",
+        "Mengasihi sesama dan beribadah hari Minggu",
+        "Tidak menyakiti makhluk hidup",
+        "Menjalankan tradisi budaya Jawa"
+      ],
+      "cols": [
+        "Islam",
+        "Kristen/Katolik",
+        "Hindu/Buddha"
+      ],
+      "ans": [
+        "Islam",
+        "Kristen/Katolik",
+        "Hindu/Buddha",
+        "Islam"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan jenis norma yang tepat!",
+      "rows": [
+        "Berpakaian sopan sesuai tempat",
+        "Menolong orang susah karena iba",
+        "Membayar pajak tepat waktu",
+        "Tidak memotong antrian"
+      ],
+      "cols": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum",
+        "Norma Kesopanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan sanksi dengan jenis norma yang menerapkannya!",
+      "rows": [
+        "Rasa bersalah dan dosa — Norma Agama & Kesusilaan",
+        "Dikucilkan dan dianggap tidak sopan — Norma Kesopanan",
+        "Denda dan penjara — Norma Hukum",
+        "Teguran dari guru"
+      ],
+      "cols": [
+        "Batin (dari dalam)",
+        "Sosial (dari luar)",
+        "Resmi (dari negara)"
+      ],
+      "ans": [
+        "Batin (dari dalam)",
+        "Sosial (dari luar)",
+        "Resmi (dari negara)",
+        "Sosial (dari luar)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh aturan dengan sumber norma yang melahirkannya!",
+      "rows": [
+        "Tata tertib sekolah yang dibuat bersama",
+        "Perasaan bersalah saat tidak menolong orang",
+        "Tradisi menghormati tamu di daerah tertentu",
+        "Undang-undang yang dibuat DPR"
+      ],
+      "cols": [
+        "Kesepakatan bersama",
+        "Hati nurani",
+        "Adat istiadat"
+      ],
+      "ans": [
+        "Kesepakatan bersama",
+        "Hati nurani",
+        "Adat istiadat",
+        "Kesepakatan bersama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan norma dengan sifat khas yang membedakannya!",
+      "rows": [
+        "Mutlak — diyakini sebagai perintah Tuhan",
+        "Memaksa — berlaku untuk semua warga negara",
+        "Batin — sanksinya dari dalam diri sendiri",
+        "Diberlakukan secara resmi tertulis"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Hukum",
+        "Norma Kesusilaan"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Hukum",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang norma dengan nilainya — benar atau salah!",
+      "rows": [
+        "Norma kesopanan bisa berbeda antar budaya",
+        "Norma hukum hanya berlaku bagi yang mau mematuhinya",
+        "Satu perbuatan bisa melanggar lebih dari satu norma sekaligus",
+        "Norma agama lebih penting dari norma hukum"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A15",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Pasangkan ciri norma dengan contohnya!",
+      "rows": [
+        "Semua pengendara wajib menaati rambu lalu lintas",
+        "Pembuang sampah bisa didenda oleh pemerintah",
+        "Warga RT bersepakat tidak membuang sampah di sungai",
+        "Norma sopan santun dipatuhi di semua daerah"
+      ],
+      "cols": [
+        "Berlaku umum",
+        "Ada sanksi",
+        "Ditaati bersama"
+      ],
+      "ans": [
+        "Berlaku umum",
+        "Ada sanksi",
+        "Ditaati bersama",
+        "Berlaku umum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A16",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma Kesopanan",
+      "stimulus": "",
+      "q": "Pasangkan contoh perbedaan norma kesopanan antar budaya dengan negara/daerahnya!",
+      "rows": [
+        "Anggukan kepala berarti setuju",
+        "Anggukan kepala berarti tidak setuju",
+        "Membungkuk saat menyapa sebagai tanda hormat",
+        "Menyisakan makanan berarti kenyang"
+      ],
+      "cols": [
+        "Indonesia",
+        "Bulgaria",
+        "Jepang"
+      ],
+      "ans": [
+        "Indonesia",
+        "Bulgaria",
+        "Jepang",
+        "Indonesia"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A17",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh perilaku dengan norma yang paling tepat menggambarkannya!",
+      "rows": [
+        "Tidak mencuri karena Tuhan melarang",
+        "Tidak mencuri karena hati nurani melarang",
+        "Tidak mencuri karena ada ancaman penjara",
+        "Tidak mencuri karena takut dihukum negara"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesusilaan",
+        "Norma Hukum",
+        "Norma Hukum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A18",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Pasangkan sumber norma dengan pertanyaan yang membantu mengenalinya!",
+      "rows": [
+        "Apakah ini perintah Tuhan dalam kitab suci?'",
+        "Apakah batinku merasa ini baik atau buruk?'",
+        "Apakah ini disepakati bersama oleh anggota kelompok?'",
+        "Apakah ini tertulis dalam undang-undang?'"
+      ],
+      "cols": [
+        "Agama/Kepercayaan",
+        "Hati nurani",
+        "Kesepakatan bersama"
+      ],
+      "ans": [
+        "Agama/Kepercayaan",
+        "Hati nurani",
+        "Kesepakatan bersama",
+        "Kesepakatan bersama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A19",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan jenis norma dengan contoh spesifik di kehidupan sekolah!",
+      "rows": [
+        "Memberi salam kepada guru saat masuk kelas",
+        "Tidak mencontek meski tidak diawasi karena itu tidak jujur",
+        "Memakai seragam sesuai peraturan sekolah",
+        "Merasa bersalah saat tidak mengerjakan PR"
+      ],
+      "cols": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum",
+        "Norma Kesusilaan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A20",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang sanksi norma dengan nilainya!",
+      "rows": [
+        "Sanksi norma kesusilaan berasal dari dalam diri sendiri",
+        "Sanksi norma hukum bersifat batin saja",
+        "Sanksi norma kesopanan bersifat sosial",
+        "Sanksi norma agama berupa penjara dari pemerintah"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A21",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma Agama",
+      "stimulus": "",
+      "q": "Pasangkan nilai universal yang ada di semua agama dengan contoh perintahnya!",
+      "rows": [
+        "Islam: jangan berbohong; Kristen: jangan bersaksi dusta",
+        "Islam: birrul walidain; Kristen: hormati ayah dan ibumu",
+        "Islam: jangan mencuri; Buddha: tidak mencuri",
+        "Hanya berlaku di satu agama saja"
+      ],
+      "cols": [
+        "Jujur",
+        "Menghormati orang tua",
+        "Tidak merugikan orang lain"
+      ],
+      "ans": [
+        "Jujur",
+        "Menghormati orang tua",
+        "Tidak merugikan orang lain",
+        "Jujur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A22",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh perubahan norma dengan ciri norma yang ditunjukkannya!",
+      "rows": [
+        "Berpakaian sopan dulu berbeda dengan sekarang",
+        "Semua siswa wajib memakai seragam sekolah",
+        "Siswa yang melanggar tata tertib mendapat teguran",
+        "Warga yang membuang sampah didenda"
+      ],
+      "cols": [
+        "Berubah seiring zaman",
+        "Berlaku umum",
+        "Ada sanksi"
+      ],
+      "ans": [
+        "Berubah seiring zaman",
+        "Berlaku umum",
+        "Ada sanksi",
+        "Ada sanksi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A23",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan jenis norma dengan alasan mengapa ia diperlukan!",
+      "rows": [
+        "Agar manusia menjaga hubungan dengan Tuhan dan sesama",
+        "Agar interaksi antar manusia berlangsung dengan sopan",
+        "Agar ada aturan yang mengikat secara tegas bagi semua",
+        "Agar warga negara menaati peraturan tertulis"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Hukum",
+        "Norma Hukum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A24",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan situasi dengan jumlah norma yang dilanggar!",
+      "rows": [
+        "Terlambat ke sekolah — hanya norma tata tertib",
+        "Berbicara kasar dan menyakiti hati orang — kesopanan + kesusilaan",
+        "Mencuri — agama + kesusilaan + hukum",
+        "Tidak berdoa sebelum makan"
+      ],
+      "cols": [
+        "1 norma saja",
+        "2 norma sekaligus",
+        "3 norma sekaligus"
+      ],
+      "ans": [
+        "1 norma saja",
+        "2 norma sekaligus",
+        "3 norma sekaligus",
+        "1 norma saja"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A25",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sumber Norma",
+      "stimulus": "",
+      "q": "Pasangkan aturan dengan sumber norma yang melahirkannya!",
+      "rows": [
+        "Salat lima waktu bagi umat Islam",
+        "Tradisi sungkeman kepada orang tua saat Lebaran",
+        "Peraturan RT tentang jam malam",
+        "Larangan mencuri dalam semua kitab suci"
+      ],
+      "cols": [
+        "Agama/Kepercayaan",
+        "Adat Istiadat",
+        "Kesepakatan Bersama"
+      ],
+      "ans": [
+        "Agama/Kepercayaan",
+        "Adat Istiadat",
+        "Kesepakatan Bersama",
+        "Agama/Kepercayaan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A26",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan tokoh dengan norma utama yang dipatuhinya dalam cerita!",
+      "rows": [
+        "Ani yang rajin beribadah karena keyakinan kepada Tuhan",
+        "Budi yang mengembalikan dompet yang ditemukannya meski tidak dilihat orang",
+        "Dedi yang selalu memakai helm karena taat peraturan",
+        "Eka yang menaati rambu lalu lintas karena wajib oleh negara"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesusilaan",
+        "Norma Hukum"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesusilaan",
+        "Norma Hukum",
+        "Norma Hukum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A27",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang norma agama dengan nilainya!",
+      "rows": [
+        "Norma agama diyakini sebagai perintah langsung dari Tuhan",
+        "Norma agama mengatur ibadah saja, bukan hubungan dengan sesama",
+        "Nilai inti norma agama seperti jujur bersifat universal",
+        "Norma agama hanya untuk orang yang sangat taat"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A28",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Norma",
+      "stimulus": "",
+      "q": "Pasangkan deskripsi dengan jenis norma yang dimaksud!",
+      "rows": [
+        "Mutlak; bersumber dari Tuhan; sanksi di akhirat",
+        "Relatif antar budaya; dari kebiasaan masyarakat; sanksi sosial",
+        "Dari hati nurani; sanksi batin berupa rasa bersalah",
+        "Hati nurani mendorong berbuat baik tanpa paksaan"
+      ],
+      "cols": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Kesusilaan"
+      ],
+      "ans": [
+        "Norma Agama",
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Kesusilaan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan manfaat norma dengan penjelasannya!",
+      "rows": [
+        "Tidak ada yang bertindak semau sendiri tanpa peduli orang lain",
+        "Hak untuk aman, hak atas milik sendiri, hak diperlakukan adil",
+        "Terbiasa patuh norma membentuk pribadi berakhlak baik",
+        "Norma memaksa semua orang menjadi sama"
+      ],
+      "cols": [
+        "Menciptakan ketertiban",
+        "Melindungi hak",
+        "Membentuk karakter"
+      ],
+      "ans": [
+        "Menciptakan ketertiban",
+        "Melindungi hak",
+        "Membentuk karakter",
+        "Menciptakan ketertiban"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh kehidupan dengan manfaat norma yang dicerminkannya!",
+      "rows": [
+        "Jalan raya tertib karena semua menaati rambu",
+        "Semua orang diperlakukan sama di hadapan hukum",
+        "Masyarakat beragam suku hidup rukun",
+        "Norma mempererat hubungan antar tetangga"
+      ],
+      "cols": [
+        "Ketertiban",
+        "Keadilan",
+        "Keutuhan masyarakat"
+      ],
+      "ans": [
+        "Ketertiban",
+        "Keadilan",
+        "Keutuhan masyarakat",
+        "Keutuhan masyarakat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pasangkan pelanggaran norma dengan akibatnya!",
+      "rows": [
+        "Dijauhi, ditegur, dianggap tidak sopan",
+        "Didenda, dipenjara, mendapat catatan kriminal",
+        "Rasa bersalah, kehilangan kepercayaan diri",
+        "Dijauhi tetangga"
+      ],
+      "cols": [
+        "Pelanggaran norma kesopanan",
+        "Pelanggaran norma hukum",
+        "Pelanggaran norma kesusilaan"
+      ],
+      "ans": [
+        "Pelanggaran norma kesopanan",
+        "Pelanggaran norma hukum",
+        "Pelanggaran norma kesusilaan",
+        "Pelanggaran norma kesopanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Pasangkan norma dengan lingkungan tempat berlakunya!",
+      "rows": [
+        "Menghormati orang tua dan membantu pekerjaan rumah",
+        "Datang tepat waktu dan tidak mencontek",
+        "Mengikuti kerja bakti RT",
+        "Membayar pajak negara"
+      ],
+      "cols": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat"
+      ],
+      "ans": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat",
+        "Di Masyarakat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan perbandingan dengan kondisi yang digambarkannya!",
+      "rows": [
+        "Antrean di kasir berjalan lancar",
+        "Orang saling serobot, yang lebih kuat menang",
+        "Lingkungan bersih karena tidak ada yang buang sampah sembarangan",
+        "Jalan raya kacau, kecelakaan di mana-mana"
+      ],
+      "cols": [
+        "Dengan norma",
+        "Tanpa norma",
+        "Dengan norma"
+      ],
+      "ans": [
+        "Dengan norma",
+        "Tanpa norma",
+        "Dengan norma",
+        "Tanpa norma"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Pasangkan norma sekolah dengan manfaat yang diberikannya!",
+      "rows": [
+        "Menghargai waktu belajar semua orang",
+        "Membangun karakter jujur dan bertanggung jawab",
+        "Menciptakan suasana rapi dan kondusif",
+        "Mengurangi kecelakaan di jalan"
+      ],
+      "cols": [
+        "Datang tepat waktu",
+        "Tidak mencontek",
+        "Berseragam rapi"
+      ],
+      "ans": [
+        "Datang tepat waktu",
+        "Tidak mencontek",
+        "Berseragam rapi",
+        "Datang tepat waktu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pasangkan contoh pelanggaran dengan akibat yang paling mungkin terjadi!",
+      "rows": [
+        "Berbicara kasar di depan umum — dianggap tidak sopan",
+        "Membuang sampah sembarangan — didenda pemerintah",
+        "Berbohong kepada teman — rasa bersalah",
+        "Tidak salat — rasa dosa"
+      ],
+      "cols": [
+        "Sosial (dikucilkan)",
+        "Resmi (dari negara)",
+        "Batin (dari dalam diri)"
+      ],
+      "ans": [
+        "Sosial (dikucilkan)",
+        "Resmi (dari negara)",
+        "Batin (dari dalam diri)",
+        "Batin (dari dalam diri)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Pasangkan fungsi norma dengan penjelasannya!",
+      "rows": [
+        "Memberi tahu apa yang boleh dan tidak boleh dilakukan",
+        "Melindungi hak dan kepentingan dari perilaku yang merugikan",
+        "Menyatukan masyarakat yang beragam agar hidup rukun",
+        "Memberikan hukuman bagi yang salah"
+      ],
+      "cols": [
+        "Sebagai pedoman perilaku",
+        "Sebagai pelindung",
+        "Sebagai perekat sosial"
+      ],
+      "ans": [
+        "Sebagai pedoman perilaku",
+        "Sebagai pelindung",
+        "Sebagai perekat sosial",
+        "Sebagai pedoman perilaku"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Pasangkan norma di rumah dengan manfaatnya bagi keluarga!",
+      "rows": [
+        "Menciptakan hubungan keluarga yang harmonis",
+        "Belajar tanggung jawab sejak dini",
+        "Menjaga kesehatan dan mempersiapkan diri untuk keesokan hari",
+        "Membuat rumah menjadi kaya"
+      ],
+      "cols": [
+        "Menghormati orang tua",
+        "Membantu pekerjaan rumah",
+        "Tidur tepat waktu"
+      ],
+      "ans": [
+        "Menghormati orang tua",
+        "Membantu pekerjaan rumah",
+        "Tidur tepat waktu",
+        "Menghormati orang tua"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang manfaat norma dengan nilainya — benar atau salah!",
+      "rows": [
+        "Norma melindungi kebebasan semua orang dengan mencegah tindakan sewenang-wenang",
+        "Norma sepenuhnya menghilangkan kebebasan manusia",
+        "Norma menjadi perekat yang menyatukan masyarakat yang beragam",
+        "Tanpa norma, masyarakat justru lebih maju dan bebas"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Pasangkan cara menjaga norma dengan lingkungan tempat melakukannya!",
+      "rows": [
+        "Membantu orang tua tanpa disuruh",
+        "Mengumpulkan tugas tepat waktu",
+        "Ikut kerja bakti membersihkan lingkungan",
+        "Membayar tagihan listrik"
+      ],
+      "cols": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat"
+      ],
+      "ans": [
+        "Di Rumah",
+        "Di Sekolah",
+        "Di Masyarakat",
+        "Di Rumah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang akibat pelanggaran norma dengan nilainya!",
+      "rows": [
+        "Sanksi sosial seperti dijauhi bisa lebih terasa dari sanksi hukum bagi manusia sosial",
+        "Pelanggaran norma tidak pernah berdampak pada hubungan sosial",
+        "Jika banyak orang melanggar norma bersama, kehidupan masyarakat bisa kacau",
+        "Pelanggaran norma kesusilaan sanksinya adalah penjara"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan norma di masyarakat dengan tujuannya!",
+      "rows": [
+        "Menjaga kebersihan dan kesehatan lingkungan",
+        "Menciptakan gotong royong dan kepedulian bersama",
+        "Menghormati kebutuhan istirahat tetangga",
+        "Memperlihatkan kekayaan warga"
+      ],
+      "cols": [
+        "Tidak membuang sampah sembarangan",
+        "Mengikuti kerja bakti RT",
+        "Menjaga ketenangan malam hari"
+      ],
+      "ans": [
+        "Tidak membuang sampah sembarangan",
+        "Mengikuti kerja bakti RT",
+        "Menjaga ketenangan malam hari",
+        "Tidak membuang sampah sembarangan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan manfaat norma yang ditunjukkannya!",
+      "rows": [
+        "Sepeda yang ditinggal di depan rumah tidak dicuri",
+        "Tetangga saling menyapa dan membantu satu sama lain",
+        "Masyarakat beragam budaya bisa hidup rukun",
+        "Interaksi sosial yang menyenangkan dan saling menghargai"
+      ],
+      "cols": [
+        "Melindungi hak",
+        "Mempererat hubungan sosial",
+        "Menjaga keutuhan"
+      ],
+      "ans": [
+        "Melindungi hak",
+        "Mempererat hubungan sosial",
+        "Menjaga keutuhan",
+        "Mempererat hubungan sosial"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B15",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Sekolah",
+      "stimulus": "",
+      "q": "Pasangkan norma sekolah dengan jenis norma yang mendasarinya!",
+      "rows": [
+        "Memberi salam kepada guru saat masuk kelas",
+        "Tidak mencontek meski tidak diawasi",
+        "Memakai seragam sesuai peraturan sekolah",
+        "Berteriak-teriak di perpustakaan"
+      ],
+      "cols": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum (Tata Tertib)"
+      ],
+      "ans": [
+        "Norma Kesopanan",
+        "Norma Kesusilaan",
+        "Norma Hukum (Tata Tertib)",
+        "Norma Kesopanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B16",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Pasangkan analogi dengan makna yang terkandung di dalamnya!",
+      "rows": [
+        "Norma sebagai aturan yang memungkinkan kehidupan bersama berjalan teratur",
+        "Norma menyatukan masyarakat yang beragam",
+        "Norma melindungi hak setiap orang dari tindakan yang merugikan",
+        "Norma sebagai hadiah"
+      ],
+      "cols": [
+        "Peraturan permainan",
+        "Perekat sosial",
+        "Perisai/pelindung"
+      ],
+      "ans": [
+        "Peraturan permainan",
+        "Perekat sosial",
+        "Perisai/pelindung",
+        "Peraturan permainan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B17",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pasangkan kondisi masyarakat dengan ada atau tidaknya norma!",
+      "rows": [
+        "Jalan raya tertib, antrean lancar",
+        "Orang saling serobot, semua tidak aman",
+        "Milik orang terjaga karena ada larangan mencuri",
+        "Orang saling curiga dan tidak percaya"
+      ],
+      "cols": [
+        "Ada norma",
+        "Tanpa norma",
+        "Ada norma"
+      ],
+      "ans": [
+        "Ada norma",
+        "Tanpa norma",
+        "Ada norma",
+        "Tanpa norma"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B18",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Rumah",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang norma di rumah dengan nilainya!",
+      "rows": [
+        "Norma di rumah membantu anggota keluarga hidup harmonis",
+        "Rumah adalah tempat bebas dari norma apapun",
+        "Kebiasaan baik di rumah membentuk karakter anak",
+        "Norma di rumah hanya berlaku untuk anak-anak"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B19",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Pasangkan contoh tindakan menjaga norma dengan nilainya — benar atau salah!",
+      "rows": [
+        "Mengingatkan teman yang membuang sampah sembarangan",
+        "Membiarkan teman mencontek karena bukan urusan kita",
+        "Membuang sampah di tempat yang tepat",
+        "Bising di perpustakaan karena tidak ada yang melarang"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B20",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan manfaat norma dengan contoh nyata di kehidupan!",
+      "rows": [
+        "Lalu lintas tertib karena semua menaati rambu",
+        "Tetangga saling tolong saat ada yang kesusahan",
+        "Anak yang terbiasa jujur tumbuh menjadi orang yang bertanggung jawab",
+        "Hanya orang kaya yang mendapat perlindungan hukum"
+      ],
+      "cols": [
+        "Menciptakan ketertiban",
+        "Mempererat hubungan sosial",
+        "Membentuk karakter"
+      ],
+      "ans": [
+        "Menciptakan ketertiban",
+        "Mempererat hubungan sosial",
+        "Membentuk karakter",
+        "Menciptakan ketertiban"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B21",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang norma di masyarakat dengan nilainya!",
+      "rows": [
+        "Norma adat bisa berbeda antar daerah sesuai budaya setempat",
+        "Norma di masyarakat harus sama persis dengan norma di kota lain",
+        "Menghormati adat setempat saat berkunjung adalah sikap yang baik",
+        "Peraturan RT tidak termasuk norma"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B22",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pasangkan pelanggar norma dengan akibat yang paling tepat!",
+      "rows": [
+        "Dijauhi dan dianggap tidak beradab oleh masyarakat",
+        "Didenda atau dipenjara oleh aparat negara",
+        "Mengalami rasa bersalah dan kehilangan kepercayaan diri",
+        "Mengalami sanksi sosial karena dianggap kurang ajar"
+      ],
+      "cols": [
+        "Pelanggar norma kesopanan",
+        "Pelanggar norma hukum",
+        "Pelanggar norma kesusilaan"
+      ],
+      "ans": [
+        "Pelanggar norma kesopanan",
+        "Pelanggar norma hukum",
+        "Pelanggar norma kesusilaan",
+        "Pelanggar norma kesopanan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B23",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peran Kita",
+      "stimulus": "",
+      "q": "Pasangkan peran dalam menjaga norma dengan contoh tindakannya!",
+      "rows": [
+        "Mematuhi tata tertib dan menjadi contoh baik bagi teman",
+        "Membantu orang tua dan menghormati anggota keluarga",
+        "Ikut kerja bakti dan menjaga kebersihan lingkungan",
+        "Hanya menonton orang lain melaksanakan norma"
+      ],
+      "cols": [
+        "Sebagai siswa",
+        "Sebagai anggota keluarga",
+        "Sebagai warga masyarakat"
+      ],
+      "ans": [
+        "Sebagai siswa",
+        "Sebagai anggota keluarga",
+        "Sebagai warga masyarakat",
+        "Sebagai siswa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B24",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Norma di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Pasangkan norma dengan semua lingkungan di mana ia berlaku!",
+      "rows": [
+        "Memakai seragam sekolah",
+        "Menghormati yang lebih tua",
+        "Jujur dan tidak berbohong",
+        "Membayar iuran RT"
+      ],
+      "cols": [
+        "Hanya di sekolah",
+        "Di rumah dan sekolah",
+        "Di semua lingkungan"
+      ],
+      "ans": [
+        "Hanya di sekolah",
+        "Di rumah dan sekolah",
+        "Di semua lingkungan",
+        "Di rumah dan sekolah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B25",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pentingnya Norma",
+      "stimulus": "",
+      "q": "Pasangkan kondisi masyarakat dengan manfaat norma yang membuatnya terwujud!",
+      "rows": [
+        "Semua pengendara menaati aturan lalu lintas",
+        "Semua orang diperlakukan sama di depan hukum",
+        "Masyarakat berbeda suku hidup berdampingan rukun",
+        "Lingkungan bersih dan sehat"
+      ],
+      "cols": [
+        "Ketertiban",
+        "Keadilan",
+        "Keutuhan"
+      ],
+      "ans": [
+        "Ketertiban",
+        "Keadilan",
+        "Keutuhan",
+        "Ketertiban"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B26",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Akibat Pelanggaran",
+      "stimulus": "",
+      "q": "Pasangkan jenis sanksi dengan contoh konkretnya!",
+      "rows": [
+        "Dijauhi tetangga karena sering berbohong",
+        "Didenda Rp250.000 karena tidak memakai helm",
+        "Merasa bersalah setelah menipu teman",
+        "Mendapat hadiah karena patuh"
+      ],
+      "cols": [
+        "Sanksi sosial",
+        "Sanksi hukum",
+        "Sanksi batin"
+      ],
+      "ans": [
+        "Sanksi sosial",
+        "Sanksi hukum",
+        "Sanksi batin",
+        "Sanksi sosial"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B27",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Manfaat Norma",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang pentingnya norma dengan nilainya!",
+      "rows": [
+        "Norma penting bagi semua manusia di manapun karena manusia adalah makhluk sosial",
+        "Norma hanya penting di kota besar dan tidak di pedesaan",
+        "Norma melindungi kebebasan setiap orang, bukan menghilangkannya",
+        "Tanpa norma, kehidupan menjadi lebih adil"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

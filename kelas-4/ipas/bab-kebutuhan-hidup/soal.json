@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "IPAS",
+  "bab": "Bab 3 — Kebutuhan Hidup",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Kebutuhan",
+      "stimulus": "",
+      "q": "Kebutuhan adalah ...",
+      "opt": [
+        "Segala sesuatu yang kita inginkan agar merasa senang",
+        "Segala sesuatu yang harus dipenuhi agar manusia dapat hidup dengan layak",
+        "Barang-barang mewah yang membuat hidup lebih nyaman",
+        "Keinginan yang muncul akibat pengaruh iklan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Kebutuhan",
+      "stimulus": "",
+      "q": "Jika kebutuhan tidak terpenuhi, akibat yang paling tepat adalah ...",
+      "opt": [
+        "Hanya merasa sedikit kecewa saja",
+        "Tidak ada dampak karena manusia bisa beradaptasi",
+        "Manusia mengalami kesulitan atau penderitaan yang serius",
+        "Manusia akan mencari keinginan lain sebagai pengganti"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Kebutuhan",
+      "stimulus": "",
+      "q": "Sejak bangun pagi hingga tidur malam, manusia terus memenuhi kebutuhannya. Contoh kebutuhan yang dipenuhi saat bangun pagi adalah ...",
+      "opt": [
+        "Membeli mobil baru untuk gaya hidup",
+        "Makan sarapan dan memakai pakaian ke sekolah",
+        "Menonton film hiburan di bioskop",
+        "Membeli mainan terbaru yang sedang tren"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Perbedaan utama antara kebutuhan dan keinginan adalah ...",
+      "opt": [
+        "Kebutuhan lebih mahal dari keinginan",
+        "Keinginan selalu lebih menyenangkan dari kebutuhan",
+        "Kebutuhan harus dipenuhi untuk bertahan hidup; keinginan tidak wajib dipenuhi",
+        "Kebutuhan dan keinginan adalah hal yang sama"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Jika keinginan tidak terpenuhi, dampaknya adalah ...",
+      "opt": [
+        "Membahayakan keselamatan jiwa",
+        "Hanya merasa kecewa, tapi masih bisa hidup dengan baik",
+        "Mengakibatkan penyakit serius",
+        "Tidak bisa beraktivitas sama sekali"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Berikut yang termasuk kebutuhan (bukan keinginan) adalah ...",
+      "opt": [
+        "HP terbaru seri terkini",
+        "Mainan remote control yang mahal",
+        "Makanan bergizi untuk makan siang",
+        "Sepatu merek ternama yang mewah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Dina ingin membeli baju dengan merek mahal, padahal baju lamanya masih bagus. Ini termasuk ...",
+      "opt": [
+        "Kebutuhan primer karena baju adalah kebutuhan",
+        "Keinginan, karena baju murah pun sudah bisa melindungi tubuh",
+        "Kebutuhan sekunder yang wajib dipenuhi",
+        "Kebutuhan tersier yang boleh dipenuhi kapan saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang batas kebutuhan dan keinginan adalah ...",
+      "opt": [
+        "Baju selalu menjadi kebutuhan dalam kondisi apapun",
+        "Yang membedakan bukan bendanya, tapi seberapa perlu benda itu untuk kelangsungan hidup",
+        "Keinginan bisa berubah menjadi kebutuhan jika sudah dibeli",
+        "Semua barang mahal adalah keinginan, semua barang murah adalah kebutuhan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Primer",
+      "stimulus": "",
+      "q": "Kebutuhan primer adalah ...",
+      "opt": [
+        "Kebutuhan kemewahan yang menunjukkan status sosial",
+        "Kebutuhan tambahan setelah kebutuhan pokok terpenuhi",
+        "Kebutuhan paling pokok yang wajib dipenuhi agar manusia bisa bertahan hidup",
+        "Kebutuhan yang bisa ditunda pemenuhannya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Primer",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan primer (sandang, pangan, papan) adalah ...",
+      "opt": [
+        "Televisi, lemari es, dan sepeda motor",
+        "Makanan, pakaian, dan tempat tinggal",
+        "Mobil mewah, perhiasan, dan villa",
+        "Pendidikan, hiburan, dan rekreasi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Primer",
+      "stimulus": "",
+      "q": "Istilah sandang, pangan, papan merujuk pada ...",
+      "opt": [
+        "Pakaian, makanan, dan tempat tinggal",
+        "Sekolah, makanan, dan kesehatan",
+        "Transportasi, makanan, dan hiburan",
+        "Pakaian, minuman, dan rekreasi"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sekunder",
+      "stimulus": "",
+      "q": "Kebutuhan sekunder adalah kebutuhan yang ...",
+      "opt": [
+        "Paling wajib dan tidak bisa ditunda",
+        "Diperlukan setelah primer terpenuhi, menunjang kehidupan lebih baik",
+        "Hanya bisa dipenuhi oleh orang kaya",
+        "Sama pentingnya dengan kebutuhan primer"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sekunder",
+      "stimulus": "",
+      "q": "Contoh kebutuhan sekunder yang tepat adalah ...",
+      "opt": [
+        "Makanan bergizi dan air minum",
+        "Villa mewah dan perhiasan emas",
+        "Perabot rumah, sepeda, dan televisi",
+        "Pakaian sehari-hari dan tempat tinggal"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Tersier",
+      "stimulus": "",
+      "q": "Kebutuhan tersier bersifat kemewahan dan biasanya dipenuhi setelah ...",
+      "opt": [
+        "Keinginan sudah terpenuhi semua",
+        "Kebutuhan primer dan sekunder tercukupi",
+        "Mendapat pinjaman dari bank",
+        "Kebutuhan sosial sudah terpenuhi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Tersier",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan tersier adalah ...",
+      "opt": [
+        "Beras dan lauk pauk untuk makan",
+        "Lemari dan perabot rumah sederhana",
+        "Mobil mewah, perhiasan emas, dan liburan ke luar negeri",
+        "Baju seragam sekolah dan sepatu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Urutan prioritas pemenuhan kebutuhan yang benar adalah ...",
+      "opt": [
+        "Tersier → Sekunder → Primer",
+        "Sekunder → Primer → Tersier",
+        "Primer → Sekunder → Tersier",
+        "Semua boleh dipenuhi secara bersamaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pak Budi menerima gaji. Urutan penggunaan uang yang paling bijak adalah ...",
+      "opt": [
+        "Membeli mobil baru → bayar listrik → beli beras",
+        "Liburan ke luar negeri → bayar sekolah anak → beli beras",
+        "Beli beras dan lauk → bayar listrik dan air → seragam sekolah → menabung",
+        "Beli perhiasan → menabung → beli beras"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Jasmani",
+      "stimulus": "",
+      "q": "Kebutuhan jasmani adalah kebutuhan yang berkaitan dengan ...",
+      "opt": [
+        "Jiwa, pikiran, dan perasaan manusia",
+        "Tubuh atau fisik manusia",
+        "Hubungan sosial dengan orang lain",
+        "Status dan gengsi sosial"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Jasmani",
+      "stimulus": "",
+      "q": "Contoh kebutuhan jasmani adalah ...",
+      "opt": [
+        "Ibadah dan doa",
+        "Persahabatan dan kasih sayang",
+        "Makanan bergizi, pakaian, dan olahraga",
+        "Hiburan dan rekreasi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Rohani",
+      "stimulus": "",
+      "q": "Kebutuhan rohani adalah kebutuhan yang berkaitan dengan ...",
+      "opt": [
+        "Tubuh dan fisik manusia",
+        "Jiwa, pikiran, dan perasaan manusia",
+        "Benda-benda mahal",
+        "Kebutuhan yang bisa ditunda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Rohani",
+      "stimulus": "",
+      "q": "Contoh kebutuhan rohani yang tepat adalah ...",
+      "opt": [
+        "Makan pagi dan minum susu",
+        "Pakaian seragam dan sepatu sekolah",
+        "Ibadah, hiburan, pendidikan, dan kasih sayang",
+        "Tempat tinggal dan obat saat sakit"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Seorang anak yang sedang sakit perlu minum obat. Ini termasuk kebutuhan ...",
+      "opt": [
+        "Rohani karena berkaitan dengan perasaan",
+        "Jasmani karena berkaitan dengan kondisi fisik tubuh",
+        "Tersier karena obat adalah barang mewah",
+        "Sosial karena membutuhkan dokter"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sekarang",
+      "stimulus": "",
+      "q": "Kebutuhan sekarang adalah kebutuhan yang ...",
+      "opt": [
+        "Dipersiapkan untuk masa yang akan datang",
+        "Harus dipenuhi saat ini juga dan tidak bisa ditunda",
+        "Bisa dipenuhi kapan saja",
+        "Hanya dirasakan oleh orang dewasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sekarang",
+      "stimulus": "",
+      "q": "Contoh kebutuhan sekarang yang tepat adalah ...",
+      "opt": [
+        "Menabung untuk biaya kuliah nanti",
+        "Mempersiapkan tabungan untuk membeli rumah",
+        "Makan saat lapar, minum obat saat sakit, memakai payung saat hujan",
+        "Belajar bahasa asing untuk bekal masa depan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Masa Depan",
+      "stimulus": "",
+      "q": "Menabung untuk biaya sekolah di masa depan termasuk kebutuhan ...",
+      "opt": [
+        "Sekarang karena dilakukan hari ini",
+        "Jasmani karena berkaitan dengan fisik",
+        "Masa depan karena dipersiapkan untuk dipenuhi nanti",
+        "Tersier karena tidak mendesak"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Individu",
+      "stimulus": "",
+      "q": "Kebutuhan individu adalah kebutuhan yang ...",
+      "opt": [
+        "Sama persis untuk semua orang",
+        "Berbeda-beda pada setiap orang tergantung kondisi masing-masing",
+        "Diperlukan oleh masyarakat bersama",
+        "Hanya dimiliki oleh orang kaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Individu",
+      "stimulus": "",
+      "q": "Kacamata bagi seseorang yang rabun jauh termasuk kebutuhan ...",
+      "opt": [
+        "Sosial karena membutuhkan bantuan optik",
+        "Individu karena hanya dibutuhkan oleh orang rabun",
+        "Tersier karena kacamata mahal",
+        "Sekunder untuk semua orang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A28",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sosial",
+      "stimulus": "",
+      "q": "Kebutuhan sosial adalah kebutuhan yang ...",
+      "opt": [
+        "Hanya dimiliki oleh individu tertentu",
+        "Diperlukan oleh masyarakat bersama",
+        "Hanya berkaitan dengan kegiatan sosial seperti arisan",
+        "Bersifat mewah dan tidak penting"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A29",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sosial",
+      "stimulus": "",
+      "q": "Contoh kebutuhan sosial yang tepat adalah ...",
+      "opt": [
+        "Kacamata, tongkat lansia, dan obat khusus",
+        "Jalan raya, jembatan, sekolah, dan rumah sakit",
+        "HP, laptop, dan peralatan pribadi",
+        "Makanan, pakaian, dan tempat tinggal"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A30",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Skala prioritas kebutuhan diperlukan karena ...",
+      "opt": [
+        "Kebutuhan manusia tidak terbatas, tetapi kemampuan untuk memenuhinya terbatas",
+        "Semua kebutuhan bisa dipenuhi sekaligus jika bekerja keras",
+        "Kebutuhan primer lebih mahal dari tersier",
+        "Pemerintah mewajibkan semua orang punya skala prioritas"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A31",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang skala prioritas adalah ...",
+      "opt": [
+        "Kebutuhan tersier harus dipenuhi lebih dulu",
+        "Skala prioritas membantu kita memutuskan kebutuhan mana yang harus dipenuhi lebih dulu",
+        "Semua orang memiliki skala prioritas yang sama persis",
+        "Keinginan harus dipenuhi sebelum kebutuhan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A32",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Kebutuhan bayi berbeda dengan kebutuhan orang dewasa. Faktor yang menyebabkan perbedaan ini adalah ...",
+      "opt": [
+        "Faktor lingkungan",
+        "Faktor usia",
+        "Faktor adat istiadat",
+        "Faktor pendapatan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A33",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Orang yang tinggal di daerah pegunungan dingin membutuhkan pakaian tebal. Orang di pantai cukup memakai pakaian tipis. Faktor yang menyebabkan perbedaan kebutuhan ini adalah ...",
+      "opt": [
+        "Faktor usia",
+        "Faktor jenis kelamin",
+        "Faktor lingkungan atau tempat tinggal",
+        "Faktor status sosial"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A34",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Seorang dokter membutuhkan stetoskop dan alat medis. Seorang guru membutuhkan buku dan spidol. Faktor yang menyebabkan perbedaan ini adalah ...",
+      "opt": [
+        "Faktor usia",
+        "Faktor pekerjaan",
+        "Faktor agama",
+        "Faktor pendidikan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A35",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Dalam tradisi adat tertentu, seseorang perlu menyiapkan pakaian adat khusus untuk upacara pernikahan. Faktor yang mempengaruhi kebutuhan ini adalah ...",
+      "opt": [
+        "Faktor usia",
+        "Faktor pekerjaan",
+        "Faktor adat istiadat dan budaya",
+        "Faktor pendidikan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A36",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Ada beberapa cara utama manusia memenuhi kebutuhannya. Yang BUKAN termasuk cara memenuhi kebutuhan adalah ...",
+      "opt": [
+        "Bekerja untuk mendapatkan penghasilan",
+        "Bertani atau berkebun",
+        "Menunggu kebutuhan terpenuhi sendiri",
+        "Berdagang atau membuka usaha"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A37",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Pak Ahmad seorang petani yang menanam padi sendiri untuk makan keluarganya. Cara memenuhi kebutuhan yang dilakukan Pak Ahmad adalah ...",
+      "opt": [
+        "Bekerja di perusahaan",
+        "Berdagang di pasar",
+        "Menghasilkan sendiri melalui pertanian",
+        "Meminjam dari tetangga"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A38",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Manusia tidak bisa memenuhi semua kebutuhannya sendiri, sehingga perlu ...",
+      "opt": [
+        "Mengurangi kebutuhan sampai sedikit mungkin",
+        "Bekerja sama dengan orang lain dan saling bertukar atau membeli",
+        "Hanya memenuhi kebutuhan primer saja",
+        "Menghindari semua keinginan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A39",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Bu Sari membuka warung untuk menjual kebutuhan sehari-hari tetangganya. Cara Bu Sari memenuhi kebutuhannya adalah ...",
+      "opt": [
+        "Bertani dan berkebun sendiri",
+        "Meminjam uang dari bank",
+        "Berdagang dan membuka usaha",
+        "Menghasilkan sendiri semua kebutuhan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A40",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Teknologi membantu manusia memenuhi kebutuhan lebih mudah. Contohnya adalah ...",
+      "opt": [
+        "Membeli barang tanpa uang",
+        "Berbelanja dari rumah melalui aplikasi online",
+        "Mengurangi jumlah kebutuhan seseorang",
+        "Menggantikan semua pekerjaan manusia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A41",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Riko ingin membeli sepatu merek terkenal seharga Rp500.000 meskipun sepatunya yang lama masih bisa dipakai. Ini termasuk ...",
+      "opt": [
+        "Kebutuhan primer karena sepatu adalah kebutuhan",
+        "Kebutuhan sekunder yang harus dipenuhi",
+        "Keinginan karena sepatu lama masih bisa digunakan",
+        "Kebutuhan tersier karena sepatu mahal"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A42",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Seorang petani tua membutuhkan tongkat untuk berjalan karena kakinya sudah lemah. Kebutuhan tongkat ini termasuk ...",
+      "opt": [
+        "Kebutuhan sosial",
+        "Kebutuhan individu",
+        "Kebutuhan tersier",
+        "Kebutuhan masa depan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A43",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Sebuah keluarga memiliki uang terbatas. Mereka harus memilih antara membeli beras atau membeli mainan anak. Berdasarkan skala prioritas, yang harus dipilih lebih dulu adalah ...",
+      "opt": [
+        "Mainan karena anak butuh hiburan",
+        "Beras karena merupakan kebutuhan primer untuk makan",
+        "Keduanya sama pentingnya",
+        "Tergantung keinginan anak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A44",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR dari pilihan berikut adalah ...",
+      "opt": [
+        "Membeli buku pelajaran' adalah keinginan karena buku itu mahal",
+        "Membeli HP gaming terbaru' adalah kebutuhan bagi semua pelajar",
+        "Makan nasi setiap hari' adalah kebutuhan karena tubuh butuh energi",
+        "Memakai seragam sekolah' adalah keinginan karena bisa diganti baju lain"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A45",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Seorang siswa membutuhkan buku pelajaran untuk sekolah. Ini termasuk kebutuhan ...",
+      "opt": [
+        "Tersier karena buku mahal",
+        "Primer karena buku adalah kebutuhan dasar",
+        "Sekunder karena menunjang kehidupan yang lebih baik",
+        "Individu karena hanya untuk pelajar"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A46",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Rohani",
+      "stimulus": "",
+      "q": "Seorang anak yang selalu merasa kesepian dan tidak punya teman sedang kekurangan kebutuhan ...",
+      "opt": [
+        "Jasmani",
+        "Primer",
+        "Rohani (kasih sayang dan persahabatan)",
+        "Tersier"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A47",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Mengapa kebutuhan orang di kota berbeda dengan kebutuhan orang di desa?",
+      "opt": [
+        "Karena orang kota lebih kaya dari orang desa",
+        "Karena lingkungan, jenis pekerjaan, dan gaya hidup yang berbeda mempengaruhi kebutuhan",
+        "Karena pemerintah kota mengatur kebutuhan warganya",
+        "Karena orang desa tidak butuh teknologi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A48",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Manfaat menerapkan skala prioritas dalam kehidupan adalah ...",
+      "opt": [
+        "Bisa memenuhi semua keinginan sekaligus",
+        "Pengeluaran menjadi tidak terkontrol",
+        "Kebutuhan yang paling penting terpenuhi lebih dulu dengan anggaran yang ada",
+        "Tidak perlu bekerja keras lagi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A49",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan Sosial",
+      "stimulus": "",
+      "q": "Mengapa rumah sakit dan sekolah termasuk kebutuhan sosial?",
+      "opt": [
+        "Karena harganya mahal dan memerlukan banyak uang",
+        "Karena dibutuhkan oleh masyarakat bersama, bukan hanya satu orang",
+        "Karena hanya bisa dibangun oleh pemerintah",
+        "Karena tidak semua orang membutuhkannya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A50",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Sistem barter adalah cara memenuhi kebutuhan dengan ...",
+      "opt": [
+        "Membeli barang menggunakan uang",
+        "Bertukar barang langsung tanpa menggunakan uang",
+        "Meminjam barang dari teman",
+        "Mencuri barang yang dibutuhkan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A51",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Sebuah keluarga memiliki TV yang masih berfungsi baik. Anak membujuk orang tua membeli TV layar besar terbaru. Permintaan anak ini termasuk ...",
+      "opt": [
+        "Kebutuhan karena TV sudah lama",
+        "Keinginan karena TV lama masih berfungsi",
+        "Kebutuhan sekunder yang mendesak",
+        "Kebutuhan primer keluarga"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A52",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Mempersiapkan tabungan pendidikan untuk anak sejak dini termasuk ...",
+      "opt": [
+        "Kebutuhan sekarang karena dilakukan sekarang",
+        "Kebutuhan masa depan karena dipersiapkan untuk dipakai nanti",
+        "Keinginan karena belum tentu dipakai",
+        "Kebutuhan tersier karena tabungan bukan keharusan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A53",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Seorang atlet membutuhkan nutrisi dan suplemen khusus, sedangkan orang biasa tidak. Perbedaan ini disebabkan faktor ...",
+      "opt": [
+        "Usia",
+        "Agama",
+        "Pekerjaan dan kondisi fisik",
+        "Tempat tinggal"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A54",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Tabel berikut menunjukkan beberapa pernyataan. Yang BENAR adalah ...",
+      "opt": [
+        "Berlibur ke luar negeri = kebutuhan primer",
+        "Minum air putih setiap hari = keinginan",
+        "Membeli HP gaming = kebutuhan sekunder semua orang",
+        "Membayar biaya sekolah = kebutuhan karena pendidikan penting"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Kegiatan ekonomi adalah ...",
+      "opt": [
+        "Kegiatan menabung uang di bank untuk masa depan",
+        "Segala aktivitas manusia yang dilakukan untuk memenuhi kebutuhan hidupnya",
+        "Kegiatan pemerintah dalam mengatur keuangan negara",
+        "Kegiatan jual-beli yang dilakukan di pasar saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Mengapa kegiatan ekonomi sangat penting bagi kehidupan masyarakat?",
+      "opt": [
+        "Karena kegiatan ekonomi menghasilkan banyak keuntungan bagi pemerintah",
+        "Karena tanpa kegiatan ekonomi, tidak ada yang memproduksi, mendistribusikan, atau membeli barang",
+        "Karena kegiatan ekonomi membuat hidup lebih mewah",
+        "Karena pemerintah mewajibkan semua orang ikut kegiatan ekonomi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Tiga kegiatan ekonomi utama yang saling berkaitan adalah ...",
+      "opt": [
+        "Menabung, berinvestasi, dan membelanjakan",
+        "Produksi, distribusi, dan konsumsi",
+        "Pertanian, perdagangan, dan industri",
+        "Ekspor, impor, dan perdagangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Ketiga kegiatan ekonomi utama bersifat saling berkaitan artinya ...",
+      "opt": [
+        "Ketiganya bisa berjalan sendiri-sendiri tanpa hubungan",
+        "Ketiganya tidak bisa dipisahkan; satu kegiatan membutuhkan yang lain",
+        "Ketiganya hanya terjadi di kota besar",
+        "Ketiganya harus dilakukan oleh satu orang saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Produksi",
+      "stimulus": "",
+      "q": "Produksi adalah kegiatan ...",
+      "opt": [
+        "Membeli barang untuk digunakan sendiri",
+        "Menghasilkan atau membuat barang dan jasa yang berguna untuk memenuhi kebutuhan",
+        "Menyalurkan barang dari produsen ke konsumen",
+        "Menggunakan atau memakai barang dan jasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Produksi",
+      "stimulus": "",
+      "q": "Orang yang melakukan kegiatan produksi disebut ...",
+      "opt": [
+        "Konsumen",
+        "Distributor",
+        "Produsen",
+        "Agen"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Produksi",
+      "stimulus": "",
+      "q": "Produksi tidak hanya menghasilkan barang nyata, tetapi juga ...",
+      "opt": [
+        "Menyalurkan barang ke pembeli",
+        "Jasa — layanan yang berguna bagi orang lain",
+        "Mengurangi kebutuhan masyarakat",
+        "Menyimpan barang di gudang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Produksi ekstraktif adalah kegiatan produksi yang ...",
+      "opt": [
+        "Mengolah bahan mentah menjadi barang jadi di pabrik",
+        "Menghasilkan layanan bagi orang lain",
+        "Mengambil langsung dari alam tanpa mengolah lebih lanjut",
+        "Mengolah lahan pertanian untuk pangan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Contoh produksi ekstraktif yang tepat adalah ...",
+      "opt": [
+        "Bertani padi dan berkebun singkong",
+        "Pabrik tahu dan pabrik kain",
+        "Dokter mengobati pasien",
+        "Menangkap ikan, menambang batu bara, menebang kayu"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Produksi agraris adalah kegiatan ...",
+      "opt": [
+        "Mengambil langsung dari alam",
+        "Mengolah lahan untuk menghasilkan bahan pangan dan bahan baku",
+        "Mengolah bahan mentah menjadi barang jadi di pabrik",
+        "Memberikan layanan kepada orang lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pak Tani menanam padi, membudidayakan ikan di kolam, dan beternak sapi. Kegiatan Pak Tani termasuk produksi ...",
+      "opt": [
+        "Ekstraktif",
+        "Industri",
+        "Jasa",
+        "Agraris"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Produksi industri adalah kegiatan ...",
+      "opt": [
+        "Mengambil hasil alam secara langsung",
+        "Mengolah bahan mentah menjadi barang jadi atau setengah jadi",
+        "Mengolah lahan pertanian",
+        "Memberikan jasa kepada pelanggan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pabrik tahu yang mengolah kedelai menjadi tahu termasuk produksi ...",
+      "opt": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri",
+        "Jasa"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Produksi jasa menghasilkan ...",
+      "opt": [
+        "Barang nyata seperti kain dan makanan",
+        "Bahan baku dari alam",
+        "Layanan yang berguna bagi orang lain",
+        "Barang setengah jadi untuk diolah lagi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Guru mengajar, dokter mengobati, dan tukang cukur memotong rambut. Semua ini termasuk produksi ...",
+      "opt": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri",
+        "Jasa"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Ada empat faktor produksi yang dibutuhkan untuk berproduksi. Yang BUKAN faktor produksi adalah ...",
+      "opt": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Kebutuhan konsumen",
+        "Modal"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Tanah, air, hutan, dan tambang termasuk faktor produksi berupa ...",
+      "opt": [
+        "Sumber daya manusia",
+        "Modal",
+        "Sumber daya alam",
+        "Kewirausahaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Cangkul, mesin jahit, pabrik, dan modal usaha termasuk faktor produksi berupa ...",
+      "opt": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Kewirausahaan",
+        "Modal"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Petani, pengrajin, insinyur, dan dokter termasuk faktor produksi berupa ...",
+      "opt": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal",
+        "Kewirausahaan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Kemampuan seseorang dalam mengelola dan memimpin usaha sehingga bisa berjalan dan berkembang disebut ...",
+      "opt": [
+        "Modal",
+        "Sumber daya manusia",
+        "Kewirausahaan",
+        "Sumber daya alam"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Pak Hendra membangun pabrik batik, merekrut karyawan, dan mengelola produksi dari bahan baku hingga produk jadi. Peran Pak Hendra dalam produksi adalah sebagai ...",
+      "opt": [
+        "Konsumen",
+        "Distributor",
+        "Pengusaha (kewirausahaan)",
+        "Pengecer"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Distribusi adalah kegiatan ...",
+      "opt": [
+        "Menghasilkan barang dan jasa",
+        "Menggunakan barang dan jasa",
+        "Menyalurkan barang atau jasa dari produsen ke konsumen",
+        "Menyimpan barang di gudang"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Orang atau lembaga yang melakukan distribusi disebut ...",
+      "opt": [
+        "Produsen",
+        "Konsumen",
+        "Distributor",
+        "Investor"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Mengapa distribusi sangat penting dalam kegiatan ekonomi?",
+      "opt": [
+        "Karena distribusi menghasilkan keuntungan terbesar",
+        "Karena tanpa distribusi, barang yang diproduksi tidak bisa sampai ke tangan yang membutuhkan",
+        "Karena distribusi membuat barang menjadi lebih mahal",
+        "Karena distribusi hanya terjadi di kota besar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Distribusi langsung artinya ...",
+      "opt": [
+        "Produsen menjual melalui banyak perantara",
+        "Produsen langsung menjual kepada konsumen tanpa perantara",
+        "Barang dikirim menggunakan pesawat",
+        "Distribusi dilakukan dalam satu hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Petani menjual sayurannya langsung di depan rumah tanpa perantara. Ini adalah distribusi ...",
+      "opt": [
+        "Tidak langsung",
+        "Langsung",
+        "Melalui agen",
+        "Melalui pengecer"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Distribusi tidak langsung artinya ...",
+      "opt": [
+        "Produsen langsung menemui konsumen",
+        "Barang tidak perlu didistribusikan",
+        "Melalui perantara seperti agen, grosir, atau pengecer sebelum sampai ke konsumen",
+        "Distribusi dilakukan tanpa kendaraan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B28",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Alur distribusi tidak langsung yang benar adalah ...",
+      "opt": [
+        "Konsumen → Produsen",
+        "Pabrik → Langsung ke konsumen",
+        "Pabrik → Agen → Toko grosir → Warung → Konsumen",
+        "Konsumen → Warung → Agen → Pabrik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B29",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Pedagang yang menjual langsung kepada konsumen akhir dalam jumlah kecil disebut ...",
+      "opt": [
+        "Produsen",
+        "Agen",
+        "Distributor",
+        "Pengecer"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B30",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Warung, minimarket, dan tukang sayur keliling termasuk jenis ...",
+      "opt": [
+        "Produsen",
+        "Agen distribusi",
+        "Pengecer",
+        "Grosir"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B31",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Jawa Barat merupakan lumbung pangan Indonesia. Beras dari Karawang dan sayuran dari Lembang dikirim ke Jakarta dan Bandung. Kegiatan ini termasuk ...",
+      "opt": [
+        "Produksi",
+        "Konsumsi",
+        "Distribusi",
+        "Kewirausahaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B32",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Agen mie instan yang memasok ke ratusan warung di suatu daerah berperan sebagai ...",
+      "opt": [
+        "Produsen",
+        "Konsumen",
+        "Distributor/agen penyalur",
+        "Pengolah bahan baku"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B33",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Konsumsi adalah kegiatan ...",
+      "opt": [
+        "Menghasilkan atau membuat barang",
+        "Menyalurkan barang ke pembeli",
+        "Menggunakan atau memakai barang dan jasa untuk memenuhi kebutuhan",
+        "Menyimpan barang di gudang"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B34",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Orang yang melakukan kegiatan konsumsi disebut ...",
+      "opt": [
+        "Produsen",
+        "Distributor",
+        "Konsumen",
+        "Agen"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B35",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Setiap kali kamu makan, minum, atau memakai pakaian, kamu sedang melakukan kegiatan ...",
+      "opt": [
+        "Produksi",
+        "Distribusi",
+        "Investasi",
+        "Konsumsi"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B36",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Ciri-ciri perilaku konsumsi yang bijak adalah ...",
+      "opt": [
+        "Membeli semua barang yang diinginkan tanpa mempertimbangkan kebutuhan",
+        "Membeli barang sesuai kebutuhan dan kemampuan, tidak boros",
+        "Selalu membeli barang paling mahal karena lebih berkualitas",
+        "Tidak pernah membeli barang apapun untuk menghemat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B37",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Konsumen yang bijak adalah konsumen yang ...",
+      "opt": [
+        "Membeli semua barang yang ada di iklan",
+        "Selalu membeli barang mahal sebagai investasi",
+        "Membeli sesuai kebutuhan dan kemampuan, tidak terpengaruh iklan sembarangan",
+        "Tidak pernah membeli barang tersier"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B38",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Mengapa kita perlu menjadi konsumen yang bijak?",
+      "opt": [
+        "Agar terlihat hemat di mata orang lain",
+        "Agar kebutuhan terpenuhi tanpa pemborosan dan keuangan tetap sehat",
+        "Karena pemerintah mewajibkan konsumsi yang bijak",
+        "Agar bisa membeli lebih banyak barang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B39",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pekerjaan di sektor primer adalah pekerjaan yang ...",
+      "opt": [
+        "Mengolah hasil alam menjadi produk jadi di pabrik",
+        "Memberikan layanan kepada masyarakat",
+        "Langsung mengambil atau mengolah sumber daya alam",
+        "Menjual produk kepada konsumen"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B40",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Petani, nelayan, dan penambang termasuk pekerjaan di sektor ...",
+      "opt": [
+        "Sekunder",
+        "Tersier",
+        "Primer",
+        "Jasa"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B41",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pekerjaan di sektor sekunder adalah pekerjaan yang ...",
+      "opt": [
+        "Langsung mengambil dari alam",
+        "Mengolah hasil alam menjadi produk (mengolah hasil)",
+        "Memberikan layanan jasa kepada masyarakat",
+        "Mendistribusikan barang saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B42",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pengrajin batik, buruh pabrik, dan pengolah ikan termasuk pekerjaan di sektor ...",
+      "opt": [
+        "Primer",
+        "Sekunder",
+        "Tersier",
+        "Jasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B43",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Guru, dokter, pedagang, dan pegawai bank termasuk pekerjaan di sektor ...",
+      "opt": [
+        "Primer",
+        "Sekunder",
+        "Tersier (jasa)",
+        "Agraris"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B44",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Pasar tradisional berperan penting dalam kegiatan ekonomi lokal karena ...",
+      "opt": [
+        "Menjual barang impor dari luar negeri",
+        "Menjadi tempat bertemunya produsen dan konsumen lokal untuk bertransaksi",
+        "Hanya berfungsi sebagai tempat hiburan warga",
+        "Lebih murah dari supermarket modern"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B45",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "UMKM adalah singkatan dari ...",
+      "opt": [
+        "Usaha Modal Kecil Menengah",
+        "Usaha Mikro Kecil Masyarakat",
+        "Usaha Mikro, Kecil, dan Menengah",
+        "Unit Modal Kredit Mandiri"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B46",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "UMKM berperan penting dalam perekonomian Indonesia karena ...",
+      "opt": [
+        "Hanya menghasilkan produk mewah untuk ekspor",
+        "Menyerap tenaga kerja lokal dan memproduksi kebutuhan sehari-hari masyarakat",
+        "Hanya ada di kota-kota besar",
+        "Tidak memerlukan modal sama sekali"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B47",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Koperasi adalah organisasi ekonomi yang berprinsip ...",
+      "opt": [
+        "Keuntungan sebesar-besarnya untuk pemilik modal",
+        "Gotong royong dan kebersamaan untuk kesejahteraan anggota",
+        "Persaingan bebas tanpa aturan",
+        "Hanya melayani anggota yang mampu bayar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B48",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Contoh kegiatan ekonomi yang paling umum ditemui di kehidupan sehari-hari siswa SD adalah ...",
+      "opt": [
+        "Perdagangan saham di bursa efek",
+        "Membeli alat tulis di koperasi sekolah",
+        "Ekspor kain batik ke mancanegara",
+        "Menambang minyak bumi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B49",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Alur kegiatan ekonomi yang benar dari petani ke konsumen adalah ...",
+      "opt": [
+        "Konsumsi → Produksi → Distribusi",
+        "Distribusi → Konsumsi → Produksi",
+        "Produksi → Distribusi → Konsumsi",
+        "Produksi → Konsumsi → Distribusi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B50",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Petani menanam padi (produksi) → pedagang membawa beras ke kota (distribusi) → keluarga membeli dan memasak beras (konsumsi). Contoh ini menunjukkan bahwa ...",
+      "opt": [
+        "Ketiga kegiatan ekonomi bisa dilakukan satu orang saja",
+        "Ketiga kegiatan ekonomi saling berkaitan dan tidak bisa dipisahkan",
+        "Produksi lebih penting dari distribusi dan konsumsi",
+        "Konsumsi tidak memerlukan produksi sebelumnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B51",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Seorang tukang bakso keliling membuat bakso sendiri (produksi) lalu berkeliling menjualnya (distribusi) kepada warga yang membeli dan memakannya (konsumsi). Ini adalah contoh bahwa ...",
+      "opt": [
+        "Satu orang bisa melakukan ketiga kegiatan ekonomi sekaligus",
+        "Kegiatan ekonomi hanya bisa dilakukan oleh perusahaan besar",
+        "Distribusi tidak diperlukan jika produsen pintar",
+        "Konsumsi hanya terjadi di pasar saja"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B52",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Produksi",
+      "stimulus": "",
+      "q": "Pak Joko seorang nelayan yang menangkap ikan di laut setiap hari. Jenis produksi yang dilakukan Pak Joko adalah ...",
+      "opt": [
+        "Produksi agraris karena di alam",
+        "Produksi industri karena memerlukan alat",
+        "Produksi ekstraktif karena mengambil langsung dari alam",
+        "Produksi jasa karena memberikan layanan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B53",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Bu Sari membeli sayur di pasar untuk dimasak menjadi makan siang keluarganya. Kegiatan Bu Sari memasak dan makan termasuk ...",
+      "opt": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi",
+        "Kewirausahaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B54",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Saling Ketergantungan",
+      "stimulus": "",
+      "q": "Mengapa produsen membutuhkan konsumen, dan konsumen membutuhkan produsen?",
+      "opt": [
+        "Karena mereka tinggal di desa yang sama",
+        "Karena produsen perlu penjual untuk produknya, dan konsumen perlu produsen agar kebutuhannya tersedia",
+        "Karena pemerintah mengharuskan mereka bekerja sama",
+        "Karena mereka adalah keluarga"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang kebutuhan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Harus dipenuhi agar manusia bisa hidup dengan layak",
+        "Jika tidak terpenuhi dapat menimbulkan kesulitan serius",
+        "Bisa diabaikan tanpa akibat apapun",
+        "Sama persis dengan keinginan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Ciri-ciri keinginan yang membedakannya dari kebutuhan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tidak wajib dipenuhi untuk bertahan hidup",
+        "Jika tidak terpenuhi hanya menimbulkan rasa kecewa",
+        "Membahayakan jiwa jika tidak dipenuhi",
+        "Harus dipenuhi lebih dulu sebelum kebutuhan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Primer",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan primer (kebutuhan paling pokok) adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Makanan dan minuman bergizi",
+        "Pakaian dan tempat tinggal yang layak",
+        "Mobil mewah dan perhiasan",
+        "Liburan dan hiburan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Sekunder",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan sekunder adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perabot rumah dan sepeda",
+        "Televisi dan lemari es",
+        "Makanan dan minuman pokok",
+        "Villa dan kapal pesiar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Tersier",
+      "stimulus": "",
+      "q": "Kebutuhan tersier bersifat kemewahan dan dipenuhi setelah kebutuhan lain tercukupi. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mobil mewah dan perhiasan emas",
+        "Villa dan liburan ke luar negeri",
+        "Beras dan sayuran untuk makan",
+        "Baju seragam sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Jasmani",
+      "stimulus": "",
+      "q": "Contoh kebutuhan jasmani yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Makanan bergizi dan olahraga",
+        "Obat saat sakit dan pakaian",
+        "Ibadah dan kasih sayang",
+        "Hiburan dan rekreasi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Rohani",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan rohani adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ibadah dan ketenangan batin",
+        "Persahabatan dan kasih sayang",
+        "Makanan dan minuman",
+        "Pakaian dan tempat tinggal"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Sekarang",
+      "stimulus": "",
+      "q": "Contoh kebutuhan sekarang yang tidak bisa ditunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Makan saat lapar",
+        "Minum obat saat sakit",
+        "Menabung untuk membeli rumah",
+        "Mempersiapkan biaya kuliah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Masa Depan",
+      "stimulus": "",
+      "q": "Contoh kebutuhan masa depan yang perlu dipersiapkan dari sekarang adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menabung untuk biaya sekolah",
+        "Mempersiapkan tabungan untuk membeli rumah",
+        "Makan malam hari ini",
+        "Minum air saat haus"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Individu",
+      "stimulus": "",
+      "q": "Kebutuhan individu bersifat berbeda-beda tiap orang. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kacamata bagi yang rabun",
+        "Tongkat bagi yang lanjut usia",
+        "Jalan raya untuk semua",
+        "Sekolah untuk masyarakat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Sosial",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan sosial karena dibutuhkan masyarakat bersama adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jalan raya dan jembatan",
+        "Sekolah dan rumah sakit",
+        "HP pribadi dan laptop",
+        "Pakaian dan makanan pribadi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Alasan kita memerlukan skala prioritas dalam memenuhi kebutuhan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kebutuhan manusia tidak terbatas",
+        "Kemampuan dan uang untuk memenuhi kebutuhan terbatas",
+        "Semua kebutuhan bisa dipenuhi sekaligus",
+        "Pemerintah mewajibkan penggunaan skala prioritas"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Faktor yang mempengaruhi perbedaan kebutuhan antar orang adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Usia — bayi dan orang dewasa berbeda kebutuhannya",
+        "Pekerjaan — dokter butuh alat medis, guru butuh buku",
+        "Semua orang selalu memiliki kebutuhan yang sama",
+        "Kebutuhan tidak pernah berbeda antar orang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A14",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Lingkungan tempat tinggal mempengaruhi kebutuhan seseorang. Contohnya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Orang pegunungan butuh pakaian tebal",
+        "Orang pantai cukup pakai pakaian tipis",
+        "Semua daerah memiliki kebutuhan pakaian yang sama",
+        "Lingkungan tidak mempengaruhi kebutuhan apapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A15",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Cara manusia memenuhi kebutuhannya antara lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bekerja untuk mendapatkan penghasilan",
+        "Bertani, berkebun, dan berdagang",
+        "Menunggu kebutuhan terpenuhi sendiri",
+        "Meminta orang lain memenuhi semua kebutuhan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A16",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang batas kebutuhan dan keinginan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Baju adalah kebutuhan, tapi baju merek mahal bisa menjadi keinginan",
+        "Yang membedakan bukan bendanya tapi seberapa perlu untuk kelangsungan hidup",
+        "Semua baju adalah keinginan",
+        "Semua barang mahal adalah kebutuhan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A17",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Dalam menerapkan skala prioritas, yang harus dipenuhi lebih dulu adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kebutuhan primer seperti makanan dan tempat tinggal",
+        "Kebutuhan yang paling mendesak dan tidak bisa ditunda",
+        "Keinginan yang sudah lama diimpikan",
+        "Barang-barang tersier sebagai motivasi bekerja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A18",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang jenis-jenis kebutuhan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kebutuhan primer adalah kebutuhan paling pokok",
+        "Kebutuhan jasmani berkaitan dengan tubuh fisik",
+        "Kebutuhan tersier harus dipenuhi lebih dulu dari primer",
+        "Kebutuhan rohani tidak penting bagi manusia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A19",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Yang termasuk kebutuhan (bukan keinginan) dari pilihan berikut adalah ...",
+      "opt": [
+        "Makan siang bergizi di sekolah",
+        "Pakaian yang layak untuk melindungi tubuh",
+        "HP terbaru seri terkini",
+        "Mainan mahal remote control"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A20",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Mengapa kebutuhan seorang dokter berbeda dengan kebutuhan seorang petani?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Karena pekerjaan mereka berbeda sehingga alat yang dibutuhkan berbeda",
+        "Karena tempat kerja mereka berbeda mempengaruhi kebutuhan sehari-hari",
+        "Karena keduanya selalu memiliki kebutuhan yang identik",
+        "Karena faktor agama yang berbeda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A21",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Contoh penerapan skala prioritas yang benar dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mendahulukan membeli beras daripada membeli mainan",
+        "Membayar tagihan listrik sebelum membeli barang mewah",
+        "Membeli mobil mewah sebelum melunasi hutang",
+        "Mengutamakan liburan sebelum membeli kebutuhan pokok"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A22",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Rohani",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang kebutuhan rohani adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merupakan kebutuhan jiwa, pikiran, dan perasaan",
+        "Contohnya adalah ibadah, hiburan, dan kasih sayang",
+        "Tidak penting karena yang utama adalah kebutuhan jasmani",
+        "Hanya dimiliki oleh orang yang sangat religius"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A23",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Kebutuhan sekarang dan kebutuhan masa depan berbeda karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kebutuhan sekarang harus dipenuhi segera, tidak bisa ditunda",
+        "Kebutuhan masa depan dipersiapkan sekarang untuk dipenuhi nanti",
+        "Keduanya selalu bisa ditunda",
+        "Kebutuhan masa depan lebih penting dari kebutuhan sekarang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A24",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Manusia tidak bisa memenuhi semua kebutuhannya sendiri, sehingga ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perlu bekerja sama dan saling bertukar dengan orang lain",
+        "Teknologi membantu manusia memenuhi kebutuhan lebih mudah",
+        "Tidak perlu bekerja karena semua sudah tersedia",
+        "Hanya pemerintah yang bisa memenuhi kebutuhan warga"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A25",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan Sosial",
+      "stimulus": "",
+      "q": "Kebutuhan sosial berbeda dari kebutuhan individu karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dibutuhkan oleh masyarakat bersama, bukan hanya satu orang",
+        "Contohnya adalah infrastruktur seperti jalan dan jembatan",
+        "Hanya dibutuhkan oleh individu tertentu",
+        "Tidak perlu disediakan oleh pemerintah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A26",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang kebutuhan individu adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berbeda-beda pada setiap orang sesuai kondisi masing-masing",
+        "Contohnya kacamata bagi rabun dan obat khusus bagi penderita penyakit tertentu",
+        "Sama persis untuk semua orang",
+        "Termasuk jalan raya dan sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A27",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pentingnya membedakan kebutuhan dan keinginan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Agar pengeluaran bisa diprioritaskan dengan baik",
+        "Agar tidak boros dan kebutuhan penting terpenuhi lebih dulu",
+        "Agar bisa membeli semua yang diinginkan",
+        "Agar tidak pernah membeli barang keinginan sama sekali"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang kegiatan ekonomi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merupakan aktivitas manusia untuk memenuhi kebutuhan hidup",
+        "Mencakup kegiatan menghasilkan, menyalurkan, dan menggunakan barang/jasa",
+        "Hanya dilakukan oleh orang dewasa",
+        "Hanya terjadi di pasar dan toko saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Produksi",
+      "stimulus": "",
+      "q": "Yang termasuk kegiatan produksi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghasilkan barang seperti membuat batik dan memasak",
+        "Menghasilkan jasa seperti mengajar dan mengobati",
+        "Membeli barang di supermarket",
+        "Mengirim barang ke kota lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Jenis-jenis kegiatan produksi yang ada di sekitar kita adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Produksi ekstraktif seperti nelayan menangkap ikan",
+        "Produksi agraris seperti petani menanam padi",
+        "Produksi membeli barang di toko",
+        "Produksi mengantar barang ke konsumen"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Produksi industri dan produksi jasa berbeda karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Industri mengolah bahan mentah menjadi barang jadi",
+        "Jasa menghasilkan layanan bukan barang fisik",
+        "Keduanya selalu menghasilkan barang fisik",
+        "Keduanya tidak memerlukan tenaga manusia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Faktor produksi yang diperlukan untuk menghasilkan barang adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sumber daya alam sebagai bahan baku",
+        "Sumber daya manusia sebagai tenaga kerja",
+        "Konsumen yang membeli produk",
+        "Harga barang yang akan dijual"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Modal dan kewirausahaan sebagai faktor produksi artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Modal berupa uang dan peralatan yang digunakan untuk berproduksi",
+        "Kewirausahaan adalah kemampuan mengelola dan memimpin usaha",
+        "Modal hanya berupa uang tunai saja",
+        "Kewirausahaan tidak dibutuhkan dalam produksi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang distribusi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kegiatan menyalurkan barang dari produsen ke konsumen",
+        "Tanpa distribusi, barang tidak akan bisa sampai ke tangan yang membutuhkan",
+        "Distribusi hanya dilakukan oleh pemerintah",
+        "Distribusi sama dengan kegiatan produksi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Saluran distribusi yang ada dalam kegiatan ekonomi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Distribusi langsung: produsen menjual langsung ke konsumen",
+        "Distribusi tidak langsung: melalui perantara seperti agen dan pengecer",
+        "Distribusi hanya melalui satu saluran saja",
+        "Distribusi tidak memerlukan kendaraan apapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Peran pengecer dalam saluran distribusi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjual langsung kepada konsumen akhir dalam jumlah kecil",
+        "Menjadi perantara terakhir antara barang dan konsumen",
+        "Memproduksi barang yang akan dijual",
+        "Mengekspor barang ke luar negeri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang konsumsi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kegiatan menggunakan barang dan jasa untuk memenuhi kebutuhan",
+        "Orang yang melakukan konsumsi disebut konsumen",
+        "Konsumsi adalah kegiatan memproduksi barang",
+        "Konsumsi hanya terjadi di pasar saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Ciri konsumen yang bijak adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membeli sesuai kebutuhan dan kemampuan",
+        "Tidak mudah terpengaruh iklan yang tidak perlu",
+        "Membeli semua barang yang ada di toko",
+        "Selalu membeli barang paling mahal"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pekerjaan di sektor primer adalah pekerjaan yang ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Langsung memanfaatkan sumber daya alam seperti petani dan nelayan",
+        "Contohnya adalah menambang dan menangkap ikan",
+        "Mengolah bahan mentah di pabrik",
+        "Memberikan layanan jasa kepada masyarakat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pekerjaan di sektor sekunder (mengolah hasil) mencakup ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengrajin yang mengolah bahan baku menjadi produk jadi",
+        "Buruh pabrik yang memproses bahan mentah",
+        "Petani yang menanam padi di sawah",
+        "Guru yang mengajar di sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B14",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pekerjaan di sektor tersier (jasa) mencakup ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Guru yang memberikan ilmu kepada siswa",
+        "Dokter yang mengobati pasien",
+        "Nelayan yang menangkap ikan di laut",
+        "Buruh pabrik yang membuat barang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B15",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Pasar tradisional berperan penting dalam ekonomi lokal karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjadi tempat bertemunya penjual dan pembeli lokal",
+        "Membantu para petani dan pedagang kecil menjual produknya",
+        "Hanya menjual barang impor dari luar negeri",
+        "Bersaing dengan supermarket modern"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B16",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "UMKM penting bagi perekonomian Indonesia karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menyerap tenaga kerja lokal dalam jumlah besar",
+        "Memproduksi kebutuhan sehari-hari masyarakat",
+        "Hanya ada di kota-kota besar saja",
+        "Tidak memerlukan modal apapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B17",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Koperasi sebagai lembaga ekonomi bersifat ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berasas gotong royong untuk kesejahteraan anggota",
+        "Bukan hanya mencari keuntungan semata, tapi untuk kepentingan bersama",
+        "Hanya melayani nasabah yang punya modal besar",
+        "Bertujuan memperkaya pemilik saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B18",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Alur kegiatan ekonomi dari bahan baku hingga ke tangan konsumen melibatkan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Produksi: menghasilkan barang atau jasa",
+        "Distribusi: menyalurkan ke konsumen",
+        "Hanya satu orang saja yang melakukan semuanya",
+        "Tidak memerlukan distribusi jika produksinya besar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B19",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Saling Ketergantungan",
+      "stimulus": "",
+      "q": "Saling ketergantungan dalam kegiatan ekonomi artinya ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Produsen membutuhkan konsumen untuk membeli produknya",
+        "Konsumen membutuhkan produsen agar kebutuhannya tersedia",
+        "Produsen dan konsumen bisa bekerja tanpa saling membutuhkan",
+        "Distribusi tidak diperlukan jika produsen dan konsumen dekat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B20",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Produksi",
+      "stimulus": "",
+      "q": "Perbedaan antara produksi ekstraktif dan agraris adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ekstraktif mengambil langsung dari alam; agraris mengolah lahan untuk menghasilkan pangan",
+        "Keduanya tidak melibatkan proses pengolahan bahan mentah di pabrik",
+        "Keduanya menghasilkan barang jadi siap pakai",
+        "Agraris tidak memerlukan sumber daya alam"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B21",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Manfaat adanya sistem distribusi bagi masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Barang dari daerah produksi bisa sampai ke daerah yang membutuhkan",
+        "Harga barang bisa lebih stabil karena pasokan terjaga",
+        "Distribusi membuat barang menjadi langka",
+        "Distribusi menghilangkan perbedaan harga antar daerah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B22",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang jenis pekerjaan berdasarkan sektornya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Petani, nelayan, dan penambang termasuk sektor primer",
+        "Guru, dokter, dan pedagang termasuk sektor tersier/jasa",
+        "Pengrajin dan buruh pabrik termasuk sektor primer",
+        "Petani termasuk sektor tersier"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B23",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Contoh kegiatan ekonomi yang terjadi di sekitar sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Koperasi sekolah menjual alat tulis kepada siswa",
+        "Kantin sekolah memproduksi dan menjual makanan",
+        "Siswa hanya duduk dan belajar tanpa kegiatan ekonomi",
+        "Kegiatan ekonomi hanya terjadi di tempat kerja orang dewasa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B24",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Untuk membuat kain batik, faktor produksi yang dibutuhkan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sumber daya alam berupa kain mori dan pewarna alami",
+        "Sumber daya manusia berupa pengrajin batik yang terampil",
+        "Hanya uang tunai saja",
+        "Tidak memerlukan keahlian khusus"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B25",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Mengapa penting menjadi konsumen yang bijak?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Agar kebutuhan terpenuhi tanpa pemborosan",
+        "Agar keuangan tetap sehat dan tidak habis untuk hal yang tidak penting",
+        "Agar bisa membeli lebih banyak barang",
+        "Agar terlihat hemat di mata orang lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B26",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Tukang bakso keliling melakukan beberapa kegiatan ekonomi sekaligus yaitu ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Produksi: membuat bakso sendiri",
+        "Distribusi: berkeliling menjual bakso kepada pembeli",
+        "Konsumsi: membuat konsumen membeli bakso",
+        "Investasi: menyimpan uang hasil penjualan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B27",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Peran penting Jawa Barat dalam kegiatan distribusi nasional adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Beras dari Karawang dan Subang didistribusikan ke berbagai kota",
+        "Sayuran dari Lembang dan teh dari Pangalengan dikirim ke seluruh Indonesia",
+        "Jawa Barat tidak menghasilkan produk untuk didistribusikan",
+        "Semua produk Jawa Barat hanya untuk konsumsi lokal"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan jenis kebutuhan berdasarkan tingkat kepentingannya dengan contohnya!",
+      "rows": [
+        "Makanan, pakaian, dan tempat tinggal",
+        "Perabot rumah dan sepeda",
+        "Mobil mewah dan perhiasan emas",
+        "Lemari es dan TV"
+      ],
+      "cols": [
+        "Primer",
+        "Sekunder",
+        "Tersier"
+      ],
+      "ans": [
+        "Primer",
+        "Sekunder",
+        "Tersier",
+        "Sekunder"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan kategorinya — kebutuhan atau keinginan!",
+      "rows": [
+        "Makan nasi setiap hari",
+        "HP gaming terbaru",
+        "Minum air putih yang cukup",
+        "Sepatu merek mahal"
+      ],
+      "cols": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan"
+      ],
+      "ans": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan",
+        "Keinginan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan jenis kebutuhan berdasarkan sifatnya dengan contohnya!",
+      "rows": [
+        "Makanan bergizi dan olahraga",
+        "Ibadah dan kasih sayang",
+        "Obat saat sakit",
+        "Hiburan dan persahabatan"
+      ],
+      "cols": [
+        "Jasmani",
+        "Rohani",
+        "Jasmani"
+      ],
+      "ans": [
+        "Jasmani",
+        "Rohani",
+        "Jasmani",
+        "Rohani"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan jenis kebutuhan berdasarkan waktu dengan contohnya!",
+      "rows": [
+        "Makan saat lapar",
+        "Menabung untuk biaya sekolah",
+        "Minum obat saat sakit",
+        "Mempersiapkan tabungan rumah"
+      ],
+      "cols": [
+        "Kebutuhan sekarang",
+        "Kebutuhan masa depan",
+        "Kebutuhan sekarang"
+      ],
+      "ans": [
+        "Kebutuhan sekarang",
+        "Kebutuhan masa depan",
+        "Kebutuhan sekarang",
+        "Kebutuhan masa depan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan jenis kebutuhan berdasarkan subjek dengan contohnya!",
+      "rows": [
+        "Kacamata bagi yang rabun",
+        "Jalan raya dan jembatan",
+        "Tongkat bagi yang lanjut usia",
+        "Sekolah dan rumah sakit"
+      ],
+      "cols": [
+        "Kebutuhan individu",
+        "Kebutuhan sosial",
+        "Kebutuhan individu"
+      ],
+      "ans": [
+        "Kebutuhan individu",
+        "Kebutuhan sosial",
+        "Kebutuhan individu",
+        "Kebutuhan sosial"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan faktor yang mempengaruhi kebutuhan dengan contohnya!",
+      "rows": [
+        "Bayi butuh ASI; orang dewasa butuh nasi",
+        "Dokter butuh stetoskop; guru butuh buku",
+        "Daerah dingin butuh pakaian tebal",
+        "Adat istiadat tertentu butuh pakaian khusus"
+      ],
+      "cols": [
+        "Faktor usia",
+        "Faktor pekerjaan",
+        "Faktor lingkungan"
+      ],
+      "ans": [
+        "Faktor usia",
+        "Faktor pekerjaan",
+        "Faktor lingkungan",
+        "Faktor lingkungan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan kategori yang tepat!",
+      "rows": [
+        "Membeli seragam sekolah yang sudah kekecilan",
+        "Membeli tas merek mahal meski tas lama masih bagus",
+        "Minum air putih 8 gelas sehari",
+        "Membeli konsol game terbaru"
+      ],
+      "cols": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan"
+      ],
+      "ans": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan",
+        "Keinginan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Pasangkan urutan skala prioritas dengan jenis kebutuhannya!",
+      "rows": [
+        "Kebutuhan primer: makan, pakaian, tempat tinggal",
+        "Kebutuhan sekunder: perabot dan alat pendukung",
+        "Kebutuhan tersier: kemewahan jika mampu",
+        "Keinginan: boleh dipenuhi jika ada sisa"
+      ],
+      "cols": [
+        "Prioritas pertama",
+        "Prioritas kedua",
+        "Prioritas ketiga"
+      ],
+      "ans": [
+        "Prioritas pertama",
+        "Prioritas kedua",
+        "Prioritas ketiga",
+        "Prioritas ketiga"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan situasi dengan jenis kebutuhan yang paling tepat!",
+      "rows": [
+        "Pak Ahmad makan nasi dan lauk setiap hari",
+        "Bu Sari membeli lemari untuk rumahnya",
+        "Pak Budi beribadah setiap hari untuk ketenangan hati",
+        "Riko berolahraga untuk menjaga kesehatan"
+      ],
+      "cols": [
+        "Primer",
+        "Sekunder",
+        "Rohani"
+      ],
+      "ans": [
+        "Primer",
+        "Sekunder",
+        "Rohani",
+        "Primer"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan nilainya — benar atau salah tentang kebutuhan dan keinginan!",
+      "rows": [
+        "Kebutuhan harus dipenuhi agar bisa hidup layak",
+        "Keinginan dan kebutuhan adalah hal yang sama",
+        "Membedakan kebutuhan dan keinginan membantu mengatur keuangan",
+        "Semua benda mahal selalu merupakan keinginan"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan jenis kebutuhannya berdasarkan tingkat kepentingan!",
+      "rows": [
+        "Memakai seragam sekolah",
+        "Membeli lemari pendingin",
+        "Berlibur ke luar negeri",
+        "Membeli sepeda baru"
+      ],
+      "cols": [
+        "Primer",
+        "Sekunder",
+        "Tersier"
+      ],
+      "ans": [
+        "Primer",
+        "Sekunder",
+        "Tersier",
+        "Sekunder"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan tokoh dengan kebutuhan khasnya yang dipengaruhi pekerjaan!",
+      "rows": [
+        "Cangkul, pupuk, dan bibit",
+        "Stetoskop dan alat medis",
+        "Buku dan spidol",
+        "Pahat dan kayu"
+      ],
+      "cols": [
+        "Petani",
+        "Dokter",
+        "Guru"
+      ],
+      "ans": [
+        "Petani",
+        "Dokter",
+        "Guru",
+        "Petani"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Pak Budi gajian hari ini. Pasangkan pengeluaran dengan prioritasnya!",
+      "rows": [
+        "Membeli beras dan lauk untuk keluarga",
+        "Membayar tagihan listrik dan air",
+        "Membeli mobil mewah baru",
+        "Membeli seragam anak yang kekecilan"
+      ],
+      "cols": [
+        "Prioritas utama",
+        "Prioritas kedua",
+        "Tunda/hilangkan"
+      ],
+      "ans": [
+        "Prioritas utama",
+        "Prioritas kedua",
+        "Tunda/hilangkan",
+        "Prioritas utama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan deskripsi dengan kategorinya!",
+      "rows": [
+        "Harus dipenuhi; jika tidak ada masalah serius",
+        "Ingin dipenuhi; jika tidak ada hanya kecewa",
+        "Bersifat mendesak dan tidak bisa ditunda",
+        "Tidak selalu mendesak"
+      ],
+      "cols": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan"
+      ],
+      "ans": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan",
+        "Keinginan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A15",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan jenis kebutuhan dengan deskripsi pengertiannya!",
+      "rows": [
+        "Berkaitan dengan tubuh dan fisik manusia",
+        "Berkaitan dengan jiwa dan perasaan manusia",
+        "Dibutuhkan oleh masyarakat bersama",
+        "Berbeda-beda pada setiap individu"
+      ],
+      "cols": [
+        "Kebutuhan jasmani",
+        "Kebutuhan rohani",
+        "Kebutuhan sosial"
+      ],
+      "ans": [
+        "Kebutuhan jasmani",
+        "Kebutuhan rohani",
+        "Kebutuhan sosial",
+        "Kebutuhan jasmani"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A16",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan kondisi dengan faktor yang mempengaruhi kebutuhannya!",
+      "rows": [
+        "Bayi butuh susu formula; remaja butuh buku pelajaran",
+        "Orang pegunungan butuh jaket tebal",
+        "Upacara pernikahan adat butuh pakaian tradisional",
+        "Nelayan butuh perahu dan jaring"
+      ],
+      "cols": [
+        "Faktor usia",
+        "Faktor lingkungan",
+        "Faktor adat"
+      ],
+      "ans": [
+        "Faktor usia",
+        "Faktor lingkungan",
+        "Faktor adat",
+        "Faktor adat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A17",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan situasi Riko dengan kategori kebutuhan atau keinginan!",
+      "rows": [
+        "Riko butuh tas baru karena tasnya sudah rusak",
+        "Riko ingin tas merek mahal meski tasnya masih bagus",
+        "Riko butuh makan siang di sekolah",
+        "Riko ingin jajan es krim mahal setiap hari"
+      ],
+      "cols": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan"
+      ],
+      "ans": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan",
+        "Keinginan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A18",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan jenis kebutuhannya berdasarkan waktu!",
+      "rows": [
+        "Minum obat saat demam tinggi",
+        "Menabung untuk biaya SMP nanti",
+        "Memakai payung saat hujan lebat",
+        "Mempersiapkan tabungan pensiun"
+      ],
+      "cols": [
+        "Sekarang (mendesak)",
+        "Masa depan (dipersiapkan)",
+        "Sekarang (mendesak)"
+      ],
+      "ans": [
+        "Sekarang (mendesak)",
+        "Masa depan (dipersiapkan)",
+        "Sekarang (mendesak)",
+        "Masa depan (dipersiapkan)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A19",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Memenuhi Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan tokoh dengan cara memenuhi kebutuhan yang mereka lakukan!",
+      "rows": [
+        "Ayah bekerja sebagai karyawan untuk memberi nafkah",
+        "Pak Ahmad menanam sayuran untuk makan sehari-hari",
+        "Bu Sari membuka warung untuk mendapat penghasilan",
+        "Ibu memasak sendiri makanan keluarga"
+      ],
+      "cols": [
+        "Bekerja",
+        "Bertani/berkebun",
+        "Berdagang"
+      ],
+      "ans": [
+        "Bekerja",
+        "Bertani/berkebun",
+        "Berdagang",
+        "Bekerja"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A20",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kebutuhan primer dengan nilainya!",
+      "rows": [
+        "Sandang, pangan, papan adalah kebutuhan primer",
+        "Kebutuhan primer harus dipenuhi paling terakhir",
+        "Tanpa kebutuhan primer, manusia tidak bisa bertahan hidup",
+        "Mobil mewah termasuk kebutuhan primer"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A21",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan barang dengan kategorinya!",
+      "rows": [
+        "Baju seragam sekolah untuk ke sekolah",
+        "Sepatu merek ternama seharga Rp1 juta",
+        "Air minum setiap hari",
+        "HP terbaru untuk gaya-gayaan"
+      ],
+      "cols": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan"
+      ],
+      "ans": [
+        "Kebutuhan",
+        "Keinginan",
+        "Kebutuhan",
+        "Keinginan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A22",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Pasangkan urutan penggunaan uang dengan prinsip skala prioritas yang benar!",
+      "rows": [
+        "Beli kebutuhan primer (beras, lauk)",
+        "Beli kebutuhan sekunder (perabot)",
+        "Beli barang tersier (mewah)",
+        "Tabung untuk kebutuhan masa depan"
+      ],
+      "cols": [
+        "Lakukan lebih dulu",
+        "Lakukan setelahnya",
+        "Lakukan jika ada sisa"
+      ],
+      "ans": [
+        "Lakukan lebih dulu",
+        "Lakukan setelahnya",
+        "Lakukan jika ada sisa",
+        "Lakukan setelahnya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A23",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan jenis kebutuhan dengan pengertiannya secara singkat!",
+      "rows": [
+        "Kebutuhan paling pokok; tidak terpenuhi membahayakan jiwa",
+        "Kemewahan; dipenuhi setelah primer dan sekunder tercukupi",
+        "Berbeda tiap orang sesuai kondisi",
+        "Kacamata bagi yang rabun"
+      ],
+      "cols": [
+        "Primer",
+        "Tersier",
+        "Individu"
+      ],
+      "ans": [
+        "Primer",
+        "Tersier",
+        "Individu",
+        "Individu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A24",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan sifat yang diwakilinya!",
+      "rows": [
+        "Harus dipenuhi; mengancam keselamatan jika tidak",
+        "Tidak wajib; hanya menimbulkan kecewa jika tidak",
+        "Bersifat mendesak",
+        "Tidak selalu mendesak"
+      ],
+      "cols": [
+        "Sifat kebutuhan",
+        "Sifat keinginan",
+        "Sifat kebutuhan"
+      ],
+      "ans": [
+        "Sifat kebutuhan",
+        "Sifat keinginan",
+        "Sifat kebutuhan",
+        "Sifat keinginan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A25",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan daerah dengan kebutuhan khas masyarakatnya yang berbeda karena lingkungan!",
+      "rows": [
+        "Pakaian tebal dan makanan hangat",
+        "Peralatan melaut dan ikan segar",
+        "Kendaraan umum dan akses internet",
+        "Alat pertanian dan hasil bumi"
+      ],
+      "cols": [
+        "Pegunungan",
+        "Pesisir/pantai",
+        "Perkotaan"
+      ],
+      "ans": [
+        "Pegunungan",
+        "Pesisir/pantai",
+        "Perkotaan",
+        "Pegunungan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A26",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis-jenis Kebutuhan",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan jenis kebutuhannya (subjek)!",
+      "rows": [
+        "Kacamata khusus minus 3",
+        "Jembatan yang menghubungkan dua desa",
+        "Obat diabetes untuk penderita tertentu",
+        "Rumah sakit umum daerah"
+      ],
+      "cols": [
+        "Kebutuhan individu",
+        "Kebutuhan sosial",
+        "Kebutuhan individu"
+      ],
+      "ans": [
+        "Kebutuhan individu",
+        "Kebutuhan sosial",
+        "Kebutuhan individu",
+        "Kebutuhan sosial"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A27",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kebutuhan vs Keinginan",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan dengan alasannya — termasuk kebutuhan atau keinginan!",
+      "rows": [
+        "Membeli buku pelajaran untuk sekolah",
+        "Membeli novel hiburan seharga Rp150.000",
+        "Membayar biaya kesehatan saat sakit",
+        "Liburan ke Bali saat libur sekolah"
+      ],
+      "cols": [
+        "Kebutuhan (perlu)",
+        "Keinginan (tidak wajib)",
+        "Kebutuhan (perlu)"
+      ],
+      "ans": [
+        "Kebutuhan (perlu)",
+        "Keinginan (tidak wajib)",
+        "Kebutuhan (perlu)",
+        "Keinginan (tidak wajib)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A28",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Skala Prioritas",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang skala prioritas dengan nilainya — benar atau salah!",
+      "rows": [
+        "Skala prioritas membantu memutuskan kebutuhan mana yang dipenuhi lebih dulu",
+        "Kebutuhan tersier harus dipenuhi lebih dulu dari primer",
+        "Kebutuhan tidak terbatas, kemampuan terbatas, maka prioritas diperlukan",
+        "Semua orang memiliki skala prioritas yang identik"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan tiga kegiatan ekonomi utama dengan pengertiannya!",
+      "rows": [
+        "Menghasilkan barang dan jasa",
+        "Menyalurkan barang dari produsen ke konsumen",
+        "Menggunakan barang dan jasa",
+        "Menyimpan barang di gudang"
+      ],
+      "cols": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi"
+      ],
+      "ans": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi",
+        "Distribusi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pasangkan jenis produksi dengan contohnya!",
+      "rows": [
+        "Menangkap ikan dan menambang batu bara",
+        "Bertani padi dan beternak sapi",
+        "Pabrik tahu dan pabrik kain",
+        "Pabrik batik mengolah kain"
+      ],
+      "cols": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri"
+      ],
+      "ans": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri",
+        "Industri"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Pasangkan faktor produksi dengan contohnya!",
+      "rows": [
+        "Tanah, air, hutan, dan tambang",
+        "Petani, pengrajin, dan dokter",
+        "Cangkul, mesin jahit, dan modal usaha",
+        "Mesin produksi pabrik batik"
+      ],
+      "cols": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal"
+      ],
+      "ans": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal",
+        "Modal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Pasangkan jenis saluran distribusi dengan penjelasannya!",
+      "rows": [
+        "Produsen langsung jual ke konsumen tanpa perantara",
+        "Melalui agen dan grosir sebelum ke konsumen",
+        "Pedagang yang jual langsung ke konsumen akhir",
+        "Pedagang besar yang beli dari produsen"
+      ],
+      "cols": [
+        "Langsung",
+        "Tidak langsung",
+        "Pengecer"
+      ],
+      "ans": [
+        "Langsung",
+        "Tidak langsung",
+        "Pengecer",
+        "Tidak langsung"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pasangkan pelaku dengan jenis produksi yang dilakukan!",
+      "rows": [
+        "Pak Joko menangkap ikan di laut",
+        "Bu Ani menanam sayuran di ladang",
+        "Pabrik batik mengolah kain menjadi batik",
+        "Pabrik sepatu memproduksi sepatu"
+      ],
+      "cols": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri"
+      ],
+      "ans": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri",
+        "Industri"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan pelaku dengan kegiatan ekonomi yang dilakukannya!",
+      "rows": [
+        "Petani menanam dan memanen padi",
+        "Pedagang membawa beras dari desa ke kota",
+        "Keluarga membeli dan memasak beras",
+        "Penambang mengambil batu bara"
+      ],
+      "cols": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi"
+      ],
+      "ans": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi",
+        "Produksi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pasangkan pekerjaan dengan sektornya!",
+      "rows": [
+        "Petani dan nelayan",
+        "Pengrajin dan buruh pabrik",
+        "Guru dan dokter",
+        "Penambang batu bara"
+      ],
+      "cols": [
+        "Sektor primer",
+        "Sektor sekunder",
+        "Sektor tersier"
+      ],
+      "ans": [
+        "Sektor primer",
+        "Sektor sekunder",
+        "Sektor tersier",
+        "Sektor primer"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Pak Hendra mendirikan pabrik batik di Cirebon. Pasangkan faktor produksi yang digunakan!",
+      "rows": [
+        "Kain mori putih dan pewarna alami",
+        "Pengrajin batik yang terampil",
+        "Mesin dan modal untuk membangun pabrik",
+        "Peralatan membatik dan gudang produksi"
+      ],
+      "cols": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal"
+      ],
+      "ans": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal",
+        "Modal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Distribusi",
+      "stimulus": "",
+      "q": "Pasangkan peran dalam rantai distribusi beras Jawa Barat dengan pelakunya!",
+      "rows": [
+        "Petani di Karawang yang menanam padi",
+        "Agen pengiriman beras ke Jakarta",
+        "Warung beras yang menjual ke ibu rumah tangga",
+        "Koperasi yang membeli dari petani"
+      ],
+      "cols": [
+        "Produsen",
+        "Distributor",
+        "Pengecer"
+      ],
+      "ans": [
+        "Produsen",
+        "Distributor",
+        "Pengecer",
+        "Distributor"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Pasangkan perilaku konsumen dengan penilaiannya — bijak atau tidak bijak!",
+      "rows": [
+        "Membeli buku pelajaran sesuai kebutuhan",
+        "Membeli semua barang yang ada di iklan",
+        "Membandingkan harga sebelum membeli",
+        "Membeli HP baru padahal HP lama masih berfungsi"
+      ],
+      "cols": [
+        "Bijak",
+        "Tidak bijak",
+        "Bijak"
+      ],
+      "ans": [
+        "Bijak",
+        "Tidak bijak",
+        "Bijak",
+        "Tidak bijak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan alur kegiatan ekonomi pembuatan batik dengan tahapannya!",
+      "rows": [
+        "Pengrajin membuat kain batik",
+        "Pedagang membawa batik ke toko di kota",
+        "Pembeli membeli batik untuk dipakai",
+        "Agen menyimpan stok batik"
+      ],
+      "cols": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi"
+      ],
+      "ans": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi",
+        "Distribusi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang produksi jasa dengan contohnya!",
+      "rows": [
+        "Guru mengajar siswa di sekolah",
+        "Dokter memeriksa pasien",
+        "Ojek mengantar penumpang ke tujuan",
+        "Koki memasak makanan di restoran"
+      ],
+      "cols": [
+        "Jasa pendidikan",
+        "Jasa kesehatan",
+        "Jasa transportasi"
+      ],
+      "ans": [
+        "Jasa pendidikan",
+        "Jasa kesehatan",
+        "Jasa transportasi",
+        "Jasa pendidikan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Pasangkan lembaga ekonomi lokal dengan peran utamanya!",
+      "rows": [
+        "Tempat bertemunya penjual dan pembeli lokal",
+        "Usaha kecil yang menyerap tenaga kerja lokal",
+        "Organisasi ekonomi berasas gotong royong",
+        "Bank swasta besar"
+      ],
+      "cols": [
+        "Pasar tradisional",
+        "UMKM",
+        "Koperasi"
+      ],
+      "ans": [
+        "Pasar tradisional",
+        "UMKM",
+        "Koperasi",
+        "Pasar tradisional"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Saluran Distribusi",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan jenis saluran distribusinya!",
+      "rows": [
+        "Petani menjual sayur langsung di depan rumah",
+        "Pabrik → Agen → Grosir → Warung → Konsumen",
+        "Minimarket yang menjual ke konsumen akhir",
+        "Pengrajin menjual batik di toko miliknya sendiri"
+      ],
+      "cols": [
+        "Langsung",
+        "Tidak langsung",
+        "Pengecer"
+      ],
+      "ans": [
+        "Langsung",
+        "Tidak langsung",
+        "Pengecer",
+        "Langsung"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B15",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kegiatan ekonomi dengan nilainya — benar atau salah!",
+      "rows": [
+        "Produksi, distribusi, dan konsumsi saling berkaitan",
+        "Tanpa distribusi, barang langsung sampai ke konsumen sendiri",
+        "Konsumsi adalah kegiatan menggunakan barang dan jasa",
+        "Produksi hanya menghasilkan barang fisik saja"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B16",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Pekerjaan",
+      "stimulus": "",
+      "q": "Pasangkan deskripsi pekerjaan dengan sektornya!",
+      "rows": [
+        "Langsung memanfaatkan sumber daya alam",
+        "Mengolah bahan mentah menjadi produk jadi",
+        "Memberikan layanan kepada masyarakat",
+        "Menambang dan mengambil hasil bumi"
+      ],
+      "cols": [
+        "Sektor primer",
+        "Sektor sekunder",
+        "Sektor tersier"
+      ],
+      "ans": [
+        "Sektor primer",
+        "Sektor sekunder",
+        "Sektor tersier",
+        "Sektor primer"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B17",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan dengan jenis konsumsinya!",
+      "rows": [
+        "Makan nasi dan lauk di rumah",
+        "Naik ojek online ke sekolah",
+        "Membeli sepatu baru untuk sekolah",
+        "Potong rambut di tukang cukur"
+      ],
+      "cols": [
+        "Konsumsi barang",
+        "Konsumsi jasa",
+        "Konsumsi barang"
+      ],
+      "ans": [
+        "Konsumsi barang",
+        "Konsumsi jasa",
+        "Konsumsi barang",
+        "Konsumsi jasa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B18",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Pasangkan faktor produksi dengan pertanyaan yang membantu mengenalinya!",
+      "rows": [
+        "Bahan baku apa yang digunakan?'",
+        "Siapa yang bekerja dalam produksi ini?'",
+        "Alat dan uang apa yang digunakan?'",
+        "Berapa biaya produksi yang dikeluarkan?'"
+      ],
+      "cols": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal"
+      ],
+      "ans": [
+        "Sumber daya alam",
+        "Sumber daya manusia",
+        "Modal",
+        "Modal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B19",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan dengan pelaku ekonominya!",
+      "rows": [
+        "Pabrik yang membuat mie instan",
+        "Agen yang menyalurkan mie ke ratusan warung",
+        "Pembeli yang memasak dan memakan mie",
+        "Pedagang grosir yang menyimpan stok"
+      ],
+      "cols": [
+        "Produsen",
+        "Distributor",
+        "Konsumen"
+      ],
+      "ans": [
+        "Produsen",
+        "Distributor",
+        "Konsumen",
+        "Distributor"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B20",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Saling Ketergantungan",
+      "stimulus": "",
+      "q": "Pasangkan kebutuhan antara pelaku ekonomi yang menunjukkan saling ketergantungan!",
+      "rows": [
+        "Konsumen yang membeli produknya",
+        "Produsen yang membuat barang kebutuhannya",
+        "Produsen dan konsumen agar bisa menyalurkan",
+        "Pemerintah yang mengatur harga"
+      ],
+      "cols": [
+        "Produsen butuh",
+        "Konsumen butuh",
+        "Distributor butuh"
+      ],
+      "ans": [
+        "Produsen butuh",
+        "Konsumen butuh",
+        "Distributor butuh",
+        "Distributor butuh"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B21",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pasangkan produk dengan jenis produksi yang menghasilkannya!",
+      "rows": [
+        "Batu bara yang ditambang dari perut bumi",
+        "Padi yang ditanam petani di sawah",
+        "Kain batik yang diolah di pabrik",
+        "Ikan yang ditangkap nelayan dari laut"
+      ],
+      "cols": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri"
+      ],
+      "ans": [
+        "Ekstraktif",
+        "Agraris",
+        "Industri",
+        "Ekstraktif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B22",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ekonomi Lokal",
+      "stimulus": "",
+      "q": "Pasangkan produk unggulan Jawa Barat dengan daerah asalnya!",
+      "rows": [
+        "Beras berkualitas tinggi",
+        "Sayuran segar untuk Jakarta",
+        "Teh yang terkenal harum",
+        "Batik motif Megamendung"
+      ],
+      "cols": [
+        "Karawang / Subang",
+        "Lembang / Cipanas",
+        "Pangalengan"
+      ],
+      "ans": [
+        "Karawang / Subang",
+        "Lembang / Cipanas",
+        "Pangalengan",
+        "Lembang / Cipanas"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B23",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan istilah dengan definisi kegiatan ekonominya!",
+      "rows": [
+        "Membuat/menghasilkan barang atau jasa",
+        "Menyalurkan barang dari produsen ke konsumen",
+        "Menggunakan barang dan jasa",
+        "Menyimpan barang di gudang besar"
+      ],
+      "cols": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi"
+      ],
+      "ans": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi",
+        "Distribusi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B24",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Produksi",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan jenis produksinya — industri atau jasa!",
+      "rows": [
+        "Pabrik mi yang membuat mi dari tepung",
+        "Guru yang mengajar matematika",
+        "Pabrik sepatu yang membuat sepatu dari kulit",
+        "Dokter yang memeriksa kesehatan"
+      ],
+      "cols": [
+        "Industri",
+        "Jasa",
+        "Industri"
+      ],
+      "ans": [
+        "Industri",
+        "Jasa",
+        "Industri",
+        "Jasa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B25",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Konsumsi",
+      "stimulus": "",
+      "q": "Pasangkan deskripsi konsumen dengan nilainya — bijak atau tidak bijak!",
+      "rows": [
+        "Membeli sesuai kebutuhan dengan harga terbaik",
+        "Membeli barang mahal hanya karena teman punya",
+        "Menyisihkan uang untuk menabung",
+        "Boros membelanjakan uang tanpa skala prioritas"
+      ],
+      "cols": [
+        "Bijak",
+        "Tidak bijak",
+        "Bijak"
+      ],
+      "ans": [
+        "Bijak",
+        "Tidak bijak",
+        "Bijak",
+        "Tidak bijak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B26",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Produksi",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang faktor produksi dengan nilainya — benar atau salah!",
+      "rows": [
+        "Sumber daya alam adalah bahan baku dari alam",
+        "Modal hanya berupa uang tunai saja",
+        "Kewirausahaan adalah kemampuan mengelola usaha",
+        "Sumber daya manusia tidak dibutuhkan dalam produksi modern"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B27",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kegiatan Ekonomi",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan tukang bakso keliling dengan jenis kegiatan ekonominya!",
+      "rows": [
+        "Membuat bakso di dapur setiap pagi",
+        "Berkeliling menjual bakso ke pembeli",
+        "Uang hasil penjualan digunakan membeli kebutuhan",
+        "Menyimpan stok bahan baku"
+      ],
+      "cols": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi"
+      ],
+      "ans": [
+        "Produksi",
+        "Distribusi",
+        "Konsumsi",
+        "Produksi"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

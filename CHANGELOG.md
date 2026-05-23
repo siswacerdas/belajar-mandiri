@@ -5,6 +5,73 @@ Format: `[Sesi XX] — YYYY-MM-DD` → deskripsi perubahan.
 
 ---
 
+## [Sesi 07b] — 2026-05-23
+### Konversi Bank Soal dari Excel ke soal.json
+
+#### Semua bab kini memiliki soal.json ✅
+9 file Excel bank soal (BI 4 bab, IPAS 4 bab, PP Bab 1) berhasil dikonversi
+secara otomatis ke format `soal.json` dan ditempatkan di folder masing-masing bab.
+
+| Bab | Soal |
+|---|---|
+| BI: Hemat Pangkal Kaya | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| BI: Tulus dalam Berkarya | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| BI: Indonesia, Kaya Budaya | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| BI: Aku Anak Sehat | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| IPAS: Daerahku Dulu dan Sekarang | 110 PG + 55 PGK + 55 PGK-CAT = 220 |
+| IPAS: Indonesiaku Kaya Budaya | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| IPAS: Kebutuhan Hidup | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| IPAS: Masyarakat yang Beradab | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+| PP: Membangun Jati Diri dalam Kebinekaan | 108 PG + 54 PGK + 55 PGK-CAT = 217 |
+
+Bank soal lama di Google Sheets tidak lagi digunakan. Semua soal kini
+dikelola langsung dari file soal.json di repo.
+
+---
+
+## [Sesi 07] — 2026-05-23
+### Migrasi Soal ke Repo + Hapus Fitur Email
+
+#### Ringkasan Perubahan
+Sistem soal kuis dimigrasikan dari Google Apps Script/Sheets ke file `soal.json`
+yang disimpan langsung di repo — satu file per bab. Fitur pengiriman hasil ke email
+dihapus sepenuhnya. Hasil kuis kini hanya disimpan di Firebase (log tidak terhapus).
+
+#### File Baru
+- **`kelas-4/pp/bab-gotong-royong/soal.json`** — 9 soal (6 PG + 2 PGK + 1 PGK-CAT)
+  berstandar Buku Saku: stimulus fungsional, stem pertanyaan utuh, distraktor miskonsepsi nyata
+- **`kelas-4/pp/bab-negaraku-indonesia/soal.json`** — 10 soal (6 PG + 3 PGK + 1 PGK-CAT)
+  dengan cakupan Sub-materi A–E lengkap
+- **`kelas-4/pp/bab-gotong-royong/kuis.html`** — kuis baru Bab 3 PP (engine baru, tanpa Apps Script)
+- **`kelas-4/pp/bab-negaraku-indonesia/kuis.html`** — kuis baru Bab 2 PP (engine baru)
+- **`soal-template.json`** — template dengan panduan lengkap untuk bab BI & IPAS
+
+#### File Dimodifikasi (Engine — semua 11 kuis.html)
+Engine kuis.html diperbarui secara seragam di semua bab (BI 4 bab, IPAS 4 bab, PP 3 bab):
+- `SCRIPT_URL` dihapus dari CONFIG
+- `SOAL_URL: "soal.json"` ditambahkan ke CONFIG
+- Fetch soal diubah dari Google Apps Script ke file lokal `soal.json`
+- `_submitToServer()` dihapus sepenuhnya
+- `kirimEmailManual()` dihapus sepenuhnya
+- Form input email orang tua dihapus dari halaman login kuis
+- Tombol "Kirim ke Email" dihapus dari halaman hasil
+- `emailOrangtua` dihapus dari session object
+- LABEL_SUBMATERI diperbarui untuk bab-gotong-royong dan bab-negaraku-indonesia
+- PROPORSI disesuaikan untuk kedua bab baru PP (bank soal lebih kecil)
+
+#### Format soal.json
+Lihat `soal-template.json` dan ANTI-REGRESI.md untuk spesifikasi lengkap.
+Field wajib: `id`, `sub_materi`, `type`, `score`, `topik`, `stimulus`, `q`, `ans`, `pembahasan`.
+
+#### Yang BELUM Dimigrasikan (perlu tindakan manual)
+9 bab berikut masih memerlukan `soal.json` yang diisi dari ekspor Google Sheets:
+- B. Indonesia: bab-aku-anak-sehat, bab-hemat-pangkal-kaya, bab-indonesia-kaya-budaya, bab-tulus-dalam-berkarya
+- IPAS: bab-daerahku-dulu-dan-sekarang, bab-indonesiaku-kaya-budaya, bab-kebutuhan-hidup, bab-masyarakat-yang-beradab
+- PP: bab-jati-diri-kebinekaan
+Gunakan `soal-template.json` sebagai panduan. Lihat ANTI-REGRESI.md untuk langkah migrasi.
+
+---
+
 ## [Sesi 06] — 2026-05-20
 ### Sistem Log Kuis Firebase + Papan Peringkat
 

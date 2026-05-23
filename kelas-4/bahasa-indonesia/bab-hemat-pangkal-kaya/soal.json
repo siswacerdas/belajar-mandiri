@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "Bahasa Indonesia",
+  "bab": "Bab 1 — Hemat Pangkal Kaya",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Informasi penting dalam sebuah teks adalah ...",
+      "opt": [
+        "Semua kalimat yang terdapat dalam teks dari awal sampai akhir",
+        "Inti atau hal-hal utama yang disampaikan penulis dalam teks",
+        "Kalimat terpanjang yang ada di dalam sebuah paragraf",
+        "Kata-kata asing yang sulit dipahami oleh pembaca"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Ketika temanmu bertanya 'Ceritanya tentang apa?', jawabanmu merupakan ...",
+      "opt": [
+        "Ringkasan semua dialog dalam cerita",
+        "Informasi penting dari teks yang kamu baca",
+        "Daftar nama tokoh yang ada dalam cerita",
+        "Penjelasan tentang latar tempat dalam cerita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Kemampuan menemukan informasi penting dalam teks berguna untuk ...",
+      "opt": [
+        "Menghafal seluruh isi teks tanpa terkecuali",
+        "Memahami bacaan dengan cepat dan merangkum isinya",
+        "Menulis teks baru yang lebih panjang dari aslinya",
+        "Mencari kesalahan ejaan yang dibuat penulis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Perhatikan teks berikut: 'SD Cerdas Mandiri memiliki koperasi yang dikelola guru dan siswa kelas 5 dan 6. Koperasi buka setiap Senin–Jumat pukul 09.30–10.00 WIB.' Informasi penting dari teks tersebut adalah ...",
+      "opt": [
+        "Koperasi SD Cerdas Mandiri buka setiap hari termasuk Sabtu dan Minggu",
+        "Koperasi SD Cerdas Mandiri dikelola guru dan siswa kelas 5 dan 6 pada jam istirahat",
+        "Semua siswa SD Cerdas Mandiri wajib mengelola koperasi sekolah",
+        "Koperasi SD Cerdas Mandiri buka mulai pagi hingga sore hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Saat membaca teks, kita tidak perlu menghafal semua kalimat. Yang perlu kita temukan adalah ...",
+      "opt": [
+        "Nama penulis dan tanggal penerbitan teks",
+        "Jumlah paragraf dan kalimat dalam teks",
+        "Hal-hal paling penting yang menjadi inti bacaan",
+        "Semua kata benda yang disebutkan dalam teks"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Teks berikut: 'Berkat koperasi sekolah, banyak siswa yang belajar mengelola uang jajan mereka dengan lebih bijak. Mereka tidak lagi menghabiskan semua uang jajan, tetapi menyisihkan sebagian untuk ditabung.' Informasi penting dari teks tersebut adalah ...",
+      "opt": [
+        "Siswa tidak lagi diizinkan membeli jajan di luar sekolah",
+        "Koperasi sekolah membantu siswa belajar mengelola uang dengan bijak",
+        "Semua siswa mendapat hadiah dari koperasi setiap akhir tahun",
+        "Guru-guru juga ikut menabung di koperasi sekolah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Informasi penting bisa ditemukan dari jenis teks apa saja, kecuali ...",
+      "opt": [
+        "Teks berita",
+        "Teks cerita",
+        "Teks pengumuman",
+        "Teks yang tidak ada di dunia nyata"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Ketika membaca teks tentang koperasi sekolah, kamu menemukan kalimat: 'Harga barang di koperasi lebih murah karena koperasi tidak mengambil keuntungan yang besar.' Kalimat ini merupakan informasi penting tentang ...",
+      "opt": [
+        "Cara mendaftarkan diri sebagai anggota koperasi",
+        "Alasan mengapa harga di koperasi lebih terjangkau",
+        "Daftar barang yang dijual di koperasi sekolah",
+        "Jadwal pembukaan koperasi setiap harinya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "ADiKSiMBa adalah singkatan yang digunakan untuk ...",
+      "opt": [
+        "Nama sebuah metode menghitung kecepatan membaca",
+        "Teknik menemukan informasi penting dalam teks dengan enam pertanyaan",
+        "Cara menulis paragraf yang baik dan benar",
+        "Metode menghafal kosakata baru dalam bahasa Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Huruf 'A' pertama dalam ADiKSiMBa mewakili pertanyaan ...",
+      "opt": [
+        "Apakah teks ini penting untuk dibaca?",
+        "Apa yang terjadi dalam teks?",
+        "Apakah penulis sudah memberikan informasi yang lengkap?",
+        "Apakah ada kesalahan penulisan dalam teks?"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Huruf 'Di' dalam ADiKSiMBa mewakili pertanyaan ...",
+      "opt": [
+        "Dimulai dari bagian mana teks dibaca?",
+        "Di mana kejadian dalam teks berlangsung?",
+        "Dikerjakan oleh siapa tugas membaca ini?",
+        "Diakhiri dengan cara apa teks tersebut?"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pertanyaan 'Kapan?' dalam ADiKSiMBa bertujuan untuk menemukan ...",
+      "opt": [
+        "Kapan teks itu ditulis oleh pengarangnya",
+        "Kapan kejadian yang dibahas dalam teks berlangsung",
+        "Kapan pembaca selesai membaca teks tersebut",
+        "Kapan pelajaran Bahasa Indonesia dimulai"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pertanyaan 'Siapa?' dalam ADiKSiMBa membantu kita menemukan ...",
+      "opt": [
+        "Siapa yang menugaskan kita untuk membaca",
+        "Siapa penulis yang membuat teks tersebut",
+        "Siapa tokoh atau orang yang terlibat dalam isi teks",
+        "Siapa yang paling pintar di kelas membaca teks"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Huruf 'M' pertama dalam ADiKSiMBa mewakili pertanyaan ...",
+      "opt": [
+        "Mengapa kejadian dalam teks bisa terjadi?",
+        "Mana kalimat yang paling penting dalam teks?",
+        "Mulai dari mana kita harus membaca teks?",
+        "Mungkinkah kejadian dalam teks terjadi lagi?"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Huruf 'Ba' dalam ADiKSiMBa mewakili pertanyaan ...",
+      "opt": [
+        "Banyak berapa halaman teks yang harus dibaca?",
+        "Bagaimana proses atau cara sesuatu terjadi dalam teks?",
+        "Baik atau buruk isi teks yang kamu baca?",
+        "Baru atau lama teks yang sedang kamu baca?"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Wartawan saat meliput berita selalu menerapkan pertanyaan yang mirip dengan ADiKSiMBa. Hal ini menunjukkan bahwa ADiKSiMBa ...",
+      "opt": [
+        "Hanya bisa digunakan untuk membaca berita saja",
+        "Merupakan teknik profesional yang biasa digunakan dalam dunia jurnalistik",
+        "Hanya cocok untuk siswa kelas 4 sekolah dasar",
+        "Sulit diterapkan karena memerlukan keahlian khusus"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Kamu membaca: 'Bu Sari, guru pembimbing koperasi, menjelaskan bahwa tujuan didirikannya koperasi adalah untuk mengajarkan siswa tentang pentingnya menabung.' Pertanyaan ADiKSiMBa yang terjawab dari kalimat ini adalah ...",
+      "opt": [
+        "Kapan dan Di mana",
+        "Siapa dan Mengapa",
+        "Apa dan Bagaimana",
+        "Di mana dan Bagaimana"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Jika kamu dapat menjawab semua pertanyaan ADiKSiMBa setelah membaca sebuah teks, artinya ...",
+      "opt": [
+        "Kamu harus membaca teks tersebut sekali lagi dari awal",
+        "Kamu telah berhasil menemukan informasi penting dari teks",
+        "Kamu perlu mencari teks lain yang lebih sulit",
+        "Kamu belum benar-benar memahami isi teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Merangkum sebuah teks berarti ...",
+      "opt": [
+        "Menyalin ulang teks secara lengkap dan persis sama",
+        "Menuliskan informasi penting dari teks dengan kalimat sendiri yang lebih singkat",
+        "Mencari kalimat yang paling panjang dalam teks",
+        "Membaca teks sebanyak tiga kali berturut-turut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang merangkum teks adalah ...",
+      "opt": [
+        "Rangkuman harus lebih panjang dari teks aslinya",
+        "Rangkuman boleh mengubah makna dari teks aslinya",
+        "Rangkuman berisi informasi penting dari teks dengan bahasa yang lebih ringkas",
+        "Rangkuman harus menggunakan kata-kata yang persis sama dengan teks asli"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Langkah pertama yang tepat sebelum membuat rangkuman adalah ...",
+      "opt": [
+        "Langsung menulis ulang semua isi teks",
+        "Membaca teks dengan cermat dan menemukan informasi pentingnya",
+        "Menghitung jumlah kata dalam teks asli",
+        "Mencari kata-kata sulit untuk dijelaskan dalam rangkuman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Rangkuman yang baik dari teks tentang koperasi sekolah seharusnya mencakup ...",
+      "opt": [
+        "Semua dialog yang terjadi antara guru dan siswa di koperasi",
+        "Daftar harga semua barang yang dijual di koperasi",
+        "Informasi utama: apa itu koperasi, siapa pengelolanya, dan apa tujuannya",
+        "Sejarah panjang berdirinya koperasi di seluruh Indonesia"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Pak Budi membaca artikel panjang tentang cara menabung di bank. Ia kemudian menuliskan poin-poin pentingnya saja dalam 3 kalimat. Yang dilakukan Pak Budi adalah ...",
+      "opt": [
+        "Mengkritik isi artikel",
+        "Merangkum artikel",
+        "Menyalin artikel",
+        "Menerjemahkan artikel"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Saat merangkum teks berita tentang kenaikan harga di kantin sekolah, kamu TIDAK perlu mencantumkan ...",
+      "opt": [
+        "Harga makanan yang mengalami kenaikan",
+        "Tanggal berlakunya harga baru",
+        "Alasan kenaikan harga",
+        "Nama penjual dan resep makanan yang dijual"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Teks bacaan tentang Koperasi SD Cerdas Mandiri memiliki 5 paragraf. Rangkuman yang baik seharusnya ...",
+      "opt": [
+        "Menyalin semua 5 paragraf secara lengkap",
+        "Hanya menyalin paragraf pertama saja",
+        "Mencakup inti dari semua 5 paragraf dalam beberapa kalimat ringkas",
+        "Hanya mengambil satu kalimat dari satu paragraf"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Pernyataan yang SALAH tentang merangkum adalah ...",
+      "opt": [
+        "Rangkuman menggunakan bahasa sendiri yang lebih singkat",
+        "Rangkuman tetap menjaga makna utama teks asli",
+        "Rangkuman harus menyalin semua kalimat dalam teks asli",
+        "Rangkuman mengandung informasi terpenting dari teks"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Seorang siswa merangkum teks tentang menabung dengan menulis: 'Menabung penting karena bisa menyiapkan uang untuk masa depan dan membuat kita lebih hemat.' Rangkuman tersebut ...",
+      "opt": [
+        "Terlalu panjang dan tidak efektif",
+        "Baik karena singkat dan mengandung informasi penting",
+        "Salah karena menggunakan bahasa sendiri",
+        "Kurang karena tidak menyalin kalimat asli dari teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Tanda baca yang digunakan sebagai pemisah ribuan dalam penulisan angka bahasa Indonesia adalah ...",
+      "opt": [
+        "Koma (,)",
+        "Titik (.)",
+        "Garis miring (/)",
+        "Tanda hubung (-)"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Penulisan angka dua puluh lima ribu yang benar dalam bahasa Indonesia adalah ...",
+      "opt": [
+        "25000.0",
+        "25.0",
+        "25000.0",
+        "25.0"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Tanda koma (,) dalam penulisan angka bahasa Indonesia digunakan sebagai ...",
+      "opt": [
+        "Pemisah ribuan",
+        "Tanda akhir kalimat",
+        "Pemisah desimal",
+        "Pengganti tanda titik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Angka seratus tidak perlu diberi tanda titik karena ...",
+      "opt": [
+        "Seratus adalah bilangan ganjil",
+        "Angka di bawah 1.000 tidak menggunakan pemisah ribuan",
+        "Seratus bisa ditulis dengan huruf saja",
+        "Angka ratusan selalu ditulis tanpa tanda apapun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Penulisan satu juta rupiah yang benar adalah ...",
+      "opt": [
+        "Rp1,000,000",
+        "Rp1.000.000",
+        "Rp 1000000",
+        "rp1.000.000"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Penulisan angka dua juta lima ratus ribu yang benar adalah ...",
+      "opt": [
+        "Rp2,500,000",
+        "Rp2500000",
+        "Rp2.500.000",
+        "Rp2.500,000"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Di Amerika Serikat, titik digunakan sebagai pemisah desimal dan koma untuk ribuan. Di Indonesia, aturannya adalah ...",
+      "opt": [
+        "Sama persis dengan Amerika Serikat",
+        "Titik untuk pemisah ribuan dan koma untuk desimal",
+        "Koma untuk pemisah ribuan dan tidak ada desimal",
+        "Tidak ada aturan khusus dalam penulisan angka"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Penulisan angka 'lima ratus' yang benar menurut PUEBI adalah ...",
+      "opt": [
+        "Rp.500",
+        "Rp500",
+        "Rp 500",
+        "rp500"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Simbol rupiah yang benar menurut PUEBI (Pedoman Umum Ejaan Bahasa Indonesia) adalah ...",
+      "opt": [
+        "rp (huruf kecil semua)",
+        "RP (huruf besar semua)",
+        "Rp (R besar, p kecil)",
+        "Rp. (dengan tanda titik setelahnya)"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Penulisan 'Rp 5.000' (dengan spasi setelah Rp) adalah ...",
+      "opt": [
+        "Benar, karena spasi membuat penulisan lebih jelas",
+        "Salah, karena simbol Rp ditulis langsung tanpa spasi sebelum angka",
+        "Benar, karena sesuai aturan PUEBI terbaru",
+        "Salah, karena seharusnya menggunakan tanda titik setelah Rp"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Penulisan nilai uang Rp10.000,00 (dengan koma dan dua angka nol di akhir) menunjukkan bahwa ...",
+      "opt": [
+        "Nilai uang tersebut adalah sepuluh ribu koma nol nol rupiah",
+        "Ada kesalahan dalam penulisan nilai uang tersebut",
+        "Nilai uang tersebut bulat, yaitu tepat sepuluh ribu rupiah",
+        "Nilai uang tersebut tidak lengkap karena kurang angka"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Harga nasi kuning di kantin adalah tiga ribu lima ratus rupiah. Cara penulisan yang benar adalah ...",
+      "opt": [
+        "Rp3,500",
+        "Rp3.500",
+        "Rp 3.500",
+        "Rp.3.500"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Kamu membaca di buku: 'Setiap siswa boleh menabung mulai dari Rp2.000,00 per hari.' Nilai uang Rp2.000,00 dibaca sebagai ...",
+      "opt": [
+        "Dua ribu koma nol nol rupiah",
+        "Dua juta rupiah",
+        "Dua ribu rupiah",
+        "Dua ratus ribu rupiah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Untuk nilai uang yang sangat besar seperti sepuluh miliar, penulisan yang lebih praktis dan mudah dibaca adalah ...",
+      "opt": [
+        "Rp10.000.000.000",
+        "Rp 10 M",
+        "Rp10 miliar",
+        "Rp10,000,000,000"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Seorang siswa menulis 'rp5.000' di buku catatannya. Penulisan tersebut salah karena ...",
+      "opt": [
+        "Angkanya kurang satu nol",
+        "Huruf r harus kapital menjadi Rp",
+        "Seharusnya menggunakan koma bukan titik",
+        "Angka lima ribu seharusnya ditulis dengan huruf"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Penulisan nilai uang yang BENAR dari pilihan berikut adalah ...",
+      "opt": [
+        "Rp. 25.000",
+        "RP25.000",
+        "Rp25.000",
+        "rP25.000"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Penulisan 'Rp5.000,50' berarti ...",
+      "opt": [
+        "Lima ribu koma lima puluh rupiah",
+        "Lima juta lima puluh rupiah",
+        "Lima ribu dan lima puluh sen rupiah",
+        "Lima ratus lima puluh rupiah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Titik dalam penulisan Rp1.500.000 berfungsi sebagai ...",
+      "opt": [
+        "Tanda akhir kalimat bilangan",
+        "Pemisah ribuan agar angka mudah dibaca",
+        "Tanda desimal antara rupiah dan sen",
+        "Pengganti kata 'juta' dalam penulisan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Kamu membaca harga sepatu Rp85.000,00. Angka setelah koma (,00) menunjukkan ...",
+      "opt": [
+        "Ada tambahan delapan puluh lima sen",
+        "Harganya tidak tepat dan masih bisa berubah",
+        "Nilai uang tersebut tepat/bulat tanpa tambahan sen",
+        "Ada dua model sepatu dengan harga berbeda"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Perhatikan tabel harga berikut: susu kotak Rp2.000,00 dan air mineral Rp1.500,00. Berapa total harga keduanya jika ditulis dengan benar?",
+      "opt": [
+        "Rp3,500,00",
+        "Rp3.500,00",
+        "Rp 3.500",
+        "Rp.3.500,00"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Penulisan PUEBI mengharuskan angka ribuan ke atas menggunakan tanda titik. Penulisan 'Rp50000' dianggap salah karena ...",
+      "opt": [
+        "Tidak ada simbol sen di akhir angka",
+        "Angka ribuan ke atas harus menggunakan titik sebagai pemisah, menjadi Rp50.000",
+        "Angka tersebut seharusnya ditulis dengan huruf",
+        "Simbol Rp seharusnya diletakkan setelah angka"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Pedoman PUEBI yang mengatur penulisan angka dan nilai uang bertujuan agar ...",
+      "opt": [
+        "Semua angka ditulis dengan huruf, bukan dengan lambang angka",
+        "Tulisan tentang uang tidak membingungkan pembaca",
+        "Nilai uang selalu ditulis dalam bahasa Inggris",
+        "Tidak ada angka yang boleh ditulis di dalam teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Roti bakar di kantin naik dari Rp2.500,00 menjadi Rp3.000,00. Kenaikan harganya adalah ...",
+      "opt": [
+        "Rp500,00",
+        "Rp5.00,00",
+        "Rp5.000,00",
+        "Rp50,00"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Penulisan dua ribu lima ratus yang benar adalah ...",
+      "opt": [
+        "2500.0",
+        "2.5",
+        "2500.0",
+        "2-500"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Seorang pedagang menulis 'Harga: Rp.15.000'. Penulisan tersebut salah karena ...",
+      "opt": [
+        "Angkanya kurang sebuah nol",
+        "Ada tanda titik yang tidak perlu setelah Rp",
+        "Seharusnya menggunakan koma, bukan titik",
+        "Nilai uangnya tidak menggunakan simbol yang benar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Di antara penulisan berikut, yang paling tepat menurut PUEBI adalah ...",
+      "opt": [
+        "Rp 50.000,00",
+        "Rp50.000,00",
+        "Rp.50.000,00",
+        "rp50.000,00"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Dalam buku catatan uang saku, Dina menulis: 'Hari ini saya menabung Rp5.000,00 dan membeli pensil seharga Rp2.000,00.' Sisa uang saku Dina hari ini jika uang sakunya Rp10.000,00 adalah ...",
+      "opt": [
+        "Rp3.000,00",
+        "Rp4.000,00",
+        "Rp5.000,00",
+        "Rp7.000,00"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C01",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Tujuan penulis adalah ...",
+      "opt": [
+        "Nama penulis yang tercantum di sampul buku",
+        "Alasan utama mengapa penulis menulis sebuah teks",
+        "Jumlah halaman yang ditulis oleh penulis",
+        "Kosakata sulit yang digunakan penulis dalam teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C02",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Ada 4 tujuan utama penulis saat menulis sebuah teks. Yang BUKAN termasuk salah satunya adalah ...",
+      "opt": [
+        "Memberi informasi kepada pembaca",
+        "Mengajak atau membujuk pembaca",
+        "Menghibur pembaca",
+        "Membuat pembaca mengantuk"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C03",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Teks berita, pengumuman, dan artikel biasanya ditulis dengan tujuan ...",
+      "opt": [
+        "Menghibur pembaca dengan cerita yang lucu",
+        "Memberi informasi berdasarkan fakta kepada pembaca",
+        "Mengajak pembaca melakukan sesuatu segera",
+        "Menjelaskan langkah-langkah melakukan sesuatu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C04",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Teks yang banyak menggunakan kata 'ayo', 'mari', 'yuk', dan 'sebaiknya' biasanya bertujuan untuk ...",
+      "opt": [
+        "Menghibur pembaca",
+        "Memberi informasi",
+        "Mengajak atau membujuk pembaca melakukan sesuatu",
+        "Menjelaskan cara melakukan sesuatu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C05",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Dongeng, cerita pendek, dan fabel biasanya ditulis dengan tujuan ...",
+      "opt": [
+        "Memberi informasi tentang suatu fakta",
+        "Mengajak pembaca membeli produk tertentu",
+        "Menghibur pembaca dan menyampaikan pesan moral",
+        "Menjelaskan cara membuat sesuatu langkah demi langkah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C06",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Teks yang berisi langkah 1, 2, 3... untuk melakukan sesuatu bertujuan ...",
+      "opt": [
+        "Menghibur pembaca dengan cerita seru",
+        "Membujuk pembaca agar membeli produk",
+        "Menjelaskan cara melakukan sesuatu secara berurutan",
+        "Memberikan pendapat penulis tentang suatu masalah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C07",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Perhatikan teks berikut: 'Mulai hari Senin, 10 Maret 2025, kantin SD Cerdas Mandiri memberlakukan harga baru. Kenaikan ini disebabkan naiknya harga bahan baku di pasar.' Tujuan penulis teks ini adalah ...",
+      "opt": [
+        "Menghibur siswa dengan cerita tentang kantin",
+        "Memberi informasi tentang perubahan harga di kantin",
+        "Mengajak siswa untuk tidak membeli makanan di kantin",
+        "Menjelaskan cara memasak makanan kantin"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C08",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Cara cepat mengenali teks yang bertujuan memberi informasi adalah ...",
+      "opt": [
+        "Banyak tokoh dan jalan cerita yang menarik",
+        "Berisi langkah-langkah 1, 2, 3 yang berurutan",
+        "Banyak fakta dan angka yang dapat diverifikasi",
+        "Banyak kata ajakan seperti 'ayo' dan 'mari'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C09",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Teks iklan produk tabungan yang berisi kalimat 'Yuk, mulai menabung sekarang untuk masa depan yang cerah!' memiliki tujuan penulis ...",
+      "opt": [
+        "Memberi informasi tentang cara menabung",
+        "Mengajak atau membujuk pembaca untuk menabung",
+        "Menghibur pembaca dengan cerita masa depan",
+        "Menjelaskan langkah-langkah membuka rekening bank"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C10",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Teks berikut: 'Cara Mengecek Keaslian Uang: 1. Dilihat — perhatikan tanda air dan benang pengaman. 2. Diraba — rasakan permukaan uang yang kasar. 3. Diterawang — lihat tanda air saat disorot cahaya.' Tujuan penulisnya adalah ...",
+      "opt": [
+        "Memberi informasi tentang sejarah uang Indonesia",
+        "Mengajak pembaca untuk menabung uang",
+        "Menjelaskan cara mengecek keaslian uang secara berurutan",
+        "Menghibur pembaca dengan cara yang menarik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C11",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pesan penulis adalah ...",
+      "opt": [
+        "Alamat dan nomor telepon penulis teks",
+        "Nilai, pelajaran, atau nasihat yang ingin ditanamkan penulis kepada pembaca",
+        "Daftar buku yang pernah ditulis oleh penulis",
+        "Pendapat pribadi pembaca tentang isi teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C12",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Perbedaan tujuan dan pesan penulis adalah ...",
+      "opt": [
+        "Tujuan dan pesan penulis adalah hal yang sama",
+        "Tujuan adalah alasan menulis, pesan adalah nilai/nasihat yang ingin disampaikan",
+        "Pesan ditulis di awal teks, tujuan ditulis di akhir teks",
+        "Tujuan ada di setiap teks, sedangkan pesan hanya di cerita fiksi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C13",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pesan penulis sering tidak ditulis secara langsung dalam teks. Artinya ...",
+      "opt": [
+        "Teks tersebut tidak memiliki pesan apapun",
+        "Pembaca perlu membaca dengan teliti untuk menemukan nilainya",
+        "Pesan hanya bisa ditemukan oleh guru, bukan siswa",
+        "Penulis lupa menuliskan pesannya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C14",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pertanyaan yang TEPAT untuk menemukan pesan penulis adalah ...",
+      "opt": [
+        "Berapa jumlah kata dalam teks ini?'",
+        "Siapa nama penulis teks ini?'",
+        "Pelajaran atau nilai baik apa yang bisa saya ambil dari teks ini?'",
+        "Di kota mana teks ini ditulis?'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C15",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Dongeng 'Kancil dan Buaya' ditulis untuk menghibur pembaca. Namun pesan penulis yang tersembunyi di dalamnya adalah ...",
+      "opt": [
+        "Buaya adalah hewan yang berbahaya dan harus dihindari",
+        "Kancil adalah hewan terkecil di hutan",
+        "Kita harus cerdik dan tidak mudah menyerah menghadapi masalah",
+        "Sungai adalah tempat yang berbahaya untuk disebrangi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C16",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Teks tentang koperasi sekolah yang mengajarkan siswa berhemat dan menabung memiliki pesan ...",
+      "opt": [
+        "Semua siswa harus bekerja di koperasi sekolah",
+        "Hemat dan menabung adalah kebiasaan baik yang perlu ditanamkan sejak dini",
+        "Koperasi hanya cocok untuk sekolah besar",
+        "Uang jajan tidak boleh digunakan untuk membeli makanan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C17",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Teks 'Pengumuman Kantin Sekolah' tentang kenaikan harga memiliki tujuan memberi informasi. Pesan yang mungkin ada di balik pengumuman tersebut adalah ...",
+      "opt": [
+        "Siswa tidak perlu datang ke kantin lagi",
+        "Pahamilah bahwa kenaikan harga adalah hal yang wajar karena harga bahan baku juga naik",
+        "Kantin sekolah harus tutup karena harganya terlalu mahal",
+        "Siswa harus membawa bekal dari rumah setiap hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C18",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Satu teks bisa memiliki tujuan menghibur sekaligus menyampaikan pesan. Artinya ...",
+      "opt": [
+        "Tujuan dan pesan selalu sama dan tidak bisa dibedakan",
+        "Sebuah teks hanya boleh memiliki satu tujuan saja",
+        "Tujuan dan pesan bisa berbeda dalam satu teks yang sama",
+        "Pesan hanya ada di teks yang bertujuan memberi informasi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C19",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Berdasarkan tujuan penulisnya, teks iklan termasuk jenis teks yang bertujuan ...",
+      "opt": [
+        "Menghibur",
+        "Memberi informasi",
+        "Mengajak atau membujuk",
+        "Menjelaskan cara"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C20",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Teks 'Cara Membuat Celengan dari Botol Bekas' yang berisi langkah-langkah termasuk teks yang bertujuan ...",
+      "opt": [
+        "Menghibur",
+        "Menjelaskan cara melakukan sesuatu",
+        "Membujuk pembaca membeli celengan",
+        "Memberi informasi tentang botol bekas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C21",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Teks berita dan laporan ilmiah memiliki tujuan yang sama, yaitu ...",
+      "opt": [
+        "Menghibur",
+        "Mengajak pembaca berbuat sesuatu",
+        "Memberi informasi berdasarkan fakta",
+        "Menjelaskan langkah-langkah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C22",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Sebuah teks berjudul 'Ayo Rajin Menabung!' berisi kalimat-kalimat yang mendorong pembaca untuk menyisihkan uang setiap hari. Teks ini bertujuan ...",
+      "opt": [
+        "Menjelaskan cara menabung di bank",
+        "Menghibur dengan cerita tentang menabung",
+        "Mengajak atau membujuk pembaca untuk rajin menabung",
+        "Memberi informasi tentang jenis-jenis tabungan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C23",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Di antara teks-teks berikut, yang bertujuan menghibur adalah ...",
+      "opt": [
+        "Pengumuman jadwal ujian sekolah",
+        "Resep cara membuat kue",
+        "Cerita fabel tentang semut dan belalang",
+        "Iklan produk sabun mandi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C24",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Gaya bahasa yang imajinatif, penuh perasaan, dan kadang lucu biasanya ditemukan dalam teks yang bertujuan ...",
+      "opt": [
+        "Memberi informasi",
+        "Mengajak",
+        "Menghibur",
+        "Menjelaskan cara"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C25",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Teks petunjuk penggunaan alat elektronik termasuk teks yang bertujuan ...",
+      "opt": [
+        "Menghibur pembaca",
+        "Mengajak membeli alat elektronik tersebut",
+        "Menjelaskan cara menggunakan alat secara berurutan",
+        "Memberi informasi tentang sejarah alat elektronik"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C26",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Kamu membaca teks tentang seorang anak yang akhirnya bisa membeli sepeda idamannya karena rajin menabung. Pesan penulis dalam teks tersebut adalah ...",
+      "opt": [
+        "Sepeda adalah hadiah terbaik untuk anak-anak",
+        "Dengan menabung secara rutin, keinginan kita dapat terwujud",
+        "Orang tua harus membelikan apapun yang diinginkan anak",
+        "Lebih baik membeli sepeda daripada menyimpan uang di bank"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C27",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Kamu diminta menentukan tujuan penulis sebuah teks. Cara pertama yang harus dilakukan adalah ...",
+      "opt": [
+        "Langsung menentukan tujuannya tanpa membaca",
+        "Membaca teks dengan cermat, lalu perhatikan gaya bahasa dan isi teksnya",
+        "Menghitung jumlah paragraf dan kalimat dalam teks",
+        "Mencari nama penulis dan tahun terbit teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D01",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Teks prosedur adalah teks yang berisi ...",
+      "opt": [
+        "Cerita fiksi yang mengandung pesan moral",
+        "Langkah-langkah atau cara-cara melakukan sesuatu secara berurutan",
+        "Informasi tentang suatu kejadian berdasarkan fakta",
+        "Pendapat penulis tentang suatu permasalahan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D02",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Tujuan utama teks prosedur adalah agar ...",
+      "opt": [
+        "Pembaca merasa terhibur dengan cerita yang ada",
+        "Pembaca termotivasi untuk membeli suatu produk",
+        "Pembaca bisa melakukan sesuatu setelah membaca",
+        "Pembaca mengetahui fakta tentang suatu kejadian"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D03",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Contoh teks prosedur yang sering dijumpai dalam kehidupan sehari-hari adalah ...",
+      "opt": [
+        "Dongeng dan cerita rakyat",
+        "Berita dan laporan cuaca",
+        "Resep masakan dan petunjuk penggunaan alat",
+        "Puisi dan pantun"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D04",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Buku resep masakan termasuk teks prosedur karena ...",
+      "opt": [
+        "Berisi cerita menarik tentang makanan",
+        "Memberikan informasi tentang kandungan gizi makanan",
+        "Berisi langkah-langkah cara membuat masakan secara berurutan",
+        "Memiliki banyak foto dan gambar yang indah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D05",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Panduan cara menabung di bank termasuk teks prosedur karena ...",
+      "opt": [
+        "Berisi informasi tentang sejarah bank di Indonesia",
+        "Berisi langkah-langkah yang harus diikuti untuk menabung di bank",
+        "Berisi cerita menarik tentang pengalaman menabung",
+        "Mengajak pembaca untuk membuka rekening di bank tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D06",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Jika kamu tidak tahu cara membuat celengan dari botol bekas, teks apa yang paling tepat kamu cari?",
+      "opt": [
+        "Teks berita tentang celengan botol bekas",
+        "Teks prosedur tentang cara membuat celengan dari botol bekas",
+        "Puisi tentang kegiatan menabung",
+        "Dongeng tentang anak yang rajin menabung"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D07",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Tutorial cara membuat origami dan cara mengikat tali sepatu termasuk teks prosedur. Keduanya memiliki persamaan, yaitu ...",
+      "opt": [
+        "Keduanya menggunakan bahan yang sama",
+        "Keduanya berisi langkah-langkah yang harus diikuti secara berurutan",
+        "Keduanya merupakan teks yang menghibur pembaca",
+        "Keduanya memiliki tujuan mengajak pembaca"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D08",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Ciri utama teks prosedur yang membedakannya dari jenis teks lain adalah ...",
+      "opt": [
+        "Menggunakan bahasa yang indah dan penuh imajinasi",
+        "Langkah-langkahnya berurutan dan tidak boleh dibalik",
+        "Selalu menggunakan banyak tanda baca seru (!)",
+        "Tidak menggunakan angka atau penomoran apapun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D09",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Kalimat-kalimat dalam teks prosedur sebaiknya ...",
+      "opt": [
+        "Panjang dan bertele-tele agar penjelasannya lengkap",
+        "Singkat, jelas, dan mudah dipahami agar mudah diikuti",
+        "Menggunakan bahasa puitis yang indah",
+        "Menggunakan banyak kata kiasan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D10",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Teks prosedur banyak menggunakan kata kerja perintah karena ...",
+      "opt": [
+        "Penulis ingin memaksa pembaca melakukan hal tersebut",
+        "Kata kerja perintah menyuruh pembaca melakukan tindakan tertentu",
+        "Kata kerja perintah membuat teks terlihat lebih bagus",
+        "Kata kerja perintah wajib ada di setiap jenis teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D11",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Dalam teks prosedur, 'hasil akhir yang jelas' berarti ...",
+      "opt": [
+        "Teks prosedur selalu berakhir dengan kalimat penutup",
+        "Ada sesuatu yang ingin dicapai/dihasilkan setelah mengikuti semua langkah",
+        "Langkah terakhir selalu lebih panjang dari langkah pertama",
+        "Harus ada gambar di akhir teks prosedur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D12",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Mengapa langkah-langkah dalam teks prosedur TIDAK boleh dibalik urutannya?",
+      "opt": [
+        "Karena penulis sudah mengurutkannya dengan baik",
+        "Karena membalik urutan akan mengubah atau merusak hasil akhirnya",
+        "Karena urutan dalam teks prosedur hanya sebagai hiasan",
+        "Karena langkah terakhir biasanya paling mudah dilakukan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D13",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Perhatikan teks berikut: '1. Siapkan botol bekas. 2. Lubangi bagian atas botol. 3. Hias botol dengan cat atau kertas berwarna. 4. Celenganmu siap digunakan!' Teks ini termasuk teks prosedur karena ...",
+      "opt": [
+        "Menggunakan banyak kata benda",
+        "Berisi langkah-langkah berurutan dengan tujuan yang jelas",
+        "Menceritakan pengalaman seseorang membuat celengan",
+        "Memberikan informasi tentang bahan-bahan yang mahal"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D14",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Teks prosedur biasanya terdiri dari tiga bagian utama, yaitu ...",
+      "opt": [
+        "Pendahuluan, isi, dan penutup",
+        "Tujuan, bahan/alat, dan langkah-langkah",
+        "Judul, isi, dan kesimpulan",
+        "Perkenalan, konflik, dan penyelesaian"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D15",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Bagian pertama teks prosedur yang menjelaskan apa yang akan dibuat atau dilakukan disebut ...",
+      "opt": [
+        "Langkah-langkah",
+        "Bahan dan alat",
+        "Tujuan",
+        "Kesimpulan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D16",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Dalam teks prosedur 'Cara Membuat Celengan dari Botol Bekas', bagian yang berisi daftar seperti botol bekas, cat, gunting, dan lem disebut ...",
+      "opt": [
+        "Tujuan",
+        "Langkah-langkah",
+        "Bahan dan alat",
+        "Penutup"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D17",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Bagian langkah-langkah merupakan bagian utama teks prosedur karena ...",
+      "opt": [
+        "Bagian ini selalu lebih panjang dari tujuan",
+        "Berisi urutan tindakan yang harus dilakukan dari awal hingga selesai",
+        "Bagian ini menggunakan kata-kata paling sulit",
+        "Selalu diawali dengan kata 'langkah pertama'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D18",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Teks prosedur tentang cara mencuci tangan. Kalimat pembuka 'Mencuci tangan dengan benar penting untuk mencegah penyebaran kuman' termasuk bagian ...",
+      "opt": [
+        "Langkah-langkah",
+        "Tujuan",
+        "Bahan dan alat",
+        "Penutup"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D19",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Tidak semua teks prosedur memiliki bagian bahan dan alat. Contoh teks prosedur yang mungkin tidak memerlukan bagian ini adalah ...",
+      "opt": [
+        "Resep membuat kue bolu",
+        "Cara membuat celengan dari botol bekas",
+        "Panduan cara mengecek saldo tabungan secara online",
+        "Tutorial cara membuat origami katak"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D20",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Kata 'ambil', 'siapkan', 'tuang', dan 'aduk' dalam teks prosedur termasuk ...",
+      "opt": [
+        "Kata benda",
+        "Kata sifat",
+        "Kata kerja perintah",
+        "Kata penghubung"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D21",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Mengapa teks prosedur banyak menggunakan kata kerja perintah seperti 'masukkan', 'potong', 'lipat'?",
+      "opt": [
+        "Agar teks terdengar lebih tegas dan keras",
+        "Karena kata kerja perintah menyuruh pembaca melakukan tindakan secara langsung",
+        "Karena kata kerja perintah adalah kata yang paling mudah dipahami",
+        "Karena teks prosedur tidak boleh menggunakan kata lain selain kata perintah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D22",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Kata penghubung urutan dalam teks prosedur seperti 'pertama', 'kemudian', 'lalu', dan 'terakhir' digunakan untuk ...",
+      "opt": [
+        "Memberikan penjelasan tambahan tentang suatu hal",
+        "Menunjukkan bahwa langkah-langkah harus dikerjakan secara berurutan",
+        "Mengajak pembaca untuk melakukan sesuatu",
+        "Memberikan contoh-contoh yang berhubungan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D23",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Teks: 'Pertama, siapkan botol bekas yang bersih. Kemudian, lubangi bagian atasnya. Setelah itu, hias dengan cat. Terakhir, celenganmu siap digunakan.' Kata penghubung urutan yang digunakan dalam teks tersebut adalah ...",
+      "opt": [
+        "siapkan, lubangi, hias, siap",
+        "pertama, kemudian, setelah itu, terakhir",
+        "botol, atasnya, cat, celengan",
+        "bersih, bagian, digunakan, bekas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D24",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Kata 'rapikan', 'simpan', dan 'dinginkan' dalam resep masakan termasuk ...",
+      "opt": [
+        "Kata kerja perintah",
+        "Kata penghubung urutan",
+        "Kata benda",
+        "Kata keterangan tempat"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D25",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Dalam teks prosedur cara mengecek keaslian uang: '1. Dilihat — perhatikan tanda air. 2. Diraba — rasakan permukaannya. 3. Diterawang — lihat tanda air saat disorot cahaya.' Kata kerja perintah dalam teks tersebut adalah ...",
+      "opt": [
+        "uang, tanda, permukaan, cahaya",
+        "perhatikan, rasakan, lihat",
+        "dilihat, diraba, diterawang",
+        "pertama, kedua, ketiga"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D26",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Perhatikan dua teks berikut: Teks 1: 'Dahulu kala ada seorang anak yang rajin menabung.' Teks 2: 'Siapkan celengan. Masukkan uang setiap hari. Simpan di tempat aman.' Yang merupakan teks prosedur adalah ...",
+      "opt": [
+        "Teks 1 karena bercerita tentang menabung",
+        "Teks 2 karena berisi langkah-langkah berurutan",
+        "Keduanya adalah teks prosedur",
+        "Keduanya bukan teks prosedur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D27",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Ani ingin membuat kue bolu untuk ulang tahun ibunya tetapi tidak tahu caranya. Teks yang paling tepat dicarinya adalah ...",
+      "opt": [
+        "Berita tentang kue bolu terlezat di Indonesia",
+        "Puisi tentang kebaikan seorang ibu",
+        "Teks prosedur berupa resep cara membuat kue bolu",
+        "Cerita fiksi tentang seorang anak yang membuat kue"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Yang termasuk manfaat dari kemampuan menemukan informasi penting dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bisa memahami bacaan dengan lebih cepat dan efisien",
+        "Dapat merangkum isi teks untuk diceritakan kembali",
+        "Dapat menghafal semua kalimat dalam teks secara persis",
+        "Bisa menulis teks baru yang jauh lebih panjang dari aslinya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pertanyaan-pertanyaan yang termasuk dalam teknik ADiKSiMBa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apa yang terjadi dalam teks?",
+        "Di mana dan kapan kejadian berlangsung?",
+        "Siapa pengarang dan berapa harga buku ini?",
+        "Berapa panjang teks yang harus dibaca?"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pertanyaan ADiKSiMBa yang dapat dijawab dari kalimat 'Bu Sari, guru pembimbing koperasi di SD Cerdas Mandiri, membuka koperasi setiap jam istirahat' adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Siapa — Bu Sari, guru pembimbing koperasi",
+        "Di mana — di SD Cerdas Mandiri",
+        "Mengapa — karena harga bahan baku naik",
+        "Bagaimana — dengan cara menjual barang murah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Saat membaca teks tentang koperasi sekolah, informasi penting yang perlu dicatat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Nama sekolah dan siapa yang mengelola koperasi",
+        "Jadwal buka koperasi dan tujuan didirikannya",
+        "Warna cat dinding ruangan koperasi",
+        "Nama lengkap semua siswa yang pernah belanja di koperasi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Ciri-ciri rangkuman yang baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lebih singkat dari teks aslinya",
+        "Tetap mempertahankan makna utama teks asli",
+        "Lebih panjang dan lengkap dari teks asli",
+        "Menggunakan kata-kata yang persis sama dengan teks asli"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Keunggulan teknik ADiKSiMBa dibandingkan membaca biasa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu menemukan informasi penting secara sistematis",
+        "Membuat proses membaca lebih terarah dan terstruktur",
+        "Membuat kita bisa membaca tanpa harus memahami maknanya",
+        "Menggantikan kebutuhan untuk membaca keseluruhan teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Langkah-langkah membuat rangkuman yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membaca teks dengan cermat untuk menemukan informasi penting",
+        "Menuliskan informasi penting tersebut dengan bahasa sendiri",
+        "Menyalin semua kalimat dari teks asli ke kertas baru",
+        "Menghitung jumlah kata dan memotong separuhnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang informasi penting dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Informasi penting adalah inti dari apa yang disampaikan penulis",
+        "Informasi penting bisa ditemukan di berbagai jenis teks",
+        "Informasi penting hanya ada di teks yang panjang dan rumit",
+        "Informasi penting selalu ditulis di paragraf pertama saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pertanyaan ADiKSiMBa yang membantu kita memahami sebab-akibat dalam sebuah teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengapa — mencari penyebab suatu kejadian",
+        "Bagaimana — mencari proses atau cara sesuatu terjadi",
+        "Apa — mencari nama tokoh yang terlibat",
+        "Kapan — mencari judul teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Informasi yang PERLU dimasukkan dalam rangkuman teks tentang koperasi sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Siapa yang mengelola dan apa tujuan koperasi sekolah",
+        "Dampak positif koperasi terhadap kebiasaan siswa menabung",
+        "Nama semua barang yang dijual beserta harganya",
+        "Warna dan ukuran ruangan koperasi sekolah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Jenis-jenis teks yang mengandung informasi penting yang bisa ditemukan dengan ADiKSiMBa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Teks berita tentang kejadian di sekitar kita",
+        "Teks cerita atau pengumuman di sekolah",
+        "Teks yang tidak pernah ada",
+        "Teks yang hanya berisi angka-angka"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Teks: 'Setiap hari Senin hingga Jumat, koperasi buka pada jam istirahat pukul 09.30–10.00 WIB.' Pertanyaan ADiKSiMBa yang terjawab dari kalimat tersebut adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kapan — Senin hingga Jumat, pukul 09.30–10.00 WIB",
+        "Apa — koperasi buka pada jam istirahat",
+        "Mengapa — karena harga di koperasi lebih murah",
+        "Bagaimana — dengan cara mendaftarkan diri ke koperasi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Dua hal yang membuat kemampuan menemukan informasi penting sangat berguna dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu kita memahami isi pengumuman penting dengan cepat",
+        "Membantu kita merangkum materi pelajaran di sekolah",
+        "Membuat kita bisa menulis teks yang lebih panjang",
+        "Membuat kita bisa berbicara dengan lebih keras"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A14",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Perbedaan antara merangkum dan menyalin adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merangkum menggunakan bahasa sendiri yang lebih singkat",
+        "Merangkum hanya mengambil informasi penting dari teks",
+        "Menyalin berarti menulis ulang seluruh teks persis sama",
+        "Menyalin berarti membuat teks yang lebih kreatif"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A15",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Mengapa wartawan menggunakan pertanyaan yang mirip dengan ADiKSiMBa saat meliput berita? Karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pertanyaan-pertanyaan itu memastikan semua informasi penting tercakup",
+        "Teknik ini membantu menghasilkan berita yang lengkap dan akurat",
+        "Wartawan hanya perlu bertanya kepada satu orang narasumber",
+        "Teknik ini membuat berita menjadi lebih panjang dan menarik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Penulisan angka yang benar menurut PUEBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp5.000 — titik sebagai pemisah ribuan",
+        "Rp25.000.000 — titik digunakan dua kali untuk jutaan",
+        "Rp5,000 — koma sebagai pemisah ribuan",
+        "rp5.000 — menggunakan huruf kecil"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Penulisan simbol rupiah yang BENAR menurut PUEBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp ditulis sebelum angka tanpa spasi",
+        "Huruf R kapital dan huruf p kecil",
+        "Rp. dengan tanda titik setelah simbol",
+        "RP dengan kedua huruf kapital"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Fungsi koma (,) dalam penulisan nilai uang bahasa Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memisahkan nilai rupiah dari sen (desimal)",
+        "Menandakan bahwa nilai uang tersebut tepat/bulat ketika diikuti ,00",
+        "Menggantikan tanda titik sebagai pemisah ribuan",
+        "Menunjukkan bahwa nilai uang tersebut perkiraan saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Angka-angka berikut yang TIDAK memerlukan tanda titik pemisah ribuan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp500 — karena masih di bawah 1.000",
+        "Rp750 — karena masih di bawah 1.000",
+        "Rp1.000 — karena sudah ribuan",
+        "Rp2.500 — karena sudah ribuan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Penulisan nilai uang yang SALAH dan perlu diperbaiki adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp. 15.000 — ada tanda titik setelah Rp",
+        "rp25.000 — huruf r tidak kapital",
+        "Rp25.000 — sudah benar",
+        "Rp2.000,00 — sudah benar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang penggunaan tanda titik dalam angka bahasa Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Titik digunakan sebagai pemisah setiap tiga digit angka ribuan ke atas",
+        "Angka Rp1.000.000 menggunakan dua titik karena ada ribuan dan jutaan",
+        "Titik digunakan sebagai pemisah desimal seperti di Amerika",
+        "Angka di bawah seribu wajib menggunakan tanda titik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Di antara contoh penulisan berikut, yang BENAR menurut PUEBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp50.000,00 untuk lima puluh ribu rupiah bulat",
+        "Rp2.500 untuk dua ribu lima ratus rupiah",
+        "Rp50,000 untuk lima puluh ribu rupiah",
+        "Rp. 2.500 untuk dua ribu lima ratus rupiah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Keterangan tentang penulisan nilai uang besar yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp10 miliar lebih mudah dibaca daripada Rp10.000.000.000",
+        "Penulisan dengan kata (miliar, triliun) boleh digunakan untuk nilai yang sangat besar",
+        "Rp10 miliar adalah penulisan yang salah karena harus menggunakan angka semua",
+        "Nilai miliar selalu ditulis dengan angka lengkap"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Dari daftar harga berikut, penulisan yang BENAR adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rp3.500,00 untuk tiga ribu lima ratus rupiah bulat",
+        "Rp10.000,00 untuk sepuluh ribu rupiah bulat",
+        "Rp3,500 untuk tiga ribu lima ratus rupiah",
+        "Rp10.000.00 untuk sepuluh ribu rupiah bulat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Aturan penulisan angka dalam PUEBI yang bertujuan agar pembaca tidak bingung adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menggunakan titik sebagai pemisah ribuan untuk angka 1.000 ke atas",
+        "Menggunakan koma sebagai pemisah desimal, bukan titik",
+        "Menggunakan titik sebagai pemisah desimal seperti di Amerika",
+        "Tidak menggunakan tanda apapun agar angka terlihat bersih"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Kesalahan penulisan yang sering terjadi dalam menulis nilai uang rupiah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menulis 'Rp.' dengan tanda titik setelah simbol Rp",
+        "Menulis 'rp' atau 'RP' alih-alih 'Rp'",
+        "Menulis Rp25.000 tanpa tanda titik",
+        "Menulis Rp500 tanpa koma di akhir"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Manfaat mengikuti aturan PUEBI dalam penulisan angka dan nilai uang adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tulisan menjadi lebih mudah dipahami pembaca",
+        "Tidak ada kerancuan dalam membaca nilai uang yang ditulis",
+        "Tulisan menjadi lebih panjang dan terlihat formal",
+        "Semua orang bisa menebak nilai uang meski tulisannya salah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Dina mencatat pengeluarannya hari ini. Penulisan yang benar dalam catatannya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membeli buku: Rp15.000,00",
+        "Menabung: Rp5.000,00",
+        "Membeli pensil: Rp2,000",
+        "Ongkos: Rp3.000,00"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C01",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Ciri-ciri teks yang bertujuan memberi informasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menggunakan fakta dan data yang dapat diverifikasi",
+        "Gaya bahasanya lugas, jelas, dan objektif",
+        "Banyak menggunakan kata ajakan seperti 'ayo' dan 'mari'",
+        "Berisi tokoh-tokoh fiktif dan alur cerita yang menarik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C02",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Teks yang bertujuan mengajak atau membujuk pembaca memiliki ciri ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Banyak menggunakan kata 'ayo', 'mari', 'yuk', 'sebaiknya'",
+        "Biasanya berupa iklan, poster, atau kampanye",
+        "Berisi langkah-langkah yang berurutan dengan penomoran",
+        "Selalu diakhiri dengan kalimat 'Demikian informasi ini kami sampaikan'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C03",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Jenis-jenis teks yang bertujuan memberi informasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berita tentang kejadian di sekitar kita",
+        "Pengumuman di majalah dinding sekolah",
+        "Dongeng dan cerita rakyat",
+        "Iklan produk dan brosur promosi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C04",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Contoh teks yang bertujuan menghibur pembaca adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Cerita fabel tentang semut yang rajin bekerja",
+        "Dongeng tentang putri yang baik hati",
+        "Artikel ilmiah tentang jenis-jenis tabungan",
+        "Resep cara membuat kue"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C05",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Perbedaan antara tujuan penulis dan pesan penulis adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tujuan adalah alasan mengapa penulis menulis teks tersebut",
+        "Pesan adalah nilai atau nasihat yang ingin ditanamkan penulis",
+        "Tujuan dan pesan penulis selalu sama dan tidak bisa dibedakan",
+        "Pesan penulis selalu ditulis secara tegas di awal teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C06",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Cara yang tepat untuk menemukan pesan penulis dalam sebuah teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bertanya: 'Pelajaran baik apa yang bisa saya ambil dari teks ini?'",
+        "Memikirkan nilai atau nasihat yang tersembunyi di balik cerita",
+        "Mencari jumlah kata paling banyak dalam satu paragraf",
+        "Hanya membaca kalimat pertama dari setiap paragraf"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C07",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pesan penulis dalam teks tentang koperasi sekolah yang mengajarkan siswa menabung adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menabung dan berhemat adalah kebiasaan baik yang penting",
+        "Koperasi sekolah membantu siswa belajar mengelola keuangan",
+        "Semua barang di koperasi jauh lebih murah dari tempat lain",
+        "Guru pembimbing koperasi adalah orang yang paling penting"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C08",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Teks yang berisi kata kerja ajakan seperti 'ayo hemat listrik' dan 'mari jaga lingkungan' termasuk teks yang bertujuan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengajak pembaca melakukan tindakan tertentu",
+        "Membujuk pembaca agar mengubah kebiasaan",
+        "Menghibur pembaca dengan cerita yang lucu",
+        "Menjelaskan cara menghemat listrik secara teknis"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C09",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Sebuah teks bisa memiliki lebih dari satu tujuan. Contohnya dongeng yang ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghibur pembaca dengan cerita yang menarik",
+        "Menyampaikan pesan moral yang berguna",
+        "Memberi informasi teknis tentang suatu topik",
+        "Menjelaskan langkah-langkah melakukan sesuatu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C10",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pertanyaan yang membantu menemukan pesan penulis dalam sebuah teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Apa hal penting yang terjadi dalam teks ini?'",
+        "Pelajaran atau nilai baik apa yang bisa diambil?'",
+        "Berapa jumlah kata dalam teks ini?'",
+        "Siapa nama penulis dan di mana ia tinggal?'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C11",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Teks berjudul 'Ayo Rajin Menabung!' yang berisi anjuran menyisihkan uang saku memiliki ciri ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tujuan: mengajak pembaca untuk rajin menabung",
+        "Menggunakan kata ajakan untuk mendorong tindakan pembaca",
+        "Tujuan: menjelaskan langkah-langkah membuka rekening bank",
+        "Menggunakan banyak data dan fakta ilmiah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C12",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Cerita tentang anak yang berhasil membeli sepeda impiannya karena rajin menabung mengandung pesan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menabung secara konsisten dapat membantu mewujudkan keinginan",
+        "Ketekunan dan kesabaran adalah kunci keberhasilan",
+        "Orang tua selalu berkewajiban membelikan sepeda untuk anaknya",
+        "Sepeda adalah barang paling penting yang harus dimiliki setiap anak"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C13",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Cara mengenali tujuan penulis yang tepat adalah dengan memperhatikan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pilihan kata yang digunakan penulis dalam teks",
+        "Bentuk atau jenis teks yang dituliskan penulis",
+        "Jumlah halaman dan ukuran huruf dalam teks",
+        "Nama penulis dan tahun penerbitan teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D01",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Ciri-ciri yang membedakan teks prosedur dari jenis teks lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Langkah-langkahnya berurutan dan tidak bisa dibalik",
+        "Banyak menggunakan kata kerja perintah",
+        "Berisi cerita fiksi tentang kehidupan sehari-hari",
+        "Selalu menggunakan bahasa yang penuh kiasan dan metafora"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D02",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Bagian-bagian yang biasanya ada dalam teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tujuan — menjelaskan apa yang akan dibuat/dilakukan",
+        "Langkah-langkah — urutan tindakan dari awal hingga selesai",
+        "Konflik — masalah yang dihadapi tokoh utama",
+        "Penutup berupa pesan moral penulis"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D03",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Kata-kata yang termasuk kata kerja perintah dalam teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Siapkan, ambil, dan tuang",
+        "Aduk, masukkan, dan panaskan",
+        "Cantik, mahal, dan bersih",
+        "Pertama, kemudian, dan terakhir"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D04",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Contoh-contoh teks prosedur yang sering dijumpai dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Resep masakan dan petunjuk penggunaan alat",
+        "Panduan menabung di bank dan cara mengecek keaslian uang",
+        "Berita tentang cuaca dan laporan keuangan",
+        "Dongeng dan cerita rakyat tentang kekayaan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D05",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Kata penghubung urutan yang digunakan dalam teks prosedur untuk menunjukkan langkah berurutan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pertama, kemudian, dan setelah itu",
+        "Lalu, berikutnya, dan terakhir",
+        "Namun, akan tetapi, dan sebaliknya",
+        "Karena, sehingga, dan oleh karena itu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D06",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Teks prosedur tentang cara membuat celengan dari botol bekas menunjukkan ciri ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berisi langkah-langkah berurutan yang menghasilkan sebuah celengan",
+        "Menggunakan kata kerja perintah seperti 'siapkan', 'lubangi', dan 'hias'",
+        "Menceritakan kisah seorang anak yang rajin menabung",
+        "Memberikan informasi tentang sejarah celengan di Indonesia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D07",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang bagian 'tujuan' dalam teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjelaskan apa yang akan dibuat atau hasil yang ingin dicapai",
+        "Biasanya berupa judul atau kalimat pengantar di awal teks",
+        "Berisi daftar bahan dan alat yang diperlukan",
+        "Berisi urutan langkah-langkah yang harus diikuti"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D08",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Dalam teks prosedur cara mengecek keaslian uang: 'Dilihat, Diraba, Diterawang', yang merupakan kata kerja dalam konteks ini adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dilihat — menyuruh pembaca melihat tanda air uang",
+        "Diraba — menyuruh pembaca merasakan tekstur permukaan uang",
+        "Dilihat — nama orang yang melakukan pengecekan",
+        "Diraba — nama teknik khusus untuk mendeteksi uang palsu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D09",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Yang menjadi tujuan utama pembaca membaca teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Agar bisa melakukan sesuatu sesuai langkah yang diajarkan",
+        "Agar bisa memahami cara kerja suatu proses",
+        "Agar mendapat hiburan dari cerita yang disajikan",
+        "Agar mengetahui pendapat penulis tentang suatu hal"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D10",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Mengapa langkah-langkah dalam teks prosedur tidak boleh dibalik urutannya? Karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membalik urutan dapat merusak atau mengubah hasil akhirnya",
+        "Teks prosedur dirancang agar setiap langkah bergantung pada langkah sebelumnya",
+        "Penulis tidak ingin pembaca memodifikasi prosedurnya",
+        "Teks prosedur selalu harus dibaca dari kiri ke kanan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D11",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Bagian bahan dan alat dalam teks prosedur berfungsi untuk ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menyebutkan semua perlengkapan yang perlu disiapkan sebelum mulai",
+        "Membantu pembaca mempersiapkan segala sesuatu yang dibutuhkan",
+        "Menjelaskan tujuan dan manfaat dari prosedur yang akan dilakukan",
+        "Memberikan pesan moral di akhir teks prosedur"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D12",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Dalam teks prosedur resep masakan, kata-kata yang termasuk kata kerja perintah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Cuci, potong, dan goreng",
+        "Tuang, aduk, dan sajikan",
+        "Enak, matang, dan renyah",
+        "Lebih dulu, setelah, kemudian"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D13",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Perbandingan antara teks prosedur dan teks berita menunjukkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Teks prosedur berisi langkah-langkah, teks berita berisi fakta kejadian",
+        "Teks prosedur menyuruh pembaca melakukan sesuatu, teks berita memberi informasi",
+        "Teks prosedur dan teks berita sama-sama bertujuan menghibur",
+        "Teks prosedur lebih pendek daripada teks berita"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pasangkan huruf dalam ADiKSiMBa dengan pertanyaan yang diwakilinya!",
+      "rows": [
+        "Peristiwa apa yang terjadi?",
+        "Di mana kejadian berlangsung?",
+        "Kapan peristiwa itu terjadi?",
+        "Siapa yang terlibat?"
+      ],
+      "cols": [
+        "Apa",
+        "Di mana",
+        "Kapan"
+      ],
+      "ans": [
+        "Apa",
+        "Di mana",
+        "Kapan",
+        "Di mana"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan ADiKSiMBa dengan jawaban yang diperoleh dari teks koperasi sekolah!",
+      "rows": [
+        "Bu Sari dan siswa kelas 5 dan 6",
+        "Mengajarkan menabung dan berhemat",
+        "Dengan menjual barang dan menerima tabungan",
+        "Koperasi SD Cerdas Mandiri"
+      ],
+      "cols": [
+        "Siapa",
+        "Mengapa",
+        "Bagaimana"
+      ],
+      "ans": [
+        "Siapa",
+        "Mengapa",
+        "Bagaimana",
+        "Siapa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan dengan jenis informasi yang ditemukan di teks koperasi sekolah!",
+      "rows": [
+        "Buka Senin–Jumat pukul 09.30–10.00 WIB",
+        "Di SD Cerdas Mandiri, Kota Bandung",
+        "Guru dan siswa kelas 5–6",
+        "Sejak tahun 2019"
+      ],
+      "cols": [
+        "Informasi tentang waktu",
+        "Informasi tentang tempat",
+        "Informasi tentang pelaku"
+      ],
+      "ans": [
+        "Informasi tentang waktu",
+        "Informasi tentang tempat",
+        "Informasi tentang pelaku",
+        "Informasi tentang waktu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pasangkan kata tanya dengan contoh jawaban yang tepat!",
+      "rows": [
+        "Koperasi sekolah dibuka untuk siswa",
+        "Bu Sari selaku guru pembimbing",
+        "Agar siswa belajar menabung",
+        "Setiap hari Senin sampai Jumat"
+      ],
+      "cols": [
+        "Apa",
+        "Siapa",
+        "Mengapa"
+      ],
+      "ans": [
+        "Apa",
+        "Siapa",
+        "Mengapa",
+        "Apa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Pasangkan jenis kalimat dengan kategorinya: termasuk informasi penting atau bukan?",
+      "rows": [
+        "Koperasi dibuka untuk mengajarkan menabung",
+        "Warna cat dinding koperasi berwarna biru",
+        "Koperasi buka pukul 09.30–10.00 WIB",
+        "Tujuan koperasi adalah mengajarkan hemat"
+      ],
+      "cols": [
+        "Informasi penting",
+        "Bukan informasi penting",
+        "Informasi penting"
+      ],
+      "ans": [
+        "Informasi penting",
+        "Bukan informasi penting",
+        "Informasi penting",
+        "Informasi penting"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan ADiKSiMBa dengan kategori informasi yang dicarinya!",
+      "rows": [
+        "Siapa — mencari nama tokoh atau orang",
+        "Kapan — mencari waktu kejadian",
+        "Mengapa — mencari alasan atau sebab",
+        "Bagaimana — mencari proses"
+      ],
+      "cols": [
+        "Orang/pelaku",
+        "Waktu kejadian",
+        "Penyebab/alasan"
+      ],
+      "ans": [
+        "Orang/pelaku",
+        "Waktu kejadian",
+        "Penyebab/alasan",
+        "Penyebab/alasan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Pasangkan isi kalimat dari teks koperasi dengan pertanyaan ADiKSiMBa yang terjawab!",
+      "rows": [
+        "Koperasi menjual buku, pensil, dan makanan sehat",
+        "Koperasi berdiri sejak tahun 2019",
+        "Bu Sari adalah guru pembimbing koperasi",
+        "Koperasi terletak di SD Cerdas Mandiri"
+      ],
+      "cols": [
+        "Apa",
+        "Kapan",
+        "Siapa"
+      ],
+      "ans": [
+        "Apa",
+        "Kapan",
+        "Siapa",
+        "Apa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan membaca dengan nama yang tepat!",
+      "rows": [
+        "Menuliskan inti teks dengan bahasa sendiri",
+        "Menuliskan ulang teks secara persis sama",
+        "Membaca teks dengan suara keras",
+        "Memahami isi teks tanpa menuliskannya"
+      ],
+      "cols": [
+        "Merangkum",
+        "Menyalin",
+        "Membaca nyaring"
+      ],
+      "ans": [
+        "Merangkum",
+        "Menyalin",
+        "Membaca nyaring",
+        "Merangkum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Teks: 'Setiap Senin–Jumat, siswa SD Cerdas Mandiri menabung Rp2.000 di koperasi yang dibimbing Bu Sari.' Pasangkan jawaban dengan pertanyaan ADiKSiMBa!",
+      "rows": [
+        "Bu Sari dan siswa",
+        "Setiap Senin–Jumat",
+        "Menabung Rp2.000 di koperasi",
+        "Koperasi SD Cerdas Mandiri"
+      ],
+      "cols": [
+        "Siapa",
+        "Kapan",
+        "Apa"
+      ],
+      "ans": [
+        "Siapa",
+        "Kapan",
+        "Apa",
+        "Apa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Pasangkan jenis teks dengan contoh informasi penting yang bisa ditemukan di dalamnya!",
+      "rows": [
+        "Kejadian yang dialami tokoh utama",
+        "Perubahan harga kantin mulai tanggal tertentu",
+        "Siapa tokoh dan apa yang dialaminya",
+        "Kapan, di mana, dan apa yang terjadi"
+      ],
+      "cols": [
+        "Teks berita",
+        "Teks pengumuman",
+        "Teks cerita"
+      ],
+      "ans": [
+        "Teks berita",
+        "Teks pengumuman",
+        "Teks cerita",
+        "Teks berita"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pasangkan singkatan ADiKSiMBa dengan kepanjangan yang tepat!",
+      "rows": [
+        "Peristiwa apa yang terjadi?",
+        "Di mana peristiwa terjadi?",
+        "Mengapa peristiwa bisa terjadi?",
+        "Bagaimana proses terjadinya?"
+      ],
+      "cols": [
+        "A = Apa",
+        "Di = Di mana",
+        "M = Mengapa"
+      ],
+      "ans": [
+        "A = Apa",
+        "Di = Di mana",
+        "M = Mengapa",
+        "M = Mengapa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Merangkum",
+      "stimulus": "",
+      "q": "Pasangkan langkah merangkum dengan urutan yang benar!",
+      "rows": [
+        "Menulis informasi penting dengan bahasa sendiri",
+        "Membaca teks dengan cermat",
+        "Menemukan informasi penting dari teks",
+        "Memeriksa kembali rangkuman"
+      ],
+      "cols": [
+        "Langkah pertama",
+        "Langkah kedua",
+        "Langkah ketiga"
+      ],
+      "ans": [
+        "Langkah kedua",
+        "Langkah pertama",
+        "Langkah kedua",
+        "Langkah ketiga"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Penting",
+      "stimulus": "",
+      "q": "Pasangkan jenis pertanyaan dengan jawaban dari teks: 'Bu Sari mendirikan koperasi pada 2019 di SD Cerdas Mandiri agar siswa bisa menabung.'",
+      "rows": [
+        "Bu Sari",
+        "Tahun 2019",
+        "Agar siswa bisa menabung",
+        "Supaya siswa rajin menabung"
+      ],
+      "cols": [
+        "Siapa",
+        "Kapan",
+        "Mengapa"
+      ],
+      "ans": [
+        "Siapa",
+        "Kapan",
+        "Mengapa",
+        "Mengapa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "ADiKSiMBa",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang ADiKSiMBa dengan nilainya — benar atau salah!",
+      "rows": [
+        "ADiKSiMBa adalah teknik menemukan informasi penting",
+        "ADiKSiMBa hanya bisa digunakan untuk teks berita",
+        "Wartawan menggunakan pertanyaan serupa saat meliput",
+        "ADiKSiMBa terdiri dari enam pertanyaan"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Pasangkan penulisan angka dengan nama nilainya yang benar!",
+      "rows": [
+        "Rp5.000",
+        "Rp25.000",
+        "Rp1.000.000",
+        "Rp500"
+      ],
+      "cols": [
+        "Lima ribu rupiah",
+        "Dua puluh lima ribu rupiah",
+        "Satu juta rupiah"
+      ],
+      "ans": [
+        "Lima ribu rupiah",
+        "Dua puluh lima ribu rupiah",
+        "Satu juta rupiah",
+        "Lima ribu rupiah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Pasangkan penulisan nilai uang dengan kategorinya: benar atau salah menurut PUEBI!",
+      "rows": [
+        "Rp25.000",
+        "Rp. 25.000",
+        "Rp2.000,00",
+        "rp25.000"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Pasangkan tanda baca dengan fungsinya dalam penulisan angka bahasa Indonesia!",
+      "rows": [
+        "Titik (.) dalam Rp5.000",
+        "Koma (,) dalam Rp5.000,50",
+        "Tanda seru (!) dalam tulisan",
+        "Tanda tanya (?) dalam tulisan"
+      ],
+      "cols": [
+        "Pemisah ribuan",
+        "Pemisah desimal/sen",
+        "Tidak digunakan untuk angka"
+      ],
+      "ans": [
+        "Pemisah ribuan",
+        "Pemisah desimal/sen",
+        "Tidak digunakan untuk angka",
+        "Tidak digunakan untuk angka"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Pasangkan penulisan angka dengan keterangannya yang tepat!",
+      "rows": [
+        "Rp5.000 — angka ribuan perlu titik",
+        "Rp750 — di bawah 1.000 tidak perlu titik",
+        "Rp5,000 — koma bukan untuk ribuan",
+        "Rp.500 — tidak ada titik setelah Rp"
+      ],
+      "cols": [
+        "Benar dan perlu titik",
+        "Benar, tidak perlu titik",
+        "Salah"
+      ],
+      "ans": [
+        "Benar dan perlu titik",
+        "Benar, tidak perlu titik",
+        "Salah",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Pasangkan nilai uang dengan cara penulisan yang paling tepat dan efisien!",
+      "rows": [
+        "Rp5.000",
+        "Rp1.000.000",
+        "Rp10 miliar",
+        "Rp500"
+      ],
+      "cols": [
+        "Ribuan",
+        "Jutaan",
+        "Miliaran"
+      ],
+      "ans": [
+        "Ribuan",
+        "Jutaan",
+        "Miliaran",
+        "Ribuan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Pasangkan contoh penulisan nilai uang dengan artinya!",
+      "rows": [
+        "Rp5.000,00",
+        "Rp2.500",
+        "Rp5.000,50",
+        "Rp2.500,00"
+      ],
+      "cols": [
+        "Lima ribu rupiah bulat",
+        "Dua ribu lima ratus rupiah",
+        "Lima ribu lima puluh sen"
+      ],
+      "ans": [
+        "Lima ribu rupiah bulat",
+        "Dua ribu lima ratus rupiah",
+        "Lima ribu lima puluh sen",
+        "Lima ribu rupiah bulat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Pasangkan kesalahan penulisan dengan alasan kesalahannya!",
+      "rows": [
+        "rp5.000 — huruf r kecil",
+        "Rp. 5.000 — ada titik setelah Rp",
+        "Rp5000 — tidak ada titik pemisah ribuan",
+        "Rp5,000 — koma bukan untuk ribuan"
+      ],
+      "cols": [
+        "Huruf simbol salah",
+        "Tanda baca salah letak",
+        "Tidak ada pemisah ribuan"
+      ],
+      "ans": [
+        "Huruf simbol salah",
+        "Tanda baca salah letak",
+        "Tidak ada pemisah ribuan",
+        "Tanda baca salah letak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Pasangkan penulisan harga dengan nama makanan yang harganya tepat di kantin!",
+      "rows": [
+        "Rp3.500",
+        "Rp3.000",
+        "Rp2.000",
+        "Rp1.500"
+      ],
+      "cols": [
+        "Nasi kuning Rp3.500",
+        "Roti bakar Rp3.000",
+        "Susu kotak Rp2.000"
+      ],
+      "ans": [
+        "Nasi kuning Rp3.500",
+        "Roti bakar Rp3.000",
+        "Susu kotak Rp2.000",
+        "Roti bakar Rp3.000"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan nilai benar atau salah tentang PUEBI!",
+      "rows": [
+        "Di Indonesia, titik adalah pemisah ribuan",
+        "Di Indonesia, koma adalah pemisah ribuan",
+        "Rp25.000 sudah sesuai PUEBI",
+        "rp25.000 sudah sesuai PUEBI"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Pasangkan nilai uang dengan jumlah titik yang benar dalam penulisannya!",
+      "rows": [
+        "Rp500",
+        "Rp5.000",
+        "Rp1.000.000",
+        "Rp50.000"
+      ],
+      "cols": [
+        "Tanpa titik",
+        "Satu titik",
+        "Dua titik"
+      ],
+      "ans": [
+        "Tanpa titik",
+        "Satu titik",
+        "Dua titik",
+        "Satu titik"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Pasangkan penulisan nilai uang dengan angka kata-katanya!",
+      "rows": [
+        "Rp500",
+        "Rp5.000",
+        "Rp50.000",
+        "Rp5.000"
+      ],
+      "cols": [
+        "Lima ratus rupiah",
+        "Lima ribu rupiah",
+        "Lima puluh ribu rupiah"
+      ],
+      "ans": [
+        "Lima ratus rupiah",
+        "Lima ribu rupiah",
+        "Lima puluh ribu rupiah",
+        "Lima ribu rupiah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tanda Baca",
+      "stimulus": "",
+      "q": "Pasangkan penulisan berikut dengan keterangan penggunaan tanda bacanya!",
+      "rows": [
+        "Rp5.000,50 — ada koma untuk sen",
+        "Rp1.000.000 — ada dua titik",
+        "Rp750 — tidak ada tanda baca",
+        "Rp2.500 — ada satu titik"
+      ],
+      "cols": [
+        "Koma untuk desimal",
+        "Titik untuk ribuan",
+        "Tidak menggunakan tanda baca angka"
+      ],
+      "ans": [
+        "Koma untuk desimal",
+        "Titik untuk ribuan",
+        "Tidak menggunakan tanda baca angka",
+        "Titik untuk ribuan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Penulisan Angka",
+      "stimulus": "",
+      "q": "Pasangkan catatan pengeluaran Dina dengan penulisan yang benar!",
+      "rows": [
+        "Buku: Rp15.000,00",
+        "Pensil: Rp2,000",
+        "Tabungan: Rp5.000,00",
+        "Jajan: Rp3.500"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Nilai Uang",
+      "stimulus": "",
+      "q": "Pasangkan kata-kata nilai uang dengan lambang angka yang benar!",
+      "rows": [
+        "Rp2.000",
+        "Rp10.000",
+        "Rp1.000.000",
+        "Rp10.000"
+      ],
+      "cols": [
+        "Dua ribu rupiah",
+        "Sepuluh ribu rupiah",
+        "Satu juta rupiah"
+      ],
+      "ans": [
+        "Dua ribu rupiah",
+        "Sepuluh ribu rupiah",
+        "Satu juta rupiah",
+        "Sepuluh ribu rupiah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C01",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan jenis teks dengan tujuan penulisannya!",
+      "rows": [
+        "Teks berita",
+        "Teks iklan",
+        "Resep masakan",
+        "Teks iklan"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Mengajak/membujuk",
+        "Menjelaskan cara"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Mengajak/membujuk",
+        "Menjelaskan cara",
+        "Mengajak/membujuk"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C02",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Pasangkan contoh teks dengan tujuan penulisannya!",
+      "rows": [
+        "Pengumuman harga kantin",
+        "Cerita fabel semut dan belalang",
+        "Petunjuk cara mencuci tangan",
+        "Artikel tentang menabung"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Menghibur",
+        "Menjelaskan cara"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Menghibur",
+        "Menjelaskan cara",
+        "Memberi informasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C03",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan ciri khas teks dengan tujuan penulis yang sesuai!",
+      "rows": [
+        "Banyak fakta dan angka yang dapat dibuktikan",
+        "Banyak kata 'ayo', 'mari', 'yuk'",
+        "Berisi langkah-langkah berurutan",
+        "Banyak fakta dan angka yang dapat dibuktikan"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Mengajak/membujuk",
+        "Menjelaskan cara"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Mengajak/membujuk",
+        "Menjelaskan cara",
+        "Memberi informasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C04",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan teks dengan pesan penulis yang terkandung di dalamnya!",
+      "rows": [
+        "Cerita anak yang bisa beli sepeda karena menabung",
+        "Fabel Kancil dan Buaya",
+        "Cerita lucu tanpa pelajaran",
+        "Teks koperasi sekolah"
+      ],
+      "cols": [
+        "Menabung itu penting",
+        "Kecerdikan membantu kita",
+        "Menghibur saja"
+      ],
+      "ans": [
+        "Menabung itu penting",
+        "Kecerdikan membantu kita",
+        "Menghibur saja",
+        "Menabung itu penting"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C05",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan teks dengan tujuan penulisnya!",
+      "rows": [
+        "Harga kantin naik mulai 10 Maret 2025'",
+        "Cara mengecek keaslian uang: dilihat, diraba, diterawang'",
+        "Ayo, rajin menabung untuk masa depan yang cerah!'",
+        "Dongeng Kancil dan Buaya"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Menjelaskan cara",
+        "Mengajak/membujuk"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Menjelaskan cara",
+        "Mengajak/membujuk",
+        "Mengajak/membujuk"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C06",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang pesan penulis dengan nilai benar atau salah!",
+      "rows": [
+        "Pesan penulis adalah nilai yang ingin ditanamkan kepada pembaca",
+        "Pesan penulis selalu ditulis langsung di awal teks",
+        "Satu teks bisa menghibur sekaligus menyampaikan pesan moral",
+        "Tujuan dan pesan penulis adalah hal yang sama"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C07",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Pasangkan contoh teks dengan jenis dan tujuannya!",
+      "rows": [
+        "Yuk, buka rekening tabungan sekarang!",
+        "SD Cerdas Mandiri membuka koperasi baru",
+        "Semut rajin bekerja keras untuk musim dingin",
+        "Cara membuat celengan dari botol bekas"
+      ],
+      "cols": [
+        "Teks iklan",
+        "Teks berita",
+        "Teks fabel"
+      ],
+      "ans": [
+        "Teks iklan",
+        "Teks berita",
+        "Teks fabel",
+        "Teks berita"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C08",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan kata kunci dalam teks dengan tujuan penulisnya!",
+      "rows": [
+        "Mulai hari Senin, harga nasi kuning menjadi Rp3.500'",
+        "Mari hemat uang jajan mulai dari sekarang!'",
+        "Langkah 1: siapkan botol bekas. Langkah 2: lubangi atasnya'",
+        "Pada zaman dahulu, hiduplah seekor kancil'"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Mengajak/membujuk",
+        "Menjelaskan cara"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Mengajak/membujuk",
+        "Menjelaskan cara",
+        "Menjelaskan cara"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C09",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan cerita dengan pesan moral yang terkandung di dalamnya!",
+      "rows": [
+        "Anak yang menabung dan akhirnya bisa beli sepeda",
+        "Anak yang rajin belajar dan menjadi juara kelas",
+        "Anak yang berbohong dan kehilangan kepercayaan temannya",
+        "Anak yang malas dan tidak punya teman"
+      ],
+      "cols": [
+        "Hemat pangkal kaya",
+        "Rajin pangkal pandai",
+        "Jujur adalah kunci kepercayaan"
+      ],
+      "ans": [
+        "Hemat pangkal kaya",
+        "Rajin pangkal pandai",
+        "Jujur adalah kunci kepercayaan",
+        "Hemat pangkal kaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C10",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Teks",
+      "stimulus": "",
+      "q": "Pasangkan jenis teks dengan cara mengenalinya dengan cepat!",
+      "rows": [
+        "Ada tokoh, alur cerita, dan suasana",
+        "Banyak fakta, angka, dan data",
+        "Banyak kata 'ayo', 'mari', 'yuk'",
+        "Ada langkah-langkah berurutan"
+      ],
+      "cols": [
+        "Teks menghibur",
+        "Teks memberi informasi",
+        "Teks mengajak"
+      ],
+      "ans": [
+        "Teks menghibur",
+        "Teks memberi informasi",
+        "Teks mengajak",
+        "Teks menghibur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C11",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan jenis teks bahasa Indonesia dengan tujuan penulisnya!",
+      "rows": [
+        "Laporan hasil observasi",
+        "Cerita pendek fiksi",
+        "Panduan cara menabung di bank",
+        "Pidato kampanye"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Menghibur",
+        "Menjelaskan cara"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Menghibur",
+        "Menjelaskan cara",
+        "Menjelaskan cara"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C12",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan penemuan pesan dengan fungsinya!",
+      "rows": [
+        "Pelajaran baik apa yang bisa diambil?'",
+        "Bagaimana akhir cerita ini?'",
+        "Apa yang ingin dilakukan pembaca setelah membaca?'",
+        "Apa nama tokoh utama?'"
+      ],
+      "cols": [
+        "Mencari nilai dari cerita",
+        "Mencari pelajaran dari akhir cerita",
+        "Mencari tindakan yang diinginkan penulis"
+      ],
+      "ans": [
+        "Mencari nilai dari cerita",
+        "Mencari pelajaran dari akhir cerita",
+        "Mencari tindakan yang diinginkan penulis",
+        "Mencari nilai dari cerita"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C13",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tujuan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan gaya bahasa teks dengan tujuan penulisnya!",
+      "rows": [
+        "Gaya bahasa lugas, jelas, objektif, berdasarkan fakta",
+        "Gaya bahasa imajinatif, penuh perasaan, mengalir",
+        "Gaya bahasa persuasif dengan kata ajakan",
+        "Gaya bahasa berurutan dan instruktif"
+      ],
+      "cols": [
+        "Memberi informasi",
+        "Menghibur",
+        "Mengajak/membujuk"
+      ],
+      "ans": [
+        "Memberi informasi",
+        "Menghibur",
+        "Mengajak/membujuk",
+        "Mengajak/membujuk"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C14",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pesan Penulis",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dari teks dengan pesan yang ingin disampaikan penulis!",
+      "rows": [
+        "Berkat koperasi, siswa belajar menyisihkan uang jajan untuk ditabung'",
+        "Semut rajin mengumpulkan makanan sepanjang musim panas'",
+        "Kancil tidak tamak dan hidup bahagia'",
+        "Dina senang karena tabungannya cukup untuk beli buku baru'"
+      ],
+      "cols": [
+        "Hemat dan menabung",
+        "Kerja keras membuahkan hasil",
+        "Jangan serakah"
+      ],
+      "ans": [
+        "Hemat dan menabung",
+        "Kerja keras membuahkan hasil",
+        "Jangan serakah",
+        "Hemat dan menabung"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D01",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan jenis teks dengan kategorinya: teks prosedur atau bukan!",
+      "rows": [
+        "Resep cara membuat kue bolu",
+        "Cerita dongeng tentang semut",
+        "Petunjuk cara menggunakan printer",
+        "Berita tentang koperasi sekolah"
+      ],
+      "cols": [
+        "Teks prosedur",
+        "Bukan teks prosedur",
+        "Teks prosedur"
+      ],
+      "ans": [
+        "Teks prosedur",
+        "Bukan teks prosedur",
+        "Teks prosedur",
+        "Bukan teks prosedur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D02",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan bagian teks prosedur dengan isinya!",
+      "rows": [
+        "Cara membuat celengan dari botol bekas",
+        "Botol bekas, cat, gunting, lem",
+        "Siapkan botol. Lubangi. Hias. Gunakan.",
+        "Celenganmu siap digunakan!"
+      ],
+      "cols": [
+        "Tujuan",
+        "Bahan dan alat",
+        "Langkah-langkah"
+      ],
+      "ans": [
+        "Tujuan",
+        "Bahan dan alat",
+        "Langkah-langkah",
+        "Langkah-langkah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D03",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Pasangkan kata dengan jenisnya dalam teks prosedur!",
+      "rows": [
+        "Siapkan, ambil, aduk",
+        "Pertama, kemudian, terakhir",
+        "Botol, gunting, cat",
+        "Baru, bersih, cantik"
+      ],
+      "cols": [
+        "Kata kerja perintah",
+        "Kata penghubung urutan",
+        "Kata benda"
+      ],
+      "ans": [
+        "Kata kerja perintah",
+        "Kata penghubung urutan",
+        "Kata benda",
+        "Kata benda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D04",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan ciri teks prosedur dengan penjelasannya!",
+      "rows": [
+        "Langkah tidak boleh dibalik",
+        "Kalimat mudah dipahami dan langsung",
+        "Menggunakan 'siapkan', 'potong', 'aduk'",
+        "Ada hasil akhir yang jelas"
+      ],
+      "cols": [
+        "Berurutan",
+        "Singkat dan jelas",
+        "Banyak kata perintah"
+      ],
+      "ans": [
+        "Berurutan",
+        "Singkat dan jelas",
+        "Banyak kata perintah",
+        "Berurutan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D05",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan contoh kegiatan dengan teks yang paling tepat untuk membantunya!",
+      "rows": [
+        "Membuat origami katak",
+        "Mengetahui kejadian di sekitar kita",
+        "Menghibur diri saat santai",
+        "Mengetahui cara membuka tabungan bank"
+      ],
+      "cols": [
+        "Teks prosedur",
+        "Teks berita",
+        "Teks cerita"
+      ],
+      "ans": [
+        "Teks prosedur",
+        "Teks berita",
+        "Teks cerita",
+        "Teks prosedur"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D06",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dari teks prosedur dengan bagiannya!",
+      "rows": [
+        "Cara Membuat Celengan dari Botol Bekas'",
+        "Bahan: 1 botol bekas, cat, kuas'",
+        "Pertama, siapkan botol yang sudah bersih'",
+        "Celenganmu siap digunakan untuk menabung!'"
+      ],
+      "cols": [
+        "Tujuan",
+        "Bahan dan alat",
+        "Langkah-langkah"
+      ],
+      "ans": [
+        "Tujuan",
+        "Bahan dan alat",
+        "Langkah-langkah",
+        "Langkah-langkah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D07",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Pasangkan kata dengan jenisnya dalam konteks teks prosedur resep masakan!",
+      "rows": [
+        "Cuci, potong, dan goreng",
+        "Pertama dan kemudian",
+        "Enak, matang, renyah",
+        "Tuang, aduk, dan sajikan"
+      ],
+      "cols": [
+        "Kata kerja perintah",
+        "Kata penghubung urutan",
+        "Bukan keduanya"
+      ],
+      "ans": [
+        "Kata kerja perintah",
+        "Kata penghubung urutan",
+        "Bukan keduanya",
+        "Kata kerja perintah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D08",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang teks prosedur dengan nilai benar atau salah!",
+      "rows": [
+        "Langkah prosedur tidak boleh dibalik urutannya",
+        "Teks prosedur boleh tidak memiliki hasil akhir",
+        "Teks prosedur menggunakan kalimat singkat dan jelas",
+        "Semua teks prosedur harus memiliki bahan dan alat"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D09",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengertian Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan teks prosedur dengan tujuan penulisannya yang tepat!",
+      "rows": [
+        "Cara membuat celengan dari botol bekas",
+        "Cara mengecek keaslian uang",
+        "Cara menggunakan mesin cuci",
+        "Resep kue bolu ulang tahun"
+      ],
+      "cols": [
+        "Membuat sesuatu",
+        "Melakukan suatu proses",
+        "Menggunakan suatu alat"
+      ],
+      "ans": [
+        "Membuat sesuatu",
+        "Melakukan suatu proses",
+        "Menggunakan suatu alat",
+        "Membuat sesuatu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D10",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Struktur Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan urutan bagian teks prosedur dari awal ke akhir!",
+      "rows": [
+        "Tujuan — menjelaskan apa yang akan dibuat",
+        "Bahan dan alat — daftar perlengkapan",
+        "Langkah-langkah — urutan tindakan",
+        "Pesan moral — nasihat penulis"
+      ],
+      "cols": [
+        "Bagian pertama",
+        "Bagian kedua",
+        "Bagian ketiga"
+      ],
+      "ans": [
+        "Bagian pertama",
+        "Bagian kedua",
+        "Bagian ketiga",
+        "Bagian pertama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D11",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Teks: 'Dilihat — perhatikan tanda air. Diraba — rasakan teksturnya. Diterawang — sorot dengan cahaya.' Pasangkan langkah dengan kata kerjanya!",
+      "rows": [
+        "Perhatikan tanda air dan benang pengaman",
+        "Rasakan permukaan uang yang kasar",
+        "Lihat tanda air saat disorot cahaya",
+        "Masukkan ke dalam amplop"
+      ],
+      "cols": [
+        "Perhatikan (dilihat)",
+        "Rasakan (diraba)",
+        "Sorot (diterawang)"
+      ],
+      "ans": [
+        "Perhatikan (dilihat)",
+        "Rasakan (diraba)",
+        "Sorot (diterawang)",
+        "Perhatikan (dilihat)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D12",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ciri Teks Prosedur",
+      "stimulus": "",
+      "q": "Pasangkan jenis teks dengan ciri khasnya untuk membedakan teks prosedur dari teks lain!",
+      "rows": [
+        "Berisi langkah-langkah berurutan dengan hasil akhir jelas",
+        "Berisi tokoh, konflik, dan penyelesaian cerita",
+        "Berisi fakta kejadian dengan informasi siapa, apa, kapan, di mana",
+        "Berisi kata ajakan dan bahasa persuasif"
+      ],
+      "cols": [
+        "Teks prosedur",
+        "Teks cerita/dongeng",
+        "Teks berita"
+      ],
+      "ans": [
+        "Teks prosedur",
+        "Teks cerita/dongeng",
+        "Teks berita",
+        "Teks berita"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D13",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Kerja Perintah",
+      "stimulus": "",
+      "q": "Pasangkan kata penghubung urutan dengan fungsinya dalam teks prosedur!",
+      "rows": [
+        "Pertama — menandai langkah awal",
+        "Kemudian / Lalu — melanjutkan ke langkah berikutnya",
+        "Terakhir — menandai langkah penutup",
+        "Setelah itu — melanjutkan langkah"
+      ],
+      "cols": [
+        "Memulai langkah",
+        "Melanjutkan langkah",
+        "Mengakhiri langkah"
+      ],
+      "ans": [
+        "Memulai langkah",
+        "Melanjutkan langkah",
+        "Mengakhiri langkah",
+        "Melanjutkan langkah"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

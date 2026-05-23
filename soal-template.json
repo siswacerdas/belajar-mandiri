@@ -1,0 +1,101 @@
+{
+  "_PANDUAN": {
+    "CARA_PAKAI": [
+      "1. Salin file ini ke folder bab yang sesuai, ganti nama menjadi 'soal.json'",
+      "2. Isi field 'mapel' dan 'bab' sesuai bab yang dituju",
+      "3. Isi array 'soal' dengan soal-soal kuis",
+      "4. Hapus key '_PANDUAN' ini sebelum digunakan",
+      "5. Validasi JSON di jsonlint.com sebelum di-push ke GitHub"
+    ],
+    "TIPE_SOAL": {
+      "pg": "Pilihan Ganda — satu jawaban benar. Field 'ans': huruf 'A'/'B'/'C'/'D'",
+      "pgk": "PG Kompleks (MCMA) — beberapa jawaban benar. Field 'ans': array huruf, mis. ['A','C','E']. Sertakan instruksi 'Pilih SEMUA jawaban yang benar' di field 'q'",
+      "pgk-cat": "PG Kategori — klasifikasi item ke kolom. Field 'rows': array item, 'cols': array kategori, 'ans': array kategori (satu per item, urutan sama dengan rows)"
+    },
+    "FIELD_WAJIB": {
+      "id": "String unik per soal, mis. 'bi5_001'. Format: [kode_bab]_[nomor]",
+      "sub_materi": "Huruf kapital: 'A', 'B', 'C', dst. Harus cocok dengan LABEL_SUBMATERI di kuis.html",
+      "type": "'pg', 'pgk', atau 'pgk-cat'",
+      "score": "Poin per soal. Rekomendasi: PG=5, PGK=10, pgk-cat=10",
+      "topik": "Nama pendek topik untuk tampilan sidebar navigasi",
+      "stimulus": "Teks narasi/wacana. Kosongkan ('') jika tidak ada stimulus",
+      "q": "Teks pertanyaan/perintah (tanpa stimulus). Untuk pgk sertakan instruksi memilih semua",
+      "ans": "Jawaban benar. Lihat TIPE_SOAL",
+      "pembahasan": "Penjelasan jawaban benar dan mengapa distraktor salah"
+    },
+    "FIELD_KONDISIONAL": {
+      "opt": "Wajib untuk pg dan pgk. Array 4-6 string opsi TANPA awalan huruf (A/B/C)",
+      "rows": "Wajib untuk pgk-cat. Array item yang akan dikategorikan",
+      "cols": "Wajib untuk pgk-cat. Array nama kategori (maks 2-3)"
+    },
+    "PANDUAN_SOAL_BERMUTU": {
+      "stem": "Gunakan pertanyaan utuh, BUKAN pernyataan rumpang",
+      "stimulus": "Stimulus HARUS fungsional — jawaban tidak bisa ditemukan tanpa membacanya",
+      "distraktor": "Distraktor = miskonsepsi nyata siswa, BUKAN opsi absurd",
+      "panjang_opsi": "Semua opsi setara panjang dan struktur gramatikalnya",
+      "hots": "Campurkan C2 (memahami) dan C4 (menganalisis) untuk variasi tingkat"
+    }
+  },
+  "status": "ok",
+  "mapel": "GANTI_DENGAN_MAPEL",
+  "bab": "GANTI_DENGAN_BAB",
+  "soal": [
+    {
+      "_CONTOH_PG": "Hapus key ini sebelum digunakan",
+      "id": "xx_001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 5,
+      "topik": "Topik Pendek",
+      "stimulus": "Isi teks narasi/wacana di sini jika ada. Kosongkan jika tidak ada.",
+      "q": "Tulis pertanyaan utuh di sini?",
+      "opt": [
+        "Opsi A — distraktor yang mencerminkan miskonsepsi nyata",
+        "Opsi B — jawaban benar",
+        "Opsi C — distraktor yang mencerminkan miskonsepsi nyata",
+        "Opsi D — distraktor yang mencerminkan miskonsepsi nyata"
+      ],
+      "ans": "B",
+      "pembahasan": "Jelaskan mengapa B benar, dan mengapa A, C, D salah — dengan alasan substantif."
+    },
+    {
+      "_CONTOH_PGK": "Hapus key ini sebelum digunakan",
+      "id": "xx_002",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 10,
+      "topik": "Topik Pendek",
+      "stimulus": "",
+      "q": "Manakah pernyataan-pernyataan yang benar tentang [topik]?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Opsi A — benar",
+        "Opsi B — benar",
+        "Opsi C — salah (miskonsepsi umum)",
+        "Opsi D — benar",
+        "Opsi E — benar",
+        "Opsi F — salah (miskonsepsi umum)"
+      ],
+      "ans": ["A","B","D","E"],
+      "pembahasan": "C salah karena... F salah karena..."
+    },
+    {
+      "_CONTOH_PGK_CAT": "Hapus key ini sebelum digunakan",
+      "id": "xx_003",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 10,
+      "topik": "Topik Pendek",
+      "stimulus": "",
+      "q": "Kategorikan setiap item berikut ke dalam kolom yang tepat:\n• Kategori1: definisi kriteria\n• Kategori2: definisi kriteria",
+      "rows": [
+        "Item 1 yang akan dikategorikan",
+        "Item 2 yang akan dikategorikan",
+        "Item 3 yang akan dikategorikan",
+        "Item 4 yang akan dikategorikan"
+      ],
+      "cols": ["Kategori1", "Kategori2"],
+      "ans": ["Kategori1", "Kategori2", "Kategori1", "Kategori2"],
+      "pembahasan": "Item 1 dan 3 masuk Kategori1 karena... Item 2 dan 4 masuk Kategori2 karena..."
+    }
+  ]
+}

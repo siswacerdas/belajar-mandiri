@@ -312,3 +312,78 @@ tidak mengganggu tampilan hasil kuis. Ini disengaja agar UX tidak terganggu.
 - Menggunakan `type="module"` dengan dynamic import firebase.js
 - Tambahkan link ke ranking.html dari home.html jika diinginkan
 
+---
+
+## 📁 SISTEM SOAL LOKAL soal.json (Sesi 07)
+
+### Arsitektur Baru — Soal Disimpan di Repo
+
+Setiap bab yang punya kuis kini memiliki file `soal.json` di foldernya:
+```
+kelas-4/pp/bab-gotong-royong/
+  kuis.html     ← engine kuis
+  soal.json     ← bank soal (di-fetch oleh kuis.html)
+```
+
+### Format soal.json
+```json
+{
+  "status": "ok",
+  "mapel": "Pendidikan Pancasila",
+  "bab": "Bab 3 — ...",
+  "soal": [
+    {
+      "id": "pp3_001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 5,
+      "topik": "Nama Topik Pendek",
+      "stimulus": "Teks wacana (kosong '' jika tidak ada)",
+      "q": "Pertanyaan utuh?",
+      "opt": ["Opsi A", "Opsi B", "Opsi C", "Opsi D"],
+      "ans": "B",
+      "pembahasan": "Penjelasan..."
+    }
+  ]
+}
+```
+
+**Tipe `ans` per jenis soal:**
+| type | Format ans | Contoh |
+|---|---|---|
+| `pg` | String huruf | `"B"` |
+| `pgk` | Array huruf | `["A","C","E"]` |
+| `pgk-cat` | Array string kategori (satu per row) | `["Benar","Salah","Benar"]` |
+
+### ❗ FIELD sub_materi HARUS Cocok dengan LABEL_SUBMATERI di kuis.html
+`sub_materi` di soal.json menggunakan huruf kapital: `"A"`, `"B"`, `"C"`, dst.
+Harus persis sama dengan key di `const LABEL_SUBMATERI = { 'A': '...', 'B': '...' }`.
+Jika tidak cocok, sub-materi soal akan tampil sebagai string kosong di panel samping.
+
+### ❗ Urutan opt HARUS Konsisten dengan ans
+Indeks opsi dimulai dari 0 (A=0, B=1, C=2, D=3). Jangan mengubah urutan opt
+setelah menulis ans — atau semua jawaban akan salah.
+
+### ❗ soal.json Wajib Ada sebelum kuis.html Dibuka
+Karena kuis.html sekarang fetch dari `soal.json` (bukan Google Apps Script),
+jika `soal.json` belum ada di folder yang sama, kuis akan menampilkan error.
+Untuk bab yang belum punya soal.json, gunakan `soal-template.json` sebagai dasar.
+
+### Langkah Migrasi dari Google Sheets (untuk 9 bab yang belum)
+1. Buka Google Sheet yang menyimpan bank soal bab terkait
+2. Ekspor atau salin soal ke format JSON menggunakan `soal-template.json` sebagai panduan
+3. Simpan sebagai `soal.json` di folder bab yang sesuai
+4. Validasi JSON di https://jsonlint.com
+5. Push ke GitHub — kuis.html langsung membaca file baru
+
+### Apa yang DIHAPUS (jangan tambahkan kembali)
+- `SCRIPT_URL` di CONFIG kuis.html → **dihapus permanen**
+- Fungsi `_submitToServer()` → **dihapus permanen** (diganti Firebase logger)
+- Fungsi `kirimEmailManual()` → **dihapus permanen**
+- Field `emailOrangtua` di session → **dihapus permanen**
+- Input email orang tua di form login kuis → **dihapus permanen**
+- Tombol "Kirim ke Email" di halaman hasil → **dihapus permanen**
+
+Jangan tambahkan kembali elemen-elemen di atas dalam versi mendatang.
+Hasil kuis kini hanya disimpan melalui `kuis-logger.js` → Firebase `hasilKuis`.
+

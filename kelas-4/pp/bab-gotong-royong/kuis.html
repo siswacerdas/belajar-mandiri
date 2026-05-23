@@ -9,7 +9,7 @@
   <style>
     /* ── ROOT & RESET ─────────────────────────────────────── */
     :root {
-      --primary: #C2410C;
+      --primary: #B91C1C;
       --primary-m: #0284c7;
       --primary-lt:#e0f2fe;
       --primary-pl:#f0f9ff;
@@ -81,7 +81,7 @@
     }
     .card {
       background: var(--card-bg); border-radius: 16px;
-      box-shadow: 0 4px 24px rgba(194,65,12,.1);
+      box-shadow: 0 4px 24px rgba(185,28,28,.1);
       padding: 36px 32px; width: 100%; max-width: 500px;
       border-top: 5px solid var(--primary);
     }
@@ -129,7 +129,7 @@
     .soal-opt .so-lbl { font-size: .78rem; color: var(--text-lt); margin-top: 2px; }
 
     /* ── PETUNJUK ─────────────────────────────────────────── */
-    .rules-card { background: var(--card-bg); border-radius: 16px; box-shadow: 0 4px 24px rgba(194,65,12,.1); padding: 32px; max-width: 680px; width: 100%; }
+    .rules-card { background: var(--card-bg); border-radius: 16px; box-shadow: 0 4px 24px rgba(185,28,28,.1); padding: 32px; max-width: 680px; width: 100%; }
     .rules-card h2 { font-family: 'Lora', serif; color: var(--primary); border-bottom: 1.5px solid var(--border); padding-bottom: 14px; margin-bottom: 20px; font-size: 1.35rem; }
     .rule-item { display: flex; gap: 12px; margin-bottom: 14px; font-size: .95rem; line-height: 1.6; }
     .rule-num { width: 26px; height: 26px; background: var(--primary); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: .8rem; flex-shrink: 0; margin-top: 2px; }
@@ -256,7 +256,7 @@
       font-weight: 800; font-size: .82rem; color: var(--text-lt); transition: all .18s;
     }
     .nav-num:hover   { border-color: var(--primary); color: var(--primary); background: var(--primary-pl); }
-    .nav-num.current { border: 2.5px solid var(--primary); color: var(--primary); transform: scale(1.08); box-shadow: 0 2px 8px rgba(194,65,12,.2); }
+    .nav-num.current { border: 2.5px solid var(--primary); color: var(--primary); transform: scale(1.08); box-shadow: 0 2px 8px rgba(185,28,28,.2); }
     .nav-num.filled  { background: var(--success); color: #fff !important; border-color: var(--success) !important; }
     .nav-num.filled.current { border: 2.5px solid #7c3aed !important; }
 
@@ -286,7 +286,7 @@
     .error-screen p  { color: var(--text-lt); font-size: .9rem; max-width: 400px; line-height: 1.6; }
 
     /* ── RESULT ──────────────────────────────────────────── */
-    .result-card { background: var(--card-bg); border-radius: 16px; box-shadow: 0 4px 24px rgba(194,65,12,.1); padding: 32px; max-width: 640px; width: 100%; margin-bottom: 32px; }
+    .result-card { background: var(--card-bg); border-radius: 16px; box-shadow: 0 4px 24px rgba(185,28,28,.1); padding: 32px; max-width: 640px; width: 100%; margin-bottom: 32px; }
     .result-card h2 { font-family: 'Lora', serif; color: var(--primary); margin-bottom: 6px; font-size: 1.4rem; }
     .score-big { font-size: 3.5rem; font-weight: 800; color: var(--primary); line-height: 1; }
     .score-box { text-align: center; background: var(--primary-pl); border-radius: 14px; padding: 22px; margin: 20px 0; }
@@ -411,7 +411,7 @@
   <span style="opacity:.4;">›</span>
   <a href="../index.html" style="color:#7c3aed;text-decoration:none;">IPAS</a>
   <span style="opacity:.4;">›</span>
-  <a href="materi.html" style="color:#7c3aed;text-decoration:none;">Bab 1</a>
+  <a href="materi.html" style="color:#7c3aed;text-decoration:none;">Bab 3</a>
   <span style="opacity:.4;">›</span>
   <span>Kuis</span>
 </div>
@@ -433,9 +433,9 @@
         <span style="opacity:.75;font-style:normal;font-weight:600;">Belajar</span>
         <span style="font-style:normal;font-weight:800;"> Mandiri</span>
         <span style="opacity:.5;margin:0 .4rem;">·</span>
-        <span style="font-weight:600;">Kuis Bab 7</span>
+        <span style="font-weight:600;">Kuis PP Bab 1</span>
       </div>
-      <div class="header-sub" id="header-sub">B. Indonesia · Kelas 4 · Indonesia, Kaya Budaya</div>
+      <div class="header-sub" id="header-sub">PP · Kelas 4 · Pola Hidup Gotong Royong</div>
     </div>
     <div class="header-right">
       <a href="materi.html"
@@ -652,15 +652,15 @@
 //  KONFIGURASI
 // ════════════════════════════════════════════════════════════════════════
 const CONFIG = {
-  STORAGE_KEY : "kuis_bi_bab7_sesi",
+  STORAGE_KEY : "kuis_pp_bab3_sesi",
   SOAL_URL    : "soal.json",
   FS_KEY      : "kuis_fontsize",
-  MAPEL       : 'B. Indonesia',
-  BAB         : 'Bab 7 — Indonesia, Kaya Budaya',
+  MAPEL       : 'Pendidikan Pancasila',
+  BAB         : 'Bab 3 — Pola Hidup Gotong Royong',
     DURATION    : 90 * 60,   // detik
-  JUMLAH_SOAL : 20,
+  JUMLAH_SOAL : 9,
   // Proporsi per jumlah soal → [PG, PGK, PGK_KAT]
-  PROPORSI    : { 20:[11,5,4], 30:[17,8,5], 40:[22,10,8] }
+  PROPORSI    : { 9:[6,2,1], 20:[6,2,1], 30:[6,2,1], 40:[6,2,1] }
 };
 
 // ════════════════════════════════════════════════════════════════════════
@@ -1043,10 +1043,10 @@ const app = {
 
     // Label resmi 3 sub-materi
     const LABEL_SUBMATERI = {
-      'A': 'Instruksi dalam Gambar',
-      'B': 'Informasi Teks & Gambar',
-      'C': 'Menyampaikan Pendapat',
-      'D': 'Kata Hubung Antarkalimat'
+      'A': 'Gotong Royong untuk Tujuan Bersama',
+      'B': 'Pelaksanaan Gotong Royong',
+      'C': 'Masyarakat Sejahtera',
+      'D': 'Perbuatan Baik',
     };
 
     // Hitung skor per sub-materi (A, B, C)

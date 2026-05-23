@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "IPAS",
+  "bab": "Bab 2 — Indonesiaku Kaya Budaya",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Budaya adalah ...",
+      "opt": [
+        "Benda-benda bersejarah yang disimpan di museum",
+        "Seluruh cara hidup suatu kelompok masyarakat yang diwariskan dari generasi ke generasi",
+        "Kumpulan lagu dan tarian yang berasal dari daerah tertentu",
+        "Hanya tari-tarian dan pakaian adat yang dimiliki suatu daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Kata 'budaya' berasal dari bahasa Sansekerta 'buddhayah' yang artinya ...",
+      "opt": [
+        "Cara bercocok tanam dan berkebun",
+        "Hal-hal yang berkaitan dengan budi dan akal manusia",
+        "Tempat tinggal dan rumah tradisional",
+        "Warisan benda-benda kuno"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Mengapa budaya disebut sebagai 'identitas' suatu kelompok masyarakat?",
+      "opt": [
+        "Karena budaya adalah dokumen resmi yang dimiliki setiap warga negara",
+        "Karena budaya membedakan satu kelompok dari kelompok lain, seperti sidik jari yang unik",
+        "Karena budaya hanya bisa dimiliki oleh masyarakat yang sudah maju",
+        "Karena budaya selalu berubah setiap tahun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Budaya terbentuk dalam waktu yang ...",
+      "opt": [
+        "Singkat, hanya beberapa tahun saja",
+        "Sangat lama, ratusan hingga ribuan tahun",
+        "Tepat 100 tahun untuk setiap jenis budaya",
+        "Sesuai keinginan pemerintah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang budaya adalah ...",
+      "opt": [
+        "Budaya hanya terdiri dari tari dan lagu tradisional",
+        "Budaya mencakup cara berpakaian, berbicara, jenis makanan, bentuk rumah, dan nilai-nilai masyarakat",
+        "Budaya tidak berpengaruh pada kehidupan sehari-hari",
+        "Budaya hanya dimiliki oleh suku-suku di pedalaman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Indonesia memiliki lebih dari ... suku bangsa dan ... bahasa daerah.",
+      "opt": [
+        "100 suku bangsa dan 300 bahasa daerah",
+        "500 suku bangsa dan 500 bahasa daerah",
+        "1.300 suku bangsa dan 700-an bahasa daerah",
+        "3.000 suku bangsa dan 1.000 bahasa daerah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Salah satu alasan Indonesia begitu kaya budaya adalah karena Indonesia terdiri dari ...",
+      "opt": [
+        "Satu pulau besar yang sangat luas",
+        "Sekitar 17.000 pulau yang terpisah sehingga masyarakat mengembangkan budaya masing-masing",
+        "Hanya 5 suku bangsa yang sangat beragam",
+        "Satu bahasa yang menyatukan semua daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Pengaruh budaya asing seperti India, Arab, China, dan Eropa masuk ke Indonesia melalui ...",
+      "opt": [
+        "Penaklukan militer yang memaksa perubahan budaya",
+        "Jalur perdagangan dan interaksi selama ribuan tahun",
+        "Program pertukaran pelajar modern",
+        "Media sosial dan internet"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Kondisi alam yang berbeda-beda mendorong masyarakat Indonesia beradaptasi secara berbeda. Yang BUKAN termasuk pengaruh alam terhadap budaya adalah ...",
+      "opt": [
+        "Bentuk pakaian yang disesuaikan dengan iklim",
+        "Jenis makanan yang tersedia di sekitar daerah",
+        "Nama presiden yang memimpin negara",
+        "Bentuk rumah yang disesuaikan dengan lingkungan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Para ahli menyebutkan ada berapa unsur kebudayaan universal yang dimiliki semua masyarakat di dunia?",
+      "opt": [
+        "5 unsur",
+        "7 unsur",
+        "10 unsur",
+        "12 unsur"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Sistem teknologi sebagai salah satu unsur budaya mencakup ...",
+      "opt": [
+        "Lagu-lagu daerah dan tarian tradisional",
+        "Cara masyarakat membuat alat dan bangunan untuk memenuhi kebutuhan hidup",
+        "Cara masyarakat memilih pemimpin daerah",
+        "Tradisi pernikahan adat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Di Jawa Barat, banyak masyarakat yang bertani padi di sawah terasering. Ini termasuk unsur budaya ...",
+      "opt": [
+        "Kesenian",
+        "Bahasa",
+        "Sistem mata pencaharian",
+        "Sistem kepercayaan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Tradisi musyawarah mufakat dalam mengambil keputusan bersama termasuk unsur budaya ...",
+      "opt": [
+        "Sistem kemasyarakatan",
+        "Kesenian",
+        "Sistem teknologi",
+        "Sistem mata pencaharian"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Indonesia memiliki lebih dari 700 bahasa daerah. Bahasa termasuk salah satu dari tujuh unsur budaya karena ...",
+      "opt": [
+        "Bahasa hanya digunakan untuk menulis buku-buku kuno",
+        "Bahasa adalah alat komunikasi utama masyarakat yang mencerminkan identitas budaya",
+        "Bahasa daerah hanya dipakai dalam upacara adat",
+        "Bahasa tidak bisa diwariskan kepada generasi berikutnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Rumah adat adalah ...",
+      "opt": [
+        "Bangunan modern dengan desain terinspirasi dari budaya lokal",
+        "Bangunan tradisional khas suatu daerah yang mencerminkan budaya dan cara hidup masyarakatnya",
+        "Rumah milik pemerintah yang digunakan untuk upacara resmi",
+        "Bangunan bersejarah yang hanya ada di Jawa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Masyarakat yang tinggal di daerah rawan banjir biasanya membangun rumah ...",
+      "opt": [
+        "Dari batu yang sangat kokoh",
+        "Panggung agar tidak tergenang air",
+        "Bawah tanah agar aman dari banjir",
+        "Dari kaca agar bisa melihat banjir"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Rumah adat dari Jawa Barat yang memiliki atap mirip perahu terbalik adalah ...",
+      "opt": [
+        "Rumah Gadang",
+        "Honai",
+        "Rumah Kasepuhan (Imah Badak Heuay/Julang Ngapak)",
+        "Rumah Toraja"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Rumah Gadang berasal dari daerah ...",
+      "opt": [
+        "Jawa Barat",
+        "Sumatera Barat (Minangkabau)",
+        "Kalimantan Tengah",
+        "Papua"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Honai adalah rumah adat dari Papua yang bentuknya bulat dan pendek. Rumah ini dirancang demikian karena ...",
+      "opt": [
+        "Bahan bangunan di Papua hanya cukup untuk rumah kecil",
+        "Agar panas dari perapian di dalam tidak mudah keluar karena iklim pegunungan yang dingin",
+        "Memenuhi aturan adat yang melarang rumah berbentuk kotak",
+        "Lebih mudah dipindahkan ketika harus berpindah tempat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Alasan utama mengapa bentuk rumah adat berbeda-beda di tiap daerah adalah ...",
+      "opt": [
+        "Setiap daerah memiliki arsitek yang berbeda",
+        "Kondisi alam, bahan bangunan yang tersedia, dan kebutuhan masyarakat setempat",
+        "Setiap raja memerintahkan bentuk rumah yang berbeda",
+        "Perbedaan warna kesukaan di tiap daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pakaian Adat",
+      "stimulus": "",
+      "q": "Pakaian adat berfungsi sebagai ...",
+      "opt": [
+        "Hanya sebagai kostum penari dalam pertunjukan seni",
+        "Cerminan identitas budaya daerah dan sering dipakai dalam upacara adat atau perayaan penting",
+        "Pakaian sehari-hari yang digunakan semua warga",
+        "Hanya untuk dipakai oleh pemimpin suku dan tokoh adat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pakaian Adat",
+      "stimulus": "",
+      "q": "Pakaian adat masyarakat di daerah dingin cenderung memiliki ciri ...",
+      "opt": [
+        "Tipis dan terbuka agar udara bisa masuk",
+        "Tebal dan menutupi sebagian besar tubuh untuk menghangatkan",
+        "Berwarna cerah agar mudah dilihat di alam",
+        "Ringan karena tidak perlu menghangatkan tubuh"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pakaian Adat",
+      "stimulus": "",
+      "q": "Kebaya merupakan pakaian adat yang banyak dikenal dari budaya ...",
+      "opt": [
+        "Sumatera Utara",
+        "Kalimantan Timur",
+        "Jawa dan beberapa daerah lainnya",
+        "Papua"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pakaian Adat",
+      "stimulus": "",
+      "q": "Kain ulos adalah pakaian adat khas suku ...",
+      "opt": [
+        "Dayak dari Kalimantan",
+        "Batak dari Sumatera Utara",
+        "Baduy dari Banten",
+        "Asmat dari Papua"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Tari Saman yang terkenal dengan gerakan tangan yang cepat dan serentak berasal dari ...",
+      "opt": [
+        "Jawa Tengah",
+        "Bali",
+        "Aceh",
+        "Kalimantan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Tari Jaipong adalah tarian tradisional yang berasal dari ...",
+      "opt": [
+        "Sumatera Barat",
+        "Jawa Barat (budaya Sunda)",
+        "Sulawesi Selatan",
+        "Nusa Tenggara Barat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Tari Kecak yang terkenal dengan suara 'cak cak cak' dari para penarinya berasal dari ...",
+      "opt": [
+        "Papua",
+        "Aceh",
+        "Bali",
+        "Lombok"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A28",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Tarian daerah biasanya mengandung makna atau pesan. Tari Pakarena dari Sulawesi Selatan misalnya, menggambarkan ...",
+      "opt": [
+        "Keberanian para prajurit dalam peperangan",
+        "Keanggunan dan kelembutan perempuan Sulawesi",
+        "Upacara penyambutan tamu kehormatan",
+        "Cara menanam padi di sawah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A29",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Angklung adalah alat musik tradisional yang berasal dari Jawa Barat. Bahan utama pembuatan angklung adalah ...",
+      "opt": [
+        "Kayu jati",
+        "Bambu",
+        "Besi tempa",
+        "Kulit binatang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A30",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Angklung telah diakui oleh UNESCO sebagai warisan budaya takbenda dunia milik Indonesia pada tahun ...",
+      "opt": [
+        "2000.0",
+        "2005.0",
+        "2010.0",
+        "2015.0"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A31",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Gamelan adalah seperangkat alat musik tradisional dari Jawa dan Bali. Gamelan termasuk kelompok alat musik ...",
+      "opt": [
+        "Dipetik",
+        "Ditiup",
+        "Perkusi (dipukul)",
+        "Digesek"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A32",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Sasando adalah alat musik khas dari Nusa Tenggara Timur. Cara memainkan sasando adalah ...",
+      "opt": [
+        "Dipukul seperti drum",
+        "Ditiup seperti seruling",
+        "Dipetik seperti harpa",
+        "Digesek seperti biola"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A33",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Makanan khas suatu daerah biasanya mencerminkan ...",
+      "opt": [
+        "Selera penjajah yang pernah datang ke daerah tersebut",
+        "Bahan makanan yang tersedia di alam sekitar daerah tersebut",
+        "Keinginan raja atau pemimpin daerah",
+        "Resep dari negara lain yang dimodifikasi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A34",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Nasi timbel yang dibungkus daun pisang merupakan makanan khas dari daerah ...",
+      "opt": [
+        "Jawa Tengah",
+        "Sumatera Barat",
+        "Jawa Barat (budaya Sunda)",
+        "Kalimantan Selatan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A35",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Rendang yang terkenal di dunia adalah masakan tradisional dari ...",
+      "opt": [
+        "Aceh",
+        "Sumatera Barat (Minangkabau)",
+        "Jawa Timur",
+        "Bali"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A36",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Masyarakat Sunda tinggal terutama di wilayah ...",
+      "opt": [
+        "Sumatera Selatan",
+        "Jawa Tengah",
+        "Jawa Barat",
+        "Kalimantan Barat"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A37",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Upacara Seren Taun dalam budaya Sunda adalah tradisi ...",
+      "opt": [
+        "Syukuran panen padi yang dilakukan setiap tahun",
+        "Pernikahan adat masyarakat Sunda",
+        "Perayaan tahun baru Sunda",
+        "Ritual memanggil hujan saat musim kemarau"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A38",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Dalam falsafah Sunda, konsep 'silih asah, silih asih, silih asuh' mengandung makna ...",
+      "opt": [
+        "Bersaing untuk menjadi yang terbaik",
+        "Saling mencerdaskan, saling mengasihi, saling membimbing",
+        "Bekerja sendiri tanpa bergantung orang lain",
+        "Menghormati yang lebih tua saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A39",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Kain batik khas Sunda dari Kota Tasikmalaya dan sekitarnya dikenal dengan nama batik ...",
+      "opt": [
+        "Parang",
+        "Megamendung",
+        "Kawung",
+        "Lereng"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A40",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Wayang Golek adalah seni pertunjukan khas Sunda yang menggunakan ...",
+      "opt": [
+        "Boneka kulit yang dimainkan di balik layar",
+        "Boneka kayu tiga dimensi yang digerakkan dengan tangan",
+        "Bayangan tangan di dinding",
+        "Orang nyata yang berperan sebagai karakter wayang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Hubungan antara lingkungan alam dan budaya masyarakat adalah ...",
+      "opt": [
+        "Alam dan budaya tidak memiliki hubungan apapun",
+        "Alam membentuk cara hidup manusia, dan cara hidup yang diwariskan menjadi budaya",
+        "Budaya yang mengubah alam, bukan sebaliknya",
+        "Hanya masyarakat di pedalaman yang terpengaruh oleh alam"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Adaptasi budaya adalah ...",
+      "opt": [
+        "Cara masyarakat meniru budaya bangsa lain",
+        "Proses masyarakat menyesuaikan cara hidupnya dengan kondisi alam di sekitarnya",
+        "Perubahan budaya yang terjadi dalam waktu singkat",
+        "Upaya mempertahankan budaya agar tidak berubah sama sekali"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang hubungan alam dan budaya adalah ...",
+      "opt": [
+        "Alam hanya mempengaruhi jenis makanan, tidak aspek budaya lainnya",
+        "Kondisi alam mempengaruhi rumah, pakaian, makanan, dan bahkan seni yang diciptakan masyarakat",
+        "Alam modern sudah tidak berpengaruh pada budaya",
+        "Hanya daerah terpencil yang budayanya dipengaruhi alam"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Alam disebut sebagai 'guru pertama manusia' karena ...",
+      "opt": [
+        "Alam memberikan buku-buku pelajaran untuk dibaca",
+        "Manusia belajar cara berlindung, makan, berpakaian, dan bertahan hidup dari lingkungan alam",
+        "Alam mengajarkan bahasa dan tulisan kepada manusia",
+        "Alam menyediakan gedung sekolah untuk masyarakat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat yang tinggal di daerah pegunungan yang dingin cenderung membuat pakaian yang ...",
+      "opt": [
+        "Tipis dan terbuka",
+        "Berwarna-warni cerah",
+        "Tebal dan tertutup untuk menghangatkan tubuh",
+        "Ringan karena tidak perlu perlindungan dari cuaca"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat yang tinggal di tepi laut cenderung bermata pencaharian sebagai ...",
+      "opt": [
+        "Petani padi sawah",
+        "Nelayan",
+        "Pemburu di hutan",
+        "Pengrajin bambu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Di Jawa Barat, tanah yang subur dan banyak sungai mendorong masyarakat Sunda menjadi ...",
+      "opt": [
+        "Nelayan yang handal",
+        "Petani padi sawah sejak berabad-abad lalu",
+        "Pedagang rempah-rempah internasional",
+        "Pemburu di hutan lebat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Nasi timbel dibungkus daun pisang dan tradisi ngaseuk dalam budaya Sunda lahir dari ...",
+      "opt": [
+        "Pengaruh budaya dari luar Jawa Barat",
+        "Kehidupan agraris masyarakat Sunda yang bertani padi sejak lama",
+        "Perintah raja Sunda yang mewajibkan cara makan tertentu",
+        "Ketersediaan bahan makanan impor yang murah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat pegunungan budayanya cenderung lebih terjaga keasliannya dibanding masyarakat pesisir karena ...",
+      "opt": [
+        "Masyarakat pegunungan lebih pintar dalam menjaga budaya",
+        "Masyarakat pegunungan hidup lebih terisolasi dan jarang berinteraksi dengan budaya luar",
+        "Pemerintah melindungi budaya pegunungan lebih ketat",
+        "Budaya pegunungan lebih sulit untuk berubah secara alami"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat pesisir budayanya cenderung lebih beragam karena ...",
+      "opt": [
+        "Mereka lebih suka belajar budaya baru",
+        "Letak di jalur perdagangan membuat mereka sering bertemu orang dari berbagai daerah dan bangsa",
+        "Pemerintah memaksa mereka menerima budaya asing",
+        "Alam laut mendorong rasa ingin tahu yang lebih besar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Daerah yang sering dilanda banjir mendorong masyarakat membangun rumah ...",
+      "opt": [
+        "Dari batu yang sangat kuat dan kokoh",
+        "Di bawah tanah agar aman dari air",
+        "Panggung agar terhindar dari genangan air",
+        "Berbentuk bulat mengikuti arus air"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Daerah yang rawan gempa mendorong pembangunan rumah dari bahan ...",
+      "opt": [
+        "Beton bertulang yang sangat berat",
+        "Kaca tempered yang mahal",
+        "Ringan seperti bambu yang lentur dan tidak mudah roboh",
+        "Batu bata merah yang tebal dan padat"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Suku Dani di Papua membangun honai yang bulat dan berdinding tebal karena ...",
+      "opt": [
+        "Bahan bangunan di Papua tidak cukup untuk membuat rumah besar",
+        "Iklim pegunungan Jayawijaya yang sangat dingin membutuhkan rumah yang bisa menahan angin",
+        "Adat Dani melarang pembangunan rumah berbentuk kotak",
+        "Honai lebih mudah dipindahkan saat harus berpindah tempat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Suku Bajo dikenal sebagai 'manusia laut' karena mereka ...",
+      "opt": [
+        "Suka makan ikan setiap hari",
+        "Ahli membuat kapal dan perahu berukuran besar",
+        "Hidup di atas laut dengan rumah di atas tiang di perairan dangkal",
+        "Berpakaian berwarna biru menyerupai warna laut"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Suku Asmat dari Papua Selatan sangat ahli mengukir kayu. Keahlian ini berkembang karena ...",
+      "opt": [
+        "Mereka meniru teknik ukir dari negara lain",
+        "Mereka hidup di daerah rawa dengan pohon mangrove melimpah sebagai bahan ukiran",
+        "Pemerintah mengajarkan teknik ukir kepada mereka",
+        "Ukiran adalah satu-satunya sumber penghasilan mereka"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Makanan pokok suku Dani di pegunungan Papua adalah ubi jalar, bukan padi. Ini karena ...",
+      "opt": [
+        "Suku Dani tidak menyukai rasa nasi",
+        "Ubi jalar lebih cocok tumbuh di iklim pegunungan yang dingin dibanding padi",
+        "Pemerintah mewajibkan mereka makan ubi jalar",
+        "Beras terlalu mahal untuk dibeli di daerah tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Di Jawa Barat, tradisi 'ngaseuk' adalah cara menanam padi dengan menggunakan ...",
+      "opt": [
+        "Traktor mesin modern bertenaga besar",
+        "Kayu yang ditusukkan ke tanah untuk membuat lubang tanam",
+        "Cangkul besi berukuran besar",
+        "Mesin penanam padi otomatis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Lagu Sunda 'Es Lilin' yang bercerita tentang kehidupan desa mencerminkan ...",
+      "opt": [
+        "Pengaruh budaya asing yang masuk ke Jawa Barat",
+        "Kehidupan agraris masyarakat Sunda yang erat dengan alam perdesaan",
+        "Sejarah perjuangan melawan penjajah kolonial",
+        "Tradisi pedagang yang berkeliling dari desa ke desa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Selain faktor alam, budaya Indonesia juga dipengaruhi oleh ...",
+      "opt": [
+        "Hanya tradisi yang diciptakan nenek moyang",
+        "Sejarah dan interaksi dengan pedagang serta bangsa lain selama ribuan tahun",
+        "Hanya pengaruh dari negara-negara tetangga saja",
+        "Keputusan pemerintah dalam mengadopsi budaya tertentu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Pengaruh budaya India yang paling terlihat di Indonesia adalah ...",
+      "opt": [
+        "Kebiasaan minum teh dan makan kari",
+        "Masuknya agama Hindu dan Buddha yang mempengaruhi candi, wayang, dan kesenian",
+        "Penggunaan tulisan latin dalam bahasa daerah",
+        "Tradisi menanam padi di sawah terasering"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Mengapa kota-kota pelabuhan seperti Surabaya, Makassar, dan Banten memiliki budaya yang lebih beragam?",
+      "opt": [
+        "Karena kota-kota ini lebih besar dari kota lainnya",
+        "Karena letak di jalur perdagangan membuat mereka berinteraksi dengan berbagai bangsa",
+        "Karena pemerintah sengaja menempatkan berbagai suku di sana",
+        "Karena kota pelabuhan mendapat lebih banyak bantuan dari pemerintah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan Budaya",
+      "stimulus": "",
+      "q": "Budaya dapat berubah seiring waktu. Faktor yang paling sering mendorong perubahan budaya adalah ...",
+      "opt": [
+        "Bencana alam yang menghancurkan semua tradisi sekaligus",
+        "Kontak dengan budaya lain dan perubahan kondisi lingkungan hidup",
+        "Keputusan pemerintah pusat yang tiba-tiba",
+        "Munculnya tokoh agama baru di daerah tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan Budaya",
+      "stimulus": "",
+      "q": "Perubahan budaya belum tentu bersifat negatif. Contoh perubahan budaya yang positif adalah ...",
+      "opt": [
+        "Melupakan bahasa daerah dan hanya berbicara bahasa asing",
+        "Menggabungkan teknologi modern dengan kesenian tradisional agar lebih mudah dipelajari",
+        "Menghilangkan semua tradisi lama dan menggantinya dengan cara baru",
+        "Melarang segala budaya asing masuk ke Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang paling tepat tentang hubungan manusia dan alam dalam konteks budaya adalah ...",
+      "opt": [
+        "Manusia harus selalu melawan alam untuk bisa berkembang",
+        "Alam membentuk budaya, dan manusia perlu menjaga alam agar budayanya dapat lestari",
+        "Budaya tidak bergantung pada kondisi alam sama sekali",
+        "Alam hanya penting bagi masyarakat yang belum maju"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Beberapa budaya sangat bergantung pada alam. Jika bambu di Jawa Barat habis, budaya yang paling terancam adalah ...",
+      "opt": [
+        "Tradisi batik Cirebon yang menggunakan pewarna alami",
+        "Kesenian angklung yang seluruh bahannya dari bambu",
+        "Seni melukis wayang pada kain",
+        "Upacara pernikahan adat Sunda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat yang hidup di hutan lebat cenderung mengembangkan mata pencaharian ...",
+      "opt": [
+        "Menangkap ikan di laut lepas",
+        "Bertani padi di sawah irigasi",
+        "Berburu dan meramu hasil hutan",
+        "Berdagang lintas pulau menggunakan perahu"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Alur pengaruh alam terhadap budaya yang paling tepat adalah ...",
+      "opt": [
+        "Kebudayaan → Cara Hidup Manusia → Kondisi Alam",
+        "Cara Hidup Manusia → Kondisi Alam → Kebudayaan",
+        "Kondisi Alam → Cara Hidup Manusia → Kebudayaan",
+        "Kondisi Alam → Kebudayaan → Cara Hidup Manusia"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B28",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Batik bermotif awan atau mega (Megamendung) yang dipengaruhi budaya China banyak ditemukan di ...",
+      "opt": [
+        "Yogyakarta dan Solo",
+        "Cirebon dan sekitarnya",
+        "Pekalongan dan Semarang",
+        "Garut dan Tasikmalaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B29",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Suku Bajo mengembangkan kemampuan menyelam sangat dalam tanpa alat bantu. Ini merupakan bentuk adaptasi terhadap ...",
+      "opt": [
+        "Tradisi leluhur yang ditetapkan oleh adat",
+        "Kehidupan mereka yang bergantung sepenuhnya pada laut untuk mencari makan",
+        "Program pelatihan dari pemerintah setempat",
+        "Kebutuhan berolahraga setiap hari"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B30",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Kondisi geografis 'kepulauan yang terpisah' berkontribusi pada keberagaman budaya Indonesia karena ...",
+      "opt": [
+        "Pulau yang terpisah membuat transportasi menjadi mahal",
+        "Masyarakat di pulau berbeda hidup terpisah ribuan tahun dan mengembangkan cara hidup sendiri",
+        "Setiap pulau diwajibkan memiliki budaya berbeda berdasarkan hukum",
+        "Pemisahan pulau membuat komunikasi antar daerah tidak mungkin"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B31",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Rumah panggung yang dibangun tinggi di atas tanah berfungsi untuk ...",
+      "opt": [
+        "Memperlihatkan status sosial pemilik rumah",
+        "Menghindari genangan air banjir dan menjadi kandang ternak di bawahnya",
+        "Menyesuaikan dengan adat yang melarang menyentuh tanah",
+        "Memudahkan ventilasi udara di daerah panas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B32",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Perubahan Budaya",
+      "stimulus": "",
+      "q": "Teknologi angklung kini bisa dipelajari secara online oleh orang di seluruh dunia. Ini merupakan contoh ...",
+      "opt": [
+        "Budaya tradisional yang terancam punah",
+        "Pemanfaatan teknologi modern untuk melestarikan dan menyebarkan budaya tradisional",
+        "Hilangnya nilai otentik dari angklung",
+        "Perubahan budaya yang berbahaya bagi identitas bangsa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B33",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Ketika kondisi alam berubah — misalnya sawah berubah menjadi perumahan — dampak terhadap budaya adalah ...",
+      "opt": [
+        "Budaya tidak terpengaruh sama sekali",
+        "Budaya yang berkaitan dengan pertanian dan alam tersebut bisa ikut terancam",
+        "Budaya menjadi lebih modern dan lebih baik secara otomatis",
+        "Masyarakat langsung menciptakan budaya baru yang sama bagusnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B34",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Tradisi merantau suku Minangkabau berkaitan dengan letak geografis mereka di ...",
+      "opt": [
+        "Pantai yang memudahkan perjalanan dengan kapal",
+        "Dataran tinggi yang subur namun terbatas luasnya, mendorong pemuda mencari nafkah di tempat lain",
+        "Dekat perbatasan negara sehingga mudah bepergian ke luar negeri",
+        "Daerah rawa yang tidak cocok untuk bercocok tanam"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C01",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Melestarikan budaya berarti ...",
+      "opt": [
+        "Melarang semua perubahan pada budaya tradisional",
+        "Menjaga agar budaya tetap hidup, dikenal, dan diwariskan kepada generasi berikutnya",
+        "Menyimpan benda-benda budaya di museum agar tidak dipakai sehari-hari",
+        "Hanya menggunakan budaya dalam acara resmi pemerintah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C02",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Salah satu alasan utama budaya perlu dilestarikan adalah karena budaya merupakan ...",
+      "opt": [
+        "Kewajiban yang diatur dalam undang-undang",
+        "Identitas bangsa yang membedakan Indonesia dari bangsa lain",
+        "Sumber keuntungan ekonomi semata",
+        "Warisan yang hanya penting bagi orang tua dan lansia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C03",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Batik, wayang, dan angklung menjadi cara dunia mengenal Indonesia. Ini menunjukkan bahwa budaya berfungsi sebagai ...",
+      "opt": [
+        "Produk ekspor yang menguntungkan saja",
+        "Identitas bangsa di mata dunia internasional",
+        "Kewajiban yang harus dipelajari di sekolah",
+        "Hiburan semata untuk wisatawan asing"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C04",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Semboyan 'Bhinneka Tunggal Ika' berkaitan dengan pelestarian budaya karena ...",
+      "opt": [
+        "Mewajibkan semua daerah memiliki budaya yang sama",
+        "Keberagaman budaya yang dijaga dan saling dihormati justru memperkuat persatuan bangsa",
+        "Budaya yang berbeda-beda harus disatukan menjadi satu budaya nasional",
+        "Hanya budaya Jawa yang perlu dilestarikan sebagai budaya dominan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C05",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Kearifan lokal dalam budaya tradisional mencakup pengetahuan tentang ...",
+      "opt": [
+        "Cara menggunakan teknologi modern secara optimal",
+        "Cara bertani, obat tradisional, dan cara membaca tanda-tanda alam",
+        "Sejarah perang antar negara di masa lalu",
+        "Cara berdagang secara internasional"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C06",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Arus globalisasi mengancam budaya lokal karena ...",
+      "opt": [
+        "Globalisasi membawa bencana alam yang merusak situs budaya",
+        "Internet dan media sosial membawa budaya asing yang bisa menggantikan budaya lokal jika tidak ada keseimbangan",
+        "Globalisasi membuat orang tidak lagi membutuhkan budaya apapun",
+        "Budaya asing selalu lebih baik dari budaya lokal"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C07",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Urbanisasi mengancam pelestarian budaya karena ...",
+      "opt": [
+        "Kota selalu menghancurkan benda-benda bersejarah secara langsung",
+        "Generasi muda yang pindah ke kota tidak lagi punya waktu untuk mempelajari adat dan tradisi",
+        "Pemerintah kota melarang pertunjukan budaya tradisional",
+        "Orang kota tidak tertarik dengan budaya daerah manapun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C08",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Putusnya pewarisan budaya terjadi ketika ...",
+      "opt": [
+        "Pemerintah tidak mengalokasikan anggaran untuk kebudayaan",
+        "Generasi muda tidak mau belajar keahlian budaya dari orang tua, sehingga keahlian itu terbawa pergi selamanya",
+        "Bencana alam menghancurkan semua peninggalan budaya",
+        "Negara asing mengklaim budaya kita"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C09",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Indonesia pernah mengalami kasus budayanya diklaim oleh negara lain. Contohnya adalah ...",
+      "opt": [
+        "Batik yang diklaim oleh Jepang",
+        "Tari Kecak yang diklaim oleh India",
+        "Tari Pendet dan Reog Ponorogo yang pernah diklaim Malaysia",
+        "Angklung yang diklaim oleh China"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C10",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Mengapa kerusakan lingkungan bisa mengancam budaya?",
+      "opt": [
+        "Karena lingkungan yang rusak membuat orang tidak bisa berkreasi",
+        "Karena beberapa budaya bergantung pada bahan alam seperti bambu, kayu, dan sawah",
+        "Karena kerusakan lingkungan membuat orang pindah ke kota",
+        "Karena kerusakan lingkungan menghancurkan bangunan museum"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C11",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Kurangnya kebanggaan terhadap budaya sendiri menjadi ancaman karena ...",
+      "opt": [
+        "Itu melanggar hukum dan peraturan negara",
+        "Jika generasi muda tidak bangga, mereka tidak akan mau mempelajari dan melestarikannya",
+        "Kebanggaan tidak berpengaruh pada pelestarian budaya",
+        "Orang tua yang bangga sudah cukup untuk melestarikan budaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C12",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "UNESCO memperkirakan sekitar 50% bahasa daerah di dunia terancam punah. Dampak punahnya bahasa daerah adalah ...",
+      "opt": [
+        "Tidak ada dampak karena masih ada bahasa Indonesia sebagai pengganti",
+        "Seluruh pengetahuan, cerita, dan cara pandang yang tersimpan dalam bahasa tersebut juga ikut lenyap",
+        "Hanya berdampak pada orang tua yang masih menggunakan bahasa tersebut",
+        "Mendorong masyarakat untuk lebih banyak belajar bahasa asing"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C13",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Cara pelestarian budaya yang paling efektif adalah ...",
+      "opt": [
+        "Hanya menyimpannya di museum agar tidak rusak atau berubah",
+        "Memraktikkan budaya dalam kehidupan sehari-hari — memakai, merayakan, dan menggunakannya",
+        "Melarang budaya asing masuk ke Indonesia",
+        "Hanya mengajarkan budaya kepada orang dewasa saja"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C14",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Budaya yang paling terjaga adalah budaya yang ...",
+      "opt": [
+        "Tersimpan rapi di dalam lemari kaca museum",
+        "Masih digunakan dan dipraktikkan dalam kehidupan sehari-hari",
+        "Dilarang dikembangkan agar bentuknya tetap asli",
+        "Hanya dipertontonkan dalam acara resmi pemerintah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C15",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Dokumentasi budaya penting dilakukan agar ...",
+      "opt": [
+        "Budaya tidak bisa diklaim negara lain secara hukum",
+        "Budaya dapat dikenal oleh seluruh dunia melalui media",
+        "Budaya yang hampir punah bisa direkam dan dipelajari generasi mendatang",
+        "Dokumentasi bisa dijual dengan harga yang sangat mahal"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C16",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Memasukkan pelajaran seni budaya dan muatan lokal ke dalam kurikulum sekolah adalah cara pelestarian melalui ...",
+      "opt": [
+        "Dokumentasi dan penelitian ilmiah",
+        "Pendidikan dan pengajaran kepada generasi muda",
+        "Pariwisata budaya dan festival",
+        "Kebijakan perdagangan ekspor"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C17",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "UNESCO adalah organisasi di bawah PBB yang bertugas ...",
+      "opt": [
+        "Mengatur perdagangan internasional antar negara",
+        "Menjaga perdamaian dunia melalui kekuatan militer",
+        "Melindungi dan mempromosikan pendidikan, ilmu pengetahuan, dan kebudayaan dunia",
+        "Mengatur batas wilayah negara-negara anggota"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C18",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Keuntungan budaya Indonesia yang diakui UNESCO adalah ...",
+      "opt": [
+        "Mendapat dana besar dari UNESCO untuk pengembangan",
+        "Perlindungan internasional dan pengakuan bahwa budaya tersebut milik Indonesia",
+        "Diizinkan untuk dijual ke negara lain",
+        "Diwajibkan diajarkan di semua sekolah di dunia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C19",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Angklung diakui UNESCO sebagai Warisan Budaya Takbenda Dunia pada tahun ...",
+      "opt": [
+        "2003.0",
+        "2008.0",
+        "2010.0",
+        "2015.0"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C20",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Batik Indonesia diakui UNESCO pada tahun 2009. Pengakuan ini mendorong masyarakat untuk ...",
+      "opt": [
+        "Berhenti membuat batik agar tetap langka dan berharga",
+        "Semakin bangga memakai batik karena telah diakui dunia sebagai milik Indonesia",
+        "Menjual hak batik kepada UNESCO",
+        "Mengubah desain batik agar lebih modern"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C21",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Selain angklung dan batik, seni pertunjukan Indonesia yang juga telah diakui UNESCO adalah ...",
+      "opt": [
+        "Tari Jaipong dari Jawa Barat",
+        "Wayang sebagai seni pertunjukan boneka tradisional",
+        "Tari Kecak dari Bali",
+        "Gondang Sabangunan dari Sumatera Utara"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C22",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Siswa",
+      "stimulus": "",
+      "q": "Salah satu cara siswa SD melestarikan budaya dalam kehidupan sehari-hari adalah ...",
+      "opt": [
+        "Meminta pemerintah untuk membangun lebih banyak museum",
+        "Memakai batik ke sekolah saat hari-hari tertentu",
+        "Mengkritik budaya asing yang masuk ke Indonesia",
+        "Hanya menonton pertunjukan budaya tradisional di TV"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C23",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Siswa",
+      "stimulus": "",
+      "q": "Belajar memainkan alat musik tradisional seperti angklung atau gamelan di sekolah merupakan bentuk pelestarian budaya melalui ...",
+      "opt": [
+        "Dokumentasi",
+        "Pariwisata",
+        "Pendidikan dan pengajaran",
+        "Kebijakan pemerintah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C24",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peran Siswa",
+      "stimulus": "",
+      "q": "Ketika teman dari daerah lain menceritakan budayanya, sikap yang baik adalah ...",
+      "opt": [
+        "Mengkritik dan membandingkan dengan budaya sendiri",
+        "Mendengarkan dengan rasa ingin tahu dan menghargai keunikannya",
+        "Mengabaikan karena budaya daerah sendiri lebih penting",
+        "Menganggap budaya daerah lain lebih rendah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C25",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Festival budaya daerah yang diadakan di sekolah bermanfaat untuk ...",
+      "opt": [
+        "Mengumpulkan dana untuk pembangunan sekolah",
+        "Memperkenalkan dan menghidupkan budaya daerah kepada siswa secara langsung dan menyenangkan",
+        "Melatih siswa menjadi seniman profesional",
+        "Menggantikan pelajaran reguler yang membosankan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C26",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Melestarikan Budaya Sunda",
+      "stimulus": "",
+      "q": "Upaya melestarikan budaya Sunda yang bisa dilakukan oleh siswa di Jawa Barat adalah ...",
+      "opt": [
+        "Hanya berbicara menggunakan bahasa Indonesia di semua kesempatan",
+        "Belajar berbicara bahasa Sunda, menyanyikan lagu Sunda, dan mengikuti sanggar seni Sunda",
+        "Menolak semua pengaruh budaya dari luar Jawa Barat",
+        "Hanya memakai pakaian adat Sunda saat upacara bendera"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C27",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Melestarikan Budaya Sunda",
+      "stimulus": "",
+      "q": "Sanggar seni Sunda yang mengajarkan tari Jaipong, pencak silat, dan angklung berperan dalam ...",
+      "opt": [
+        "Mencetak atlet profesional untuk ajang internasional",
+        "Melestarikan seni dan budaya Sunda dengan mengajarkannya kepada generasi muda",
+        "Menghasilkan pendapatan bagi pemerintah daerah",
+        "Menggantikan sekolah formal sebagai tempat belajar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C28",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Mengapa generasi muda memiliki peran yang paling penting dalam pelestarian budaya?",
+      "opt": [
+        "Karena generasi muda memiliki banyak uang untuk mendanai budaya",
+        "Karena merekalah yang akan menerima, menggunakan, dan mewariskan budaya ke masa depan",
+        "Karena orang tua dan pemerintah tidak mampu melestarikan budaya",
+        "Karena hukum mewajibkan generasi muda untuk melestarikan budaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C29",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Wisata budaya — mengunjungi situs budaya, menyaksikan pertunjukan adat, membeli kerajinan lokal — berkontribusi pada pelestarian budaya karena ...",
+      "opt": [
+        "Wisatawan membantu mendokumentasikan budaya secara langsung",
+        "Kunjungan wisata memberikan penghasilan bagi masyarakat penjaga budaya dan mendorong mereka mempertahankan tradisi",
+        "Wisatawan bisa mengajarkan cara melestarikan budaya yang lebih baik",
+        "Wisata budaya menarik minat pemerintah asing untuk membantu"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C30",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang pelestarian budaya adalah ...",
+      "opt": [
+        "Pelestarian budaya adalah tanggung jawab pemerintah saja",
+        "Pelestarian budaya adalah tanggung jawab semua orang, termasuk siswa SD",
+        "Budaya hanya bisa dilestarikan oleh orang yang ahli dan terlatih",
+        "Pelestarian budaya berarti tidak boleh ada perubahan apapun"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C31",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Seorang anak lebih hafal lagu-lagu asing daripada lagu daerahnya sendiri. Ini merupakan contoh dampak dari ...",
+      "opt": [
+        "Kurangnya kemampuan musik anak tersebut",
+        "Arus globalisasi dan pengaruh media yang lebih mengekspos budaya asing",
+        "Tidak adanya pelajaran musik di sekolah",
+        "Larangan orang tua mendengarkan lagu daerah"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C32",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Di era digital, cara termudah mendokumentasikan budaya adalah ...",
+      "opt": [
+        "Membangun museum baru yang besar dan mahal",
+        "Merekam video pertunjukan budaya dan mengunggahnya ke internet",
+        "Menulis buku tebal yang hanya dibaca oleh peneliti",
+        "Mencetak foto dalam jumlah banyak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C33",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Nilai ekonomi budaya terbukti pada fakta bahwa ...",
+      "opt": [
+        "Budaya hanya menghabiskan biaya tanpa memberikan manfaat ekonomi",
+        "Penari Bali, pengrajin batik, dan pengukir Jepara menghidupi keluarga dari warisan budaya",
+        "Budaya hanya menguntungkan pemerintah, bukan masyarakat",
+        "Nilai ekonomi budaya tidak bisa diukur secara konkret"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C34",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Contoh konkret yang menunjukkan budaya Indonesia diakui keindahannya di dunia internasional adalah ...",
+      "opt": [
+        "Banyak negara melarang impor produk budaya Indonesia",
+        "Seniman dan desainer internasional mencari inspirasi dari budaya Nusantara untuk karya mereka",
+        "Tidak ada minat internasional terhadap budaya Indonesia",
+        "Hanya wisatawan dari negara berkembang yang tertarik dengan budaya Indonesia"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Budaya mencakup cara hidup, nilai, kepercayaan, dan tradisi suatu kelompok",
+        "Budaya diwariskan dari generasi ke generasi secara turun-temurun",
+        "Budaya hanya terdiri dari tari-tarian dan pakaian adat",
+        "Budaya terbentuk dalam waktu yang sangat singkat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Faktor yang menyebabkan Indonesia begitu kaya budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Indonesia terdiri dari ribuan pulau yang terpisah selama ribuan tahun",
+        "Indonesia memiliki kondisi alam yang beragam dari pegunungan hingga pantai",
+        "Semua penduduk Indonesia berbicara bahasa yang sama",
+        "Indonesia hanya didiami oleh satu suku bangsa yang besar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Yang termasuk unsur kebudayaan universal yang dimiliki semua masyarakat di dunia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bahasa sebagai alat komunikasi utama masyarakat",
+        "Sistem kepercayaan dan nilai-nilai spiritual masyarakat",
+        "Hanya tari-tarian dan nyanyian daerah",
+        "Hanya bangunan dan arsitektur tradisional"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Contoh unsur kesenian dalam budaya Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tari Saman dari Aceh yang gerakannya sangat cepat dan serentak",
+        "Batik yang motifnya penuh makna dan kearifan",
+        "Cara menanam padi menggunakan traktor modern",
+        "Sistem bagi hasil dalam panen di desa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Faktor yang mempengaruhi bentuk rumah adat suatu daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kondisi alam sekitar termasuk iklim dan bahan bangunan yang tersedia",
+        "Kebutuhan dan cara hidup masyarakat setempat",
+        "Warna kesukaan masyarakat daerah tersebut",
+        "Tren arsitektur internasional yang sedang populer"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Dua rumah adat berikut yang berasal dari luar Pulau Jawa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rumah Gadang dari Sumatera Barat",
+        "Honai dari Papua",
+        "Rumah Kasepuhan dari Jawa Barat",
+        "Rumah Joglo dari Jawa Tengah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pakaian Adat",
+      "stimulus": "",
+      "q": "Fungsi pakaian adat bagi masyarakat suatu daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Sebagai cerminan identitas dan budaya daerah tersebut",
+        "Sering dipakai dalam upacara adat dan perayaan penting",
+        "Digunakan sebagai pakaian sehari-hari oleh semua warga",
+        "Hanya dipakai oleh pemimpin dan tokoh adat saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Tarian daerah yang berasal dari Pulau Jawa atau sekitarnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tari Jaipong dari Jawa Barat",
+        "Tari Gambyong dari Jawa Tengah",
+        "Tari Saman dari Aceh",
+        "Tari Kecak dari Bali"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Alat musik tradisional Indonesia yang telah diakui UNESCO adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Angklung dari Jawa Barat yang diakui tahun 2010",
+        "Gamelan dari Jawa dan Bali",
+        "Gitar listrik modern",
+        "Piano yang berasal dari Eropa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Makanan khas daerah yang berasal dari Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Nasi timbel yang dibungkus daun pisang",
+        "Karedok yang berisi sayuran mentah dengan bumbu kacang",
+        "Rendang yang dimasak lama hingga kering",
+        "Soto Lamongan dengan kuah kuning gurih"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Seni dan tradisi yang termasuk dalam kebudayaan Sunda dari Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Wayang Golek yang menggunakan boneka kayu tiga dimensi",
+        "Tari Jaipong yang energetik dan penuh semangat",
+        "Tari Pendet yang berasal dari Bali",
+        "Reog Ponorogo yang berasal dari Jawa Timur"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Nilai-nilai yang terkandung dalam falsafah Sunda 'silih asah, silih asih, silih asuh' adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Saling mencerdaskan satu sama lain",
+        "Saling mengasihi dan membimbing dalam kehidupan bersama",
+        "Bersaing satu sama lain untuk menjadi yang terbaik",
+        "Hidup secara mandiri tanpa bantuan orang lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Pengaruh budaya asing yang masuk ke Indonesia secara damai melalui perdagangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengaruh budaya India yang membawa masuk agama Hindu dan seni wayang",
+        "Pengaruh budaya Arab yang membawa masuk agama Islam",
+        "Pengaruh budaya yang masuk melalui penjajahan dan kekerasan",
+        "Pengaruh yang memaksa masyarakat meninggalkan budaya aslinya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A14",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Yang termasuk unsur sistem pengetahuan dalam budaya tradisional adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengetahuan petani tentang tanda-tanda alam untuk menentukan musim tanam",
+        "Pengetahuan tentang tanaman obat tradisional yang diwariskan turun-temurun",
+        "Pengetahuan tentang cara membuat senjata modern",
+        "Pengetahuan tentang teknologi komputer"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A15",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Makanan khas daerah biasanya mencerminkan ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bahan makanan yang tersedia di alam sekitar daerah tersebut",
+        "Cara hidup dan tradisi masyarakat yang mengembangkannya",
+        "Selera penjajah yang pernah datang ke daerah tersebut",
+        "Resep dari negara lain yang dimodifikasi menjadi masakan lokal"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A16",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Kesamaan antara rumah Badak Heuay dan rumah Julang Ngapak sebagai rumah adat Sunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keduanya merupakan rumah adat khas Jawa Barat",
+        "Keduanya memiliki bentuk atap yang terinspirasi dari alam sekitarnya",
+        "Keduanya dibangun dengan bahan beton modern",
+        "Keduanya hanya ada di Kota Bandung"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A17",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang tarian daerah Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tarian daerah biasanya mengandung makna dan pesan tertentu",
+        "Tarian daerah mencerminkan nilai-nilai dan cara pandang masyarakat yang menciptakannya",
+        "Semua tarian daerah Indonesia memiliki gerakan yang sama",
+        "Tarian daerah hanya boleh ditampilkan pada hari kemerdekaan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A18",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Alat musik tradisional Indonesia yang cara memainkannya dipukul adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Gamelan yang terdiri dari berbagai instrumen logam",
+        "Kendang yang dibuat dari kulit binatang",
+        "Angklung yang dimainkan dengan cara digoyang",
+        "Sasando yang dimainkan dengan cara dipetik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang hubungan alam dan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kondisi alam mempengaruhi cara hidup masyarakat secara langsung",
+        "Cara hidup yang diwariskan turun-temurun itulah yang menjadi budaya",
+        "Alam dan budaya tidak memiliki hubungan apapun",
+        "Budaya selalu lebih kuat daripada pengaruh alam"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Kondisi alam yang mempengaruhi jenis pakaian masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Iklim yang dingin mendorong pembuatan pakaian tebal dan hangat",
+        "Iklim yang panas mendorong pembuatan pakaian tipis dan longgar",
+        "Semua daerah Indonesia memiliki jenis pakaian yang sama",
+        "Warna alam tidak mempengaruhi warna pakaian tradisional"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Faktor alam yang paling besar pengaruhnya terhadap mata pencaharian masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jenis tanah: tanah subur mendorong pertanian, laut mendorong kelautan",
+        "Letak geografis: pegunungan terisolasi, pesisir terbuka dengan budaya luar",
+        "Warna tanah yang berbeda di tiap daerah",
+        "Nama pulau yang menjadi tempat tinggal masyarakat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Dua contoh nyata adaptasi budaya masyarakat terhadap alam di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Suku Dani membangun honai bulat untuk bertahan dari dinginnya pegunungan Papua",
+        "Suku Bajo membangun rumah di atas laut dan ahli menyelam tanpa alat bantu",
+        "Suku Jawa menggunakan traktor untuk pertanian modern",
+        "Suku Betawi membangun apartemen bertingkat tinggi di Jakarta"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat yang tinggal di daerah banjir dan rawan bencana beradaptasi dengan cara ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membangun rumah panggung agar terhindar dari genangan air",
+        "Menggunakan bahan bangunan ringan yang tidak berbahaya jika jatuh saat gempa",
+        "Membangun gedung beton bertingkat yang sangat berat",
+        "Pindah ke daerah lain yang tidak banjir"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Budaya masyarakat Sunda yang berkaitan langsung dengan kehidupan agraris adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tradisi ngaseuk — menanam padi dengan cara menusukkan kayu ke tanah",
+        "Upacara Seren Taun sebagai syukur atas hasil panen padi",
+        "Keahlian menangkap ikan di laut lepas",
+        "Tradisi merantau mencari nafkah ke kota"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Pengaruh budaya asing yang masuk ke Indonesia melalui jalur perdagangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengaruh Hindu-Buddha dari India yang terlihat pada candi dan wayang",
+        "Pengaruh Islam dari Arab yang masuk melalui pedagang Muslim",
+        "Pengaruh yang masuk dengan cara penaklukan militer",
+        "Pengaruh modern dari media sosial saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang perubahan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Budaya dapat berubah karena kontak dengan budaya lain",
+        "Budaya dapat berubah karena perubahan kondisi alam dan lingkungan",
+        "Budaya tidak pernah boleh berubah sama sekali",
+        "Semua perubahan budaya pasti merugikan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Keistimewaan suku Bajo yang mencerminkan adaptasi terhadap kehidupan laut adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mereka mampu menyelam sangat dalam tanpa alat bantu pernapasan",
+        "Seluruh budayanya berputar di sekitar laut dari makanan hingga kepercayaan",
+        "Mereka tidak pernah makan ikan meskipun hidup di laut",
+        "Rumah mereka dibangun di puncak pegunungan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Perbedaan budaya antara masyarakat pegunungan dan pesisir disebabkan oleh ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masyarakat pegunungan lebih terisolasi sehingga budaya lebih terjaga",
+        "Masyarakat pesisir lebih terbuka terhadap pengaruh luar karena di jalur perdagangan",
+        "Pemerintah sengaja menciptakan perbedaan tersebut",
+        "Masyarakat pesisir lebih cerdas dari masyarakat pegunungan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Keahlian seni ukir suku Asmat yang terkenal di dunia berkembang karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mereka hidup di daerah rawa dengan kayu mangrove yang melimpah sebagai bahan",
+        "Ukiran adalah media ekspresi spiritual dan penghormatan kepada leluhur mereka",
+        "Pemerintah Indonesia membiayai pelatihan mengukir secara khusus",
+        "Mereka meniru teknik ukir dari negara-negara Eropa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Perubahan Budaya",
+      "stimulus": "",
+      "q": "Contoh pemanfaatan teknologi modern yang positif untuk melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merekam video pertunjukan wayang dan mengunggahnya ke YouTube",
+        "Mengajarkan angklung melalui aplikasi online kepada siswa di seluruh dunia",
+        "Mengganti semua alat musik tradisional dengan alat musik digital",
+        "Melarang penggunaan media sosial agar tidak terpengaruh budaya asing"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang pengaruh budaya asing di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengaruh budaya asing masuk karena Indonesia terletak di jalur perdagangan dunia",
+        "Pengaruh ini memperkaya budaya Indonesia tanpa menghapus budaya lokal",
+        "Semua pengaruh budaya asing bersifat negatif dan merusak",
+        "Indonesia tidak pernah menerima pengaruh budaya dari luar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B14",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Kondisi alam yang berubah bisa mengancam kelangsungan budaya. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berkurangnya bambu akibat deforestasi mengancam kesenian angklung",
+        "Berubahnya sawah menjadi perumahan mengancam tradisi pertanian Sunda",
+        "Perubahan cuaca membuat semua budaya berkembang lebih pesat",
+        "Kerusakan alam tidak berpengaruh sama sekali pada budaya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B15",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang honai rumah adat suku Dani adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Honai berbentuk bulat dan berdinding tebal untuk menahan angin dingin",
+        "Bahan bangunannya menggunakan kayu dan jerami yang tersedia di sekitar pegunungan",
+        "Honai dibangun sebagai istana mewah untuk pemimpin suku",
+        "Honai dibangun di atas laut untuk menghindari serangan musuh"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B16",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Masyarakat di hutan lebat mengembangkan keahlian ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Berburu dan meramu hasil hutan untuk memenuhi kebutuhan hidup",
+        "Membuat kerajinan dari bahan-bahan alam yang ada di sekitar hutan",
+        "Bertani padi di sawah irigasi yang luas",
+        "Menangkap ikan di laut lepas menggunakan kapal besar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B17",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang makanan khas daerah dan kaitannya dengan alam adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Masyarakat pesisir mengembangkan masakan yang banyak menggunakan ikan dan hasil laut",
+        "Masyarakat pegunungan yang bercocok tanam mengembangkan masakan dari sayuran dan umbi",
+        "Semua masakan daerah di Indonesia berasal dari resep yang sama",
+        "Makanan khas daerah tidak ada hubungannya dengan sumber daya alam setempat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B18",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pernyataan benar tentang mengapa Indonesia memiliki keberagaman budaya yang sangat kaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keberagaman alam dari laut, hutan, pegunungan mendorong perbedaan cara hidup",
+        "Kepulauan yang terpisah membuat masing-masing masyarakat mengembangkan budaya unik",
+        "Pemerintah Indonesia sengaja menciptakan budaya baru untuk setiap daerah",
+        "Indonesia hanya memiliki satu sumber budaya dari satu suku bangsa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C01",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Alasan mengapa budaya perlu dilestarikan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Budaya adalah identitas bangsa yang membedakan kita dari bangsa lain",
+        "Budaya menyimpan kearifan lokal dan pengetahuan leluhur yang berharga",
+        "Budaya sudah tidak relevan dengan kehidupan modern",
+        "Budaya hanya perlu dilestarikan jika menghasilkan keuntungan ekonomi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C02",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Ancaman yang paling nyata terhadap budaya daerah Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Arus globalisasi yang membawa masuk budaya asing melalui internet",
+        "Urbanisasi yang membuat generasi muda meninggalkan desa dan tradisi",
+        "Pemerintah yang melarang praktik budaya daerah",
+        "Kondisi geografi Indonesia yang tidak mendukung pelestarian budaya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C03",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Putusnya rantai pewarisan budaya berbahaya karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keahlian budaya yang hanya dimiliki orang tua akan hilang ketika mereka meninggal",
+        "Generasi muda tidak bisa belajar teknik dan nilai yang tersimpan dalam budaya tersebut",
+        "Pemerintah akan marah jika budaya tidak diwariskan",
+        "Budaya yang tidak diwariskan otomatis diklaim negara lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C04",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Cara melestarikan budaya yang paling efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memraktikkan budaya dalam kehidupan sehari-hari",
+        "Mengajarkan budaya kepada generasi muda melalui pendidikan",
+        "Menyimpan semua benda budaya di museum agar tidak terpakai",
+        "Melarang semua pengaruh budaya asing masuk ke Indonesia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C05",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Budaya Indonesia yang telah diakui UNESCO sebagai warisan budaya dunia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Angklung yang diakui sebagai warisan budaya takbenda tahun 2010",
+        "Batik yang diakui sebagai warisan budaya takbenda tahun 2009",
+        "Tari Kecak dari Bali",
+        "Rendang dari Sumatera Barat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C06",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peran Siswa",
+      "stimulus": "",
+      "q": "Cara nyata yang bisa dilakukan siswa SD untuk melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memakai batik ke sekolah dan belajar memainkan alat musik tradisional",
+        "Menggunakan bahasa daerah di rumah dan mengikuti sanggar seni lokal",
+        "Hanya menonton pertunjukan budaya di televisi",
+        "Meminta pemerintah membangun lebih banyak museum"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C07",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Mengapa klaim budaya oleh negara lain bisa terjadi?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Karena kita belum cukup mendokumentasikan dan mendaftarkan budaya kita secara resmi",
+        "Karena tidak ada hukum internasional yang melindungi budaya suatu negara",
+        "Karena pemerintah Indonesia tidak peduli dengan budayanya",
+        "Karena budaya Indonesia tidak cukup terkenal di dunia"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C08",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Nilai ekonomi budaya terbukti dari fakta bahwa ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penari, pengrajin batik, dan pengukir kayu menghidupi keluarga mereka dari warisan budaya",
+        "Budaya daerah menjadi daya tarik wisata yang menghasilkan pendapatan daerah",
+        "Budaya tidak memiliki nilai ekonomi apapun",
+        "Hanya budaya yang sudah modern yang bisa menghasilkan uang"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C09",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Peran pendidikan dalam melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengajarkan seni budaya, bahasa daerah, dan muatan lokal di sekolah",
+        "Mengadakan festival budaya di sekolah untuk memperkenalkan keberagaman kepada siswa",
+        "Menggantikan semua pelajaran dengan pelajaran budaya",
+        "Hanya mengajarkan budaya kepada siswa yang berminat saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C10",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang benar tentang ancaman globalisasi terhadap budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Anak-anak kini lebih hafal lagu asing daripada lagu daerahnya sendiri",
+        "Karakter budaya pop asing lebih dikenal daripada tokoh budaya tradisional",
+        "Globalisasi hanya membawa dampak positif bagi budaya Indonesia",
+        "Budaya asing tidak bisa masuk ke Indonesia karena ada filter pemerintah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C11",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Manfaat pengakuan UNESCO terhadap budaya Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perlindungan internasional bahwa budaya tersebut resmi milik Indonesia",
+        "Meningkatkan kebanggaan masyarakat dan minat generasi muda untuk melestarikan",
+        "Budaya otomatis tidak bisa punah setelah diakui UNESCO",
+        "Indonesia mendapat hadiah uang tunai dari UNESCO"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C12",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Melestarikan Budaya Sunda",
+      "stimulus": "",
+      "q": "Upaya yang tepat untuk melestarikan budaya Sunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Belajar bahasa Sunda dan menggunakannya dalam percakapan sehari-hari",
+        "Mengikuti sanggar seni untuk belajar tari Jaipong atau wayang golek",
+        "Hanya menonton pertunjukan budaya Sunda dari layar kaca",
+        "Menolak semua budaya non-Sunda yang masuk ke Jawa Barat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C13",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Sikap yang benar terhadap keberagaman budaya daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menghargai dan menghormati budaya daerah lain",
+        "Bangga dengan budaya daerah sendiri tanpa merendahkan yang lain",
+        "Menganggap budaya daerah sendiri paling baik dari semua yang ada",
+        "Tidak perlu mempelajari budaya daerah lain"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C14",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Wisata budaya berkontribusi pada pelestarian karena ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memberikan penghasilan bagi masyarakat penjaga budaya sehingga termotivasi mempertahankan",
+        "Meningkatkan kesadaran wisatawan dan masyarakat tentang pentingnya budaya",
+        "Wisatawan bisa mengambil benda-benda budaya sebagai oleh-oleh",
+        "Pariwisata membuat budaya berubah menjadi lebih modern"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C15",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Dampak punahnya bahasa daerah yang paling mengkhawatirkan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengetahuan dan kearifan lokal yang tersimpan dalam bahasa tersebut ikut lenyap",
+        "Cara pandang unik suatu masyarakat yang hanya bisa diungkap dalam bahasa tersebut hilang",
+        "Orang tidak bisa lagi berkomunikasi sama sekali",
+        "Bahasa Indonesia menjadi tidak diperlukan lagi"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C16",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang siapa yang bertanggung jawab melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pemerintah bertugas membuat kebijakan dan mendukung pelestarian",
+        "Generasi muda bertugas mempelajari, menggunakan, dan mewariskan budaya",
+        "Hanya seniman dan budayawan profesional yang bertanggung jawab",
+        "Pelestarian budaya adalah urusan museum saja"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C17",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Di era digital, cara mendokumentasikan budaya yang efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merekam pertunjukan budaya dalam video dan mengunggahnya ke platform online",
+        "Membuat konten media sosial tentang budaya daerah untuk menjangkau generasi muda",
+        "Hanya mencatat dalam buku yang tersimpan di perpustakaan khusus",
+        "Melarang penggunaan kamera di acara budaya agar tidak tersebar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C18",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang hubungan antara pelestarian budaya dan identitas bangsa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Budaya yang lestari memperkuat identitas dan kebanggaan nasional",
+        "Keberagaman budaya yang dijaga dengan saling menghormati memperkuat persatuan",
+        "Melestarikan budaya daerah bisa melemahkan rasa persatuan nasional",
+        "Identitas bangsa tidak ada hubungannya dengan budaya daerah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pengertian Budaya",
+      "stimulus": "",
+      "q": "Pasangkan unsur kebudayaan universal dengan contohnya!",
+      "rows": [
+        "Rumah adat dan alat tradisional",
+        "Bertani, nelayan, dan berdagang",
+        "Tari, batik, dan wayang",
+        "Adat musyawarah mufakat"
+      ],
+      "cols": [
+        "Sistem teknologi",
+        "Sistem mata pencaharian",
+        "Kesenian"
+      ],
+      "ans": [
+        "Sistem teknologi",
+        "Sistem mata pencaharian",
+        "Kesenian",
+        "Sistem mata pencaharian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Pasangkan rumah adat dengan daerah asalnya!",
+      "rows": [
+        "Rumah Gadang",
+        "Honai",
+        "Rumah Kasepuhan",
+        "Rumah Joglo"
+      ],
+      "cols": [
+        "Sumatera Barat",
+        "Papua",
+        "Jawa Barat"
+      ],
+      "ans": [
+        "Sumatera Barat",
+        "Papua",
+        "Jawa Barat",
+        "Sumatera Barat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pakaian Adat",
+      "stimulus": "",
+      "q": "Pasangkan pakaian adat dengan daerah asalnya!",
+      "rows": [
+        "Kain Ulos",
+        "Kebaya",
+        "Pakaian adat Dayak",
+        "Baju Kurung"
+      ],
+      "cols": [
+        "Sumatera Utara",
+        "Jawa & sekitarnya",
+        "Kalimantan"
+      ],
+      "ans": [
+        "Sumatera Utara",
+        "Jawa & sekitarnya",
+        "Kalimantan",
+        "Sumatera Utara"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Pasangkan tarian daerah dengan pulau asalnya!",
+      "rows": [
+        "Tari Saman",
+        "Tari Jaipong",
+        "Tari Kecak",
+        "Tari Piring"
+      ],
+      "cols": [
+        "Sumatera",
+        "Jawa",
+        "Bali"
+      ],
+      "ans": [
+        "Sumatera",
+        "Jawa",
+        "Bali",
+        "Sumatera"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Pasangkan alat musik tradisional dengan cara memainkannya!",
+      "rows": [
+        "Kendang",
+        "Kecapi",
+        "Angklung",
+        "Gamelan"
+      ],
+      "cols": [
+        "Dipukul",
+        "Dipetik",
+        "Digoyang"
+      ],
+      "ans": [
+        "Dipukul",
+        "Dipetik",
+        "Digoyang",
+        "Dipukul"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Pasangkan makanan khas dengan daerah asalnya!",
+      "rows": [
+        "Nasi timbel daun pisang",
+        "Rendang",
+        "Gudeg",
+        "Karedok"
+      ],
+      "cols": [
+        "Jawa Barat",
+        "Sumatera Barat",
+        "Jawa Tengah"
+      ],
+      "ans": [
+        "Jawa Barat",
+        "Sumatera Barat",
+        "Jawa Tengah",
+        "Jawa Barat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan unsur kebudayaan yang sesuai!",
+      "rows": [
+        "700+ bahasa daerah di Indonesia",
+        "Upacara adat dan ritual leluhur",
+        "Batik, wayang, dan angklung",
+        "Tari Jaipong dan lagu daerah"
+      ],
+      "cols": [
+        "Bahasa",
+        "Sistem kepercayaan",
+        "Kesenian"
+      ],
+      "ans": [
+        "Bahasa",
+        "Sistem kepercayaan",
+        "Kesenian",
+        "Kesenian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Pasangkan tradisi atau seni budaya Sunda dengan deskripsinya!",
+      "rows": [
+        "Seni pertunjukan boneka kayu khas Sunda",
+        "Tari yang energetik dari Jawa Barat",
+        "Upacara syukuran panen padi tahunan",
+        "Alat musik dari bambu khas Sunda"
+      ],
+      "cols": [
+        "Wayang Golek",
+        "Tari Jaipong",
+        "Seren Taun"
+      ],
+      "ans": [
+        "Wayang Golek",
+        "Tari Jaipong",
+        "Seren Taun",
+        "Wayang Golek"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan alasan keberagaman budaya Indonesia dengan penjelasannya!",
+      "rows": [
+        "17.000 pulau membuat masyarakat hidup terpisah",
+        "Iklim dan sumber daya alam yang berbeda mendorong adaptasi",
+        "Pedagang dari India, Arab, China membawa budaya mereka",
+        "Bahasa Indonesia menyatukan semua daerah"
+      ],
+      "cols": [
+        "Faktor kepulauan",
+        "Faktor alam",
+        "Faktor sejarah"
+      ],
+      "ans": [
+        "Faktor kepulauan",
+        "Faktor alam",
+        "Faktor sejarah",
+        "Faktor kepulauan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alat Musik",
+      "stimulus": "",
+      "q": "Pasangkan alat musik dengan bahan utama pembuatannya!",
+      "rows": [
+        "Angklung",
+        "Kendang",
+        "Gamelan (saron, bonang)",
+        "Sasando"
+      ],
+      "cols": [
+        "Bambu",
+        "Kayu dan kulit",
+        "Logam/tembaga"
+      ],
+      "ans": [
+        "Bambu",
+        "Kayu dan kulit",
+        "Logam/tembaga",
+        "Bambu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Rumah Adat",
+      "stimulus": "",
+      "q": "Pasangkan alasan pembuatan dengan jenis rumah adat yang sesuai!",
+      "rows": [
+        "Rumah panggung",
+        "Honai berinding tebal",
+        "Honai berbentuk bulat",
+        "Rumah Gadang"
+      ],
+      "cols": [
+        "Menghindari banjir",
+        "Bertahan dari dingin",
+        "Khas pegunungan Papua"
+      ],
+      "ans": [
+        "Menghindari banjir",
+        "Bertahan dari dingin",
+        "Khas pegunungan Papua",
+        "Menghindari banjir"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tarian Daerah",
+      "stimulus": "",
+      "q": "Pasangkan tarian dengan ciri khas yang membedakannya!",
+      "rows": [
+        "Tari Saman dari Aceh",
+        "Tari Bedhaya dari Jawa",
+        "Tari Kecak dari Bali",
+        "Tari Jaipong dari Jawa Barat"
+      ],
+      "cols": [
+        "Gerakan tangan cepat & serentak",
+        "Gerakan anggun & lembut",
+        "Suara vokal penari"
+      ],
+      "ans": [
+        "Gerakan tangan cepat & serentak",
+        "Gerakan anggun & lembut",
+        "Suara vokal penari",
+        "Gerakan tangan cepat & serentak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Makanan Khas",
+      "stimulus": "",
+      "q": "Pasangkan makanan khas dengan ciri atau bahannya!",
+      "rows": [
+        "Nasi timbel khas Sunda",
+        "Rendang khas Minangkabau",
+        "Karedok khas Sunda",
+        "Soto ayam"
+      ],
+      "cols": [
+        "Dibungkus daun pisang",
+        "Dimasak sangat lama",
+        "Sayuran mentah berbumbu"
+      ],
+      "ans": [
+        "Dibungkus daun pisang",
+        "Dimasak sangat lama",
+        "Sayuran mentah berbumbu",
+        "Dibungkus daun pisang"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Pasangkan nilai falsafah Sunda dengan maknanya!",
+      "rows": [
+        "Saling mencerdaskan satu sama lain",
+        "Saling mengasihi dan menyayangi",
+        "Saling membimbing dan merawat",
+        "Saling bersaing untuk terbaik"
+      ],
+      "cols": [
+        "Silih asah",
+        "Silih asih",
+        "Silih asuh"
+      ],
+      "ans": [
+        "Silih asah",
+        "Silih asih",
+        "Silih asuh",
+        "Silih asah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A15",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pengaruh budaya asing dengan asal negaranya!",
+      "rows": [
+        "Agama Hindu, Buddha, wayang, dan candi",
+        "Agama Islam, kaligrafi, dan makanan halal",
+        "Motif batik Megamendung, tradisi kuliner",
+        "Pakaian modern dan gaya hidup barat"
+      ],
+      "cols": [
+        "India",
+        "Arab",
+        "China"
+      ],
+      "ans": [
+        "India",
+        "Arab",
+        "China",
+        "India"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A16",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Unsur Budaya",
+      "stimulus": "",
+      "q": "Pasangkan contoh dengan unsur budaya yang tepat!",
+      "rows": [
+        "Adat musyawarah dalam pengambilan keputusan",
+        "Pengetahuan membaca musim dari tanda alam",
+        "Cara membuat perahu tradisional",
+        "Tradisi pernikahan adat"
+      ],
+      "cols": [
+        "Sistem kemasyarakatan",
+        "Sistem pengetahuan",
+        "Sistem teknologi"
+      ],
+      "ans": [
+        "Sistem kemasyarakatan",
+        "Sistem pengetahuan",
+        "Sistem teknologi",
+        "Sistem kemasyarakatan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A17",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Budaya Sunda",
+      "stimulus": "",
+      "q": "Pasangkan nama batik dengan daerah asalnya di Jawa Barat!",
+      "rows": [
+        "Batik Sukaraja dengan motif geometris",
+        "Batik Megamendung dengan motif awan",
+        "Batik Garutan dengan warna cerah",
+        "Batik Pekalongan dengan motif pesisir"
+      ],
+      "cols": [
+        "Tasikmalaya",
+        "Cirebon",
+        "Garut"
+      ],
+      "ans": [
+        "Tasikmalaya",
+        "Cirebon",
+        "Garut",
+        "Tasikmalaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A18",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Keberagaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang budaya dengan nilainya — benar atau salah!",
+      "rows": [
+        "Indonesia memiliki lebih dari 1.300 suku bangsa",
+        "Budaya Indonesia hanya dipengaruhi budaya Jawa saja",
+        "Angklung terbuat dari bambu dan diakui UNESCO",
+        "Budaya terbentuk dalam waktu singkat hanya beberapa tahun"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan kondisi alam dengan pengaruhnya terhadap budaya masyarakat!",
+      "rows": [
+        "Pakaian tebal dan rumah berinsulasi hangat",
+        "Pakaian tipis dan rumah berventilasi baik",
+        "Budaya pertanian padi sawah berkembang",
+        "Budaya menangkap ikan di laut"
+      ],
+      "cols": [
+        "Iklim dingin",
+        "Iklim panas",
+        "Tanah subur"
+      ],
+      "ans": [
+        "Iklim dingin",
+        "Iklim panas",
+        "Tanah subur",
+        "Iklim dingin"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan suku bangsa dengan bentuk adaptasi budaya terhadap lingkungannya!",
+      "rows": [
+        "Honai bulat untuk bertahan dari dingin pegunungan",
+        "Rumah di atas laut dan ahli menyelam",
+        "Budaya pertanian padi dengan tradisi ngaseuk",
+        "Rumah panggung untuk menghindari banjir"
+      ],
+      "cols": [
+        "Suku Dani Papua",
+        "Suku Bajo Sulawesi",
+        "Suku Sunda Jawa Barat"
+      ],
+      "ans": [
+        "Suku Dani Papua",
+        "Suku Bajo Sulawesi",
+        "Suku Sunda Jawa Barat",
+        "Suku Dani Papua"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Pasangkan jenis lingkungan dengan mata pencaharian yang berkembang di dalamnya!",
+      "rows": [
+        "Nelayan dan budidaya ikan",
+        "Pemburu dan peramu hasil hutan",
+        "Petani padi dan berkebun",
+        "Pedagang lintas pulau"
+      ],
+      "cols": [
+        "Lingkungan laut",
+        "Lingkungan hutan",
+        "Lingkungan sawah"
+      ],
+      "ans": [
+        "Lingkungan laut",
+        "Lingkungan hutan",
+        "Lingkungan sawah",
+        "Lingkungan laut"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan alur pengaruh alam terhadap budaya dengan urutannya yang benar!",
+      "rows": [
+        "Kondisi alam: iklim, tanah, sumber daya",
+        "Cara hidup manusia: makan, berpakaian, bertempat tinggal",
+        "Kebudayaan: adat, seni, bahasa, nilai",
+        "Teknologi modern mengubah segalanya"
+      ],
+      "cols": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3"
+      ],
+      "ans": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3",
+        "Langkah 1"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan nama daerah dengan tradisi yang lahir dari kondisi alamnya!",
+      "rows": [
+        "Ngaseuk dan Seren Taun dari kehidupan bertani",
+        "Honai dan ubi jalar dari iklim dingin",
+        "Rumah di atas laut dari kehidupan suku Bajo",
+        "Merantau dari dataran tinggi Minangkabau"
+      ],
+      "cols": [
+        "Jawa Barat",
+        "Papua Pegunungan",
+        "Sulawesi Tenggara"
+      ],
+      "ans": [
+        "Jawa Barat",
+        "Papua Pegunungan",
+        "Sulawesi Tenggara",
+        "Jawa Barat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan pengaruh budaya asing dengan jejaknya yang masih terlihat di Indonesia!",
+      "rows": [
+        "Candi, wayang, batik bermotif Hindu",
+        "Masjid, kaligrafi, pakaian menutup aurat",
+        "Batik Megamendung, kuil klenteng",
+        "Gedung bertingkat dan teknologi"
+      ],
+      "cols": [
+        "Pengaruh India",
+        "Pengaruh Islam/Arab",
+        "Pengaruh China"
+      ],
+      "ans": [
+        "Pengaruh India",
+        "Pengaruh Islam/Arab",
+        "Pengaruh China",
+        "Pengaruh India"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan jenis masyarakat dengan karakteristik budayanya!",
+      "rows": [
+        "Budaya lebih terjaga dan terisolasi",
+        "Budaya lebih beragam karena terpengaruh perdagangan",
+        "Budaya berburu dan meramu yang kuat",
+        "Budaya pertanian padi yang intensif"
+      ],
+      "cols": [
+        "Masyarakat pegunungan",
+        "Masyarakat pesisir",
+        "Masyarakat pedalaman hutan"
+      ],
+      "ans": [
+        "Masyarakat pegunungan",
+        "Masyarakat pesisir",
+        "Masyarakat pedalaman hutan",
+        "Masyarakat pegunungan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan bentuk rumah adat dengan alasan desainnya!",
+      "rows": [
+        "Menghindari genangan banjir",
+        "Menahan angin dingin pegunungan",
+        "Lebih aman di daerah rawan gempa",
+        "Terlihat lebih megah dan mewah"
+      ],
+      "cols": [
+        "Rumah panggung",
+        "Honai bulat",
+        "Rumah dari bambu ringan"
+      ],
+      "ans": [
+        "Rumah panggung",
+        "Honai bulat",
+        "Rumah dari bambu ringan",
+        "Rumah panggung"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan budaya Sunda dengan asal lingkungan alam yang melahirkannya!",
+      "rows": [
+        "Tradisi ngaseuk menanam padi",
+        "Kesenian angklung",
+        "Motif batik Megamendung (pengaruh China)",
+        "Tari Jaipong yang energetik"
+      ],
+      "cols": [
+        "Dari kehidupan pertanian",
+        "Dari kekayaan alam bambu",
+        "Dari pengaruh luar masuk"
+      ],
+      "ans": [
+        "Dari kehidupan pertanian",
+        "Dari kekayaan alam bambu",
+        "Dari pengaruh luar masuk",
+        "Dari kehidupan pertanian"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Perubahan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan faktor perubahan budaya dengan contohnya!",
+      "rows": [
+        "Batik Megamendung yang terpengaruh motif China",
+        "Hutan ditebang mengancam kesenian ukiran kayu",
+        "Angklung diajarkan secara online ke seluruh dunia",
+        "Generasi muda pindah ke kota"
+      ],
+      "cols": [
+        "Kontak budaya",
+        "Perubahan alam",
+        "Teknologi baru"
+      ],
+      "ans": [
+        "Kontak budaya",
+        "Perubahan alam",
+        "Teknologi baru",
+        "Kontak budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Alam",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang hubungan alam dan budaya dengan nilainya — benar atau salah!",
+      "rows": [
+        "Alam adalah faktor utama yang membentuk cara hidup dan budaya masyarakat",
+        "Semua daerah Indonesia memiliki makanan dan pakaian yang sama",
+        "Kondisi alam berbeda mendorong perkembangan budaya yang berbeda",
+        "Budaya tidak ada hubungannya dengan kondisi alam sekitar"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan masyarakat dengan makanan pokoknya yang disesuaikan dengan alam!",
+      "rows": [
+        "Nasi dari padi sawah",
+        "Ubi jalar yang cocok di iklim dingin",
+        "Ikan dan hasil laut",
+        "Jagung dari daerah kering"
+      ],
+      "cols": [
+        "Masyarakat dataran rendah Jawa",
+        "Masyarakat pegunungan Papua",
+        "Masyarakat pesisir"
+      ],
+      "ans": [
+        "Masyarakat dataran rendah Jawa",
+        "Masyarakat pegunungan Papua",
+        "Masyarakat pesisir",
+        "Masyarakat dataran rendah Jawa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan contoh budaya Sunda dengan kaitannya terhadap alam Jawa Barat!",
+      "rows": [
+        "Nasi timbel dan karedok berbahan sayuran segar",
+        "Wayang Golek dari pengaruh Hindu-Jawa",
+        "Batik Megamendung dari pengaruh China",
+        "Angklung dari bambu yang tumbuh di pegunungan"
+      ],
+      "cols": [
+        "Berkaitan langsung dengan alam",
+        "Berkembang dari sejarah",
+        "Pengaruh dari luar"
+      ],
+      "ans": [
+        "Berkaitan langsung dengan alam",
+        "Berkembang dari sejarah",
+        "Pengaruh dari luar",
+        "Berkaitan langsung dengan alam"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Faktor Sejarah",
+      "stimulus": "",
+      "q": "Pasangkan kota pelabuhan dengan perannya dalam penyebaran budaya!",
+      "rows": [
+        "Menerima pengaruh budaya asing dari pedagang yang singgah",
+        "Menghasilkan kekayaan dari perdagangan rempah-rempah",
+        "Tempat bercampurnya budaya lokal dan asing menjadi budaya baru",
+        "Tempat yang terisolasi dari pengaruh luar"
+      ],
+      "cols": [
+        "Jalur masuk budaya",
+        "Pusat perdagangan",
+        "Tempat akulturasi"
+      ],
+      "ans": [
+        "Jalur masuk budaya",
+        "Pusat perdagangan",
+        "Tempat akulturasi",
+        "Jalur masuk budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B15",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan suku Asmat dengan elemen budayanya!",
+      "rows": [
+        "Daerah rawa pesisir selatan Papua",
+        "Mengukir kayu yang terkenal di dunia",
+        "Kayu dari pohon mangrove sekitar rawa",
+        "Hidup di atas laut seperti suku Bajo"
+      ],
+      "cols": [
+        "Tempat tinggal",
+        "Keahlian utama",
+        "Bahan baku keahlian"
+      ],
+      "ans": [
+        "Tempat tinggal",
+        "Keahlian utama",
+        "Bahan baku keahlian",
+        "Tempat tinggal"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B16",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan dampak perubahan lingkungan dengan budaya yang terancam!",
+      "rows": [
+        "Kesenian angklung terancam",
+        "Tradisi pertanian padi Sunda terancam",
+        "Seni ukir kayu tradisional terancam",
+        "Tari Jaipong terancam"
+      ],
+      "cols": [
+        "Bambu berkurang",
+        "Sawah jadi perumahan",
+        "Hutan ditebang"
+      ],
+      "ans": [
+        "Bambu berkurang",
+        "Sawah jadi perumahan",
+        "Hutan ditebang",
+        "Bambu berkurang"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B17",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Adaptasi Masyarakat",
+      "stimulus": "",
+      "q": "Pasangkan kondisi alam dengan bentuk rumah yang berkembang sebagai respons!",
+      "rows": [
+        "Honai berbentuk bulat berdinding tebal",
+        "Rumah panggung di atas tiang",
+        "Rumah dari bambu dan kayu ringan",
+        "Rumah berbentuk piramida dari batu"
+      ],
+      "cols": [
+        "Iklim sangat dingin",
+        "Sering banjir",
+        "Rawan gempa"
+      ],
+      "ans": [
+        "Iklim sangat dingin",
+        "Sering banjir",
+        "Rawan gempa",
+        "Iklim sangat dingin"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B18",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Alam dan Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan konsep yang diwakilinya!",
+      "rows": [
+        "Masyarakat menyesuaikan cara hidup dengan alam sekitar",
+        "Pulau terpisah membuat budaya berkembang mandiri",
+        "Percampuran dua budaya menghasilkan budaya baru",
+        "Budaya yang tidak bisa berubah sama sekali"
+      ],
+      "cols": [
+        "Adaptasi budaya",
+        "Isolasi geografis",
+        "Akulturasi"
+      ],
+      "ans": [
+        "Adaptasi budaya",
+        "Isolasi geografis",
+        "Akulturasi",
+        "Adaptasi budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C01",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan ancaman budaya dengan contohnya!",
+      "rows": [
+        "Anak lebih kenal lagu K-Pop dari lagu daerahnya",
+        "Generasi muda pindah ke kota dan tinggalkan adat",
+        "Maestro batik tua meninggal tanpa mewariskan keahlian",
+        "Sawah diubah menjadi perumahan"
+      ],
+      "cols": [
+        "Globalisasi",
+        "Urbanisasi",
+        "Putus pewarisan"
+      ],
+      "ans": [
+        "Globalisasi",
+        "Urbanisasi",
+        "Putus pewarisan",
+        "Putus pewarisan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C02",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Pasangkan cara melestarikan budaya dengan contoh kegiatannya!",
+      "rows": [
+        "Memakai batik ke sekolah tiap Jumat",
+        "Pelajaran angklung di sekolah dasar",
+        "Merekam video tari tradisional untuk YouTube",
+        "Festival budaya daerah di alun-alun"
+      ],
+      "cols": [
+        "Praktik sehari-hari",
+        "Pendidikan",
+        "Dokumentasi"
+      ],
+      "ans": [
+        "Praktik sehari-hari",
+        "Pendidikan",
+        "Dokumentasi",
+        "Praktik sehari-hari"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C03",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Pasangkan budaya Indonesia dengan tahun pengakuan UNESCO!",
+      "rows": [
+        "Wayang sebagai warisan budaya takbenda",
+        "Batik sebagai warisan budaya takbenda",
+        "Angklung sebagai warisan budaya takbenda",
+        "Tari Saman sebagai warisan budaya takbenda"
+      ],
+      "cols": [
+        "Tahun 2003",
+        "Tahun 2009",
+        "Tahun 2010"
+      ],
+      "ans": [
+        "Tahun 2003",
+        "Tahun 2009",
+        "Tahun 2010",
+        "Tahun 2003"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C04",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan jenis ancaman dengan dampak yang paling ditakutkan!",
+      "rows": [
+        "Pengetahuan dan cara pandang unik masyarakat ikut lenyap",
+        "Teknik membatik atau mengukir hilang selamanya",
+        "Hak milik budaya tidak diakui secara internasional",
+        "Wisatawan tidak lagi tertarik berkunjung"
+      ],
+      "cols": [
+        "Bahasa daerah punah",
+        "Keahlian tak terwariskan",
+        "Klaim negara lain"
+      ],
+      "ans": [
+        "Bahasa daerah punah",
+        "Keahlian tak terwariskan",
+        "Klaim negara lain",
+        "Bahasa daerah punah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C05",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pasangkan nilai budaya dengan penjelasannya!",
+      "rows": [
+        "Batik dan angklung membuat dunia mengenal Indonesia",
+        "Pengetahuan obat tradisional dan cara bertani turun-temurun",
+        "Penari dan pengrajin batik menghidupi keluarga dari budaya",
+        "Budaya menjadi pemecah persatuan bangsa"
+      ],
+      "cols": [
+        "Identitas bangsa",
+        "Kearifan lokal",
+        "Nilai ekonomi"
+      ],
+      "ans": [
+        "Identitas bangsa",
+        "Kearifan lokal",
+        "Nilai ekonomi",
+        "Identitas bangsa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C06",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Pasangkan peran dengan pihak yang bertanggung jawab!",
+      "rows": [
+        "Membuat kebijakan pelestarian dan mendaftarkan ke UNESCO",
+        "Mengajarkan seni budaya dan muatan lokal",
+        "Mempelajari dan menggunakan budaya daerah",
+        "Hanya seniman dan budayawan saja"
+      ],
+      "cols": [
+        "Pemerintah",
+        "Sekolah",
+        "Siswa"
+      ],
+      "ans": [
+        "Pemerintah",
+        "Sekolah",
+        "Siswa",
+        "Pemerintah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C07",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Melestarikan Budaya Sunda",
+      "stimulus": "",
+      "q": "Pasangkan upaya melestarikan budaya Sunda dengan contoh kegiatannya!",
+      "rows": [
+        "Berbicara bahasa Sunda dengan orang tua di rumah",
+        "Belajar tari Jaipong di sanggar seni",
+        "Membeli dan memakai batik khas Sunda",
+        "Menonton wayang dari layar kaca saja"
+      ],
+      "cols": [
+        "Bahasa",
+        "Seni pertunjukan",
+        "Kerajinan"
+      ],
+      "ans": [
+        "Bahasa",
+        "Seni pertunjukan",
+        "Kerajinan",
+        "Bahasa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C08",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang ancaman budaya dengan nilainya — benar atau salah!",
+      "rows": [
+        "Globalisasi bisa melemahkan budaya lokal jika tidak ada keseimbangan",
+        "Budaya asing selalu merusak dan harus ditolak",
+        "Klaim negara lain bisa terjadi jika kita tidak mendokumentasikan budaya",
+        "Urbanisasi tidak berpengaruh terhadap pelestarian budaya"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C09",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Pasangkan manfaat pengakuan UNESCO dengan penjelasannya!",
+      "rows": [
+        "Budaya resmi diakui sebagai milik Indonesia secara internasional",
+        "Masyarakat semakin bangga dan termotivasi melestarikan",
+        "Budaya dikenal oleh jutaan orang di seluruh dunia",
+        "Mendapat hadiah uang tunai dari PBB"
+      ],
+      "cols": [
+        "Perlindungan hukum",
+        "Kebanggaan nasional",
+        "Promosi global"
+      ],
+      "ans": [
+        "Perlindungan hukum",
+        "Kebanggaan nasional",
+        "Promosi global",
+        "Perlindungan hukum"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C10",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pasangkan cara melestarikan budaya dengan media yang digunakan!",
+      "rows": [
+        "Video YouTube pertunjukan wayang golek",
+        "Buku tentang resep masakan tradisional",
+        "Mengikuti sanggar tari Jaipong",
+        "Poster tentang pakaian adat daerah"
+      ],
+      "cols": [
+        "Media digital",
+        "Media cetak",
+        "Praktik langsung"
+      ],
+      "ans": [
+        "Media digital",
+        "Media cetak",
+        "Praktik langsung",
+        "Media cetak"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C11",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan dampak hilangnya bahasa daerah dengan bidang yang terpengaruh!",
+      "rows": [
+        "Kearifan lokal tentang alam dan obat-obatan ikut hilang",
+        "Keunikan dan identitas masyarakat tersebut memudar",
+        "Puisi, lagu, dan cerita rakyat dalam bahasa itu musnah",
+        "Bahasa Indonesia menjadi lebih kaya kosakata"
+      ],
+      "cols": [
+        "Pengetahuan",
+        "Identitas",
+        "Seni"
+      ],
+      "ans": [
+        "Pengetahuan",
+        "Identitas",
+        "Seni",
+        "Pengetahuan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C12",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Pasangkan kegiatan melestarikan budaya dengan tujuannya!",
+      "rows": [
+        "Memperkenalkan beragam budaya secara menyenangkan",
+        "Melatih dan mewariskan keahlian seni tradisional",
+        "Memberikan penghasilan bagi masyarakat penjaga budaya",
+        "Menggantikan kegiatan belajar di sekolah"
+      ],
+      "cols": [
+        "Festival budaya",
+        "Sanggar seni",
+        "Wisata budaya"
+      ],
+      "ans": [
+        "Festival budaya",
+        "Sanggar seni",
+        "Wisata budaya",
+        "Festival budaya"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C13",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pasangkan generasi dengan peran utamanya dalam pelestarian budaya!",
+      "rows": [
+        "Mempelajari, menggunakan, dan mewariskan budaya ke depan",
+        "Mengajarkan dan menjadi teladan dalam praktik budaya",
+        "Membuat kebijakan dan melindungi budaya secara hukum",
+        "Hanya mengarsipkan budaya di museum"
+      ],
+      "cols": [
+        "Generasi muda",
+        "Orang tua/tetua",
+        "Pemerintah"
+      ],
+      "ans": [
+        "Generasi muda",
+        "Orang tua/tetua",
+        "Pemerintah",
+        "Generasi muda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C14",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Melestarikan Budaya Sunda",
+      "stimulus": "",
+      "q": "Pasangkan elemen budaya Sunda dengan cara terbaik melestarikannya!",
+      "rows": [
+        "Berbicara sehari-hari dan mempelajari kosakatanya",
+        "Belajar memainkan dan mengikuti pertunjukan",
+        "Menonton dan belajar mendalang",
+        "Hanya membaca buku tentang ketiga hal ini"
+      ],
+      "cols": [
+        "Bahasa Sunda",
+        "Angklung",
+        "Wayang Golek"
+      ],
+      "ans": [
+        "Bahasa Sunda",
+        "Angklung",
+        "Wayang Golek",
+        "Bahasa Sunda"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C15",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Ancaman Budaya",
+      "stimulus": "",
+      "q": "Pasangkan ancaman dengan solusinya!",
+      "rows": [
+        "Menambah porsi budaya lokal di media dan pendidikan",
+        "Membuat festival budaya di kota untuk diaspora",
+        "Membuka sanggar dan mengajarkan keahlian kepada anak muda",
+        "Melarang semua budaya asing masuk"
+      ],
+      "cols": [
+        "Globalisasi",
+        "Urbanisasi",
+        "Putus pewarisan"
+      ],
+      "ans": [
+        "Globalisasi",
+        "Urbanisasi",
+        "Putus pewarisan",
+        "Globalisasi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C16",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Warisan UNESCO",
+      "stimulus": "",
+      "q": "Pasangkan produk budaya Indonesia dengan asal daerahnya!",
+      "rows": [
+        "Angklung yang diakui UNESCO 2010",
+        "Gamelan yang diakui UNESCO",
+        "Batik yang diakui UNESCO 2009",
+        "Wayang yang diakui UNESCO 2003"
+      ],
+      "cols": [
+        "Jawa Barat",
+        "Jawa & Bali",
+        "Seluruh Indonesia"
+      ],
+      "ans": [
+        "Jawa Barat",
+        "Jawa & Bali",
+        "Seluruh Indonesia",
+        "Jawa & Bali"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C17",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang pelestarian budaya dengan nilainya!",
+      "rows": [
+        "Budaya paling terjaga adalah yang masih dipraktikkan sehari-hari",
+        "Melestarikan budaya berarti tidak boleh ada perubahan apapun",
+        "Generasi muda adalah kunci kelangsungan budaya di masa depan",
+        "Hanya pemerintah yang bertanggung jawab melestarikan budaya"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C18",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pelestarian Budaya",
+      "stimulus": "",
+      "q": "Pasangkan nilai budaya yang perlu dilestarikan dengan alasan pentingnya!",
+      "rows": [
+        "Batik, wayang, angklung membuat Indonesia dikenal dunia",
+        "Bhinneka Tunggal Ika: beragam tapi tetap satu",
+        "Pengetahuan obat dan pertanian turun-temurun yang berharga",
+        "Budaya hanya untuk hiburan saja"
+      ],
+      "cols": [
+        "Identitas bangsa",
+        "Pemersatu bangsa",
+        "Warisan kearifan"
+      ],
+      "ans": [
+        "Identitas bangsa",
+        "Pemersatu bangsa",
+        "Warisan kearifan",
+        "Identitas bangsa"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C19",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Melestarikan",
+      "stimulus": "",
+      "q": "Pasangkan sikap terhadap keberagaman budaya dengan nilainya!",
+      "rows": [
+        "Menghargai dan ingin belajar budaya daerah lain",
+        "Menganggap budaya daerah sendiri paling baik",
+        "Bangga dengan budaya sendiri tanpa merendahkan lain",
+        "Menolak budaya daerah lain masuk ke daerahnya"
+      ],
+      "cols": [
+        "Sikap positif",
+        "Sikap negatif",
+        "Sikap positif"
+      ],
+      "ans": [
+        "Sikap positif",
+        "Sikap negatif",
+        "Sikap positif",
+        "Sikap negatif"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}

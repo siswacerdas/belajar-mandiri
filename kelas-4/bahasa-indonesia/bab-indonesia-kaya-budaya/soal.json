@@ -1,0 +1,4408 @@
+{
+  "status": "ok",
+  "mapel": "Bahasa Indonesia",
+  "bab": "Bab 3 — Indonesia, Kaya Budaya",
+  "soal": [
+    {
+      "id": "PG-A01",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Instruksi dalam gambar adalah ...",
+      "opt": [
+        "Teks panjang yang menjelaskan cara melakukan sesuatu",
+        "Petunjuk atau informasi yang disampaikan melalui gambar, simbol, ikon, atau diagram",
+        "Kalimat perintah yang ditulis di samping foto",
+        "Daftar langkah-langkah yang ditulis dalam tabel"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A02",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Gambar sering digunakan untuk menyampaikan instruksi karena ...",
+      "opt": [
+        "Gambar lebih mahal dan sulit dibuat daripada tulisan",
+        "Gambar lebih cepat dipahami dibandingkan tulisan panjang",
+        "Gambar hanya bisa dipahami oleh orang yang pandai membaca",
+        "Gambar selalu lebih benar daripada tulisan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A03",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Simbol bergambar banyak digunakan di bandara dan tempat wisata internasional karena ...",
+      "opt": [
+        "Gambar lebih murah dibuat daripada tulisan",
+        "Gambar bisa dipahami orang dari berbagai negara meski berbeda bahasa",
+        "Tulisan terlalu kecil untuk dibaca di tempat umum",
+        "Gambar terlihat lebih menarik daripada tulisan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A04",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Ada 4 jenis instruksi gambar yang sering ditemui. Yang BUKAN termasuk di antaranya adalah ...",
+      "opt": [
+        "Rambu dan simbol lalu lintas",
+        "Peta dan denah gedung",
+        "Infografis yang menjelaskan data atau proses",
+        "Puisi yang dihiasi gambar"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A05",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Gambar yang menjelaskan data, proses, atau perbandingan secara visual disebut ...",
+      "opt": [
+        "Denah",
+        "Rambu",
+        "Infografis",
+        "Peta rute"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A06",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Tanda segitiga merah dengan gambar anak sekolah di jalan raya termasuk jenis instruksi gambar berupa ...",
+      "opt": [
+        "Peta dan denah",
+        "Panduan bergambar",
+        "Infografis",
+        "Rambu dan simbol"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A07",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Petunjuk cara memasang lemari yang disertai gambar langkah demi langkah termasuk jenis instruksi ...",
+      "opt": [
+        "Rambu dan simbol",
+        "Peta wisata",
+        "Panduan bergambar",
+        "Infografis data"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A08",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Langkah PERTAMA saat membaca instruksi dalam gambar adalah ...",
+      "opt": [
+        "Langsung mengikuti semua instruksi tanpa berpikir panjang",
+        "Amati gambar secara menyeluruh untuk memahami tema besarnya",
+        "Mencari teks yang tersembunyi di balik gambar",
+        "Menghitung jumlah simbol yang ada dalam gambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A09",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Langkah KEDUA saat membaca instruksi dalam gambar adalah ...",
+      "opt": [
+        "Langsung mencari jalan keluar di denah",
+        "Baca judul, teks pendek, angka, atau legenda yang menyertai gambar",
+        "Hanya perhatikan gambar terbesar dalam infografis",
+        "Tanyakan kepada orang lain apa arti gambar tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A10",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Warna MERAH pada rambu atau simbol biasanya menandakan ...",
+      "opt": [
+        "Keamanan atau diperbolehkan",
+        "Informasi tambahan yang tidak penting",
+        "Larangan atau bahaya",
+        "Arah menuju jalan yang benar"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A11",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Warna HIJAU pada rambu atau simbol biasanya menandakan ...",
+      "opt": [
+        "Larangan atau bahaya",
+        "Aman atau diperbolehkan",
+        "Peringatan agar berhati-hati",
+        "Informasi yang tidak penting"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A12",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Langkah KEEMPAT membaca instruksi gambar adalah menghubungkan dengan konteks. Artinya ...",
+      "opt": [
+        "Menghafal semua simbol yang ada dalam gambar",
+        "Memikirkan di mana gambar ini biasa ditemui dan apa tujuannya",
+        "Mencari gambar serupa di internet",
+        "Menggambar ulang instruksi tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A13",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Kamu berada di depan pintu masuk museum. Denah menunjukkan arah: pintu masuk → loket tiket → ruang pameran. Artinya yang harus kamu lakukan pertama adalah ...",
+      "opt": [
+        "Langsung masuk ke ruang pameran",
+        "Pergi ke loket tiket terlebih dahulu",
+        "Mencari kafetaria untuk makan siang",
+        "Keluar dari museum dan mencari pintu lain"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A14",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Dalam denah Museum Budaya Nusantara, ikon 🚻 biasanya digunakan untuk menandai ...",
+      "opt": [
+        "Ruang pameran utama",
+        "Pintu darurat",
+        "Toilet atau kamar kecil",
+        "Toko oleh-oleh"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A15",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Fungsi utama denah gedung adalah ...",
+      "opt": [
+        "Menunjukkan sejarah berdirinya gedung tersebut",
+        "Menginformasikan tata letak ruangan agar pengunjung tidak tersesat",
+        "Menampilkan foto-foto keindahan gedung",
+        "Menceritakan pengalaman orang yang pernah mengunjungi gedung"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A16",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Legenda pada peta atau denah berfungsi untuk ...",
+      "opt": [
+        "Menceritakan legenda atau dongeng daerah tersebut",
+        "Menjelaskan arti simbol-simbol yang digunakan dalam peta",
+        "Menunjukkan nama-nama jalan di sekitar peta",
+        "Memberikan informasi tentang cuaca di daerah tersebut"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A17",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Infografis",
+      "stimulus": "",
+      "q": "Kelebihan infografis dibandingkan teks biasa adalah ...",
+      "opt": [
+        "Infografis lebih mudah dibuat daripada teks",
+        "Infografis menyajikan data dan proses secara visual sehingga lebih cepat dipahami",
+        "Infografis tidak memerlukan angka atau data",
+        "Infografis hanya bisa dibaca oleh orang dewasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A18",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Infografis",
+      "stimulus": "",
+      "q": "Kamu melihat infografis tentang 'Pakaian Adat Indonesia' yang menampilkan 6 gambar pakaian dari berbagai daerah beserta nama daerahnya. Fungsi infografis tersebut adalah ...",
+      "opt": [
+        "Menceritakan sejarah panjang setiap pakaian adat",
+        "Memperlihatkan perbedaan bentuk dan asal daerah pakaian adat secara visual",
+        "Mengajak pembaca membeli pakaian adat",
+        "Menjelaskan cara membuat pakaian adat"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A19",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Perhatikan situasi berikut: 'Kamu melihat gambar tangan mencuci di wastafel dengan 6 langkah berurutan di dinding rumah sakit.' Jenis instruksi gambar tersebut adalah ...",
+      "opt": [
+        "Rambu lalu lintas",
+        "Peta gedung rumah sakit",
+        "Panduan bergambar cara mencuci tangan",
+        "Infografis data pasien rumah sakit"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A20",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Saat membaca peta wisata Museum Budaya Nusantara, tanda panah (→) biasanya menunjukkan ...",
+      "opt": [
+        "Larangan melintas di area tersebut",
+        "Arah atau rute yang disarankan untuk diikuti",
+        "Lokasi toilet terdekat",
+        "Tempat parkir kendaraan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A21",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Gambar tanpa teks sama sekali (hanya simbol) tetap bisa dipahami karena ...",
+      "opt": [
+        "Semua orang sudah hafal arti setiap simbol",
+        "Simbol yang baik memiliki bentuk yang secara universal mudah dikenali",
+        "Simbol gambar hanya digunakan di Indonesia",
+        "Gambar tanpa teks selalu lebih benar dari gambar berteks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A22",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang cara membaca instruksi gambar adalah ...",
+      "opt": [
+        "Langsung ikuti instruksinya tanpa membaca judul atau keterangan",
+        "Abaikan tanda panah dan warna, fokus hanya pada tulisan",
+        "Baca keseluruhan gambar terlebih dahulu sebelum memperhatikan detail",
+        "Instruksi gambar hanya bisa dipahami oleh orang yang sudah terlatih"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A23",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Denah lantai 1 Museum Budaya Nusantara menunjukkan: Ruang Tari, Ruang Musik, dan Galeri Lukisan. Berdasarkan denah, jika kamu ingin melihat alat musik tradisional, kamu harus pergi ke ...",
+      "opt": [
+        "Galeri Lukisan",
+        "Ruang Tari",
+        "Ruang Musik",
+        "Kafetaria"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A24",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Infografis cara memakai kain batik sebagai selendang memiliki 4 langkah bergambar. Mengapa instruksi ini lebih tepat menggunakan gambar daripada tulisan saja?",
+      "opt": [
+        "Karena tulisan terlalu mahal untuk dicetak",
+        "Karena cara memakai kain lebih mudah dipahami dengan melihat gambar posisinya",
+        "Karena semua orang tidak bisa membaca",
+        "Karena gambar memerlukan lebih sedikit kertas"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A25",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Seseorang melihat gambar simbol telepon genggam disilang dengan tanda merah di depan kelas. Instruksi yang disampaikan gambar tersebut adalah ...",
+      "opt": [
+        "Silakan menggunakan telepon genggam di kelas",
+        "Di sini tersedia charger untuk telepon genggam",
+        "Dilarang menggunakan telepon genggam di kelas",
+        "Beli telepon genggam baru di sini"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A26",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Mengapa konteks penting saat membaca instruksi gambar?",
+      "opt": [
+        "Karena konteks membuat gambar terlihat lebih indah",
+        "Karena konteks membantu kita memahami untuk siapa dan untuk apa gambar itu dibuat",
+        "Karena tanpa konteks, gambar tidak bisa dicetak",
+        "Karena konteks membuat gambar menjadi lebih berwarna"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-A27",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Kamu menemukan denah gedung pertunjukan budaya yang menunjukkan lokasi pintu darurat (🚪 EXIT). Pentingnya membaca denah sebelum acara dimulai adalah ...",
+      "opt": [
+        "Agar kamu bisa mengambil foto denah untuk media sosial",
+        "Agar kamu tahu jalur evakuasi jika terjadi keadaan darurat",
+        "Agar kamu bisa mengkritik desain gedung",
+        "Agar kamu bisa menemukan tempat makan yang paling enak"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B01",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Dalam bacaan, teks sangat baik untuk menyampaikan ...",
+      "opt": [
+        "Bentuk, warna, dan ukuran suatu benda",
+        "Posisi dan perbandingan antar benda",
+        "Alasan, urutan kejadian, dan detail yang rumit",
+        "Suasana dan ekspresi yang hanya bisa dilihat"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B02",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Gambar sangat baik untuk menyampaikan ...",
+      "opt": [
+        "Alasan mengapa sesuatu terjadi",
+        "Bentuk, warna, posisi, dan perbandingan antar benda",
+        "Urutan kejadian yang sangat panjang",
+        "Sejarah dan latar belakang suatu benda"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B03",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Mengapa teks dan gambar sering ditampilkan bersama dalam buku atau majalah?",
+      "opt": [
+        "Agar halaman terlihat lebih penuh dan tidak kosong",
+        "Karena teks dan gambar saling melengkapi untuk pemahaman yang lebih utuh",
+        "Karena aturan penerbitan mewajibkan adanya gambar di setiap halaman",
+        "Karena gambar bisa menggantikan fungsi teks sepenuhnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B04",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Kunci utama saat membaca teks yang disertai gambar adalah ...",
+      "opt": [
+        "Hanya membaca teks dan melewatkan gambar",
+        "Hanya melihat gambar tanpa membaca teks",
+        "Memperhatikan keduanya — teks dan gambar — lalu menggabungkan informasinya",
+        "Membaca teks dan gambar secara bergantian tanpa menghubungkannya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B05",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Bacaan tentang rumah adat menjelaskan bahwa atap Rumah Gadang 'melambangkan semangat pantang menyerah'. Informasi tentang makna simbolis ini bisa kita peroleh dari ...",
+      "opt": [
+        "Gambar Rumah Gadang saja",
+        "Teks bacaan, karena gambar tidak bisa menunjukkan makna/simbolisme",
+        "Kedua-duanya dengan perbandingan yang sama",
+        "Warna yang digunakan dalam gambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B06",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Dalam bacaan tentang rumah adat, gambar 4 rumah adat dari berbagai daerah memberikan informasi berupa ...",
+      "opt": [
+        "Sejarah berdirinya setiap rumah adat",
+        "Makna dan simbolisme di balik setiap bentuk rumah",
+        "Perbedaan bentuk keempat rumah secara visual yang lebih cepat dipahami",
+        "Bahan bangunan yang digunakan untuk setiap rumah"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B07",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Dalam bacaan tentang rumah adat, informasi tentang 'nama dan asal daerah' tersedia ...",
+      "opt": [
+        "Hanya di teks",
+        "Hanya di gambar",
+        "Di keduanya — baik teks maupun gambar menyebutkan informasi yang sama",
+        "Tidak tersedia di keduanya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B08",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Teks menjelaskan bahwa 'Honai dirancang agar bagian dalamnya tetap hangat di pegunungan yang dingin'. Informasi tentang FUNGSI Honai ini bisa didapat dari ...",
+      "opt": [
+        "Gambar Honai saja",
+        "Teks, karena gambar tidak bisa menunjukkan fungsi atau alasan sebuah desain",
+        "Kedua-duanya secara bersamaan",
+        "Warna gambar Honai"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B09",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Ada tiga kemungkinan hubungan antara teks dan gambar. Yang BUKAN termasuk di antaranya adalah ...",
+      "opt": [
+        "Teks dan gambar menyampaikan informasi yang sama",
+        "Gambar menambah informasi baru yang tidak ada di teks",
+        "Teks menjelaskan detail yang tidak terlihat di gambar",
+        "Teks dan gambar selalu bertentangan satu sama lain"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B10",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Kamu melihat foto Tari Kecak dengan penari berpakaian khas. Informasi yang bisa kamu peroleh dari gambar tersebut adalah ...",
+      "opt": [
+        "Asal daerah dan sejarah Tari Kecak",
+        "Makna spiritual dan filosofis tarian tersebut",
+        "Tampilan kostum, gerakan, dan jumlah penari",
+        "Tanggal dan tempat pertama kali Tari Kecak ditampilkan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B11",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Bacaan tentang Festival Budaya menyebutkan: 'Dikunjungi 15.000 orang dalam tiga hari.' Informasi berupa angka seperti ini merupakan kekuatan dari ...",
+      "opt": [
+        "Gambar/foto festival",
+        "Teks, karena angka dan data lebih mudah disampaikan lewat tulisan",
+        "Infografis, bukan teks",
+        "Gambar yang disertai keterangan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B12",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Cara yang tepat untuk mendapatkan pemahaman paling lengkap dari sebuah artikel bergambar adalah ...",
+      "opt": [
+        "Membaca teks saja karena lebih lengkap",
+        "Melihat gambar saja karena lebih cepat",
+        "Membaca teks DAN memperhatikan gambar, lalu menghubungkan keduanya",
+        "Membaca teks terlebih dahulu, lalu melupakan gambarnya"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B13",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pertanyaan yang tepat untuk menggabungkan informasi teks dan gambar adalah ...",
+      "opt": [
+        "Siapa penulis teks ini?'",
+        "Informasi apa dari gambar yang TIDAK ada di teks?'",
+        "Berapa halaman teks ini?'",
+        "Kapan artikel ini diterbitkan?'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B14",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Gambar peta yang menunjukkan lokasi Museum Budaya di kota memberikan informasi yang tidak ada di teks, yaitu ...",
+      "opt": [
+        "Sejarah berdirinya Museum Budaya",
+        "Jenis koleksi yang ada di dalam museum",
+        "Posisi atau letak museum relatif terhadap tempat-tempat lain di kota",
+        "Harga tiket masuk museum"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B15",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Teks tentang wayang golek menyebutkan bahwa 'pertunjukan berlangsung semalam suntuk, dari pukul 21.00 hingga pagi hari'. Informasi tentang DURASI ini tersedia di ...",
+      "opt": [
+        "Gambar pertunjukan wayang golek",
+        "Teks, karena waktu dan durasi disampaikan melalui tulisan",
+        "Keduanya — teks dan gambar",
+        "Warna kostum wayang golek"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B16",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Kamu membaca artikel tentang Tongkonan (rumah adat Toraja) yang disertai foto. Dari TEKS kamu mendapat informasi tentang bahan atap dan maknanya. Dari FOTO kamu mendapat ...",
+      "opt": [
+        "Asal usul suku Toraja",
+        "Nama arsitek yang merancang Tongkonan",
+        "Tampilan bentuk dan warna Tongkonan secara visual",
+        "Jumlah Tongkonan yang masih ada"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B17",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang informasi dalam teks adalah ...",
+      "opt": [
+        "Teks tidak bisa menyampaikan informasi yang bergambar",
+        "Teks sangat baik menjelaskan alasan, urutan, dan detail yang rumit",
+        "Teks hanya cocok untuk menceritakan peristiwa masa lalu",
+        "Teks selalu lebih akurat daripada gambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B18",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang informasi dalam gambar adalah ...",
+      "opt": [
+        "Gambar bisa menjelaskan alasan dan makna secara mendalam",
+        "Gambar tidak memberikan informasi baru jika sudah ada teks",
+        "Gambar sangat efektif menunjukkan bentuk, posisi, dan perbandingan",
+        "Gambar hanya berguna untuk anak kecil yang belum bisa membaca"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B19",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Seorang siswa membaca artikel tentang pakaian adat Jawa dan melihat gambar yang menyertainya. Ia hanya melihat gambarnya saja. Apa yang mungkin dia lewatkan?",
+      "opt": [
+        "Nama dan asal daerah pakaian tersebut",
+        "Warna dan bentuk pakaian adat",
+        "Makna, fungsi, dan sejarah pakaian tersebut yang dijelaskan di teks",
+        "Perbandingan visual antara berbagai pakaian adat"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B20",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Informasi yang didapat dari teks tetapi TIDAK terlihat dalam gambar biasanya berupa ...",
+      "opt": [
+        "Bentuk fisik suatu benda",
+        "Warna dan tekstur suatu benda",
+        "Alasan, makna, dan latar belakang sejarah",
+        "Jumlah benda yang ada dalam gambar"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B21",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Bacaan: 'Wayang golek diiringi musik gamelan degung yang merdu.' Informasi bahwa iringannya adalah gamelan degung (bukan jenis gamelan lain) tersedia di ...",
+      "opt": [
+        "Gambar pertunjukan wayang saja",
+        "Teks, karena nama spesifik jenis gamelan disampaikan melalui tulisan",
+        "Gambar dan teks dengan porsi yang sama",
+        "Simbol atau ikon yang menyertai gambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B22",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Kamu melihat foto barisan penari Tari Saman dengan kostum hitam-merah yang seragam. Informasi yang bisa kamu ambil dari gambar itu adalah ...",
+      "opt": [
+        "Dari mana Tari Saman berasal",
+        "Sudah berapa lama Tari Saman ada",
+        "Kostum yang digunakan seragam berwarna hitam-merah dan penarinya sangat banyak",
+        "Apa makna gerakan tangan dalam Tari Saman"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B23",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pertanyaan 'Informasi apa dari teks yang TIDAK terlihat di gambar?' diajukan untuk ...",
+      "opt": [
+        "Mengkritik kualitas gambar yang kurang baik",
+        "Memastikan kita mendapatkan informasi lengkap dari dua sumber",
+        "Menentukan apakah gambar layak digunakan atau tidak",
+        "Menguji kemampuan membaca gambar"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B24",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Dari bacaan tentang Festival Budaya: 'Tari Jaipong, pertunjukan wayang golek, dan pameran kerajinan bambu.' Informasi ini lebih mudah diperoleh dari ...",
+      "opt": [
+        "Gambar festival saja",
+        "Teks, karena daftar nama kegiatan lebih mudah disampaikan dengan tulisan",
+        "Infografis data pengunjung",
+        "Foto lokasi festival"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B25",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Mengapa gambar lebih efektif dari teks untuk menunjukkan perbedaan bentuk 4 rumah adat sekaligus?",
+      "opt": [
+        "Karena gambar lebih berwarna dan menarik",
+        "Karena dengan satu gambar, pembaca langsung melihat semua perbedaan bentuk tanpa harus membayangkan",
+        "Karena teks tidak bisa menyebutkan nama rumah adat",
+        "Karena gambar tidak memerlukan penjelasan"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B26",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Cara yang TIDAK tepat saat membaca teks dengan gambar adalah ...",
+      "opt": [
+        "Membaca teks dan memperhatikan gambar secara bergantian",
+        "Menghubungkan informasi dari teks dengan apa yang terlihat di gambar",
+        "Hanya fokus pada gambar karena lebih menarik dan mengabaikan teks",
+        "Bertanya 'Apa yang bisa saya pelajari dari teks dan gambar ini?'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-B27",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Teks menjelaskan tentang keunikan Rumah Joglo: 'biasanya dimiliki oleh keluarga bangsawan atau tokoh masyarakat pada zaman dahulu.' Informasi tentang SIAPA yang biasanya memiliki rumah ini bisa didapat dari ...",
+      "opt": [
+        "Gambar Rumah Joglo saja",
+        "Teks, karena status sosial pemilik tidak bisa dilihat dari gambar",
+        "Warna atap pada gambar Rumah Joglo",
+        "Keduanya dengan porsi yang sama"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C01",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Menanggapi informasi dalam teks berarti ...",
+      "opt": [
+        "Menyalin ulang isi teks dengan kata-kata sendiri",
+        "Memberikan respons berupa pendapat — setuju, kurang setuju, atau tidak setuju",
+        "Mencari kesalahan ejaan dalam teks",
+        "Menambahkan gambar baru pada teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C02",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Ada 3 posisi saat menanggapi informasi dalam teks. Yang BUKAN termasuk di antaranya adalah ...",
+      "opt": [
+        "Setuju dengan informasi yang disampaikan",
+        "Kurang setuju karena informasinya belum lengkap",
+        "Tidak setuju karena ada bagian yang menurut kita tidak tepat",
+        "Tidak peduli karena topiknya tidak menarik"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C03",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pendapat yang baik terhadap informasi dalam teks haruslah ...",
+      "opt": [
+        "Selalu setuju agar tidak menyinggung penulis",
+        "Selalu bertentangan dengan isi teks",
+        "Disertai alasan yang jelas dan didukung bukti dari teks",
+        "Sangat panjang agar terlihat serius dan mendalam"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C04",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Langkah PERTAMA menyampaikan pendapat tentang informasi dalam teks adalah ...",
+      "opt": [
+        "Langsung menulis pendapat tanpa membaca teks",
+        "Menentukan posisi — apakah kamu setuju, kurang setuju, atau tidak setuju",
+        "Mencari bukti dari buku lain untuk dibandingkan",
+        "Menyampaikan pendapat dengan bahasa yang sangat formal"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C05",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Langkah KEDUA menyampaikan pendapat tentang informasi dalam teks adalah ...",
+      "opt": [
+        "Tunjukkan bagian teks yang mendukung pendapatmu",
+        "Berikan alasan mengapa kamu berpendapat demikian",
+        "Cari kata-kata baru yang belum kamu pahami",
+        "Hitung jumlah paragraf dalam teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C06",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Langkah KETIGA menyampaikan pendapat tentang informasi dalam teks adalah ...",
+      "opt": [
+        "Tentukan posisi — setuju atau tidak setuju",
+        "Berikan alasan dari pengetahuan pribadi",
+        "Dukung dengan bukti dari teks — tunjukkan bagian teks yang relevan",
+        "Buat judul baru untuk teks tersebut"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C07",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Setuju",
+      "stimulus": "",
+      "q": "Contoh pendapat SETUJU yang lengkap terhadap teks tentang festival budaya adalah ...",
+      "opt": [
+        "Festival budaya itu bagus.'",
+        "Saya setuju festival budaya efektif melestarikan tradisi, karena di teks disebutkan festival dikunjungi 15.000 orang — artinya banyak yang bisa mengenal budaya daerah.'",
+        "Semua festival budaya pasti sukses.'",
+        "Festival budaya diadakan di Jawa Barat.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C08",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kurang Setuju",
+      "stimulus": "",
+      "q": "Pendapat 'kurang setuju' biasanya disampaikan ketika ...",
+      "opt": [
+        "Semua informasi dalam teks sudah sangat sempurna",
+        "Informasinya sudah benar tetapi masih ada yang belum lengkap atau perlu ditambahkan",
+        "Kamu tidak ingin membaca teks tersebut",
+        "Kamu tidak bisa menemukan bukti dari teks"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C09",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Setuju",
+      "stimulus": "",
+      "q": "Contoh pendapat TIDAK SETUJU yang baik adalah ...",
+      "opt": [
+        "Saya tidak suka teks ini.'",
+        "Saya kurang setuju dengan pernyataan bahwa batik hanya dari Jawa karena daerah lain seperti Kalimantan dan Sumatera juga punya tradisi membatik.'",
+        "Menurut saya teks ini salah semua.'",
+        "Tidak setuju.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C10",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Bukti dari teks yang baik untuk mendukung pendapat adalah ...",
+      "opt": [
+        "Saya sudah membaca teks ini tiga kali.'",
+        "Di paragraf ketiga teks disebutkan bahwa... '",
+        "Menurut pendapat saya sendiri tanpa bukti...'",
+        "Semua orang tahu bahwa...'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C11",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Kalimat: 'Menurut saya, informasi ini belum lengkap karena hanya menyebutkan tarian dari Jawa dan Sumatera. Sebaiknya ditambahkan juga tarian dari Papua dan Maluku.' Ini adalah contoh pendapat ...",
+      "opt": [
+        "Tidak setuju karena informasinya salah",
+        "Setuju karena informasinya sudah benar",
+        "Kurang setuju karena informasinya belum lengkap",
+        "Acuh tak acuh karena tidak ada alasan yang jelas"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C12",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Mengapa semua posisi pendapat (setuju/kurang setuju/tidak setuju) diperbolehkan?",
+      "opt": [
+        "Karena semua pendapat pasti benar adanya",
+        "Karena yang membuat pendapat berkualitas adalah alasan dan buktinya, bukan posisinya",
+        "Karena penulis tidak peduli dengan pendapat pembaca",
+        "Karena teks tidak selalu bisa dipercaya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C13",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Cara menyebutkan bukti dari teks dengan tepat adalah ...",
+      "opt": [
+        "Saya yakin teks ini benar.'",
+        "Di paragraf kedua disebutkan bahwa... ' atau 'Teks menyebutkan bahwa...'",
+        "Kata seorang teman yang pernah membacanya...'",
+        "Menurut pikiran saya sendiri...'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C14",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Kamu membaca: 'Festival budaya adalah cara paling efektif untuk melestarikan tradisi.' Kamu setuju dengan ini. Alasan yang kuat untuk mendukung pendapatmu adalah ...",
+      "opt": [
+        "Saya setuju karena saya juga suka festival.'",
+        "Saya setuju karena di teks disebutkan festival bisa menarik 15.000 pengunjung, artinya banyak orang bisa mengenal budaya secara langsung.'",
+        "Saya setuju karena penulis pasti sudah berpengalaman.'",
+        "Saya setuju.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C15",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kurang Setuju",
+      "stimulus": "",
+      "q": "Teks hanya menyebutkan cara melestarikan budaya melalui festival. Pendapat 'kurang setuju' yang tepat adalah ...",
+      "opt": [
+        "Festival itu membosankan.'",
+        "Menurut saya, festival bagus tapi bukan satu-satunya cara. Sebaiknya ditambahkan cara lain seperti memasukkan materi budaya ke pelajaran sekolah.'",
+        "Saya tidak setuju sama sekali dengan teks ini.'",
+        "Teks ini sangat lengkap dan tidak perlu ditambahkan apa-apa.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C16",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Perbedaan antara pendapat tentang teks di Bab 7 ini dengan Bab 6 sebelumnya adalah ...",
+      "opt": [
+        "Tidak ada perbedaan sama sekali",
+        "Di Bab 7 kita lebih fokus pada posisi setuju/kurang setuju/tidak setuju terhadap informasi dalam teks",
+        "Di Bab 7 kita tidak boleh memberikan bukti dari teks",
+        "Di Bab 7 pendapat harus lebih panjang dari di Bab 6"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C17",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Mengapa pendapat perlu didukung bukti dari teks?",
+      "opt": [
+        "Agar pendapat terlihat lebih panjang",
+        "Agar pendapat kita dapat diverifikasi dan dipercaya oleh orang lain",
+        "Agar kita tidak perlu memberikan alasan",
+        "Agar penulis teks merasa dihargai"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C18",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Kalimat pembuka yang tepat untuk menyatakan pendapat tentang informasi dalam teks adalah ...",
+      "opt": [
+        "Teks ini sangat bagus.'",
+        "Setelah membaca, saya berpendapat bahwa...' atau 'Menurut saya, informasi ini...'",
+        "Semua orang pasti setuju bahwa...'",
+        "Sudah jelas bahwa informasi ini benar.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C19",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Setuju",
+      "stimulus": "",
+      "q": "Pendapat setuju yang TIDAK lengkap adalah ...",
+      "opt": [
+        "Saya setuju karena teks menyebutkan bahwa festival dikunjungi 15.000 orang.'",
+        "Saya setuju dengan pendapat Pak Dedi karena melihat langsung memang lebih berkesan.'",
+        "Saya setuju.'",
+        "Menurut saya, pendapat ini benar karena dibuktikan dengan data jumlah pengunjung.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C20",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Tidak Setuju",
+      "stimulus": "",
+      "q": "Pernyataan 'batik hanya berasal dari Jawa' bisa ditanggapi dengan tidak setuju jika ...",
+      "opt": [
+        "Kita tidak suka batik",
+        "Kita memiliki pengetahuan atau bukti bahwa Kalimantan dan Sumatera juga punya tradisi membatik",
+        "Penulis teks bukan orang Jawa",
+        "Kita tidak pernah membaca teks tersebut sepenuhnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C21",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Teks: 'Tidak semua daerah mampu mengadakan festival besar karena keterbatasan anggaran.' Pendapat yang cocok adalah ...",
+      "opt": [
+        "Saya setuju, dan di teks memang disebutkan daerah terpencil dengan anggaran terbatas kesulitan.'",
+        "Teks ini salah karena semua daerah bisa mengadakan festival.'",
+        "Tidak ada pendapat karena teks terlalu panjang.'",
+        "Saya setuju karena festival itu mahal.'"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C22",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Pertanyaan 'Apakah aku setuju dengan informasi ini?' harus dijawab setelah ...",
+      "opt": [
+        "Sebelum membaca teks",
+        "Membaca teks dengan seksama",
+        "Setelah menutup buku dan tidak melihat teks lagi",
+        "Setelah berdiskusi dengan semua teman"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C23",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Kamu ingin menyampaikan pendapat tentang teks budaya. Bagian teks mana yang paling tepat dijadikan bukti?",
+      "opt": [
+        "Judul teks",
+        "Nama penulis teks",
+        "Kalimat atau paragraf yang berkaitan langsung dengan pendapatmu",
+        "Tanggal penerbitan teks"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C24",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kurang Setuju",
+      "stimulus": "",
+      "q": "Pendapat 'kurang setuju' berbeda dari 'tidak setuju' karena ...",
+      "opt": [
+        "Kurang setuju berarti kita marah dengan isi teks",
+        "Kurang setuju berarti informasinya sudah benar tapi belum lengkap, sedangkan tidak setuju berarti ada yang kita anggap salah",
+        "Kurang setuju berarti kita tidak membaca teks dengan baik",
+        "Tidak setuju berarti kita setuju dengan sebagian informasi"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C25",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Manfaat mampu menanggapi informasi dalam teks adalah ...",
+      "opt": [
+        "Kita bisa menghafal seluruh isi teks dengan mudah",
+        "Kita menjadi pembaca yang aktif dan kritis, tidak hanya menerima informasi begitu saja",
+        "Kita tidak perlu membaca seluruh teks",
+        "Kita bisa menulis teks yang lebih panjang"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C26",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Kalimat yang baik untuk menyebutkan bukti teks adalah ...",
+      "opt": [
+        "Seperti yang disebutkan di paragraf ketiga, festival budaya dikunjungi lebih dari 15.000 orang dalam tiga hari.'",
+        "Saya rasa ini benar karena saya percaya.'",
+        "Teks ini sudah jelas dan tidak perlu bukti.'",
+        "Seorang teman memberitahu saya bahwa...'"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-C27",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Kamu membaca teks tentang wayang golek. Pendapat yang menggunakan 3 langkah lengkap adalah ...",
+      "opt": [
+        "Wayang golek itu bagus.'",
+        "Menurut saya, upaya menghidupkan kembali wayang golek sudah tepat. Generasi muda perlu mengenal budayanya sendiri. Teks menyebutkan bahwa pemerintah mengadakan festival wayang di sekolah-sekolah — ini langkah yang baik.'",
+        "Saya suka wayang golek karena ceritanya menarik.'",
+        "Wayang golek berasal dari Jawa Barat.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D01",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Kata hubung antarkalimat adalah ...",
+      "opt": [
+        "Kata yang menghubungkan dua kata dalam satu kalimat",
+        "Kata atau frasa yang menghubungkan satu kalimat dengan kalimat sebelumnya",
+        "Tanda baca yang digunakan di akhir kalimat",
+        "Kata yang digunakan sebagai judul paragraf"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D02",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Kata hubung antarkalimat biasanya diletakkan di ...",
+      "opt": [
+        "Tengah kalimat, di antara dua kata",
+        "Akhir kalimat sebelum tanda titik",
+        "Awal kalimat dan diikuti tanda koma (,)",
+        "Akhir paragraf sebagai penutup"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D03",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Perbandingan tulisan TANPA dan DENGAN kata hubung menunjukkan bahwa kata hubung membuat tulisan ...",
+      "opt": [
+        "Lebih pendek dan lebih singkat",
+        "Lebih runtut, mengalir, dan hubungan antar kalimat lebih jelas",
+        "Lebih sulit dipahami",
+        "Lebih formal dan akademis"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D04",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Perbedaan kata hubung ANTARKALIMAT dengan kata hubung DALAM kalimat adalah ...",
+      "opt": [
+        "Kata hubung antarkalimat digunakan di dalam kalimat, bukan di antara kalimat",
+        "Kata hubung antarkalimat menghubungkan dua kalimat terpisah; kata hubung dalam kalimat ada di dalam satu kalimat",
+        "Keduanya sama saja dan tidak ada perbedaannya",
+        "Kata hubung dalam kalimat digunakan di awal paragraf"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D05",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Kata hubung yang berfungsi menambahkan informasi baru melengkapi kalimat sebelumnya adalah ...",
+      "opt": [
+        "Namun,' dan 'Akan tetapi,'",
+        "Oleh karena itu,' dan 'Akibatnya,'",
+        "Selain itu,' dan 'Di samping itu,'",
+        "Setelah itu,' dan 'Kemudian,'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D06",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Kata hubung yang menunjukkan pertentangan antara dua kalimat adalah ...",
+      "opt": [
+        "Selain itu,' dan 'Lebih lagi,'",
+        "Namun,' dan 'Akan tetapi,'",
+        "Misalnya,' dan 'Contohnya,'",
+        "Setelah itu,' dan 'Kemudian,'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D07",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Kata hubung yang menunjukkan bahwa kalimat berikutnya adalah akibat atau kesimpulan dari kalimat sebelumnya adalah ...",
+      "opt": [
+        "Namun,' dan 'Sebaliknya,'",
+        "Selain itu,' dan 'Di samping itu,'",
+        "Oleh karena itu,' dan 'Akibatnya,'",
+        "Setelah itu,' dan 'Selanjutnya,'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D08",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Kata hubung yang menunjukkan urutan waktu adalah ...",
+      "opt": [
+        "Namun,' dan 'Akan tetapi,'",
+        "Setelah itu,' dan 'Kemudian,'",
+        "Selain itu,' dan 'Di samping itu,'",
+        "Oleh karena itu,' dan 'Dengan demikian,'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D09",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh & Penjelasan",
+      "stimulus": "",
+      "q": "Kata hubung yang digunakan untuk memberikan contoh atau penjelasan tambahan adalah ...",
+      "opt": [
+        "Namun,' dan 'Sebaliknya,'",
+        "Akibatnya,' dan 'Oleh karena itu,'",
+        "Misalnya,' dan 'Contohnya,'",
+        "Kemudian,' dan 'Akhirnya,'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D10",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Penggunaan yang tepat untuk 'Selain itu,' adalah ...",
+      "opt": [
+        "Batik tulis membutuhkan waktu berminggu-minggu. Selain itu, bahan yang digunakan juga sangat mahal.'",
+        "Tari Saman sangat terkenal. Selain itu, banyak remaja tidak bisa menarikannya.'",
+        "Bahasa daerah mulai ditinggalkan. Selain itu, kita harus melestarikannya.'",
+        "Kain mori dilukis dengan canting. Selain itu, kain dicelupkan ke pewarna.'"
+      ],
+      "ans": "A",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D11",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Penggunaan 'Namun,' yang TEPAT adalah ...",
+      "opt": [
+        "Wayang golek sangat disukai. Namun, pertunjukan berlangsung semalam suntuk.'",
+        "Tari Saman terkenal di dunia. Namun, banyak remaja Aceh tidak bisa menarikannya.'",
+        "Kain mori berwarna putih. Namun, canting berisi lilin panas.'",
+        "Festival diadakan setahun sekali. Namun, acara berlangsung tiga hari.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D12",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Kalimat: 'Bahasa daerah mulai ditinggalkan generasi muda. ___, perlu ada upaya pelestarian di sekolah.' Kata hubung yang tepat untuk mengisi bagian ___ adalah ...",
+      "opt": [
+        "Selain itu,",
+        "Namun,",
+        "Oleh karena itu,",
+        "Misalnya,"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D13",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Kalimat: 'Kain mori dilukis dengan canting. ___, kain dicelupkan ke dalam pewarna.' Kata hubung yang tepat adalah ...",
+      "opt": [
+        "Namun,",
+        "Oleh karena itu,",
+        "Selain itu,",
+        "Setelah itu,"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D14",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh & Penjelasan",
+      "stimulus": "",
+      "q": "Kalimat: 'Indonesia memiliki ratusan tarian tradisional. ___, Tari Jaipong dari Jawa Barat dan Tari Kecak dari Bali.' Kata hubung yang tepat adalah ...",
+      "opt": [
+        "Namun,",
+        "Akibatnya,",
+        "Misalnya,",
+        "Oleh karena itu,"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D15",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Kalimat: 'Di masa lalu, wayang golek menjadi hiburan utama masyarakat Sunda. ___, anak-anak muda lebih tertarik pada hiburan digital.' Kata hubung yang paling tepat adalah ...",
+      "opt": [
+        "Selain itu,",
+        "Akan tetapi,",
+        "Misalnya,",
+        "Kemudian,"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D16",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Kalimat: 'Jumlah penonton wayang semakin sedikit. ___, para seniman berusaha menghidupkan kembali wayang golek.' Kata hubung yang paling tepat adalah ...",
+      "opt": [
+        "Selain itu,",
+        "Namun,",
+        "Oleh karena itu,",
+        "Setelah itu,"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D17",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Kalimat: 'Festival budaya memperkenalkan tradisi kepada masyarakat. ___, festival juga mendatangkan manfaat ekonomi.' Kata hubung yang tepat adalah ...",
+      "opt": [
+        "Namun,",
+        "Selain itu,",
+        "Setelah itu,",
+        "Misalnya,"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D18",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Ada 5 fungsi kata hubung antarkalimat. Yang BUKAN termasuk di antaranya adalah ...",
+      "opt": [
+        "Menambahkan informasi",
+        "Menunjukkan pertentangan",
+        "Menggantikan subjek kalimat",
+        "Memberikan contoh atau penjelasan"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D19",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Dengan demikian,' termasuk kata hubung yang menunjukkan ...",
+      "opt": [
+        "Urutan waktu",
+        "Pertentangan",
+        "Sebab-akibat atau kesimpulan",
+        "Penambahan informasi"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D20",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Akhirnya,' termasuk kata hubung yang menunjukkan ...",
+      "opt": [
+        "Pertentangan",
+        "Penambahan informasi",
+        "Contoh atau penjelasan",
+        "Urutan waktu — menandakan langkah atau kejadian terakhir"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D21",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Sebaliknya,' digunakan ketika kalimat berikutnya ...",
+      "opt": [
+        "Melengkapi informasi kalimat sebelumnya",
+        "Menunjukkan arah yang berlawanan dari kalimat sebelumnya",
+        "Memberikan contoh dari kalimat sebelumnya",
+        "Terjadi setelah kejadian di kalimat sebelumnya"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D22",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Mengapa penggunaan kata hubung antarkalimat membuat tulisan lebih baik?",
+      "opt": [
+        "Karena kata hubung membuat kalimat menjadi lebih panjang",
+        "Karena kata hubung menghubungkan kalimat sehingga ide mengalir runtut dan mudah dipahami",
+        "Karena kata hubung menambah jumlah kata dalam tulisan",
+        "Karena kata hubung adalah syarat wajib dalam pelajaran bahasa"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D23",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Manakah penggunaan 'Di samping itu,' yang paling tepat?",
+      "opt": [
+        "Batik membutuhkan waktu lama. Di samping itu, banyak orang tidak suka batik.'",
+        "Wayang menghibur penonton. Di samping itu, wayang juga menyampaikan pesan moral.'",
+        "Kain dicelup. Di samping itu, kain diangkat dari pewarna.'",
+        "Festival diadakan di Bandung. Di samping itu, Bandung adalah kota besar.'"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D24",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Kalimat: 'Banyak pengunjung festival yang tertarik membeli kerajinan daerah. ___, penjualan para pengrajin meningkat pesat.' Kata hubung yang paling tepat adalah ...",
+      "opt": [
+        "Namun,",
+        "Selain itu,",
+        "Akibatnya,",
+        "Kemudian,"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D25",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Kalimat: 'Para penari berlatih keras selama sebulan. ___, mereka tampil di Festival Budaya Daerah.' Kata hubung yang tepat adalah ...",
+      "opt": [
+        "Namun,",
+        "Selain itu,",
+        "Oleh karena itu,",
+        "Kemudian,"
+      ],
+      "ans": "D",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D26",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Contoh & Penjelasan",
+      "stimulus": "",
+      "q": "Kalimat: 'Banyak cara untuk melestarikan budaya daerah. ___, memasukkan tari daerah ke dalam pelajaran sekolah.' Kata hubung yang tepat adalah ...",
+      "opt": [
+        "Namun,",
+        "Sebagai contoh,",
+        "Oleh karena itu,",
+        "Akan tetapi,"
+      ],
+      "ans": "B",
+      "pembahasan": ""
+    },
+    {
+      "id": "PG-D27",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Kalimat manakah yang menggunakan kata hubung antarkalimat dengan BENAR?",
+      "opt": [
+        "Tari Saman terkenal, namun banyak yang suka.'",
+        "Namun banyak remaja yang tidak bisa menarikannya.'",
+        "Tari Saman sangat terkenal di dunia. Namun, banyak remaja di Aceh tidak bisa menarikannya.'",
+        "Tari Saman Namun, terkenal di dunia.'"
+      ],
+      "ans": "C",
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A01",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Alasan gambar digunakan untuk menyampaikan instruksi adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Gambar lebih cepat dipahami daripada tulisan panjang",
+        "Simbol gambar bisa dipahami orang dari berbagai negara",
+        "Gambar selalu lebih mahal dari tulisan",
+        "Gambar hanya bisa dipahami oleh orang tertentu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A02",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Jenis-jenis instruksi gambar yang sering ditemui dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Rambu dan simbol seperti rambu lalu lintas",
+        "Peta dan denah seperti denah gedung",
+        "Kamus dan ensiklopedia bergambar",
+        "Buku cerita bergambar yang menghibur"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A03",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Langkah-langkah membaca instruksi gambar yang benar meliputi ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Amati gambar secara menyeluruh untuk memahami tema besarnya",
+        "Baca judul, teks pendek, dan legenda yang menyertai gambar",
+        "Langsung ikuti instruksinya tanpa membaca keterangan",
+        "Hanya perhatikan warna merah karena itu paling penting"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A04",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Informasi yang bisa diperoleh dari denah gedung adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tata letak ruangan dan posisi setiap ruang",
+        "Arah masuk dan keluar gedung",
+        "Sejarah berdirinya gedung tersebut",
+        "Nama arsitek yang merancang gedung"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A05",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Makna warna pada rambu atau simbol yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Warna merah biasanya menandakan larangan atau bahaya",
+        "Warna hijau biasanya menandakan aman atau diperbolehkan",
+        "Warna biru selalu berarti larangan",
+        "Warna kuning berarti diperbolehkan tanpa batasan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A06",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Infografis",
+      "stimulus": "",
+      "q": "Kelebihan infografis dibandingkan hanya menggunakan teks biasa adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Data dan proses disajikan secara visual sehingga lebih cepat dipahami",
+        "Perbandingan antar data lebih mudah dilihat dalam bentuk gambar",
+        "Infografis tidak memerlukan angka atau data sama sekali",
+        "Infografis lebih mudah dibuat daripada menulis teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A07",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Panduan bergambar adalah jenis instruksi gambar yang berisi ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Langkah-langkah melakukan sesuatu yang disajikan dengan gambar berurutan",
+        "Cara penggunaan suatu alat atau cara membuat sesuatu dengan ilustrasi",
+        "Cerita fiksi yang dihiasi gambar yang menarik",
+        "Peta wilayah yang menunjukkan rute perjalanan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A08",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Saat membaca denah Museum Budaya Nusantara, dua hal yang perlu diperhatikan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ikon setiap ruangan untuk mengetahui fungsinya",
+        "Arah panah yang menunjukkan alur masuk dan keluar",
+        "Warna cat dinding yang digunakan di museum",
+        "Nama arsitektur bergaya tradisional atau modern"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A09",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Manfaat mampu membaca instruksi dalam gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bisa mengikuti petunjuk dengan benar meski tulisannya sedikit",
+        "Tidak tersesat di tempat umum yang menggunakan rambu atau denah",
+        "Tidak perlu membaca buku atau teks apapun",
+        "Selalu bisa membuat gambar instruksi sendiri"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A10",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Legenda pada peta berfungsi untuk ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjelaskan arti simbol-simbol yang digunakan dalam peta",
+        "Membantu pembaca memahami makna warna dan ikon yang dipakai",
+        "Menceritakan dongeng atau legenda daerah tersebut",
+        "Menunjukkan nama jalan di sekitar peta"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A11",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Infografis",
+      "stimulus": "",
+      "q": "Contoh-contoh instruksi yang lebih efektif jika disampaikan melalui gambar daripada teks saja adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Denah gedung museum untuk menunjukkan posisi ruangan",
+        "Panduan bergambar cara memakai kain batik langkah demi langkah",
+        "Puisi tentang keindahan batik dari Jawa Barat",
+        "Teks cerita panjang tentang sejarah wayang golek"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A12",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Langkah 'menghubungkan dengan konteks' saat membaca instruksi gambar berarti ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Memikirkan di mana gambar ini biasanya ditemui",
+        "Memikirkan untuk siapa dan apa tujuan gambar itu dibuat",
+        "Mencari gambar serupa di internet",
+        "Menggambar ulang instruksi tersebut di buku catatan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-A13",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang instruksi dalam gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Gambar bisa menyampaikan petunjuk tanpa banyak kata",
+        "Simbol yang baik memiliki bentuk yang secara universal mudah dikenali",
+        "Gambar instruksi hanya bisa dipahami orang yang sudah berpengalaman",
+        "Semua instruksi gambar selalu memerlukan teks panjang untuk dijelaskan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B01",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Jenis informasi yang lebih mudah disampaikan melalui TEKS daripada gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Alasan dan penjelasan mengapa sesuatu terjadi",
+        "Urutan kejadian dan detail yang rumit",
+        "Bentuk dan warna suatu benda",
+        "Posisi dan perbandingan antar benda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B02",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Jenis informasi yang lebih mudah disampaikan melalui GAMBAR daripada teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bentuk fisik dan tampilan visual suatu benda",
+        "Perbandingan ukuran beberapa benda sekaligus",
+        "Sejarah dan latar belakang suatu objek",
+        "Makna simbolis yang tersembunyi dari sebuah benda"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B03",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Kemungkinan hubungan antara teks dan gambar dalam sebuah artikel adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Teks dan gambar menyampaikan informasi yang sama",
+        "Gambar menambah informasi baru yang tidak ada di teks",
+        "Teks dan gambar selalu bertentangan",
+        "Gambar tidak pernah memberikan informasi baru"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B04",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Dari bacaan tentang rumah adat, informasi yang hanya bisa diperoleh dari TEKS adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Makna simbolis atap Rumah Gadang yang melambangkan semangat pantang menyerah",
+        "Fungsi Honai yang dirancang agar hangat di pegunungan dingin",
+        "Perbedaan bentuk keempat rumah adat",
+        "Nama dan asal daerah setiap rumah adat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B05",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Dari bacaan tentang rumah adat, informasi yang lebih efektif diperoleh dari GAMBAR adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Perbedaan bentuk keempat rumah adat secara visual sekaligus",
+        "Tampilan fisik dan ciri khas masing-masing rumah adat",
+        "Sejarah berdirinya setiap rumah adat",
+        "Alasan mengapa setiap rumah didesain demikian"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B06",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Dua pertanyaan yang tepat untuk menggabungkan informasi teks dan gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Informasi apa dari gambar yang tidak ada di teks?'",
+        "Informasi apa dari teks yang tidak terlihat di gambar?'",
+        "Berapa halaman teks yang harus dibaca?'",
+        "Siapa yang membuat gambar tersebut?'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B07",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Bacaan tentang wayang golek menyebutkan bahwa pertunjukan 'diiringi musik gamelan degung yang merdu'. Dua hal yang hanya bisa didapat dari teks ini adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Nama jenis gamelan yang mengiringi: gamelan degung",
+        "Sifat musik pengiring yang digambarkan sebagai 'merdu'",
+        "Tampilan fisik wayang golek saat dipentaskan",
+        "Jumlah penonton yang hadir dalam pertunjukan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B08",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Jika kamu melihat foto penampilan Tari Saman, dua informasi yang bisa langsung kamu lihat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kostum penari yang seragam berwarna khas",
+        "Formasi dan gerakan para penari",
+        "Asal daerah Tari Saman",
+        "Makna setiap gerakan dalam tari"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B09",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Manfaat menggabungkan informasi dari teks dan gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mendapat pemahaman yang lebih lengkap dan utuh",
+        "Tidak melewatkan informasi penting yang mungkin ada di salah satu sumber",
+        "Tidak perlu lagi membaca buku lain untuk mencari informasi",
+        "Gambar selalu bisa menggantikan fungsi teks sepenuhnya"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B10",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Dua jenis informasi dalam teks tentang festival budaya yang tidak bisa dilihat dari foto festival adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jumlah pengunjung yang datang: lebih dari 15.000 orang",
+        "Nama kegiatan yang ditampilkan: Tari Jaipong, wayang golek, kerajinan bambu",
+        "Suasana keramaian dan kegembiraan pengunjung",
+        "Warna kostum yang dipakai penari Jaipong"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B11",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pernyataan yang BENAR tentang hubungan teks dan gambar dalam bacaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Teks menjelaskan detail yang tidak terlihat di gambar",
+        "Gambar memvisualisasikan apa yang sulit dibayangkan hanya dari teks",
+        "Gambar selalu lebih baik dan lebih lengkap dari teks",
+        "Teks harus selalu lebih panjang dari gambar"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B12",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Gambar peta lokasi yang menunjukkan posisi suatu tempat memberikan informasi yang tidak ada di teks, yaitu ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Letak relatif tempat tersebut terhadap tempat-tempat di sekitarnya",
+        "Perkiraan jarak antara satu tempat dan tempat lainnya",
+        "Sejarah panjang tempat tersebut dari masa ke masa",
+        "Nama semua orang yang pernah mengunjungi tempat itu"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-B13",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Cara yang tepat dan tidak tepat saat membaca artikel bergambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tepat: Memperhatikan teks DAN gambar, lalu menghubungkan keduanya",
+        "Tidak tepat: Hanya melihat gambar dan mengabaikan teks seluruhnya",
+        "Tepat: Hanya membaca teks dan menganggap gambar tidak penting",
+        "Tidak tepat: Membaca teks sebelum melihat gambar apapun"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C01",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Tiga posisi yang bisa diambil saat menanggapi informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Setuju karena informasinya sesuai dengan yang kita ketahui",
+        "Kurang setuju karena informasinya belum lengkap",
+        "Tidak setuju karena ada bagian yang kita anggap tidak tepat",
+        "Diam karena tidak tahu harus berpendapat apa"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C02",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Tiga langkah menyampaikan pendapat tentang informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tentukan posisi — apakah kamu setuju, kurang setuju, atau tidak setuju",
+        "Berikan alasan mengapa kamu berpendapat demikian",
+        "Dukung dengan bukti dari teks — tunjukkan bagian teks yang relevan",
+        "Cari pendapat dari sumber lain yang mendukung"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C03",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Bukti dari teks yang baik untuk mendukung pendapat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Merujuk langsung ke kalimat atau paragraf yang relevan",
+        "Mengutip bagian teks yang mendukung atau bertentangan dengan pendapat",
+        "Mengatakan 'saya yakin teks ini benar' tanpa referensi bagian teks",
+        "Membandingkan dengan teks lain yang belum dibaca"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C04",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Ciri-ciri pendapat yang baik terhadap informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Disertai alasan yang jelas mengapa berpendapat demikian",
+        "Didukung dengan bukti dari bagian teks yang relevan",
+        "Selalu setuju agar tidak menyinggung penulis",
+        "Sangat panjang agar terlihat serius"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C05",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Setuju",
+      "stimulus": "",
+      "q": "Contoh komponen pendapat SETUJU yang baik tentang teks festival budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Alasan: 'Melihat langsung lebih berkesan daripada sekadar membaca'",
+        "Bukti: 'Di teks disebutkan festival dikunjungi 15.000 orang, artinya banyak yang mengenal budaya'",
+        "Posisi: 'Saya tidak tahu apakah setuju atau tidak'",
+        "Bukti: 'Menurut saya sendiri, festival itu bagus'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C06",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kurang Setuju",
+      "stimulus": "",
+      "q": "Pendapat 'kurang setuju' disampaikan ketika ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Informasi dalam teks sudah benar, tetapi masih kurang lengkap",
+        "Ada bagian penting yang belum dibahas dan perlu ditambahkan",
+        "Semua informasi dalam teks sudah sempurna",
+        "Kita tidak mau membaca teks lebih lanjut"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C07",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Tidak Setuju",
+      "stimulus": "",
+      "q": "Pendapat 'tidak setuju' yang baik mengandung ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Alasan konkret mengapa bagian tersebut dianggap tidak tepat",
+        "Bukti atau pengetahuan yang mendukung ketidaksetujuan",
+        "Kemarahan dan kritikan tanpa alasan",
+        "Pernyataan bahwa seluruh isi teks salah"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C08",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Kata-kata pembuka yang tepat untuk menyampaikan pendapat tentang informasi teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menurut saya, informasi ini ...' atau 'Saya berpendapat bahwa ...'",
+        "Setelah membaca, saya setuju/kurang setuju/tidak setuju karena ...'",
+        "Sudah jelas bahwa informasi ini pasti benar.'",
+        "Semua orang pasti setuju dengan teks ini.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C09",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Dua cara yang tepat untuk menyebutkan bukti dari teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Di paragraf kedua disebutkan bahwa...'",
+        "Teks menyebutkan bahwa festival dikunjungi 15.000 orang...'",
+        "Saya sudah membaca teks ini berkali-kali.'",
+        "Menurut pendapat pribadi saya tanpa dasar teks.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C10",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Dua pernyataan benar tentang pendapat terhadap informasi teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Semua posisi (setuju/kurang setuju/tidak setuju) diperbolehkan asal ada alasan",
+        "Yang membuat pendapat berkualitas adalah alasan dan buktinya, bukan posisinya",
+        "Pendapat harus selalu setuju dengan isi teks",
+        "Pendapat tidak perlu bukti jika alasannya sudah kuat"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C11",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Manfaat kemampuan menanggapi informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menjadi pembaca yang aktif dan kritis",
+        "Tidak hanya menerima informasi begitu saja tanpa mempertimbangkannya",
+        "Tidak perlu membaca teks sampai selesai",
+        "Selalu bisa menemukan kesalahan dalam setiap teks"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C12",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kurang Setuju",
+      "stimulus": "",
+      "q": "Dari teks festival budaya, contoh pendapat 'kurang setuju' yang lengkap mengandung ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pengakuan bahwa festival memang baik untuk melestarikan budaya",
+        "Saran untuk menambahkan cara lain selain festival, seperti memasukkan budaya ke pelajaran",
+        "Penolakan total terhadap semua manfaat festival",
+        "Pernyataan bahwa festival tidak pernah berhasil"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C13",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Perbedaan antara menanggapi informasi teks di Bab 7 dan di Bab 6 adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Di Bab 7 kita lebih fokus pada posisi setuju/tidak setuju terhadap informasi",
+        "Di Bab 7 penekanannya pada menggunakan bukti dari teks sebagai pendukung",
+        "Di Bab 6 kita tidak perlu menyertakan alasan",
+        "Di Bab 7 kita tidak boleh menyatakan tidak setuju"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-C14",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Setuju",
+      "stimulus": "",
+      "q": "Komponen pendapat setuju yang lengkap tentang pelestarian budaya mengandung ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Posisi: 'Saya setuju bahwa festival efektif melestarikan budaya'",
+        "Alasan + bukti: 'karena melihat langsung lebih berkesan, dan teks menyebut 15.000 pengunjung'",
+        "Hanya posisi tanpa alasan: 'Saya setuju.'",
+        "Hanya bukti tanpa posisi: '15.000 orang hadir di festival.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D01",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Ciri-ciri kata hubung antarkalimat yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Diletakkan di awal kalimat dan diikuti tanda koma (,)",
+        "Menghubungkan satu kalimat dengan kalimat sebelumnya",
+        "Diletakkan di tengah kalimat di antara dua kata",
+        "Diletakkan di akhir kalimat sebelum tanda titik"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D02",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Kata hubung yang berfungsi menambahkan informasi melengkapi kalimat sebelumnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Selain itu,'",
+        "Di samping itu,'",
+        "Namun,'",
+        "Oleh karena itu,'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D03",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Kata hubung yang menunjukkan pertentangan antara dua kalimat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Namun,'",
+        "Akan tetapi,'",
+        "Selain itu,'",
+        "Misalnya,'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D04",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Kata hubung yang menunjukkan sebab-akibat atau kesimpulan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Oleh karena itu,'",
+        "Akibatnya,'",
+        "Setelah itu,'",
+        "Di samping itu,'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D05",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Kata hubung yang menunjukkan urutan waktu adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Setelah itu,'",
+        "Kemudian,'",
+        "Namun,'",
+        "Misalnya,'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D06",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Contoh & Penjelasan",
+      "stimulus": "",
+      "q": "Kata hubung yang memberikan contoh atau penjelasan tambahan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Misalnya,'",
+        "Contohnya,'",
+        "Akibatnya,'",
+        "Akan tetapi,'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D07",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Perbedaan antara kata hubung antarkalimat dan kata hubung dalam kalimat yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kata hubung antarkalimat menghubungkan dua kalimat terpisah",
+        "Kata hubung dalam kalimat menghubungkan dua bagian dalam satu kalimat",
+        "Keduanya sama dan bisa digunakan saling berganti",
+        "Kata hubung dalam kalimat diletakkan di awal paragraf"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D08",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Kalimat yang TEPAT menggunakan kata hubung pertentangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tari Saman sangat terkenal di dunia. Namun, banyak remaja Aceh tidak bisa menarikannya.'",
+        "Wayang golek menjadi hiburan utama di masa lalu. Akan tetapi, kini anak muda lebih suka hiburan digital.'",
+        "Festival mendatangkan manfaat. Namun, festival juga sangat bermanfaat.'",
+        "Batik terkenal. Selain itu, batik juga kurang dikenal.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D09",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Kalimat yang TEPAT menggunakan kata hubung sebab-akibat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bahasa daerah mulai ditinggalkan generasi muda. Oleh karena itu, perlu ada upaya pelestarian.'",
+        "Jumlah penonton wayang semakin sedikit. Akibatnya, para seniman berusaha memperkenalkan wayang ke sekolah.'",
+        "Batik terkenal. Oleh karena itu, batik juga terkenal.'",
+        "Festival diadakan. Akibatnya, festival berlangsung tiga hari.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D10",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Kalimat yang TEPAT menggunakan kata hubung urutan waktu adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kain mori dilukis dengan canting. Setelah itu, kain dicelupkan ke pewarna.'",
+        "Para penari berlatih sebulan. Kemudian, mereka tampil di festival.'",
+        "Batik cantik. Kemudian, batik juga mahal.'",
+        "Setelah itu, festival diadakan karena budaya penting.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D11",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Penggunaan 'Selain itu,' yang BENAR adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Batik tulis membutuhkan waktu berminggu-minggu. Selain itu, bahan yang digunakan sangat mahal.'",
+        "Festival mendatangkan manfaat ekonomi. Selain itu, pedagang khas mendapat banyak pelanggan.'",
+        "Tari Saman terkenal. Selain itu, banyak yang tidak bisa menarikannya.' (pertentangan, bukan penambahan)",
+        "Bahasa daerah ditinggalkan. Selain itu, kita harus melestarikannya.' (sebab-akibat, bukan penambahan)"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D12",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Manfaat menggunakan kata hubung antarkalimat dalam tulisan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membuat tulisan mengalir runtut dan tidak terasa melompat-lompat",
+        "Hubungan antarkalimat menjadi jelas dan mudah dipahami pembaca",
+        "Membuat tulisan menjadi lebih panjang",
+        "Membuat setiap kalimat berdiri sendiri tanpa hubungan"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D13",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Contoh & Penjelasan",
+      "stimulus": "",
+      "q": "Kalimat yang TEPAT menggunakan kata hubung contoh/penjelasan adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Indonesia memiliki ratusan tarian. Misalnya, Tari Jaipong dari Jawa Barat.'",
+        "Banyak cara melestarikan budaya. Contohnya, memasukkan tari daerah ke pelajaran sekolah.'",
+        "Wayang golek terkenal. Misalnya, wayang golek juga terkenal.'",
+        "Budaya harus dilestarikan. Contohnya, budaya sangat penting.'"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "PGK-D14",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Dari teks wayang golek, dua kata hubung antarkalimat yang digunakan dengan tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Selain itu, pertunjukan ini diiringi musik gamelan degung' — menambahkan informasi",
+        "Namun, dalang kreatif menambahkan humor' — menunjukkan pertentangan/kontras",
+        "Misalnya, wayang golek sangat terkenal' — ini bukan contoh yang spesifik",
+        "Oleh karena itu, wayang golek itu bagus' — tidak ada sebab yang jelas"
+      ],
+      "ans": [
+        "A",
+        "B"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A01",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Pasangkan jenis instruksi gambar dengan contohnya!",
+      "rows": [
+        "Tanda dilarang parkir di jalan",
+        "Denah lantai 1 museum",
+        "Infografis cara memakai kain batik",
+        "Poster info festival budaya"
+      ],
+      "cols": [
+        "Rambu & Simbol",
+        "Peta & Denah",
+        "Panduan Bergambar"
+      ],
+      "ans": [
+        "Rambu & Simbol",
+        "Peta & Denah",
+        "Panduan Bergambar",
+        "Panduan Bergambar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A02",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Pasangkan urutan langkah membaca instruksi gambar dengan deskripsinya!",
+      "rows": [
+        "Amati keseluruhan gambar untuk memahami tema besar",
+        "Baca judul, teks pendek, dan legenda",
+        "Perhatikan simbol, warna, dan tanda panah",
+        "Hubungkan dengan konteks penggunaan"
+      ],
+      "cols": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3"
+      ],
+      "ans": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3",
+        "Langkah 1"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A03",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Pasangkan warna pada rambu dengan maknanya!",
+      "rows": [
+        "Warna merah",
+        "Warna hijau",
+        "Warna kuning",
+        "Warna biru"
+      ],
+      "cols": [
+        "Larangan atau bahaya",
+        "Aman atau diperbolehkan",
+        "Peringatan"
+      ],
+      "ans": [
+        "Larangan atau bahaya",
+        "Aman atau diperbolehkan",
+        "Peringatan",
+        "Aman atau diperbolehkan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A04",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Pasangkan ikon dalam denah museum dengan ruangan yang ditandainya!",
+      "rows": [
+        "🎭 Ruang Tari",
+        "☕ Kafetaria",
+        "🚻 Toilet",
+        "🛍️ Toko Oleh-oleh"
+      ],
+      "cols": [
+        "Ruang seni pertunjukan",
+        "Ruang santai",
+        "Ruang fasilitas"
+      ],
+      "ans": [
+        "Ruang seni pertunjukan",
+        "Ruang santai",
+        "Ruang fasilitas",
+        "Ruang santai"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A05",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Pasangkan situasi dengan jenis instruksi gambar yang paling tepat digunakan!",
+      "rows": [
+        "Memberi tahu pengunjung di mana toilet",
+        "Menunjukkan tata letak ruang museum",
+        "Menjelaskan data kunjungan wisata daerah",
+        "Panduan langkah memasang tenda"
+      ],
+      "cols": [
+        "Rambu & Simbol",
+        "Peta & Denah",
+        "Infografis"
+      ],
+      "ans": [
+        "Rambu & Simbol",
+        "Peta & Denah",
+        "Infografis",
+        "Infografis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A06",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Pasangkan langkah membaca instruksi gambar dengan pertanyaan yang diajukan!",
+      "rows": [
+        "Tentang apa gambar ini secara keseluruhan?'",
+        "Apa arti simbol-simbol dalam gambar ini?'",
+        "Di mana gambar ini biasanya dipajang dan untuk siapa?'",
+        "Apa warna yang paling dominan?'"
+      ],
+      "cols": [
+        "Langkah 1 — Keseluruhan",
+        "Langkah 2 — Judul & Legenda",
+        "Langkah 4 — Konteks"
+      ],
+      "ans": [
+        "Langkah 1 — Keseluruhan",
+        "Langkah 2 — Judul & Legenda",
+        "Langkah 4 — Konteks",
+        "Langkah 1 — Keseluruhan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A07",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang instruksi gambar dengan nilainya — benar atau salah!",
+      "rows": [
+        "Gambar lebih cepat dipahami daripada tulisan panjang",
+        "Gambar instruksi hanya bisa dipahami orang ahli",
+        "Simbol gambar bersifat universal lintas bahasa",
+        "Tanda panah di peta tidak memiliki arti penting"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A08",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Peta & Denah",
+      "stimulus": "",
+      "q": "Pasangkan komponen denah dengan fungsinya!",
+      "rows": [
+        "Tanda panah arah masuk dan keluar",
+        "Legenda atau keterangan simbol",
+        "Ikon setiap ruangan",
+        "Garis batas antar ruangan"
+      ],
+      "cols": [
+        "Memberikan orientasi arah",
+        "Menjelaskan arti simbol",
+        "Menunjukkan fungsi ruangan"
+      ],
+      "ans": [
+        "Memberikan orientasi arah",
+        "Menjelaskan arti simbol",
+        "Menunjukkan fungsi ruangan",
+        "Memberikan orientasi arah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A09",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Infografis",
+      "stimulus": "",
+      "q": "Pasangkan jenis data dengan cara penyajian terbaik!",
+      "rows": [
+        "Perbedaan bentuk 4 rumah adat sekaligus",
+        "Sejarah dan makna simbolis rumah adat",
+        "Nama dan asal daerah rumah adat",
+        "Langkah cara membuat kerajinan"
+      ],
+      "cols": [
+        "Gambar lebih efektif",
+        "Teks lebih efektif",
+        "Keduanya bisa"
+      ],
+      "ans": [
+        "Gambar lebih efektif",
+        "Teks lebih efektif",
+        "Keduanya bisa",
+        "Gambar lebih efektif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A10",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Pasangkan contoh instruksi gambar dengan tempat biasanya ditemui!",
+      "rows": [
+        "Rambu dilarang berhenti",
+        "Denah lantai gedung pertunjukan",
+        "Infografis pakaian adat Indonesia",
+        "Panduan cara memakai kain batik"
+      ],
+      "cols": [
+        "Di jalan raya",
+        "Di gedung/museum",
+        "Di buku/majalah"
+      ],
+      "ans": [
+        "Di jalan raya",
+        "Di gedung/museum",
+        "Di buku/majalah",
+        "Di buku/majalah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A11",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan langkah membaca instruksi gambar yang sesuai!",
+      "rows": [
+        "Ini adalah peta wisata museum'",
+        "Warna merah pada simbol berarti larangan'",
+        "Denah ini dipajang di pintu masuk untuk membantu pengunjung'",
+        "Judulnya Denah Lantai 1 Museum Budaya'"
+      ],
+      "cols": [
+        "Langkah 1",
+        "Langkah 3",
+        "Langkah 4"
+      ],
+      "ans": [
+        "Langkah 1",
+        "Langkah 3",
+        "Langkah 4",
+        "Langkah 1"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A12",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Instruksi Gambar",
+      "stimulus": "",
+      "q": "Pasangkan jenis instruksi gambar dengan keunggulannya dibanding teks!",
+      "rows": [
+        "Cara melakukan sesuatu lebih mudah diikuti dengan melihat gambar langkah demi langkah",
+        "Posisi lokasi lebih jelas dilihat daripada dibaca",
+        "Dipahami tanpa bahasa, universal di semua negara",
+        "Data perbandingan lebih jelas terlihat dalam grafik"
+      ],
+      "cols": [
+        "Panduan Bergambar",
+        "Peta & Denah",
+        "Rambu & Simbol"
+      ],
+      "ans": [
+        "Panduan Bergambar",
+        "Peta & Denah",
+        "Rambu & Simbol",
+        "Panduan Bergambar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A13",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Cara Membaca",
+      "stimulus": "",
+      "q": "Pasangkan elemen dalam instruksi gambar dengan informasi yang disampaikannya!",
+      "rows": [
+        "Arah atau rute yang disarankan",
+        "Larangan atau bahaya",
+        "Lokasi toilet",
+        "Informasi umum"
+      ],
+      "cols": [
+        "Tanda panah (→)",
+        "Warna merah (🔴)",
+        "Ikon (🚻)"
+      ],
+      "ans": [
+        "Tanda panah (→)",
+        "Warna merah (🔴)",
+        "Ikon (🚻)",
+        "Tanda panah (→)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-A14",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Jenis Instruksi",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan jenis instruksi gambar yang dimaksud!",
+      "rows": [
+        "Menginformasikan larangan atau izin tanpa kata",
+        "Menjelaskan data statistik secara visual",
+        "Menunjukkan langkah-langkah melakukan sesuatu",
+        "Menunjukkan data dalam diagram visual"
+      ],
+      "cols": [
+        "Rambu & Simbol",
+        "Infografis",
+        "Panduan Bergambar"
+      ],
+      "ans": [
+        "Rambu & Simbol",
+        "Infografis",
+        "Panduan Bergambar",
+        "Infografis"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B01",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Pasangkan jenis informasi dengan sumber terbaik untuk mendapatkannya!",
+      "rows": [
+        "Makna dan sejarah suatu budaya",
+        "Tampilan fisik dan bentuk suatu benda",
+        "Nama dan asal daerah suatu hal",
+        "Penjelasan alasan mengapa sesuatu dibuat demikian"
+      ],
+      "cols": [
+        "Lebih dari teks",
+        "Lebih dari gambar",
+        "Bisa dari keduanya"
+      ],
+      "ans": [
+        "Lebih dari teks",
+        "Lebih dari gambar",
+        "Bisa dari keduanya",
+        "Lebih dari teks"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B02",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Pasangkan informasi dari bacaan rumah adat dengan sumber yang menyediakannya!",
+      "rows": [
+        "Makna atap Rumah Gadang melambangkan semangat pantang menyerah",
+        "Tampilan visual perbedaan keempat rumah adat",
+        "Nama dan asal daerah setiap rumah adat",
+        "Fungsi Honai agar hangat di pegunungan"
+      ],
+      "cols": [
+        "Hanya dari teks",
+        "Hanya dari gambar",
+        "Dari keduanya"
+      ],
+      "ans": [
+        "Hanya dari teks",
+        "Hanya dari gambar",
+        "Dari keduanya",
+        "Hanya dari teks"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B03",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pasangkan kemungkinan hubungan teks dan gambar dengan contohnya!",
+      "rows": [
+        "Teks dan gambar keduanya menyebut nama rumah adat",
+        "Peta menunjukkan lokasi yang tidak dijelaskan di teks",
+        "Teks menjelaskan makna yang tidak terlihat di gambar",
+        "Teks dan foto keduanya menampilkan kostum tari"
+      ],
+      "cols": [
+        "Informasi sama",
+        "Gambar tambah info",
+        "Teks jelaskan detail"
+      ],
+      "ans": [
+        "Informasi sama",
+        "Gambar tambah info",
+        "Teks jelaskan detail",
+        "Informasi sama"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B04",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Pasangkan informasi dengan sumber yang paling efektif menyampaikannya!",
+      "rows": [
+        "Alasan wayang golek bercerita tentang Mahabharata",
+        "Perbedaan bentuk 4 rumah adat dalam satu tampilan",
+        "Nama dan asal daerah setiap rumah adat",
+        "Kostum dan formasi penari Saman"
+      ],
+      "cols": [
+        "Teks lebih efektif",
+        "Gambar lebih efektif",
+        "Keduanya sama efektif"
+      ],
+      "ans": [
+        "Teks lebih efektif",
+        "Gambar lebih efektif",
+        "Keduanya sama efektif",
+        "Gambar lebih efektif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B05",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan dengan tujuannya saat menggabungkan informasi teks dan gambar!",
+      "rows": [
+        "Informasi apa dari gambar yang tidak ada di teks?'",
+        "Informasi apa dari teks yang tidak terlihat di gambar?'",
+        "Apakah teks dan gambar saling bertentangan?'",
+        "Siapa yang membuat gambar ini?'"
+      ],
+      "cols": [
+        "Mencari info unik gambar",
+        "Mencari info unik teks",
+        "Menghindari kesalahan"
+      ],
+      "ans": [
+        "Mencari info unik gambar",
+        "Mencari info unik teks",
+        "Menghindari kesalahan",
+        "Mencari info unik gambar"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B06",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang informasi teks dengan nilainya — benar atau salah!",
+      "rows": [
+        "Teks sangat baik menjelaskan alasan dan urutan kejadian",
+        "Gambar selalu lebih lengkap daripada teks",
+        "Teks baik untuk menyampaikan data angka dan nama spesifik",
+        "Teks tidak bisa menyampaikan informasi tentang sejarah"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B07",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Pasangkan jenis gambar dengan informasi spesifik yang bisa diperoleh darinya!",
+      "rows": [
+        "Kostum dan gerakan penari",
+        "Posisi museum relatif terhadap tempat lain",
+        "Perbedaan bentuk keempat rumah adat",
+        "Sejarah dan makna tari tersebut"
+      ],
+      "cols": [
+        "Foto penari",
+        "Peta lokasi museum",
+        "Gambar 4 rumah adat"
+      ],
+      "ans": [
+        "Foto penari",
+        "Peta lokasi museum",
+        "Gambar 4 rumah adat",
+        "Foto penari"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B08",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pasangkan cara membaca artikel bergambar dengan nilainya — tepat atau tidak tepat!",
+      "rows": [
+        "Memperhatikan teks dan gambar, lalu menghubungkan keduanya",
+        "Hanya melihat gambar, teks diabaikan",
+        "Bertanya 'Apa yang dipelajari dari teks dan gambar ini?'",
+        "Hanya membaca teks, gambar dianggap hiasan"
+      ],
+      "cols": [
+        "Tepat",
+        "Tidak tepat",
+        "Tepat"
+      ],
+      "ans": [
+        "Tepat",
+        "Tidak tepat",
+        "Tepat",
+        "Tidak tepat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B09",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dari bacaan wayang golek dengan sumber informasinya!",
+      "rows": [
+        "Pertunjukan berlangsung dari pukul 21.00 hingga pagi'",
+        "Tampilan boneka wayang golek yang berwarna-warni",
+        "Nama pertunjukannya: wayang golek",
+        "Diiringi musik gamelan degung yang merdu'"
+      ],
+      "cols": [
+        "Dari teks",
+        "Dari gambar",
+        "Dari keduanya"
+      ],
+      "ans": [
+        "Dari teks",
+        "Dari gambar",
+        "Dari keduanya",
+        "Dari teks"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B10",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Pasangkan keunggulan gambar dengan situasi yang tepat untuk memanfaatkannya!",
+      "rows": [
+        "Menunjukkan tampilan kostum tradisional",
+        "Membandingkan ukuran 4 jenis rumah adat",
+        "Menunjukkan letak museum di kota",
+        "Menjelaskan alasan suatu tari diciptakan"
+      ],
+      "cols": [
+        "Bentuk visual",
+        "Perbandingan",
+        "Posisi/lokasi"
+      ],
+      "ans": [
+        "Bentuk visual",
+        "Perbandingan",
+        "Posisi/lokasi",
+        "Bentuk visual"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B11",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pasangkan informasi dari artikel festival budaya dengan sumbernya!",
+      "rows": [
+        "15.000 pengunjung dalam tiga hari",
+        "Suasana keramaian dan keceriaan pengunjung",
+        "Nama festival: Festival Seni Sunda",
+        "Kegiatan yang ditampilkan: Tari Jaipong, wayang, kerajinan"
+      ],
+      "cols": [
+        "Dari teks",
+        "Dari foto festival",
+        "Dari keduanya"
+      ],
+      "ans": [
+        "Dari teks",
+        "Dari foto festival",
+        "Dari keduanya",
+        "Dari teks"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B12",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Teks",
+      "stimulus": "",
+      "q": "Pasangkan jenis pengetahuan dengan cara paling efektif untuk mendapatkannya!",
+      "rows": [
+        "Memahami makna simbolis atap rumah adat",
+        "Melihat perbedaan bentuk rumah adat sekaligus",
+        "Memahami + melihat pakaian adat",
+        "Mengetahui nama daerah asal setiap tarian"
+      ],
+      "cols": [
+        "Membaca teks",
+        "Melihat gambar",
+        "Keduanya diperlukan"
+      ],
+      "ans": [
+        "Membaca teks",
+        "Melihat gambar",
+        "Keduanya diperlukan",
+        "Membaca teks"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B13",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Informasi Gambar",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang gambar dengan nilainya — benar atau salah!",
+      "rows": [
+        "Gambar sangat baik untuk menunjukkan bentuk dan perbandingan",
+        "Gambar bisa menggantikan teks sepenuhnya",
+        "Gambar menambah informasi yang tidak selalu ada di teks",
+        "Gambar hanya berguna untuk anak kecil yang belum bisa membaca"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-B14",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menggabungkan",
+      "stimulus": "",
+      "q": "Pasangkan manfaat menggabungkan teks dan gambar dengan penjelasannya!",
+      "rows": [
+        "Mendapat informasi dari dua sumber yang saling melengkapi",
+        "Tidak melewatkan info penting yang hanya ada di salah satu sumber",
+        "Memahami bacaan lebih cepat dan menyeluruh",
+        "Tidak perlu membaca buku lain"
+      ],
+      "cols": [
+        "Pemahaman lebih lengkap",
+        "Tidak melewatkan info",
+        "Lebih efisien"
+      ],
+      "ans": [
+        "Pemahaman lebih lengkap",
+        "Tidak melewatkan info",
+        "Lebih efisien",
+        "Pemahaman lebih lengkap"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C01",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pasangkan posisi pendapat dengan contoh kalimatnya!",
+      "rows": [
+        "Saya setuju festival budaya efektif karena...'",
+        "Menurut saya, informasi ini belum lengkap karena...'",
+        "Saya kurang setuju dengan pernyataan bahwa...'",
+        "Saya tidak berpendapat.'"
+      ],
+      "cols": [
+        "Setuju",
+        "Kurang setuju",
+        "Tidak setuju"
+      ],
+      "ans": [
+        "Setuju",
+        "Kurang setuju",
+        "Tidak setuju",
+        "Kurang setuju"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C02",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Pasangkan bagian pendapat dengan urutan langkahnya!",
+      "rows": [
+        "Tentukan posisi: setuju, kurang setuju, atau tidak setuju",
+        "Berikan alasan mengapa berpendapat demikian",
+        "Dukung dengan bukti dari teks yang relevan",
+        "Tulis ulang isi teks seluruhnya"
+      ],
+      "cols": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3"
+      ],
+      "ans": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3",
+        "Langkah 1"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C03",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan dengan posisi pendapat yang tepat!",
+      "rows": [
+        "Festival efektif melestarikan budaya — terbukti 15.000 pengunjung hadir'",
+        "Festival bagus tapi perlu ditambah cara lain seperti memasukkan ke kurikulum'",
+        "Batik tidak hanya dari Jawa karena Kalimantan juga punya tradisi membatik'",
+        "Saya tidak tahu.'"
+      ],
+      "cols": [
+        "Setuju",
+        "Kurang setuju",
+        "Tidak setuju"
+      ],
+      "ans": [
+        "Setuju",
+        "Kurang setuju",
+        "Tidak setuju",
+        "Setuju"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C04",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Pasangkan cara menyebutkan bukti dengan nilainya — tepat atau kurang tepat!",
+      "rows": [
+        "Di paragraf ketiga disebutkan bahwa festival dikunjungi 15.000 orang'",
+        "Saya yakin teks ini benar karena sudah membacanya'",
+        "Teks menyebutkan bahwa daerah terpencil kesulitan mengadakan festival'",
+        "Menurut saya sendiri tanpa dasar teks'"
+      ],
+      "cols": [
+        "Tepat",
+        "Kurang tepat",
+        "Tepat"
+      ],
+      "ans": [
+        "Tepat",
+        "Kurang tepat",
+        "Tepat",
+        "Kurang tepat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C05",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pasangkan komponen rumus pendapat dengan contoh dari teks festival budaya!",
+      "rows": [
+        "Saya setuju festival efektif'",
+        "Melihat langsung lebih berkesan daripada membaca'",
+        "Teks menyebut 15.000 pengunjung dalam tiga hari'",
+        "Festival diadakan setiap tahun'"
+      ],
+      "cols": [
+        "Posisi pendapat",
+        "Alasan",
+        "Bukti dari teks"
+      ],
+      "ans": [
+        "Posisi pendapat",
+        "Alasan",
+        "Bukti dari teks",
+        "Posisi pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C06",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kurang Setuju",
+      "stimulus": "",
+      "q": "Pasangkan elemen pendapat 'kurang setuju' tentang festival budaya dengan nilainya!",
+      "rows": [
+        "Festival memang bagus untuk memperkenalkan budaya'",
+        "Sebaiknya ditambah cara lain seperti memasukkan ke pelajaran'",
+        "Festival itu membosankan dan tidak berguna'",
+        "Perlu solusi untuk daerah terpencil yang tidak bisa buat festival'"
+      ],
+      "cols": [
+        "Pengakuan positif",
+        "Saran tambahan",
+        "Tidak relevan"
+      ],
+      "ans": [
+        "Pengakuan positif",
+        "Saran tambahan",
+        "Tidak relevan",
+        "Pengakuan positif"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C07",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Pasangkan pertanyaan dengan langkah menyampaikan pendapat yang sesuai!",
+      "rows": [
+        "Apakah aku setuju, kurang setuju, atau tidak setuju?'",
+        "Mengapa aku berpendapat demikian?'",
+        "Bagian teks mana yang mendukung pendapatku?'",
+        "Berapa panjang pendapat yang harus aku tulis?'"
+      ],
+      "cols": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3"
+      ],
+      "ans": [
+        "Langkah 1",
+        "Langkah 2",
+        "Langkah 3",
+        "Langkah 1"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C08",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang menyampaikan pendapat teks dengan nilainya — benar atau salah!",
+      "rows": [
+        "Semua posisi diperbolehkan asal ada alasan dan bukti",
+        "Pendapat harus selalu setuju dengan isi teks",
+        "Yang membuat pendapat berkualitas adalah alasan dan buktinya",
+        "Pendapat tidak perlu bukti dari teks"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C09",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Bukti Teks",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan fungsinya dalam rumus pendapat!",
+      "rows": [
+        "Menurut saya, upaya melestarikan wayang sudah tepat'",
+        "Generasi muda perlu mengenal budayanya sendiri'",
+        "Teks menyebut pemerintah mengadakan festival wayang di sekolah'",
+        "Saya suka wayang.'"
+      ],
+      "cols": [
+        "Posisi",
+        "Alasan",
+        "Bukti"
+      ],
+      "ans": [
+        "Posisi",
+        "Alasan",
+        "Bukti",
+        "Posisi"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C10",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Tidak Setuju",
+      "stimulus": "",
+      "q": "Pasangkan kalimat tidak setuju dengan penilaiannya — baik atau kurang baik!",
+      "rows": [
+        "Saya kurang setuju karena Kalimantan juga punya tradisi membatik'",
+        "Saya tidak setuju dengan teks ini.'",
+        "Saya tidak setuju karena informasinya terlalu berpusat pada Jawa saja'",
+        "Teks ini salah.'"
+      ],
+      "cols": [
+        "Baik (ada alasan)",
+        "Kurang baik (tanpa alasan)",
+        "Baik (ada alasan)"
+      ],
+      "ans": [
+        "Baik (ada alasan)",
+        "Kurang baik (tanpa alasan)",
+        "Baik (ada alasan)",
+        "Kurang baik (tanpa alasan)"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C11",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pasangkan kata pembuka pendapat dengan posisi yang diwakilinya!",
+      "rows": [
+        "Saya setuju dengan pendapat Pak Dedi bahwa...'",
+        "Menurut saya, informasi ini belum lengkap karena...'",
+        "Saya kurang setuju dengan pernyataan bahwa...'",
+        "Setelah membaca, saya berpendapat bahwa...'"
+      ],
+      "cols": [
+        "Menyatakan setuju",
+        "Menyatakan kurang setuju",
+        "Menyatakan tidak setuju"
+      ],
+      "ans": [
+        "Menyatakan setuju",
+        "Menyatakan kurang setuju",
+        "Menyatakan tidak setuju",
+        "Menyatakan setuju"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C12",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "3 Langkah",
+      "stimulus": "",
+      "q": "Pasangkan bagian pendapat dari kalimat berikut dengan fungsinya: 'Menurut saya, festival efektif melestarikan budaya karena melihat langsung lebih berkesan. Teks menyebut 15.000 pengunjung hadir.'",
+      "rows": [
+        "festival efektif melestarikan budaya'",
+        "melihat langsung lebih berkesan'",
+        "teks menyebut 15.000 pengunjung hadir'",
+        "Menurut saya'"
+      ],
+      "cols": [
+        "Posisi pendapat",
+        "Alasan",
+        "Bukti dari teks"
+      ],
+      "ans": [
+        "Posisi pendapat",
+        "Alasan",
+        "Bukti dari teks",
+        "Posisi pendapat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-C13",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pendapat Teks",
+      "stimulus": "",
+      "q": "Pasangkan jenis pendapat dengan contoh situasi penggunaannya!",
+      "rows": [
+        "Teks menyebut Tari Saman dari Aceh — kamu tahu itu benar",
+        "Teks hanya sebut tarian dari Jawa, padahal Papua dan Maluku juga punya",
+        "Teks menyebut batik hanya dari Jawa, tapi kamu tahu daerah lain juga batik",
+        "Teks menyebut festival sangat bermanfaat — kamu setuju"
+      ],
+      "cols": [
+        "Setuju",
+        "Kurang setuju",
+        "Tidak setuju"
+      ],
+      "ans": [
+        "Setuju",
+        "Kurang setuju",
+        "Tidak setuju",
+        "Setuju"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D01",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan kata hubung dengan fungsinya!",
+      "rows": [
+        "Selain itu,",
+        "Namun,",
+        "Oleh karena itu,",
+        "Setelah itu,"
+      ],
+      "cols": [
+        "Menambahkan info",
+        "Menunjukkan pertentangan",
+        "Sebab-akibat"
+      ],
+      "ans": [
+        "Menambahkan info",
+        "Menunjukkan pertentangan",
+        "Sebab-akibat",
+        "Menambahkan info"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D02",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan kata hubung dengan kelompok fungsinya!",
+      "rows": [
+        "Kemudian,",
+        "Misalnya,",
+        "Akan tetapi,",
+        "Setelah itu,"
+      ],
+      "cols": [
+        "Urutan waktu",
+        "Contoh & penjelasan",
+        "Pertentangan"
+      ],
+      "ans": [
+        "Urutan waktu",
+        "Contoh & penjelasan",
+        "Pertentangan",
+        "Urutan waktu"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D03",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kata hubung sebab-akibat yang tepat!",
+      "rows": [
+        "Bahasa daerah ditinggalkan. ___, perlu upaya pelestarian.'",
+        "Penonton wayang semakin sedikit. ___, seniman berusaha berinovasi.'",
+        "Festival sukses. ___, tradisi lebih dikenal masyarakat.'",
+        "Kain dilukis. ___, kain dicelup ke pewarna.'"
+      ],
+      "cols": [
+        "Oleh karena itu,",
+        "Akibatnya,",
+        "Dengan demikian,"
+      ],
+      "ans": [
+        "Oleh karena itu,",
+        "Akibatnya,",
+        "Dengan demikian,",
+        "Oleh karena itu,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D04",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kata hubung pertentangan yang tepat!",
+      "rows": [
+        "Tari Saman terkenal di dunia. ___, banyak remaja Aceh tidak bisa menarikannya.'",
+        "Wayang populer di masa lalu. ___, kini anak muda lebih suka hiburan digital.'",
+        "Festival besar menguntungkan kota besar. ___, daerah terpencil justru tidak bisa ikut.'",
+        "Batik cantik. ___, batik juga mahal.'"
+      ],
+      "cols": [
+        "Namun,",
+        "Akan tetapi,",
+        "Sebaliknya,"
+      ],
+      "ans": [
+        "Namun,",
+        "Akan tetapi,",
+        "Sebaliknya,",
+        "Namun,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D05",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Urutan Waktu",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kata hubung urutan waktu yang tepat!",
+      "rows": [
+        "Kain dilukis dengan canting. ___, kain dicelupkan ke pewarna.'",
+        "Penari berlatih sebulan. ___, mereka tampil di festival.'",
+        "Tim berlatih keras. ___, mereka berhasil memenangkan lomba.'",
+        "Kain dicuci bersih. ___, kain dijemur hingga kering.'"
+      ],
+      "cols": [
+        "Setelah itu,",
+        "Kemudian,",
+        "Akhirnya,"
+      ],
+      "ans": [
+        "Setelah itu,",
+        "Kemudian,",
+        "Akhirnya,",
+        "Setelah itu,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D06",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Menambahkan",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kata hubung penambahan yang tepat!",
+      "rows": [
+        "Batik butuh waktu lama. ___, bahannya sangat mahal.'",
+        "Festival memperkenalkan tradisi. ___, festival mendatangkan manfaat ekonomi.'",
+        "Wayang golek menghibur. ___, wayang menyampaikan pesan moral.'",
+        "Tari Saman terkenal. ___, banyak yang tidak bisa.'"
+      ],
+      "cols": [
+        "Selain itu,",
+        "Di samping itu,",
+        "Lebih lagi,"
+      ],
+      "ans": [
+        "Selain itu,",
+        "Di samping itu,",
+        "Lebih lagi,",
+        "Selain itu,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D07",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Contoh & Penjelasan",
+      "stimulus": "",
+      "q": "Pasangkan kalimat dengan kata hubung contoh/penjelasan yang tepat!",
+      "rows": [
+        "Indonesia punya ratusan tarian. ___, Tari Jaipong dari Jawa Barat.'",
+        "Banyak cara melestarikan budaya. ___, mengajarkan tari di sekolah.'",
+        "Festival membawa manfaat ekonomi. ___, pedagang khas mendapat banyak pembeli.'",
+        "Batik memiliki banyak motif. ___, motif kawung dan parang.'"
+      ],
+      "cols": [
+        "Misalnya,",
+        "Contohnya,",
+        "Sebagai contoh,"
+      ],
+      "ans": [
+        "Misalnya,",
+        "Contohnya,",
+        "Sebagai contoh,",
+        "Misalnya,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D08",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan kata hubung dengan contoh kalimat yang menggunakannya dengan TEPAT!",
+      "rows": [
+        "Batik cantik. Selain itu, batik juga nyaman dipakai.'",
+        "Tari terkenal. Namun, banyak yang tidak bisa.'",
+        "Budaya dilupakan. Oleh karena itu, kita harus melestarikannya.'",
+        "Kain dicuci. Setelah itu, kain dijemur.'"
+      ],
+      "cols": [
+        "Selain itu,",
+        "Namun,",
+        "Oleh karena itu,"
+      ],
+      "ans": [
+        "Selain itu,",
+        "Namun,",
+        "Oleh karena itu,",
+        "Selain itu,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D09",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan pernyataan tentang kata hubung dengan nilainya — benar atau salah!",
+      "rows": [
+        "Kata hubung antarkalimat diletakkan di awal kalimat diikuti koma",
+        "Kata hubung antarkalimat dan dalam kalimat bisa digunakan saling berganti",
+        "Kata hubung membuat tulisan lebih runtut dan mudah dipahami",
+        "Tidak perlu kata hubung jika kalimatnya sudah panjang"
+      ],
+      "cols": [
+        "Benar",
+        "Salah",
+        "Benar"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D10",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan teks tanpa kata hubung dengan kata hubung yang memperbaikinya!",
+      "rows": [
+        "Indonesia kaya budaya. [...], banyak yang mulai ditinggalkan.'",
+        "Budaya ditinggalkan. [...], perlu upaya pelestarian.'",
+        "Kain dilukis canting. [...], kain dicelup pewarna.'",
+        "Indonesia punya tari. [...], Jaipong dari Jawa Barat.'"
+      ],
+      "cols": [
+        "Kata hubung pertentangan",
+        "Kata hubung sebab-akibat",
+        "Kata hubung urutan waktu"
+      ],
+      "ans": [
+        "Kata hubung pertentangan",
+        "Kata hubung sebab-akibat",
+        "Kata hubung urutan waktu",
+        "Kata hubung pertentangan"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D11",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan nama fungsi kata hubung dengan contoh kata hubungnya!",
+      "rows": [
+        "Selain itu / Di samping itu",
+        "Oleh karena itu / Akibatnya",
+        "Kemudian / Setelah itu",
+        "Namun / Akan tetapi"
+      ],
+      "cols": [
+        "Menambahkan info",
+        "Sebab-akibat",
+        "Urutan waktu"
+      ],
+      "ans": [
+        "Menambahkan info",
+        "Sebab-akibat",
+        "Urutan waktu",
+        "Menambahkan info"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D12",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Pertentangan",
+      "stimulus": "",
+      "q": "Pasangkan penggunaan kata hubung dengan penilaiannya — tepat atau tidak tepat!",
+      "rows": [
+        "Tari Saman terkenal. Namun, banyak remaja tidak bisa menarikannya.'",
+        "Batik cantik. Namun, batik juga cantik.'",
+        "Festival diadakan. Akan tetapi, banyak daerah terpencil tidak bisa ikut.'",
+        "Kain dilukis. Namun, kain dicelupkan ke pewarna.'"
+      ],
+      "cols": [
+        "Tepat",
+        "Tidak tepat",
+        "Tepat"
+      ],
+      "ans": [
+        "Tepat",
+        "Tidak tepat",
+        "Tepat",
+        "Tidak tepat"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D13",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Sebab Akibat",
+      "stimulus": "",
+      "q": "Pasangkan kata hubung sebab-akibat dengan kalimat yang menggunakannya dengan tepat!",
+      "rows": [
+        "Generasi muda tidak kenal budaya. Oleh karena itu, festival penting diadakan.'",
+        "Penonton berkurang. Akibatnya, pendapatan seniman menurun.'",
+        "Festival berhasil. Dengan demikian, tradisi semakin dikenal.'",
+        "Kain dicuci. Oleh karena itu, kain dicelup.'"
+      ],
+      "cols": [
+        "Oleh karena itu,",
+        "Akibatnya,",
+        "Dengan demikian,"
+      ],
+      "ans": [
+        "Oleh karena itu,",
+        "Akibatnya,",
+        "Dengan demikian,",
+        "Oleh karena itu,"
+      ],
+      "pembahasan": ""
+    },
+    {
+      "id": "KAT-D14",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2.0,
+      "topik": "Kata Hubung",
+      "stimulus": "",
+      "q": "Pasangkan kutipan dari teks wayang golek dengan kata hubung yang digunakan dan fungsinya!",
+      "rows": [
+        "Selain itu, pertunjukan diiringi gamelan degung'",
+        "Namun, dalang menambahkan humor agar tidak bosan'",
+        "Oleh karena itu, seniman berusaha menghidupkan kembali wayang'",
+        "Akibatnya, jumlah penonton semakin sedikit'"
+      ],
+      "cols": [
+        "Menambahkan info",
+        "Pertentangan",
+        "Sebab-akibat"
+      ],
+      "ans": [
+        "Menambahkan info",
+        "Pertentangan",
+        "Sebab-akibat",
+        "Sebab-akibat"
+      ],
+      "pembahasan": ""
+    }
+  ]
+}
