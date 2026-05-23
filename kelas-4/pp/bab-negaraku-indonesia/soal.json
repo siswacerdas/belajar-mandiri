@@ -4,7 +4,10 @@
   "bab": "Bab 2 — Negaraku Indonesia",
   "soal": [
     {
-      "id": "pp2_001", "sub_materi": "A", "type": "pg", "score": 5,
+      "id": "pp2_001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 5,
       "topik": "Makna Negara Kesatuan",
       "stimulus": "",
       "q": "Apa yang dimaksud dengan kata 'Kesatuan' dalam Negara Kesatuan Republik Indonesia?",
@@ -18,7 +21,10 @@
       "pembahasan": "'Kesatuan' berarti seluruh wilayah Indonesia — dari Sabang sampai Merauke — merupakan satu kesatuan utuh yang tidak terpisahkan. Berbeda dengan negara federal yang terdiri dari negara-negara bagian (B). Bukan tentang satu presiden berkuasa penuh (A) atau satu suku bangsa (D)."
     },
     {
-      "id": "pp2_002", "sub_materi": "A", "type": "pg", "score": 5,
+      "id": "pp2_002",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 5,
       "topik": "Pancasila dalam Kehidupan Sehari-hari",
       "stimulus": "Lambang negara Garuda Pancasila memuat perisai dengan simbol kelima sila. Kepala banteng melambangkan sila ke-4: Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan. Dua teman yang berselisih kemudian sepakat duduk bersama dan mencari jalan keluar secara berdiskusi.",
       "q": "Nilai Pancasila sila keberapa yang paling kuat tercermin dari cara mereka menyelesaikan masalah tersebut?",
@@ -32,7 +38,10 @@
       "pembahasan": "Musyawarah untuk mencapai mufakat adalah inti sila ke-4. Meski berdiskusi juga berkaitan dengan persatuan (sila ke-3) dan keadilan (sila ke-5), cara menyelesaikan masalah melalui musyawarah paling langsung mencerminkan sila ke-4."
     },
     {
-      "id": "pp2_003", "sub_materi": "A", "type": "pgk", "score": 10,
+      "id": "pp2_003",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 10,
       "topik": "Fakta tentang Indonesia",
       "stimulus": "",
       "q": "Manakah pernyataan-pernyataan di bawah ini yang benar tentang Indonesia sebagai bangsa dan negara?\n\nPilih SEMUA jawaban yang benar.",
@@ -44,11 +53,19 @@
         "Garuda Pancasila adalah lambang negara yang mencerminkan dasar dan identitas bangsa",
         "Indonesia hanya mengakui satu agama resmi yang diakui oleh negara"
       ],
-      "ans": ["A","B","D","E"],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
       "pembahasan": "C salah: Indonesia memiliki ratusan bahasa daerah yang berbeda-beda. F salah: Indonesia mengakui enam agama resmi. Keberagaman bahasa dan agama adalah ciri khas Indonesia, bukan keseragamannya."
     },
     {
-      "id": "pp2_004", "sub_materi": "B", "type": "pgk", "score": 10,
+      "id": "pp2_004",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 10,
       "topik": "Empat Pilar Kebangsaan",
       "stimulus": "",
       "q": "Empat Pilar Kebangsaan adalah fondasi utama yang menjaga keutuhan NKRI.\n\nManakah yang termasuk bagian dari Empat Pilar Kebangsaan Indonesia?\n\nPilih SEMUA jawaban yang benar.",
@@ -60,11 +77,19 @@
         "Negara Kesatuan Republik Indonesia (NKRI) sebagai bentuk negara",
         "Sumpah Pemuda 1928 sebagai ikrar pemersatu pemuda Indonesia"
       ],
-      "ans": ["A","C","D","E"],
+      "ans": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
       "pembahasan": "Empat Pilar Kebangsaan adalah: Pancasila, UUD 1945, NKRI, dan Bhinneka Tunggal Ika. Bahasa Indonesia (B) dan Sumpah Pemuda (F) adalah faktor penting perekat bangsa, tetapi tidak termasuk dalam Empat Pilar Kebangsaan secara resmi."
     },
     {
-      "id": "pp2_005", "sub_materi": "B", "type": "pg", "score": 5,
+      "id": "pp2_005",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 5,
       "topik": "Makna Sumpah Pemuda",
       "stimulus": "Pada tahun 1928, para pemuda dari berbagai daerah berkumpul di Jakarta. Mereka berasal dari Jawa, Sumatra, Kalimantan, Sulawesi, dan daerah lainnya. Meskipun berbeda suku, bahasa daerah, dan adat istiadat, mereka bersatu mengucapkan ikrar: bertumpah darah satu, berbangsa satu, dan menjunjung bahasa persatuan — Indonesia. Ikrar ini dikenal sebagai Sumpah Pemuda.",
       "q": "Apa yang paling tepat menggambarkan makna penting Sumpah Pemuda bagi kita hari ini?",
@@ -78,7 +103,10 @@
       "pembahasan": "Sumpah Pemuda menunjukkan bahwa meski sangat berbeda-beda, para pemuda bisa bersatu demi Indonesia. Maknanya hari ini: perbedaan tidak harus memecah belah. Bukan tentang kepintaran generasi (A), bukan perintah melupakan budaya daerah (C), dan persatuan bukan hanya tanggung jawab pemuda (D)."
     },
     {
-      "id": "pp2_006", "sub_materi": "B", "type": "pgk-cat", "score": 10,
+      "id": "pp2_006",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 10,
       "topik": "Menjaga dan Melemahkan NKRI",
       "stimulus": "",
       "q": "Bacalah setiap pernyataan berikut dengan cermat.\nKategorikan ke dalam kolom yang tepat:\n• Memperkuat NKRI: tindakan yang menjaga persatuan dan keutuhan bangsa\n• Melemahkan NKRI: tindakan yang mengancam atau merusak persatuan bangsa",
@@ -90,12 +118,25 @@
         "Pemerintah membangun jalan dan jembatan di daerah terpencil agar semua wilayah terhubung",
         "Seseorang mengajak teman-temannya tidak mempercayai warga yang berbeda agama"
       ],
-      "cols": ["Memperkuat NKRI", "Melemahkan NKRI"],
-      "ans": ["Memperkuat NKRI","Melemahkan NKRI","Memperkuat NKRI","Melemahkan NKRI","Memperkuat NKRI","Melemahkan NKRI"],
+      "cols": [
+        "Memperkuat NKRI",
+        "Melemahkan NKRI"
+      ],
+      "ans": [
+        "Memperkuat NKRI",
+        "Melemahkan NKRI",
+        "Memperkuat NKRI",
+        "Melemahkan NKRI",
+        "Memperkuat NKRI",
+        "Melemahkan NKRI"
+      ],
       "pembahasan": "Sikap 1, 3, 5 mendukung persatuan dan kesetaraan antarwarga. Sikap 2 (diskriminasi suku), 4 (menyebar berita bohong pemecah belah), dan 6 (menghasut ketidakpercayaan antaragama) melemahkan NKRI karena menciptakan perpecahan."
     },
     {
-      "id": "pp2_007", "sub_materi": "C", "type": "pg", "score": 5,
+      "id": "pp2_007",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 5,
       "topik": "Mengapa Keutuhan NKRI Penting",
       "stimulus": "Bayangkan sebuah keluarga besar yang tinggal di satu rumah besar. Masing-masing anggota punya kamar sendiri dan kebiasaan berbeda-beda. Namun, mereka berbagi dapur, ruang tamu, dan halaman. Ketika atap bocor, seluruh penghuni terdampak — baik yang kamarnya terkena maupun tidak. Ketika salah satu anggota berprestasi, seluruh keluarga ikut bangga.",
       "q": "Apa hubungan antara perumpamaan keluarga besar tersebut dengan kondisi NKRI?",
@@ -109,7 +150,10 @@
       "pembahasan": "Perumpamaan rumah besar menggambarkan Indonesia sebagai satu kesatuan: masalah di satu daerah berdampak ke daerah lain, dan keberhasilan satu daerah menjadi kebanggaan semua. Inilah inti mengapa keutuhan NKRI penting bagi seluruh rakyat."
     },
     {
-      "id": "pp2_008", "sub_materi": "D", "type": "pg", "score": 5,
+      "id": "pp2_008",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 5,
       "topik": "Sikap Menjaga Keutuhan NKRI",
       "stimulus": "Galuh dan Nia membaca sebuah unggahan di media sosial yang berisi pernyataan merendahkan salah satu suku di Indonesia. Galuh berkata, 'Kita bagikan saja, biar orang-orang tahu.' Nia menjawab, 'Tunggu dulu — kita harus periksa kebenarannya. Menyebarkan konten seperti ini bisa memecah belah masyarakat.'",
       "q": "Mengapa sikap Nia lebih mencerminkan perilaku menjaga keutuhan NKRI dibandingkan sikap Galuh?",
@@ -123,7 +167,10 @@
       "pembahasan": "Nia mencerminkan sikap bijak: tidak langsung menyebarkan konten yang merendahkan suku tertentu karena berpotensi memecah belah. Ini tindakan nyata menjaga keutuhan NKRI. Bukan karena Nia tidak suka berita (A), bukan karena Galuh berniat jahat (C — tidak ada informasi itu), dan bukan soal kewajiban pemerintah (D)."
     },
     {
-      "id": "pp2_009", "sub_materi": "E", "type": "pgk", "score": 10,
+      "id": "pp2_009",
+      "sub_materi": "E",
+      "type": "pgk",
+      "score": 10,
       "topik": "Manfaat Keutuhan NKRI",
       "stimulus": "",
       "q": "Apa saja manfaat yang dirasakan rakyat Indonesia ketika NKRI tetap utuh dan bersatu?\n\nPilih SEMUA jawaban yang benar.",
@@ -135,11 +182,19 @@
         "Indonesia diakui dan dihormati sebagai bangsa yang bersatu oleh negara-negara lain",
         "Semua warga negara otomatis menjadi kaya karena kekayaan alam dibagi sama rata"
       ],
-      "ans": ["A","B","D","E"],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
       "pembahasan": "C salah: keutuhan NKRI tidak menghilangkan keberagaman — justru keberagaman itu yang dirayakan dalam persatuan. F salah: keutuhan bukan berarti kekayaan dibagi rata secara otomatis, melainkan dikelola untuk kepentingan seluruh rakyat (D)."
     },
     {
-      "id": "pp2_010", "sub_materi": "E", "type": "pg", "score": 5,
+      "id": "pp2_010",
+      "sub_materi": "E",
+      "type": "pg",
+      "score": 5,
       "topik": "Bangga sebagai Bangsa Indonesia",
       "stimulus": "Aldo sangat mengagumi budaya dan produk dari negara lain. Ia merasa budaya luar lebih keren dari budaya Indonesia. Gurunya menantang Aldo mencari satu hal dari Indonesia yang membuatnya bangga. Setelah mencari tahu, Aldo terkejut mengetahui bahwa batik Indonesia telah diakui UNESCO sebagai warisan budaya dunia, dan gamelan Jawa baru-baru ini mendapat pengakuan serupa.",
       "q": "Sikap bangga sebagai bangsa Indonesia yang sehat ditunjukkan oleh perilaku berikut ini, KECUALI…",
@@ -151,6 +206,818 @@
       ],
       "ans": "C",
       "pembahasan": "Rasa bangga yang sehat bukan berarti merendahkan budaya atau produk negara lain. Bersikap bahwa semua milik asing pasti lebih buruk (C) adalah chauvinisme yang berlebihan dan tidak sehat. Bangga sebagai bangsa Indonesia berarti menghargai dan melestarikan budaya sendiri (A, B, D) tanpa merendahkan yang lain."
+    },
+    {
+      "id": "pp2_011",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Negara Kesatuan vs Federal",
+      "stimulus": "Pak Guru menjelaskan perbedaan dua bentuk negara. Negara federal terdiri dari beberapa negara bagian yang masing-masing memiliki konstitusi dan pemerintahan sendiri yang berdiri sendiri, seperti Amerika Serikat dengan 50 negara bagian. Negara kesatuan memiliki satu pemerintahan pusat yang berdaulat penuh atas seluruh wilayahnya, meskipun daerah-daerahnya tetap dapat memiliki kewenangan tertentu melalui otonomi.",
+      "q": "Berdasarkan penjelasan Pak Guru, apa yang paling tepat membedakan negara kesatuan seperti Indonesia dari negara federal seperti Amerika Serikat?",
+      "opt": [
+        "Di negara kesatuan, setiap daerah memiliki konstitusi sendiri dan dapat menetapkan hukumnya sendiri secara mandiri",
+        "Di negara kesatuan, kedaulatan berada pada satu pemerintahan pusat, bukan pada negara-negara bagian yang terpisah",
+        "Di negara kesatuan, seluruh warganya menggunakan satu bahasa resmi yang sama dan dilarang menggunakan bahasa daerah",
+        "Di negara kesatuan, semua daerah memiliki kewenangan yang persis sama dan tidak ada otonomi daerah sama sekali"
+      ],
+      "ans": "B",
+      "pembahasan": "Perbedaan utama: di negara kesatuan, kedaulatan terpusat pada satu pemerintahan pusat. Di negara federal, negara-negara bagian memiliki kedaulatan parsial dengan konstitusi sendiri. Opsi A mendeskripsikan negara federal. Opsi C dan D tidak benar karena Indonesia memiliki banyak bahasa daerah dan menerapkan otonomi daerah."
+    },
+    {
+      "id": "pp2_012",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Lambang Garuda Pancasila",
+      "stimulus": "Garuda Pancasila adalah lambang negara Indonesia. Pada dadanya terdapat perisai berisi lima simbol sila Pancasila. Jumlah bulu Garuda memiliki makna: 17 bulu pada sayap, 8 bulu pada ekor, 19 bulu di bawah perisai, dan 45 bulu di leher — melambangkan tanggal kemerdekaan Indonesia 17 Agustus 1945. Di cakarnya, Garuda mencengkeram pita bertuliskan 'Bhinneka Tunggal Ika'.",
+      "q": "Apa makna dari tulisan 'Bhinneka Tunggal Ika' yang tercengkeram Garuda Pancasila?",
+      "opt": [
+        "Indonesia adalah negara yang kuat dan tidak dapat dikalahkan oleh kekuatan apapun dari luar",
+        "Meskipun berbeda-beda dalam suku, budaya, dan agama, bangsa Indonesia tetap satu",
+        "Seluruh warga Indonesia harus menggunakan satu bahasa dan satu kebudayaan yang sama",
+        "Indonesia adalah negara yang terdiri dari banyak pulau yang membentang dari barat ke timur"
+      ],
+      "ans": "B",
+      "pembahasan": "'Bhinneka Tunggal Ika' berasal dari bahasa Jawa Kuno yang berarti 'Berbeda-beda tetapi tetap satu'. Semboyan ini mencerminkan prinsip persatuan dalam keberagaman. Opsi A, C, D tidak mendeskripsikan makna Bhinneka Tunggal Ika yang sesungguhnya."
+    },
+    {
+      "id": "pp2_013",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Keberagaman Indonesia",
+      "stimulus": "Indonesia tercatat sebagai negara dengan keberagaman yang luar biasa. Di dalamnya terdapat lebih dari 1.300 suku bangsa dengan bahasa dan budaya yang berbeda-beda. Mulai dari Sabang di ujung barat hingga Merauke di ujung timur, terbentang lebih dari 17.000 pulau. Di negara ini, enam agama diakui secara resmi dan ratusan bahasa daerah masih digunakan dalam kehidupan sehari-hari.",
+      "q": "Berdasarkan fakta-fakta di atas, apa yang paling tepat menggambarkan kondisi keberagaman Indonesia?",
+      "opt": [
+        "Indonesia memiliki keberagaman yang terbatas karena hanya enam agama resmi dan satu bahasa nasional",
+        "Indonesia adalah salah satu negara dengan tingkat keberagaman suku, budaya, bahasa, dan agama tertinggi di dunia",
+        "Indonesia tidak mungkin bersatu karena perbedaan suku dan agamanya terlalu besar untuk dijembatani",
+        "Indonesia semakin kehilangan keberagamannya karena modernisasi membuat semua daerah menjadi seragam"
+      ],
+      "ans": "B",
+      "pembahasan": "Data dalam stimulus secara jelas menunjukkan bahwa Indonesia memiliki keberagaman yang luar biasa besar — 1.300+ suku, 17.000+ pulau, 6 agama, ratusan bahasa daerah. Opsi A mengecilkan keberagaman itu. Opsi C dan D tidak didukung fakta dalam stimulus."
+    },
+    {
+      "id": "pp2_014",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Pancasila sebagai Dasar Negara",
+      "stimulus": "Setelah proklamasi kemerdekaan, para pendiri bangsa menghadapi tantangan besar: bagaimana menyatukan ratusan suku, puluhan agama, dan ribuan pulau menjadi satu bangsa. Mereka memilih Pancasila sebagai dasar negara — bukan salah satu agama, bukan satu suku atau budaya, melainkan lima nilai yang dapat diterima oleh seluruh rakyat Indonesia dari Sabang sampai Merauke.",
+      "q": "Mengapa para pendiri bangsa memilih Pancasila sebagai dasar negara, bukan salah satu agama atau budaya daerah?",
+      "opt": [
+        "Karena pada saat itu tidak ada agama yang cukup kuat untuk dijadikan dasar negara yang resmi",
+        "Karena Pancasila merupakan nilai-nilai yang dapat diterima dan menyatukan seluruh keberagaman bangsa",
+        "Karena para pendiri bangsa tidak menganut agama sehingga tidak memilih agama sebagai dasar negara",
+        "Karena Pancasila adalah ideologi yang diadaptasi dari negara-negara maju di Eropa dan Amerika"
+      ],
+      "ans": "B",
+      "pembahasan": "Para pendiri bangsa memilih Pancasila karena lima nilainya bersifat inklusif — dapat diterima oleh semua suku, agama, dan golongan. Menggunakan satu agama atau budaya daerah tertentu akan mengecualikan kelompok lain. Opsi A, C, D tidak sesuai fakta sejarah."
+    },
+    {
+      "id": "pp2_015",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Karakteristik NKRI",
+      "stimulus": "",
+      "q": "Manakah pernyataan-pernyataan berikut yang benar tentang karakteristik Negara Kesatuan Republik Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Indonesia memiliki satu pemerintahan pusat yang berdaulat atas seluruh wilayah negara",
+        "Indonesia mengakui dan melindungi keberagaman suku, agama, ras, dan budaya warganya",
+        "Indonesia menerapkan sistem kerajaan karena dipimpin oleh raja atau sultan yang berkuasa penuh",
+        "Indonesia mengakui bahasa Indonesia sebagai bahasa persatuan di antara ratusan bahasa daerah",
+        "Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: Indonesia adalah republik yang dipimpin Presiden sebagai kepala negara dan pemerintahan, bukan kerajaan. Semua pernyataan lain (A, B, D, E) adalah karakteristik yang benar tentang NKRI."
+    },
+    {
+      "id": "pp2_016",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Simbol dan Identitas Negara",
+      "stimulus": "",
+      "q": "Manakah yang termasuk simbol atau identitas resmi Negara Kesatuan Republik Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bendera Merah Putih sebagai lambang kedaulatan dan kemerdekaan bangsa",
+        "Bahasa Indonesia sebagai bahasa resmi dan pemersatu seluruh rakyat",
+        "Garuda Pancasila sebagai lambang negara dengan semboyan Bhinneka Tunggal Ika",
+        "Batik sebagai satu-satunya pakaian resmi yang harus dipakai seluruh warga negara",
+        "Lagu kebangsaan Indonesia Raya yang dinyanyikan pada upacara resmi kenegaraan"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "pembahasan": "D salah: batik adalah warisan budaya yang diakui UNESCO, tetapi bukan satu-satunya pakaian resmi wajib. Bendera (A), bahasa resmi (B), lambang negara (C), dan lagu kebangsaan (E) adalah simbol/identitas resmi NKRI."
+    },
+    {
+      "id": "pp2_017",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Identitas Nasional vs Identitas Daerah",
+      "stimulus": "",
+      "q": "Kategorikan setiap item berikut ke dalam kolom yang tepat:\n• Identitas Nasional: berlaku untuk seluruh warga Indonesia tanpa terkecuali\n• Identitas Daerah: hanya berlaku atau berasal dari daerah tertentu",
+      "rows": [
+        "Bahasa Indonesia sebagai bahasa yang digunakan dalam administrasi pemerintahan nasional",
+        "Tari Kecak yang berasal dari pulau Bali dan menjadi kesenian khas daerah tersebut",
+        "Bendera Merah Putih yang dikibarkan pada upacara resmi di seluruh wilayah Indonesia",
+        "Bahasa Jawa yang digunakan dalam percakapan sehari-hari masyarakat di Pulau Jawa",
+        "Lagu Indonesia Raya yang dinyanyikan pada upacara bendera di seluruh Indonesia"
+      ],
+      "cols": [
+        "Identitas Nasional",
+        "Identitas Daerah"
+      ],
+      "ans": [
+        "Identitas Nasional",
+        "Identitas Daerah",
+        "Identitas Nasional",
+        "Identitas Daerah",
+        "Identitas Nasional"
+      ],
+      "pembahasan": "Bahasa Indonesia (1), Bendera Merah Putih (3), dan Indonesia Raya (5) adalah identitas nasional yang berlaku untuk seluruh Indonesia. Tari Kecak (2) dan Bahasa Jawa (4) adalah identitas daerah yang berasal dari dan berlaku di daerah tertentu."
+    },
+    {
+      "id": "pp2_018",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Benar atau Salah tentang NKRI",
+      "stimulus": "",
+      "q": "Kategorikan setiap pernyataan tentang NKRI berikut ke dalam kolom yang tepat:\n• Benar: sesuai fakta tentang NKRI\n• Salah: tidak sesuai fakta tentang NKRI",
+      "rows": [
+        "Indonesia adalah negara kesatuan yang berbentuk republik dengan presiden sebagai kepala negara",
+        "Indonesia hanya terdiri dari satu suku bangsa yaitu suku Jawa yang menguasai seluruh wilayah",
+        "Pancasila adalah dasar dan falsafah negara Indonesia yang disahkan sejak kemerdekaan",
+        "Seluruh warga Indonesia diwajibkan memeluk satu agama resmi yang sama tanpa terkecuali"
+      ],
+      "cols": [
+        "Benar",
+        "Salah"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": "Pernyataan 1 (republik dengan presiden) dan 3 (Pancasila sebagai dasar negara) adalah fakta yang benar. Pernyataan 2 salah — Indonesia memiliki lebih dari 1.300 suku bangsa. Pernyataan 4 salah — Indonesia mengakui 6 agama dan warga bebas memeluk agamanya."
+    },
+    {
+      "id": "pp2_019",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Makna Bhinneka Tunggal Ika",
+      "stimulus": "Di sebuah perlombaan antarkelas, tim kelas 4A terdiri dari siswa-siswa yang berasal dari berbagai suku: Jawa, Batak, Sunda, Dayak, dan Ambon. Awalnya mereka khawatir akan sulit berkomunikasi. Namun ternyata mereka justru saling melengkapi — strategi yang bagus dari satu siswa dilengkapi keterampilan siswa lain. Tim mereka menang dan guru mengucapkan, 'Inilah Bhinneka Tunggal Ika dalam praktik!'",
+      "q": "Mengapa guru menyebut keberhasilan tim kelas 4A sebagai contoh Bhinneka Tunggal Ika?",
+      "opt": [
+        "Karena semua anggota tim sudah melupakan asal-usul suku mereka dan bersikap seperti satu suku",
+        "Karena perbedaan latar belakang suku mereka justru menjadi kekuatan yang menyatu untuk meraih tujuan bersama",
+        "Karena kemenangan tim terbukti bahwa satu suku lebih unggul dari suku-suku lain dalam perlombaan",
+        "Karena guru ingin mengajarkan bahwa siswa dari suku berbeda tidak bisa bekerja sama dengan efektif"
+      ],
+      "ans": "B",
+      "pembahasan": "Bhinneka Tunggal Ika bermakna 'berbeda-beda tetapi tetap satu'. Tim 4A menunjukkannya: perbedaan suku bukan penghalang, justru menjadi kekuatan yang saling melengkapi untuk meraih tujuan bersama. Bukan tentang melupakan asal-usul (A), bukan tentang superioritas satu suku (C), dan guru tidak bermaksud menunjukkan ketidakmampuan (D)."
+    },
+    {
+      "id": "pp2_020",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Pancasila sebagai Pemersatu",
+      "stimulus": "Saat kunjungan ke museum, Anisa melihat pameran tentang masa-masa awal kemerdekaan Indonesia. Salah satu panel menjelaskan: 'Para pendiri bangsa berasal dari berbagai latar belakang agama, suku, dan daerah. Namun mereka semua sepakat pada satu hal: Indonesia membutuhkan dasar negara yang dapat diterima oleh semua pihak. Itulah mengapa Pancasila dipilih — ia bukan milik satu golongan, melainkan milik seluruh bangsa.'",
+      "q": "Berdasarkan panel pameran tersebut, mengapa Pancasila disebut sebagai pemersatu bangsa Indonesia?",
+      "opt": [
+        "Karena Pancasila ditulis oleh satu tokoh tunggal yang paling dihormati oleh seluruh bangsa Indonesia",
+        "Karena Pancasila mengandung nilai-nilai yang dapat diterima oleh semua golongan dan tidak memihak satu kelompok",
+        "Karena Pancasila melarang perbedaan pendapat sehingga semua warga harus berpikir dan bertindak sama",
+        "Karena Pancasila hanya dapat dipahami oleh orang-orang terpelajar yang sudah mempelajarinya dengan mendalam"
+      ],
+      "ans": "B",
+      "pembahasan": "Pancasila menjadi pemersatu karena nilainya bersifat inklusif dan tidak memihak satu golongan. Panel pameran menegaskan: 'bukan milik satu golongan, melainkan milik seluruh bangsa.' Opsi A, C, D tidak sesuai dengan informasi dalam stimulus."
+    },
+    {
+      "id": "pp2_021",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Peran Bahasa Indonesia",
+      "stimulus": "Bayangkan Indonesia tanpa bahasa Indonesia. Seorang pelajar dari Manado harus berkomunikasi dengan teman dari Aceh — keduanya tidak memahami bahasa daerah masing-masing. Seorang pejabat daerah harus membaca peraturan pemerintah pusat yang tertulis dalam bahasa yang tidak dimengertinya. Pedagang dari Kalimantan tidak bisa bernegosiasi dengan pembeli dari Sulawesi.",
+      "q": "Berdasarkan ilustrasi di atas, mengapa bahasa Indonesia memiliki peran yang sangat penting bagi keutuhan NKRI?",
+      "opt": [
+        "Karena bahasa Indonesia berasal dari bahasa Melayu yang sudah dipahami seluruh suku di Indonesia",
+        "Karena bahasa Indonesia menjadi jembatan komunikasi yang memungkinkan ratusan suku saling berinteraksi",
+        "Karena pemerintah mewajibkan penggunaan bahasa Indonesia dan melarang penggunaan bahasa daerah",
+        "Karena bahasa Indonesia adalah bahasa yang paling mudah dipelajari di antara semua bahasa di dunia"
+      ],
+      "ans": "B",
+      "pembahasan": "Ilustrasi menunjukkan berbagai situasi di mana ketidakmampuan berkomunikasi akan menghancurkan interaksi. Bahasa Indonesia menjadi jembatan — alat komunikasi bersama bagi ratusan suku yang berbeda bahasa. Bukan karena asal Melayu (A — bukan penjelasan yang relevan), bukan karena melarang bahasa daerah (C — tidak benar), dan bukan karena kemudahannya (D — tidak disebutkan)."
+    },
+    {
+      "id": "pp2_022",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "UUD 1945 sebagai Konstitusi",
+      "stimulus": "UUD 1945 adalah konstitusi dasar Indonesia. Di dalamnya terdapat aturan-aturan pokok yang mengatur bagaimana negara dijalankan: siapa yang berhak memerintah dan bagaimana caranya, apa hak dan kewajiban warga negara, serta nilai-nilai dasar apa yang harus dijunjung tinggi. Semua peraturan di bawahnya — undang-undang, perda, keputusan pemerintah — tidak boleh bertentangan dengan UUD 1945.",
+      "q": "Mengapa UUD 1945 disebut sebagai 'hukum tertinggi' atau konstitusi dasar negara Indonesia?",
+      "opt": [
+        "Karena UUD 1945 dibuat paling lama dan paling tebal dibandingkan peraturan lain yang ada di Indonesia",
+        "Karena semua peraturan lain di Indonesia harus sesuai dan tidak boleh bertentangan dengan UUD 1945",
+        "Karena UUD 1945 mengatur setiap detail kehidupan warga negara dari lahir hingga meninggal",
+        "Karena UUD 1945 hanya boleh dibaca dan dipelajari oleh pejabat dan anggota DPR saja"
+      ],
+      "ans": "B",
+      "pembahasan": "UUD 1945 disebut hukum tertinggi karena semua peraturan di bawahnya (UU, perda, keputusan) harus selaras dan tidak boleh bertentangan. Stimulus secara eksplisit menyatakan ini. Bukan karena paling tebal/lama (A), bukan karena mengatur semua detail kehidupan (C), dan bukan karena terbatas aksesnya (D)."
+    },
+    {
+      "id": "pp2_023",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Faktor Pemersatu Bangsa",
+      "stimulus": "",
+      "q": "Manakah yang termasuk faktor-faktor yang memperkuat persatuan dan keutuhan NKRI?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pancasila sebagai dasar negara yang menjadi landasan nilai seluruh kehidupan berbangsa",
+        "Bhinneka Tunggal Ika sebagai semboyan yang menegaskan persatuan dalam keberagaman",
+        "Perbedaan bahasa daerah yang membuat warga dari berbagai suku tidak bisa saling berkomunikasi",
+        "Bahasa Indonesia sebagai bahasa persatuan yang digunakan dalam kehidupan berbangsa",
+        "UUD 1945 sebagai konstitusi yang mengatur dasar kehidupan bernegara secara bersama"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: perbedaan bahasa daerah tanpa bahasa pemersatu justru menjadi faktor potensial perpecahan, bukan pemersatu. Justru bahasa Indonesia (D) yang menjadi pemersatu di antara keberagaman bahasa daerah."
+    },
+    {
+      "id": "pp2_024",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Peran Pancasila bagi Bangsa",
+      "stimulus": "",
+      "q": "Pernyataan-pernyataan mana yang benar tentang peran Pancasila bagi bangsa dan negara Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pancasila menjadi panduan nilai dalam setiap pengambilan keputusan bernegara",
+        "Pancasila memastikan tidak ada satu agama atau suku yang mendominasi kehidupan bernegara",
+        "Pancasila mengharuskan semua warga memiliki keyakinan, budaya, dan cara hidup yang sama",
+        "Pancasila menjadi landasan yang menyatukan keberagaman menjadi satu bangsa yang utuh",
+        "Nilai-nilai Pancasila dapat ditemukan dan dipraktikkan dalam kehidupan sehari-hari"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: Pancasila justru menghargai keberagaman, bukan menyeragamkan. Sila ke-1 menghormati semua agama, Sila ke-3 merayakan persatuan dalam keberagaman — bukan keseragaman."
+    },
+    {
+      "id": "pp2_025",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Pemersatu vs Pemecah Bangsa",
+      "stimulus": "",
+      "q": "Kategorikan setiap hal berikut ke dalam kolom yang tepat:\n• Faktor Pemersatu: memperkuat persatuan dan keutuhan NKRI\n• Faktor Pemecah: berpotensi melemahkan atau memecah persatuan NKRI",
+      "rows": [
+        "Pancasila sebagai nilai bersama yang diterima oleh seluruh golongan masyarakat",
+        "Fanatisme sempit terhadap suku sendiri dan merendahkan suku lain",
+        "Bahasa Indonesia yang menjembatani komunikasi antarwarga dari berbagai daerah",
+        "Penyebaran berita bohong yang membenturkan antaragama di media sosial",
+        "Peringatan Hari Kemerdekaan yang dirayakan bersama-sama di seluruh penjuru negeri"
+      ],
+      "cols": [
+        "Faktor Pemersatu",
+        "Faktor Pemecah"
+      ],
+      "ans": [
+        "Faktor Pemersatu",
+        "Faktor Pemecah",
+        "Faktor Pemersatu",
+        "Faktor Pemecah",
+        "Faktor Pemersatu"
+      ],
+      "pembahasan": "Item 1 (Pancasila), 3 (bahasa Indonesia), 5 (peringatan kemerdekaan bersama) adalah faktor pemersatu. Item 2 (fanatisme suku) dan 4 (berita bohong antaragama) adalah faktor pemecah yang berpotensi melemahkan NKRI."
+    },
+    {
+      "id": "pp2_026",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Implementasi Nilai Pancasila",
+      "stimulus": "",
+      "q": "Kategorikan setiap contoh tindakan berikut berdasarkan sila Pancasila yang paling kuat tercermin:\n• Sila ke-3 (Persatuan Indonesia): tindakan yang menjaga persatuan dan kesatuan bangsa\n• Sila ke-4 (Kerakyatan/Musyawarah): tindakan yang mencerminkan pengambilan keputusan bersama",
+      "rows": [
+        "Siswa dari berbagai daerah belajar bersama dan saling menghargai perbedaan satu sama lain",
+        "Kelas memilih ketua melalui pemungutan suara yang diikuti semua siswa",
+        "Warga dari berbagai suku bergotong royong membersihkan lingkungan bersama-sama",
+        "Anggota panitia berdiskusi sampai menemukan kesepakatan yang bisa diterima semua pihak"
+      ],
+      "cols": [
+        "Sila ke-3",
+        "Sila ke-4"
+      ],
+      "ans": [
+        "Sila ke-3",
+        "Sila ke-4",
+        "Sila ke-3",
+        "Sila ke-4"
+      ],
+      "pembahasan": "Item 1 (kerukunan berbeda daerah) dan 3 (gotong royong antarsuku) mencerminkan Sila ke-3 tentang persatuan. Item 2 (pemungutan suara) dan 4 (diskusi hingga sepakat) mencerminkan Sila ke-4 tentang musyawarah dan demokrasi."
+    },
+    {
+      "id": "pp2_027",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Dampak Perpecahan bagi Warga",
+      "stimulus": "Pak Guru menggambarkan sebuah situasi hipotetis: 'Bayangkan jika suatu daerah di Indonesia memisahkan diri dan terjadi konflik. Apa yang akan terjadi pada warga biasa? Jalur perdagangan akan terganggu. Bantuan pemerintah tidak akan bisa masuk. Anak-anak tidak bisa bersekolah dengan aman. Layanan kesehatan dan air bersih akan terputus. Warga yang tidak punya konflik dengan siapapun pun akan ikut menderita.'",
+      "q": "Berdasarkan gambaran Pak Guru, siapa yang paling merasakan dampak buruk jika keutuhan NKRI terganggu?",
+      "opt": [
+        "Hanya pemerintah dan para pejabat negara yang kehilangan kekuasaan dan kewenangan mereka",
+        "Hanya kelompok yang menyebabkan perpecahan karena mereka yang bertanggung jawab atas akibatnya",
+        "Seluruh rakyat biasa yang tidak terlibat konflik pun ikut merasakan dampak buruknya",
+        "Hanya warga yang tinggal di daerah perbatasan antara dua wilayah yang bersengketa"
+      ],
+      "ans": "C",
+      "pembahasan": "Pak Guru secara eksplisit menggambarkan bahwa warga biasa yang tidak punya konflik pun ikut menderita: perdagangan terganggu, bantuan tidak masuk, anak tidak bisa sekolah, layanan kesehatan terputus. Perpecahan berdampak pada semua orang, bukan hanya pejabat (A), pelaku konflik (B), atau warga perbatasan saja (D)."
+    },
+    {
+      "id": "pp2_028",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Keutuhan NKRI dan Pembangunan",
+      "stimulus": "Indonesia memiliki kekayaan alam yang luar biasa — minyak bumi di Kalimantan, nikel di Sulawesi, emas di Papua, hasil pertanian di Jawa dan Sumatra, perikanan dari lautan yang luas. Dalam kondisi NKRI yang utuh, kekayaan dari satu daerah dapat digunakan untuk membangun daerah lain yang kekurangannya berbeda. Pembangunan jalan di Papua menggunakan dana yang juga berasal dari pajak pengusaha di Jawa.",
+      "q": "Apa yang paling tepat menggambarkan manfaat keutuhan NKRI dalam pengelolaan kekayaan alam Indonesia?",
+      "opt": [
+        "Keutuhan NKRI memastikan bahwa setiap daerah hanya boleh menggunakan kekayaan yang ada di daerahnya sendiri",
+        "Keutuhan NKRI memungkinkan kekayaan dari berbagai daerah dikelola dan didistribusikan untuk kepentingan seluruh bangsa",
+        "Keutuhan NKRI membuat daerah yang kaya wajib memberikan semua kekayaannya kepada pemerintah pusat",
+        "Keutuhan NKRI hanya menguntungkan daerah-daerah yang miskin karena mendapat subsidi dari daerah kaya"
+      ],
+      "ans": "B",
+      "pembahasan": "Stimulus menunjukkan bahwa dalam NKRI yang utuh, kekayaan dari satu daerah dapat digunakan untuk membangun daerah lain — seperti pajak dari Jawa untuk jalan di Papua. Ini adalah manfaat pemerataan dalam kesatuan. Opsi A, C, D tidak mencerminkan prinsip ini dengan tepat."
+    },
+    {
+      "id": "pp2_029",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Hak dan Tanggung Jawab dalam Keutuhan NKRI",
+      "stimulus": "Ibu guru bertanya kepada kelas: 'Kalau Indonesia bisa tetap utuh dan damai, siapa yang diuntungkan?' Murid-murid menjawab: 'Semua orang.' Lalu Bu Guru bertanya lagi: 'Kalau begitu, siapa yang bertanggung jawab menjaganya?' Kelas hening sejenak. Seorang siswa angkat tangan: 'Kalau semua orang diuntungkan, berarti semua orang juga bertanggung jawab menjaganya, Bu.'",
+      "q": "Mengapa jawaban siswa tersebut dianggap tepat oleh Bu Guru?",
+      "opt": [
+        "Karena menjaga keutuhan NKRI hanya menjadi tugas tentara, polisi, dan pemerintah, bukan rakyat biasa",
+        "Karena keutuhan NKRI adalah tanggung jawab bersama semua warga yang merasakan manfaatnya",
+        "Karena siswa adalah kelompok yang paling mampu menjaga keutuhan negara di antara semua warga",
+        "Karena pelajar memiliki kewajiban yang lebih besar dari orang dewasa dalam menjaga keutuhan bangsa"
+      ],
+      "ans": "B",
+      "pembahasan": "Logika siswa tepat: jika manfaat keutuhan NKRI dirasakan semua orang, maka tanggung jawab menjaganya juga milik semua orang — bukan hanya pemerintah atau aparat (A). Semua warga tanpa pengecualian, bukan hanya siswa (C dan D)."
+    },
+    {
+      "id": "pp2_030",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Akibat jika NKRI Tidak Utuh",
+      "stimulus": "",
+      "q": "Manakah akibat-akibat yang mungkin terjadi jika keutuhan NKRI terganggu?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pembangunan dan kemajuan di berbagai daerah akan terhambat dan tidak merata",
+        "Warga yang tidak terlibat konflik pun akan terdampak: terputusnya layanan, ketakutan, dan ketidakamanan",
+        "Hubungan dagang dan komunikasi antardaerah akan terganggu atau bahkan terputus",
+        "Seluruh rakyat Indonesia akan menjadi lebih kaya karena tidak perlu menanggung beban bersama",
+        "Generasi muda kehilangan kesempatan belajar dan berkembang akibat ketidakstabilan"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "pembahasan": "D salah: terpecahnya NKRI justru akan membuat semua pihak lebih miskin dan menderita karena hilangnya sinergi antardaerah, bukan lebih kaya. Semua akibat lain (A, B, C, E) adalah dampak nyata yang mungkin terjadi."
+    },
+    {
+      "id": "pp2_031",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Pentingnya Keutuhan NKRI",
+      "stimulus": "",
+      "q": "Pernyataan-pernyataan mana yang benar tentang arti penting keutuhan NKRI bagi bangsa Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keutuhan NKRI menjamin keamanan dan ketenangan hidup seluruh warga di berbagai daerah",
+        "Keutuhan NKRI memungkinkan pembangunan yang merata dari Sabang sampai Merauke",
+        "Keutuhan NKRI hanya penting bagi daerah-daerah yang memiliki kekayaan alam yang berlimpah",
+        "Keutuhan NKRI membuat Indonesia diakui dan dihormati sebagai bangsa yang berdaulat di dunia",
+        "Keutuhan NKRI melindungi hak setiap warga untuk hidup, beribadah, dan berkembang sesuai potensinya"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: keutuhan NKRI penting bagi semua daerah, baik yang kaya maupun tidak — karena yang dipertaruhkan adalah keamanan, hak warga, dan kedaulatan bangsa, bukan sekadar kekayaan alam."
+    },
+    {
+      "id": "pp2_032",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Manfaat Keutuhan NKRI",
+      "stimulus": "",
+      "q": "Kategorikan setiap manfaat berikut berdasarkan siapa yang merasakannya:\n• Dirasakan Individu: manfaat yang dirasakan langsung oleh setiap warga secara pribadi\n• Dirasakan Bersama: manfaat yang dirasakan oleh masyarakat atau bangsa secara keseluruhan",
+      "rows": [
+        "Rasa aman dan terlindungi dalam menjalani kehidupan sehari-hari",
+        "Indonesia diakui sebagai negara yang berdaulat oleh komunitas internasional",
+        "Kebebasan menjalankan ibadah sesuai agama yang diyakini tanpa gangguan",
+        "Kekayaan alam dapat dikelola untuk kesejahteraan seluruh rakyat Indonesia",
+        "Setiap warga berhak mendapatkan pendidikan dan layanan kesehatan dari negara"
+      ],
+      "cols": [
+        "Dirasakan Individu",
+        "Dirasakan Bersama"
+      ],
+      "ans": [
+        "Dirasakan Individu",
+        "Dirasakan Bersama",
+        "Dirasakan Individu",
+        "Dirasakan Bersama",
+        "Dirasakan Individu"
+      ],
+      "pembahasan": "Item 1 (rasa aman), 3 (kebebasan beribadah), 5 (hak pendidikan & kesehatan) dirasakan setiap individu secara langsung. Item 2 (pengakuan internasional) dan 4 (pengelolaan kekayaan alam) adalah manfaat kolektif yang dirasakan bangsa secara keseluruhan."
+    },
+    {
+      "id": "pp2_033",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "NKRI Utuh vs Terganggu",
+      "stimulus": "",
+      "q": "Kategorikan setiap kondisi berikut ke dalam kolom yang tepat:\n• Mencerminkan NKRI Utuh: kondisi yang menunjukkan keutuhan dan persatuan bangsa\n• Mencerminkan NKRI Terganggu: kondisi yang menunjukkan ancaman terhadap keutuhan",
+      "rows": [
+        "Warga dari berbagai suku hidup berdampingan dengan damai dan saling menghormati",
+        "Konflik antardaerah menyebabkan jalur distribusi bahan pokok terputus",
+        "Pemerintah membangun infrastruktur merata di seluruh wilayah Indonesia",
+        "Sekelompok warga memprovokasi perpecahan berdasarkan perbedaan agama",
+        "Generasi muda dari berbagai daerah bersatu dalam kompetisi olahraga nasional"
+      ],
+      "cols": [
+        "Mencerminkan NKRI Utuh",
+        "Mencerminkan NKRI Terganggu"
+      ],
+      "ans": [
+        "Mencerminkan NKRI Utuh",
+        "Mencerminkan NKRI Terganggu",
+        "Mencerminkan NKRI Utuh",
+        "Mencerminkan NKRI Terganggu",
+        "Mencerminkan NKRI Utuh"
+      ],
+      "pembahasan": "Item 1 (damai antarsuku), 3 (infrastruktur merata), 5 (persatuan generasi muda) mencerminkan NKRI yang utuh. Item 2 (konflik antardaerah) dan 4 (provokasi agama) mencerminkan ancaman terhadap keutuhan NKRI."
+    },
+    {
+      "id": "pp2_034",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Bijak di Media Sosial",
+      "stimulus": "Kelas 4C sedang belajar tentang literasi digital. Pak Guru membacakan sebuah pesan berantai yang beredar di media sosial: 'WASPADA! Warga [nama suku] di kota ini sering berbuat kriminal. Sebarkan agar semua orang tahu!' Pak Guru bertanya: 'Apa yang seharusnya kalian lakukan jika menerima pesan seperti ini?'",
+      "q": "Respons mana yang paling tepat dilakukan saat menerima pesan seperti yang dibacakan Pak Guru?",
+      "opt": [
+        "Segera meneruskan pesan tersebut kepada semua kontak agar mereka juga waspada dan berhati-hati",
+        "Membaca pesan, mencari kebenarannya dari sumber terpercaya, lalu tidak meneruskan jika terbukti hoaks",
+        "Mengabaikan pesan tersebut dan tidak perlu melaporkan meskipun isinya jelas-jelas menghasut",
+        "Mengikuti isi pesan dan mulai mencurigai semua orang dari suku yang disebutkan dalam pesan"
+      ],
+      "ans": "B",
+      "pembahasan": "Respons yang tepat: tidak langsung meneruskan, verifikasi kebenarannya, dan tidak sebarkan jika terbukti hoaks atau menghasut. Meneruskan (A) memperluas dampak negatif. Mengabaikan tanpa melapor (C) membiarkan hoaks terus beredar. Mengikuti isi pesan (D) adalah bentuk diskriminasi yang merusak persatuan."
+    },
+    {
+      "id": "pp2_035",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Toleransi di Sekolah",
+      "stimulus": "Di SD Nusantara, siswa-siswanya berasal dari berbagai agama: Islam, Kristen, Hindu, dan Buddha. Saat ada perayaan hari besar agama salah satu siswa, teman-teman dari agama lain ikut mengucapkan selamat dan turut senang. Ketika ada kegiatan ibadah, teman-teman yang berbeda agama menunggu dengan sabar dan tidak mengganggu. Pak Kepala Sekolah menyebut sekolah ini sebagai 'miniatur Indonesia'.",
+      "q": "Mengapa Pak Kepala Sekolah menyebut SD Nusantara sebagai 'miniatur Indonesia'?",
+      "opt": [
+        "Karena semua siswa di SD Nusantara berasal dari seluruh provinsi yang ada di Indonesia",
+        "Karena siswa-siswa SD Nusantara menunjukkan bahwa perbedaan agama tidak menghalangi kerukunan",
+        "Karena SD Nusantara memiliki koleksi miniatur bangunan ikonik dari seluruh penjuru Indonesia",
+        "Karena SD Nusantara sering memenangkan perlombaan tingkat nasional dan menjadi kebanggaan daerah"
+      ],
+      "ans": "B",
+      "pembahasan": "Pak Kepala Sekolah menyebutnya 'miniatur Indonesia' karena siswa dari berbagai agama hidup rukun dan saling menghormati — sama seperti Indonesia yang beragam tetapi bersatu. Bukan karena asal daerah siswa (A), koleksi miniatur (C), atau prestasi (D)."
+    },
+    {
+      "id": "pp2_036",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Menjaga Persatuan sebagai Pelajar",
+      "stimulus": "Kelompok belajar kelas 4B terdiri dari Widi (Jawa), Syahril (Batak), Clara (Flores), dan Putri (Minang). Ketika mengerjakan tugas kelompok, mereka menggunakan bahasa Indonesia agar semua mengerti. Mereka tidak pernah saling mengejek logat bicara masing-masing. Ketika ada perbedaan pendapat, mereka berdiskusi dengan tenang. Bu Guru memuji kelompok ini sebagai contoh yang baik.",
+      "q": "Tindakan spesifik mana yang paling langsung menunjukkan upaya kelompok tersebut dalam menjaga persatuan?",
+      "opt": [
+        "Setiap anggota kelompok selalu datang tepat waktu dan tidak pernah telat mengumpulkan tugas",
+        "Anggota kelompok menggunakan bahasa Indonesia dan tidak saling mengejek perbedaan yang ada",
+        "Ketua kelompok membagi tugas secara adil sehingga semua anggota mendapat bagian yang sama",
+        "Kelompok ini selalu mendapatkan nilai tertinggi di antara semua kelompok di kelas 4B"
+      ],
+      "ans": "B",
+      "pembahasan": "Tindakan yang paling langsung mencerminkan menjaga persatuan adalah menggunakan bahasa Indonesia (alat pemersatu) dan tidak mengejek perbedaan (menghormati keberagaman). Tepat waktu (A) dan pembagian tugas (C) adalah hal baik tetapi bukan tentang persatuan. Nilai tertinggi (D) tidak disebutkan dalam stimulus."
+    },
+    {
+      "id": "pp2_037",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Cara Menjaga Keutuhan NKRI",
+      "stimulus": "",
+      "q": "Manakah tindakan-tindakan yang dapat dilakukan oleh pelajar kelas 4 untuk ikut menjaga keutuhan NKRI?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tidak menyebarkan informasi yang belum terbukti kebenarannya dan berpotensi memecah belah",
+        "Berteman dengan siapapun tanpa memandang suku, agama, atau asal daerah",
+        "Menghindari teman yang berbeda agama agar tidak terjadi konflik di lingkungan sekolah",
+        "Menghormati simbol-simbol negara seperti bendera dan lagu kebangsaan pada upacara",
+        "Mempelajari dan menghargai budaya daerah lain sebagai kekayaan bangsa Indonesia"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: menghindari teman berbeda agama justru menciptakan pemisahan dan melemahkan persatuan. Justru berinteraksi dengan semua kalangan (B) yang memperkuat persatuan. Pilihan A, B, D, E adalah tindakan nyata menjaga keutuhan NKRI yang bisa dilakukan pelajar."
+    },
+    {
+      "id": "pp2_038",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Perilaku yang Merusak Keutuhan NKRI",
+      "stimulus": "",
+      "q": "Manakah perilaku-perilaku yang berpotensi merusak keutuhan NKRI?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menyebarkan berita bohong yang mengadu domba antara dua kelompok agama atau suku",
+        "Menggunakan label negatif terhadap seluruh kelompok suku tertentu karena perilaku sebagian anggotanya",
+        "Mengikuti upacara bendera dengan khidmat sebagai bentuk penghormatan kepada bangsa",
+        "Memilih berteman hanya dengan yang satu suku dan menolak bergaul dengan suku lain",
+        "Merendahkan budaya daerah lain dan menganggap hanya budaya sendiri yang paling baik"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C adalah perilaku yang justru MENJAGA keutuhan — mengikuti upacara bendera dengan khidmat adalah bentuk penghormatan pada identitas nasional. Perilaku A, B, D, E adalah berbagai bentuk diskriminasi, penyebaran kebencian, dan eksklusivisme yang merusak persatuan."
+    },
+    {
+      "id": "pp2_039",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Menjaga vs Merusak NKRI dalam Kehidupan Sehari-hari",
+      "stimulus": "",
+      "q": "Kategorikan setiap tindakan berikut ke dalam kolom yang tepat:\n• Menjaga Keutuhan NKRI: tindakan yang memperkuat persatuan\n• Merusak Keutuhan NKRI: tindakan yang berpotensi memecah persatuan",
+      "rows": [
+        "Seorang siswa mengajak teman dari semua suku bermain bersama tanpa pilih-pilih",
+        "Seorang remaja menyebarkan meme yang menghina tradisi budaya suku lain",
+        "Warga membantu tetangga yang berbeda agama saat tertimpa musibah banjir",
+        "Seseorang menolak makan bersama karena tidak mau satu meja dengan orang dari suku berbeda",
+        "Guru mengajarkan siswa untuk menghargai pakaian adat dan kesenian dari berbagai daerah"
+      ],
+      "cols": [
+        "Menjaga Keutuhan NKRI",
+        "Merusak Keutuhan NKRI"
+      ],
+      "ans": [
+        "Menjaga Keutuhan NKRI",
+        "Merusak Keutuhan NKRI",
+        "Menjaga Keutuhan NKRI",
+        "Merusak Keutuhan NKRI",
+        "Menjaga Keutuhan NKRI"
+      ],
+      "pembahasan": "Item 1, 3, 5 adalah tindakan inklusif yang memperkuat persatuan. Item 2 (menghina budaya suku lain) dan 4 (menolak bergaul karena perbedaan suku) adalah diskriminasi yang merusak persatuan."
+    },
+    {
+      "id": "pp2_040",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Menjaga NKRI di Berbagai Lingkungan",
+      "stimulus": "",
+      "q": "Kategorikan setiap contoh tindakan menjaga NKRI berikut berdasarkan lingkungannya:\n• Di Lingkungan Sekolah: tindakan menjaga persatuan dalam konteks sekolah\n• Di Lingkungan Masyarakat: tindakan menjaga persatuan dalam konteks kehidupan bermasyarakat",
+      "rows": [
+        "Tidak mengejek teman karena logat bicaranya yang berbeda dari daerah lain",
+        "Warga bergotong royong membersihkan tempat ibadah berbagai agama bersama-sama",
+        "Mengikuti upacara bendera dengan tertib dan penuh rasa hormat",
+        "Menghadiri festival budaya antardaerah yang diadakan di balai kota",
+        "Membela teman yang diejek karena asal-usul sukunya oleh siswa lain"
+      ],
+      "cols": [
+        "Di Lingkungan Sekolah",
+        "Di Lingkungan Masyarakat"
+      ],
+      "ans": [
+        "Di Lingkungan Sekolah",
+        "Di Lingkungan Masyarakat",
+        "Di Lingkungan Sekolah",
+        "Di Lingkungan Masyarakat",
+        "Di Lingkungan Sekolah"
+      ],
+      "pembahasan": "Item 1 (tidak mengejek logat teman), 3 (upacara bendera), 5 (membela teman diejek) terjadi dalam konteks sekolah. Item 2 (gotong royong tempat ibadah) dan 4 (festival budaya di balai kota) terjadi dalam konteks masyarakat yang lebih luas."
+    },
+    {
+      "id": "pp2_041",
+      "sub_materi": "E",
+      "type": "pg",
+      "score": 1,
+      "topik": "Kebanggaan yang Sehat",
+      "stimulus": "Tono dan Maya berdebat tentang kebanggaan menjadi orang Indonesia. Tono berkata, 'Aku bangga karena batik kita sudah diakui UNESCO. Tapi aku juga suka belajar seni dari negara lain — bisa tambah wawasan.' Maya menjawab, 'Aku bangga dan tidak mau belajar apapun dari luar — semua yang Indonesia punya sudah terbaik.'",
+      "q": "Sikap siapakah yang lebih mencerminkan kebanggaan sebagai bangsa Indonesia yang sehat?",
+      "opt": [
+        "Maya, karena bangga terhadap Indonesia berarti menolak pengaruh dari luar dan mempertahankan semua hal asli",
+        "Tono, karena bangga terhadap Indonesia tidak berarti menutup diri dari kelebihan yang dimiliki bangsa lain",
+        "Keduanya benar karena setiap orang bebas mengekspresikan kebanggaan dengan caranya masing-masing",
+        "Keduanya salah karena kebanggaan terhadap bangsa hanya boleh diungkapkan dalam forum resmi kenegaraan"
+      ],
+      "ans": "B",
+      "pembahasan": "Sikap Tono lebih sehat: bangga dengan pencapaian Indonesia (batik UNESCO) sekaligus terbuka belajar dari luar. Kebanggaan yang sehat bukan berarti tertutup dan menganggap Indonesia paling sempurna. Sikap Maya adalah chauvinisme yang justru dapat menghambat kemajuan."
+    },
+    {
+      "id": "pp2_042",
+      "sub_materi": "E",
+      "type": "pg",
+      "score": 1,
+      "topik": "Pencapaian Indonesia yang Membanggakan",
+      "stimulus": "Indonesia memiliki banyak pencapaian yang diakui dunia internasional. Batik Indonesia diakui UNESCO sebagai Warisan Budaya Tak Benda pada tahun 2009. Gamelan Jawa menyusul mendapat pengakuan pada tahun 2021. Rendang dari Sumatra Barat pernah dinobatkan sebagai makanan terlezat di dunia oleh CNN. Angklung dari Jawa Barat juga telah masuk daftar warisan budaya UNESCO.",
+      "q": "Apa yang dapat kita simpulkan dari fakta-fakta di atas tentang kekayaan budaya Indonesia?",
+      "opt": [
+        "Hanya beberapa provinsi besar di Indonesia yang memiliki budaya yang layak diakui dunia",
+        "Kekayaan budaya Indonesia dari berbagai daerah telah mendapat pengakuan dan penghargaan internasional",
+        "Pemerintah Indonesia sangat sukses memasarkan budaya kepada UNESCO demi prestise semata",
+        "Pengakuan UNESCO hanya berlaku di negara-negara anggota PBB dan tidak bermakna secara global"
+      ],
+      "ans": "B",
+      "pembahasan": "Fakta-fakta menunjukkan bahwa kekayaan budaya dari berbagai daerah Indonesia — Jawa (batik, gamelan), Sumatra (rendang), Jawa Barat (angklung) — telah mendapat pengakuan internasional. Ini adalah kebanggaan nyata. Opsi A salah karena budayanya berasal dari berbagai daerah. Opsi C dan D tidak berdasar fakta."
+    },
+    {
+      "id": "pp2_043",
+      "sub_materi": "E",
+      "type": "pg",
+      "score": 1,
+      "topik": "Cara Mengekspresikan Kebanggaan",
+      "stimulus": "Di kelas 4A, Bu Guru meminta siswa berbagi cara mereka mengekspresikan kebanggaan sebagai bangsa Indonesia. Beberapa siswa menjawab: Amir: 'Saya belajar tari tradisional daerah saya.' Siti: 'Saya lebih suka beli produk buatan Indonesia daripada impor.' Beni: 'Saya selalu pamer di depan teman bahwa Indonesia lebih baik dari negara lain.' Dian: 'Saya ikut komunitas pecinta batik dan belajar cara membuatnya.'",
+      "q": "Cara mengekspresikan kebanggaan mana yang paling tidak tepat?",
+      "opt": [
+        "Amir yang mempelajari tari tradisional daerahnya sendiri",
+        "Siti yang lebih memilih produk buatan Indonesia",
+        "Beni yang sering menyatakan Indonesia lebih baik dari negara lain di depan teman",
+        "Dian yang bergabung dalam komunitas batik dan mempelajari cara membuatnya"
+      ],
+      "ans": "C",
+      "pembahasan": "Cara Beni tidak tepat — kebanggaan yang sehat tidak berarti merendahkan negara lain atau bersikap sombong. 'Pamer bahwa Indonesia lebih baik dari negara lain' adalah sikap yang tidak menghargai keberagaman global. Cara Amir, Siti, dan Dian adalah ekspresi kebanggaan yang konstruktif dan positif."
+    },
+    {
+      "id": "pp2_044",
+      "sub_materi": "E",
+      "type": "pg",
+      "score": 1,
+      "topik": "Melestarikan Budaya sebagai Bentuk Bangga",
+      "stimulus": "Budaya Indonesia kaya dan beragam, namun menghadapi tantangan: banyak kesenian tradisional yang perlahan-lahan terlupakan karena generasi muda lebih tertarik pada hiburan digital dan budaya asing. Beberapa pemuda di berbagai daerah mulai bergerak: membuat konten media sosial tentang kesenian tradisional, mengadakan workshop batik, dan mengunggah video cara memainkan alat musik tradisional.",
+      "q": "Mengapa upaya para pemuda tersebut merupakan bentuk kebanggaan sebagai bangsa Indonesia yang bermakna?",
+      "opt": [
+        "Karena mereka melakukan sesuatu yang melarang generasi muda dari menonton atau mengikuti budaya asing",
+        "Karena mereka memanfaatkan media modern untuk melestarikan dan memperkenalkan budaya sendiri kepada lebih banyak orang",
+        "Karena mereka mendapat bayaran dari pemerintah untuk mempromosikan kesenian tradisional Indonesia",
+        "Karena mereka membuktikan bahwa budaya asing lebih buruk dan tidak layak diikuti oleh generasi muda"
+      ],
+      "ans": "B",
+      "pembahasan": "Para pemuda menggunakan media digital (modern) untuk melestarikan budaya tradisional — cara yang cerdas dan relevan dengan zaman. Ini adalah kebanggaan yang aktif dan bermakna. Bukan tentang melarang budaya asing (A), bukan karena bayaran pemerintah (C), dan bukan tentang merendahkan budaya lain (D)."
+    },
+    {
+      "id": "pp2_045",
+      "sub_materi": "E",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Cara Mengekspresikan Kebanggaan yang Tepat",
+      "stimulus": "",
+      "q": "Manakah cara-cara berikut yang merupakan ekspresi kebanggaan sebagai bangsa Indonesia yang sehat dan tepat?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mempelajari dan melestarikan seni dan budaya daerah Indonesia agar tidak punah",
+        "Menggunakan dan mempromosikan produk-produk buatan pengrajin dan pengusaha Indonesia",
+        "Meremehkan budaya dan produk dari negara lain dan menganggapnya tidak ada nilainya",
+        "Memperkenalkan keindahan alam dan kekayaan budaya Indonesia kepada teman dari luar negeri",
+        "Ikut berpartisipasi dalam festival budaya Indonesia untuk menjaga tradisi tetap hidup"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: meremehkan budaya dan produk luar adalah chauvinisme yang tidak sehat. Kebanggaan yang sehat tidak membutuhkan merendahkan yang lain — kita bangga dengan milik sendiri sambil tetap menghargai milik orang lain."
+    },
+    {
+      "id": "pp2_046",
+      "sub_materi": "E",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Pencapaian Indonesia yang Membanggakan",
+      "stimulus": "",
+      "q": "Manakah pencapaian-pencapaian berikut yang merupakan kebanggaan nyata bangsa Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Batik Indonesia diakui UNESCO sebagai Warisan Budaya Tak Benda pada tahun 2009",
+        "Wayang kulit, kerajinan tangan khas Indonesia, juga mendapat pengakuan dari UNESCO",
+        "Indonesia adalah negara dengan jumlah pulau dan keanekaragaman hayati yang luar biasa di dunia",
+        "Indonesia adalah negara termaju di dunia dalam bidang teknologi dan ekonomi",
+        "Angklung dari Jawa Barat telah diakui UNESCO sebagai warisan budaya tak benda"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "pembahasan": "D salah: Indonesia bukan negara termaju di bidang teknologi dan ekonomi — klaim seperti ini tidak akurat dan berlebihan. Kebanggaan yang sehat berdasarkan fakta yang benar, bukan klaim yang dilebih-lebihkan. Item A, B, C, E adalah fakta yang benar tentang pencapaian Indonesia."
+    },
+    {
+      "id": "pp2_047",
+      "sub_materi": "E",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Bangga yang Sehat vs Tidak Sehat",
+      "stimulus": "",
+      "q": "Kategorikan setiap ekspresi kebanggaan berikut ke dalam kolom yang tepat:\n• Bangga yang Sehat: ekspresi kebanggaan yang positif dan tidak merendahkan pihak lain\n• Bangga yang Tidak Sehat: ekspresi yang berlebihan, tidak berdasar fakta, atau merendahkan pihak lain",
+      "rows": [
+        "Belajar memainkan angklung karena ingin melestarikan alat musik tradisional Indonesia",
+        "Menolak belajar matematika karena 'orang Indonesia tidak perlu ilmu dari luar negeri'",
+        "Memakai batik pada Hari Batik Nasional sebagai bentuk penghargaan terhadap warisan budaya",
+        "Mengklaim bahwa semua produk Indonesia pasti lebih baik dari produk manapun di dunia",
+        "Memperkenalkan tarian tradisional daerah kepada teman-teman dari negara lain saat ada kesempatan"
+      ],
+      "cols": [
+        "Bangga yang Sehat",
+        "Bangga yang Tidak Sehat"
+      ],
+      "ans": [
+        "Bangga yang Sehat",
+        "Bangga yang Tidak Sehat",
+        "Bangga yang Sehat",
+        "Bangga yang Tidak Sehat",
+        "Bangga yang Sehat"
+      ],
+      "pembahasan": "Item 1, 3, 5 adalah ekspresi bangga yang positif dan konstruktif. Item 2 (menolak ilmu dari luar) adalah sikap tertutup yang justru merugikan. Item 4 (klaim semua produk Indonesia pasti terbaik) adalah klaim berlebihan yang tidak berdasar fakta."
+    },
+    {
+      "id": "pp2_048",
+      "sub_materi": "E",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Upaya Melestarikan Budaya Indonesia",
+      "stimulus": "",
+      "q": "Kategorikan setiap upaya melestarikan budaya Indonesia berikut berdasarkan caranya:\n• Cara Langsung: terlibat aktif dalam praktik atau produksi budaya itu sendiri\n• Cara Tidak Langsung: mendukung atau mempromosikan tanpa terlibat langsung dalam praktiknya",
+      "rows": [
+        "Mengikuti kelas tari tradisional setiap minggu untuk belajar gerakan tari daerah",
+        "Membeli produk batik buatan pengrajin lokal untuk mendukung keberlangsungan usaha mereka",
+        "Bergabung dalam grup paduan suara lagu daerah dan aktif berlatih",
+        "Mengajak teman menonton pertunjukan wayang dan menjelaskan makna ceritanya",
+        "Menjahit sendiri pakaian adat daerah dan memakainya pada acara budaya"
+      ],
+      "cols": [
+        "Cara Langsung",
+        "Cara Tidak Langsung"
+      ],
+      "ans": [
+        "Cara Langsung",
+        "Cara Tidak Langsung",
+        "Cara Langsung",
+        "Cara Tidak Langsung",
+        "Cara Langsung"
+      ],
+      "pembahasan": "Item 1 (ikut kelas tari), 3 (bergabung paduan suara), 5 (menjahit pakaian adat) adalah keterlibatan langsung dalam praktik budaya. Item 2 (membeli produk batik) dan 4 (menonton dan menjelaskan wayang) adalah dukungan tidak langsung yang tetap bermakna."
     }
   ]
 }

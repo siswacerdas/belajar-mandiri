@@ -5,6 +5,33 @@ Format: `[Sesi XX] — YYYY-MM-DD` → deskripsi perubahan.
 
 ---
 
+## [Sesi 08] — 2026-05-23
+### Penambahan Bank Soal PP Bab 2 & Bab 3 (Standar Buku Saku)
+
+#### Soal Baru
+- **PP Bab 3 — Pola Hidup Gotong Royong**: ditambah 32 soal baru
+  (16 PG + 8 PGK + 8 PGK-CAT) → total **41 soal** (22 PG + 10 PGK + 9 PGK-CAT)
+- **PP Bab 2 — Negaraku Indonesia**: ditambah 38 soal baru
+  (18 PG + 10 PGK + 10 PGK-CAT) → total **48 soal** (24 PG + 13 PGK + 11 PGK-CAT)
+
+#### PROPORSI Diperbarui
+Kedua kuis.html kini mendukung tiga mode soal:
+- 20 soal: 11 PG + 5 PGK + 4 PGK-CAT
+- 30 soal: 17 PG + 8 PGK + 5 PGK-CAT
+- 40 soal: sesuai bank masing-masing bab
+
+#### Standar Soal yang Diterapkan (Buku Saku)
+Semua soal baru mengikuti ketat prinsip Buku Saku Panduan Soal Berkualitas:
+- Stem = pertanyaan utuh dengan tanda tanya, tidak rumpang
+- Stimulus fungsional: tidak dapat dijawab tanpa membaca stimulus
+- Distraktor = miskonsepsi nyata, bukan opsi absurd
+- Opsi sejajar: panjang dan struktur gramatikal setara
+- PGK: instruksi eksplisit, jumlah jawaban benar tidak diberitahu
+- PGK-CAT: kategori mutually exclusive, kriteria dalam stem
+- HOTS: transfer ke situasi baru yang belum dicontohkan persis
+
+---
+
 ## [Sesi 07b] — 2026-05-23
 ### Konversi Bank Soal dari Excel ke soal.json
 
