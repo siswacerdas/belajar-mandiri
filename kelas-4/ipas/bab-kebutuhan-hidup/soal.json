@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang kebutuhan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Harus dipenuhi agar manusia bisa hidup dengan layak",
         "Jika tidak terpenuhi dapat menimbulkan kesulitan serius",
         "Bisa diabaikan tanpa akibat apapun",
+        "Harus dipenuhi agar manusia bisa hidup dengan layak",
         "Sama persis dengan keinginan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1888,14 +1888,14 @@
       "stimulus": "",
       "q": "Yang termasuk kebutuhan primer (kebutuhan paling pokok) adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Makanan dan minuman bergizi",
         "Pakaian dan tempat tinggal yang layak",
-        "Mobil mewah dan perhiasan",
-        "Liburan dan hiburan"
+        "Liburan dan hiburan",
+        "Makanan dan minuman bergizi",
+        "Mobil mewah dan perhiasan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1908,14 +1908,14 @@
       "stimulus": "",
       "q": "Yang termasuk kebutuhan sekunder adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Villa dan kapal pesiar",
         "Perabot rumah dan sepeda",
-        "Televisi dan lemari es",
         "Makanan dan minuman pokok",
-        "Villa dan kapal pesiar"
+        "Televisi dan lemari es"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1928,10 +1928,10 @@
       "stimulus": "",
       "q": "Kebutuhan tersier bersifat kemewahan dan dipenuhi setelah kebutuhan lain tercukupi. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mobil mewah dan perhiasan emas",
         "Villa dan liburan ke luar negeri",
-        "Beras dan sayuran untuk makan",
-        "Baju seragam sekolah"
+        "Mobil mewah dan perhiasan emas",
+        "Baju seragam sekolah",
+        "Beras dan sayuran untuk makan"
       ],
       "ans": [
         "A",
@@ -1949,13 +1949,13 @@
       "q": "Contoh kebutuhan jasmani yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Makanan bergizi dan olahraga",
-        "Obat saat sakit dan pakaian",
         "Ibadah dan kasih sayang",
-        "Hiburan dan rekreasi"
+        "Hiburan dan rekreasi",
+        "Obat saat sakit dan pakaian"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1968,14 +1968,14 @@
       "stimulus": "",
       "q": "Yang termasuk kebutuhan rohani adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Ibadah dan ketenangan batin",
+        "Pakaian dan tempat tinggal",
         "Persahabatan dan kasih sayang",
-        "Makanan dan minuman",
-        "Pakaian dan tempat tinggal"
+        "Ibadah dan ketenangan batin",
+        "Makanan dan minuman"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Contoh kebutuhan sekarang yang tidak bisa ditunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Makan saat lapar",
-        "Minum obat saat sakit",
         "Menabung untuk membeli rumah",
+        "Minum obat saat sakit",
+        "Makan saat lapar",
         "Mempersiapkan biaya kuliah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2009,13 +2009,13 @@
       "q": "Contoh kebutuhan masa depan yang perlu dipersiapkan dari sekarang adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menabung untuk biaya sekolah",
+        "Minum air saat haus",
         "Mempersiapkan tabungan untuk membeli rumah",
-        "Makan malam hari ini",
-        "Minum air saat haus"
+        "Makan malam hari ini"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2028,10 +2028,10 @@
       "stimulus": "",
       "q": "Kebutuhan individu bersifat berbeda-beda tiap orang. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kacamata bagi yang rabun",
         "Tongkat bagi yang lanjut usia",
-        "Jalan raya untuk semua",
-        "Sekolah untuk masyarakat"
+        "Kacamata bagi yang rabun",
+        "Sekolah untuk masyarakat",
+        "Jalan raya untuk semua"
       ],
       "ans": [
         "A",
@@ -2049,13 +2049,13 @@
       "q": "Yang termasuk kebutuhan sosial karena dibutuhkan masyarakat bersama adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Jalan raya dan jembatan",
-        "Sekolah dan rumah sakit",
         "HP pribadi dan laptop",
-        "Pakaian dan makanan pribadi"
+        "Pakaian dan makanan pribadi",
+        "Sekolah dan rumah sakit"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2069,13 +2069,13 @@
       "q": "Alasan kita memerlukan skala prioritas dalam memenuhi kebutuhan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Kebutuhan manusia tidak terbatas",
-        "Kemampuan dan uang untuk memenuhi kebutuhan terbatas",
         "Semua kebutuhan bisa dipenuhi sekaligus",
+        "Kemampuan dan uang untuk memenuhi kebutuhan terbatas",
         "Pemerintah mewajibkan penggunaan skala prioritas"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2088,14 +2088,14 @@
       "stimulus": "",
       "q": "Faktor yang mempengaruhi perbedaan kebutuhan antar orang adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Usia — bayi dan orang dewasa berbeda kebutuhannya",
-        "Pekerjaan — dokter butuh alat medis, guru butuh buku",
         "Semua orang selalu memiliki kebutuhan yang sama",
-        "Kebutuhan tidak pernah berbeda antar orang"
+        "Kebutuhan tidak pernah berbeda antar orang",
+        "Pekerjaan — dokter butuh alat medis, guru butuh buku",
+        "Usia — bayi dan orang dewasa berbeda kebutuhannya"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2109,13 +2109,13 @@
       "q": "Lingkungan tempat tinggal mempengaruhi kebutuhan seseorang. Contohnya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Orang pegunungan butuh pakaian tebal",
+        "Lingkungan tidak mempengaruhi kebutuhan apapun",
         "Orang pantai cukup pakai pakaian tipis",
-        "Semua daerah memiliki kebutuhan pakaian yang sama",
-        "Lingkungan tidak mempengaruhi kebutuhan apapun"
+        "Semua daerah memiliki kebutuhan pakaian yang sama"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2128,14 +2128,14 @@
       "stimulus": "",
       "q": "Cara manusia memenuhi kebutuhannya antara lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bekerja untuk mendapatkan penghasilan",
-        "Bertani, berkebun, dan berdagang",
         "Menunggu kebutuhan terpenuhi sendiri",
-        "Meminta orang lain memenuhi semua kebutuhan"
+        "Meminta orang lain memenuhi semua kebutuhan",
+        "Bertani, berkebun, dan berdagang",
+        "Bekerja untuk mendapatkan penghasilan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2148,14 +2148,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang batas kebutuhan dan keinginan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Semua baju adalah keinginan",
         "Baju adalah kebutuhan, tapi baju merek mahal bisa menjadi keinginan",
         "Yang membedakan bukan bendanya tapi seberapa perlu untuk kelangsungan hidup",
-        "Semua baju adalah keinginan",
         "Semua barang mahal adalah kebutuhan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2169,13 +2169,13 @@
       "q": "Dalam menerapkan skala prioritas, yang harus dipenuhi lebih dulu adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Kebutuhan primer seperti makanan dan tempat tinggal",
-        "Kebutuhan yang paling mendesak dan tidak bisa ditunda",
+        "Barang-barang tersier sebagai motivasi bekerja",
         "Keinginan yang sudah lama diimpikan",
-        "Barang-barang tersier sebagai motivasi bekerja"
+        "Kebutuhan yang paling mendesak dan tidak bisa ditunda"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Yang termasuk kebutuhan (bukan keinginan) dari pilihan berikut adalah ...",
       "opt": [
-        "Makan siang bergizi di sekolah",
-        "Pakaian yang layak untuk melindungi tubuh",
         "HP terbaru seri terkini",
-        "Mainan mahal remote control"
+        "Pakaian yang layak untuk melindungi tubuh",
+        "Mainan mahal remote control",
+        "Makan siang bergizi di sekolah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2229,13 +2229,13 @@
       "q": "Mengapa kebutuhan seorang dokter berbeda dengan kebutuhan seorang petani?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Karena pekerjaan mereka berbeda sehingga alat yang dibutuhkan berbeda",
-        "Karena tempat kerja mereka berbeda mempengaruhi kebutuhan sehari-hari",
         "Karena keduanya selalu memiliki kebutuhan yang identik",
-        "Karena faktor agama yang berbeda"
+        "Karena faktor agama yang berbeda",
+        "Karena tempat kerja mereka berbeda mempengaruhi kebutuhan sehari-hari"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2248,14 +2248,14 @@
       "stimulus": "",
       "q": "Contoh penerapan skala prioritas yang benar dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mendahulukan membeli beras daripada membeli mainan",
         "Membayar tagihan listrik sebelum membeli barang mewah",
         "Membeli mobil mewah sebelum melunasi hutang",
+        "Mendahulukan membeli beras daripada membeli mainan",
         "Mengutamakan liburan sebelum membeli kebutuhan pokok"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2268,14 +2268,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang kebutuhan rohani adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Hanya dimiliki oleh orang yang sangat religius",
         "Merupakan kebutuhan jiwa, pikiran, dan perasaan",
-        "Contohnya adalah ibadah, hiburan, dan kasih sayang",
         "Tidak penting karena yang utama adalah kebutuhan jasmani",
-        "Hanya dimiliki oleh orang yang sangat religius"
+        "Contohnya adalah ibadah, hiburan, dan kasih sayang"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2288,10 +2288,10 @@
       "stimulus": "",
       "q": "Kebutuhan sekarang dan kebutuhan masa depan berbeda karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kebutuhan sekarang harus dipenuhi segera, tidak bisa ditunda",
         "Kebutuhan masa depan dipersiapkan sekarang untuk dipenuhi nanti",
-        "Keduanya selalu bisa ditunda",
-        "Kebutuhan masa depan lebih penting dari kebutuhan sekarang"
+        "Kebutuhan sekarang harus dipenuhi segera, tidak bisa ditunda",
+        "Kebutuhan masa depan lebih penting dari kebutuhan sekarang",
+        "Keduanya selalu bisa ditunda"
       ],
       "ans": [
         "A",
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Manusia tidak bisa memenuhi semua kebutuhannya sendiri, sehingga ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Perlu bekerja sama dan saling bertukar dengan orang lain",
         "Teknologi membantu manusia memenuhi kebutuhan lebih mudah",
         "Tidak perlu bekerja karena semua sudah tersedia",
+        "Perlu bekerja sama dan saling bertukar dengan orang lain",
         "Hanya pemerintah yang bisa memenuhi kebutuhan warga"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2328,14 +2328,14 @@
       "stimulus": "",
       "q": "Kebutuhan sosial berbeda dari kebutuhan individu karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Dibutuhkan oleh masyarakat bersama, bukan hanya satu orang",
-        "Contohnya adalah infrastruktur seperti jalan dan jembatan",
         "Hanya dibutuhkan oleh individu tertentu",
-        "Tidak perlu disediakan oleh pemerintah"
+        "Tidak perlu disediakan oleh pemerintah",
+        "Contohnya adalah infrastruktur seperti jalan dan jembatan",
+        "Dibutuhkan oleh masyarakat bersama, bukan hanya satu orang"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2349,13 +2349,13 @@
       "q": "Dua pernyataan benar tentang kebutuhan individu adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Berbeda-beda pada setiap orang sesuai kondisi masing-masing",
-        "Contohnya kacamata bagi rabun dan obat khusus bagi penderita penyakit tertentu",
         "Sama persis untuk semua orang",
-        "Termasuk jalan raya dan sekolah"
+        "Termasuk jalan raya dan sekolah",
+        "Contohnya kacamata bagi rabun dan obat khusus bagi penderita penyakit tertentu"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2369,13 +2369,13 @@
       "q": "Pentingnya membedakan kebutuhan dan keinginan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Agar pengeluaran bisa diprioritaskan dengan baik",
+        "Agar tidak pernah membeli barang keinginan sama sekali",
         "Agar tidak boros dan kebutuhan penting terpenuhi lebih dulu",
-        "Agar bisa membeli semua yang diinginkan",
-        "Agar tidak pernah membeli barang keinginan sama sekali"
+        "Agar bisa membeli semua yang diinginkan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2388,14 +2388,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang kegiatan ekonomi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Merupakan aktivitas manusia untuk memenuhi kebutuhan hidup",
-        "Mencakup kegiatan menghasilkan, menyalurkan, dan menggunakan barang/jasa",
         "Hanya dilakukan oleh orang dewasa",
+        "Mencakup kegiatan menghasilkan, menyalurkan, dan menggunakan barang/jasa",
+        "Merupakan aktivitas manusia untuk memenuhi kebutuhan hidup",
         "Hanya terjadi di pasar dan toko saja"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2408,14 +2408,14 @@
       "stimulus": "",
       "q": "Yang termasuk kegiatan produksi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menghasilkan barang seperti membuat batik dan memasak",
-        "Menghasilkan jasa seperti mengajar dan mengobati",
         "Membeli barang di supermarket",
-        "Mengirim barang ke kota lain"
+        "Menghasilkan barang seperti membuat batik dan memasak",
+        "Mengirim barang ke kota lain",
+        "Menghasilkan jasa seperti mengajar dan mengobati"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2428,14 +2428,14 @@
       "stimulus": "",
       "q": "Jenis-jenis kegiatan produksi yang ada di sekitar kita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Produksi ekstraktif seperti nelayan menangkap ikan",
-        "Produksi agraris seperti petani menanam padi",
         "Produksi membeli barang di toko",
-        "Produksi mengantar barang ke konsumen"
+        "Produksi mengantar barang ke konsumen",
+        "Produksi ekstraktif seperti nelayan menangkap ikan",
+        "Produksi agraris seperti petani menanam padi"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2449,13 +2449,13 @@
       "q": "Produksi industri dan produksi jasa berbeda karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Industri mengolah bahan mentah menjadi barang jadi",
-        "Jasa menghasilkan layanan bukan barang fisik",
         "Keduanya selalu menghasilkan barang fisik",
+        "Jasa menghasilkan layanan bukan barang fisik",
         "Keduanya tidak memerlukan tenaga manusia"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Faktor produksi yang diperlukan untuk menghasilkan barang adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Sumber daya alam sebagai bahan baku",
-        "Sumber daya manusia sebagai tenaga kerja",
+        "Harga barang yang akan dijual",
         "Konsumen yang membeli produk",
-        "Harga barang yang akan dijual"
+        "Sumber daya manusia sebagai tenaga kerja",
+        "Sumber daya alam sebagai bahan baku"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2488,14 +2488,14 @@
       "stimulus": "",
       "q": "Modal dan kewirausahaan sebagai faktor produksi artinya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Modal berupa uang dan peralatan yang digunakan untuk berproduksi",
-        "Kewirausahaan adalah kemampuan mengelola dan memimpin usaha",
         "Modal hanya berupa uang tunai saja",
+        "Kewirausahaan adalah kemampuan mengelola dan memimpin usaha",
+        "Modal berupa uang dan peralatan yang digunakan untuk berproduksi",
         "Kewirausahaan tidak dibutuhkan dalam produksi"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2509,13 +2509,13 @@
       "q": "Pernyataan yang BENAR tentang distribusi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Kegiatan menyalurkan barang dari produsen ke konsumen",
-        "Tanpa distribusi, barang tidak akan bisa sampai ke tangan yang membutuhkan",
         "Distribusi hanya dilakukan oleh pemerintah",
+        "Tanpa distribusi, barang tidak akan bisa sampai ke tangan yang membutuhkan",
         "Distribusi sama dengan kegiatan produksi"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2529,13 +2529,13 @@
       "q": "Saluran distribusi yang ada dalam kegiatan ekonomi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Distribusi langsung: produsen menjual langsung ke konsumen",
-        "Distribusi tidak langsung: melalui perantara seperti agen dan pengecer",
         "Distribusi hanya melalui satu saluran saja",
+        "Distribusi tidak langsung: melalui perantara seperti agen dan pengecer",
         "Distribusi tidak memerlukan kendaraan apapun"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2548,14 +2548,14 @@
       "stimulus": "",
       "q": "Peran pengecer dalam saluran distribusi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Mengekspor barang ke luar negeri",
         "Menjual langsung kepada konsumen akhir dalam jumlah kecil",
-        "Menjadi perantara terakhir antara barang dan konsumen",
         "Memproduksi barang yang akan dijual",
-        "Mengekspor barang ke luar negeri"
+        "Menjadi perantara terakhir antara barang dan konsumen"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2568,14 +2568,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang konsumsi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kegiatan menggunakan barang dan jasa untuk memenuhi kebutuhan",
-        "Orang yang melakukan konsumsi disebut konsumen",
         "Konsumsi adalah kegiatan memproduksi barang",
+        "Orang yang melakukan konsumsi disebut konsumen",
+        "Kegiatan menggunakan barang dan jasa untuk memenuhi kebutuhan",
         "Konsumsi hanya terjadi di pasar saja"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2588,14 +2588,14 @@
       "stimulus": "",
       "q": "Ciri konsumen yang bijak adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membeli sesuai kebutuhan dan kemampuan",
-        "Tidak mudah terpengaruh iklan yang tidak perlu",
+        "Selalu membeli barang paling mahal",
         "Membeli semua barang yang ada di toko",
-        "Selalu membeli barang paling mahal"
+        "Tidak mudah terpengaruh iklan yang tidak perlu",
+        "Membeli sesuai kebutuhan dan kemampuan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2608,14 +2608,14 @@
       "stimulus": "",
       "q": "Pekerjaan di sektor primer adalah pekerjaan yang ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Mengolah bahan mentah di pabrik",
         "Langsung memanfaatkan sumber daya alam seperti petani dan nelayan",
         "Contohnya adalah menambang dan menangkap ikan",
-        "Mengolah bahan mentah di pabrik",
         "Memberikan layanan jasa kepada masyarakat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2628,14 +2628,14 @@
       "stimulus": "",
       "q": "Pekerjaan di sektor sekunder (mengolah hasil) mencakup ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pengrajin yang mengolah bahan baku menjadi produk jadi",
         "Buruh pabrik yang memproses bahan mentah",
         "Petani yang menanam padi di sawah",
+        "Pengrajin yang mengolah bahan baku menjadi produk jadi",
         "Guru yang mengajar di sekolah"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2648,14 +2648,14 @@
       "stimulus": "",
       "q": "Pekerjaan di sektor tersier (jasa) mencakup ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Guru yang memberikan ilmu kepada siswa",
+        "Buruh pabrik yang membuat barang",
         "Dokter yang mengobati pasien",
-        "Nelayan yang menangkap ikan di laut",
-        "Buruh pabrik yang membuat barang"
+        "Guru yang memberikan ilmu kepada siswa",
+        "Nelayan yang menangkap ikan di laut"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Pasar tradisional berperan penting dalam ekonomi lokal karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menjadi tempat bertemunya penjual dan pembeli lokal",
+        "Bersaing dengan supermarket modern",
         "Membantu para petani dan pedagang kecil menjual produknya",
         "Hanya menjual barang impor dari luar negeri",
-        "Bersaing dengan supermarket modern"
+        "Menjadi tempat bertemunya penjual dan pembeli lokal"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2688,14 +2688,14 @@
       "stimulus": "",
       "q": "UMKM penting bagi perekonomian Indonesia karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menyerap tenaga kerja lokal dalam jumlah besar",
         "Memproduksi kebutuhan sehari-hari masyarakat",
+        "Tidak memerlukan modal apapun",
         "Hanya ada di kota-kota besar saja",
-        "Tidak memerlukan modal apapun"
+        "Menyerap tenaga kerja lokal dalam jumlah besar"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2708,8 +2708,8 @@
       "stimulus": "",
       "q": "Koperasi sebagai lembaga ekonomi bersifat ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berasas gotong royong untuk kesejahteraan anggota",
         "Bukan hanya mencari keuntungan semata, tapi untuk kepentingan bersama",
+        "Berasas gotong royong untuk kesejahteraan anggota",
         "Hanya melayani nasabah yang punya modal besar",
         "Bertujuan memperkaya pemilik saja"
       ],
@@ -2728,14 +2728,14 @@
       "stimulus": "",
       "q": "Alur kegiatan ekonomi dari bahan baku hingga ke tangan konsumen melibatkan ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Produksi: menghasilkan barang atau jasa",
-        "Distribusi: menyalurkan ke konsumen",
+        "Tidak memerlukan distribusi jika produksinya besar",
         "Hanya satu orang saja yang melakukan semuanya",
-        "Tidak memerlukan distribusi jika produksinya besar"
+        "Distribusi: menyalurkan ke konsumen",
+        "Produksi: menghasilkan barang atau jasa"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2750,8 +2750,8 @@
       "opt": [
         "Produsen membutuhkan konsumen untuk membeli produknya",
         "Konsumen membutuhkan produsen agar kebutuhannya tersedia",
-        "Produsen dan konsumen bisa bekerja tanpa saling membutuhkan",
-        "Distribusi tidak diperlukan jika produsen dan konsumen dekat"
+        "Distribusi tidak diperlukan jika produsen dan konsumen dekat",
+        "Produsen dan konsumen bisa bekerja tanpa saling membutuhkan"
       ],
       "ans": [
         "A",
@@ -2768,14 +2768,14 @@
       "stimulus": "",
       "q": "Perbedaan antara produksi ekstraktif dan agraris adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Ekstraktif mengambil langsung dari alam; agraris mengolah lahan untuk menghasilkan pangan",
-        "Keduanya tidak melibatkan proses pengolahan bahan mentah di pabrik",
+        "Agraris tidak memerlukan sumber daya alam",
         "Keduanya menghasilkan barang jadi siap pakai",
-        "Agraris tidak memerlukan sumber daya alam"
+        "Keduanya tidak melibatkan proses pengolahan bahan mentah di pabrik",
+        "Ekstraktif mengambil langsung dari alam; agraris mengolah lahan untuk menghasilkan pangan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2790,8 +2790,8 @@
       "opt": [
         "Barang dari daerah produksi bisa sampai ke daerah yang membutuhkan",
         "Harga barang bisa lebih stabil karena pasokan terjaga",
-        "Distribusi membuat barang menjadi langka",
-        "Distribusi menghilangkan perbedaan harga antar daerah"
+        "Distribusi menghilangkan perbedaan harga antar daerah",
+        "Distribusi membuat barang menjadi langka"
       ],
       "ans": [
         "A",
@@ -2808,14 +2808,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang jenis pekerjaan berdasarkan sektornya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Petani, nelayan, dan penambang termasuk sektor primer",
         "Guru, dokter, dan pedagang termasuk sektor tersier/jasa",
+        "Petani termasuk sektor tersier",
         "Pengrajin dan buruh pabrik termasuk sektor primer",
-        "Petani termasuk sektor tersier"
+        "Petani, nelayan, dan penambang termasuk sektor primer"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2829,13 +2829,13 @@
       "q": "Contoh kegiatan ekonomi yang terjadi di sekitar sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Koperasi sekolah menjual alat tulis kepada siswa",
-        "Kantin sekolah memproduksi dan menjual makanan",
+        "Kegiatan ekonomi hanya terjadi di tempat kerja orang dewasa",
         "Siswa hanya duduk dan belajar tanpa kegiatan ekonomi",
-        "Kegiatan ekonomi hanya terjadi di tempat kerja orang dewasa"
+        "Kantin sekolah memproduksi dan menjual makanan"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2848,14 +2848,14 @@
       "stimulus": "",
       "q": "Untuk membuat kain batik, faktor produksi yang dibutuhkan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Tidak memerlukan keahlian khusus",
         "Sumber daya alam berupa kain mori dan pewarna alami",
-        "Sumber daya manusia berupa pengrajin batik yang terampil",
         "Hanya uang tunai saja",
-        "Tidak memerlukan keahlian khusus"
+        "Sumber daya manusia berupa pengrajin batik yang terampil"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Mengapa penting menjadi konsumen yang bijak?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Agar kebutuhan terpenuhi tanpa pemborosan",
         "Agar keuangan tetap sehat dan tidak habis untuk hal yang tidak penting",
         "Agar bisa membeli lebih banyak barang",
+        "Agar kebutuhan terpenuhi tanpa pemborosan",
         "Agar terlihat hemat di mata orang lain"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2888,14 +2888,14 @@
       "stimulus": "",
       "q": "Tukang bakso keliling melakukan beberapa kegiatan ekonomi sekaligus yaitu ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Produksi: membuat bakso sendiri",
-        "Distribusi: berkeliling menjual bakso kepada pembeli",
         "Konsumsi: membuat konsumen membeli bakso",
+        "Distribusi: berkeliling menjual bakso kepada pembeli",
+        "Produksi: membuat bakso sendiri",
         "Investasi: menyimpan uang hasil penjualan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2908,14 +2908,14 @@
       "stimulus": "",
       "q": "Peran penting Jawa Barat dalam kegiatan distribusi nasional adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Beras dari Karawang dan Subang didistribusikan ke berbagai kota",
-        "Sayuran dari Lembang dan teh dari Pangalengan dikirim ke seluruh Indonesia",
         "Jawa Barat tidak menghasilkan produk untuk didistribusikan",
-        "Semua produk Jawa Barat hanya untuk konsumsi lokal"
+        "Sayuran dari Lembang dan teh dari Pangalengan dikirim ke seluruh Indonesia",
+        "Semua produk Jawa Barat hanya untuk konsumsi lokal",
+        "Beras dari Karawang dan Subang didistribusikan ke berbagai kota"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2962,8 +2962,7 @@
       ],
       "cols": [
         "Kebutuhan",
-        "Keinginan",
-        "Kebutuhan"
+        "Keinginan"
       ],
       "ans": [
         "Kebutuhan",
@@ -2989,8 +2988,7 @@
       ],
       "cols": [
         "Jasmani",
-        "Rohani",
-        "Jasmani"
+        "Rohani"
       ],
       "ans": [
         "Jasmani",
@@ -3016,8 +3014,7 @@
       ],
       "cols": [
         "Kebutuhan sekarang",
-        "Kebutuhan masa depan",
-        "Kebutuhan sekarang"
+        "Kebutuhan masa depan"
       ],
       "ans": [
         "Kebutuhan sekarang",
@@ -3043,8 +3040,7 @@
       ],
       "cols": [
         "Kebutuhan individu",
-        "Kebutuhan sosial",
-        "Kebutuhan individu"
+        "Kebutuhan sosial"
       ],
       "ans": [
         "Kebutuhan individu",
@@ -3097,8 +3093,7 @@
       ],
       "cols": [
         "Kebutuhan",
-        "Keinginan",
-        "Kebutuhan"
+        "Keinginan"
       ],
       "ans": [
         "Kebutuhan",
@@ -3178,8 +3173,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3286,8 +3280,7 @@
       ],
       "cols": [
         "Kebutuhan",
-        "Keinginan",
-        "Kebutuhan"
+        "Keinginan"
       ],
       "ans": [
         "Kebutuhan",
@@ -3367,8 +3360,7 @@
       ],
       "cols": [
         "Kebutuhan",
-        "Keinginan",
-        "Kebutuhan"
+        "Keinginan"
       ],
       "ans": [
         "Kebutuhan",
@@ -3394,8 +3386,7 @@
       ],
       "cols": [
         "Sekarang (mendesak)",
-        "Masa depan (dipersiapkan)",
-        "Sekarang (mendesak)"
+        "Masa depan (dipersiapkan)"
       ],
       "ans": [
         "Sekarang (mendesak)",
@@ -3448,8 +3439,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3475,8 +3465,7 @@
       ],
       "cols": [
         "Kebutuhan",
-        "Keinginan",
-        "Kebutuhan"
+        "Keinginan"
       ],
       "ans": [
         "Kebutuhan",
@@ -3556,8 +3545,7 @@
       ],
       "cols": [
         "Sifat kebutuhan",
-        "Sifat keinginan",
-        "Sifat kebutuhan"
+        "Sifat keinginan"
       ],
       "ans": [
         "Sifat kebutuhan",
@@ -3610,8 +3598,7 @@
       ],
       "cols": [
         "Kebutuhan individu",
-        "Kebutuhan sosial",
-        "Kebutuhan individu"
+        "Kebutuhan sosial"
       ],
       "ans": [
         "Kebutuhan individu",
@@ -3637,8 +3624,7 @@
       ],
       "cols": [
         "Kebutuhan (perlu)",
-        "Keinginan (tidak wajib)",
-        "Kebutuhan (perlu)"
+        "Keinginan (tidak wajib)"
       ],
       "ans": [
         "Kebutuhan (perlu)",
@@ -3664,8 +3650,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3934,8 +3919,7 @@
       ],
       "cols": [
         "Bijak",
-        "Tidak bijak",
-        "Bijak"
+        "Tidak bijak"
       ],
       "ans": [
         "Bijak",
@@ -4069,8 +4053,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4123,8 +4106,7 @@
       ],
       "cols": [
         "Konsumsi barang",
-        "Konsumsi jasa",
-        "Konsumsi barang"
+        "Konsumsi jasa"
       ],
       "ans": [
         "Konsumsi barang",
@@ -4312,8 +4294,7 @@
       ],
       "cols": [
         "Industri",
-        "Jasa",
-        "Industri"
+        "Jasa"
       ],
       "ans": [
         "Industri",
@@ -4339,8 +4320,7 @@
       ],
       "cols": [
         "Bijak",
-        "Tidak bijak",
-        "Bijak"
+        "Tidak bijak"
       ],
       "ans": [
         "Bijak",
@@ -4366,8 +4346,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",

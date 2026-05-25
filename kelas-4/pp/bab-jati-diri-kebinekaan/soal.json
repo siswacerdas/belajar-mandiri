@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang keragaman budaya Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Indonesia memiliki lebih dari 300 suku bangsa dan 700 bahasa daerah",
-        "Keragaman adalah kekayaan yang membuat Indonesia unik di mata dunia",
+        "Semua suku bangsa Indonesia memiliki budaya yang sama",
         "Keragaman menyebabkan Indonesia mudah terpecah-belah",
-        "Semua suku bangsa Indonesia memiliki budaya yang sama"
+        "Indonesia memiliki lebih dari 300 suku bangsa dan 700 bahasa daerah",
+        "Keragaman adalah kekayaan yang membuat Indonesia unik di mata dunia"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1868,14 +1868,14 @@
       "stimulus": "",
       "q": "Aspek-aspek yang termasuk dalam budaya suatu masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bahasa dan adat istiadat",
         "Makanan, pakaian, dan kesenian khas",
+        "Teknologi canggih yang digunakan",
         "Nilai harga emas dan saham",
-        "Teknologi canggih yang digunakan"
+        "Bahasa dan adat istiadat"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1888,14 +1888,14 @@
       "stimulus": "",
       "q": "Fakta-fakta yang benar tentang Kota Depok adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berada di Provinsi Jawa Barat dan berbatasan dengan Jakarta",
-        "Penduduk aslinya adalah masyarakat Sunda",
         "Merupakan kota yang hanya dihuni satu suku bangsa",
-        "Tidak memiliki keberagaman budaya"
+        "Tidak memiliki keberagaman budaya",
+        "Berada di Provinsi Jawa Barat dan berbatasan dengan Jakarta",
+        "Penduduk aslinya adalah masyarakat Sunda"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1908,14 +1908,14 @@
       "stimulus": "",
       "q": "Kebudayaan khas suku Sunda yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Ulos dan tor-tor",
         "Angklung, alat musik bambu yang diakui UNESCO",
-        "Wayang golek dan tari jaipong",
         "Kerak telor dan ondel-ondel",
-        "Ulos dan tor-tor"
+        "Wayang golek dan tari jaipong"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1928,14 +1928,14 @@
       "stimulus": "",
       "q": "Kebudayaan khas suku Betawi yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Lenong dan tanjidor",
         "Kerak telor dan ondel-ondel",
-        "Angklung dan wayang golek",
-        "Rendang dan rumah gadang"
+        "Rendang dan rumah gadang",
+        "Lenong dan tanjidor",
+        "Angklung dan wayang golek"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1948,14 +1948,14 @@
       "stimulus": "",
       "q": "Makanan khas yang berasal dari daerah Jawa Barat (Sunda) adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Batagor dan siomay",
         "Nasi timbel dan karedok",
-        "Kerak telor dan soto Betawi",
-        "Gudeg dan gado-gado"
+        "Gudeg dan gado-gado",
+        "Batagor dan siomay",
+        "Kerak telor dan soto Betawi"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1968,14 +1968,14 @@
       "stimulus": "",
       "q": "Pernyataan yang benar tentang angklung adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Terbuat dari bambu dan berasal dari Jawa Barat",
         "Diakui UNESCO sebagai warisan budaya dunia pada tahun 2010",
         "Merupakan alat musik khas suku Betawi",
-        "Dibuat dari kayu jati dan besi"
+        "Dibuat dari kayu jati dan besi",
+        "Terbuat dari bambu dan berasal dari Jawa Barat"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Pernyataan yang benar tentang semboyan 'Bhinneka Tunggal Ika' adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bermakna 'berbeda-beda tetapi tetap satu jua'",
+        "Merupakan nama resmi dari Kota Depok",
         "Mencerminkan keragaman budaya Indonesia yang menjadi kekuatan",
-        "Mengharuskan semua suku memiliki budaya yang sama",
-        "Merupakan nama resmi dari Kota Depok"
+        "Bermakna 'berbeda-beda tetapi tetap satu jua'",
+        "Mengharuskan semua suku memiliki budaya yang sama"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2008,14 +2008,14 @@
       "stimulus": "",
       "q": "Bukti keragaman budaya yang bisa ditemui di Depok adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berbagai tempat ibadah dari berbagai agama",
-        "Berbagai makanan khas dari berbagai daerah",
         "Semua warga berbicara satu bahasa yang sama",
-        "Hanya satu jenis kesenian yang ada"
+        "Berbagai makanan khas dari berbagai daerah",
+        "Hanya satu jenis kesenian yang ada",
+        "Berbagai tempat ibadah dari berbagai agama"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2028,14 +2028,14 @@
       "stimulus": "",
       "q": "Kebudayaan khas suku Minangkabau yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rumah gadang sebagai rumah adat",
-        "Rendang dan tari piring",
         "Batik dan gamelan",
-        "Lenong dan tanjidor"
+        "Rendang dan tari piring",
+        "Lenong dan tanjidor",
+        "Rumah gadang sebagai rumah adat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2048,14 +2048,14 @@
       "stimulus": "",
       "q": "Dua pernyataan yang benar tentang kesenian khas Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Wayang golek adalah pertunjukan boneka kayu tiga dimensi khas Sunda",
         "Tari jaipong lahir di Karawang dan merupakan tarian khas Jawa Barat",
+        "Wayang golek menggunakan bayangan di balik layar seperti wayang kulit",
         "Tari jaipong adalah tarian khas suku Betawi",
-        "Wayang golek menggunakan bayangan di balik layar seperti wayang kulit"
+        "Wayang golek adalah pertunjukan boneka kayu tiga dimensi khas Sunda"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2069,13 +2069,13 @@
       "q": "Mengapa keragaman budaya Indonesia merupakan kekayaan bangsa?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Membuat Indonesia unik dan istimewa di mata dunia",
-        "Menjadi kebanggaan nasional yang bisa dikembangkan",
         "Menyebabkan Indonesia mudah terpecah",
+        "Menjadi kebanggaan nasional yang bisa dikembangkan",
         "Membuat bahasa Indonesia tidak diperlukan lagi"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2088,14 +2088,14 @@
       "stimulus": "",
       "q": "Suku-suku yang banyak mendiami Kota Depok selain suku Sunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Suku Betawi dari Jakarta dan sekitarnya",
-        "Suku Batak dari Sumatera Utara",
         "Suku Asmat dari Papua yang sebagian besar tinggal di Depok",
-        "Tidak ada suku lain selain Sunda di Depok"
+        "Tidak ada suku lain selain Sunda di Depok",
+        "Suku Batak dari Sumatera Utara",
+        "Suku Betawi dari Jakarta dan sekitarnya"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2108,14 +2108,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menerima, menghormati, dan merayakan perbedaan yang ada",
+        "Memaksa semua orang memiliki budaya yang sama",
         "Bangga dengan budaya sendiri sambil terbuka terhadap budaya lain",
         "Meninggalkan budaya sendiri dan mengikuti budaya orang lain",
-        "Memaksa semua orang memiliki budaya yang sama"
+        "Menerima, menghormati, dan merayakan perbedaan yang ada"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2128,8 +2128,8 @@
       "stimulus": "",
       "q": "Tiga nilai utama dalam menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Toleransi — bersedia menerima perbedaan selama tidak merugikan",
         "Empati — merasakan apa yang dirasakan orang lain",
+        "Toleransi — bersedia menerima perbedaan selama tidak merugikan",
         "Kesombongan tentang budaya sendiri",
         "Eksklusivitas dalam bergaul"
       ],
@@ -2148,14 +2148,14 @@
       "stimulus": "",
       "q": "Pernyataan yang benar tentang toleransi dalam keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Toleransi berarti membiarkan perbedaan ada selama tidak merugikan",
-        "Toleransi membantu kita hidup berdampingan dengan damai",
+        "Toleransi hanya berlaku untuk perbedaan agama saja",
         "Toleransi berarti menyetujui semua perilaku orang lain",
-        "Toleransi hanya berlaku untuk perbedaan agama saja"
+        "Toleransi membantu kita hidup berdampingan dengan damai",
+        "Toleransi berarti membiarkan perbedaan ada selama tidak merugikan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2168,8 +2168,8 @@
       "stimulus": "",
       "q": "Manfaat empati dalam konteks menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membantu kita memahami teman dari latar belakang yang berbeda",
         "Mencegah kita bertindak menyakiti orang lain tanpa sadar",
+        "Membantu kita memahami teman dari latar belakang yang berbeda",
         "Membuat kita selalu setuju dengan pendapat orang lain",
         "Memaksa kita mengubah budaya sendiri"
       ],
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Hubungan yang benar antara mencintai lingkungan dan menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Lingkungan adalah rumah bersama semua warga tanpa memandang suku",
-        "Menjaga lingkungan berarti menjaga 'ruang bersama' yang dinikmati semua orang",
         "Lingkungan hanya perlu dijaga oleh suku asli setempat",
-        "Mencintai lingkungan tidak ada hubungannya dengan keberagaman"
+        "Menjaga lingkungan berarti menjaga 'ruang bersama' yang dinikmati semua orang",
+        "Mencintai lingkungan tidak ada hubungannya dengan keberagaman",
+        "Lingkungan adalah rumah bersama semua warga tanpa memandang suku"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2228,14 +2228,14 @@
       "stimulus": "",
       "q": "Filosofi Sunda 'Silih Asah, Silih Asih, Silih Asuh' mengandung nilai ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Saling mendidik dan mengajarkan satu sama lain",
-        "Saling mengasihi dan merawat — termasuk alam",
+        "Mengabaikan orang lain demi kepentingan sendiri",
         "Bersaing untuk menjadi yang paling unggul",
-        "Mengabaikan orang lain demi kepentingan sendiri"
+        "Saling mendidik dan mengajarkan satu sama lain",
+        "Saling mengasihi dan merawat — termasuk alam"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2250,8 +2250,8 @@
       "opt": [
         "Ikut kerja bakti membersihkan lingkungan bersama semua warga",
         "Merawat tanaman di sekitar rumah dan sekolah",
-        "Membuang sampah ke sungai agar cepat hanyut",
-        "Menebang pohon untuk memperindah pandangan"
+        "Menebang pohon untuk memperindah pandangan",
+        "Membuang sampah ke sungai agar cepat hanyut"
       ],
       "ans": [
         "A",
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Manfaat menghargai keberagaman bagi kehidupan bermasyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menciptakan kehidupan yang harmonis dan damai",
         "Memperkaya pengetahuan dan wawasan kita tentang budaya yang beragam",
+        "Menghilangkan identitas budaya masing-masing suku",
         "Membuat semua orang menjadi sama dan tidak ada perbedaan",
-        "Menghilangkan identitas budaya masing-masing suku"
+        "Menciptakan kehidupan yang harmonis dan damai"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2329,13 +2329,13 @@
       "q": "Pernyataan yang benar tentang menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menghargai bukan berarti harus meninggalkan budaya sendiri",
-        "Kita bisa bangga dengan budaya sendiri sambil menghormati budaya orang lain",
         "Menghargai berarti menganggap semua budaya sama nilainya",
-        "Menghargai berarti melupakan budaya asal kita sendiri"
+        "Menghargai berarti melupakan budaya asal kita sendiri",
+        "Kita bisa bangga dengan budaya sendiri sambil menghormati budaya orang lain"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2349,13 +2349,13 @@
       "q": "Mengapa tidak merusak fasilitas umum termasuk menghargai keberagaman?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Fasilitas umum digunakan bersama oleh semua warga dari berbagai latar belakang",
-        "Merusaknya berarti merugikan semua orang yang membutuhkannya",
         "Fasilitas umum hanya untuk orang dari suku tertentu",
-        "Merusak fasilitas tidak berpengaruh pada orang lain"
+        "Merusak fasilitas tidak berpengaruh pada orang lain",
+        "Merusaknya berarti merugikan semua orang yang membutuhkannya"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2369,13 +2369,13 @@
       "q": "Contoh sikap menghargai keberagaman di rumah yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Mengucapkan selamat kepada tetangga yang merayakan hari besar agamanya",
-        "Membantu tetangga tanpa memandang latar belakangnya",
         "Menghindari tetangga yang berbeda agama",
+        "Membantu tetangga tanpa memandang latar belakangnya",
         "Hanya bergaul dengan tetangga yang sesuku"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2388,14 +2388,14 @@
       "stimulus": "",
       "q": "Contoh sikap menghargai keberagaman di sekolah yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berteman dengan semua teman tanpa pilih-pilih suku/agama",
-        "Mau bekerja sama dalam kelompok dengan siapa pun",
+        "Menolak satu teman karena berbeda agama",
         "Mengejek teman yang cara bicaranya berbeda",
-        "Menolak satu teman karena berbeda agama"
+        "Mau bekerja sama dalam kelompok dengan siapa pun",
+        "Berteman dengan semua teman tanpa pilih-pilih suku/agama"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2410,8 +2410,8 @@
       "opt": [
         "Ikut kerja bakti bersama warga dari berbagai latar belakang",
         "Menghormati prosesi adat atau upacara keagamaan yang berbeda",
-        "Menghindari prosesi adat dari suku lain",
-        "Bersikap sopan hanya kepada orang yang sesuku"
+        "Bersikap sopan hanya kepada orang yang sesuku",
+        "Menghindari prosesi adat dari suku lain"
       ],
       "ans": [
         "A",
@@ -2428,14 +2428,14 @@
       "stimulus": "",
       "q": "Contoh sikap yang TIDAK menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mengejek logat bicara teman yang berasal dari daerah lain",
+        "Menyambut teman baru dari daerah lain dengan ramah",
         "Menolak bekerja kelompok karena teman berbeda agama",
-        "Mendukung teman yang tampil membawakan kesenian daerahnya",
-        "Menyambut teman baru dari daerah lain dengan ramah"
+        "Mengejek logat bicara teman yang berasal dari daerah lain",
+        "Mendukung teman yang tampil membawakan kesenian daerahnya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2448,14 +2448,14 @@
       "stimulus": "",
       "q": "Pernyataan yang benar tentang menghargai keberagaman dalam tindakan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Harus diwujudkan dalam tindakan nyata setiap hari, bukan hanya dalam pikiran",
         "Mencakup tindakan di rumah, sekolah, dan masyarakat",
         "Cukup tidak mengejek, tidak perlu aktif menghargai",
-        "Hanya perlu dilakukan pada hari-hari nasional"
+        "Hanya perlu dilakukan pada hari-hari nasional",
+        "Harus diwujudkan dalam tindakan nyata setiap hari, bukan hanya dalam pikiran"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Tindakan yang termasuk dalam daftar periksa menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berteman dengan siapa saja tanpa memilih-milih suku atau agama",
-        "Menghormati teman yang sedang menjalankan ibadahnya",
         "Mengejek teman karena cara bicaranya berbeda",
-        "Menolak bergabung dalam kegiatan yang melibatkan suku lain"
+        "Menolak bergabung dalam kegiatan yang melibatkan suku lain",
+        "Menghormati teman yang sedang menjalankan ibadahnya",
+        "Berteman dengan siapa saja tanpa memilih-milih suku atau agama"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2488,14 +2488,14 @@
       "stimulus": "",
       "q": "Mengapa penting untuk mendukung teman yang tampil membawakan kesenian daerahnya?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menunjukkan apresiasi terhadap kesenian daerah lain",
         "Membuat teman merasa dihargai dan keseniannya diakui",
-        "Karena pertunjukannya pasti selalu bagus",
-        "Karena guru mewajibkannya"
+        "Karena guru mewajibkannya",
+        "Menunjukkan apresiasi terhadap kesenian daerah lain",
+        "Karena pertunjukannya pasti selalu bagus"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2508,10 +2508,10 @@
       "stimulus": "",
       "q": "Dua dampak dari sikap tidak menghargai keberagaman di sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Teman yang berbeda budaya merasa tidak diterima dan tersisih",
         "Suasana kelas menjadi tegang dan tidak nyaman",
-        "Teman yang berbeda budaya menjadi lebih percaya diri",
-        "Kelas menjadi lebih akrab karena ada konflik"
+        "Teman yang berbeda budaya merasa tidak diterima dan tersisih",
+        "Kelas menjadi lebih akrab karena ada konflik",
+        "Teman yang berbeda budaya menjadi lebih percaya diri"
       ],
       "ans": [
         "A",
@@ -2529,13 +2529,13 @@
       "q": "Dua cara menghargai keberagaman yang bisa dilakukan siswa SD setiap hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menyapa dan menyambut teman baru dengan ramah tanpa memandang asalnya",
-        "Mau bergabung dalam kegiatan kelompok tanpa pilih-pilih",
         "Hanya menyapa teman yang sesuku",
+        "Mau bergabung dalam kegiatan kelompok tanpa pilih-pilih",
         "Menolak berbagi makanan dengan teman yang berbeda budaya"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2548,14 +2548,14 @@
       "stimulus": "",
       "q": "Tindakan konkret menghargai keberagaman yang berkaitan dengan tradisi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menghormati tradisi dari kedua belah pihak keluarga yang berbeda",
-        "Menonton dan menghargai pertunjukan kesenian dari suku lain",
+        "Mengkritik tradisi yang dianggap kuno",
         "Memaksakan tradisi kita kepada orang lain",
-        "Mengkritik tradisi yang dianggap kuno"
+        "Menonton dan menghargai pertunjukan kesenian dari suku lain",
+        "Menghormati tradisi dari kedua belah pihak keluarga yang berbeda"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2568,14 +2568,14 @@
       "stimulus": "",
       "q": "Sikap seorang 'penjaga kebinekaan yang nyata' mencakup ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Aktif membela teman yang dihina karena perbedaannya",
         "Ikut menjaga kebersihan lingkungan sekolah dan perumahan",
-        "Hanya berdiam diri jika ada penghinaan",
-        "Bergabung mengejek jika teman lain melakukannya"
+        "Bergabung mengejek jika teman lain melakukannya",
+        "Aktif membela teman yang dihina karena perbedaannya",
+        "Hanya berdiam diri jika ada penghinaan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2589,13 +2589,13 @@
       "q": "Mengapa menghargai keberagaman harus diwujudkan dalam tindakan nyata?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Karena niat baik saja tidak cukup jika tidak ada tindakan nyata",
-        "Karena tindakan nyata membuktikan bahwa kita benar-benar menghargai perbedaan",
+        "Karena tindakan nyata mendapat nilai tambahan dari guru",
         "Karena pemerintah mewajibkannya",
-        "Karena tindakan nyata mendapat nilai tambahan dari guru"
+        "Karena tindakan nyata membuktikan bahwa kita benar-benar menghargai perbedaan"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2608,14 +2608,14 @@
       "stimulus": "",
       "q": "Dua contoh sikap tidak menghargai keberagaman di masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mengganggu ibadah orang dari agama lain",
-        "Menolak berpartisipasi dalam kegiatan bersama warga yang berbeda suku",
         "Ikut serta dalam kerja bakti bersama semua warga",
-        "Menghormati prosesi adat dari suku lain"
+        "Menghormati prosesi adat dari suku lain",
+        "Mengganggu ibadah orang dari agama lain",
+        "Menolak berpartisipasi dalam kegiatan bersama warga yang berbeda suku"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2628,14 +2628,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang daftar periksa menghargai keberagaman adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Setiap tindakan kecil seperti menyapa adalah wujud nyata menghargai",
+        "Daftar periksa ini hanya untuk siswa kelas 4",
         "Jika belum melakukan semua poin, bisa dimulai dari hal terkecil hari ini",
-        "Hanya anak yang sempurna yang bisa melakukan semua poinnya",
-        "Daftar periksa ini hanya untuk siswa kelas 4"
+        "Setiap tindakan kecil seperti menyapa adalah wujud nyata menghargai",
+        "Hanya anak yang sempurna yang bisa melakukan semua poinnya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2648,14 +2648,14 @@
       "stimulus": "",
       "q": "Sikap yang MENJAGA kebinekaan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berteman dengan semua orang tanpa memilih-milih",
-        "Membela teman yang dihina karena perbedaannya",
         "Menyebarkan cerita buruk tentang suku tertentu",
-        "Hanya mau bergaul dengan yang sesuku"
+        "Berteman dengan semua orang tanpa memilih-milih",
+        "Hanya mau bergaul dengan yang sesuku",
+        "Membela teman yang dihina karena perbedaannya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Sikap yang MERUSAK kebinekaan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mengejek nama panggilan berdasarkan suku (rasis)",
         "Menolak kerja sama karena perbedaan latar belakang",
-        "Menghormati perbedaan agama dan kepercayaan",
-        "Mau bekerja sama meski berbeda latar belakang"
+        "Mau bekerja sama meski berbeda latar belakang",
+        "Mengejek nama panggilan berdasarkan suku (rasis)",
+        "Menghormati perbedaan agama dan kepercayaan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2690,8 +2690,8 @@
       "opt": [
         "Perpecahan — masyarakat terpecah menjadi kelompok yang bermusuhan",
         "Trauma psikologis — orang yang dihina bisa luka batin dalam",
-        "Masyarakat menjadi lebih bersatu dan kuat",
-        "Konflik diselesaikan lebih cepat"
+        "Konflik diselesaikan lebih cepat",
+        "Masyarakat menjadi lebih bersatu dan kuat"
       ],
       "ans": [
         "A",
@@ -2708,14 +2708,14 @@
       "stimulus": "",
       "q": "Dari kisah Doni dan kelasnya, dua pelajaran penting yang bisa dipetik adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Guru harus selalu hadir untuk menyelesaikan semua konflik",
         "Hanya bercanda' bukan alasan yang sah karena dampaknya tetap menyakitkan",
         "Satu orang berani bersuara bisa mengubah suasana kelas menjadi lebih baik",
-        "Siswa yang berbeda daerah sebaiknya duduk terpisah",
-        "Guru harus selalu hadir untuk menyelesaikan semua konflik"
+        "Siswa yang berbeda daerah sebaiknya duduk terpisah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2728,14 +2728,14 @@
       "stimulus": "",
       "q": "Cara menjadi penjaga kebinekaan yang bisa dilakukan oleh siswa SD adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berani bersuara jika ada teman yang dihina karena perbedaannya",
-        "Jadilah jembatan — undang semua orang untuk bermain bersama",
         "Membiarkan penghinaan terjadi karena bukan urusan kita",
-        "Hanya bergaul dengan teman yang sesuku untuk menghindari konflik"
+        "Hanya bergaul dengan teman yang sesuku untuk menghindari konflik",
+        "Berani bersuara jika ada teman yang dihina karena perbedaannya",
+        "Jadilah jembatan — undang semua orang untuk bermain bersama"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2748,14 +2748,14 @@
       "stimulus": "",
       "q": "Pelajari budaya orang lain' penting karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rasa ingin tahu yang tulus adalah antidot terbaik terhadap prasangka",
         "Memahami budaya lain membuat kita lebih menghargai perbedaan",
         "Kita bisa mengkritik budaya orang lain lebih baik",
-        "Kita harus meninggalkan budaya sendiri"
+        "Kita harus meninggalkan budaya sendiri",
+        "Rasa ingin tahu yang tulus adalah antidot terbaik terhadap prasangka"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2768,14 +2768,14 @@
       "stimulus": "",
       "q": "Pernyataan yang benar tentang diskriminasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Perlakuan berbeda yang merugikan seseorang karena identitasnya",
         "Di Indonesia, diskriminasi termasuk pelanggaran hukum",
+        "Diskriminasi hanya terjadi pada orang dewasa",
         "Diskriminasi diizinkan jika hanya dalam konteks bercanda",
-        "Diskriminasi hanya terjadi pada orang dewasa"
+        "Perlakuan berbeda yang merugikan seseorang karena identitasnya"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2789,13 +2789,13 @@
       "q": "Dampak 'menghambat kemajuan' akibat merusak kebinekaan maksudnya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Energi terbuang untuk konflik, bukan untuk belajar dan berkarya",
-        "Masyarakat tidak bisa fokus membangun karena sibuk dengan pertengkaran",
         "Konflik membuat masyarakat lebih produktif",
+        "Masyarakat tidak bisa fokus membangun karena sibuk dengan pertengkaran",
         "Perpecahan mendorong persaingan yang sehat"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2808,14 +2808,14 @@
       "stimulus": "",
       "q": "Kenali prasangkamu sendiri' sebagai langkah menjaga kebinekaan artinya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bertanya apakah ada stereotip yang kita percaya tentang suku atau agama tertentu",
+        "Menghindari semua orang yang berbeda",
         "Mempertanyakan dari mana kita tahu bahwa stereotip itu benar",
-        "Meyakini semua stereotip yang pernah kita dengar",
-        "Menghindari semua orang yang berbeda"
+        "Bertanya apakah ada stereotip yang kita percaya tentang suku atau agama tertentu",
+        "Meyakini semua stereotip yang pernah kita dengar"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2830,8 +2830,8 @@
       "opt": [
         "Setiap hari kita dihadapkan pada pilihan memperkuat atau melemahkan persatuan",
         "Setiap orang bisa menjadi penjaga kebinekaan mulai dari langkah kecil",
-        "Hanya orang dewasa yang bisa menjaga kebinekaan",
-        "Kebinekaan otomatis terjaga tanpa usaha siapapun"
+        "Kebinekaan otomatis terjaga tanpa usaha siapapun",
+        "Hanya orang dewasa yang bisa menjaga kebinekaan"
       ],
       "ans": [
         "A",
@@ -2848,14 +2848,14 @@
       "stimulus": "",
       "q": "Dua dampak merusak kebinekaan yang berkaitan langsung dengan keamanan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Ketidakamanan — saling tidak percaya membuat lingkungan tidak aman",
         "Konflik — perselisihan kecil bisa berkembang menjadi pertengkaran besar",
         "Lingkungan menjadi lebih damai",
-        "Masyarakat menjadi lebih saling percaya"
+        "Masyarakat menjadi lebih saling percaya",
+        "Ketidakamanan — saling tidak percaya membuat lingkungan tidak aman"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Peran setiap individu dalam menjaga kebinekaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Baru berperan setelah dewasa dan punya kekuasaan",
         "Ikut bertanggung jawab menjaga kebinekaan dalam kehidupan sehari-hari",
-        "Berkomitmen untuk tidak merusak persatuan meski perbedaan ada",
         "Hanya menunggu pemerintah yang mengambil tindakan",
-        "Baru berperan setelah dewasa dan punya kekuasaan"
+        "Berkomitmen untuk tidak merusak persatuan meski perbedaan ada"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2888,14 +2888,14 @@
       "stimulus": "",
       "q": "Tindakan Sari yang berkata 'Hei, jangan gitu ya' dalam kisah Doni adalah contoh ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berani bersuara untuk membela teman yang dihina",
-        "Menjadi jembatan yang mempersatukan teman-teman",
+        "Bersikap netral dalam konflik antar teman",
         "Melaporkan masalah kepada kepala sekolah",
-        "Bersikap netral dalam konflik antar teman"
+        "Menjadi jembatan yang mempersatukan teman-teman",
+        "Berani bersuara untuk membela teman yang dihina"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2909,13 +2909,13 @@
       "q": "Dua pernyataan benar tentang sikap merusak kebinekaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menghina perbedaan meski 'hanya bercanda' tetap menyakitkan",
-        "Diam saat melihat teman dihina karena perbedaannya termasuk ikut merusak kebinekaan",
         "Mengejek suku lain adalah bentuk kebebasan berekspresi",
+        "Diam saat melihat teman dihina karena perbedaannya termasuk ikut merusak kebinekaan",
         "Diskriminasi tidak apa-apa jika pelakunya masih anak-anak"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -3178,8 +3178,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3286,8 +3285,7 @@
       ],
       "cols": [
         "Sikap benar",
-        "Sikap salah",
-        "Sikap benar"
+        "Sikap salah"
       ],
       "ans": [
         "Sikap benar",
@@ -3394,8 +3392,7 @@
       ],
       "cols": [
         "Mencintai lingkungan",
-        "Tidak mencintai",
-        "Mencintai lingkungan"
+        "Tidak mencintai"
       ],
       "ans": [
         "Mencintai lingkungan",
@@ -3421,8 +3418,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3583,8 +3579,7 @@
       ],
       "cols": [
         "Mencintai sesama",
-        "Tidak mencintai",
-        "Mencintai sesama"
+        "Tidak mencintai"
       ],
       "ans": [
         "Mencintai sesama",
@@ -3610,8 +3605,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3718,8 +3712,7 @@
       ],
       "cols": [
         "Menghargai",
-        "Tidak menghargai",
-        "Menghargai"
+        "Tidak menghargai"
       ],
       "ans": [
         "Menghargai",
@@ -3907,8 +3900,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3934,8 +3926,7 @@
       ],
       "cols": [
         "Menghargai keberagaman",
-        "Tidak menghargai",
-        "Menghargai keberagaman"
+        "Tidak menghargai"
       ],
       "ans": [
         "Menghargai keberagaman",
@@ -4015,8 +4006,7 @@
       ],
       "cols": [
         "Sudah menghargai",
-        "Belum menghargai",
-        "Sudah menghargai"
+        "Belum menghargai"
       ],
       "ans": [
         "Sudah menghargai",
@@ -4042,8 +4032,7 @@
       ],
       "cols": [
         "Menjaga Kebinekaan",
-        "Merusak Kebinekaan",
-        "Menjaga Kebinekaan"
+        "Merusak Kebinekaan"
       ],
       "ans": [
         "Menjaga Kebinekaan",
@@ -4150,8 +4139,7 @@
       ],
       "cols": [
         "Menjaga",
-        "Merusak",
-        "Menjaga"
+        "Merusak"
       ],
       "ans": [
         "Menjaga",
@@ -4231,8 +4219,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4258,8 +4245,7 @@
       ],
       "cols": [
         "Diskriminasi",
-        "Bukan diskriminasi",
-        "Diskriminasi"
+        "Bukan diskriminasi"
       ],
       "ans": [
         "Diskriminasi",
@@ -4312,8 +4298,7 @@
       ],
       "cols": [
         "Menjaga kebinekaan → dampak positif",
-        "Merusak kebinekaan → dampak negatif",
-        "Menjaga kebinekaan → dampak positif"
+        "Merusak kebinekaan → dampak negatif"
       ],
       "ans": [
         "Menjaga kebinekaan → dampak positif",
@@ -4339,8 +4324,7 @@
       ],
       "cols": [
         "Menjaga kebinekaan",
-        "Merusak kebinekaan",
-        "Menjaga kebinekaan"
+        "Merusak kebinekaan"
       ],
       "ans": [
         "Menjaga kebinekaan",

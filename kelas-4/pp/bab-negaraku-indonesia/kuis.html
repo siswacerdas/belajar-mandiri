@@ -660,7 +660,7 @@ const CONFIG = {
     DURATION    : 90 * 60,   // detik
   JUMLAH_SOAL : 20,
   // Proporsi per jumlah soal → [PG, PGK, PGK_KAT]
-  PROPORSI    : { 20:[11,5,4], 30:[17,8,5], 40:[24,13,11] }
+  PROPORSI    : { 20:[11,5,4], 30:[17,8,5], 40:[22,10,8] }
 };
 
 // ════════════════════════════════════════════════════════════════════════
@@ -772,7 +772,7 @@ const app = {
     const pgk = this._shuffle(this.allSoal.filter(s => s.type === 'pgk')).slice(0, nPGK);
     const kat = this._shuffle(this.allSoal.filter(s => s.type === 'pgk-cat')).slice(0, nKAT);
 
-    this.soal = [...pg, ...pgk, ...kat];
+    this.soal = this._shuffleOpts([...pg, ...pgk, ...kat]);
 
     if (!this.soal.length) { alert('Soal belum tersedia. Periksa file soal.json.'); return; }
 
@@ -1325,6 +1325,37 @@ const app = {
   // ── SESSION PERSIST ──────────────────────────────────────────────────
   _saveSession: function() {
     try { localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(this.session)); } catch(e) {}
+  },
+
+
+  // ── ACAK OPSI JAWABAN (PG & PGK) ─────────────────────────────────────
+  // Dipanggil setelah soal dipilih dari pool. Mengacak urutan opsi dan
+  // menyesuaikan q.ans agar tetap menunjuk ke jawaban yang benar.
+  // PGK-CAT tidak diacak (ans array posisional terhadap rows).
+  _shuffleOpts: function(soalArr) {
+    const LTR = 'ABCDEF';
+    return soalArr.map(q => {
+      if (q.type === 'pgk-cat' || !q.opt || q.opt.length < 2) return q;
+
+      // Buat permutasi acak indeks [0,1,2,3] → mis. [2,0,3,1]
+      const n    = q.opt.length;
+      const perm = this._shuffle([...Array(n).keys()]);
+      const newOpt = perm.map(i => q.opt[i]);
+
+      // Peta: indeks lama → indeks baru
+      const oldToNew = {};
+      perm.forEach((oldIdx, newIdx) => { oldToNew[oldIdx] = newIdx; });
+
+      if (q.type === 'pg') {
+        const oldIdx = LTR.indexOf(q.ans);          // "B" → 1
+        return { ...q, opt: newOpt, ans: LTR[oldToNew[oldIdx]] };
+      }
+      if (q.type === 'pgk') {
+        const newAns = q.ans.map(letter => LTR[oldToNew[LTR.indexOf(letter)]]);
+        return { ...q, opt: newOpt, ans: newAns };
+      }
+      return q;
+    });
   },
 
   // ── SHUFFLE ──────────────────────────────────────────────────────────

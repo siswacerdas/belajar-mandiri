@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang norma adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Aturan atau pedoman yang mengatur tingkah laku manusia dalam kehidupan bermasyarakat",
-        "Diperlukan karena manusia adalah makhluk sosial yang perlu hidup bersama secara tertib",
+        "Hanya diperlukan di negara yang tidak aman",
         "Hanya berlaku di kantor pemerintah",
-        "Hanya diperlukan di negara yang tidak aman"
+        "Diperlukan karena manusia adalah makhluk sosial yang perlu hidup bersama secara tertib",
+        "Aturan atau pedoman yang mengatur tingkah laku manusia dalam kehidupan bermasyarakat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1868,14 +1868,14 @@
       "stimulus": "",
       "q": "Ciri-ciri norma yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Tidak pernah berubah sepanjang masa",
         "Berlaku umum bagi semua anggota masyarakat",
         "Ada sanksi bagi yang melanggarnya",
-        "Hanya berlaku untuk orang kaya",
-        "Tidak pernah berubah sepanjang masa"
+        "Hanya berlaku untuk orang kaya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1889,13 +1889,13 @@
       "q": "Sumber-sumber yang melahirkan norma dalam kehidupan manusia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Agama dan kepercayaan sebagai perintah Tuhan",
-        "Adat istiadat yang diwariskan turun-temurun",
+        "Tren mode yang sedang populer",
         "Keinginan pribadi seseorang",
-        "Tren mode yang sedang populer"
+        "Adat istiadat yang diwariskan turun-temurun"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1908,14 +1908,14 @@
       "stimulus": "",
       "q": "Ciri-ciri norma agama yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bersumber dari ajaran agama dan diyakini sebagai perintah Tuhan",
-        "Sanksinya berupa rasa dosa dan hukuman di akhirat",
+        "Bisa berubah sesuai keinginan penganutnya",
         "Dibuat oleh pemerintah negara",
-        "Bisa berubah sesuai keinginan penganutnya"
+        "Bersumber dari ajaran agama dan diyakini sebagai perintah Tuhan",
+        "Sanksinya berupa rasa dosa dan hukuman di akhirat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1928,14 +1928,14 @@
       "stimulus": "",
       "q": "Ciri-ciri norma kesopanan yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bersumber dari kebiasaan, tradisi, dan budaya masyarakat",
+        "Dibuat oleh negara dan bersifat memaksa",
         "Bersifat relatif — bisa berbeda antar daerah dan budaya",
         "Bersumber dari hati nurani manusia",
-        "Dibuat oleh negara dan bersifat memaksa"
+        "Bersumber dari kebiasaan, tradisi, dan budaya masyarakat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1948,14 +1948,14 @@
       "stimulus": "",
       "q": "Ciri-ciri norma kesusilaan yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bersumber dari hati nurani manusia",
-        "Sanksinya berupa rasa bersalah dan malu pada diri sendiri",
         "Dibuat oleh adat istiadat masyarakat",
-        "Sanksinya berupa penjara dan denda"
+        "Bersumber dari hati nurani manusia",
+        "Sanksinya berupa penjara dan denda",
+        "Sanksinya berupa rasa bersalah dan malu pada diri sendiri"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1969,13 +1969,13 @@
       "q": "Ciri-ciri norma hukum yang membedakannya dari norma lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Dibuat secara resmi oleh negara",
-        "Bersifat memaksa dan berlaku merata bagi semua warga negara",
         "Bersumber dari hati nurani",
-        "Hanya berlaku bagi yang melanggarnya"
+        "Hanya berlaku bagi yang melanggarnya",
+        "Bersifat memaksa dan berlaku merata bagi semua warga negara"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Norma yang sanksinya bersifat batin (dari dalam diri) adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Norma hukum — sanksinya penjara",
         "Norma kesusilaan — sanksinya rasa bersalah",
         "Norma agama — sanksinya rasa dosa",
-        "Norma hukum — sanksinya penjara",
         "Norma kesopanan — sanksinya dikucilkan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2008,14 +2008,14 @@
       "stimulus": "",
       "q": "Contoh norma agama yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Mengantri dengan tertib di kasir",
         "Menjalankan ibadah sesuai ajaran agama masing-masing",
         "Jujur dan tidak mencuri sebagai nilai yang diperintahkan Tuhan",
-        "Mengantri dengan tertib di kasir",
         "Membayar pajak tepat waktu"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2028,14 +2028,14 @@
       "stimulus": "",
       "q": "Contoh norma kesopanan dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memberi salam kepada tetangga saat berpapasan",
-        "Berpakaian sopan sesuai tempat dan situasi",
+        "Membayar denda jika melanggar aturan",
         "Merasa bersalah saat berbohong",
-        "Membayar denda jika melanggar aturan"
+        "Berpakaian sopan sesuai tempat dan situasi",
+        "Memberi salam kepada tetangga saat berpapasan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2050,8 +2050,8 @@
       "opt": [
         "Merasa iba dan menolong orang yang jatuh",
         "Merasa bersalah setelah berbohong meski tidak ada yang tahu",
-        "Mengantri karena diwajibkan",
-        "Memberi salam karena adat"
+        "Memberi salam karena adat",
+        "Mengantri karena diwajibkan"
       ],
       "ans": [
         "A",
@@ -2069,13 +2069,13 @@
       "q": "Contoh norma hukum dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menaati rambu lalu lintas",
+        "Memberi salam kepada orang yang lebih tua",
         "Membayar pajak tepat waktu",
-        "Merasa bersalah saat tidak jujur",
-        "Memberi salam kepada orang yang lebih tua"
+        "Merasa bersalah saat tidak jujur"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2089,13 +2089,13 @@
       "q": "Nilai-nilai yang hampir sama di semua agama adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Jujur dan tidak mencuri",
-        "Menghormati orang tua dan tidak menyakiti orang lain",
         "Cara dan waktu beribadah yang sama",
-        "Nama kitab suci yang sama"
+        "Nama kitab suci yang sama",
+        "Menghormati orang tua dan tidak menyakiti orang lain"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2108,14 +2108,14 @@
       "stimulus": "",
       "q": "Satu perbuatan bisa melanggar lebih dari satu norma. Mencuri misalnya melanggar ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Norma agama karena mencuri dilarang semua agama",
-        "Norma hukum karena mencuri adalah tindakan kriminal",
         "Norma kesopanan karena dikucilkan",
-        "Tidak ada norma yang dilanggar"
+        "Norma hukum karena mencuri adalah tindakan kriminal",
+        "Tidak ada norma yang dilanggar",
+        "Norma agama karena mencuri dilarang semua agama"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2130,8 +2130,8 @@
       "opt": [
         "Apa yang dianggap sopan di satu budaya bisa berbeda di budaya lain",
         "Norma kesopanan berbeda-beda tergantung kebiasaan setempat",
-        "Norma kesopanan sama persis di seluruh dunia",
-        "Norma kesopanan tidak perlu dipatuhi jika kita dari daerah berbeda"
+        "Norma kesopanan tidak perlu dipatuhi jika kita dari daerah berbeda",
+        "Norma kesopanan sama persis di seluruh dunia"
       ],
       "ans": [
         "A",
@@ -2148,14 +2148,14 @@
       "stimulus": "",
       "q": "Norma yang bersumber dari kesepakatan bersama contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Peraturan RT/RW yang disepakati warga",
+        "Perasaan batin yang membedakan baik dan buruk",
         "Tata tertib sekolah yang dibuat bersama",
-        "Ajaran dalam kitab suci agama",
-        "Perasaan batin yang membedakan baik dan buruk"
+        "Peraturan RT/RW yang disepakati warga",
+        "Ajaran dalam kitab suci agama"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2168,14 +2168,14 @@
       "stimulus": "",
       "q": "Perbedaan antara norma kesusilaan dan norma kesopanan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kesusilaan bersumber dari hati nurani; kesopanan dari adat budaya",
         "Sanksi kesusilaan batin (rasa bersalah); sanksi kesopanan sosial (dikucilkan)",
-        "Keduanya sama persis",
-        "Kesopanan lebih penting dari kesusilaan"
+        "Kesopanan lebih penting dari kesusilaan",
+        "Kesusilaan bersumber dari hati nurani; kesopanan dari adat budaya",
+        "Keduanya sama persis"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2188,14 +2188,14 @@
       "stimulus": "",
       "q": "Keistimewaan norma hukum dibanding norma lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Sanksinya hanya berupa teguran lisan",
         "Sanksinya tegas dan resmi dari negara",
         "Berlaku merata bagi semua warga tanpa pengecualian",
-        "Sanksinya hanya berupa teguran lisan",
         "Hanya berlaku bagi yang menyetujuinya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang keempat jenis norma adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Keempat norma saling melengkapi untuk kehidupan yang tertib",
         "Norma agama, kesopanan, kesusilaan, dan hukum semuanya diperlukan",
-        "Norma hukum menggantikan semua norma lain",
-        "Norma agama hanya berlaku bagi yang beragama saja"
+        "Norma agama hanya berlaku bagi yang beragama saja",
+        "Keempat norma saling melengkapi untuk kehidupan yang tertib",
+        "Norma hukum menggantikan semua norma lain"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2228,10 +2228,10 @@
       "stimulus": "",
       "q": "Manusia memerlukan norma dalam kehidupan bersama karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Manusia tidak bisa hidup sendirian dan perlu aturan agar bisa berdampingan",
         "Norma membantu masyarakat hidup tertib, aman, dan saling menghormati",
-        "Norma hanya diperlukan oleh orang yang berbuat salah",
-        "Hanya pemerintah yang perlu norma"
+        "Manusia tidak bisa hidup sendirian dan perlu aturan agar bisa berdampingan",
+        "Hanya pemerintah yang perlu norma",
+        "Norma hanya diperlukan oleh orang yang berbuat salah"
       ],
       "ans": [
         "A",
@@ -2248,14 +2248,14 @@
       "stimulus": "",
       "q": "Ciri norma yang menyatakan bahwa norma 'ditaati bersama' artinya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Norma diakui dan dipatuhi sebagai kesepakatan bersama anggota masyarakat",
         "Norma berlaku bukan hanya untuk individu tertentu saja",
+        "Norma bisa dipilih mana yang dipatuhi",
         "Norma hanya berlaku bagi yang mau mematuhinya",
-        "Norma bisa dipilih mana yang dipatuhi"
+        "Norma diakui dan dipatuhi sebagai kesepakatan bersama anggota masyarakat"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2268,14 +2268,14 @@
       "stimulus": "",
       "q": "Norma yang sanksinya datang dari luar diri (eksternal) adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Norma agama dengan sanksi rasa dosa",
         "Norma hukum dengan sanksi denda dan penjara",
         "Norma kesopanan dengan sanksi dikucilkan dan ditegur",
-        "Norma kesusilaan dengan sanksi rasa bersalah",
-        "Norma agama dengan sanksi rasa dosa"
+        "Norma kesusilaan dengan sanksi rasa bersalah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2288,10 +2288,10 @@
       "stimulus": "",
       "q": "Hati nurani manusia melahirkan norma kesusilaan karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Manusia secara alami bisa membedakan mana yang baik dan mana yang buruk",
         "Rasa batin ini mendorong manusia untuk berbuat baik tanpa perlu dipaksa",
-        "Hati nurani hanya ada pada orang beragama",
-        "Hati nurani bisa dibeli dengan uang"
+        "Manusia secara alami bisa membedakan mana yang baik dan mana yang buruk",
+        "Hati nurani bisa dibeli dengan uang",
+        "Hati nurani hanya ada pada orang beragama"
       ],
       "ans": [
         "A",
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Norma agama mengatur hubungan yang meliputi ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Hubungan manusia dengan Tuhannya (ibadah)",
-        "Hubungan manusia dengan sesama dan alam sekitarnya",
+        "Hanya hubungan manusia dengan kekayaan alam",
         "Hanya hubungan manusia dengan pemerintah",
-        "Hanya hubungan manusia dengan kekayaan alam"
+        "Hubungan manusia dengan sesama dan alam sekitarnya",
+        "Hubungan manusia dengan Tuhannya (ibadah)"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2328,14 +2328,14 @@
       "stimulus": "",
       "q": "Contoh yang menunjukkan seseorang mematuhi norma kesusilaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membantu orang yang kesusahan meski tidak ada yang melihat",
         "Merasa tidak enak saat melihat orang membuang sampah sembarangan",
         "Patuh pada hukum hanya karena takut ditilang",
+        "Membantu orang yang kesusahan meski tidak ada yang melihat",
         "Sopan hanya jika ada orang yang memperhatikan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2349,13 +2349,13 @@
       "q": "Contoh perbedaan norma kesopanan antar budaya yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Di sebagian budaya, menyisakan makanan berarti puas; di budaya lain berarti tidak menghargai tuan rumah",
-        "Di Indonesia anggukan berarti setuju; di Bulgaria anggukan berarti tidak setuju",
+        "Perbedaan norma kesopanan tidak mungkin terjadi",
         "Norma kesopanan selalu sama di seluruh dunia",
-        "Perbedaan norma kesopanan tidak mungkin terjadi"
+        "Di Indonesia anggukan berarti setuju; di Bulgaria anggukan berarti tidak setuju"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2368,14 +2368,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang hubungan antara norma agama dan norma kesusilaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Keduanya memiliki sanksi yang bersifat batin",
+        "Keduanya hanya berlaku di tempat ibadah",
         "Banyak nilai norma agama sejalan dengan nilai norma kesusilaan",
-        "Keduanya dibuat oleh pemerintah",
-        "Keduanya hanya berlaku di tempat ibadah"
+        "Keduanya memiliki sanksi yang bersifat batin",
+        "Keduanya dibuat oleh pemerintah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2389,13 +2389,13 @@
       "q": "Norma sangat penting bagi kehidupan bermasyarakat karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Tanpa norma, kehidupan bersama akan mengalami kekacauan",
-        "Norma memungkinkan manusia bisa hidup berdampingan dengan damai",
         "Norma membuat semua orang menjadi kaya",
+        "Norma memungkinkan manusia bisa hidup berdampingan dengan damai",
         "Norma hanya penting bagi orang yang sering berbuat salah"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2408,14 +2408,14 @@
       "stimulus": "",
       "q": "Manfaat norma bagi kehidupan bersama yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menciptakan ketertiban sehingga tidak ada yang bertindak semau sendiri",
-        "Melindungi hak setiap orang untuk merasa aman dan diperlakukan adil",
         "Membuat semua orang menjadi sama dan seragam",
-        "Menghilangkan semua perbedaan dalam masyarakat"
+        "Menghilangkan semua perbedaan dalam masyarakat",
+        "Melindungi hak setiap orang untuk merasa aman dan diperlakukan adil",
+        "Menciptakan ketertiban sehingga tidak ada yang bertindak semau sendiri"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2428,14 +2428,14 @@
       "stimulus": "",
       "q": "Norma mempererat hubungan sosial dan membentuk karakter. Artinya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Norma membuat interaksi menjadi menyenangkan dan saling menghargai",
-        "Dengan terbiasa mematuhi norma, kita tumbuh menjadi pribadi yang berakhlak baik",
         "Norma memaksa semua orang untuk berteman",
-        "Norma menghilangkan kreativitas seseorang"
+        "Norma menghilangkan kreativitas seseorang",
+        "Norma membuat interaksi menjadi menyenangkan dan saling menghargai",
+        "Dengan terbiasa mematuhi norma, kita tumbuh menjadi pribadi yang berakhlak baik"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2448,14 +2448,14 @@
       "stimulus": "",
       "q": "Akibat melanggar norma dalam kehidupan bermasyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mendapat sanksi sesuai jenis norma yang dilanggar",
+        "Tidak ada akibat apapun",
         "Hubungan sosial dengan orang lain menjadi terganggu",
-        "Mendapat hadiah dari pemerintah",
-        "Tidak ada akibat apapun"
+        "Mendapat sanksi sesuai jenis norma yang dilanggar",
+        "Mendapat hadiah dari pemerintah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Contoh norma yang berlaku di lingkungan rumah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menghormati orang tua dan anggota keluarga",
-        "Membantu pekerjaan rumah sesuai kemampuan",
         "Membayar pajak tepat waktu",
-        "Mengikuti upacara bendera"
+        "Mengikuti upacara bendera",
+        "Membantu pekerjaan rumah sesuai kemampuan",
+        "Menghormati orang tua dan anggota keluarga"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2489,13 +2489,13 @@
       "q": "Contoh norma yang berlaku di lingkungan sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Datang tepat waktu dan berseragam rapi",
-        "Menghormati guru dan tidak mencontek",
         "Mengikuti kerja bakti RT",
+        "Menghormati guru dan tidak mencontek",
         "Menyapa tetangga"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2528,14 +2528,14 @@
       "stimulus": "",
       "q": "Norma menciptakan keadilan dan menjaga keutuhan masyarakat. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Norma hukum memastikan semua orang diperlakukan sama di hadapan hukum",
         "Norma menjadi perekat yang menyatukan masyarakat yang beragam",
+        "Norma memisahkan suku yang berbeda",
         "Norma membuat orang kaya dan miskin tidak perlu berinteraksi",
-        "Norma memisahkan suku yang berbeda"
+        "Norma hukum memastikan semua orang diperlakukan sama di hadapan hukum"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2548,14 +2548,14 @@
       "stimulus": "",
       "q": "Pernyataan benar tentang sanksi pelanggaran norma adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Norma hukum sanksinya denda dan penjara dari negara",
-        "Norma kesopanan sanksinya dikucilkan dan dianggap tidak sopan",
         "Semua norma memiliki sanksi penjara",
+        "Norma kesopanan sanksinya dikucilkan dan dianggap tidak sopan",
+        "Norma hukum sanksinya denda dan penjara dari negara",
         "Norma kesusilaan sanksinya denda uang"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2568,14 +2568,14 @@
       "stimulus": "",
       "q": "Fungsi norma sebagai pedoman dan pelindung artinya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Norma hanya berlaku jika ada polisi yang mengawasi",
         "Norma memberi tahu apa yang boleh dan tidak boleh dilakukan",
-        "Norma melindungi hak dan kepentingan setiap orang dari perilaku yang merugikan",
         "Norma hanya melindungi orang yang kuat",
-        "Norma hanya berlaku jika ada polisi yang mengawasi"
+        "Norma melindungi hak dan kepentingan setiap orang dari perilaku yang merugikan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2608,14 +2608,14 @@
       "stimulus": "",
       "q": "Persamaan antara norma di rumah, sekolah, dan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Semuanya bertujuan menciptakan kehidupan yang tertib dan saling menghormati",
         "Semuanya bisa berlaku di lebih dari satu lingkungan",
         "Semuanya dibuat oleh pemerintah pusat",
+        "Semuanya bertujuan menciptakan kehidupan yang tertib dan saling menghormati",
         "Semuanya bersumber dari kitab suci"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2628,14 +2628,14 @@
       "stimulus": "",
       "q": "Cara siswa SD menjaga norma dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mematuhi tata tertib sekolah dan menjadi contoh yang baik",
-        "Mengingatkan teman yang melanggar norma dengan cara yang sopan",
         "Melaporkan semua pelanggaran ke polisi",
-        "Hanya guru yang bertanggung jawab menjaga norma"
+        "Mengingatkan teman yang melanggar norma dengan cara yang sopan",
+        "Hanya guru yang bertanggung jawab menjaga norma",
+        "Mematuhi tata tertib sekolah dan menjadi contoh yang baik"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2648,14 +2648,14 @@
       "stimulus": "",
       "q": "Jika banyak warga melanggar norma di lingkungan masyarakat, dampaknya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Lingkungan menjadi tidak aman dan tidak nyaman",
         "Kepercayaan antar warga hilang dan konflik mudah terjadi",
         "Lingkungan menjadi lebih maju",
+        "Lingkungan menjadi tidak aman dan tidak nyaman",
         "Pemerintah memberikan lebih banyak bantuan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Manfaat norma di sekolah bagi siswa adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Menghalangi siswa untuk berkreasi",
         "Menciptakan suasana belajar yang kondusif dan nyaman",
-        "Membantu siswa belajar disiplin dan bertanggung jawab sejak dini",
         "Membuat siswa takut kepada guru",
-        "Menghalangi siswa untuk berkreasi"
+        "Membantu siswa belajar disiplin dan bertanggung jawab sejak dini"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2689,13 +2689,13 @@
       "q": "Manfaat mematuhi norma di rumah bagi keluarga adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menciptakan suasana rumah yang harmonis dan saling menghormati",
-        "Anggota keluarga belajar tanggung jawab sejak dari lingkungan terdekat",
         "Membuat orang tua menjadi lebih kaya",
+        "Anggota keluarga belajar tanggung jawab sejak dari lingkungan terdekat",
         "Menghasilkan nilai bagus di sekolah"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2708,8 +2708,8 @@
       "stimulus": "",
       "q": "Mengapa norma di masyarakat bisa berbeda antar daerah?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Karena norma adat dipengaruhi oleh kebiasaan dan budaya setempat yang berbeda",
         "Karena kondisi geografis dan sejarah tiap daerah berbeda-beda",
+        "Karena norma adat dipengaruhi oleh kebiasaan dan budaya setempat yang berbeda",
         "Karena pemerintah membuat norma yang berbeda di tiap daerah",
         "Karena orang di satu daerah lebih baik dari daerah lain"
       ],
@@ -2728,8 +2728,8 @@
       "stimulus": "",
       "q": "Norma menjaga keutuhan masyarakat karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Norma menjadi perekat yang menyatukan masyarakat yang beragam",
         "Dengan norma, perbedaan suku, agama, dan budaya bisa tetap hidup rukun",
+        "Norma menjadi perekat yang menyatukan masyarakat yang beragam",
         "Norma memaksakan satu kebudayaan yang sama pada semua",
         "Tanpa norma, keberagaman justru membuat masyarakat lebih kuat"
       ],
@@ -2768,14 +2768,14 @@
       "stimulus": "",
       "q": "Contoh tindakan konkret menjaga norma di masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membuang sampah pada tempatnya agar lingkungan bersih",
+        "Hanya menjaga norma yang menguntungkan diri sendiri",
         "Menghormati tetangga dengan tidak membuat keributan",
-        "Mengabaikan norma yang dianggap kuno",
-        "Hanya menjaga norma yang menguntungkan diri sendiri"
+        "Membuang sampah pada tempatnya agar lingkungan bersih",
+        "Mengabaikan norma yang dianggap kuno"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2789,13 +2789,13 @@
       "q": "Dua pernyataan benar tentang norma dan kebebasan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Norma melindungi kebebasan setiap orang dengan mencegah orang lain berbuat semau sendiri",
-        "Norma justru diperlukan agar kebebasan bisa dinikmati bersama secara adil",
         "Norma sepenuhnya menghilangkan kebebasan manusia",
-        "Kebebasan sejati hanya bisa ada tanpa norma"
+        "Kebebasan sejati hanya bisa ada tanpa norma",
+        "Norma justru diperlukan agar kebebasan bisa dinikmati bersama secara adil"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2808,14 +2808,14 @@
       "stimulus": "",
       "q": "Norma yang berlaku sekaligus di rumah, sekolah, dan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Jujur dan tidak berbohong",
-        "Menghormati orang lain dan tidak merugikan sesama",
         "Tata cara berseragam sekolah",
-        "Aturan jam malam yang dibuat orang tua"
+        "Jujur dan tidak berbohong",
+        "Aturan jam malam yang dibuat orang tua",
+        "Menghormati orang lain dan tidak merugikan sesama"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2830,8 +2830,8 @@
       "opt": [
         "Manusia adalah makhluk sosial yang membutuhkan penerimaan orang lain",
         "Dijauhi teman atau tetangga bisa membuat hidup sangat tidak nyaman",
-        "Sanksi sosial lebih keras dari hukuman penjara",
-        "Hukum tidak pernah ditegakkan"
+        "Hukum tidak pernah ditegakkan",
+        "Sanksi sosial lebih keras dari hukuman penjara"
       ],
       "ans": [
         "A",
@@ -2848,14 +2848,14 @@
       "stimulus": "",
       "q": "Norma membentuk karakter sejak kecil. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Anak yang terbiasa mengantri sejak kecil tumbuh menjadi orang yang sabar",
-        "Anak yang dibiasakan menghormati orang tua tumbuh menjadi pribadi yang sopan",
+        "Norma tidak berpengaruh pada karakter anak",
         "Anak yang tidak pernah diajari norma tumbuh menjadi lebih kreatif",
-        "Norma tidak berpengaruh pada karakter anak"
+        "Anak yang dibiasakan menghormati orang tua tumbuh menjadi pribadi yang sopan",
+        "Anak yang terbiasa mengantri sejak kecil tumbuh menjadi orang yang sabar"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Pernyataan benar tentang norma tidak mencontek di sekolah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mencontek melanggar norma kejujuran akademik",
-        "Terbiasa tidak mencontek membangun karakter jujur dan bertanggung jawab",
         "Mencontek tidak apa-apa jika tidak ketahuan",
-        "Norma tidak mencontek hanya dibuat guru untuk menyusahkan siswa"
+        "Norma tidak mencontek hanya dibuat guru untuk menyusahkan siswa",
+        "Mencontek melanggar norma kejujuran akademik",
+        "Terbiasa tidak mencontek membangun karakter jujur dan bertanggung jawab"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2888,14 +2888,14 @@
       "stimulus": "",
       "q": "Kisah Lord of the Flies mengajarkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tanpa norma yang dijaga bersama, kehidupan bisa jatuh ke kekacauan",
         "Norma sangat penting bahkan bagi anak-anak sekalipun",
+        "Pulau terpencil adalah tempat terbaik untuk hidup",
         "Orang dewasa tidak penting dalam kehidupan bermasyarakat",
-        "Pulau terpencil adalah tempat terbaik untuk hidup"
+        "Tanpa norma yang dijaga bersama, kehidupan bisa jatuh ke kekacauan"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2908,14 +2908,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang manfaat norma bagi individu dan masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Individu: terlindungi haknya dan terbentuk karakternya",
-        "Masyarakat: hidup tertib, aman, adil, dan keutuhan terjaga",
         "Individu menjadi tidak bebas sama sekali",
-        "Masyarakat tanpa norma justru lebih maju"
+        "Masyarakat: hidup tertib, aman, adil, dan keutuhan terjaga",
+        "Masyarakat tanpa norma justru lebih maju",
+        "Individu: terlindungi haknya dan terbentuk karakternya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -3286,8 +3286,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3448,8 +3447,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3637,8 +3635,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3799,8 +3796,7 @@
       ],
       "cols": [
         "Dengan norma",
-        "Tanpa norma",
-        "Dengan norma"
+        "Tanpa norma"
       ],
       "ans": [
         "Dengan norma",
@@ -3934,8 +3930,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3988,8 +3983,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4123,8 +4117,7 @@
       ],
       "cols": [
         "Ada norma",
-        "Tanpa norma",
-        "Ada norma"
+        "Tanpa norma"
       ],
       "ans": [
         "Ada norma",
@@ -4150,8 +4143,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4177,8 +4169,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4231,8 +4222,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4393,8 +4383,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",

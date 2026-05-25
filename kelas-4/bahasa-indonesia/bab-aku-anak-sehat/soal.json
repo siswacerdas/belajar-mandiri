@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Jenis-jenis masalah yang bisa dialami tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Masalah dengan diri sendiri seperti tidak percaya diri atau sakit",
-        "Masalah dengan orang lain seperti kesalahpahaman atau pertengkaran",
         "Masalah dengan keadaan seperti kehilangan barang atau bencana",
-        "Hanya masalah yang berkaitan dengan sekolah"
+        "Masalah dengan orang lain seperti kesalahpahaman atau pertengkaran",
+        "Hanya masalah yang berkaitan dengan sekolah",
+        "Masalah dengan diri sendiri seperti tidak percaya diri atau sakit"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1868,14 +1868,14 @@
       "stimulus": "",
       "q": "Tiga pertanyaan untuk menemukan masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Apa yang membuat tokoh sedih, bingung, atau khawatir?",
-        "Apa yang ingin dicapai tokoh tapi terhalang?",
+        "Siapa nama tokoh dan berapa usianya?",
         "Bagaimana tokoh menyelesaikan masalahnya?",
-        "Siapa nama tokoh dan berapa usianya?"
+        "Apa yang membuat tokoh sedih, bingung, atau khawatir?",
+        "Apa yang ingin dicapai tokoh tapi terhalang?"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1888,14 +1888,14 @@
       "stimulus": "",
       "q": "Dalam cerita 'Andi dan Sarapan Pagi', dua hal yang terkait langsung dengan masalah Andi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Andi begadang menonton TV sehingga bangun terlambat",
         "Andi tidak sempat sarapan dan lemas di sekolah",
+        "Andi tidak punya teman di sekolah",
         "Andi tidak suka pelajaran olahraga",
-        "Andi tidak punya teman di sekolah"
+        "Andi begadang menonton TV sehingga bangun terlambat"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1908,14 +1908,14 @@
       "stimulus": "",
       "q": "Dua informasi yang bisa kita temukan setelah mengidentifikasi masalah tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Penyebab mengapa masalah itu muncul",
         "Cara atau solusi yang digunakan tokoh untuk mengatasi masalah",
         "Jumlah halaman cerita yang membahas masalah",
+        "Penyebab mengapa masalah itu muncul",
         "Nama orang tua dari tokoh utama"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1928,14 +1928,14 @@
       "stimulus": "",
       "q": "Dari cerita 'Siti dan Air Bersih', dua gejala yang menjadi tanda adanya masalah Siti adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Siti sering sakit kepala dan bibir kering",
         "Siti merasa lebih cepat lelah saat bermain",
         "Siti tidak mau pergi ke sekolah",
-        "Siti bertengkar dengan teman-temannya"
+        "Siti bertengkar dengan teman-temannya",
+        "Siti sering sakit kepala dan bibir kering"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1948,14 +1948,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Masalah menggerakkan jalan cerita dari awal sampai akhir",
         "Cerita tanpa masalah terasa hambar dan membosankan",
+        "Masalah hanya boleh ada di bagian akhir cerita",
         "Masalah selalu diselesaikan oleh tokoh lain, bukan tokoh utama",
-        "Masalah hanya boleh ada di bagian akhir cerita"
+        "Masalah menggerakkan jalan cerita dari awal sampai akhir"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1968,14 +1968,14 @@
       "stimulus": "",
       "q": "Solusi yang berhasil mengatasi masalah dalam kedua cerita (Andi dan Siti) adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Andi berjanji tidur lebih awal dan selalu sarapan",
-        "Siti mulai rutin minum 6-8 gelas air putih setiap hari",
         "Andi meminta temannya membawakan sarapan",
+        "Siti mulai rutin minum 6-8 gelas air putih setiap hari",
+        "Andi berjanji tidur lebih awal dan selalu sarapan",
         "Siti berhenti minum minuman manis sepenuhnya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Pesan moral yang terkandung dalam cerita tentang kesehatan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Sarapan penting sebagai bahan bakar tubuh untuk belajar dan beraktivitas",
         "Minum air putih yang cukup penting untuk menjaga kesehatan tubuh",
-        "Guru olahraga adalah orang yang paling penting di sekolah",
-        "Minuman manis harus sepenuhnya dihindari oleh semua orang"
+        "Minuman manis harus sepenuhnya dihindari oleh semua orang",
+        "Sarapan penting sebagai bahan bakar tubuh untuk belajar dan beraktivitas",
+        "Guru olahraga adalah orang yang paling penting di sekolah"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2009,13 +2009,13 @@
       "q": "Cara yang tepat untuk menemukan masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Mencari kalimat yang menggambarkan tokoh merasa tidak nyaman atau khawatir",
-        "Mencari bagian yang menceritakan tokoh menghadapi hambatan untuk mencapai tujuannya",
         "Hanya membaca paragraf pertama cerita",
+        "Mencari bagian yang menceritakan tokoh menghadapi hambatan untuk mencapai tujuannya",
         "Menghitung berapa kali nama tokoh disebut"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2028,14 +2028,14 @@
       "stimulus": "",
       "q": "Dua contoh masalah dengan DIRI SENDIRI yang bisa dialami tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Merasa takut dan tidak percaya diri saat tampil di depan umum",
-        "Malas belajar sehingga nilai ujiannya jelek",
         "Bertengkar dengan sahabat karena berbeda pendapat",
-        "Kehilangan tas saat perjalanan ke sekolah"
+        "Kehilangan tas saat perjalanan ke sekolah",
+        "Merasa takut dan tidak percaya diri saat tampil di depan umum",
+        "Malas belajar sehingga nilai ujiannya jelek"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2048,14 +2048,14 @@
       "stimulus": "",
       "q": "Dalam cerita Dimas, dua masalah yang ia hadapi sebelum lomba lari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kaki nyeri setelah latihan yang terlalu berat",
-        "Dokter menyarankan istirahat dua hari tidak berlari",
         "Tidak punya sepatu lari yang bagus",
-        "Tidak mendapat dukungan dari orang tua"
+        "Dokter menyarankan istirahat dua hari tidak berlari",
+        "Tidak mendapat dukungan dari orang tua",
+        "Kaki nyeri setelah latihan yang terlalu berat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2068,14 +2068,14 @@
       "stimulus": "",
       "q": "Manfaat kemampuan mengidentifikasi masalah tokoh dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memahami cerita lebih mendalam dan menemukan nilai-nilai positif",
-        "Bisa menentukan solusi terbaik jika menghadapi situasi serupa",
+        "Mengetahui jumlah kata dalam cerita",
         "Bisa menghafal nama semua tokoh dengan mudah",
-        "Mengetahui jumlah kata dalam cerita"
+        "Bisa menentukan solusi terbaik jika menghadapi situasi serupa",
+        "Memahami cerita lebih mendalam dan menemukan nilai-nilai positif"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2088,14 +2088,14 @@
       "stimulus": "",
       "q": "Dua pernyataan yang tepat tentang titik puncak masalah dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Titik puncak adalah saat masalah terasa paling berat bagi tokoh",
+        "Titik puncak tidak berpengaruh pada alur cerita",
         "Titik puncak biasanya mendorong tokoh untuk mengambil tindakan",
-        "Titik puncak selalu ada di awal cerita",
-        "Titik puncak tidak berpengaruh pada alur cerita"
+        "Titik puncak adalah saat masalah terasa paling berat bagi tokoh",
+        "Titik puncak selalu ada di awal cerita"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2108,14 +2108,14 @@
       "stimulus": "",
       "q": "Lima aspek yang diperiksa saat menilai kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tokoh dan latar tempat",
-        "Suasana dan objek/kegiatan",
         "Harga dan ukuran buku",
-        "Nama ilustrator dan tahun pembuatan"
+        "Nama ilustrator dan tahun pembuatan",
+        "Suasana dan objek/kegiatan",
+        "Tokoh dan latar tempat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2130,8 +2130,8 @@
       "opt": [
         "Tokoh yang digambar sesuai dengan tokoh yang diceritakan",
         "Kegiatan dan objek dalam gambar sesuai dengan isi cerita",
-        "Warna gambar terlihat lebih cerah dari biasanya",
-        "Gambar lebih besar dari teks"
+        "Gambar lebih besar dari teks",
+        "Warna gambar terlihat lebih cerah dari biasanya"
       ],
       "ans": [
         "A",
@@ -2148,14 +2148,14 @@
       "stimulus": "",
       "q": "Checklist kesesuaian ilustrasi untuk teks 'Senam Pagi di Sekolah' yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Objek — tidak cocok: gambar bola basket bukan senam",
         "Tokoh — cocok: gambar anak SD dan guru sesuai cerita",
-        "Latar — cocok: gambar lapangan sekolah sesuai teks",
         "Suasana — tidak cocok: seharusnya sedih",
-        "Objek — tidak cocok: gambar bola basket bukan senam"
+        "Latar — cocok: gambar lapangan sekolah sesuai teks"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2168,14 +2168,14 @@
       "stimulus": "",
       "q": "Ilustrasi TIDAK sesuai dengan teks jika ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kegiatan yang digambar berbeda dari apa yang diceritakan di teks",
         "Suasana gambar bertentangan dengan suasana dalam cerita",
+        "Gambar tidak memiliki keterangan tulisan",
         "Warna baju tokoh sedikit berbeda dari deskripsi",
-        "Gambar tidak memiliki keterangan tulisan"
+        "Kegiatan yang digambar berbeda dari apa yang diceritakan di teks"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2188,14 +2188,14 @@
       "stimulus": "",
       "q": "Dua pertanyaan dari checklist yang paling kritis dalam menilai kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Apakah kegiatan yang digambar sama dengan yang diceritakan?'",
         "Apakah suasana gambar cocok dengan perasaan cerita?'",
-        "Apakah gambar cukup berwarna?'",
-        "Apakah ukuran gambar sesuai halaman?'"
+        "Apakah ukuran gambar sesuai halaman?'",
+        "Apakah kegiatan yang digambar sama dengan yang diceritakan?'",
+        "Apakah gambar cukup berwarna?'"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Dari checklist kesesuaian, gambar 'hamburger dan minuman bersoda' untuk teks 'Makan Sayur Bersama Keluarga' memiliki masalah pada aspek ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Objek/kegiatan — gambar makanan tidak sehat untuk teks makanan sehat",
-        "Tema — tema makanan cepat saji bertentangan dengan tema makan sayur sehat",
+        "Tokoh — jumlah tokoh dalam gambar",
         "Latar tempat — lapangan dan ruang makan",
-        "Tokoh — jumlah tokoh dalam gambar"
+        "Tema — tema makanan cepat saji bertentangan dengan tema makan sayur sehat",
+        "Objek/kegiatan — gambar makanan tidak sehat untuk teks makanan sehat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2249,13 +2249,13 @@
       "q": "Ilustrasi yang menggambarkan 'anak minum air putih dari botol bening di sekolah' untuk teks 'Pentingnya Minum Air Putih' sesuai pada aspek ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Objek — botol air putih sesuai topik hidrasi",
-        "Tema — tema kesehatan dan hidrasi sesuai",
         "Latar — sekolah tidak disebutkan dalam teks",
-        "Suasana — anak terlihat sakit"
+        "Suasana — anak terlihat sakit",
+        "Tema — tema kesehatan dan hidrasi sesuai"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2269,13 +2269,13 @@
       "q": "Manfaat kemampuan menilai kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Tidak salah memahami isi bacaan akibat gambar yang menyesatkan",
-        "Bisa memilih buku dengan ilustrasi yang paling baik",
+        "Tidak perlu membaca teks jika ilustrasinya bagus",
         "Bisa menggambar ulang ilustrasi yang tidak sesuai",
-        "Tidak perlu membaca teks jika ilustrasinya bagus"
+        "Bisa memilih buku dengan ilustrasi yang paling baik"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2288,14 +2288,14 @@
       "stimulus": "",
       "q": "Untuk teks cerita Dimas yang berlari meski kakinya sakit, ilustrasi yang sesuai harus memiliki ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tokoh anak berlari di lapangan — sesuai cerita",
         "Suasana perjuangan atau tegang — sesuai situasi cerita",
+        "Latar pantai — tidak sesuai",
         "Suasana gembira dan tawa — tidak sesuai",
-        "Latar pantai — tidak sesuai"
+        "Tokoh anak berlari di lapangan — sesuai cerita"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Dua alasan mengapa ilustrasi yang tidak sesuai bisa berbahaya bagi pembaca adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pembaca bisa salah memahami isi cerita",
-        "Pembaca bisa mendapat kesan yang berbeda dari yang dimaksud penulis",
         "Gambarnya pasti terlihat jelek dan tidak menarik",
-        "Ukuran buku menjadi tidak konsisten"
+        "Ukuran buku menjadi tidak konsisten",
+        "Pembaca bisa salah memahami isi cerita",
+        "Pembaca bisa mendapat kesan yang berbeda dari yang dimaksud penulis"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2328,14 +2328,14 @@
       "stimulus": "",
       "q": "Perbedaan menilai kesesuaian ilustrasi (Bab 8) dengan menyampaikan pendapat tentang ilustrasi (Bab 6) adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Bab 8 tidak memerlukan alasan; Bab 6 memerlukan alasan",
         "Bab 8 menggunakan checklist objektif; Bab 6 menyampaikan pendapat pribadi",
         "Bab 8 lebih sistematis dengan 5 aspek yang jelas; Bab 6 bebas berpendapat",
-        "Bab 8 tidak memerlukan alasan; Bab 6 memerlukan alasan",
         "Bab 6 lebih ilmiah daripada Bab 8"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2348,14 +2348,14 @@
       "stimulus": "",
       "q": "Dua pertanyaan yang tepat untuk memulai penilaian kesesuaian ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Apakah tokoh di gambar sama dengan yang ada di teks?'",
         "Apakah kegiatan yang digambar sesuai dengan isi cerita?'",
-        "Apakah gambarnya cukup besar untuk dilihat?'",
-        "Apakah ilustratornya terkenal?'"
+        "Apakah ilustratornya terkenal?'",
+        "Apakah tokoh di gambar sama dengan yang ada di teks?'",
+        "Apakah gambarnya cukup besar untuk dilihat?'"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2368,14 +2368,14 @@
       "stimulus": "",
       "q": "Ciri-ciri kalimat FAKTA yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berisi angka, data, atau hasil pengukuran yang bisa diverifikasi",
-        "Kebenarannya bisa dibuktikan dan berlaku untuk semua orang",
+        "Bisa diperdebatkan dan orang lain bisa tidak setuju",
         "Menggunakan kata 'menurut saya' atau 'sebaiknya'",
-        "Bisa diperdebatkan dan orang lain bisa tidak setuju"
+        "Kebenarannya bisa dibuktikan dan berlaku untuk semua orang",
+        "Berisi angka, data, atau hasil pengukuran yang bisa diverifikasi"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2388,14 +2388,14 @@
       "stimulus": "",
       "q": "Ciri-ciri kalimat OPINI yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Merupakan pendapat atau penilaian pribadi seseorang",
         "Menggunakan kata penanda seperti 'paling', 'terbaik', 'membosankan'",
-        "Berisi angka statistik dari lembaga resmi",
-        "Kebenarannya bisa dibuktikan secara ilmiah"
+        "Kebenarannya bisa dibuktikan secara ilmiah",
+        "Merupakan pendapat atau penilaian pribadi seseorang",
+        "Berisi angka statistik dari lembaga resmi"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2408,14 +2408,14 @@
       "stimulus": "",
       "q": "Dari teks bersepeda, dua kalimat yang merupakan FAKTA adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bersepeda 30 menit membakar sekitar 200 kalori (data Kemenkes)'",
+        "Sebaiknya setiap kota menyediakan jalur sepeda'",
         "Kota Bandung telah menyediakan jalur sepeda 12 kilometer'",
-        "Bersepeda adalah olahraga paling menyenangkan'",
-        "Sebaiknya setiap kota menyediakan jalur sepeda'"
+        "Bersepeda 30 menit membakar sekitar 200 kalori (data Kemenkes)'",
+        "Bersepeda adalah olahraga paling menyenangkan'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2448,14 +2448,14 @@
       "stimulus": "",
       "q": "Dari teks jajanan sekolah, dua kalimat yang merupakan FAKTA adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "BPOM menemukan 15% jajanan sekolah mengandung bahan berbahaya'",
-        "Data diperoleh dari pengujian 30 sekolah dasar di Jawa Barat tahun 2024'",
         "Semua jajanan di depan sekolah sebaiknya dilarang'",
-        "Lebih baik anak-anak membawa bekal dari rumah saja'"
+        "BPOM menemukan 15% jajanan sekolah mengandung bahan berbahaya'",
+        "Lebih baik anak-anak membawa bekal dari rumah saja'",
+        "Data diperoleh dari pengujian 30 sekolah dasar di Jawa Barat tahun 2024'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2469,13 +2469,13 @@
       "q": "Trik membedakan fakta dan opini yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Tanya: 'Apakah kalimat ini bisa dibuktikan benar atau salah?' — jika bisa, itu fakta",
-        "Tanya: 'Apakah ada kata penilaian seperti paling, sebaiknya, saya rasa?' — jika ada, itu opini",
+        "Tanya: 'Apakah ada nama orang?' — jika ada, itu opini",
         "Tanya: 'Apakah kalimat ini panjang?' — jika panjang, itu fakta",
-        "Tanya: 'Apakah ada nama orang?' — jika ada, itu opini"
+        "Tanya: 'Apakah ada kata penilaian seperti paling, sebaiknya, saya rasa?' — jika ada, itu opini"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2508,14 +2508,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang perbedaan fakta dan opini adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Fakta bisa dibuktikan; opini merupakan penilaian yang bisa diperdebatkan",
         "Satu teks bisa mengandung fakta dan opini sekaligus",
-        "Opini selalu lebih menarik dari fakta",
-        "Fakta hanya bisa ditemukan di teks ilmiah"
+        "Fakta hanya bisa ditemukan di teks ilmiah",
+        "Fakta bisa dibuktikan; opini merupakan penilaian yang bisa diperdebatkan",
+        "Opini selalu lebih menarik dari fakta"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2528,14 +2528,14 @@
       "stimulus": "",
       "q": "Dua contoh kalimat fakta yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Anak usia 6-12 tahun membutuhkan tidur 9-12 jam setiap malam'",
         "Wortel mengandung vitamin A yang baik untuk kesehatan mata'",
         "Tidur siang itu membosankan menurut banyak anak'",
+        "Anak usia 6-12 tahun membutuhkan tidur 9-12 jam setiap malam'",
         "Sayur wortel paling enak dimakan sebagai sup'"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2548,14 +2548,14 @@
       "stimulus": "",
       "q": "Dua contoh kalimat opini yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Renang adalah olahraga paling menyenangkan'",
         "Menurut saya, wortel rasanya kurang enak jika dimakan mentah'",
         "Renang membakar 400-700 kalori per jam'",
-        "Wortel mengandung beta-karoten yang baik untuk tubuh'"
+        "Wortel mengandung beta-karoten yang baik untuk tubuh'",
+        "Renang adalah olahraga paling menyenangkan'"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2568,8 +2568,8 @@
       "stimulus": "",
       "q": "Manfaat kemampuan membedakan fakta dan opini adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tidak mudah tertipu oleh informasi yang belum tentu benar",
         "Bisa menilai keandalan sebuah teks lebih kritis",
+        "Tidak mudah tertipu oleh informasi yang belum tentu benar",
         "Tidak perlu membaca opini dari siapapun",
         "Bisa menulis hanya fakta tanpa opini"
       ],
@@ -2589,13 +2589,13 @@
       "q": "Kalimat 'Data ini diperoleh dari pengujian sampel di 30 sekolah dasar' merupakan fakta karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Berisi informasi yang bisa diverifikasi — jumlah sekolah dan metode pengujian",
-        "Proses pengujian di sekolah dasar bisa dibuktikan keberadaannya",
         "Data adalah pendapat yang paling ilmiah",
+        "Proses pengujian di sekolah dasar bisa dibuktikan keberadaannya",
         "Pengujian di sekolah selalu menghasilkan fakta"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2608,10 +2608,10 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang kalimat yang mengandung kata 'terbaik' atau 'paling' adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kata-kata tersebut biasanya menandakan penilaian subjektif",
         "Kalimat yang menggunakan kata-kata itu cenderung merupakan opini",
-        "Kata-kata itu selalu menandakan fakta ilmiah",
-        "Kalimat dengan 'paling' selalu bisa dibuktikan benar"
+        "Kata-kata tersebut biasanya menandakan penilaian subjektif",
+        "Kalimat dengan 'paling' selalu bisa dibuktikan benar",
+        "Kata-kata itu selalu menandakan fakta ilmiah"
       ],
       "ans": [
         "A",
@@ -2628,14 +2628,14 @@
       "stimulus": "",
       "q": "Membaca teks secara kritis berarti ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mengenali mana kalimat yang merupakan fakta",
+        "Hanya membaca bagian yang berisi angka dan data",
         "Mengenali mana kalimat yang merupakan opini",
         "Langsung percaya semua yang tertulis",
-        "Hanya membaca bagian yang berisi angka dan data"
+        "Mengenali mana kalimat yang merupakan fakta"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2648,14 +2648,14 @@
       "stimulus": "",
       "q": "Tiga bagian utama dalam struktur cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Awal (orientasi) — perkenalan tokoh dan latar",
+        "Bagian data statistik",
         "Tengah (komplikasi) — masalah dan konflik",
-        "Akhir (resolusi) — penyelesaian dan pesan",
-        "Bagian data statistik"
+        "Awal (orientasi) — perkenalan tokoh dan latar",
+        "Akhir (resolusi) — penyelesaian dan pesan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Informasi yang biasanya ditemukan di bagian AWAL cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Nama dan karakteristik tokoh utama",
-        "Latar tempat dan waktu cerita berlangsung",
         "Puncak konflik yang paling menegangkan",
+        "Latar tempat dan waktu cerita berlangsung",
+        "Nama dan karakteristik tokoh utama",
         "Penyelesaian masalah tokoh"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2688,14 +2688,14 @@
       "stimulus": "",
       "q": "Informasi yang biasanya ditemukan di bagian TENGAH cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Masalah atau konflik yang harus dihadapi tokoh",
+        "Pesan moral yang ingin disampaikan penulis",
         "Cara tokoh menghadapi rintangan yang muncul",
         "Perkenalan nama dan latar belakang tokoh",
-        "Pesan moral yang ingin disampaikan penulis"
+        "Masalah atau konflik yang harus dihadapi tokoh"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2708,14 +2708,14 @@
       "stimulus": "",
       "q": "Informasi yang biasanya ditemukan di bagian AKHIR cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Masalah baru yang membuat cerita semakin rumit",
         "Penyelesaian masalah yang dihadapi tokoh",
-        "Pesan moral atau pelajaran yang bisa dipetik",
         "Perkenalan tokoh baru yang menggantikan tokoh utama",
-        "Masalah baru yang membuat cerita semakin rumit"
+        "Pesan moral atau pelajaran yang bisa dipetik"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2728,10 +2728,10 @@
       "stimulus": "",
       "q": "Dari cerita 'Lomba Lari Dimas', dua informasi yang termasuk bagian AWAL adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Dimas adalah siswa kelas 4 yang suka lari",
         "Ia berlatih bersama ayahnya di kompleks Dayeuhkolot",
-        "Kaki Dimas nyeri setelah latihan berlebihan",
-        "Dimas finis di posisi keempat"
+        "Dimas adalah siswa kelas 4 yang suka lari",
+        "Dimas finis di posisi keempat",
+        "Kaki Dimas nyeri setelah latihan berlebihan"
       ],
       "ans": [
         "A",
@@ -2748,14 +2748,14 @@
       "stimulus": "",
       "q": "Dari cerita 'Lomba Lari Dimas', dua informasi yang termasuk bagian TENGAH adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kaki Dimas nyeri dan dokter menyarankan istirahat",
-        "Saat lomba, Dimas tertinggal dan hampir menyerah",
         "Dimas mendaftar lomba lari 1.000 meter",
-        "Ayah memeluk Dimas setelah melewati garis akhir"
+        "Kaki Dimas nyeri dan dokter menyarankan istirahat",
+        "Ayah memeluk Dimas setelah melewati garis akhir",
+        "Saat lomba, Dimas tertinggal dan hampir menyerah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2768,14 +2768,14 @@
       "stimulus": "",
       "q": "Dari cerita 'Lomba Lari Dimas', dua informasi yang termasuk bagian AKHIR adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Dimas finis di posisi keempat tetapi berhasil menyelesaikan lomba",
+        "Teman-teman Dimas juga mengikuti lomba",
         "Dimas belajar bahwa kemenangan bukan tentang jadi yang pertama",
         "Kaki Dimas terasa nyeri menjelang hari lomba",
-        "Teman-teman Dimas juga mengikuti lomba"
+        "Dimas finis di posisi keempat tetapi berhasil menyelesaikan lomba"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2788,14 +2788,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang struktur cerita awal-tengah-akhir adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tanpa salah satu bagian, cerita menjadi tidak lengkap",
         "Bagian tengah biasanya paling panjang karena berisi masalah dan konflik",
         "Bagian awal selalu lebih panjang dari bagian lainnya",
+        "Tanpa salah satu bagian, cerita menjadi tidak lengkap",
         "Bagian akhir tidak perlu ada jika ceritanya sudah panjang"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2808,14 +2808,14 @@
       "stimulus": "",
       "q": "Nama lain dan isi dari bagian awal cerita yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Isinya: masalah yang muncul dan konflik yang terjadi",
         "Namanya orientasi",
         "Isinya: siapa tokohnya, di mana, dan kapan cerita berlangsung",
-        "Namanya komplikasi",
-        "Isinya: masalah yang muncul dan konflik yang terjadi"
+        "Namanya komplikasi"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2828,14 +2828,14 @@
       "stimulus": "",
       "q": "Nama lain dan ciri dari bagian tengah cerita yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Namanya komplikasi",
         "Berisi masalah, konflik, dan ketegangan yang membuat pembaca penasaran",
         "Namanya resolusi",
-        "Berisi penyelesaian dan pesan moral cerita"
+        "Berisi penyelesaian dan pesan moral cerita",
+        "Namanya komplikasi"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2848,14 +2848,14 @@
       "stimulus": "",
       "q": "Nama lain dan ciri dari bagian akhir cerita yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Namanya resolusi",
+        "Berisi perkenalan tokoh dan latar cerita",
         "Berisi penyelesaian masalah dan pelajaran yang dipetik",
         "Namanya orientasi",
-        "Berisi perkenalan tokoh dan latar cerita"
+        "Namanya resolusi"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Manfaat memahami struktur cerita awal-tengah-akhir adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membantu memahami cerita lebih cepat dan teratur",
         "Bisa menulis cerita yang terstruktur dengan baik",
+        "Tidak perlu membaca seluruh cerita",
         "Membuat cerita menjadi lebih panjang",
-        "Tidak perlu membaca seluruh cerita"
+        "Membantu memahami cerita lebih cepat dan teratur"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2889,13 +2889,13 @@
       "q": "Dua pernyataan benar tentang bagian TENGAH cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Berisi konflik atau masalah utama yang dihadapi tokoh",
-        "Membuat pembaca penasaran dan ingin terus membaca",
+        "Selalu sangat pendek hanya satu paragraf",
         "Berisi perkenalan nama dan usia tokoh utama",
-        "Selalu sangat pendek hanya satu paragraf"
+        "Membuat pembaca penasaran dan ingin terus membaca"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2909,13 +2909,13 @@
       "q": "Dari cerita Andi, dua bagian yang dapat diidentifikasi dengan tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Awal: Andi siswa kelas 4 yang sering lemas dan mengantuk di sekolah",
-        "Akhir: Dua minggu kemudian Andi lebih bertenaga dan nilainya membaik",
         "Tengah: Andi mendaftar ke SD Cerdas Mandiri",
-        "Awal: Andi hampir pingsan saat olahraga"
+        "Awal: Andi hampir pingsan saat olahraga",
+        "Akhir: Dua minggu kemudian Andi lebih bertenaga dan nilainya membaik"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -3151,8 +3151,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3367,8 +3366,7 @@
       ],
       "cols": [
         "Sesuai",
-        "Tidak sesuai",
-        "Sesuai"
+        "Tidak sesuai"
       ],
       "ans": [
         "Sesuai",
@@ -3393,7 +3391,6 @@
         "Objek: siswa sedang senam sesuai teks"
       ],
       "cols": [
-        "Cocok",
         "Cocok",
         "Tidak cocok"
       ],
@@ -3475,8 +3472,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3691,8 +3687,7 @@
       ],
       "cols": [
         "Fakta",
-        "Opini",
-        "Fakta"
+        "Opini"
       ],
       "ans": [
         "Fakta",
@@ -3718,8 +3713,7 @@
       ],
       "cols": [
         "Fakta",
-        "Opini",
-        "Fakta"
+        "Opini"
       ],
       "ans": [
         "Fakta",
@@ -3745,8 +3739,7 @@
       ],
       "cols": [
         "Fakta",
-        "Opini",
-        "Fakta"
+        "Opini"
       ],
       "ans": [
         "Fakta",
@@ -3907,8 +3900,7 @@
       ],
       "cols": [
         "Fakta",
-        "Opini",
-        "Fakta"
+        "Opini"
       ],
       "ans": [
         "Fakta",
@@ -3961,8 +3953,7 @@
       ],
       "cols": [
         "Fakta",
-        "Opini",
-        "Fakta"
+        "Opini"
       ],
       "ans": [
         "Fakta",
@@ -4231,8 +4222,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",

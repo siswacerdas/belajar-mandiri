@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Yang termasuk manfaat dari kemampuan menemukan informasi penting dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Bisa menulis teks baru yang jauh lebih panjang dari aslinya",
         "Bisa memahami bacaan dengan lebih cepat dan efisien",
-        "Dapat merangkum isi teks untuk diceritakan kembali",
         "Dapat menghafal semua kalimat dalam teks secara persis",
-        "Bisa menulis teks baru yang jauh lebih panjang dari aslinya"
+        "Dapat merangkum isi teks untuk diceritakan kembali"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1869,13 +1869,13 @@
       "q": "Pertanyaan-pertanyaan yang termasuk dalam teknik ADiKSiMBa adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Apa yang terjadi dalam teks?",
+        "Berapa panjang teks yang harus dibaca?",
         "Di mana dan kapan kejadian berlangsung?",
-        "Siapa pengarang dan berapa harga buku ini?",
-        "Berapa panjang teks yang harus dibaca?"
+        "Siapa pengarang dan berapa harga buku ini?"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1908,14 +1908,14 @@
       "stimulus": "",
       "q": "Saat membaca teks tentang koperasi sekolah, informasi penting yang perlu dicatat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Nama sekolah dan siapa yang mengelola koperasi",
         "Jadwal buka koperasi dan tujuan didirikannya",
         "Warna cat dinding ruangan koperasi",
-        "Nama lengkap semua siswa yang pernah belanja di koperasi"
+        "Nama lengkap semua siswa yang pernah belanja di koperasi",
+        "Nama sekolah dan siapa yang mengelola koperasi"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1928,14 +1928,14 @@
       "stimulus": "",
       "q": "Ciri-ciri rangkuman yang baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Lebih singkat dari teks aslinya",
-        "Tetap mempertahankan makna utama teks asli",
         "Lebih panjang dan lengkap dari teks asli",
-        "Menggunakan kata-kata yang persis sama dengan teks asli"
+        "Menggunakan kata-kata yang persis sama dengan teks asli",
+        "Tetap mempertahankan makna utama teks asli",
+        "Lebih singkat dari teks aslinya"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1948,14 +1948,14 @@
       "stimulus": "",
       "q": "Keunggulan teknik ADiKSiMBa dibandingkan membaca biasa adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Menggantikan kebutuhan untuk membaca keseluruhan teks",
         "Membantu menemukan informasi penting secara sistematis",
-        "Membuat proses membaca lebih terarah dan terstruktur",
         "Membuat kita bisa membaca tanpa harus memahami maknanya",
-        "Menggantikan kebutuhan untuk membaca keseluruhan teks"
+        "Membuat proses membaca lebih terarah dan terstruktur"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1968,14 +1968,14 @@
       "stimulus": "",
       "q": "Langkah-langkah membuat rangkuman yang tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membaca teks dengan cermat untuk menemukan informasi penting",
         "Menuliskan informasi penting tersebut dengan bahasa sendiri",
         "Menyalin semua kalimat dari teks asli ke kertas baru",
-        "Menghitung jumlah kata dan memotong separuhnya"
+        "Menghitung jumlah kata dan memotong separuhnya",
+        "Membaca teks dengan cermat untuk menemukan informasi penting"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang informasi penting dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Informasi penting adalah inti dari apa yang disampaikan penulis",
-        "Informasi penting bisa ditemukan di berbagai jenis teks",
+        "Informasi penting selalu ditulis di paragraf pertama saja",
         "Informasi penting hanya ada di teks yang panjang dan rumit",
-        "Informasi penting selalu ditulis di paragraf pertama saja"
+        "Informasi penting adalah inti dari apa yang disampaikan penulis",
+        "Informasi penting bisa ditemukan di berbagai jenis teks"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2008,14 +2008,14 @@
       "stimulus": "",
       "q": "Pertanyaan ADiKSiMBa yang membantu kita memahami sebab-akibat dalam sebuah teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mengapa — mencari penyebab suatu kejadian",
         "Bagaimana — mencari proses atau cara sesuatu terjadi",
-        "Apa — mencari nama tokoh yang terlibat",
-        "Kapan — mencari judul teks"
+        "Kapan — mencari judul teks",
+        "Mengapa — mencari penyebab suatu kejadian",
+        "Apa — mencari nama tokoh yang terlibat"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2030,8 +2030,8 @@
       "opt": [
         "Siapa yang mengelola dan apa tujuan koperasi sekolah",
         "Dampak positif koperasi terhadap kebiasaan siswa menabung",
-        "Nama semua barang yang dijual beserta harganya",
-        "Warna dan ukuran ruangan koperasi sekolah"
+        "Warna dan ukuran ruangan koperasi sekolah",
+        "Nama semua barang yang dijual beserta harganya"
       ],
       "ans": [
         "A",
@@ -2048,14 +2048,14 @@
       "stimulus": "",
       "q": "Jenis-jenis teks yang mengandung informasi penting yang bisa ditemukan dengan ADiKSiMBa adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Teks yang hanya berisi angka-angka",
         "Teks berita tentang kejadian di sekitar kita",
-        "Teks cerita atau pengumuman di sekolah",
         "Teks yang tidak pernah ada",
-        "Teks yang hanya berisi angka-angka"
+        "Teks cerita atau pengumuman di sekolah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2068,14 +2068,14 @@
       "stimulus": "",
       "q": "Teks: 'Setiap hari Senin hingga Jumat, koperasi buka pada jam istirahat pukul 09.30–10.00 WIB.' Pertanyaan ADiKSiMBa yang terjawab dari kalimat tersebut adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kapan — Senin hingga Jumat, pukul 09.30–10.00 WIB",
-        "Apa — koperasi buka pada jam istirahat",
         "Mengapa — karena harga di koperasi lebih murah",
+        "Apa — koperasi buka pada jam istirahat",
+        "Kapan — Senin hingga Jumat, pukul 09.30–10.00 WIB",
         "Bagaimana — dengan cara mendaftarkan diri ke koperasi"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2088,14 +2088,14 @@
       "stimulus": "",
       "q": "Dua hal yang membuat kemampuan menemukan informasi penting sangat berguna dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membantu kita memahami isi pengumuman penting dengan cepat",
         "Membantu kita merangkum materi pelajaran di sekolah",
         "Membuat kita bisa menulis teks yang lebih panjang",
+        "Membantu kita memahami isi pengumuman penting dengan cepat",
         "Membuat kita bisa berbicara dengan lebih keras"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2108,14 +2108,14 @@
       "stimulus": "",
       "q": "Perbedaan antara merangkum dan menyalin adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Merangkum menggunakan bahasa sendiri yang lebih singkat",
+        "Menyalin berarti membuat teks yang lebih kreatif",
         "Merangkum hanya mengambil informasi penting dari teks",
         "Menyalin berarti menulis ulang seluruh teks persis sama",
-        "Menyalin berarti membuat teks yang lebih kreatif"
+        "Merangkum menggunakan bahasa sendiri yang lebih singkat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2129,13 +2129,13 @@
       "q": "Mengapa wartawan menggunakan pertanyaan yang mirip dengan ADiKSiMBa saat meliput berita? Karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Pertanyaan-pertanyaan itu memastikan semua informasi penting tercakup",
+        "Teknik ini membuat berita menjadi lebih panjang dan menarik",
         "Teknik ini membantu menghasilkan berita yang lengkap dan akurat",
-        "Wartawan hanya perlu bertanya kepada satu orang narasumber",
-        "Teknik ini membuat berita menjadi lebih panjang dan menarik"
+        "Wartawan hanya perlu bertanya kepada satu orang narasumber"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2148,8 +2148,8 @@
       "stimulus": "",
       "q": "Penulisan angka yang benar menurut PUEBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp5.000 — titik sebagai pemisah ribuan",
         "Rp25.000.000 — titik digunakan dua kali untuk jutaan",
+        "Rp5.000 — titik sebagai pemisah ribuan",
         "Rp5,000 — koma sebagai pemisah ribuan",
         "rp5.000 — menggunakan huruf kecil"
       ],
@@ -2168,14 +2168,14 @@
       "stimulus": "",
       "q": "Penulisan simbol rupiah yang BENAR menurut PUEBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp ditulis sebelum angka tanpa spasi",
-        "Huruf R kapital dan huruf p kecil",
         "Rp. dengan tanda titik setelah simbol",
-        "RP dengan kedua huruf kapital"
+        "Huruf R kapital dan huruf p kecil",
+        "RP dengan kedua huruf kapital",
+        "Rp ditulis sebelum angka tanpa spasi"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2188,14 +2188,14 @@
       "stimulus": "",
       "q": "Fungsi koma (,) dalam penulisan nilai uang bahasa Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memisahkan nilai rupiah dari sen (desimal)",
         "Menandakan bahwa nilai uang tersebut tepat/bulat ketika diikuti ,00",
-        "Menggantikan tanda titik sebagai pemisah ribuan",
-        "Menunjukkan bahwa nilai uang tersebut perkiraan saja"
+        "Menunjukkan bahwa nilai uang tersebut perkiraan saja",
+        "Memisahkan nilai rupiah dari sen (desimal)",
+        "Menggantikan tanda titik sebagai pemisah ribuan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Angka-angka berikut yang TIDAK memerlukan tanda titik pemisah ribuan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp500 — karena masih di bawah 1.000",
-        "Rp750 — karena masih di bawah 1.000",
         "Rp1.000 — karena sudah ribuan",
-        "Rp2.500 — karena sudah ribuan"
+        "Rp2.500 — karena sudah ribuan",
+        "Rp500 — karena masih di bawah 1.000",
+        "Rp750 — karena masih di bawah 1.000"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2228,14 +2228,14 @@
       "stimulus": "",
       "q": "Penulisan nilai uang yang SALAH dan perlu diperbaiki adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp. 15.000 — ada tanda titik setelah Rp",
-        "rp25.000 — huruf r tidak kapital",
         "Rp25.000 — sudah benar",
-        "Rp2.000,00 — sudah benar"
+        "Rp. 15.000 — ada tanda titik setelah Rp",
+        "Rp2.000,00 — sudah benar",
+        "rp25.000 — huruf r tidak kapital"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2248,14 +2248,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang penggunaan tanda titik dalam angka bahasa Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Angka di bawah seribu wajib menggunakan tanda titik",
         "Titik digunakan sebagai pemisah setiap tiga digit angka ribuan ke atas",
         "Angka Rp1.000.000 menggunakan dua titik karena ada ribuan dan jutaan",
-        "Titik digunakan sebagai pemisah desimal seperti di Amerika",
-        "Angka di bawah seribu wajib menggunakan tanda titik"
+        "Titik digunakan sebagai pemisah desimal seperti di Amerika"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2268,14 +2268,14 @@
       "stimulus": "",
       "q": "Di antara contoh penulisan berikut, yang BENAR menurut PUEBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp50.000,00 untuk lima puluh ribu rupiah bulat",
-        "Rp2.500 untuk dua ribu lima ratus rupiah",
         "Rp50,000 untuk lima puluh ribu rupiah",
-        "Rp. 2.500 untuk dua ribu lima ratus rupiah"
+        "Rp. 2.500 untuk dua ribu lima ratus rupiah",
+        "Rp2.500 untuk dua ribu lima ratus rupiah",
+        "Rp50.000,00 untuk lima puluh ribu rupiah bulat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2288,14 +2288,14 @@
       "stimulus": "",
       "q": "Keterangan tentang penulisan nilai uang besar yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp10 miliar lebih mudah dibaca daripada Rp10.000.000.000",
         "Penulisan dengan kata (miliar, triliun) boleh digunakan untuk nilai yang sangat besar",
+        "Nilai miliar selalu ditulis dengan angka lengkap",
         "Rp10 miliar adalah penulisan yang salah karena harus menggunakan angka semua",
-        "Nilai miliar selalu ditulis dengan angka lengkap"
+        "Rp10 miliar lebih mudah dibaca daripada Rp10.000.000.000"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Dari daftar harga berikut, penulisan yang BENAR adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rp3.500,00 untuk tiga ribu lima ratus rupiah bulat",
         "Rp10.000,00 untuk sepuluh ribu rupiah bulat",
         "Rp3,500 untuk tiga ribu lima ratus rupiah",
-        "Rp10.000.00 untuk sepuluh ribu rupiah bulat"
+        "Rp10.000.00 untuk sepuluh ribu rupiah bulat",
+        "Rp3.500,00 untuk tiga ribu lima ratus rupiah bulat"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2329,13 +2329,13 @@
       "q": "Aturan penulisan angka dalam PUEBI yang bertujuan agar pembaca tidak bingung adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menggunakan titik sebagai pemisah ribuan untuk angka 1.000 ke atas",
-        "Menggunakan koma sebagai pemisah desimal, bukan titik",
         "Menggunakan titik sebagai pemisah desimal seperti di Amerika",
+        "Menggunakan koma sebagai pemisah desimal, bukan titik",
         "Tidak menggunakan tanda apapun agar angka terlihat bersih"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2348,14 +2348,14 @@
       "stimulus": "",
       "q": "Kesalahan penulisan yang sering terjadi dalam menulis nilai uang rupiah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menulis 'Rp.' dengan tanda titik setelah simbol Rp",
-        "Menulis 'rp' atau 'RP' alih-alih 'Rp'",
         "Menulis Rp25.000 tanpa tanda titik",
-        "Menulis Rp500 tanpa koma di akhir"
+        "Menulis 'Rp.' dengan tanda titik setelah simbol Rp",
+        "Menulis Rp500 tanpa koma di akhir",
+        "Menulis 'rp' atau 'RP' alih-alih 'Rp'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2368,14 +2368,14 @@
       "stimulus": "",
       "q": "Manfaat mengikuti aturan PUEBI dalam penulisan angka dan nilai uang adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tulisan menjadi lebih mudah dipahami pembaca",
-        "Tidak ada kerancuan dalam membaca nilai uang yang ditulis",
         "Tulisan menjadi lebih panjang dan terlihat formal",
-        "Semua orang bisa menebak nilai uang meski tulisannya salah"
+        "Tulisan menjadi lebih mudah dipahami pembaca",
+        "Semua orang bisa menebak nilai uang meski tulisannya salah",
+        "Tidak ada kerancuan dalam membaca nilai uang yang ditulis"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2389,13 +2389,13 @@
       "q": "Dina mencatat pengeluarannya hari ini. Penulisan yang benar dalam catatannya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Membeli buku: Rp15.000,00",
-        "Menabung: Rp5.000,00",
         "Membeli pensil: Rp2,000",
+        "Menabung: Rp5.000,00",
         "Ongkos: Rp3.000,00"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2409,13 +2409,13 @@
       "q": "Ciri-ciri teks yang bertujuan memberi informasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menggunakan fakta dan data yang dapat diverifikasi",
+        "Berisi tokoh-tokoh fiktif dan alur cerita yang menarik",
         "Gaya bahasanya lugas, jelas, dan objektif",
-        "Banyak menggunakan kata ajakan seperti 'ayo' dan 'mari'",
-        "Berisi tokoh-tokoh fiktif dan alur cerita yang menarik"
+        "Banyak menggunakan kata ajakan seperti 'ayo' dan 'mari'"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2428,14 +2428,14 @@
       "stimulus": "",
       "q": "Teks yang bertujuan mengajak atau membujuk pembaca memiliki ciri ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Banyak menggunakan kata 'ayo', 'mari', 'yuk', 'sebaiknya'",
-        "Biasanya berupa iklan, poster, atau kampanye",
         "Berisi langkah-langkah yang berurutan dengan penomoran",
-        "Selalu diakhiri dengan kalimat 'Demikian informasi ini kami sampaikan'"
+        "Selalu diakhiri dengan kalimat 'Demikian informasi ini kami sampaikan'",
+        "Banyak menggunakan kata 'ayo', 'mari', 'yuk', 'sebaiknya'",
+        "Biasanya berupa iklan, poster, atau kampanye"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2448,14 +2448,14 @@
       "stimulus": "",
       "q": "Jenis-jenis teks yang bertujuan memberi informasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berita tentang kejadian di sekitar kita",
-        "Pengumuman di majalah dinding sekolah",
+        "Iklan produk dan brosur promosi",
         "Dongeng dan cerita rakyat",
-        "Iklan produk dan brosur promosi"
+        "Berita tentang kejadian di sekitar kita",
+        "Pengumuman di majalah dinding sekolah"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Contoh teks yang bertujuan menghibur pembaca adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Cerita fabel tentang semut yang rajin bekerja",
         "Dongeng tentang putri yang baik hati",
-        "Artikel ilmiah tentang jenis-jenis tabungan",
-        "Resep cara membuat kue"
+        "Resep cara membuat kue",
+        "Cerita fabel tentang semut yang rajin bekerja",
+        "Artikel ilmiah tentang jenis-jenis tabungan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2488,8 +2488,8 @@
       "stimulus": "",
       "q": "Perbedaan antara tujuan penulis dan pesan penulis adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tujuan adalah alasan mengapa penulis menulis teks tersebut",
         "Pesan adalah nilai atau nasihat yang ingin ditanamkan penulis",
+        "Tujuan adalah alasan mengapa penulis menulis teks tersebut",
         "Tujuan dan pesan penulis selalu sama dan tidak bisa dibedakan",
         "Pesan penulis selalu ditulis secara tegas di awal teks"
       ],
@@ -2508,14 +2508,14 @@
       "stimulus": "",
       "q": "Cara yang tepat untuk menemukan pesan penulis dalam sebuah teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bertanya: 'Pelajaran baik apa yang bisa saya ambil dari teks ini?'",
         "Memikirkan nilai atau nasihat yang tersembunyi di balik cerita",
+        "Hanya membaca kalimat pertama dari setiap paragraf",
         "Mencari jumlah kata paling banyak dalam satu paragraf",
-        "Hanya membaca kalimat pertama dari setiap paragraf"
+        "Bertanya: 'Pelajaran baik apa yang bisa saya ambil dari teks ini?'"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2528,14 +2528,14 @@
       "stimulus": "",
       "q": "Pesan penulis dalam teks tentang koperasi sekolah yang mengajarkan siswa menabung adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menabung dan berhemat adalah kebiasaan baik yang penting",
-        "Koperasi sekolah membantu siswa belajar mengelola keuangan",
+        "Guru pembimbing koperasi adalah orang yang paling penting",
         "Semua barang di koperasi jauh lebih murah dari tempat lain",
-        "Guru pembimbing koperasi adalah orang yang paling penting"
+        "Menabung dan berhemat adalah kebiasaan baik yang penting",
+        "Koperasi sekolah membantu siswa belajar mengelola keuangan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2548,14 +2548,14 @@
       "stimulus": "",
       "q": "Teks yang berisi kata kerja ajakan seperti 'ayo hemat listrik' dan 'mari jaga lingkungan' termasuk teks yang bertujuan ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mengajak pembaca melakukan tindakan tertentu",
-        "Membujuk pembaca agar mengubah kebiasaan",
         "Menghibur pembaca dengan cerita yang lucu",
-        "Menjelaskan cara menghemat listrik secara teknis"
+        "Mengajak pembaca melakukan tindakan tertentu",
+        "Menjelaskan cara menghemat listrik secara teknis",
+        "Membujuk pembaca agar mengubah kebiasaan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2568,14 +2568,14 @@
       "stimulus": "",
       "q": "Sebuah teks bisa memiliki lebih dari satu tujuan. Contohnya dongeng yang ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Menjelaskan langkah-langkah melakukan sesuatu",
         "Menghibur pembaca dengan cerita yang menarik",
-        "Menyampaikan pesan moral yang berguna",
         "Memberi informasi teknis tentang suatu topik",
-        "Menjelaskan langkah-langkah melakukan sesuatu"
+        "Menyampaikan pesan moral yang berguna"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2588,14 +2588,14 @@
       "stimulus": "",
       "q": "Pertanyaan yang membantu menemukan pesan penulis dalam sebuah teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Apa hal penting yang terjadi dalam teks ini?'",
-        "Pelajaran atau nilai baik apa yang bisa diambil?'",
+        "Siapa nama penulis dan di mana ia tinggal?'",
         "Berapa jumlah kata dalam teks ini?'",
-        "Siapa nama penulis dan di mana ia tinggal?'"
+        "Pelajaran atau nilai baik apa yang bisa diambil?'",
+        "Apa hal penting yang terjadi dalam teks ini?'"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2608,14 +2608,14 @@
       "stimulus": "",
       "q": "Teks berjudul 'Ayo Rajin Menabung!' yang berisi anjuran menyisihkan uang saku memiliki ciri ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tujuan: mengajak pembaca untuk rajin menabung",
+        "Menggunakan banyak data dan fakta ilmiah",
         "Menggunakan kata ajakan untuk mendorong tindakan pembaca",
-        "Tujuan: menjelaskan langkah-langkah membuka rekening bank",
-        "Menggunakan banyak data dan fakta ilmiah"
+        "Tujuan: mengajak pembaca untuk rajin menabung",
+        "Tujuan: menjelaskan langkah-langkah membuka rekening bank"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2629,13 +2629,13 @@
       "q": "Cerita tentang anak yang berhasil membeli sepeda impiannya karena rajin menabung mengandung pesan ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Menabung secara konsisten dapat membantu mewujudkan keinginan",
-        "Ketekunan dan kesabaran adalah kunci keberhasilan",
         "Orang tua selalu berkewajiban membelikan sepeda untuk anaknya",
-        "Sepeda adalah barang paling penting yang harus dimiliki setiap anak"
+        "Sepeda adalah barang paling penting yang harus dimiliki setiap anak",
+        "Ketekunan dan kesabaran adalah kunci keberhasilan"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2649,13 +2649,13 @@
       "q": "Cara mengenali tujuan penulis yang tepat adalah dengan memperhatikan ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Pilihan kata yang digunakan penulis dalam teks",
-        "Bentuk atau jenis teks yang dituliskan penulis",
+        "Nama penulis dan tahun penerbitan teks",
         "Jumlah halaman dan ukuran huruf dalam teks",
-        "Nama penulis dan tahun penerbitan teks"
+        "Bentuk atau jenis teks yang dituliskan penulis"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Ciri-ciri yang membedakan teks prosedur dari jenis teks lain adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Berisi cerita fiksi tentang kehidupan sehari-hari",
         "Langkah-langkahnya berurutan dan tidak bisa dibalik",
         "Banyak menggunakan kata kerja perintah",
-        "Berisi cerita fiksi tentang kehidupan sehari-hari",
         "Selalu menggunakan bahasa yang penuh kiasan dan metafora"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2688,14 +2688,14 @@
       "stimulus": "",
       "q": "Bagian-bagian yang biasanya ada dalam teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tujuan — menjelaskan apa yang akan dibuat/dilakukan",
-        "Langkah-langkah — urutan tindakan dari awal hingga selesai",
         "Konflik — masalah yang dihadapi tokoh utama",
-        "Penutup berupa pesan moral penulis"
+        "Penutup berupa pesan moral penulis",
+        "Langkah-langkah — urutan tindakan dari awal hingga selesai",
+        "Tujuan — menjelaskan apa yang akan dibuat/dilakukan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2708,14 +2708,14 @@
       "stimulus": "",
       "q": "Kata-kata yang termasuk kata kerja perintah dalam teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Siapkan, ambil, dan tuang",
         "Aduk, masukkan, dan panaskan",
+        "Pertama, kemudian, dan terakhir",
         "Cantik, mahal, dan bersih",
-        "Pertama, kemudian, dan terakhir"
+        "Siapkan, ambil, dan tuang"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2728,14 +2728,14 @@
       "stimulus": "",
       "q": "Contoh-contoh teks prosedur yang sering dijumpai dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Resep masakan dan petunjuk penggunaan alat",
+        "Dongeng dan cerita rakyat tentang kekayaan",
         "Panduan menabung di bank dan cara mengecek keaslian uang",
-        "Berita tentang cuaca dan laporan keuangan",
-        "Dongeng dan cerita rakyat tentang kekayaan"
+        "Resep masakan dan petunjuk penggunaan alat",
+        "Berita tentang cuaca dan laporan keuangan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2748,14 +2748,14 @@
       "stimulus": "",
       "q": "Kata penghubung urutan yang digunakan dalam teks prosedur untuk menunjukkan langkah berurutan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pertama, kemudian, dan setelah itu",
-        "Lalu, berikutnya, dan terakhir",
         "Namun, akan tetapi, dan sebaliknya",
-        "Karena, sehingga, dan oleh karena itu"
+        "Lalu, berikutnya, dan terakhir",
+        "Karena, sehingga, dan oleh karena itu",
+        "Pertama, kemudian, dan setelah itu"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2768,14 +2768,14 @@
       "stimulus": "",
       "q": "Teks prosedur tentang cara membuat celengan dari botol bekas menunjukkan ciri ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berisi langkah-langkah berurutan yang menghasilkan sebuah celengan",
+        "Memberikan informasi tentang sejarah celengan di Indonesia",
         "Menggunakan kata kerja perintah seperti 'siapkan', 'lubangi', dan 'hias'",
-        "Menceritakan kisah seorang anak yang rajin menabung",
-        "Memberikan informasi tentang sejarah celengan di Indonesia"
+        "Berisi langkah-langkah berurutan yang menghasilkan sebuah celengan",
+        "Menceritakan kisah seorang anak yang rajin menabung"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2788,10 +2788,10 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang bagian 'tujuan' dalam teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menjelaskan apa yang akan dibuat atau hasil yang ingin dicapai",
         "Biasanya berupa judul atau kalimat pengantar di awal teks",
-        "Berisi daftar bahan dan alat yang diperlukan",
-        "Berisi urutan langkah-langkah yang harus diikuti"
+        "Menjelaskan apa yang akan dibuat atau hasil yang ingin dicapai",
+        "Berisi urutan langkah-langkah yang harus diikuti",
+        "Berisi daftar bahan dan alat yang diperlukan"
       ],
       "ans": [
         "A",
@@ -2808,10 +2808,10 @@
       "stimulus": "",
       "q": "Dalam teks prosedur cara mengecek keaslian uang: 'Dilihat, Diraba, Diterawang', yang merupakan kata kerja dalam konteks ini adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Dilihat — menyuruh pembaca melihat tanda air uang",
         "Diraba — menyuruh pembaca merasakan tekstur permukaan uang",
-        "Dilihat — nama orang yang melakukan pengecekan",
-        "Diraba — nama teknik khusus untuk mendeteksi uang palsu"
+        "Dilihat — menyuruh pembaca melihat tanda air uang",
+        "Diraba — nama teknik khusus untuk mendeteksi uang palsu",
+        "Dilihat — nama orang yang melakukan pengecekan"
       ],
       "ans": [
         "A",
@@ -2828,14 +2828,14 @@
       "stimulus": "",
       "q": "Yang menjadi tujuan utama pembaca membaca teks prosedur adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Agar bisa melakukan sesuatu sesuai langkah yang diajarkan",
-        "Agar bisa memahami cara kerja suatu proses",
         "Agar mendapat hiburan dari cerita yang disajikan",
-        "Agar mengetahui pendapat penulis tentang suatu hal"
+        "Agar bisa melakukan sesuatu sesuai langkah yang diajarkan",
+        "Agar mengetahui pendapat penulis tentang suatu hal",
+        "Agar bisa memahami cara kerja suatu proses"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2848,14 +2848,14 @@
       "stimulus": "",
       "q": "Mengapa langkah-langkah dalam teks prosedur tidak boleh dibalik urutannya? Karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membalik urutan dapat merusak atau mengubah hasil akhirnya",
         "Teks prosedur dirancang agar setiap langkah bergantung pada langkah sebelumnya",
+        "Teks prosedur selalu harus dibaca dari kiri ke kanan",
         "Penulis tidak ingin pembaca memodifikasi prosedurnya",
-        "Teks prosedur selalu harus dibaca dari kiri ke kanan"
+        "Membalik urutan dapat merusak atau mengubah hasil akhirnya"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Bagian bahan dan alat dalam teks prosedur berfungsi untuk ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Memberikan pesan moral di akhir teks prosedur",
         "Menyebutkan semua perlengkapan yang perlu disiapkan sebelum mulai",
         "Membantu pembaca mempersiapkan segala sesuatu yang dibutuhkan",
-        "Menjelaskan tujuan dan manfaat dari prosedur yang akan dilakukan",
-        "Memberikan pesan moral di akhir teks prosedur"
+        "Menjelaskan tujuan dan manfaat dari prosedur yang akan dilakukan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2888,14 +2888,14 @@
       "stimulus": "",
       "q": "Dalam teks prosedur resep masakan, kata-kata yang termasuk kata kerja perintah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Cuci, potong, dan goreng",
+        "Lebih dulu, setelah, kemudian",
         "Tuang, aduk, dan sajikan",
-        "Enak, matang, dan renyah",
-        "Lebih dulu, setelah, kemudian"
+        "Cuci, potong, dan goreng",
+        "Enak, matang, dan renyah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2908,14 +2908,14 @@
       "stimulus": "",
       "q": "Perbandingan antara teks prosedur dan teks berita menunjukkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Teks prosedur dan teks berita sama-sama bertujuan menghibur",
         "Teks prosedur berisi langkah-langkah, teks berita berisi fakta kejadian",
         "Teks prosedur menyuruh pembaca melakukan sesuatu, teks berita memberi informasi",
-        "Teks prosedur dan teks berita sama-sama bertujuan menghibur",
         "Teks prosedur lebih pendek daripada teks berita"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2930,8 +2930,7 @@
       "rows": [
         "Peristiwa apa yang terjadi?",
         "Di mana kejadian berlangsung?",
-        "Kapan peristiwa itu terjadi?",
-        "Siapa yang terlibat?"
+        "Kapan peristiwa itu terjadi?"
       ],
       "cols": [
         "Apa",
@@ -2941,8 +2940,7 @@
       "ans": [
         "Apa",
         "Di mana",
-        "Kapan",
-        "Di mana"
+        "Kapan"
       ],
       "pembahasan": ""
     },
@@ -3043,8 +3041,7 @@
       ],
       "cols": [
         "Informasi penting",
-        "Bukan informasi penting",
-        "Informasi penting"
+        "Bukan informasi penting"
       ],
       "ans": [
         "Informasi penting",
@@ -3286,8 +3283,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3340,8 +3336,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3529,8 +3524,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3637,8 +3631,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3826,8 +3819,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4069,8 +4061,7 @@
       ],
       "cols": [
         "Teks prosedur",
-        "Bukan teks prosedur",
-        "Teks prosedur"
+        "Bukan teks prosedur"
       ],
       "ans": [
         "Teks prosedur",
@@ -4258,8 +4249,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",

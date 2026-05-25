@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Alasan gambar digunakan untuk menyampaikan instruksi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Gambar lebih cepat dipahami daripada tulisan panjang",
+        "Gambar hanya bisa dipahami oleh orang tertentu",
         "Simbol gambar bisa dipahami orang dari berbagai negara",
         "Gambar selalu lebih mahal dari tulisan",
-        "Gambar hanya bisa dipahami oleh orang tertentu"
+        "Gambar lebih cepat dipahami daripada tulisan panjang"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1868,14 +1868,14 @@
       "stimulus": "",
       "q": "Jenis-jenis instruksi gambar yang sering ditemui dalam kehidupan sehari-hari adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rambu dan simbol seperti rambu lalu lintas",
         "Peta dan denah seperti denah gedung",
-        "Kamus dan ensiklopedia bergambar",
-        "Buku cerita bergambar yang menghibur"
+        "Buku cerita bergambar yang menghibur",
+        "Rambu dan simbol seperti rambu lalu lintas",
+        "Kamus dan ensiklopedia bergambar"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1888,14 +1888,14 @@
       "stimulus": "",
       "q": "Langkah-langkah membaca instruksi gambar yang benar meliputi ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Amati gambar secara menyeluruh untuk memahami tema besarnya",
+        "Hanya perhatikan warna merah karena itu paling penting",
         "Baca judul, teks pendek, dan legenda yang menyertai gambar",
-        "Langsung ikuti instruksinya tanpa membaca keterangan",
-        "Hanya perhatikan warna merah karena itu paling penting"
+        "Amati gambar secara menyeluruh untuk memahami tema besarnya",
+        "Langsung ikuti instruksinya tanpa membaca keterangan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1909,13 +1909,13 @@
       "q": "Informasi yang bisa diperoleh dari denah gedung adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Tata letak ruangan dan posisi setiap ruang",
-        "Arah masuk dan keluar gedung",
+        "Nama arsitek yang merancang gedung",
         "Sejarah berdirinya gedung tersebut",
-        "Nama arsitek yang merancang gedung"
+        "Arah masuk dan keluar gedung"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1928,8 +1928,8 @@
       "stimulus": "",
       "q": "Makna warna pada rambu atau simbol yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Warna merah biasanya menandakan larangan atau bahaya",
         "Warna hijau biasanya menandakan aman atau diperbolehkan",
+        "Warna merah biasanya menandakan larangan atau bahaya",
         "Warna biru selalu berarti larangan",
         "Warna kuning berarti diperbolehkan tanpa batasan"
       ],
@@ -1948,14 +1948,14 @@
       "stimulus": "",
       "q": "Kelebihan infografis dibandingkan hanya menggunakan teks biasa adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Data dan proses disajikan secara visual sehingga lebih cepat dipahami",
         "Perbandingan antar data lebih mudah dilihat dalam bentuk gambar",
         "Infografis tidak memerlukan angka atau data sama sekali",
-        "Infografis lebih mudah dibuat daripada menulis teks"
+        "Infografis lebih mudah dibuat daripada menulis teks",
+        "Data dan proses disajikan secara visual sehingga lebih cepat dipahami"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1968,14 +1968,14 @@
       "stimulus": "",
       "q": "Panduan bergambar adalah jenis instruksi gambar yang berisi ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Langkah-langkah melakukan sesuatu yang disajikan dengan gambar berurutan",
-        "Cara penggunaan suatu alat atau cara membuat sesuatu dengan ilustrasi",
         "Cerita fiksi yang dihiasi gambar yang menarik",
-        "Peta wilayah yang menunjukkan rute perjalanan"
+        "Peta wilayah yang menunjukkan rute perjalanan",
+        "Cara penggunaan suatu alat atau cara membuat sesuatu dengan ilustrasi",
+        "Langkah-langkah melakukan sesuatu yang disajikan dengan gambar berurutan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Saat membaca denah Museum Budaya Nusantara, dua hal yang perlu diperhatikan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Ikon setiap ruangan untuk mengetahui fungsinya",
         "Arah panah yang menunjukkan alur masuk dan keluar",
         "Warna cat dinding yang digunakan di museum",
+        "Ikon setiap ruangan untuk mengetahui fungsinya",
         "Nama arsitektur bergaya tradisional atau modern"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2008,14 +2008,14 @@
       "stimulus": "",
       "q": "Manfaat mampu membaca instruksi dalam gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Selalu bisa membuat gambar instruksi sendiri",
         "Bisa mengikuti petunjuk dengan benar meski tulisannya sedikit",
         "Tidak tersesat di tempat umum yang menggunakan rambu atau denah",
-        "Tidak perlu membaca buku atau teks apapun",
-        "Selalu bisa membuat gambar instruksi sendiri"
+        "Tidak perlu membaca buku atau teks apapun"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2028,14 +2028,14 @@
       "stimulus": "",
       "q": "Legenda pada peta berfungsi untuk ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menjelaskan arti simbol-simbol yang digunakan dalam peta",
         "Membantu pembaca memahami makna warna dan ikon yang dipakai",
-        "Menceritakan dongeng atau legenda daerah tersebut",
-        "Menunjukkan nama jalan di sekitar peta"
+        "Menunjukkan nama jalan di sekitar peta",
+        "Menjelaskan arti simbol-simbol yang digunakan dalam peta",
+        "Menceritakan dongeng atau legenda daerah tersebut"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2048,14 +2048,14 @@
       "stimulus": "",
       "q": "Contoh-contoh instruksi yang lebih efektif jika disampaikan melalui gambar daripada teks saja adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Denah gedung museum untuk menunjukkan posisi ruangan",
-        "Panduan bergambar cara memakai kain batik langkah demi langkah",
+        "Teks cerita panjang tentang sejarah wayang golek",
         "Puisi tentang keindahan batik dari Jawa Barat",
-        "Teks cerita panjang tentang sejarah wayang golek"
+        "Panduan bergambar cara memakai kain batik langkah demi langkah",
+        "Denah gedung museum untuk menunjukkan posisi ruangan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2068,14 +2068,14 @@
       "stimulus": "",
       "q": "Langkah 'menghubungkan dengan konteks' saat membaca instruksi gambar berarti ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memikirkan di mana gambar ini biasanya ditemui",
-        "Memikirkan untuk siapa dan apa tujuan gambar itu dibuat",
+        "Menggambar ulang instruksi tersebut di buku catatan",
         "Mencari gambar serupa di internet",
-        "Menggambar ulang instruksi tersebut di buku catatan"
+        "Memikirkan di mana gambar ini biasanya ditemui",
+        "Memikirkan untuk siapa dan apa tujuan gambar itu dibuat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2088,14 +2088,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang instruksi dalam gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Gambar bisa menyampaikan petunjuk tanpa banyak kata",
-        "Simbol yang baik memiliki bentuk yang secara universal mudah dikenali",
         "Gambar instruksi hanya bisa dipahami orang yang sudah berpengalaman",
-        "Semua instruksi gambar selalu memerlukan teks panjang untuk dijelaskan"
+        "Gambar bisa menyampaikan petunjuk tanpa banyak kata",
+        "Semua instruksi gambar selalu memerlukan teks panjang untuk dijelaskan",
+        "Simbol yang baik memiliki bentuk yang secara universal mudah dikenali"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2109,13 +2109,13 @@
       "q": "Jenis informasi yang lebih mudah disampaikan melalui TEKS daripada gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Alasan dan penjelasan mengapa sesuatu terjadi",
-        "Urutan kejadian dan detail yang rumit",
+        "Posisi dan perbandingan antar benda",
         "Bentuk dan warna suatu benda",
-        "Posisi dan perbandingan antar benda"
+        "Urutan kejadian dan detail yang rumit"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2128,8 +2128,8 @@
       "stimulus": "",
       "q": "Jenis informasi yang lebih mudah disampaikan melalui GAMBAR daripada teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bentuk fisik dan tampilan visual suatu benda",
         "Perbandingan ukuran beberapa benda sekaligus",
+        "Bentuk fisik dan tampilan visual suatu benda",
         "Sejarah dan latar belakang suatu objek",
         "Makna simbolis yang tersembunyi dari sebuah benda"
       ],
@@ -2148,14 +2148,14 @@
       "stimulus": "",
       "q": "Kemungkinan hubungan antara teks dan gambar dalam sebuah artikel adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Teks dan gambar menyampaikan informasi yang sama",
         "Gambar menambah informasi baru yang tidak ada di teks",
-        "Teks dan gambar selalu bertentangan",
-        "Gambar tidak pernah memberikan informasi baru"
+        "Gambar tidak pernah memberikan informasi baru",
+        "Teks dan gambar menyampaikan informasi yang sama",
+        "Teks dan gambar selalu bertentangan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2168,14 +2168,14 @@
       "stimulus": "",
       "q": "Dari bacaan tentang rumah adat, informasi yang hanya bisa diperoleh dari TEKS adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Makna simbolis atap Rumah Gadang yang melambangkan semangat pantang menyerah",
-        "Fungsi Honai yang dirancang agar hangat di pegunungan dingin",
         "Perbedaan bentuk keempat rumah adat",
+        "Fungsi Honai yang dirancang agar hangat di pegunungan dingin",
+        "Makna simbolis atap Rumah Gadang yang melambangkan semangat pantang menyerah",
         "Nama dan asal daerah setiap rumah adat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2188,14 +2188,14 @@
       "stimulus": "",
       "q": "Dari bacaan tentang rumah adat, informasi yang lebih efektif diperoleh dari GAMBAR adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Perbedaan bentuk keempat rumah adat secara visual sekaligus",
-        "Tampilan fisik dan ciri khas masing-masing rumah adat",
         "Sejarah berdirinya setiap rumah adat",
-        "Alasan mengapa setiap rumah didesain demikian"
+        "Alasan mengapa setiap rumah didesain demikian",
+        "Perbedaan bentuk keempat rumah adat secara visual sekaligus",
+        "Tampilan fisik dan ciri khas masing-masing rumah adat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Dua pertanyaan yang tepat untuk menggabungkan informasi teks dan gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Siapa yang membuat gambar tersebut?'",
         "Informasi apa dari gambar yang tidak ada di teks?'",
         "Informasi apa dari teks yang tidak terlihat di gambar?'",
-        "Berapa halaman teks yang harus dibaca?'",
-        "Siapa yang membuat gambar tersebut?'"
+        "Berapa halaman teks yang harus dibaca?'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2228,14 +2228,14 @@
       "stimulus": "",
       "q": "Bacaan tentang wayang golek menyebutkan bahwa pertunjukan 'diiringi musik gamelan degung yang merdu'. Dua hal yang hanya bisa didapat dari teks ini adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Nama jenis gamelan yang mengiringi: gamelan degung",
-        "Sifat musik pengiring yang digambarkan sebagai 'merdu'",
+        "Jumlah penonton yang hadir dalam pertunjukan",
         "Tampilan fisik wayang golek saat dipentaskan",
-        "Jumlah penonton yang hadir dalam pertunjukan"
+        "Nama jenis gamelan yang mengiringi: gamelan degung",
+        "Sifat musik pengiring yang digambarkan sebagai 'merdu'"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2249,13 +2249,13 @@
       "q": "Jika kamu melihat foto penampilan Tari Saman, dua informasi yang bisa langsung kamu lihat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Kostum penari yang seragam berwarna khas",
-        "Formasi dan gerakan para penari",
         "Asal daerah Tari Saman",
+        "Formasi dan gerakan para penari",
         "Makna setiap gerakan dalam tari"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2268,14 +2268,14 @@
       "stimulus": "",
       "q": "Manfaat menggabungkan informasi dari teks dan gambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mendapat pemahaman yang lebih lengkap dan utuh",
-        "Tidak melewatkan informasi penting yang mungkin ada di salah satu sumber",
+        "Gambar selalu bisa menggantikan fungsi teks sepenuhnya",
         "Tidak perlu lagi membaca buku lain untuk mencari informasi",
-        "Gambar selalu bisa menggantikan fungsi teks sepenuhnya"
+        "Tidak melewatkan informasi penting yang mungkin ada di salah satu sumber",
+        "Mendapat pemahaman yang lebih lengkap dan utuh"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang hubungan teks dan gambar dalam bacaan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Teks menjelaskan detail yang tidak terlihat di gambar",
-        "Gambar memvisualisasikan apa yang sulit dibayangkan hanya dari teks",
         "Gambar selalu lebih baik dan lebih lengkap dari teks",
-        "Teks harus selalu lebih panjang dari gambar"
+        "Gambar memvisualisasikan apa yang sulit dibayangkan hanya dari teks",
+        "Teks harus selalu lebih panjang dari gambar",
+        "Teks menjelaskan detail yang tidak terlihat di gambar"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2329,13 +2329,13 @@
       "q": "Gambar peta lokasi yang menunjukkan posisi suatu tempat memberikan informasi yang tidak ada di teks, yaitu ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Letak relatif tempat tersebut terhadap tempat-tempat di sekitarnya",
-        "Perkiraan jarak antara satu tempat dan tempat lainnya",
+        "Nama semua orang yang pernah mengunjungi tempat itu",
         "Sejarah panjang tempat tersebut dari masa ke masa",
-        "Nama semua orang yang pernah mengunjungi tempat itu"
+        "Perkiraan jarak antara satu tempat dan tempat lainnya"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2348,14 +2348,14 @@
       "stimulus": "",
       "q": "Cara yang tepat dan tidak tepat saat membaca artikel bergambar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tepat: Memperhatikan teks DAN gambar, lalu menghubungkan keduanya",
-        "Tidak tepat: Hanya melihat gambar dan mengabaikan teks seluruhnya",
         "Tepat: Hanya membaca teks dan menganggap gambar tidak penting",
-        "Tidak tepat: Membaca teks sebelum melihat gambar apapun"
+        "Tidak tepat: Hanya melihat gambar dan mengabaikan teks seluruhnya",
+        "Tidak tepat: Membaca teks sebelum melihat gambar apapun",
+        "Tepat: Memperhatikan teks DAN gambar, lalu menghubungkan keduanya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2370,8 +2370,8 @@
       "opt": [
         "Setuju karena informasinya sesuai dengan yang kita ketahui",
         "Kurang setuju karena informasinya belum lengkap",
-        "Tidak setuju karena ada bagian yang kita anggap tidak tepat",
-        "Diam karena tidak tahu harus berpendapat apa"
+        "Diam karena tidak tahu harus berpendapat apa",
+        "Tidak setuju karena ada bagian yang kita anggap tidak tepat"
       ],
       "ans": [
         "A",
@@ -2388,8 +2388,8 @@
       "stimulus": "",
       "q": "Tiga langkah menyampaikan pendapat tentang informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tentukan posisi — apakah kamu setuju, kurang setuju, atau tidak setuju",
         "Berikan alasan mengapa kamu berpendapat demikian",
+        "Tentukan posisi — apakah kamu setuju, kurang setuju, atau tidak setuju",
         "Dukung dengan bukti dari teks — tunjukkan bagian teks yang relevan",
         "Cari pendapat dari sumber lain yang mendukung"
       ],
@@ -2408,8 +2408,8 @@
       "stimulus": "",
       "q": "Bukti dari teks yang baik untuk mendukung pendapat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Merujuk langsung ke kalimat atau paragraf yang relevan",
         "Mengutip bagian teks yang mendukung atau bertentangan dengan pendapat",
+        "Merujuk langsung ke kalimat atau paragraf yang relevan",
         "Mengatakan 'saya yakin teks ini benar' tanpa referensi bagian teks",
         "Membandingkan dengan teks lain yang belum dibaca"
       ],
@@ -2428,14 +2428,14 @@
       "stimulus": "",
       "q": "Ciri-ciri pendapat yang baik terhadap informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Disertai alasan yang jelas mengapa berpendapat demikian",
+        "Sangat panjang agar terlihat serius",
         "Didukung dengan bukti dari bagian teks yang relevan",
-        "Selalu setuju agar tidak menyinggung penulis",
-        "Sangat panjang agar terlihat serius"
+        "Disertai alasan yang jelas mengapa berpendapat demikian",
+        "Selalu setuju agar tidak menyinggung penulis"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2448,14 +2448,14 @@
       "stimulus": "",
       "q": "Contoh komponen pendapat SETUJU yang baik tentang teks festival budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Alasan: 'Melihat langsung lebih berkesan daripada sekadar membaca'",
         "Bukti: 'Di teks disebutkan festival dikunjungi 15.000 orang, artinya banyak yang mengenal budaya'",
+        "Bukti: 'Menurut saya sendiri, festival itu bagus'",
         "Posisi: 'Saya tidak tahu apakah setuju atau tidak'",
-        "Bukti: 'Menurut saya sendiri, festival itu bagus'"
+        "Alasan: 'Melihat langsung lebih berkesan daripada sekadar membaca'"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Pendapat 'kurang setuju' disampaikan ketika ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Kita tidak mau membaca teks lebih lanjut",
         "Informasi dalam teks sudah benar, tetapi masih kurang lengkap",
         "Ada bagian penting yang belum dibahas dan perlu ditambahkan",
-        "Semua informasi dalam teks sudah sempurna",
-        "Kita tidak mau membaca teks lebih lanjut"
+        "Semua informasi dalam teks sudah sempurna"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2490,8 +2490,8 @@
       "opt": [
         "Alasan konkret mengapa bagian tersebut dianggap tidak tepat",
         "Bukti atau pengetahuan yang mendukung ketidaksetujuan",
-        "Kemarahan dan kritikan tanpa alasan",
-        "Pernyataan bahwa seluruh isi teks salah"
+        "Pernyataan bahwa seluruh isi teks salah",
+        "Kemarahan dan kritikan tanpa alasan"
       ],
       "ans": [
         "A",
@@ -2508,14 +2508,14 @@
       "stimulus": "",
       "q": "Kata-kata pembuka yang tepat untuk menyampaikan pendapat tentang informasi teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menurut saya, informasi ini ...' atau 'Saya berpendapat bahwa ...'",
+        "Semua orang pasti setuju dengan teks ini.'",
         "Setelah membaca, saya setuju/kurang setuju/tidak setuju karena ...'",
         "Sudah jelas bahwa informasi ini pasti benar.'",
-        "Semua orang pasti setuju dengan teks ini.'"
+        "Menurut saya, informasi ini ...' atau 'Saya berpendapat bahwa ...'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2530,8 +2530,8 @@
       "opt": [
         "Di paragraf kedua disebutkan bahwa...'",
         "Teks menyebutkan bahwa festival dikunjungi 15.000 orang...'",
-        "Saya sudah membaca teks ini berkali-kali.'",
-        "Menurut pendapat pribadi saya tanpa dasar teks.'"
+        "Menurut pendapat pribadi saya tanpa dasar teks.'",
+        "Saya sudah membaca teks ini berkali-kali.'"
       ],
       "ans": [
         "A",
@@ -2549,13 +2549,13 @@
       "q": "Dua pernyataan benar tentang pendapat terhadap informasi teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Semua posisi (setuju/kurang setuju/tidak setuju) diperbolehkan asal ada alasan",
+        "Pendapat tidak perlu bukti jika alasannya sudah kuat",
         "Yang membuat pendapat berkualitas adalah alasan dan buktinya, bukan posisinya",
-        "Pendapat harus selalu setuju dengan isi teks",
-        "Pendapat tidak perlu bukti jika alasannya sudah kuat"
+        "Pendapat harus selalu setuju dengan isi teks"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2568,14 +2568,14 @@
       "stimulus": "",
       "q": "Manfaat kemampuan menanggapi informasi dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menjadi pembaca yang aktif dan kritis",
-        "Tidak hanya menerima informasi begitu saja tanpa mempertimbangkannya",
         "Tidak perlu membaca teks sampai selesai",
-        "Selalu bisa menemukan kesalahan dalam setiap teks"
+        "Selalu bisa menemukan kesalahan dalam setiap teks",
+        "Menjadi pembaca yang aktif dan kritis",
+        "Tidak hanya menerima informasi begitu saja tanpa mempertimbangkannya"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2588,8 +2588,8 @@
       "stimulus": "",
       "q": "Dari teks festival budaya, contoh pendapat 'kurang setuju' yang lengkap mengandung ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pengakuan bahwa festival memang baik untuk melestarikan budaya",
         "Saran untuk menambahkan cara lain selain festival, seperti memasukkan budaya ke pelajaran",
+        "Pengakuan bahwa festival memang baik untuk melestarikan budaya",
         "Penolakan total terhadap semua manfaat festival",
         "Pernyataan bahwa festival tidak pernah berhasil"
       ],
@@ -2608,14 +2608,14 @@
       "stimulus": "",
       "q": "Perbedaan antara menanggapi informasi teks di Bab 7 dan di Bab 6 adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Di Bab 7 kita tidak boleh menyatakan tidak setuju",
         "Di Bab 7 kita lebih fokus pada posisi setuju/tidak setuju terhadap informasi",
         "Di Bab 7 penekanannya pada menggunakan bukti dari teks sebagai pendukung",
-        "Di Bab 6 kita tidak perlu menyertakan alasan",
-        "Di Bab 7 kita tidak boleh menyatakan tidak setuju"
+        "Di Bab 6 kita tidak perlu menyertakan alasan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2628,14 +2628,14 @@
       "stimulus": "",
       "q": "Komponen pendapat setuju yang lengkap tentang pelestarian budaya mengandung ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Hanya bukti tanpa posisi: '15.000 orang hadir di festival.'",
         "Posisi: 'Saya setuju bahwa festival efektif melestarikan budaya'",
         "Alasan + bukti: 'karena melihat langsung lebih berkesan, dan teks menyebut 15.000 pengunjung'",
-        "Hanya posisi tanpa alasan: 'Saya setuju.'",
-        "Hanya bukti tanpa posisi: '15.000 orang hadir di festival.'"
+        "Hanya posisi tanpa alasan: 'Saya setuju.'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2669,13 +2669,13 @@
       "q": "Kata hubung yang berfungsi menambahkan informasi melengkapi kalimat sebelumnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Selain itu,'",
-        "Di samping itu,'",
         "Namun,'",
+        "Di samping itu,'",
         "Oleh karena itu,'"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2689,13 +2689,13 @@
       "q": "Kata hubung yang menunjukkan pertentangan antara dua kalimat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Namun,'",
-        "Akan tetapi,'",
+        "Misalnya,'",
         "Selain itu,'",
-        "Misalnya,'"
+        "Akan tetapi,'"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2708,14 +2708,14 @@
       "stimulus": "",
       "q": "Kata hubung yang menunjukkan sebab-akibat atau kesimpulan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Di samping itu,'",
         "Oleh karena itu,'",
-        "Akibatnya,'",
         "Setelah itu,'",
-        "Di samping itu,'"
+        "Akibatnya,'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2730,8 +2730,8 @@
       "opt": [
         "Setelah itu,'",
         "Kemudian,'",
-        "Namun,'",
-        "Misalnya,'"
+        "Misalnya,'",
+        "Namun,'"
       ],
       "ans": [
         "A",
@@ -2748,14 +2748,14 @@
       "stimulus": "",
       "q": "Kata hubung yang memberikan contoh atau penjelasan tambahan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Misalnya,'",
-        "Contohnya,'",
         "Akibatnya,'",
-        "Akan tetapi,'"
+        "Contohnya,'",
+        "Akan tetapi,'",
+        "Misalnya,'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2768,14 +2768,14 @@
       "stimulus": "",
       "q": "Perbedaan antara kata hubung antarkalimat dan kata hubung dalam kalimat yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kata hubung antarkalimat menghubungkan dua kalimat terpisah",
-        "Kata hubung dalam kalimat menghubungkan dua bagian dalam satu kalimat",
+        "Kata hubung dalam kalimat diletakkan di awal paragraf",
         "Keduanya sama dan bisa digunakan saling berganti",
-        "Kata hubung dalam kalimat diletakkan di awal paragraf"
+        "Kata hubung antarkalimat menghubungkan dua kalimat terpisah",
+        "Kata hubung dalam kalimat menghubungkan dua bagian dalam satu kalimat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2788,14 +2788,14 @@
       "stimulus": "",
       "q": "Kalimat yang TEPAT menggunakan kata hubung pertentangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tari Saman sangat terkenal di dunia. Namun, banyak remaja Aceh tidak bisa menarikannya.'",
         "Wayang golek menjadi hiburan utama di masa lalu. Akan tetapi, kini anak muda lebih suka hiburan digital.'",
         "Festival mendatangkan manfaat. Namun, festival juga sangat bermanfaat.'",
-        "Batik terkenal. Selain itu, batik juga kurang dikenal.'"
+        "Batik terkenal. Selain itu, batik juga kurang dikenal.'",
+        "Tari Saman sangat terkenal di dunia. Namun, banyak remaja Aceh tidak bisa menarikannya.'"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2808,8 +2808,8 @@
       "stimulus": "",
       "q": "Kalimat yang TEPAT menggunakan kata hubung sebab-akibat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bahasa daerah mulai ditinggalkan generasi muda. Oleh karena itu, perlu ada upaya pelestarian.'",
         "Jumlah penonton wayang semakin sedikit. Akibatnya, para seniman berusaha memperkenalkan wayang ke sekolah.'",
+        "Bahasa daerah mulai ditinggalkan generasi muda. Oleh karena itu, perlu ada upaya pelestarian.'",
         "Batik terkenal. Oleh karena itu, batik juga terkenal.'",
         "Festival diadakan. Akibatnya, festival berlangsung tiga hari.'"
       ],
@@ -2828,14 +2828,14 @@
       "stimulus": "",
       "q": "Kalimat yang TEPAT menggunakan kata hubung urutan waktu adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Batik cantik. Kemudian, batik juga mahal.'",
         "Kain mori dilukis dengan canting. Setelah itu, kain dicelupkan ke pewarna.'",
         "Para penari berlatih sebulan. Kemudian, mereka tampil di festival.'",
-        "Batik cantik. Kemudian, batik juga mahal.'",
         "Setelah itu, festival diadakan karena budaya penting.'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2849,13 +2849,13 @@
       "q": "Penggunaan 'Selain itu,' yang BENAR adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Batik tulis membutuhkan waktu berminggu-minggu. Selain itu, bahan yang digunakan sangat mahal.'",
-        "Festival mendatangkan manfaat ekonomi. Selain itu, pedagang khas mendapat banyak pelanggan.'",
         "Tari Saman terkenal. Selain itu, banyak yang tidak bisa menarikannya.' (pertentangan, bukan penambahan)",
+        "Festival mendatangkan manfaat ekonomi. Selain itu, pedagang khas mendapat banyak pelanggan.'",
         "Bahasa daerah ditinggalkan. Selain itu, kita harus melestarikannya.' (sebab-akibat, bukan penambahan)"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Manfaat menggunakan kata hubung antarkalimat dalam tulisan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membuat tulisan mengalir runtut dan tidak terasa melompat-lompat",
-        "Hubungan antarkalimat menjadi jelas dan mudah dipahami pembaca",
+        "Membuat setiap kalimat berdiri sendiri tanpa hubungan",
         "Membuat tulisan menjadi lebih panjang",
-        "Membuat setiap kalimat berdiri sendiri tanpa hubungan"
+        "Membuat tulisan mengalir runtut dan tidak terasa melompat-lompat",
+        "Hubungan antarkalimat menjadi jelas dan mudah dipahami pembaca"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2888,14 +2888,14 @@
       "stimulus": "",
       "q": "Kalimat yang TEPAT menggunakan kata hubung contoh/penjelasan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Indonesia memiliki ratusan tarian. Misalnya, Tari Jaipong dari Jawa Barat.'",
-        "Banyak cara melestarikan budaya. Contohnya, memasukkan tari daerah ke pelajaran sekolah.'",
         "Wayang golek terkenal. Misalnya, wayang golek juga terkenal.'",
-        "Budaya harus dilestarikan. Contohnya, budaya sangat penting.'"
+        "Budaya harus dilestarikan. Contohnya, budaya sangat penting.'",
+        "Banyak cara melestarikan budaya. Contohnya, memasukkan tari daerah ke pelajaran sekolah.'",
+        "Indonesia memiliki ratusan tarian. Misalnya, Tari Jaipong dari Jawa Barat.'"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2909,13 +2909,13 @@
       "q": "Dari teks wayang golek, dua kata hubung antarkalimat yang digunakan dengan tepat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Selain itu, pertunjukan ini diiringi musik gamelan degung' — menambahkan informasi",
-        "Namun, dalang kreatif menambahkan humor' — menunjukkan pertentangan/kontras",
+        "Oleh karena itu, wayang golek itu bagus' — tidak ada sebab yang jelas",
         "Misalnya, wayang golek sangat terkenal' — ini bukan contoh yang spesifik",
-        "Oleh karena itu, wayang golek itu bagus' — tidak ada sebab yang jelas"
+        "Namun, dalang kreatif menambahkan humor' — menunjukkan pertentangan/kontras"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -3097,8 +3097,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3448,8 +3447,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3502,8 +3500,7 @@
       ],
       "cols": [
         "Tepat",
-        "Tidak tepat",
-        "Tepat"
+        "Tidak tepat"
       ],
       "ans": [
         "Tepat",
@@ -3637,8 +3634,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3772,8 +3768,7 @@
       ],
       "cols": [
         "Tepat",
-        "Kurang tepat",
-        "Tepat"
+        "Kurang tepat"
       ],
       "ans": [
         "Tepat",
@@ -3880,8 +3875,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3934,8 +3928,7 @@
       ],
       "cols": [
         "Baik (ada alasan)",
-        "Kurang baik (tanpa alasan)",
-        "Baik (ada alasan)"
+        "Kurang baik (tanpa alasan)"
       ],
       "ans": [
         "Baik (ada alasan)",
@@ -4258,8 +4251,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4339,8 +4331,7 @@
       ],
       "cols": [
         "Tepat",
-        "Tidak tepat",
-        "Tepat"
+        "Tidak tepat"
       ],
       "ans": [
         "Tepat",

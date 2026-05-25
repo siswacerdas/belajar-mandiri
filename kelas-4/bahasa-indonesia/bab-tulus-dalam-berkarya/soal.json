@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Yang termasuk cara yang tepat untuk memahami kata baru dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menebak arti dari konteks kalimat di sekitar kata baru",
         "Membuka KBBI untuk mencari arti kata tersebut",
+        "Menghapus kata tersebut dari teks",
         "Langsung melewati kata itu dan tidak membacanya",
-        "Menghapus kata tersebut dari teks"
+        "Menebak arti dari konteks kalimat di sekitar kata baru"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1868,14 +1868,14 @@
       "stimulus": "",
       "q": "Kalimat: 'Pelukis menyapukan kuas ke kanvas dengan gerakan lembut.' Berdasarkan konteks, kata yang berhubungan dengan alat melukis adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "kuas — alat untuk mengoleskan cat",
-        "kanvas — permukaan tempat melukis",
         "lembut — kata sifat yang menggambarkan gerakan",
-        "menyapukan — kata kerja yang menggambarkan tindakan"
+        "menyapukan — kata kerja yang menggambarkan tindakan",
+        "kanvas — permukaan tempat melukis",
+        "kuas — alat untuk mengoleskan cat"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1928,14 +1928,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang cara memahami kata baru adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Konteks kalimat adalah cara paling cepat dan sering dipakai",
-        "KBBI adalah sumber terpercaya untuk mencari arti kata yang tepat",
         "Kata baru sebaiknya langsung dilewati agar tidak membuang waktu",
+        "KBBI adalah sumber terpercaya untuk mencari arti kata yang tepat",
+        "Konteks kalimat adalah cara paling cepat dan sering dipakai",
         "Kata baru hanya bisa dipahami jika ada gambarnya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1948,14 +1948,14 @@
       "stimulus": "",
       "q": "Kalimat: 'Rara memakai kostum tari yang dihiasi ukiran emas.' Dua kata yang menunjukkan benda atau hiasan pada kostum adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "memakai — kata kerja tentang tindakan Rara",
         "kostum — pakaian khusus untuk menari",
         "ukiran emas — hiasan bermotif pada kostum",
-        "memakai — kata kerja tentang tindakan Rara",
         "menari — kata kerja tentang kegiatan"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1970,8 +1970,8 @@
       "opt": [
         "Menandakan kita sedang belajar sesuatu yang baru",
         "Menambah perbendaharaan kata yang kita miliki",
-        "Menunjukkan teks tersebut sulit dan harus dihindari",
-        "Berarti kita harus segera mengganti buku bacaan"
+        "Berarti kita harus segera mengganti buku bacaan",
+        "Menunjukkan teks tersebut sulit dan harus dihindari"
       ],
       "ans": [
         "A",
@@ -1989,13 +1989,13 @@
       "q": "Kalimat: 'Beni menggoreskan kuas ke kanvas dengan penuh percaya diri, menciptakan siluet pegunungan yang dramatis.' Dua kata yang bisa dipahami artinya dari konteks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "siluet — bentuk bayangan gelap (dari 'pegunungan yang dramatis')",
-        "kanvas — permukaan untuk melukis (dari 'menggoreskan kuas ke kanvas')",
         "menggoreskan — kata kerja yang sudah umum",
-        "percaya diri — kata yang sudah diketahui artinya"
+        "percaya diri — kata yang sudah diketahui artinya",
+        "kanvas — permukaan untuk melukis (dari 'menggoreskan kuas ke kanvas')"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2008,14 +2008,14 @@
       "stimulus": "",
       "q": "Teks batik menyebutkan bahwa 'batik adalah warisan budaya Indonesia yang diakui UNESCO'. Dua informasi penting dalam kalimat tersebut adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Batik adalah warisan budaya Indonesia",
+        "Batik berasal dari Jawa Barat",
         "UNESCO telah mengakui batik sebagai warisan budaya dunia",
         "Proses membuat batik memerlukan waktu berminggu-minggu",
-        "Batik berasal dari Jawa Barat"
+        "Batik adalah warisan budaya Indonesia"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2029,13 +2029,13 @@
       "q": "Cara menebak arti kata baru dari konteks yang tepat adalah dengan ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Memperhatikan kata-kata di sekitar kata baru yang memberikan petunjuk",
-        "Menghubungkan kata baru dengan topik yang dibahas dalam teks",
         "Langsung menyimpulkan tanpa membaca kalimatnya",
-        "Menebak sembarangan berdasarkan bunyi kata"
+        "Menebak sembarangan berdasarkan bunyi kata",
+        "Menghubungkan kata baru dengan topik yang dibahas dalam teks"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2048,10 +2048,10 @@
       "stimulus": "",
       "q": "Topik-topik yang sering memunculkan banyak kata baru dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Topik seni dan kebudayaan seperti batik, tari, dan lukisan",
         "Topik ilmu pengetahuan seperti alam dan teknologi",
-        "Topik yang sangat familiar di kehidupan sehari-hari",
-        "Topik tentang benda-benda yang sudah diketahui semua orang"
+        "Topik seni dan kebudayaan seperti batik, tari, dan lukisan",
+        "Topik tentang benda-benda yang sudah diketahui semua orang",
+        "Topik yang sangat familiar di kehidupan sehari-hari"
       ],
       "ans": [
         "A",
@@ -2068,14 +2068,14 @@
       "stimulus": "",
       "q": "Dua cara utama untuk memperkaya kosakata adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Rajin membaca berbagai jenis teks",
-        "Mencatat dan mempelajari kata-kata baru yang ditemukan",
+        "Menghindari teks tentang topik yang belum dikenal",
         "Hanya membaca teks yang mudah dan tidak ada kata barunya",
-        "Menghindari teks tentang topik yang belum dikenal"
+        "Rajin membaca berbagai jenis teks",
+        "Mencatat dan mempelajari kata-kata baru yang ditemukan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2088,8 +2088,8 @@
       "stimulus": "",
       "q": "Kalimat: 'Dinda terinspirasi dari kebun nenek di Lembang yang penuh bunga matahari setiap musim panas.' Dua kata yang maknanya bisa ditebak dari konteks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "terinspirasi — mendapat ide/dorongan (dari 'kebun yang penuh bunga')",
         "musim panas — waktu ketika bunga matahari bermekaran",
+        "terinspirasi — mendapat ide/dorongan (dari 'kebun yang penuh bunga')",
         "Lembang — nama orang yang disebutkan",
         "kebun — benda yang tidak perlu dijelaskan"
       ],
@@ -2108,14 +2108,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang kata baru dalam teks adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kata baru bisa dipahami melalui konteks kalimat di sekitarnya",
-        "Menemukan kata baru adalah tanda bahwa kita sedang belajar",
         "Kata baru selalu membuat teks menjadi sangat sulit dibaca",
-        "Kata baru hanya ditemukan di teks yang sangat panjang"
+        "Kata baru hanya ditemukan di teks yang sangat panjang",
+        "Kata baru bisa dipahami melalui konteks kalimat di sekitarnya",
+        "Menemukan kata baru adalah tanda bahwa kita sedang belajar"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2129,13 +2129,13 @@
       "q": "Dua pernyataan yang tepat tentang KBBI adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "KBBI adalah Kamus Besar Bahasa Indonesia",
-        "KBBI tersedia dalam bentuk buku maupun versi online",
         "KBBI hanya boleh digunakan oleh guru dan dosen",
+        "KBBI tersedia dalam bentuk buku maupun versi online",
         "KBBI berisi kosakata bahasa Inggris saja"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2148,14 +2148,14 @@
       "stimulus": "",
       "q": "Ciri-ciri pendapat yang baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Disertai alasan yang jelas mengapa kita berpendapat demikian",
         "Menggunakan kata pembuka yang sopan seperti 'menurut saya'",
         "Disampaikan tanpa alasan apapun",
+        "Disertai alasan yang jelas mengapa kita berpendapat demikian",
         "Harus disetujui oleh semua orang"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2168,14 +2168,14 @@
       "stimulus": "",
       "q": "Perbedaan antara fakta dan pendapat yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Fakta dan pendapat adalah hal yang sama",
         "Fakta dapat dibuktikan kebenarannya oleh siapapun",
         "Pendapat bersifat pribadi dan bisa berbeda antar orang",
-        "Fakta dan pendapat adalah hal yang sama",
         "Pendapat selalu lebih benar daripada fakta"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2188,14 +2188,14 @@
       "stimulus": "",
       "q": "Tiga bagian dalam rumus pendapat yang baik adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Bukti dari teks — bagian teks yang mendukung pendapatmu",
         "Pendapat — apa penilaianmu terhadap teks",
         "Alasan — mengapa kamu berpendapat demikian",
-        "Bukti dari teks — bagian teks yang mendukung pendapatmu",
         "Judul teks — nama teks yang kamu baca"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2209,13 +2209,13 @@
       "q": "Hal-hal yang bisa kamu perhatikan saat memberikan pendapat tentang ilustrasi adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Apakah gambarnya cocok dengan isi cerita",
+        "Nama penerbit yang mencetak buku tersebut",
         "Apakah warna dan tampilan visualnya menarik dan mudah dipahami",
-        "Harga buku yang memuat ilustrasi tersebut",
-        "Nama penerbit yang mencetak buku tersebut"
+        "Harga buku yang memuat ilustrasi tersebut"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2228,8 +2228,8 @@
       "stimulus": "",
       "q": "Kata-kata pembuka yang tepat untuk menyampaikan pendapat secara sopan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menurut saya, ...' dan 'Saya berpendapat bahwa ...'",
         "Saya setuju/tidak setuju karena ...' dan 'Dalam pandangan saya, ...'",
+        "Menurut saya, ...' dan 'Saya berpendapat bahwa ...'",
         "Sudah pasti ...' dan 'Semua orang tahu ...'",
         "Kamu pasti salah karena ...' dan 'Jelas sekali bahwa ...'"
       ],
@@ -2248,14 +2248,14 @@
       "stimulus": "",
       "q": "Ilustrasi dikatakan cocok dengan isi teks jika ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Gambar menggambarkan suasana, tokoh, atau kejadian dalam teks",
-        "Warna dan detail ilustrasi sesuai dengan deskripsi dalam cerita",
         "Ilustrasinya dibuat oleh seniman terkenal",
+        "Warna dan detail ilustrasi sesuai dengan deskripsi dalam cerita",
+        "Gambar menggambarkan suasana, tokoh, atau kejadian dalam teks",
         "Ukurannya memenuhi seluruh halaman buku"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2268,14 +2268,14 @@
       "stimulus": "",
       "q": "Dua contoh kalimat yang merupakan PENDAPAT dan bukan fakta adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Dinda menggunakan cat akrilik untuk melukis.'",
         "Menurut saya, cerita Rara sangat menyentuh hati.'",
         "Saya rasa pesan moral batik tulis sangat kuat bagi generasi muda.'",
-        "Dinda menggunakan cat akrilik untuk melukis.'",
         "Rara menari tari Jaipong di pentas seni sekolah.'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2289,13 +2289,13 @@
       "q": "Pendapat tentang isi teks yang lengkap dan baik mengandung ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Penilaian kita tentang cerita, tokoh, atau pesan",
-        "Alasan dan bukti dari teks yang mendukung penilaian tersebut",
         "Jumlah kata dan halaman teks tersebut",
+        "Alasan dan bukti dari teks yang mendukung penilaian tersebut",
         "Nama penulis dan tahun terbit teks"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Pendapat yang bersifat kritis tetapi sopan mengandung ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Penyampaian kekurangan disertai alasan yang jelas",
-        "Bahasa yang tetap santun meskipun tidak setuju",
         "Kemarahan yang ditujukan kepada penulis teks",
-        "Penghinaan terhadap karya yang dinilai"
+        "Penyampaian kekurangan disertai alasan yang jelas",
+        "Penghinaan terhadap karya yang dinilai",
+        "Bahasa yang tetap santun meskipun tidak setuju"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2328,14 +2328,14 @@
       "stimulus": "",
       "q": "Pendapat tentang ilustrasi yang baik dan lengkap adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menurut saya, ilustrasi penari dalam teks ini sangat sesuai karena menggambarkan semangat Rara.'",
-        "Saya rasa warna ilustrasi yang cerah berhasil menyampaikan keceriaan dalam cerita.'",
         "Gambarnya bagus.'",
-        "Ilustrasi itu pasti dibuat dengan komputer.'"
+        "Ilustrasi itu pasti dibuat dengan komputer.'",
+        "Saya rasa warna ilustrasi yang cerah berhasil menyampaikan keceriaan dalam cerita.'",
+        "Menurut saya, ilustrasi penari dalam teks ini sangat sesuai karena menggambarkan semangat Rara.'"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2348,14 +2348,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang menyampaikan pendapat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pendapat boleh berbeda antara satu orang dengan orang lainnya",
+        "Pendapat tanpa alasan sudah cukup baik",
         "Pendapat yang baik menggunakan kata sopan dan disertai alasan",
         "Pendapat harus sama dengan pendapat semua teman",
-        "Pendapat tanpa alasan sudah cukup baik"
+        "Pendapat boleh berbeda antara satu orang dengan orang lainnya"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2368,14 +2368,14 @@
       "stimulus": "",
       "q": "Dalam pendapat: 'Menurut saya, kisah Dinda menginspirasi karena ia berlatih tiga minggu untuk satu lukisan — misalnya ketika ia tidak menyerah meski cat pertamanya tumpah.' Yang merupakan ALASAN adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "ia berlatih tiga minggu untuk satu lukisan",
-        "ketika ia tidak menyerah meski cat pertamanya tumpah — ini adalah bukti",
         "Menurut saya — ini adalah kata pembuka",
-        "kisah Dinda — ini adalah nama tokoh"
+        "ia berlatih tiga minggu untuk satu lukisan",
+        "kisah Dinda — ini adalah nama tokoh",
+        "ketika ia tidak menyerah meski cat pertamanya tumpah — ini adalah bukti"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2388,14 +2388,14 @@
       "stimulus": "",
       "q": "Dua hal yang perlu diperhatikan saat memberikan pendapat tentang isi teks cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Apakah ceritanya menarik dan tokohnya terasa nyata",
-        "Apakah pesannya jelas dan mudah dipahami pembaca",
+        "Di kota mana cerita itu berlatar",
         "Berapa panjang cerita dalam jumlah kata",
-        "Di kota mana cerita itu berlatar"
+        "Apakah pesannya jelas dan mudah dipahami pembaca",
+        "Apakah ceritanya menarik dan tokohnya terasa nyata"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2408,14 +2408,14 @@
       "stimulus": "",
       "q": "Kata-kata yang menggambarkan perasaan POSITIF dalam sebuah cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bangga dan terharu",
+        "Takut dan cemas",
         "Senang dan lega",
-        "Sedih dan kecewa",
-        "Takut dan cemas"
+        "Bangga dan terharu",
+        "Sedih dan kecewa"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2429,13 +2429,13 @@
       "q": "Cara menemukan perasaan tokoh yang tepat adalah dengan memperhatikan ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Kata-kata yang menggambarkan emosi seperti 'merasa sedih' atau 'sangat bangga'",
+        "Nama tokoh yang paling sering disebut dalam cerita",
         "Tindakan tokoh yang mencerminkan perasaan seperti 'menunduk lesu'",
-        "Jumlah kalimat dalam setiap paragraf cerita",
-        "Nama tokoh yang paling sering disebut dalam cerita"
+        "Jumlah kalimat dalam setiap paragraf cerita"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2449,13 +2449,13 @@
       "q": "Dalam cerita 'Pentas Seni Rara', dua pemicu yang mengubah perasaan Rara adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Bu Wati menyemangati Rara — mengubah Rara dari putus asa menjadi bertekad",
+        "Kaki Rara yang sakit — membuat Rara menjadi lebih kuat",
         "Senyuman ibu di penonton — mengubah Rara dari gugup menjadi berani",
-        "Musik gamelan — membuat Rara langsung merasa bangga",
-        "Kaki Rara yang sakit — membuat Rara menjadi lebih kuat"
+        "Musik gamelan — membuat Rara langsung merasa bangga"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Ungkapan-ungkapan dalam cerita yang menggambarkan perasaan SEDIH atau KECEWA adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "air matanya menetes deras'",
-        "ia menunduk lesu pulang ke rumah'",
         "senyumnya merekah lebar'",
-        "tepuk tangan riuh memenuhi ruangan'"
+        "tepuk tangan riuh memenuhi ruangan'",
+        "ia menunduk lesu pulang ke rumah'",
+        "air matanya menetes deras'"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2488,14 +2488,14 @@
       "stimulus": "",
       "q": "Manfaat memahami perubahan perasaan tokoh dalam membaca cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membantu kita memahami jalan cerita lebih mendalam",
-        "Membantu kita mengenal watak atau karakter tokoh",
         "Membantu kita menghafal semua nama tokoh",
-        "Membantu kita mengetahui latar tempat cerita"
+        "Membantu kita mengetahui latar tempat cerita",
+        "Membantu kita mengenal watak atau karakter tokoh",
+        "Membantu kita memahami jalan cerita lebih mendalam"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2508,14 +2508,14 @@
       "stimulus": "",
       "q": "Dalam cerita Rara, dua perasaan yang dialami Rara di AKHIR cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Terharu — karena berhasil tampil di hadapan penonton",
         "Bangga — karena penonton bertepuk tangan meriah",
+        "Marah — karena latihan selama ini terasa sia-sia",
         "Sedih — karena kakinya masih terasa sakit",
-        "Marah — karena latihan selama ini terasa sia-sia"
+        "Terharu — karena berhasil tampil di hadapan penonton"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2528,14 +2528,14 @@
       "stimulus": "",
       "q": "Perubahan perasaan tokoh dalam cerita menunjukkan bahwa ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tokoh mengalami pertumbuhan karakter sepanjang cerita",
         "Ada kejadian-kejadian penting yang mempengaruhi emosi tokoh",
         "Penulis cerita tidak konsisten dalam menulis",
-        "Perasaan tokoh tidak perlu dipahami pembaca"
+        "Perasaan tokoh tidak perlu dipahami pembaca",
+        "Tokoh mengalami pertumbuhan karakter sepanjang cerita"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2548,14 +2548,14 @@
       "stimulus": "",
       "q": "Ungkapan yang menggambarkan perasaan GUGUP atau TEGANG dalam cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "hatinya berdebar-debar'",
         "tangannya sedikit gemetar'",
+        "senyumnya merekah bahagia'",
         "ia tertidur lelap'",
-        "senyumnya merekah bahagia'"
+        "hatinya berdebar-debar'"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2568,14 +2568,14 @@
       "stimulus": "",
       "q": "Empati dalam membaca cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kemampuan ikut merasakan apa yang dirasakan tokoh",
-        "Memahami mengapa tokoh bertindak atau merasa seperti itu",
         "Hanya menghitung berapa kali tokoh menangis",
-        "Mencatat semua perasaan positif tokoh saja"
+        "Mencatat semua perasaan positif tokoh saja",
+        "Kemampuan ikut merasakan apa yang dirasakan tokoh",
+        "Memahami mengapa tokoh bertindak atau merasa seperti itu"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2588,14 +2588,14 @@
       "stimulus": "",
       "q": "Kata-kata yang menunjukkan perasaan NEGATIF yang bisa berubah menjadi positif dalam sebuah cerita adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Cemas — bisa berubah menjadi lega",
         "Kecewa — bisa berubah menjadi bangga",
+        "Bangga — selalu berubah menjadi cemas",
         "Senang — selalu berubah menjadi sedih",
-        "Bangga — selalu berubah menjadi cemas"
+        "Cemas — bisa berubah menjadi lega"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2628,14 +2628,14 @@
       "stimulus": "",
       "q": "Dua hal yang bisa kita pelajari dari memahami perubahan perasaan tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Cara menghadapi tantangan seperti yang dilakukan tokoh",
         "Nilai-nilai baik yang ditunjukkan tokoh dalam cerita",
-        "Cara menghafal seluruh isi cerita dengan cepat",
-        "Cara menghitung jumlah paragraf dalam cerita"
+        "Cara menghitung jumlah paragraf dalam cerita",
+        "Cara menghadapi tantangan seperti yang dilakukan tokoh",
+        "Cara menghafal seluruh isi cerita dengan cepat"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2648,14 +2648,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang perubahan perasaan tokoh adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Perasaan tokoh bisa berubah beberapa kali dalam satu cerita",
-        "Pemicu perubahan perasaan biasanya adalah kejadian penting dalam alur",
         "Perasaan tokoh hanya berubah satu kali di akhir cerita",
-        "Perasaan tokoh tidak terpengaruh oleh kejadian dalam cerita"
+        "Perasaan tokoh bisa berubah beberapa kali dalam satu cerita",
+        "Perasaan tokoh tidak terpengaruh oleh kejadian dalam cerita",
+        "Pemicu perubahan perasaan biasanya adalah kejadian penting dalam alur"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Ciri-ciri kalimat efektif yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Jelas dan tidak ambigu — hanya punya satu makna",
-        "Hemat kata — tidak mengulang dan tidak ada kata mubazir",
+        "Selalu menggunakan kata-kata asing",
         "Sangat panjang agar penjelasannya lengkap",
-        "Selalu menggunakan kata-kata asing"
+        "Hemat kata — tidak mengulang dan tidak ada kata mubazir",
+        "Jelas dan tidak ambigu — hanya punya satu makna"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2688,8 +2688,8 @@
       "stimulus": "",
       "q": "Kalimat: 'Dinda melukis bunga matahari di studio sekolah setiap sore.' Bagian-bagian yang benar adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Dinda = Subjek (S)",
         "melukis = Predikat (P)",
+        "Dinda = Subjek (S)",
         "di studio sekolah = Objek (O)",
         "setiap sore = Subjek (S)"
       ],
@@ -2708,14 +2708,14 @@
       "stimulus": "",
       "q": "Kalimat-kalimat yang TIDAK efektif karena pengulangan kata yang tidak perlu adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Para siswa-siswa sedang belajar.' — 'para' dan 'siswa-siswa' bermakna sama",
         "Beni itu adalah merupakan siswa rajin.' — 'adalah' dan 'merupakan' bermakna sama",
+        "Dinda sangat suka melukis.'",
         "Rara menari tari Jaipong di panggung.'",
-        "Dinda sangat suka melukis.'"
+        "Para siswa-siswa sedang belajar.' — 'para' dan 'siswa-siswa' bermakna sama"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2728,14 +2728,14 @@
       "stimulus": "",
       "q": "Trik cepat memeriksa kalimat agar efektif adalah dengan bertanya ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Apakah ada subjek — siapa atau apa yang melakukan?'",
+        "Apakah kalimat ini menggunakan kata asing?'",
         "Apakah ada kata yang bisa dihapus tanpa mengubah arti?'",
         "Apakah kalimat ini sudah cukup panjang?'",
-        "Apakah kalimat ini menggunakan kata asing?'"
+        "Apakah ada subjek — siapa atau apa yang melakukan?'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2748,14 +2748,14 @@
       "stimulus": "",
       "q": "Kalimat yang TIDAK efektif karena tidak memiliki subjek adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Sangat menyukai seni batik sejak kecil.' — tidak ada subjek",
         "Melukis bunga di atas kanvas setiap hari.' — tidak ada subjek",
+        "Dinda membuat lukisan yang indah.' — sudah ada subjek",
         "Rara menari tari Jaipong.' — sudah ada subjek",
-        "Dinda membuat lukisan yang indah.' — sudah ada subjek"
+        "Sangat menyukai seni batik sejak kecil.' — tidak ada subjek"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2770,8 +2770,8 @@
       "opt": [
         "Para siswa-siswa' diperbaiki menjadi 'Para siswa' atau 'Siswa-siswa'",
         "Beni adalah merupakan siswa rajin' diperbaiki menjadi 'Beni adalah siswa rajin'",
-        "Rara menari di panggung' diperbaiki menjadi 'Rara dia menari di panggung'",
-        "Dinda melukis' diperbaiki menjadi 'Dinda itu adalah merupakan melukis'"
+        "Dinda melukis' diperbaiki menjadi 'Dinda itu adalah merupakan melukis'",
+        "Rara menari di panggung' diperbaiki menjadi 'Rara dia menari di panggung'"
       ],
       "ans": [
         "A",
@@ -2788,14 +2788,14 @@
       "stimulus": "",
       "q": "Kalimat ambigu adalah kalimat yang ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memiliki lebih dari satu makna yang membingungkan pembaca",
+        "Tidak memiliki subjek dan predikat",
         "Tidak jelas karena bisa diartikan dengan dua cara berbeda",
-        "Kalimatnya sangat panjang dan bertele-tele",
-        "Tidak memiliki subjek dan predikat"
+        "Memiliki lebih dari satu makna yang membingungkan pembaca",
+        "Kalimatnya sangat panjang dan bertele-tele"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2808,14 +2808,14 @@
       "stimulus": "",
       "q": "Kalimat: 'Rara berlatih tari Jaipong di studio sekolah setiap sore.' Kalimat ini efektif karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Ada subjek yang jelas — Rara",
-        "Tidak ada kata yang diulang atau mubazir",
+        "Menggunakan kata-kata asing yang canggih",
         "Kalimatnya sangat panjang",
-        "Menggunakan kata-kata asing yang canggih"
+        "Tidak ada kata yang diulang atau mubazir",
+        "Ada subjek yang jelas — Rara"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2828,14 +2828,14 @@
       "stimulus": "",
       "q": "Unsur SPOK yang WAJIB ada dalam kalimat efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "S (Subjek) — siapa atau apa yang melakukan",
-        "P (Predikat) — apa yang dilakukan atau terjadi",
+        "K (Keterangan) — wajib ada di semua jenis kalimat",
         "O (Objek) — wajib ada di semua jenis kalimat",
-        "K (Keterangan) — wajib ada di semua jenis kalimat"
+        "P (Predikat) — apa yang dilakukan atau terjadi",
+        "S (Subjek) — siapa atau apa yang melakukan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2848,8 +2848,8 @@
       "stimulus": "",
       "q": "Kalimat efektif memiliki ciri ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Logis dan runtut — susunannya masuk akal dan teratur",
         "Jelas dan tidak ambigu — hanya punya satu makna",
+        "Logis dan runtut — susunannya masuk akal dan teratur",
         "Selalu menggunakan kata-kata yang sangat panjang",
         "Harus terdiri dari lebih dari sepuluh kata"
       ],
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Kalimat: 'Di sekolah, lukisan dibuat Dinda.' Dua masalah dalam kalimat ini adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Susunan S-P-O-nya terbalik sehingga sulit dipahami",
-        "Lebih jelas jika diubah menjadi 'Dinda membuat lukisan di sekolah'",
         "Kata 'di sekolah' tidak boleh di awal kalimat",
+        "Lebih jelas jika diubah menjadi 'Dinda membuat lukisan di sekolah'",
+        "Susunan S-P-O-nya terbalik sehingga sulit dipahami",
         "Kata 'lukisan' harus dihapus dari kalimat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2889,13 +2889,13 @@
       "q": "Dari contoh perbandingan kalimat efektif dan tidak efektif, dua penyebab kalimat tidak efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Pengulangan kata yang bermakna sama dalam satu kalimat",
-        "Susunan kata yang terbalik sehingga makna menjadi tidak jelas",
         "Kalimat yang terlalu singkat dan langsung ke inti",
+        "Susunan kata yang terbalik sehingga makna menjadi tidak jelas",
         "Kalimat yang menggunakan bahasa baku"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2908,14 +2908,14 @@
       "stimulus": "",
       "q": "Dua kalimat yang efektif dari pilihan berikut adalah ...",
       "opt": [
+        "Dinda itu adalah merupakan pelukis yang sangat bagus.'",
         "Rara sangat suka menari tarian tradisional.'",
         "Dinda membuat lukisan yang indah dengan cat air di studio.'",
-        "Rara dia itu suka sekali dengan yang namanya menari.'",
-        "Dinda itu adalah merupakan pelukis yang sangat bagus.'"
+        "Rara dia itu suka sekali dengan yang namanya menari.'"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -3043,8 +3043,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3313,8 +3312,7 @@
       ],
       "cols": [
         "Fakta",
-        "Pendapat",
-        "Fakta"
+        "Pendapat"
       ],
       "ans": [
         "Fakta",
@@ -3475,8 +3473,7 @@
       ],
       "cols": [
         "Pendapat baik",
-        "Pendapat kurang baik",
-        "Pendapat baik"
+        "Pendapat kurang baik"
       ],
       "ans": [
         "Pendapat baik",
@@ -3529,8 +3526,7 @@
       ],
       "cols": [
         "Fakta",
-        "Pendapat",
-        "Fakta"
+        "Pendapat"
       ],
       "ans": [
         "Fakta",
@@ -3583,8 +3579,7 @@
       ],
       "cols": [
         "Lengkap (ada alasan)",
-        "Kurang lengkap (tanpa alasan)",
-        "Lengkap (ada alasan)"
+        "Kurang lengkap (tanpa alasan)"
       ],
       "ans": [
         "Lengkap (ada alasan)",
@@ -3610,8 +3605,7 @@
       ],
       "cols": [
         "Cocok dengan teks",
-        "Tidak cocok dengan teks",
-        "Cocok dengan teks"
+        "Tidak cocok dengan teks"
       ],
       "ans": [
         "Cocok dengan teks",
@@ -3637,8 +3631,7 @@
       ],
       "cols": [
         "Sopan dan baik",
-        "Kurang sopan",
-        "Sopan dan baik"
+        "Kurang sopan"
       ],
       "ans": [
         "Sopan dan baik",
@@ -3664,8 +3657,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3799,8 +3791,7 @@
       ],
       "cols": [
         "Perasaan positif",
-        "Perasaan negatif",
-        "Perasaan positif"
+        "Perasaan negatif"
       ],
       "ans": [
         "Perasaan positif",
@@ -3907,8 +3898,7 @@
       ],
       "cols": [
         "Langsung (kata emosi)",
-        "Tidak langsung (tindakan)",
-        "Langsung (kata emosi)"
+        "Tidak langsung (tindakan)"
       ],
       "ans": [
         "Langsung (kata emosi)",
@@ -3934,8 +3924,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4069,8 +4058,7 @@
       ],
       "cols": [
         "Efektif",
-        "Tidak efektif",
-        "Efektif"
+        "Tidak efektif"
       ],
       "ans": [
         "Efektif",
@@ -4258,8 +4246,7 @@
       ],
       "cols": [
         "Lengkap (ada S dan P)",
-        "Tidak lengkap (tanpa S)",
-        "Lengkap (ada S dan P)"
+        "Tidak lengkap (tanpa S)"
       ],
       "ans": [
         "Lengkap (ada S dan P)",
@@ -4285,8 +4272,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",

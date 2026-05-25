@@ -1848,14 +1848,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Budaya mencakup cara hidup, nilai, kepercayaan, dan tradisi suatu kelompok",
-        "Budaya diwariskan dari generasi ke generasi secara turun-temurun",
+        "Budaya terbentuk dalam waktu yang sangat singkat",
         "Budaya hanya terdiri dari tari-tarian dan pakaian adat",
-        "Budaya terbentuk dalam waktu yang sangat singkat"
+        "Budaya diwariskan dari generasi ke generasi secara turun-temurun",
+        "Budaya mencakup cara hidup, nilai, kepercayaan, dan tradisi suatu kelompok"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1869,13 +1869,13 @@
       "q": "Faktor yang menyebabkan Indonesia begitu kaya budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Indonesia terdiri dari ribuan pulau yang terpisah selama ribuan tahun",
-        "Indonesia memiliki kondisi alam yang beragam dari pegunungan hingga pantai",
         "Semua penduduk Indonesia berbicara bahasa yang sama",
-        "Indonesia hanya didiami oleh satu suku bangsa yang besar"
+        "Indonesia hanya didiami oleh satu suku bangsa yang besar",
+        "Indonesia memiliki kondisi alam yang beragam dari pegunungan hingga pantai"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1888,14 +1888,14 @@
       "stimulus": "",
       "q": "Yang termasuk unsur kebudayaan universal yang dimiliki semua masyarakat di dunia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Bahasa sebagai alat komunikasi utama masyarakat",
+        "Hanya bangunan dan arsitektur tradisional",
         "Sistem kepercayaan dan nilai-nilai spiritual masyarakat",
-        "Hanya tari-tarian dan nyanyian daerah",
-        "Hanya bangunan dan arsitektur tradisional"
+        "Bahasa sebagai alat komunikasi utama masyarakat",
+        "Hanya tari-tarian dan nyanyian daerah"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1908,14 +1908,14 @@
       "stimulus": "",
       "q": "Contoh unsur kesenian dalam budaya Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tari Saman dari Aceh yang gerakannya sangat cepat dan serentak",
+        "Sistem bagi hasil dalam panen di desa",
         "Batik yang motifnya penuh makna dan kearifan",
-        "Cara menanam padi menggunakan traktor modern",
-        "Sistem bagi hasil dalam panen di desa"
+        "Tari Saman dari Aceh yang gerakannya sangat cepat dan serentak",
+        "Cara menanam padi menggunakan traktor modern"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1929,13 +1929,13 @@
       "q": "Faktor yang mempengaruhi bentuk rumah adat suatu daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Kondisi alam sekitar termasuk iklim dan bahan bangunan yang tersedia",
-        "Kebutuhan dan cara hidup masyarakat setempat",
         "Warna kesukaan masyarakat daerah tersebut",
-        "Tren arsitektur internasional yang sedang populer"
+        "Tren arsitektur internasional yang sedang populer",
+        "Kebutuhan dan cara hidup masyarakat setempat"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1949,13 +1949,13 @@
       "q": "Dua rumah adat berikut yang berasal dari luar Pulau Jawa adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Rumah Gadang dari Sumatera Barat",
+        "Rumah Joglo dari Jawa Tengah",
         "Honai dari Papua",
-        "Rumah Kasepuhan dari Jawa Barat",
-        "Rumah Joglo dari Jawa Tengah"
+        "Rumah Kasepuhan dari Jawa Barat"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -1968,14 +1968,14 @@
       "stimulus": "",
       "q": "Fungsi pakaian adat bagi masyarakat suatu daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Sebagai cerminan identitas dan budaya daerah tersebut",
         "Sering dipakai dalam upacara adat dan perayaan penting",
+        "Hanya dipakai oleh pemimpin dan tokoh adat saja",
         "Digunakan sebagai pakaian sehari-hari oleh semua warga",
-        "Hanya dipakai oleh pemimpin dan tokoh adat saja"
+        "Sebagai cerminan identitas dan budaya daerah tersebut"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -1988,14 +1988,14 @@
       "stimulus": "",
       "q": "Tarian daerah yang berasal dari Pulau Jawa atau sekitarnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tari Jaipong dari Jawa Barat",
-        "Tari Gambyong dari Jawa Tengah",
         "Tari Saman dari Aceh",
-        "Tari Kecak dari Bali"
+        "Tari Gambyong dari Jawa Tengah",
+        "Tari Kecak dari Bali",
+        "Tari Jaipong dari Jawa Barat"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2008,8 +2008,8 @@
       "stimulus": "",
       "q": "Alat musik tradisional Indonesia yang telah diakui UNESCO adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Angklung dari Jawa Barat yang diakui tahun 2010",
         "Gamelan dari Jawa dan Bali",
+        "Angklung dari Jawa Barat yang diakui tahun 2010",
         "Gitar listrik modern",
         "Piano yang berasal dari Eropa"
       ],
@@ -2048,14 +2048,14 @@
       "stimulus": "",
       "q": "Seni dan tradisi yang termasuk dalam kebudayaan Sunda dari Jawa Barat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Wayang Golek yang menggunakan boneka kayu tiga dimensi",
         "Tari Jaipong yang energetik dan penuh semangat",
         "Tari Pendet yang berasal dari Bali",
+        "Wayang Golek yang menggunakan boneka kayu tiga dimensi",
         "Reog Ponorogo yang berasal dari Jawa Timur"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2068,14 +2068,14 @@
       "stimulus": "",
       "q": "Nilai-nilai yang terkandung dalam falsafah Sunda 'silih asah, silih asih, silih asuh' adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Saling mencerdaskan satu sama lain",
+        "Hidup secara mandiri tanpa bantuan orang lain",
         "Saling mengasihi dan membimbing dalam kehidupan bersama",
-        "Bersaing satu sama lain untuk menjadi yang terbaik",
-        "Hidup secara mandiri tanpa bantuan orang lain"
+        "Saling mencerdaskan satu sama lain",
+        "Bersaing satu sama lain untuk menjadi yang terbaik"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2089,13 +2089,13 @@
       "q": "Pengaruh budaya asing yang masuk ke Indonesia secara damai melalui perdagangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Pengaruh budaya India yang membawa masuk agama Hindu dan seni wayang",
-        "Pengaruh budaya Arab yang membawa masuk agama Islam",
         "Pengaruh budaya yang masuk melalui penjajahan dan kekerasan",
-        "Pengaruh yang memaksa masyarakat meninggalkan budaya aslinya"
+        "Pengaruh yang memaksa masyarakat meninggalkan budaya aslinya",
+        "Pengaruh budaya Arab yang membawa masuk agama Islam"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2150,8 +2150,8 @@
       "opt": [
         "Keduanya merupakan rumah adat khas Jawa Barat",
         "Keduanya memiliki bentuk atap yang terinspirasi dari alam sekitarnya",
-        "Keduanya dibangun dengan bahan beton modern",
-        "Keduanya hanya ada di Kota Bandung"
+        "Keduanya hanya ada di Kota Bandung",
+        "Keduanya dibangun dengan bahan beton modern"
       ],
       "ans": [
         "A",
@@ -2169,13 +2169,13 @@
       "q": "Dua pernyataan benar tentang tarian daerah Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Tarian daerah biasanya mengandung makna dan pesan tertentu",
+        "Tarian daerah hanya boleh ditampilkan pada hari kemerdekaan",
         "Tarian daerah mencerminkan nilai-nilai dan cara pandang masyarakat yang menciptakannya",
-        "Semua tarian daerah Indonesia memiliki gerakan yang sama",
-        "Tarian daerah hanya boleh ditampilkan pada hari kemerdekaan"
+        "Semua tarian daerah Indonesia memiliki gerakan yang sama"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2188,14 +2188,14 @@
       "stimulus": "",
       "q": "Alat musik tradisional Indonesia yang cara memainkannya dipukul adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Gamelan yang terdiri dari berbagai instrumen logam",
-        "Kendang yang dibuat dari kulit binatang",
+        "Sasando yang dimainkan dengan cara dipetik",
         "Angklung yang dimainkan dengan cara digoyang",
-        "Sasando yang dimainkan dengan cara dipetik"
+        "Gamelan yang terdiri dari berbagai instrumen logam",
+        "Kendang yang dibuat dari kulit binatang"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2208,14 +2208,14 @@
       "stimulus": "",
       "q": "Pernyataan yang BENAR tentang hubungan alam dan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Kondisi alam mempengaruhi cara hidup masyarakat secara langsung",
         "Cara hidup yang diwariskan turun-temurun itulah yang menjadi budaya",
-        "Alam dan budaya tidak memiliki hubungan apapun",
-        "Budaya selalu lebih kuat daripada pengaruh alam"
+        "Budaya selalu lebih kuat daripada pengaruh alam",
+        "Kondisi alam mempengaruhi cara hidup masyarakat secara langsung",
+        "Alam dan budaya tidak memiliki hubungan apapun"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2228,14 +2228,14 @@
       "stimulus": "",
       "q": "Kondisi alam yang mempengaruhi jenis pakaian masyarakat adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Iklim yang dingin mendorong pembuatan pakaian tebal dan hangat",
-        "Iklim yang panas mendorong pembuatan pakaian tipis dan longgar",
         "Semua daerah Indonesia memiliki jenis pakaian yang sama",
-        "Warna alam tidak mempengaruhi warna pakaian tradisional"
+        "Warna alam tidak mempengaruhi warna pakaian tradisional",
+        "Iklim yang dingin mendorong pembuatan pakaian tebal dan hangat",
+        "Iklim yang panas mendorong pembuatan pakaian tipis dan longgar"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2250,8 +2250,8 @@
       "opt": [
         "Jenis tanah: tanah subur mendorong pertanian, laut mendorong kelautan",
         "Letak geografis: pegunungan terisolasi, pesisir terbuka dengan budaya luar",
-        "Warna tanah yang berbeda di tiap daerah",
-        "Nama pulau yang menjadi tempat tinggal masyarakat"
+        "Nama pulau yang menjadi tempat tinggal masyarakat",
+        "Warna tanah yang berbeda di tiap daerah"
       ],
       "ans": [
         "A",
@@ -2268,14 +2268,14 @@
       "stimulus": "",
       "q": "Dua contoh nyata adaptasi budaya masyarakat terhadap alam di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Suku Dani membangun honai bulat untuk bertahan dari dinginnya pegunungan Papua",
-        "Suku Bajo membangun rumah di atas laut dan ahli menyelam tanpa alat bantu",
         "Suku Jawa menggunakan traktor untuk pertanian modern",
-        "Suku Betawi membangun apartemen bertingkat tinggi di Jakarta"
+        "Suku Bajo membangun rumah di atas laut dan ahli menyelam tanpa alat bantu",
+        "Suku Betawi membangun apartemen bertingkat tinggi di Jakarta",
+        "Suku Dani membangun honai bulat untuk bertahan dari dinginnya pegunungan Papua"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2288,14 +2288,14 @@
       "stimulus": "",
       "q": "Masyarakat yang tinggal di daerah banjir dan rawan bencana beradaptasi dengan cara ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Membangun rumah panggung agar terhindar dari genangan air",
-        "Menggunakan bahan bangunan ringan yang tidak berbahaya jika jatuh saat gempa",
         "Membangun gedung beton bertingkat yang sangat berat",
-        "Pindah ke daerah lain yang tidak banjir"
+        "Membangun rumah panggung agar terhindar dari genangan air",
+        "Pindah ke daerah lain yang tidak banjir",
+        "Menggunakan bahan bangunan ringan yang tidak berbahaya jika jatuh saat gempa"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2308,14 +2308,14 @@
       "stimulus": "",
       "q": "Budaya masyarakat Sunda yang berkaitan langsung dengan kehidupan agraris adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Tradisi ngaseuk — menanam padi dengan cara menusukkan kayu ke tanah",
         "Upacara Seren Taun sebagai syukur atas hasil panen padi",
-        "Keahlian menangkap ikan di laut lepas",
-        "Tradisi merantau mencari nafkah ke kota"
+        "Tradisi merantau mencari nafkah ke kota",
+        "Tradisi ngaseuk — menanam padi dengan cara menusukkan kayu ke tanah",
+        "Keahlian menangkap ikan di laut lepas"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2328,14 +2328,14 @@
       "stimulus": "",
       "q": "Pengaruh budaya asing yang masuk ke Indonesia melalui jalur perdagangan adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pengaruh Hindu-Buddha dari India yang terlihat pada candi dan wayang",
         "Pengaruh Islam dari Arab yang masuk melalui pedagang Muslim",
-        "Pengaruh yang masuk dengan cara penaklukan militer",
-        "Pengaruh modern dari media sosial saja"
+        "Pengaruh modern dari media sosial saja",
+        "Pengaruh Hindu-Buddha dari India yang terlihat pada candi dan wayang",
+        "Pengaruh yang masuk dengan cara penaklukan militer"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2348,10 +2348,10 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang perubahan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Budaya dapat berubah karena kontak dengan budaya lain",
         "Budaya dapat berubah karena perubahan kondisi alam dan lingkungan",
-        "Budaya tidak pernah boleh berubah sama sekali",
-        "Semua perubahan budaya pasti merugikan"
+        "Budaya dapat berubah karena kontak dengan budaya lain",
+        "Semua perubahan budaya pasti merugikan",
+        "Budaya tidak pernah boleh berubah sama sekali"
       ],
       "ans": [
         "A",
@@ -2368,14 +2368,14 @@
       "stimulus": "",
       "q": "Keistimewaan suku Bajo yang mencerminkan adaptasi terhadap kehidupan laut adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Mereka mampu menyelam sangat dalam tanpa alat bantu pernapasan",
         "Seluruh budayanya berputar di sekitar laut dari makanan hingga kepercayaan",
         "Mereka tidak pernah makan ikan meskipun hidup di laut",
+        "Mereka mampu menyelam sangat dalam tanpa alat bantu pernapasan",
         "Rumah mereka dibangun di puncak pegunungan"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2389,13 +2389,13 @@
       "q": "Perbedaan budaya antara masyarakat pegunungan dan pesisir disebabkan oleh ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Masyarakat pegunungan lebih terisolasi sehingga budaya lebih terjaga",
+        "Masyarakat pesisir lebih cerdas dari masyarakat pegunungan",
         "Masyarakat pesisir lebih terbuka terhadap pengaruh luar karena di jalur perdagangan",
-        "Pemerintah sengaja menciptakan perbedaan tersebut",
-        "Masyarakat pesisir lebih cerdas dari masyarakat pegunungan"
+        "Pemerintah sengaja menciptakan perbedaan tersebut"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2408,14 +2408,14 @@
       "stimulus": "",
       "q": "Keahlian seni ukir suku Asmat yang terkenal di dunia berkembang karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
+        "Pemerintah Indonesia membiayai pelatihan mengukir secara khusus",
         "Mereka hidup di daerah rawa dengan kayu mangrove yang melimpah sebagai bahan",
         "Ukiran adalah media ekspresi spiritual dan penghormatan kepada leluhur mereka",
-        "Pemerintah Indonesia membiayai pelatihan mengukir secara khusus",
         "Mereka meniru teknik ukir dari negara-negara Eropa"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2428,14 +2428,14 @@
       "stimulus": "",
       "q": "Contoh pemanfaatan teknologi modern yang positif untuk melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Merekam video pertunjukan wayang dan mengunggahnya ke YouTube",
-        "Mengajarkan angklung melalui aplikasi online kepada siswa di seluruh dunia",
+        "Melarang penggunaan media sosial agar tidak terpengaruh budaya asing",
         "Mengganti semua alat musik tradisional dengan alat musik digital",
-        "Melarang penggunaan media sosial agar tidak terpengaruh budaya asing"
+        "Mengajarkan angklung melalui aplikasi online kepada siswa di seluruh dunia",
+        "Merekam video pertunjukan wayang dan mengunggahnya ke YouTube"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2448,14 +2448,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang pengaruh budaya asing di Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pengaruh budaya asing masuk karena Indonesia terletak di jalur perdagangan dunia",
-        "Pengaruh ini memperkaya budaya Indonesia tanpa menghapus budaya lokal",
         "Semua pengaruh budaya asing bersifat negatif dan merusak",
-        "Indonesia tidak pernah menerima pengaruh budaya dari luar"
+        "Pengaruh ini memperkaya budaya Indonesia tanpa menghapus budaya lokal",
+        "Indonesia tidak pernah menerima pengaruh budaya dari luar",
+        "Pengaruh budaya asing masuk karena Indonesia terletak di jalur perdagangan dunia"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2468,14 +2468,14 @@
       "stimulus": "",
       "q": "Kondisi alam yang berubah bisa mengancam kelangsungan budaya. Contohnya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berkurangnya bambu akibat deforestasi mengancam kesenian angklung",
         "Berubahnya sawah menjadi perumahan mengancam tradisi pertanian Sunda",
         "Perubahan cuaca membuat semua budaya berkembang lebih pesat",
+        "Berkurangnya bambu akibat deforestasi mengancam kesenian angklung",
         "Kerusakan alam tidak berpengaruh sama sekali pada budaya"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2488,14 +2488,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang honai rumah adat suku Dani adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Honai berbentuk bulat dan berdinding tebal untuk menahan angin dingin",
-        "Bahan bangunannya menggunakan kayu dan jerami yang tersedia di sekitar pegunungan",
         "Honai dibangun sebagai istana mewah untuk pemimpin suku",
-        "Honai dibangun di atas laut untuk menghindari serangan musuh"
+        "Honai dibangun di atas laut untuk menghindari serangan musuh",
+        "Honai berbentuk bulat dan berdinding tebal untuk menahan angin dingin",
+        "Bahan bangunannya menggunakan kayu dan jerami yang tersedia di sekitar pegunungan"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2508,14 +2508,14 @@
       "stimulus": "",
       "q": "Masyarakat di hutan lebat mengembangkan keahlian ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Berburu dan meramu hasil hutan untuk memenuhi kebutuhan hidup",
         "Membuat kerajinan dari bahan-bahan alam yang ada di sekitar hutan",
         "Bertani padi di sawah irigasi yang luas",
-        "Menangkap ikan di laut lepas menggunakan kapal besar"
+        "Menangkap ikan di laut lepas menggunakan kapal besar",
+        "Berburu dan meramu hasil hutan untuk memenuhi kebutuhan hidup"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2528,8 +2528,8 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang makanan khas daerah dan kaitannya dengan alam adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Masyarakat pesisir mengembangkan masakan yang banyak menggunakan ikan dan hasil laut",
         "Masyarakat pegunungan yang bercocok tanam mengembangkan masakan dari sayuran dan umbi",
+        "Masyarakat pesisir mengembangkan masakan yang banyak menggunakan ikan dan hasil laut",
         "Semua masakan daerah di Indonesia berasal dari resep yang sama",
         "Makanan khas daerah tidak ada hubungannya dengan sumber daya alam setempat"
       ],
@@ -2549,13 +2549,13 @@
       "q": "Pernyataan benar tentang mengapa Indonesia memiliki keberagaman budaya yang sangat kaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Keberagaman alam dari laut, hutan, pegunungan mendorong perbedaan cara hidup",
-        "Kepulauan yang terpisah membuat masing-masing masyarakat mengembangkan budaya unik",
         "Pemerintah Indonesia sengaja menciptakan budaya baru untuk setiap daerah",
+        "Kepulauan yang terpisah membuat masing-masing masyarakat mengembangkan budaya unik",
         "Indonesia hanya memiliki satu sumber budaya dari satu suku bangsa"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2570,8 +2570,8 @@
       "opt": [
         "Budaya adalah identitas bangsa yang membedakan kita dari bangsa lain",
         "Budaya menyimpan kearifan lokal dan pengetahuan leluhur yang berharga",
-        "Budaya sudah tidak relevan dengan kehidupan modern",
-        "Budaya hanya perlu dilestarikan jika menghasilkan keuntungan ekonomi"
+        "Budaya hanya perlu dilestarikan jika menghasilkan keuntungan ekonomi",
+        "Budaya sudah tidak relevan dengan kehidupan modern"
       ],
       "ans": [
         "A",
@@ -2588,10 +2588,10 @@
       "stimulus": "",
       "q": "Ancaman yang paling nyata terhadap budaya daerah Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Arus globalisasi yang membawa masuk budaya asing melalui internet",
         "Urbanisasi yang membuat generasi muda meninggalkan desa dan tradisi",
-        "Pemerintah yang melarang praktik budaya daerah",
-        "Kondisi geografi Indonesia yang tidak mendukung pelestarian budaya"
+        "Arus globalisasi yang membawa masuk budaya asing melalui internet",
+        "Kondisi geografi Indonesia yang tidak mendukung pelestarian budaya",
+        "Pemerintah yang melarang praktik budaya daerah"
       ],
       "ans": [
         "A",
@@ -2608,14 +2608,14 @@
       "stimulus": "",
       "q": "Putusnya rantai pewarisan budaya berbahaya karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Keahlian budaya yang hanya dimiliki orang tua akan hilang ketika mereka meninggal",
         "Generasi muda tidak bisa belajar teknik dan nilai yang tersimpan dalam budaya tersebut",
         "Pemerintah akan marah jika budaya tidak diwariskan",
-        "Budaya yang tidak diwariskan otomatis diklaim negara lain"
+        "Budaya yang tidak diwariskan otomatis diklaim negara lain",
+        "Keahlian budaya yang hanya dimiliki orang tua akan hilang ketika mereka meninggal"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2628,10 +2628,10 @@
       "stimulus": "",
       "q": "Cara melestarikan budaya yang paling efektif adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memraktikkan budaya dalam kehidupan sehari-hari",
         "Mengajarkan budaya kepada generasi muda melalui pendidikan",
-        "Menyimpan semua benda budaya di museum agar tidak terpakai",
-        "Melarang semua pengaruh budaya asing masuk ke Indonesia"
+        "Memraktikkan budaya dalam kehidupan sehari-hari",
+        "Melarang semua pengaruh budaya asing masuk ke Indonesia",
+        "Menyimpan semua benda budaya di museum agar tidak terpakai"
       ],
       "ans": [
         "A",
@@ -2648,14 +2648,14 @@
       "stimulus": "",
       "q": "Budaya Indonesia yang telah diakui UNESCO sebagai warisan budaya dunia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Angklung yang diakui sebagai warisan budaya takbenda tahun 2010",
-        "Batik yang diakui sebagai warisan budaya takbenda tahun 2009",
+        "Rendang dari Sumatera Barat",
         "Tari Kecak dari Bali",
-        "Rendang dari Sumatera Barat"
+        "Angklung yang diakui sebagai warisan budaya takbenda tahun 2010",
+        "Batik yang diakui sebagai warisan budaya takbenda tahun 2009"
       ],
       "ans": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2668,14 +2668,14 @@
       "stimulus": "",
       "q": "Cara nyata yang bisa dilakukan siswa SD untuk melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memakai batik ke sekolah dan belajar memainkan alat musik tradisional",
         "Menggunakan bahasa daerah di rumah dan mengikuti sanggar seni lokal",
         "Hanya menonton pertunjukan budaya di televisi",
-        "Meminta pemerintah membangun lebih banyak museum"
+        "Meminta pemerintah membangun lebih banyak museum",
+        "Memakai batik ke sekolah dan belajar memainkan alat musik tradisional"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2689,13 +2689,13 @@
       "q": "Mengapa klaim budaya oleh negara lain bisa terjadi?\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
         "Karena kita belum cukup mendokumentasikan dan mendaftarkan budaya kita secara resmi",
-        "Karena tidak ada hukum internasional yang melindungi budaya suatu negara",
         "Karena pemerintah Indonesia tidak peduli dengan budayanya",
+        "Karena tidak ada hukum internasional yang melindungi budaya suatu negara",
         "Karena budaya Indonesia tidak cukup terkenal di dunia"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2708,14 +2708,14 @@
       "stimulus": "",
       "q": "Nilai ekonomi budaya terbukti dari fakta bahwa ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Penari, pengrajin batik, dan pengukir kayu menghidupi keluarga mereka dari warisan budaya",
         "Budaya daerah menjadi daya tarik wisata yang menghasilkan pendapatan daerah",
-        "Budaya tidak memiliki nilai ekonomi apapun",
-        "Hanya budaya yang sudah modern yang bisa menghasilkan uang"
+        "Hanya budaya yang sudah modern yang bisa menghasilkan uang",
+        "Penari, pengrajin batik, dan pengukir kayu menghidupi keluarga mereka dari warisan budaya",
+        "Budaya tidak memiliki nilai ekonomi apapun"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2730,8 +2730,8 @@
       "opt": [
         "Mengajarkan seni budaya, bahasa daerah, dan muatan lokal di sekolah",
         "Mengadakan festival budaya di sekolah untuk memperkenalkan keberagaman kepada siswa",
-        "Menggantikan semua pelajaran dengan pelajaran budaya",
-        "Hanya mengajarkan budaya kepada siswa yang berminat saja"
+        "Hanya mengajarkan budaya kepada siswa yang berminat saja",
+        "Menggantikan semua pelajaran dengan pelajaran budaya"
       ],
       "ans": [
         "A",
@@ -2748,14 +2748,14 @@
       "stimulus": "",
       "q": "Pernyataan yang benar tentang ancaman globalisasi terhadap budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Anak-anak kini lebih hafal lagu asing daripada lagu daerahnya sendiri",
         "Karakter budaya pop asing lebih dikenal daripada tokoh budaya tradisional",
         "Globalisasi hanya membawa dampak positif bagi budaya Indonesia",
+        "Anak-anak kini lebih hafal lagu asing daripada lagu daerahnya sendiri",
         "Budaya asing tidak bisa masuk ke Indonesia karena ada filter pemerintah"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2768,10 +2768,10 @@
       "stimulus": "",
       "q": "Manfaat pengakuan UNESCO terhadap budaya Indonesia adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Perlindungan internasional bahwa budaya tersebut resmi milik Indonesia",
         "Meningkatkan kebanggaan masyarakat dan minat generasi muda untuk melestarikan",
-        "Budaya otomatis tidak bisa punah setelah diakui UNESCO",
-        "Indonesia mendapat hadiah uang tunai dari UNESCO"
+        "Perlindungan internasional bahwa budaya tersebut resmi milik Indonesia",
+        "Indonesia mendapat hadiah uang tunai dari UNESCO",
+        "Budaya otomatis tidak bisa punah setelah diakui UNESCO"
       ],
       "ans": [
         "A",
@@ -2788,14 +2788,14 @@
       "stimulus": "",
       "q": "Upaya yang tepat untuk melestarikan budaya Sunda adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Belajar bahasa Sunda dan menggunakannya dalam percakapan sehari-hari",
         "Mengikuti sanggar seni untuk belajar tari Jaipong atau wayang golek",
         "Hanya menonton pertunjukan budaya Sunda dari layar kaca",
+        "Belajar bahasa Sunda dan menggunakannya dalam percakapan sehari-hari",
         "Menolak semua budaya non-Sunda yang masuk ke Jawa Barat"
       ],
       "ans": [
         "A",
-        "B"
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2808,14 +2808,14 @@
       "stimulus": "",
       "q": "Sikap yang benar terhadap keberagaman budaya daerah adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Menghargai dan menghormati budaya daerah lain",
-        "Bangga dengan budaya daerah sendiri tanpa merendahkan yang lain",
         "Menganggap budaya daerah sendiri paling baik dari semua yang ada",
-        "Tidak perlu mempelajari budaya daerah lain"
+        "Menghargai dan menghormati budaya daerah lain",
+        "Tidak perlu mempelajari budaya daerah lain",
+        "Bangga dengan budaya daerah sendiri tanpa merendahkan yang lain"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2828,14 +2828,14 @@
       "stimulus": "",
       "q": "Wisata budaya berkontribusi pada pelestarian karena ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Memberikan penghasilan bagi masyarakat penjaga budaya sehingga termotivasi mempertahankan",
         "Meningkatkan kesadaran wisatawan dan masyarakat tentang pentingnya budaya",
         "Wisatawan bisa mengambil benda-benda budaya sebagai oleh-oleh",
-        "Pariwisata membuat budaya berubah menjadi lebih modern"
+        "Pariwisata membuat budaya berubah menjadi lebih modern",
+        "Memberikan penghasilan bagi masyarakat penjaga budaya sehingga termotivasi mempertahankan"
       ],
       "ans": [
         "A",
-        "B"
+        "D"
       ],
       "pembahasan": ""
     },
@@ -2850,8 +2850,8 @@
       "opt": [
         "Pengetahuan dan kearifan lokal yang tersimpan dalam bahasa tersebut ikut lenyap",
         "Cara pandang unik suatu masyarakat yang hanya bisa diungkap dalam bahasa tersebut hilang",
-        "Orang tidak bisa lagi berkomunikasi sama sekali",
-        "Bahasa Indonesia menjadi tidak diperlukan lagi"
+        "Bahasa Indonesia menjadi tidak diperlukan lagi",
+        "Orang tidak bisa lagi berkomunikasi sama sekali"
       ],
       "ans": [
         "A",
@@ -2868,14 +2868,14 @@
       "stimulus": "",
       "q": "Dua pernyataan benar tentang siapa yang bertanggung jawab melestarikan budaya adalah ...\n\nPilih SEMUA jawaban yang benar.",
       "opt": [
-        "Pemerintah bertugas membuat kebijakan dan mendukung pelestarian",
-        "Generasi muda bertugas mempelajari, menggunakan, dan mewariskan budaya",
         "Hanya seniman dan budayawan profesional yang bertanggung jawab",
+        "Generasi muda bertugas mempelajari, menggunakan, dan mewariskan budaya",
+        "Pemerintah bertugas membuat kebijakan dan mendukung pelestarian",
         "Pelestarian budaya adalah urusan museum saja"
       ],
       "ans": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "pembahasan": ""
     },
@@ -2890,8 +2890,8 @@
       "opt": [
         "Merekam pertunjukan budaya dalam video dan mengunggahnya ke platform online",
         "Membuat konten media sosial tentang budaya daerah untuk menjangkau generasi muda",
-        "Hanya mencatat dalam buku yang tersimpan di perpustakaan khusus",
-        "Melarang penggunaan kamera di acara budaya agar tidak tersebar"
+        "Melarang penggunaan kamera di acara budaya agar tidak tersebar",
+        "Hanya mencatat dalam buku yang tersimpan di perpustakaan khusus"
       ],
       "ans": [
         "A",
@@ -2910,8 +2910,8 @@
       "opt": [
         "Budaya yang lestari memperkuat identitas dan kebanggaan nasional",
         "Keberagaman budaya yang dijaga dengan saling menghormati memperkuat persatuan",
-        "Melestarikan budaya daerah bisa melemahkan rasa persatuan nasional",
-        "Identitas bangsa tidak ada hubungannya dengan budaya daerah"
+        "Identitas bangsa tidak ada hubungannya dengan budaya daerah",
+        "Melestarikan budaya daerah bisa melemahkan rasa persatuan nasional"
       ],
       "ans": [
         "A",
@@ -3394,8 +3394,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -3691,8 +3690,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4096,8 +4094,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4339,8 +4336,7 @@
       ],
       "cols": [
         "Benar",
-        "Salah",
-        "Benar"
+        "Salah"
       ],
       "ans": [
         "Benar",
@@ -4393,8 +4389,7 @@
       ],
       "cols": [
         "Sikap positif",
-        "Sikap negatif",
-        "Sikap positif"
+        "Sikap negatif"
       ],
       "ans": [
         "Sikap positif",

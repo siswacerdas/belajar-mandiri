@@ -861,6 +861,1545 @@
         "Di Rumah"
       ],
       "pembahasan": "Item 1 (bantu adik PR), 3 (cuci piring), 5 (temani kakek-nenek) adalah perbuatan baik dalam lingkungan keluarga. Item 2 (pinjam alat tulis saat ujian) dan 4 (semangati teman tampil) adalah perbuatan baik di sekolah."
+    },
+    {
+      "id": "pp3_042",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Subak di Bali",
+      "stimulus": "Subak adalah sistem pengairan sawah yang digunakan petani Bali sejak ratusan tahun lalu. Petani-petani yang memiliki sawah di sepanjang aliran air bergabung dalam kelompok subak. Mereka bersama-sama mengatur kapan air dialirkan ke sawah masing-masing, merawat saluran air, dan membuat keputusan bersama melalui musyawarah. Tidak ada satu pun petani yang boleh mengambil air lebih banyak dari haknya, meskipun lahannya lebih luas.",
+      "q": "Prinsip gotong royong apa yang paling kuat terlihat dalam sistem subak di Bali?",
+      "opt": [
+        "Prinsip hierarki, karena petani yang memiliki lahan lebih luas mendapat hak lebih besar",
+        "Prinsip keadilan dan kebersamaan, karena hak setiap anggota dijaga dan diputuskan bersama",
+        "Prinsip persaingan, karena petani berlomba mendapat giliran air lebih awal",
+        "Prinsip individualisme, karena setiap petani bebas mengambil air kapanpun dibutuhkan"
+      ],
+      "ans": "B",
+      "pembahasan": "Subak mencerminkan gotong royong: keputusan dibuat bersama melalui musyawarah, dan tidak ada yang boleh mengambil lebih dari haknya meski lahannya lebih luas — ini adalah prinsip keadilan dan kebersamaan. Bukan hierarki (A), persaingan (C), atau individualisme (D)."
+    },
+    {
+      "id": "pp3_043",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Menyambut Hari Raya",
+      "stimulus": "Menjelang Lebaran, warga Kampung Melati sibuk bergotong royong. Ibu-ibu berkumpul membuat kue dan memasak hidangan bersama. Bapak-bapak memperbaiki dan mengecat mushola. Anak-anak muda membersihkan jalan dan memasang hiasan. Semua dikerjakan selama tiga hari berturut-turut tanpa upah. Ketika Lebaran tiba, seluruh kampung tampak bersih dan meriah. Warga pun merasakan kebersamaan yang lebih hangat dari tahun-tahun sebelumnya.",
+      "q": "Selain mempersiapkan kampung untuk Lebaran, apa dampak lain dari gotong royong yang dilakukan warga Kampung Melati?",
+      "opt": [
+        "Warga mendapatkan penghasilan tambahan karena pekerjaan diselesaikan lebih cepat dari biasanya",
+        "Setiap warga merasa lebih berjasa karena paling banyak berkontribusi dibanding warga lain",
+        "Rasa kebersamaan dan kehangatan antarwarga semakin kuat melalui bekerja bersama",
+        "Kampung Melati memenangkan lomba kampung terbersih se-kecamatan"
+      ],
+      "ans": "C",
+      "pembahasan": "Stimulus menyebutkan 'warga pun merasakan kebersamaan yang lebih hangat dari tahun-tahun sebelumnya' — ini dampak sosial gotong royong. Penghasilan tambahan (A) tidak ada karena tanpa upah. Perasaan paling berjasa (B) bertentangan dengan semangat kebersamaan. Lomba (D) tidak disebutkan."
+    },
+    {
+      "id": "pp3_044",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Arisan sebagai Gotong Royong Ekonomi",
+      "stimulus": "Ibu-ibu di RT 07 menjalankan arisan bulanan. Setiap bulan mereka mengumpulkan uang Rp 100.000 per orang. Nama anggota dikocok dan yang namanya keluar mendapat seluruh uang arisan bulan itu. Ini berlangsung bergiliran sampai semua anggota mendapat giliran. Tidak ada bunga atau biaya tambahan. Sistem ini membantu ibu-ibu mengumpulkan dana untuk kebutuhan besar tanpa harus meminjam ke bank.",
+      "q": "Mengapa arisan di RT 07 dapat digolongkan sebagai bentuk gotong royong di bidang ekonomi?",
+      "opt": [
+        "Karena arisan menghasilkan keuntungan finansial bagi seluruh peserta melalui sistem bunga",
+        "Karena arisan dilakukan oleh banyak orang dan mengumpulkan uang dalam jumlah besar",
+        "Karena peserta saling membantu secara bergantian agar setiap anggota bisa mendapat dana ketika dibutuhkan",
+        "Karena arisan dikelola oleh ketua RT yang bertanggung jawab atas semua keputusan keuangan"
+      ],
+      "ans": "C",
+      "pembahasan": "Arisan adalah bentuk gotong royong ekonomi: peserta saling membantu secara bergantian — setiap orang mendapat dana besar di gilirannya, yang dikumpulkan dari kontribusi bersama. Tidak ada bunga (A). Banyak orang berkumpul (B) saja tidak cukup menjadi gotong royong. Bukan tentang ketua RT (D)."
+    },
+    {
+      "id": "pp3_045",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Digital",
+      "stimulus": "Ketika banjir melanda sebuah daerah, seorang pemuda mengunggah nomor rekening untuk penggalangan dana darurat. Dalam 24 jam, ribuan orang dari berbagai kota menyumbang secara online. Uang terkumpul digunakan membeli selimut, makanan, dan obat-obatan untuk korban. Para penyumbang tidak saling kenal dan tidak mengharapkan imbalan apapun.",
+      "q": "Kegiatan penggalangan dana online dalam cerita tersebut dapat disebut gotong royong karena memenuhi syarat apa?",
+      "opt": [
+        "Karena dilakukan secara digital menggunakan teknologi internet yang modern dan canggih",
+        "Karena melibatkan ribuan orang dari berbagai kota yang tidak saling mengenal sebelumnya",
+        "Karena dilakukan secara sukarela dan bertujuan membantu orang lain yang sedang membutuhkan",
+        "Karena berhasil mengumpulkan dana dalam waktu yang sangat singkat yaitu 24 jam saja"
+      ],
+      "ans": "C",
+      "pembahasan": "Syarat gotong royong: sukarela dan untuk kepentingan bersama/orang lain. Kegiatan ini memenuhi keduanya — orang menyumbang tanpa paksaan (sukarela) untuk membantu korban banjir (kepentingan orang yang membutuhkan). Teknologi (A), jumlah orang (B), dan kecepatan (D) bukan yang mendefinisikan gotong royong."
+    },
+    {
+      "id": "pp3_046",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Mapalus di Minahasa",
+      "stimulus": "Mapalus adalah tradisi gotong royong masyarakat Minahasa, Sulawesi Utara. Dalam tradisi ini, anggota kelompok secara bergiliran bekerja di ladang masing-masing anggota. Saat tiba giliran Pak Wenas, seluruh anggota mapalus membantu menggarap ladangnya. Minggu berikutnya giliran Pak Rompas, dan seterusnya. Tidak ada uang yang dibayarkan — hanya tenaga dan waktu yang dipertukarkan. Tradisi ini sudah berlangsung turun-temurun.",
+      "q": "Apa yang menjadi inti dari sistem mapalus yang membedakannya dari sistem sewa tenaga kerja biasa?",
+      "opt": [
+        "Mapalus hanya dilakukan oleh masyarakat Minahasa dan tidak bisa diterapkan di daerah lain",
+        "Dalam mapalus, tenaga dipertukarkan secara bergantian tanpa uang sehingga bersifat sukarela dan timbal balik",
+        "Mapalus mengharuskan semua anggota memiliki luas ladang yang sama agar pembagiannya adil",
+        "Mapalus lebih efisien dari sewa tenaga karena semua anggota bekerja di satu tempat sekaligus"
+      ],
+      "ans": "B",
+      "pembahasan": "Inti mapalus adalah pertukaran tenaga secara bergantian tanpa uang — ini adalah gotong royong sejati yang bersifat sukarela dan timbal balik. Tidak ada uang yang berpindah tangan. Opsi A soal asal daerah tidak relevan. Opsi C tentang kesamaan luas lahan tidak disebutkan. Opsi D tentang efisiensi bukan inti perbedaannya."
+    },
+    {
+      "id": "pp3_047",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Membangun Sarana Umum",
+      "stimulus": "Warga Desa Sejahtera berencana membangun perpustakaan desa. Mereka tidak memiliki dana yang cukup, namun memiliki semangat yang kuat. Pak Kepala Desa mengajak warga bermusyawarah. Hasilnya: tukang kayu menyumbangkan keahliannya, petani menyumbangkan hasil kebun untuk dikonsumsi selama pembangunan, pelajar membantu mengangkut material, dan pegawai kantor menyumbang sebagian gaji. Dalam sebulan, perpustakaan selesai dibangun.",
+      "q": "Mengapa keberhasilan membangun perpustakaan di Desa Sejahtera merupakan bukti kekuatan gotong royong?",
+      "opt": [
+        "Karena dana yang terkumpul dari iuran pegawai ternyata lebih besar dari yang diperkirakan",
+        "Karena perpustakaan berhasil dibangun hanya dalam sebulan yang merupakan waktu yang sangat singkat",
+        "Karena kekurangan dana tertutupi oleh kontribusi berbagai bentuk dari setiap warga sesuai kemampuan",
+        "Karena tukang kayu yang profesional bersedia bekerja gratis tanpa meminta imbalan apapun"
+      ],
+      "ans": "C",
+      "pembahasan": "Kekuatan gotong royong terlihat dari beragamnya kontribusi sesuai kemampuan: tukang kayu menyumbang keahlian, petani menyumbang makanan, pelajar menyumbang tenaga, pegawai menyumbang uang. Tidak ada yang mampu sendirian, tapi bersama mereka berhasil. Opsi A dan D hanya menyebut satu pihak. Opsi B soal waktu, bukan hakikat gotong royong."
+    },
+    {
+      "id": "pp3_048",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong dan Generasi Muda",
+      "stimulus": "Survei di sebuah kota menunjukkan bahwa remaja usia 13-17 tahun semakin jarang terlibat dalam gotong royong. Sebagian besar menghabiskan waktu luang dengan bermain gawai. Ketua RT setempat berinisiatif mengajak remaja bergabung dalam kerja bakti dengan cara berbeda: membuat konten dokumentasi kegiatan untuk media sosial. Ternyata cara ini berhasil — banyak remaja yang tertarik dan mulai aktif ikut gotong royong.",
+      "q": "Apa yang membuat inisiatif Ketua RT berhasil menarik minat remaja untuk ikut gotong royong?",
+      "opt": [
+        "Ketua RT mengancam akan melaporkan remaja yang tidak ikut kepada orang tua mereka",
+        "Ketua RT menyesuaikan cara berpartisipasi dengan minat dan kebiasaan remaja yang akrab dengan media sosial",
+        "Ketua RT memberikan hadiah berupa kuota internet bagi remaja yang aktif hadir",
+        "Ketua RT menjadikan gotong royong sebagai syarat untuk mendapatkan surat keterangan dari RT"
+      ],
+      "ans": "B",
+      "pembahasan": "Kunci keberhasilannya: Ketua RT menemukan cara berpartisipasi yang sesuai minat remaja (membuat konten), bukan memaksa atau memberi imbalan. Ini sejalan dengan prinsip gotong royong sukarela. Ancaman (A), hadiah (C), dan syarat administratif (D) tidak disebutkan dan bertentangan dengan prinsip kesukarelaan."
+    },
+    {
+      "id": "pp3_049",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membersihkan Sungai Bersama",
+      "stimulus": "Sungai di tengah Kota Hijau sangat kotor karena warga membuang sampah sembarangan. Walikota mengajak seluruh warga membersihkan sungai dalam satu hari besar. Ribuan warga dari berbagai kalangan — pelajar, ibu rumah tangga, pegawai, bahkan pejabat kota — turun ke sungai bersama. Dalam delapan jam, sungai berhasil dibersihkan. Setelah itu, walikota menetapkan larangan membuang sampah ke sungai.",
+      "q": "Apa yang membuat kegiatan membersihkan sungai tersebut efektif selain karena banyaknya peserta?",
+      "opt": [
+        "Pejabat kota yang ikut bekerja membuat pekerjaan jauh lebih cepat dan berkualitas tinggi",
+        "Partisipasi dari berbagai kalangan tanpa memandang jabatan mencerminkan semangat kebersamaan yang kuat",
+        "Penetapan larangan membuang sampah setelah kegiatan memastikan sungai tidak akan kotor lagi",
+        "Delapan jam adalah waktu yang paling optimal untuk membersihkan sungai sebesar itu"
+      ],
+      "ans": "B",
+      "pembahasan": "Yang membuat kegiatan itu bermakna adalah partisipasi lintas kalangan tanpa memandang jabatan — pelajar, ibu rumah tangga, pegawai, dan pejabat bekerja bersama sebagai sesama warga. Ini adalah inti gotong royong: kebersamaan melampaui perbedaan status. Opsi A hanya fokus pada pejabat. Opsi C tentang peraturan sesudahnya. Opsi D soal durasi."
+    },
+    {
+      "id": "pp3_050",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbedaan Gotong Royong dan Kerja Sama Bisnis",
+      "stimulus": "Pak Andi dan rekan-rekannya membentuk kongsi dagang. Mereka patungan modal, berbagi keuntungan, dan menanggung rugi bersama. Pak Doni dan tetangganya juga bekerja sama: mereka bergantian menjaga keamanan lingkungan tanpa imbalan apapun. Keduanya disebut 'kerja sama', namun ada perbedaan mendasar.",
+      "q": "Apa perbedaan mendasar antara kerja sama Pak Andi dan kerja sama Pak Doni dalam cerita di atas?",
+      "opt": [
+        "Kerja sama Pak Andi melibatkan lebih banyak orang dibanding kerja sama Pak Doni",
+        "Kerja sama Pak Andi bertujuan mendapat keuntungan finansial, sedangkan Pak Doni untuk kepentingan bersama tanpa imbalan",
+        "Kerja sama Pak Doni lebih mudah dilakukan karena tidak memerlukan modal apapun",
+        "Kerja sama Pak Andi lebih teroganisir karena ada pembukuan dan bagi hasil yang jelas"
+      ],
+      "ans": "B",
+      "pembahasan": "Perbedaan mendasar: kongsi dagang Pak Andi berorientasi keuntungan finansial (bukan gotong royong). Kerja sama Pak Doni sukarela untuk kepentingan bersama tanpa imbalan (= gotong royong). Jumlah orang (A) tidak menentukan. Mudah-tidaknya (C) dan kerapian organisasi (D) bukan perbedaan prinsipil."
+    },
+    {
+      "id": "pp3_051",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong di Lingkungan Sekolah",
+      "stimulus": "Kelas 4C memiliki tradisi 'Gotong Royong Kamis'. Setiap Kamis sore, siswa bersama-sama membersihkan kelas, merapikan buku di perpustakaan mini kelas, dan membantu teman yang tertinggal pelajaran. Tidak ada yang diperintah — semua dilakukan atas inisiatif sendiri setelah disepakati bersama di awal semester.",
+      "q": "Apa yang membuat tradisi 'Gotong Royong Kamis' di kelas 4C layak disebut gotong royong sejati?",
+      "opt": [
+        "Karena dilakukan setiap Kamis secara rutin sehingga menjadi kebiasaan yang tidak bisa diubah",
+        "Karena kegiatan mencakup tiga jenis pekerjaan sekaligus yaitu bersih-bersih, merapikan, dan belajar bersama",
+        "Karena dilakukan atas inisiatif dan kesepakatan sendiri tanpa paksaan dari luar",
+        "Karena tradisi ini sudah berlangsung sejak kelas 4C berdiri dan diwariskan dari angkatan sebelumnya"
+      ],
+      "ans": "C",
+      "pembahasan": "Gotong royong sejati ditandai oleh kesukarelaan — 'tidak ada yang diperintah, semua dilakukan atas inisiatif sendiri.' Rutinitas (A) dan variasi kegiatan (B) bukan yang mendefinisikan gotong royong. Tradisi turun-temurun (D) bisa ada tanpa kesukarelaan."
+    },
+    {
+      "id": "pp3_052",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Bentuk Gotong Royong di Berbagai Daerah",
+      "stimulus": "",
+      "q": "Manakah contoh-contoh berikut yang merupakan bentuk gotong royong tradisional dari berbagai daerah di Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Subak di Bali — sistem pengairan sawah yang dikelola petani bersama",
+        "Mapalus di Minahasa — saling membantu menggarap ladang secara bergiliran",
+        "Ojek online — layanan transportasi berbasis aplikasi yang menyediakan jasa berbayar",
+        "Sambatan di Jawa — warga saling membantu membangun atau memperbaiki rumah",
+        "Arisan — mengumpulkan dan mendistribusikan dana secara bergantian antaranggota"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: ojek online adalah layanan jasa berbayar (transaksi ekonomi), bukan gotong royong yang bersifat sukarela tanpa imbalan. Subak (A), mapalus (B), sambatan (D), dan arisan (E) adalah bentuk-bentuk gotong royong tradisional yang bersifat sukarela dan untuk kepentingan bersama."
+    },
+    {
+      "id": "pp3_053",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Prasyarat Gotong Royong",
+      "stimulus": "",
+      "q": "Pernyataan-pernyataan mana yang benar tentang syarat sebuah kegiatan dapat disebut gotong royong?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kegiatan harus dilakukan secara sukarela, bukan karena paksaan atau ancaman",
+        "Peserta tidak mengharapkan imbalan finansial atas kontribusinya",
+        "Kegiatan hanya boleh dilakukan oleh orang dewasa dan tidak boleh melibatkan anak-anak",
+        "Tujuan kegiatan adalah untuk kepentingan bersama, bukan semata kepentingan satu pihak",
+        "Peserta boleh berkontribusi dalam bentuk apapun sesuai kemampuan masing-masing"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: gotong royong tidak membatasi usia peserta — anak-anak, remaja, dewasa, bahkan lansia semua bisa berkontribusi sesuai kemampuan masing-masing. Justru keterlibatan semua kalangan adalah salah satu kekuatan gotong royong."
+    },
+    {
+      "id": "pp3_054",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Gotong Royong dalam Era Modern",
+      "stimulus": "",
+      "q": "Di era modern, gotong royong tidak hilang tetapi berevolusi dalam bentuk-bentuk baru. Manakah yang termasuk gotong royong di era modern?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Penggalangan dana online untuk membantu korban bencana secara sukarela",
+        "Komunitas warga yang berbagi informasi dan saling membantu melalui grup pesan instan",
+        "Bisnis startup yang menawarkan layanan jasa dengan tarif yang kompetitif",
+        "Relawan yang tanpa upah membantu menyortir dan mendistribusikan bantuan bencana",
+        "Gerakan menanam pohon yang diikuti ribuan orang di seluruh Indonesia secara sukarela"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: bisnis startup dengan tarif kompetitif adalah kegiatan komersial (bertujuan mencari keuntungan), bukan gotong royong. Keempat pilihan lain memenuhi syarat gotong royong: sukarela, untuk kepentingan bersama, tanpa imbalan finansial."
+    },
+    {
+      "id": "pp3_055",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Dampak Positif Gotong Royong",
+      "stimulus": "",
+      "q": "Apa saja dampak positif yang dihasilkan oleh kebiasaan bergotong royong dalam suatu komunitas?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pekerjaan besar terselesaikan karena dikerjakan bersama meski dana terbatas",
+        "Rasa saling percaya antaranggota komunitas tumbuh dan menguat",
+        "Setiap anggota komunitas pasti menjadi lebih kaya secara finansial",
+        "Beban dan tanggung jawab yang berat terasa lebih ringan karena ditanggung bersama",
+        "Komunitas lebih tangguh menghadapi musibah karena ada sistem saling dukung"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: gotong royong tidak secara otomatis membuat semua orang lebih kaya secara finansial. Manfaatnya lebih pada aspek sosial, kemampuan menyelesaikan masalah bersama, dan ketangguhan komunitas — bukan jaminan kekayaan materi."
+    },
+    {
+      "id": "pp3_056",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Gotong Royong Sukarela vs Terpaksa",
+      "stimulus": "",
+      "q": "Bacalah setiap situasi berikut.\nKategorikan ke dalam kolom yang tepat:\n• Gotong Royong Sukarela: dilakukan atas kesadaran dan kemauan sendiri\n• Bukan Sukarela: dilakukan karena terpaksa, ancaman, atau kewajiban formal",
+      "rows": [
+        "Siswa ikut kerja bakti sekolah karena akan dihukum jika tidak hadir",
+        "Warga membantu tetangga yang kebakaran karena tergerak melihat kesusahannya",
+        "Karyawan diwajibkan mengikuti program CSR perusahaan selama jam kerja",
+        "Pemuda kampung ikut ronda karena memang peduli pada keamanan lingkungannya",
+        "Anak membantu ibu memasak untuk acara arisan karena ingin membantu, bukan disuruh"
+      ],
+      "cols": [
+        "Gotong Royong Sukarela",
+        "Bukan Sukarela"
+      ],
+      "ans": [
+        "Bukan Sukarela",
+        "Gotong Royong Sukarela",
+        "Bukan Sukarela",
+        "Gotong Royong Sukarela",
+        "Gotong Royong Sukarela"
+      ],
+      "pembahasan": "Item 1 (ancaman hukuman) dan 3 (kewajiban formal jam kerja) bukan sukarela. Item 2 (tergerak oleh kepedulian), 4 (peduli keamanan), dan 5 (mau membantu tanpa disuruh) adalah tindakan sukarela yang mencerminkan gotong royong sejati."
+    },
+    {
+      "id": "pp3_057",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Gotong Royong Menurut Lingkupnya",
+      "stimulus": "",
+      "q": "Gotong royong bisa terjadi di lingkup yang berbeda-beda. Kategorikan setiap contoh berikut:\n• Gotong Royong Skala Kecil: melibatkan kelompok kecil (keluarga, kelas, RT)\n• Gotong Royong Skala Besar: melibatkan komunitas luas (desa, kota, nasional)",
+      "rows": [
+        "Seluruh keluarga bersama-sama membersihkan rumah sebelum tamu datang",
+        "Ribuan relawan nasional bergerak membantu korban gempa di satu provinsi",
+        "Tiga teman sekelas bergantian menemani teman yang sakit di UKS",
+        "Seluruh warga satu kecamatan bergotong royong membangun jembatan baru",
+        "Anggota kelompok belajar saling berbagi catatan dan membantu yang tidak mengerti"
+      ],
+      "cols": [
+        "Gotong Royong Skala Kecil",
+        "Gotong Royong Skala Besar"
+      ],
+      "ans": [
+        "Gotong Royong Skala Kecil",
+        "Gotong Royong Skala Besar",
+        "Gotong Royong Skala Kecil",
+        "Gotong Royong Skala Besar",
+        "Gotong Royong Skala Kecil"
+      ],
+      "pembahasan": "Item 1 (keluarga), 3 (tiga teman), dan 5 (kelompok belajar) melibatkan kelompok kecil. Item 2 (ribuan relawan nasional) dan 4 (seluruh warga satu kecamatan) melibatkan komunitas yang lebih besar."
+    },
+    {
+      "id": "pp3_058",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Ciri Gotong Royong Sejati vs Semu",
+      "stimulus": "",
+      "q": "Kategorikan setiap ciri berikut:\n• Ciri Gotong Royong Sejati: mencerminkan gotong royong yang sesungguhnya\n• Ciri Gotong Royong Semu: terlihat seperti gotong royong dari luar tetapi tidak memenuhi prinsipnya",
+      "rows": [
+        "Membantu tetangga membangun rumah dengan ikhlas tanpa mengharapkan upah",
+        "Ikut kerja bakti hanya agar tidak dikritik atau dijauhi tetangga",
+        "Menyumbangkan tenaga untuk orang yang membutuhkan atas kemauan sendiri",
+        "Berpura-pura aktif bergotong royong di depan ketua RT tetapi diam saja saat tidak dilihat",
+        "Berkontribusi sesuai kemampuan masing-masing tanpa merasa terpaksa"
+      ],
+      "cols": [
+        "Ciri Gotong Royong Sejati",
+        "Ciri Gotong Royong Semu"
+      ],
+      "ans": [
+        "Ciri Gotong Royong Sejati",
+        "Ciri Gotong Royong Semu",
+        "Ciri Gotong Royong Sejati",
+        "Ciri Gotong Royong Semu",
+        "Ciri Gotong Royong Sejati"
+      ],
+      "pembahasan": "Item 2 (menghindari kritik) dan 4 (berpura-pura) adalah gotong royong semu — motivasinya bukan kepedulian tulus tapi citra diri. Item 1, 3, 5 mencerminkan gotong royong sejati: ikhlas, sukarela, sesuai kemampuan."
+    },
+    {
+      "id": "pp3_059",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Gotong Royong berdasarkan Bidang Kehidupan",
+      "stimulus": "",
+      "q": "Gotong royong terjadi di berbagai bidang kehidupan. Kategorikan setiap contoh berikut:\n• Bidang Keamanan: gotong royong yang berkaitan dengan menjaga keselamatan dan ketertiban\n• Bidang Ekonomi: gotong royong yang berkaitan dengan keuangan dan penghidupan",
+      "rows": [
+        "Petani bergantian meminjamkan traktor tanpa biaya sewa kepada sesama petani",
+        "Pemuda kampung bergantian bertugas ronda malam menjaga keamanan",
+        "Warga patungan membeli peralatan pemadam api untuk digunakan bersama",
+        "Ibu-ibu menjalankan arisan untuk membantu anggota yang membutuhkan dana",
+        "Warga membentuk tim siaga yang siap turun jika ada pencurian atau kebakaran"
+      ],
+      "cols": [
+        "Bidang Keamanan",
+        "Bidang Ekonomi"
+      ],
+      "ans": [
+        "Bidang Ekonomi",
+        "Bidang Keamanan",
+        "Bidang Keamanan",
+        "Bidang Ekonomi",
+        "Bidang Keamanan"
+      ],
+      "pembahasan": "Item 1 (pinjam traktor) dan 4 (arisan) berkaitan dengan keuangan/penghidupan = Bidang Ekonomi. Item 2 (ronda malam), 3 (peralatan pemadam — untuk kedaruratan keamanan), dan 5 (tim siaga) berkaitan dengan keselamatan dan ketertiban = Bidang Keamanan."
+    },
+    {
+      "id": "pp3_060",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Menghadapi Bencana",
+      "stimulus": "Ketika banjir melanda Desa Sukarasa, warga tidak panik. Mereka langsung menggerakkan tim evakuasi yang sudah dibentuk sebelumnya melalui musyawarah. Sebagian membantu lansia dan balita mengungsi, sebagian lain menyiapkan posko makanan, dan yang lain menjaga keamanan rumah yang ditinggalkan. Dalam waktu dua jam, seluruh warga sudah terselamatkan tanpa korban jiwa.",
+      "q": "Mengapa Desa Sukarasa berhasil menghadapi banjir dengan baik tanpa korban jiwa?",
+      "opt": [
+        "Karena desa tersebut memiliki bendungan modern yang mencegah banjir masuk ke pemukiman",
+        "Karena warga sudah memiliki sistem gotong royong terorganisir yang dipersiapkan sebelum bencana",
+        "Karena pemerintah daerah mengirimkan tim penyelamat profesional tepat waktu",
+        "Karena rumah-rumah di desa dibangun di atas tiang sehingga tidak terendam banjir"
+      ],
+      "ans": "B",
+      "pembahasan": "Kunci keberhasilan: 'tim evakuasi yang sudah dibentuk sebelumnya melalui musyawarah' — gotong royong yang terorganisir dan dipersiapkan. Bukan bendungan (A), tim profesional dari pemerintah (C), atau konstruksi rumah (D) — ketiganya tidak disebutkan dalam stimulus."
+    },
+    {
+      "id": "pp3_061",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Pembagian Peran dalam Gotong Royong",
+      "stimulus": "Warga RT 03 merencanakan gotong royong memperbaiki lapangan badminton yang rusak. Pak Hamdan yang tukang menangani konstruksi. Bu Sinta yang guru membantu mendampingi anak-anak yang ikut membantu. Pak Rizal yang pedagang menyumbang material. Warga lanjut usia menyiapkan minuman dan makanan untuk peserta. Tidak ada yang merasa perannya kurang penting.",
+      "q": "Apa yang paling tepat menggambarkan prinsip pelaksanaan gotong royong di RT 03?",
+      "opt": [
+        "Setiap orang harus mengerjakan jenis pekerjaan yang sama agar tidak ada kecemburuan antarwarga",
+        "Pekerjaan berat hanya dilakukan oleh laki-laki dewasa yang punya tenaga cukup besar",
+        "Setiap orang berkontribusi sesuai kemampuan dan keahliannya sehingga semua peran bernilai",
+        "Pemimpin yang paling berpengaruh berhak menentukan siapa mengerjakan apa tanpa perlu diskusi"
+      ],
+      "ans": "C",
+      "pembahasan": "RT 03 menerapkan prinsip 'setiap orang berkontribusi sesuai kemampuan dan keahlian' — tukang membangun, guru mendampingi anak, pedagang menyumbang material, lansia menyiapkan konsumsi. Semua peran dihargai. Bukan keseragaman (A), pembatasan gender/usia (B), atau keputusan sepihak pemimpin (D)."
+    },
+    {
+      "id": "pp3_062",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong dan Musyawarah",
+      "stimulus": "Sebelum memulai kegiatan gotong royong membangun jalan desa, Pak Lurah mengadakan tiga kali pertemuan warga. Pertemuan pertama: menentukan kebutuhan dan rencana. Pertemuan kedua: membagi tugas dan jadwal. Pertemuan ketiga: memastikan semua orang siap dan tidak ada yang keberatan. Baru setelah semua sepakat, kegiatan dimulai.",
+      "q": "Mengapa Pak Lurah mengadakan tiga kali pertemuan sebelum memulai gotong royong, bukan langsung mengumumkan pembagian tugas?",
+      "opt": [
+        "Karena Pak Lurah tidak percaya pada kemampuan warga dan perlu mengawasi semua persiapan",
+        "Karena peraturan daerah mewajibkan minimal tiga kali pertemuan sebelum kegiatan warga",
+        "Karena musyawarah memastikan semua warga memahami peran dan terlibat atas kemauan sendiri",
+        "Karena tiga pertemuan adalah cara Pak Lurah menghindari kritik jika ada yang tidak puas"
+      ],
+      "ans": "C",
+      "pembahasan": "Tiga pertemuan dilakukan agar semua warga memahami rencananya, menyepakati pembagian tugas, dan merasa tidak dipaksa. Ini memperkuat prinsip kesukarelaan gotong royong. Bukan karena tidak percaya pada warga (A), peraturan formal (B), atau menghindari kritik (D)."
+    },
+    {
+      "id": "pp3_063",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Tantangan Gotong Royong Masa Kini",
+      "stimulus": "Di sebuah perumahan modern, mayoritas penghuni adalah pekerja kantoran yang pulang malam dan jarang berinteraksi dengan tetangga. Ketika ada rencana kerja bakti, hanya sedikit yang hadir. Pengurus RT lalu mengubah strategi: kerja bakti dipindah ke hari Minggu pagi, durasi diperpendek menjadi 1,5 jam, dan setelah selesai ada sarapan bersama.",
+      "q": "Apa yang dapat kita pelajari dari langkah pengurus RT dalam cerita ini terkait pelaksanaan gotong royong?",
+      "opt": [
+        "Gotong royong tidak bisa diterapkan di perumahan modern karena gaya hidup yang sudah berbeda",
+        "Memaksa warga hadir adalah cara paling efektif untuk memastikan gotong royong berjalan",
+        "Pelaksanaan gotong royong perlu disesuaikan dengan kondisi dan kebiasaan komunitas agar bisa berjalan",
+        "Semakin singkat waktu yang dibutuhkan, semakin baik dan efektif sebuah gotong royong"
+      ],
+      "ans": "C",
+      "pembahasan": "Pengurus RT menyesuaikan waktu, durasi, dan menambah momen sosial (sarapan bersama) agar cocok dengan kondisi komunitas. Ini menunjukkan bahwa gotong royong perlu adaptasi konteks tanpa mengubah prinsipnya. Bukan berarti tidak bisa diterapkan (A), bukan dengan paksaan (B), dan bukan semata soal durasi (D)."
+    },
+    {
+      "id": "pp3_064",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konsekuensi Tidak Bergotong Royong",
+      "stimulus": "Di Kampung Lama, tidak ada tradisi gotong royong. Setiap warga mengurus masalahnya sendiri. Ketika selokan tersumbat, masing-masing hanya membersihkan bagian depan rumahnya. Ketika ada yang sakit, tidak ada yang menjenguk. Ketika ada perkelahian, warga hanya menonton. Bandingkan dengan Kampung Baru di sebelahnya yang rutin bergotong royong — masalah diselesaikan bersama, warga saling peduli.",
+      "q": "Apa dampak nyata dari tidak adanya budaya gotong royong di Kampung Lama?",
+      "opt": [
+        "Warga Kampung Lama lebih mandiri dan tidak bergantung pada orang lain untuk menyelesaikan masalah",
+        "Masalah-masalah yang membutuhkan kerja sama kolektif tidak dapat diselesaikan secara optimal",
+        "Warga Kampung Lama memiliki privasi yang lebih terjaga karena tidak ada orang yang ikut campur",
+        "Kampung Lama lebih bersih karena setiap warga bertanggung jawab penuh atas area mereka sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": "Dampak nyata: selokan hanya dibersihkan di depan masing-masing rumah (tidak tuntas), tidak ada kepedulian saat sakit, konflik tidak ditangani — masalah kolektif tidak terselesaikan. Bukan lebih mandiri (A — sebenarnya lebih lemah menghadapi masalah bersama), bukan soal privasi (C), dan bukan lebih bersih (D — selokan tidak tuntas bersih)."
+    },
+    {
+      "id": "pp3_065",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Lintas Generasi",
+      "stimulus": "Di kampung Bu Rahma, gotong royong masih kuat. Yang unik adalah cara mereka mewariskannya: kakek-nenek mengajak cucu ikut bekerja bakti dan bercerita tentang gotong royong di masa lalu. Orang tua menjadi teladan. Anak-anak yang ikut mendapat tugas kecil yang sesuai kemampuan mereka, seperti menyapu atau membawakan minuman.",
+      "q": "Bagaimana cara yang paling efektif untuk mewariskan tradisi gotong royong kepada generasi berikutnya berdasarkan cerita di atas?",
+      "opt": [
+        "Mengajarkan gotong royong sebagai teori di buku pelajaran sekolah agar anak-anak hafal definisinya",
+        "Memberikan hadiah kepada anak yang ikut gotong royong agar mereka termotivasi",
+        "Melibatkan anak secara langsung dalam kegiatan gotong royong sambil mendapat teladan dari orang dewasa",
+        "Mewajibkan anak mengikuti gotong royong sebagai syarat mendapat nilai baik di sekolah"
+      ],
+      "ans": "C",
+      "pembahasan": "Cara paling efektif yang digambarkan dalam cerita: melibatkan langsung dengan tugas yang sesuai kemampuan, sambil belajar dari teladan kakek-nenek dan orang tua. Bukan sekadar teori di buku (A), bukan dengan hadiah (B), dan bukan karena kewajiban sekolah (D)."
+    },
+    {
+      "id": "pp3_066",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Pasca Bencana",
+      "stimulus": "Sebulan setelah gempa melanda Kota Raya, ribuan relawan dari berbagai daerah masih membantu. Ada yang membangun kembali rumah, ada yang mengajar di sekolah darurat, ada yang memberikan konseling psikologis, ada yang memasak di dapur umum. Mereka tidak dibayar — datang atas kesadaran ingin membantu sesama yang terkena musibah.",
+      "q": "Mengapa kegiatan para relawan dalam cerita ini merupakan contoh gotong royong yang bermakna?",
+      "opt": [
+        "Karena mereka datang dari daerah yang berbeda sehingga mengandung unsur persatuan nasional",
+        "Karena mereka rela mengorbankan waktu dan tenaga secara sukarela untuk membantu sesama yang membutuhkan",
+        "Karena jumlah relawan yang ribuan terbukti membuat proses pemulihan berlangsung lebih cepat",
+        "Karena kegiatan relawan mendapat liputan media yang membuat masyarakat luas ikut tergerak"
+      ],
+      "ans": "B",
+      "pembahasan": "Yang menjadikannya gotong royong bermakna adalah kesukarelaan — mereka tidak dibayar, datang atas kesadaran sendiri untuk membantu sesama yang membutuhkan. Asal daerah (A) dan jumlah peserta (C) bukan yang mendefinisikan gotong royong. Liputan media (D) tidak disebutkan sebagai alasan utama."
+    },
+    {
+      "id": "pp3_067",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Prinsip Gotong Royong yang Baik",
+      "stimulus": "",
+      "q": "Manakah prinsip-prinsip yang harus ada agar pelaksanaan gotong royong dapat berjalan dengan baik dan bermakna?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kesukarelaan — peserta berpartisipasi atas kemauan sendiri tanpa paksaan",
+        "Perencanaan — ada pembagian tugas yang jelas agar semua tahu perannya",
+        "Kesempurnaan — semua pekerjaan harus selesai sempurna sebelum peserta boleh pulang",
+        "Inklusivitas — semua pihak yang ingin berkontribusi disambut tanpa diskriminasi",
+        "Penghargaan — kontribusi setiap peserta dihargai meskipun berbeda bentuk dan besarannya"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: menuntut kesempurnaan bisa menciptakan tekanan yang bertentangan dengan semangat kesukarelaan. Gotong royong fokus pada proses bersama, bukan pada standar kesempurnaan yang kaku. Keempat prinsip lain (A, B, D, E) penting untuk gotong royong yang bermakna."
+    },
+    {
+      "id": "pp3_068",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Hambatan Gotong Royong",
+      "stimulus": "",
+      "q": "Manakah hal-hal berikut yang dapat menghambat terlaksananya gotong royong di sebuah komunitas?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kesibukan warga yang tinggi sehingga sulit menemukan waktu yang cocok untuk semua",
+        "Sikap individualisme yang kuat sehingga warga lebih memilih menyelesaikan masalah sendiri",
+        "Semangat kepedulian yang tinggi dari setiap warga terhadap lingkungan sekitarnya",
+        "Tidak adanya pemimpin atau koordinator yang bisa mengorganisir kegiatan",
+        "Perbedaan pendapat yang tidak diselesaikan melalui musyawarah sehingga menimbulkan konflik"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C justru merupakan pendukung gotong royong, bukan hambatan. Hambatan nyata: kesibukan (A), individualisme (B), tidak ada koordinator (D), dan konflik yang tidak terselesaikan (E) semuanya bisa membuat gotong royong tidak berjalan."
+    },
+    {
+      "id": "pp3_069",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Bentuk Kontribusi dalam Gotong Royong",
+      "stimulus": "",
+      "q": "Gotong royong menerima berbagai bentuk kontribusi. Manakah yang termasuk bentuk kontribusi yang sah dalam gotong royong?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kontribusi tenaga — hadir dan bekerja langsung di lokasi kegiatan",
+        "Kontribusi keahlian — menggunakan kemampuan khusus seperti memasak, bertukang, mengajar",
+        "Kontribusi hanya uang dalam jumlah besar — minimal harus menyumbang sejumlah tertentu",
+        "Kontribusi bahan/material — menyediakan alat, bahan makanan, atau perlengkapan",
+        "Kontribusi waktu — menemani, menjaga, atau mengurus logistik kegiatan"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: gotong royong tidak mensyaratkan sumbangan uang dalam jumlah tertentu. Semua bentuk kontribusi sesuai kemampuan adalah sah: tenaga, keahlian, bahan, waktu, pikiran, dan tentu saja uang jika ada — tetapi tanpa batas minimum yang kaku."
+    },
+    {
+      "id": "pp3_070",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Gotong Royong di Berbagai Konteks",
+      "stimulus": "",
+      "q": "Manakah situasi-situasi berikut di mana gotong royong adalah pendekatan yang paling tepat?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ketika ada warga yang tertimpa musibah dan membutuhkan bantuan segera",
+        "Ketika komunitas ingin membangun fasilitas umum yang tidak mampu dibiayai sendiri",
+        "Ketika seseorang ingin memulai bisnis dan membutuhkan modal dari investor",
+        "Ketika lingkungan kotor dan butuh kerja sama semua pihak untuk membersihkannya",
+        "Ketika ada konflik antarteman dan dibutuhkan mediasi bersama untuk menyelesaikannya"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: memulai bisnis dengan investor adalah transaksi ekonomi (mencari keuntungan), bukan gotong royong. Situasi A, B, D, E semua adalah konteks di mana gotong royong paling tepat karena melibatkan kepentingan bersama dan membutuhkan kerja sama sukarela."
+    },
+    {
+      "id": "pp3_071",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Gotong Royong Sebelum vs Saat Bencana",
+      "stimulus": "",
+      "q": "Gotong royong untuk menghadapi bencana bisa terjadi sebelum atau saat bencana terjadi. Kategorikan:\n• Persiapan (Sebelum Bencana): dilakukan untuk mencegah atau mengurangi dampak bencana\n• Respons (Saat/Setelah Bencana): dilakukan ketika bencana sudah terjadi",
+      "rows": [
+        "Warga bergotong royong membersihkan saluran air sebelum musim hujan tiba",
+        "Warga bergotong royong mengevakuasi tetangga yang terjebak banjir",
+        "Komunitas berlatih simulasi gempa bersama agar tahu apa yang harus dilakukan",
+        "Warga membangun kembali rumah yang hancur setelah banjir surut",
+        "Kelompok ibu-ibu menyimpan stok bahan makanan darurat untuk kebutuhan bersama"
+      ],
+      "cols": [
+        "Persiapan (Sebelum Bencana)",
+        "Respons (Saat/Setelah Bencana)"
+      ],
+      "ans": [
+        "Persiapan (Sebelum Bencana)",
+        "Respons (Saat/Setelah Bencana)",
+        "Persiapan (Sebelum Bencana)",
+        "Respons (Saat/Setelah Bencana)",
+        "Persiapan (Sebelum Bencana)"
+      ],
+      "pembahasan": "Item 1 (bersihkan saluran sebelum hujan), 3 (simulasi gempa), 5 (stok bahan darurat) = persiapan sebelum bencana. Item 2 (evakuasi saat banjir) dan 4 (membangun kembali setelah banjir) = respons saat/setelah bencana."
+    },
+    {
+      "id": "pp3_072",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Koordinasi dalam Gotong Royong",
+      "stimulus": "",
+      "q": "Dalam pelaksanaan gotong royong yang terorganisir, ada berbagai tahap yang perlu dilalui. Kategorikan setiap kegiatan berikut:\n• Tahap Perencanaan: dilakukan sebelum kegiatan gotong royong dimulai\n• Tahap Pelaksanaan: dilakukan saat kegiatan gotong royong berlangsung",
+      "rows": [
+        "Musyawarah menentukan siapa yang mengerjakan bagian mana dari pekerjaan",
+        "Semua peserta bekerja sesuai tugas yang sudah disepakati sebelumnya",
+        "Menyiapkan alat-alat dan bahan yang dibutuhkan untuk kegiatan",
+        "Saling membantu jika ada peserta yang kesulitan menyelesaikan tugasnya",
+        "Menghitung berapa orang yang dibutuhkan dan keahlian apa yang diperlukan"
+      ],
+      "cols": [
+        "Tahap Perencanaan",
+        "Tahap Pelaksanaan"
+      ],
+      "ans": [
+        "Tahap Perencanaan",
+        "Tahap Pelaksanaan",
+        "Tahap Perencanaan",
+        "Tahap Pelaksanaan",
+        "Tahap Perencanaan"
+      ],
+      "pembahasan": "Item 1 (musyawarah pembagian tugas), 3 (menyiapkan alat), 5 (menghitung kebutuhan) dilakukan sebelum kegiatan = Tahap Perencanaan. Item 2 (bekerja sesuai tugas) dan 4 (saling bantu saat kegiatan) terjadi saat gotong royong berlangsung = Tahap Pelaksanaan."
+    },
+    {
+      "id": "pp3_073",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Peran dalam Gotong Royong",
+      "stimulus": "",
+      "q": "Dalam gotong royong, setiap orang bisa memiliki peran yang berbeda. Kategorikan setiap peran berikut:\n• Peran Aktif Langsung: terlibat langsung mengerjakan pekerjaan utama\n• Peran Pendukung: mendukung keberlangsungan kegiatan dari belakang layar",
+      "rows": [
+        "Warga yang membawa cangkul dan langsung menggali tanah untuk menanam pohon",
+        "Ibu yang menyiapkan makanan dan minuman untuk peserta yang bekerja",
+        "Pemuda yang mengangkut material bangunan ke lokasi perbaikan jalan",
+        "Kakek yang menjaga anak-anak kecil agar tidak mengganggu jalannya kegiatan",
+        "Relawan yang langsung membantu korban banjir mengangkut barang ke tempat aman"
+      ],
+      "cols": [
+        "Peran Aktif Langsung",
+        "Peran Pendukung"
+      ],
+      "ans": [
+        "Peran Aktif Langsung",
+        "Peran Pendukung",
+        "Peran Aktif Langsung",
+        "Peran Pendukung",
+        "Peran Aktif Langsung"
+      ],
+      "pembahasan": "Item 1 (menggali tanah), 3 (angkut material), 5 (bantu korban) adalah peran aktif langsung mengerjakan pekerjaan utama. Item 2 (menyiapkan makanan) dan 4 (menjaga anak kecil) adalah peran pendukung yang tidak kalah pentingnya karena memungkinkan kegiatan berjalan lancar."
+    },
+    {
+      "id": "pp3_074",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Bidang Pendidikan",
+      "stimulus": "Di Desa Lembah Hijau, banyak anak yang tidak bisa bersekolah karena jauhnya sekolah dan tidak ada kendaraan. Warga bergotong royong mengatasi masalah ini: beberapa orang bergantian mengantar jemput anak-anak dengan sepeda motor, beberapa lainnya mendirikan perpustakaan desa, dan pemuda setempat membuka les gratis setiap malam. Angka putus sekolah di desa itu pun menurun drastis.",
+      "q": "Apa yang membuat kondisi pendidikan di Desa Lembah Hijau membaik?",
+      "opt": [
+        "Pemerintah akhirnya membangun sekolah baru yang lebih dekat dengan desa",
+        "Donasi dari perusahaan besar yang membiayai biaya sekolah seluruh anak desa",
+        "Gotong royong warga dalam berbagai bentuk yang bersama-sama mengatasi hambatan pendidikan",
+        "Anak-anak desa yang lebih rajin dan bersemangat belajar dibanding sekolah lain"
+      ],
+      "ans": "C",
+      "pembahasan": "Yang membuat kondisi membaik adalah gotong royong warga dalam berbagai bentuk: antar jemput, perpustakaan desa, dan les gratis — semua dilakukan sukarela oleh warga. Pemerintah (A), donasi perusahaan (B), dan semangat anak (D) tidak disebutkan sebagai faktor dalam stimulus."
+    },
+    {
+      "id": "pp3_075",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Ukuran Sejahtera yang Sebenarnya",
+      "stimulus": "Pak Wartono adalah orang terkaya di desanya. Rumahnya besar, mobilnya bagus, anaknya sekolah di kota. Namun ia merasa tidak bahagia karena tidak punya teman dekat di desa — ia jarang bergaul dan tidak pernah ikut gotong royong. Sebaliknya, Pak Jaya yang hidupnya lebih sederhana terlihat lebih bahagia: ia punya banyak tetangga yang saling tolong-menolong.",
+      "q": "Apa yang dapat disimpulkan dari perbandingan Pak Wartono dan Pak Jaya terkait makna kesejahteraan?",
+      "opt": [
+        "Kesejahteraan sejati adalah milik orang yang paling banyak harta karena bisa memenuhi kebutuhan apapun",
+        "Kesejahteraan sejati mencakup kekayaan hubungan sosial dan kepedulian antarmanusia, bukan hanya materi",
+        "Pak Jaya lebih beruntung karena tidak punya banyak tanggung jawab seperti Pak Wartono",
+        "Kesejahteraan tidak bisa diukur sama sekali karena setiap orang punya ukurannya sendiri"
+      ],
+      "ans": "B",
+      "pembahasan": "Perbandingan ini menunjukkan bahwa kesejahteraan bukan semata soal kekayaan materi. Pak Wartono kaya tetapi kesepian, Pak Jaya sederhana tetapi bahagia karena punya jaringan sosial yang kuat. Kesejahteraan sejati mencakup dimensi sosial, bukan hanya finansial. Opsi A mengidentikkan sejahtera dengan harta. C dan D tidak menjawab inti pertanyaan."
+    },
+    {
+      "id": "pp3_076",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Peran Lansia dalam Gotong Royong",
+      "stimulus": "Bu Lastri sudah 75 tahun dan tidak kuat lagi ikut kerja bakti fisik. Namun ia tetap berkontribusi: setiap kerja bakti ia memasak nasi dan lauk untuk peserta. Ia juga sering bercerita kepada cucu-cucunya tentang pentingnya gotong royong. Warga muda sangat menghargai kehadiran Bu Lastri karena masakannya membuat semua peserta bersemangat.",
+      "q": "Apa yang bisa kita pelajari dari cara Bu Lastri berkontribusi dalam gotong royong?",
+      "opt": [
+        "Orang yang sudah tua sebaiknya tidak ikut gotong royong agar tidak membebani yang lebih muda",
+        "Kontribusi dalam gotong royong tidak harus berupa tenaga fisik — sesuai kemampuan sama nilainya",
+        "Memasak untuk peserta tidak termasuk gotong royong karena bukan pekerjaan utamanya",
+        "Bu Lastri seharusnya beristirahat saja karena kontribusinya terlalu kecil dibanding yang lain"
+      ],
+      "ans": "B",
+      "pembahasan": "Bu Lastri mengajarkan bahwa kontribusi tidak harus berupa tenaga fisik — memasak, berbagi cerita dan kearifan, semuanya bernilai dalam gotong royong. Prinsip 'sesuai kemampuan' berlaku untuk semua usia. Opsi A, C, D semua meremehkan kontribusi Bu Lastri yang justru sangat berarti."
+    },
+    {
+      "id": "pp3_077",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong dan Lingkungan Hidup",
+      "stimulus": "Komunitas Peduli Sungai dibentuk oleh warga yang tinggal di sepanjang aliran Sungai Ciputra. Setiap bulan mereka bergotong royong memungut sampah di sungai. Mereka juga menanam pohon di tepi sungai untuk mencegah erosi dan memasang papan larangan membuang sampah. Setelah dua tahun, kualitas air sungai membaik dan ikan-ikan kembali hidup di dalamnya.",
+      "q": "Apa yang membuat upaya Komunitas Peduli Sungai lebih berhasil dibandingkan jika hanya mengandalkan program pemerintah?",
+      "opt": [
+        "Komunitas menggunakan teknologi canggih yang lebih efektif dari program pemerintah",
+        "Pemerintah daerah tidak peduli dengan masalah lingkungan di daerah tersebut",
+        "Warga yang tinggal di sekitar sungai punya kepedulian dan konsistensi yang lebih kuat karena dampaknya langsung dirasakan",
+        "Komunitas mendapat dana yang lebih besar dari lembaga internasional untuk program mereka"
+      ],
+      "ans": "C",
+      "pembahasan": "Warga yang tinggal di sekitar sungai punya kepentingan langsung — kualitas air mempengaruhi kehidupan mereka sehari-hari. Ini menciptakan kepedulian dan konsistensi yang sulit ditandingi program dari luar. Bukan soal teknologi (A), ketidakpedulian pemerintah (B — tidak disebutkan), atau dana (D — tidak disebutkan)."
+    },
+    {
+      "id": "pp3_078",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong dan Kesehatan Masyarakat",
+      "stimulus": "Posyandu adalah pos pelayanan terpadu di tingkat kelurahan. Di Posyandu, kader-kader kesehatan yang merupakan warga biasa secara sukarela membantu menimbang bayi, memantau tumbuh kembang anak, dan memberikan penyuluhan kesehatan. Mereka dilatih oleh puskesmas namun tidak mendapat gaji. Kegiatan ini sudah berlangsung puluhan tahun dan terbukti meningkatkan kesehatan ibu dan anak.",
+      "q": "Mengapa kegiatan kader Posyandu dapat digolongkan sebagai bentuk gotong royong di bidang kesehatan?",
+      "opt": [
+        "Karena kader mendapat pelatihan dari puskesmas sehingga tindakannya berbeda dari warga biasa",
+        "Karena kader bekerja tanpa gaji dan membantu sesama warga agar kesehatan masyarakat terjaga",
+        "Karena Posyandu adalah program pemerintah yang wajib dilaksanakan di setiap kelurahan",
+        "Karena kegiatan Posyandu melibatkan dokter dan tenaga medis yang terlatih secara profesional"
+      ],
+      "ans": "B",
+      "pembahasan": "Kader bekerja secara sukarela (tanpa gaji) untuk membantu sesama warga menjaga kesehatan — ini adalah gotong royong di bidang kesehatan. Pelatihan (A) tidak menjadikannya gotong royong, kewajiban program (C) tidak relevan dengan definisi gotong royong, dan tenaga medis (D) bukan fokus stimulus."
+    },
+    {
+      "id": "pp3_079",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbedaan Kampung Sejahtera",
+      "stimulus": "Peneliti sosial membandingkan dua kampung bertetangga. Kampung A: warga memiliki penghasilan cukup, lingkungan bersih, anak-anak bersekolah, tidak ada konflik, dan warga saling membantu. Kampung B: sebagian warga kaya raya, tetapi banyak yang kelaparan karena tidak ada yang berbagi; lingkungan kotor karena tidak ada kerja sama menjaga kebersihan.",
+      "q": "Berdasarkan perbandingan tersebut, mana yang lebih tepat disebut masyarakat sejahtera?",
+      "opt": [
+        "Kampung B, karena memiliki warga yang kaya raya yang dapat mendorong pertumbuhan ekonomi",
+        "Kampung A, karena kesejahteraan ditandai oleh kondisi sosial yang baik: saling bantu, rukun, dan semua terpenuhi kebutuhannya",
+        "Keduanya sama-sama sejahtera karena punya kelebihan masing-masing yang saling melengkapi",
+        "Kampung B, karena kekayaan sebagian warga akan menetes ke yang lain melalui kegiatan ekonomi"
+      ],
+      "ans": "B",
+      "pembahasan": "Kampung A lebih tepat disebut sejahtera: kebutuhan terpenuhi, lingkungan bersih, pendidikan ada, damai, dan ada kepedulian sosial. Kampung B memiliki ketimpangan ekstrem — ada yang kaya raya di saat lain kelaparan. Sejahtera bukan soal ada tidaknya orang kaya (A, B, D) melainkan terpenuhinya kebutuhan semua pihak."
+    },
+    {
+      "id": "pp3_080",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Peran Gotong Royong dalam Berbagai Bidang Kehidupan",
+      "stimulus": "",
+      "q": "Di bidang apa saja gotong royong dapat berkontribusi pada kesejahteraan masyarakat?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bidang kesehatan — kader posyandu dan jimpitan untuk biaya berobat warga yang tidak mampu",
+        "Bidang pendidikan — warga bergotong royong membangun sekolah atau membantu anak yang kurang mampu",
+        "Bidang keamanan — ronda malam dan sistem siaga warga untuk mencegah kejahatan",
+        "Bidang ekonomi — arisan, lumbung pangan, dan koperasi warga yang dikelola bersama",
+        "Bidang hiburan — karaoke dan pentas seni berbayar yang menghasilkan uang untuk hiburan warga"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "E salah: karaoke berbayar adalah kegiatan komersial, bukan gotong royong. Bidang A (kesehatan), B (pendidikan), C (keamanan), dan D (ekonomi) semuanya adalah contoh nyata gotong royong yang berkontribusi pada kesejahteraan masyarakat secara sukarela untuk kepentingan bersama."
+    },
+    {
+      "id": "pp3_081",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Syarat Masyarakat Sejahtera",
+      "stimulus": "",
+      "q": "Manakah kondisi-kondisi yang harus ada agar sebuah masyarakat dapat disebut sejahtera?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kebutuhan dasar seluruh anggota masyarakat terpenuhi: pangan, sandang, papan",
+        "Hubungan sosial yang harmonis dan tidak ada konflik berkepanjangan antarwarga",
+        "Semua warga memiliki penghasilan yang persis sama tanpa ada perbedaan",
+        "Lingkungan yang sehat dan bersih yang dijaga bersama",
+        "Akses pendidikan yang merata sehingga semua anak bisa bersekolah"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: masyarakat sejahtera tidak mengharuskan kesamaan penghasilan yang persis sama — yang penting kebutuhan dasar terpenuhi dan tidak ada yang kekurangan secara ekstrem. Kondisi A, B, D, E adalah syarat yang sesungguhnya dari kesejahteraan masyarakat."
+    },
+    {
+      "id": "pp3_082",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Gotong Royong Membentuk Masyarakat Sejahtera",
+      "stimulus": "",
+      "q": "Bagaimana gotong royong berkontribusi dalam membentuk masyarakat yang sejahtera?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Mengurangi kesenjangan antara yang kuat dan yang lemah melalui saling bantu",
+        "Membangun rasa percaya dan solidaritas sehingga warga tidak merasa sendirian",
+        "Menjamin bahwa semua warga akan menjadi kaya dalam waktu singkat",
+        "Menyelesaikan masalah bersama yang terlalu besar untuk ditangani seorang diri",
+        "Menciptakan lingkungan yang lebih aman dan nyaman karena ada perhatian antarwarga"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: gotong royong tidak menjamin kekayaan materi dalam waktu singkat. Kontribusi gotong royong pada kesejahteraan bersifat sosial: mengurangi kesenjangan (A), membangun solidaritas (B), mengatasi masalah kolektif (D), dan menciptakan keamanan (E)."
+    },
+    {
+      "id": "pp3_083",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Dampak Gotong Royong di Berbagai Dimensi",
+      "stimulus": "",
+      "q": "Kategorikan setiap dampak gotong royong berikut ke dalam dimensi yang tepat:\n• Dampak Sosial: memengaruhi kualitas hubungan dan kehidupan bermasyarakat\n• Dampak Fisik/Material: memengaruhi kondisi fisik lingkungan atau pemenuhan kebutuhan material",
+      "rows": [
+        "Rasa saling percaya antarwarga meningkat karena sering bekerja sama",
+        "Jalan desa yang tadinya rusak kini mulus setelah diperbaiki bersama",
+        "Warga tidak merasa kesepian karena selalu ada teman yang peduli",
+        "Saluran air bersih tersedia setelah warga bergotong royong membangunnya",
+        "Konflik antarwarga berkurang karena ada forum bersama untuk menyelesaikan masalah"
+      ],
+      "cols": [
+        "Dampak Sosial",
+        "Dampak Fisik/Material"
+      ],
+      "ans": [
+        "Dampak Sosial",
+        "Dampak Fisik/Material",
+        "Dampak Sosial",
+        "Dampak Fisik/Material",
+        "Dampak Sosial"
+      ],
+      "pembahasan": "Item 1 (kepercayaan), 3 (tidak kesepian), 5 (berkurangnya konflik) adalah dampak pada kualitas hubungan sosial. Item 2 (jalan mulus) dan 4 (saluran air bersih) adalah dampak pada kondisi fisik lingkungan."
+    },
+    {
+      "id": "pp3_084",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Masyarakat Sejahtera berdasarkan Indikatornya",
+      "stimulus": "",
+      "q": "Kategorikan setiap indikator berikut ke dalam kolom yang tepat:\n• Indikator Sejahtera: menunjukkan ciri masyarakat yang sejahtera\n• Bukan Indikator Sejahtera: tidak mencerminkan kesejahteraan yang sesungguhnya",
+      "rows": [
+        "Semua anak usia sekolah mendapat akses pendidikan yang layak",
+        "Seluruh warga memiliki kendaraan mewah dan telepon pintar terbaru",
+        "Warga hidup damai dan konflik diselesaikan dengan musyawarah",
+        "Fasilitas kesehatan mudah dijangkau oleh seluruh lapisan masyarakat",
+        "Warga yang kaya berhasil menambah kekayaannya berlipat ganda setiap tahun"
+      ],
+      "cols": [
+        "Indikator Sejahtera",
+        "Bukan Indikator Sejahtera"
+      ],
+      "ans": [
+        "Indikator Sejahtera",
+        "Bukan Indikator Sejahtera",
+        "Indikator Sejahtera",
+        "Indikator Sejahtera",
+        "Bukan Indikator Sejahtera"
+      ],
+      "pembahasan": "Item 1 (pendidikan merata), 3 (hidup damai), 4 (akses kesehatan merata) adalah indikator kesejahteraan yang sesungguhnya. Item 2 (kendaraan mewah dan ponsel terbaru) dan 5 (kekayaan berlipat) bukan indikator kesejahteraan — ini tentang kemewahan/kekayaan individual, bukan kesejahteraan sosial."
+    },
+    {
+      "id": "pp3_085",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Empati vs Simpati",
+      "stimulus": "Bu Guru menjelaskan perbedaan empati dan simpati kepada kelas. Simpati adalah merasa kasihan pada orang lain dari jauh. Empati adalah berusaha memahami perasaan orang lain seolah berada di posisinya. Ketika teman kesusahan, orang yang bersimpati berkata 'kasihan sekali.' Orang yang berempati berusaha memahami apa yang dirasakan teman itu dan memikirkan cara terbaik untuk membantu.",
+      "q": "Berdasarkan penjelasan Bu Guru, mengapa empati lebih berguna dari simpati dalam berbuat baik?",
+      "opt": [
+        "Karena empati membuat kita berbicara lebih panjang kepada orang yang membutuhkan bantuan",
+        "Karena empati mendorong kita memahami kebutuhan sesungguhnya orang lain sehingga bantuan lebih tepat sasaran",
+        "Karena simpati hanya muncul ketika kita melihat langsung, sedangkan empati bisa dirasakan dari jarak jauh",
+        "Karena empati tidak memerlukan kita untuk berbuat apapun — cukup merasakan tanpa bertindak"
+      ],
+      "ans": "B",
+      "pembahasan": "Empati mendorong kita memahami perasaan dan kebutuhan orang lain dari sudut pandangnya, sehingga bantuan yang kita berikan lebih tepat sasaran. Simpati hanya 'merasa kasihan dari jauh' tanpa benar-benar memahami kebutuhan. Opsi A, C, D tidak menggambarkan keunggulan empati yang sesungguhnya."
+    },
+    {
+      "id": "pp3_086",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membantu tanpa Diminta",
+      "stimulus": "Saat pulang sekolah, Ratna melihat tetangganya yang sudah tua, Mbah Sari, sedang kesulitan membawa belanjaan yang berat. Tidak ada yang menawarkan bantuan. Ratna tidak mengenal Mbah Sari dengan baik, tetapi ia segera menghampiri dan menawarkan bantuan. Mbah Sari sangat berterima kasih dan tidak menyangka ada anak yang mau membantu.",
+      "q": "Apa yang membuat tindakan Ratna menjadi contoh perbuatan baik yang bermakna?",
+      "opt": [
+        "Ratna melakukan sesuatu yang tidak dilakukan orang dewasa lain sehingga mendapat pujian lebih banyak",
+        "Ratna bertindak atas inisiatif sendiri membantu orang yang membutuhkan meski tidak mengenalnya dengan baik",
+        "Ratna mendapat imbalan karena Mbah Sari pasti akan membalas kebaikannya kelak",
+        "Ratna sudah membantu Mbah Sari berkali-kali sebelumnya sehingga ini adalah kewajiban timbal baliknya"
+      ],
+      "ans": "B",
+      "pembahasan": "Tindakan Ratna bermakna karena dilakukan atas inisiatif sendiri (tidak diminta), kepada orang yang tidak dikenalnya dengan baik, tanpa mengharap imbalan. Bukan tentang mendapat pujian lebih (A), bukan tentang imbalan (C), dan bukan kewajiban timbal balik (D — mereka tidak saling kenal)."
+    },
+    {
+      "id": "pp3_087",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbuatan Baik yang Tepat Sasaran",
+      "stimulus": "Kelas 4A mengumpulkan buku-buku untuk disumbangkan ke sekolah di daerah terpencil. Sebelum mengirim, Bu Guru mengajak siswa memilah: buku yang halamannya masih lengkap dan tulisannya terbaca dikumpulkan, buku yang rusak berat atau tidak relevan dipisahkan. Bu Guru menjelaskan: 'Menyumbang buku rusak sama saja tidak membantu.'",
+      "q": "Mengapa Bu Guru mengajarkan siswa untuk memilah buku sebelum disumbangkan?",
+      "opt": [
+        "Agar sekolah penerima tidak kerepotan mengurus buku yang banyak sekaligus",
+        "Karena perbuatan baik yang sejati memperhatikan manfaat nyata bagi penerima, bukan sekadar mengurangi beban sendiri",
+        "Karena pemerintah mewajibkan semua sumbangan buku melewati proses sortir terlebih dahulu",
+        "Agar kelas 4A mendapat penilaian terbaik dalam program sumbangan tahun ini"
+      ],
+      "ans": "B",
+      "pembahasan": "Bu Guru mengajarkan bahwa perbuatan baik harus memperhatikan manfaat nyata bagi penerima. Menyumbang buku rusak hanya 'membuang' barang tidak berguna ke orang lain — itu bukan membantu. Perbuatan baik yang sejati memikirkan kepentingan penerima. Opsi A, C, D tidak menjawab inti pelajaran."
+    },
+    {
+      "id": "pp3_088",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konsistensi dalam Berbuat Baik",
+      "stimulus": "Ada dua siswa yang berbeda. Siswa A sering berbuat baik ketika ada guru atau orang tua yang memperhatikan, tetapi diam saja ketika tidak ada yang melihat. Siswa B konsisten berbuat baik baik ada yang melihat maupun tidak: menyimpan sampah di kantong jika tidak ada tempat sampah, membantu teman kesulitan meski tidak ada yang tahu.",
+      "q": "Siapakah yang lebih mencerminkan perbuatan baik yang tulus, dan mengapa?",
+      "opt": [
+        "Siswa A, karena memilih waktu yang tepat untuk berbuat baik saat ada orang yang bisa melihatnya",
+        "Siswa B, karena kebaikannya berasal dari dalam hati dan tidak bergantung pada ada tidaknya penonton",
+        "Keduanya sama baiknya karena tujuan akhirnya adalah berbuat baik meski dengan cara berbeda",
+        "Siswa A lebih bijaksana karena kebaikan yang terlihat bisa menginspirasi orang lain"
+      ],
+      "ans": "B",
+      "pembahasan": "Siswa B mencerminkan ketulusan: berbuat baik karena memang benar, bukan karena ingin dilihat. Perbuatan baik yang sejati tidak bergantung pada penonton. Siswa A hanya berbuat baik saat ada yang memperhatikan — itu lebih pada penampilan daripada ketulusan. Opsi C dan D membenarkan perilaku yang tidak konsisten."
+    },
+    {
+      "id": "pp3_089",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbuatan Baik kepada Alam",
+      "stimulus": "Sekelompok siswa SD mengikuti program 'Anak Peduli Alam'. Mereka memungut sampah di pantai setiap bulan, tidak memetik bunga sembarangan di taman kota, dan ikut menanam pohon di lahan gundul. Pelatih program mengatakan: 'Menjaga alam juga perbuatan baik, karena kita tidak hanya hidup untuk sesama manusia, tetapi juga berbagi bumi dengan makhluk hidup lainnya.'",
+      "q": "Apa pesan utama yang ingin disampaikan pelatih dengan pernyataan tersebut?",
+      "opt": [
+        "Perbuatan baik hanya sah jika ditujukan kepada sesama manusia, bukan kepada makhluk hidup lain",
+        "Menjaga alam adalah perbuatan baik karena alam adalah sumber kehidupan yang kita tanggung bersama",
+        "Siswa sebaiknya fokus pada program sekolah saja dan tidak perlu ikut kegiatan lingkungan hidup",
+        "Berbuat baik kepada alam harus lebih diprioritaskan daripada berbuat baik kepada sesama manusia"
+      ],
+      "ans": "B",
+      "pembahasan": "Pesan pelatih: menjaga alam adalah perbuatan baik karena kita berbagi bumi dengan semua makhluk hidup, dan alam adalah sumber kehidupan. Perbuatan baik tidak terbatas pada sesama manusia saja. Opsi A membatasi perbuatan baik terlalu sempit. Opsi C dan D tidak sesuai pesan stimulus."
+    },
+    {
+      "id": "pp3_090",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbuatan Baik sebagai Awal Gotong Royong",
+      "stimulus": "Pak Ahmad melihat tetangganya, Pak Budi, sedang berjuang sendirian memperbaiki atap yang bocor. Pak Ahmad membantu tanpa diminta. Melihat ini, Pak Candra dan Pak Deni yang juga tetangga ikut membantu. Dalam satu jam, pekerjaan yang akan butuh seharian diselesaikan bersama. Pak Budi terharu dan berjanji akan membalas dengan cara yang sama ketika ada tetangga yang membutuhkan.",
+      "q": "Apa yang dapat kita pelajari dari cerita ini tentang hubungan perbuatan baik dan gotong royong?",
+      "opt": [
+        "Perbuatan baik hanya bermakna jika langsung menimbulkan balasan dari orang yang dibantu",
+        "Satu inisiatif berbuat baik dapat menggerakkan orang lain untuk ikut serta sehingga menjadi gotong royong",
+        "Gotong royong hanya terjadi jika ada organisasi formal yang mengkoordinasikan semua peserta",
+        "Pak Budi seharusnya tidak menerima bantuan agar tidak terbebani oleh rasa utang budi"
+      ],
+      "ans": "B",
+      "pembahasan": "Cerita menunjukkan: satu inisiatif perbuatan baik Pak Ahmad menggerakkan Pak Candra dan Pak Deni, sehingga terjadi gotong royong spontan. Perbuatan baik bisa menjadi 'percikan' yang menginspirasi kerja sama lebih besar. Opsi A tentang balasan langsung tidak relevan. Opsi C tentang organisasi formal terlalu sempit. Opsi D tidak sesuai nilai kepedulian."
+    },
+    {
+      "id": "pp3_091",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Bentuk Kepedulian kepada Sesama",
+      "stimulus": "",
+      "q": "Manakah tindakan-tindakan berikut yang merupakan wujud kepedulian dan perbuatan baik yang tepat?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Membantu teman yang sakit dengan mengambilkan catatan pelajaran yang tertinggal",
+        "Menawarkan bantuan kepada orang lanjut usia yang terlihat kesulitan di jalan",
+        "Mengabaikan teman yang sedang bersedih karena menganggap itu urusan pribadinya",
+        "Menjenguk tetangga yang sakit dan membawakan makanan tanpa diminta",
+        "Menjadi pendengar yang baik bagi teman yang ingin berbagi cerita tentang masalahnya"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: mengabaikan teman yang bersedih bukan kepedulian — justru menunjukkan ketidakpedulian. Meski bersedih adalah urusan pribadi, menawarkan dukungan adalah tindakan peduli yang tepat. Item A, B, D, E semuanya menunjukkan kepedulian aktif yang menghormati kebutuhan penerima."
+    },
+    {
+      "id": "pp3_092",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Perbuatan Baik yang Sejati",
+      "stimulus": "",
+      "q": "Manakah ciri-ciri perbuatan baik yang benar-benar tulus dan bermakna bagi penerimanya?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Dilakukan tanpa mengharapkan pujian, ucapan terima kasih, atau imbalan",
+        "Memperhatikan perasaan dan harga diri penerima, tidak mempermalukan di depan umum",
+        "Dilakukan dengan sepenuh hati meskipun orang lain tidak melihat atau mengetahuinya",
+        "Selalu diungkapkan di media sosial agar bisa menjadi inspirasi bagi orang banyak",
+        "Disesuaikan dengan kebutuhan penerima, bukan hanya keinginan si pemberi bantuan"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "pembahasan": "D salah: mengungkapkan di media sosial bisa baik (untuk inspirasi) tetapi bukan syarat perbuatan baik yang tulus. Bahkan, mempublikasikan bantuan bisa merendahkan martabat penerima jika tidak dengan izin mereka. Ciri perbuatan baik sejati: tanpa pamrih (A), menghormati penerima (B), konsisten (C), dan sesuai kebutuhan (E)."
+    },
+    {
+      "id": "pp3_093",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Kepedulian berdasarkan Nilai Pancasila",
+      "stimulus": "",
+      "q": "Perbuatan baik dan kepedulian kepada sesama merupakan cerminan nilai-nilai Pancasila. Manakah pernyataan-pernyataan yang benar tentang hubungan ini?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Menolong sesama mencerminkan sila ke-2: Kemanusiaan yang Adil dan Beradab",
+        "Rasa kepedulian terhadap semua orang tanpa memandang perbedaan mencerminkan sila ke-3: Persatuan Indonesia",
+        "Berbuat baik kepada sesama otomatis membuat kita kaya secara finansial sesuai sila ke-5",
+        "Musyawarah untuk membantu tetangga yang kesusahan mencerminkan sila ke-4",
+        "Bersyukur dan beribadah serta berbuat baik sebagai wujud keimanan mencerminkan sila ke-1"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: Sila ke-5 (Keadilan Sosial) berkaitan dengan pemerataan kesejahteraan bagi semua, bukan jaminan kekayaan finansial bagi individu yang berbuat baik. Opsi A, B, D, E adalah hubungan yang benar antara perbuatan baik dan sila-sila Pancasila."
+    },
+    {
+      "id": "pp3_094",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Perbuatan Baik berdasarkan Motivasinya",
+      "stimulus": "",
+      "q": "Motivasi seseorang berbuat baik dapat berbeda-beda. Kategorikan setiap motivasi berikut:\n• Motivasi Tulus: berbuat baik karena memang ingin membantu, tanpa kepentingan tersembunyi\n• Motivasi Tidak Tulus: berbuat baik karena mengharapkan keuntungan atau pengakuan",
+      "rows": [
+        "Membantu teman belajar karena ingin melihat temannya berhasil",
+        "Membantu guru membawakan buku agar guru memberikan nilai tambahan",
+        "Menyumbang ke panti asuhan karena merasa tergerak melihat kondisi anak-anak di sana",
+        "Mengucapkan selamat kepada teman yang menang lomba agar teman itu mau membantu pelajarannya",
+        "Menolong kakek menyeberang jalan karena memang merasa itu hal yang benar"
+      ],
+      "cols": [
+        "Motivasi Tulus",
+        "Motivasi Tidak Tulus"
+      ],
+      "ans": [
+        "Motivasi Tulus",
+        "Motivasi Tidak Tulus",
+        "Motivasi Tulus",
+        "Motivasi Tidak Tulus",
+        "Motivasi Tulus"
+      ],
+      "pembahasan": "Item 2 (mengharap nilai tambahan) dan 4 (mengharap bantuan balik) adalah motivasi tidak tulus — ada kepentingan tersembunyi. Item 1 (ingin teman berhasil), 3 (tergerak melihat kondisi), dan 5 (merasa itu benar) adalah motivasi tulus tanpa mengharap imbalan."
+    },
+    {
+      "id": "pp3_095",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Cara Membantu yang Tepat dan Tidak Tepat",
+      "stimulus": "",
+      "q": "Bacalah setiap cara membantu berikut.\nKategorikan ke dalam kolom yang tepat:\n• Cara Tepat: cara membantu yang menghormati penerima dan memberi manfaat nyata\n• Cara Tidak Tepat: terlihat membantu tetapi merendahkan, tidak berguna, atau justru membebani",
+      "rows": [
+        "Mengajari teman cara mengerjakan soal sehingga ia paham, bukan sekadar memberi jawaban",
+        "Menceritakan kesulitan teman kepada orang banyak agar semua orang mau membantu",
+        "Memberikan pakaian layak pakai kepada korban bencana dengan sopan dan menghormati",
+        "Memfoto orang yang sedang menerima bantuan lalu mengunggah ke media sosial tanpa izin",
+        "Mendengarkan teman yang curhat dengan penuh perhatian tanpa menghakimi"
+      ],
+      "cols": [
+        "Cara Tepat",
+        "Cara Tidak Tepat"
+      ],
+      "ans": [
+        "Cara Tepat",
+        "Cara Tidak Tepat",
+        "Cara Tepat",
+        "Cara Tidak Tepat",
+        "Cara Tepat"
+      ],
+      "pembahasan": "Item 2 (menceritakan kesulitan orang tanpa izin) dan 4 (memfoto tanpa izin dan mengunggah) melanggar privasi dan martabat penerima = Cara Tidak Tepat. Item 1 (mengajari cara berpikir), 3 (menyumbang dengan sopan), dan 5 (mendengarkan tanpa menghakimi) adalah cara membantu yang menghormati penerima."
+    },
+    {
+      "id": "pp3_096",
+      "sub_materi": "D",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Perbuatan Baik di Berbagai Usia",
+      "stimulus": "",
+      "q": "Perbuatan baik bisa dilakukan oleh siapa saja, termasuk anak-anak usia kelas 4. Kategorikan setiap contoh berikut:\n• Bisa Dilakukan Anak Kelas 4: sesuai kemampuan dan usia siswa SD\n• Lebih Tepat untuk Orang Dewasa: membutuhkan kemampuan atau kewenangan yang melampaui anak kelas 4",
+      "rows": [
+        "Berbagi bekal dengan teman yang lupa membawa makanan",
+        "Menandatangani perjanjian hukum untuk membantu tetangga yang terkena masalah",
+        "Membantu adik mengerjakan PR yang sulit dengan sabar",
+        "Mengemudikan kendaraan untuk mengantar tetangga lansia ke rumah sakit",
+        "Menjenguk teman yang sakit dan memberikan kartu ucapan semangat"
+      ],
+      "cols": [
+        "Bisa Dilakukan Anak Kelas 4",
+        "Lebih Tepat untuk Orang Dewasa"
+      ],
+      "ans": [
+        "Bisa Dilakukan Anak Kelas 4",
+        "Lebih Tepat untuk Orang Dewasa",
+        "Bisa Dilakukan Anak Kelas 4",
+        "Lebih Tepat untuk Orang Dewasa",
+        "Bisa Dilakukan Anak Kelas 4"
+      ],
+      "pembahasan": "Item 1 (berbagi bekal), 3 (bantu adik PR), 5 (jenguk teman sakit) adalah perbuatan baik yang sesuai kemampuan anak kelas 4. Item 2 (menandatangani perjanjian hukum) dan 4 (mengemudikan kendaraan) membutuhkan kemampuan dan kewenangan orang dewasa."
+    },
+    {
+      "id": "pp3_097",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konsep Saling Ketergantungan",
+      "stimulus": "Ibu membuat kue untuk hajatan tetangga. Ayah membawa kayu dari belakang rumah. Kakak membantu mengangkat meja. Adik menyapu halaman. Tanpa diminta, nenek duduk menjahit bendera kecil untuk dekorasi. Semua melakukan sesuatu yang berbeda, tetapi satu tujuan: membantu hajatan tetangga berjalan lancar.",
+      "q": "Apa yang paling tepat menggambarkan prinsip gotong royong yang terlihat dalam kegiatan keluarga tersebut?",
+      "opt": [
+        "Setiap anggota keluarga melakukan pekerjaan yang persis sama sehingga tidak ada yang merasa iri",
+        "Setiap orang berkontribusi dengan cara yang berbeda sesuai kemampuannya untuk satu tujuan bersama",
+        "Pekerjaan dibagi rata dan setiap orang harus menyelesaikan bagiannya sebelum istirahat",
+        "Hanya orang dewasa yang boleh berkontribusi karena pekerjaan terlalu berat untuk anak-anak"
+      ],
+      "ans": "B",
+      "pembahasan": "Setiap anggota keluarga melakukan sesuatu yang berbeda sesuai kemampuannya (memasak, mengangkat kayu, menyapu, menjahit) namun semuanya menuju satu tujuan bersama. Inilah prinsip gotong royong: kontribusi berbeda, tujuan sama."
+    },
+    {
+      "id": "pp3_098",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Lintas Batas",
+      "stimulus": "Ketika banjir besar melanda Desa Harapan, bantuan datang dari mana-mana. Warga desa tetangga membawa makanan. Pelajar dari kota sebelah datang membantu membersihkan lumpur. Dokter sukarela datang memeriksa kesehatan pengungsi. Semua orang yang datang tidak pernah bertemu sebelumnya, namun bekerja bahu-membahu.",
+      "q": "Apa yang mendorong orang-orang dari luar desa untuk datang membantu meski tidak saling mengenal?",
+      "opt": [
+        "Mereka diperintahkan oleh pemerintah daerah untuk datang dan membantu korban banjir",
+        "Rasa kemanusiaan dan kepedulian terhadap sesama yang mendorong mereka bertindak sukarela",
+        "Mereka mengharapkan upah yang besar dari pemerintah atas bantuan yang mereka berikan",
+        "Mereka ingin diliput media agar namanya dikenal sebagai orang yang baik hati"
+      ],
+      "ans": "B",
+      "pembahasan": "Yang mendorong bantuan lintas batas adalah rasa kemanusiaan — kepedulian terhadap sesama yang menderita, tanpa memandang apakah saling kenal atau tidak. Ini adalah nilai gotong royong pada tingkat yang paling murni: kesukarelaan berdasarkan empati."
+    },
+    {
+      "id": "pp3_099",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong dan Kekeluargaan",
+      "stimulus": "Di Indonesia, ada istilah 'menjaga tali silaturahmi' — memelihara hubungan baik dengan sesama. Gotong royong adalah salah satu cara menjaga silaturahmi: dengan bekerja bersama, orang-orang semakin saling kenal, saling percaya, dan saling peduli. Warga yang sering bergotong royong cenderung lebih mudah meminta dan memberikan bantuan ketika dibutuhkan.",
+      "q": "Mengapa gotong royong disebut sebagai cara efektif untuk menjaga silaturahmi antarwarga?",
+      "opt": [
+        "Karena gotong royong mengharuskan warga bertemu secara formal setiap minggu",
+        "Karena bekerja bersama membangun kepercayaan dan kedekatan yang membuat warga saling peduli",
+        "Karena dalam gotong royong semua warga harus saling berbagi makanan dan minuman",
+        "Karena gotong royong memberi kesempatan warga untuk memperlihatkan kemampuan mereka"
+      ],
+      "ans": "B",
+      "pembahasan": "Gotong royong membangun silaturahmi karena melalui bekerja bersama, tercipta kepercayaan dan kedekatan. Warga yang saling kenal dan percaya lebih mudah saling membantu. Bukan karena pertemuan formal (A), berbagi makanan (C), atau pamer kemampuan (D)."
+    },
+    {
+      "id": "pp3_100",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Mengapa Gotong Royong Penting di Indonesia",
+      "stimulus": "",
+      "q": "Mengapa gotong royong sangat penting dan relevan bagi masyarakat Indonesia?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Indonesia memiliki banyak tantangan yang terlalu besar diselesaikan sendiri oleh individu atau satu pihak",
+        "Gotong royong adalah bagian dari identitas dan nilai budaya bangsa Indonesia yang sudah berusia ratusan tahun",
+        "Gotong royong membuat semua warga Indonesia menjadi kaya dan berkecukupan secara materi",
+        "Gotong royong mempererat persatuan di tengah keberagaman suku, agama, dan budaya Indonesia",
+        "Gotong royong mencegah ketergantungan pada pemerintah untuk semua masalah masyarakat"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: gotong royong tidak menjamin kekayaan materi semua orang. Gotong royong relevan karena: tantangan besar butuh kerja sama (A), ini adalah nilai budaya luhur (B), mempererat persatuan yang beragam (D), dan mendorong kemandirian masyarakat (E)."
+    },
+    {
+      "id": "pp3_101",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Ciri Khas Gotong Royong Indonesia",
+      "stimulus": "",
+      "q": "Manakah ciri-ciri yang membedakan gotong royong Indonesia dari sekadar kerja sama biasa?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bersifat sukarela tanpa ada perjanjian tertulis atau kontrak yang mengikat",
+        "Dilandasi oleh nilai kepedulian dan rasa kekeluargaan, bukan semata transaksi ekonomi",
+        "Peserta selalu mendapatkan kompensasi finansial yang adil sesuai kontribusinya",
+        "Mengutamakan kepentingan bersama di atas kepentingan pribadi",
+        "Terbuka bagi semua kalangan tanpa membeda-bedakan status sosial atau ekonomi"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: kompensasi finansial adalah ciri hubungan kerja-upah, bukan gotong royong. Gotong royong sejati bersifat sukarela (A), dilandasi nilai kepedulian (B), mengutamakan kepentingan bersama (D), dan inklusif untuk semua kalangan (E)."
+    },
+    {
+      "id": "pp3_102",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Siklus Gotong Royong",
+      "stimulus": "Di Desa Waru, ada tradisi 'gugur gunung' — setiap warga bergantian membantu tetangga yang memiliki hajat besar. Ketika Pak Sidin mengadakan syukuran, puluhan tetangga datang membantu tanpa diminta. Setahun kemudian, Pak Sidin adalah orang pertama yang datang ketika tetangganya punya hajat. 'Ini bukan hutang budi,' kata Pak Sidin, 'ini namanya kita hidup bersama.'",
+      "q": "Apa makna dari pernyataan Pak Sidin 'ini bukan hutang budi, ini namanya kita hidup bersama'?",
+      "opt": [
+        "Gotong royong dilakukan bukan karena merasa berhutang, melainkan karena memang itulah cara hidup yang dipilih bersama",
+        "Pak Sidin tidak mau mengakui bahwa ia berhutang budi kepada para tetangganya yang sudah membantu",
+        "Gotong royong hanya berlaku sekali dan setelah itu tidak ada kewajiban untuk membalas kebaikan",
+        "Pak Sidin merasa terpaksa membantu tetangga karena sudah menerima bantuan sebelumnya"
+      ],
+      "ans": "A",
+      "pembahasan": "Pernyataan Pak Sidin menggambarkan esensi gotong royong: bukan soal berhutang-membayar, melainkan cara hidup bersama yang alamiah. Membantu bukan karena terpaksa membalas (D), bukan mengingkari hutang (B), dan bukan hanya berlaku sekali (C)."
+    },
+    {
+      "id": "pp3_103",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong dan Kepemimpinan",
+      "stimulus": "Pak RT baru saja dilantik. Ia ingin menghidupkan kembali gotong royong yang sudah lama mati di wilayahnya. Ia memulai dengan hal kecil: datang pertama kali di kerja bakti, bekerja paling keras, dan selalu mengucapkan terima kasih kepada setiap peserta. Setelah enam bulan, jumlah peserta kerja bakti meningkat lima kali lipat.",
+      "q": "Strategi apa yang paling efektif digunakan Pak RT untuk menghidupkan kembali gotong royong?",
+      "opt": [
+        "Mewajibkan semua warga hadir dan memberikan sanksi kepada yang tidak datang",
+        "Memberikan uang saku kepada setiap warga yang hadir dalam kegiatan gotong royong",
+        "Memberikan teladan nyata dengan bekerja langsung dan menghargai setiap kontribusi warga",
+        "Mengadakan rapat rutin untuk membahas pentingnya gotong royong secara teori"
+      ],
+      "ans": "C",
+      "pembahasan": "Pak RT berhasil karena memimpin dengan teladan (datang pertama, bekerja keras) dan menghargai setiap peserta. Keteladanan lebih efektif dari paksaan (A), imbalan uang (B — bertentangan dengan kesukarelaan), atau teori saja (D)."
+    },
+    {
+      "id": "pp3_104",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Pasca Konflik",
+      "stimulus": "Setelah bertahun-tahun tidak bertegur sapa karena sengketa lahan, dua keluarga bertetangga akhirnya berdamai. Langkah pertama yang mereka ambil adalah ikut kerja bakti bersama di RT. Saat bekerja berdampingan membersihkan selokan, mereka mulai berbicara. Pelan-pelan, hubungan yang rusak mulai diperbaiki.",
+      "q": "Apa yang ditunjukkan oleh cerita ini tentang peran gotong royong dalam kehidupan sosial?",
+      "opt": [
+        "Gotong royong hanya cocok untuk orang yang sudah berteman baik dan tidak pernah berkonflik",
+        "Gotong royong dapat menjadi jembatan untuk memperbaiki hubungan yang rusak melalui pengalaman bersama",
+        "Konflik hanya bisa diselesaikan melalui jalur hukum dan gotong royong tidak memiliki peran",
+        "Dua keluarga itu hanya berpura-pura berdamai karena terpaksa ikut gotong royong"
+      ],
+      "ans": "B",
+      "pembahasan": "Cerita menunjukkan bahwa bekerja bersama dapat menjadi jembatan rekonsiliasi — pengalaman bahu-membahu mencairkan ketegangan yang tak bisa diselesaikan dengan kata-kata. Gotong royong memiliki dimensi pemulihan sosial, tidak hanya produktivitas. Opsi A, C, D tidak sesuai konteks."
+    },
+    {
+      "id": "pp3_105",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Syarat Gotong Royong Berhasil",
+      "stimulus": "",
+      "q": "Apa saja syarat yang perlu dipenuhi agar sebuah kegiatan gotong royong dapat berjalan dengan baik dan memberi hasil yang optimal?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ada kesepahaman dan tujuan bersama yang dipahami oleh semua peserta",
+        "Setiap peserta bersedia berkontribusi sesuai kemampuan tanpa merasa paling penting",
+        "Pemimpin harus bisa memaksa semua orang mengerjakan hal yang sama secara serentak",
+        "Ada rasa saling percaya dan menghargai antar sesama peserta",
+        "Koordinasi yang baik agar tidak terjadi tumpang tindih atau kekosongan peran"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: memaksa dan menyeragamkan pekerjaan bertentangan dengan prinsip kesukarelaan dan kontribusi sesuai kemampuan. Syarat gotong royong yang baik: tujuan bersama yang jelas (A), kesukarelaan berkontribusi (B), rasa saling percaya (D), dan koordinasi yang efektif (E)."
+    },
+    {
+      "id": "pp3_106",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Gotong Royong Membentuk Karakter",
+      "stimulus": "",
+      "q": "Nilai-nilai karakter apa saja yang dapat tumbuh dalam diri seseorang yang terbiasa bergotong royong?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Kepedulian terhadap sesama dan lingkungan sekitar",
+        "Kerendahan hati untuk mau bekerja bersama tanpa merasa lebih tinggi dari orang lain",
+        "Sikap egois karena ingin mendapat bagian yang paling banyak dari hasil gotong royong",
+        "Rasa tanggung jawab terhadap kondisi komunitas tempat tinggalnya",
+        "Kemampuan bekerja sama dan menghargai kontribusi orang lain yang berbeda"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C jelas salah: sikap egois bertentangan dengan semangat gotong royong yang mengutamakan kepentingan bersama. Gotong royong justru menumbuhkan kepedulian (A), kerendahan hati (B), tanggung jawab (D), dan kemampuan bekerja sama (E)."
+    },
+    {
+      "id": "pp3_107",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Gotong Royong Menjaga Tradisi Lokal",
+      "stimulus": "Di Desa Ciater, ada tradisi 'ngarot' — pesta panen yang diadakan setiap tahun secara gotong royong. Seluruh warga menyiapkan pesta bersama: ada yang memasak, ada yang menghias desa, ada yang berlatih tarian. Tradisi ini sudah berlangsung ratusan tahun dan menjadi identitas desa. Generasi muda yang merantau pun selalu pulang untuk ikut ngarot.",
+      "q": "Selain mempererat kebersamaan, apa peran gotong royong dalam tradisi ngarot di Desa Ciater?",
+      "opt": [
+        "Gotong royong dalam ngarot hanya untuk menghemat biaya pesta agar tidak perlu menyewa jasa",
+        "Gotong royong menjadi sarana melestarikan tradisi budaya lokal secara bersama-sama lintas generasi",
+        "Gotong royong dalam ngarot memaksa pemuda yang merantau untuk pulang ke desa setiap tahun",
+        "Tradisi ngarot hanya bisa dipertahankan jika ada dana dari pemerintah daerah"
+      ],
+      "ans": "B",
+      "pembahasan": "Gotong royong dalam ngarot bukan hanya soal efisiensi biaya — ia menjadi sarana pelestarian budaya lokal yang melibatkan semua generasi. Pemuda yang merantau pun merasa terpanggil untuk pulang karena ikatan budaya ini. Opsi A, C, D tidak menangkap makna utama yang digambarkan."
+    },
+    {
+      "id": "pp3_108",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Kesejahteraan dan Kebersamaan",
+      "stimulus": "Pak Bimo, seorang peneliti sosial, membandingkan dua kampung. Di Kampung A, warga hidup sendiri-sendiri meski ada yang kaya. Di Kampung B, warga aktif bergotong royong dan saling membantu. Pak Bimo menemukan bahwa anak-anak di Kampung B lebih jarang mengalami kekurangan gizi meskipun rata-rata penghasilan warganya lebih rendah dari Kampung A.",
+      "q": "Apa yang menjadi temuan penting dari penelitian Pak Bimo?",
+      "opt": [
+        "Penghasilan adalah satu-satunya faktor yang menentukan apakah anak-anak cukup gizi atau tidak",
+        "Kekayaan materi lebih penting dari kebersamaan dalam menentukan kesejahteraan masyarakat",
+        "Gotong royong dapat menghasilkan kesejahteraan nyata meskipun pendapatan rata-rata lebih rendah",
+        "Penelitian Pak Bimo membuktikan bahwa kampung yang kaya selalu lebih sehat dari yang miskin"
+      ],
+      "ans": "C",
+      "pembahasan": "Temuan Pak Bimo mengungkap bahwa gotong royong (saling membantu) mampu menghasilkan kesejahteraan nyata (anak lebih jarang kekurangan gizi) meskipun rata-rata penghasilan lebih rendah. Ini membuktikan bahwa kesejahteraan tidak hanya ditentukan oleh kekayaan materi. Opsi A, B, D semua bertentangan dengan temuan penelitian."
+    },
+    {
+      "id": "pp3_109",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Peran Anak dalam Komunitas Sejahtera",
+      "stimulus": "Ibu Guru menjelaskan bahwa masyarakat sejahtera bukan hanya karena ada orang dewasa yang kaya dan berpendidikan. Anak-anak pun memiliki peran. Anak yang jujur, saling menghargai, dan mau berbagi akan tumbuh menjadi warga yang baik. Komunitas yang sejahtera dimulai dari kebiasaan baik yang ditanamkan sejak kecil.",
+      "q": "Apa pesan utama yang ingin disampaikan Ibu Guru tentang peran anak dalam masyarakat sejahtera?",
+      "opt": [
+        "Anak-anak harus bekerja keras untuk menghasilkan uang agar keluarganya tidak kekurangan",
+        "Kebiasaan baik yang ditanamkan sejak kecil berkontribusi pada terbentuknya masyarakat yang sejahtera",
+        "Anak tidak memiliki peran apapun dalam masyarakat sampai mereka dewasa dan bekerja",
+        "Sejahtera hanya bisa dicapai oleh orang dewasa yang sudah memiliki pendidikan tinggi"
+      ],
+      "ans": "B",
+      "pembahasan": "Pesan Ibu Guru: kebiasaan baik (jujur, saling menghargai, mau berbagi) yang ditanamkan sejak kecil berkontribusi langsung pada terbentuknya masyarakat sejahtera. Anak tidak harus menunggu dewasa untuk berkontribusi. Opsi A, C, D tidak sesuai dengan pesan yang disampaikan."
+    },
+    {
+      "id": "pp3_110",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Gotong Royong Membentuk Ketahanan",
+      "stimulus": "",
+      "q": "Bagaimana gotong royong membentuk ketahanan dan daya tahan masyarakat dalam menghadapi berbagai tantangan?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Warga yang biasa bergotong royong lebih cepat bangkit setelah mengalami musibah",
+        "Jaringan sosial yang kuat dari gotong royong menjadi sistem jaring pengaman bagi anggota yang membutuhkan",
+        "Gotong royong menjamin bahwa tidak akan ada bencana atau musibah yang menimpa komunitas",
+        "Rasa saling percaya yang tumbuh dari gotong royong memudahkan koordinasi saat ada masalah",
+        "Sumber daya yang digabungkan bersama lebih efektif mengatasi masalah daripada sumber daya sendiri"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: gotong royong tidak mencegah bencana terjadi — bencana tetap bisa terjadi. Yang bisa dilakukan gotong royong adalah membuat masyarakat lebih tangguh menghadapi dan pulih dari bencana. Item A, B, D, E adalah bentuk ketahanan nyata yang dibangun gotong royong."
+    },
+    {
+      "id": "pp3_111",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Mengukur Kesejahteraan Masyarakat",
+      "stimulus": "",
+      "q": "Manakah cara-cara yang tepat untuk mengukur apakah sebuah masyarakat benar-benar sejahtera?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Melihat apakah semua anggota masyarakat dapat memenuhi kebutuhan dasarnya",
+        "Menghitung jumlah orang terkaya di komunitas tersebut",
+        "Mengamati tingkat kerukunan dan minimnya konflik antarwarga",
+        "Memeriksa akses terhadap pendidikan dan layanan kesehatan bagi seluruh anggota",
+        "Mengukur seberapa kuat jaringan saling bantu antarwarga dalam komunitas"
+      ],
+      "ans": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "pembahasan": "B salah: jumlah orang terkaya bukan ukuran kesejahteraan masyarakat secara keseluruhan. Kesejahteraan diukur dari terpenuhinya kebutuhan dasar semua orang (A), kerukunan (C), akses pendidikan dan kesehatan (D), serta kekuatan jaringan saling bantu (E)."
+    },
+    {
+      "id": "pp3_112",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Berbuat Baik kepada Hewan",
+      "stimulus": "Di jalan pulang sekolah, Nino melihat seekor kucing kecil yang terluka dan kelaparan di tepi jalan. Nino tidak membawa banyak uang. Ia mengambil roti dari tasnya, memberikan sebagian kepada kucing itu, lalu mencari kardus untuk menaruh kucing itu di tempat yang lebih aman. Setelah sampai di rumah, Nino meminta orang tuanya untuk membantu merawat kucing itu.",
+      "q": "Tindakan Nino terhadap kucing tersebut mencerminkan nilai apa?",
+      "opt": [
+        "Nilai keberanian, karena Nino berani mendekati binatang asing yang tidak dikenalnya",
+        "Nilai kepedulian, karena Nino memperhatikan dan merespons kebutuhan makhluk hidup yang membutuhkan",
+        "Nilai kewajiban, karena setiap siswa SD diwajibkan menyayangi binatang peliharaan",
+        "Nilai kehati-hatian, karena Nino tidak langsung memeluk kucing asing yang mungkin berbahaya"
+      ],
+      "ans": "B",
+      "pembahasan": "Tindakan Nino — memberi makan, memberi tempat aman, dan meminta bantuan orang tua — mencerminkan kepedulian terhadap makhluk hidup yang membutuhkan pertolongan. Bukan keberanian (A — itu bukan fokus cerita), kewajiban formal (C), atau kehati-hatian (D)."
+    },
+    {
+      "id": "pp3_113",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbuatan Baik yang Tidak Terlihat",
+      "stimulus": "Setiap pagi sebelum kelas dimulai, Reza diam-diam menyiapkan spidol dan menghapus papan tulis agar guru tidak perlu melakukannya. Ia tidak pernah memberitahu siapapun. Suatu hari gurunya menyadarinya dan bertanya siapa yang melakukan itu. Reza hanya tersenyum dan mengalihkan topik.",
+      "q": "Apa yang paling tepat menggambarkan perbuatan baik Reza?",
+      "opt": [
+        "Perbuatan Reza kurang bermakna karena tidak ada yang mengetahuinya dan tidak berdampak besar",
+        "Perbuatan Reza dilakukan dengan tulus karena ia tidak mencari pengakuan dari siapapun",
+        "Reza seharusnya memberitahu teman-temannya agar mereka bisa ikut berbuat baik juga",
+        "Reza hanya melakukannya karena berharap guru akan memberikan nilai terbaik kepadanya"
+      ],
+      "ans": "B",
+      "pembahasan": "Reza melakukan perbuatan baik tanpa mencari pengakuan — ia bahkan mengalihkan topik saat gurunya menyadarinya. Ini adalah ketulusan sejati. Perbuatan tidak bermakna karena tak diketahui (A) adalah pemahaman yang salah. Memberitahu teman (C) tidak relevan. Mengharap nilai (D) bertentangan dengan fakta bahwa ia menyembunyikan tindakannya."
+    },
+    {
+      "id": "pp3_114",
+      "sub_materi": "D",
+      "type": "pg",
+      "score": 1,
+      "topik": "Perbuatan Baik dalam Keberagaman",
+      "stimulus": "Di kelas 4, Siti yang beragama Islam sedang berpuasa. Ia tetap ikut ke kantin bersama teman-temannya. Teman-temannya yang beragama Kristen dan Hindu menghargai puasa Siti — mereka tidak makan di depan Siti dan menawarkan meja yang lebih nyaman. Siti merasa dihargai dan tersentuh.",
+      "q": "Tindakan teman-teman Siti mencerminkan nilai apa dalam konteks keberagaman?",
+      "opt": [
+        "Nilai kesetiaan, karena mereka setia menemani Siti meski tidak bisa makan bersama",
+        "Nilai kepedulian dan penghargaan terhadap keyakinan orang lain yang berbeda",
+        "Nilai kejujuran, karena mereka tidak pura-pura bisa berpuasa padahal tidak",
+        "Nilai kebersamaan, karena mereka tetap pergi ke kantin bersama meski situasinya berbeda"
+      ],
+      "ans": "B",
+      "pembahasan": "Teman-teman Siti menunjukkan kepedulian yang aktif — tidak makan di depannya dan menawarkan meja yang nyaman. Ini adalah penghargaan nyata terhadap keyakinan orang lain. Bukan semata kesetiaan (A), kejujuran (C — tidak relevan), atau kebersamaan (D — itu aspek tambahan, bukan yang utama)."
+    },
+    {
+      "id": "pp3_115",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Kapan Kita Perlu Berbuat Baik",
+      "stimulus": "",
+      "q": "Dalam situasi mana saja kita perlu peka dan siap berbuat baik kepada sesama?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ketika melihat seseorang membutuhkan bantuan yang bisa kita berikan",
+        "Ketika ada teman yang sedang sedih dan butuh seseorang untuk mendengarkannya",
+        "Hanya ketika diminta secara langsung oleh orang yang membutuhkan",
+        "Ketika kita memiliki kemampuan atau sumber daya yang bisa meringankan beban orang lain",
+        "Ketika melihat situasi tidak aman dan kita bisa membantu tanpa membahayakan diri"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "pembahasan": "C salah: menunggu diminta secara langsung seringkali terlambat dan tidak mencerminkan kepekaan. Kepedulian yang sejati mendorong kita untuk berinisiatif, bukan menunggu. Situasi A, B, D, E semua adalah momen di mana kepekaan dan inisiatif berbuat baik sangat diperlukan."
+    },
+    {
+      "id": "pp3_116",
+      "sub_materi": "D",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Perbuatan Baik Membangun Komunitas",
+      "stimulus": "",
+      "q": "Bagaimana kebiasaan berbuat baik kepada sesama berkontribusi pada terbentuknya komunitas yang lebih baik?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Ketika banyak orang berbuat baik, standar perilaku positif dalam komunitas meningkat",
+        "Perbuatan baik dari satu orang sering menginspirasi orang lain untuk melakukan hal serupa",
+        "Perbuatan baik menciptakan lingkungan yang aman dan nyaman bagi semua anggota komunitas",
+        "Berbuat baik kepada sesama otomatis membuat komunitas menjadi bebas dari kemiskinan",
+        "Kepercayaan antaranggota komunitas meningkat ketika mereka saling berbuat baik"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "pembahasan": "D salah: perbuatan baik tidak secara otomatis menghapuskan kemiskinan — kemiskinan adalah masalah struktural yang membutuhkan lebih dari sekadar perbuatan baik antarindividu. Namun, perbuatan baik meningkatkan standar perilaku (A), menginspirasi (B), menciptakan rasa aman (C), dan membangun kepercayaan (E)."
     }
   ]
 }
