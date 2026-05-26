@@ -206,4 +206,18 @@ export async function getProgressUser(uid) {
   return snap.docs.map(d => ({ id: d.id, ...d.data() }));
 }
 
+
+// ── FIRESTORE: Riwayat kuis milik satu user (untuk dashboard pribadi) ─
+// Butuh Firestore index: hasilKuis | uid (Asc) + timestamp (Desc)
+export async function getHasilKuisSaya(uid, limitN = 100) {
+  const q = query(
+    collection(db, 'hasilKuis'),
+    where('uid', '==', uid),
+    orderBy('timestamp', 'desc'),
+    limit(limitN)
+  );
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+
 export { auth, db };

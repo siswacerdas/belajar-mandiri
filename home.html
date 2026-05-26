@@ -262,6 +262,18 @@ a { text-decoration: none; color: inherit; }
   transition: color 0.18s, border-color 0.18s;
 }
 .nav-link:hover { color: var(--primary); border-bottom-color: var(--primary-mid); }
+
+.nav-link-dashboard {
+  color: #0369a1 !important;
+  font-weight: 700 !important;
+  background: #e0f2fe;
+  border-radius: 20px;
+  padding: 6px 14px !important;
+  border-bottom: none !important;
+  transition: background 0.18s, transform 0.18s;
+  margin-right: 2px;
+}
+.nav-link-dashboard:hover { background: #bae6fd; transform: translateY(-1px); border-bottom: none !important; }
 .nav-link-ranking {
   color: var(--primary) !important;
   font-weight: 700 !important;
@@ -451,6 +463,7 @@ a { text-decoration: none; color: inherit; }
       <div class="nav-logo">📚 Belajar Mandiri</div>
       <a href="#kelas"   class="nav-link">Pilih Kelas</a>
       <a href="#cara"    class="nav-link">Cara Belajar</a>
+      <a href="/belajar-mandiri/dashboard.html" class="nav-link nav-link-dashboard">📊 Dashboard</a>
       <a href="/belajar-mandiri/ranking.html" class="nav-link nav-link-ranking">🏆 Peringkat</a>
       <div class="nav-user-area">
         <span class="nav-user-nama" id="nav-user-nama">…</span>

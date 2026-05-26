@@ -387,3 +387,56 @@ Untuk bab yang belum punya soal.json, gunakan `soal-template.json` sebagai dasar
 Jangan tambahkan kembali elemen-elemen di atas dalam versi mendatang.
 Hasil kuis kini hanya disimpan melalui `kuis-logger.js` → Firebase `hasilKuis`.
 
+---
+
+## 📊 DASHBOARD & RANKING LENGKAP (Sesi 11)
+
+### Halaman Baru
+
+#### `dashboard.html` — Dashboard Progress Pribadi Siswa
+- Protected auth-guard (harus login)
+- Menampilkan: profil siswa, stat ringkasan (kuis selesai, rata-rata, nilai tertinggi, total waktu)
+- Tab per mapel (B. Indonesia | IPAS | PP) dengan card progress per bab
+- Setiap bab: nilai terbaik, progress bar, jumlah percobaan, tanggal terakhir, badge status
+- Riwayat 20 kuis terakhir (tanggal, mapel, nilai, waktu pengerjaan)
+
+#### `ranking.html` — Papan Peringkat (Redesign)
+- Tab mapel: 🌍 Semua | 📖 B. Indonesia | 🔬 IPAS | 🇮🇩 PP
+- Sub-filter bab dalam tiap mapel
+- **Semua 11 kuis tersedia** termasuk PP Bab 2 dan Bab 3 yang sebelumnya tidak ada
+- Podium 🥇🥈🥉, tabel ranking, stat ringkasan (peserta, rata-rata, tuntas, max)
+- Badge "Kamu" untuk menandai posisi sendiri
+
+### Akses Navigasi
+- `home.html`: navbar ditambah tombol 📊 Dashboard dan 🏆 Peringkat
+- `kelas-4/bahasa-indonesia/index.html`: banner akses cepat Dashboard & Ranking
+- `kelas-4/ipas/index.html`: banner akses cepat Dashboard & Ranking
+- `kelas-4/pp/index.html`: banner akses cepat Dashboard & Ranking
+
+### ❗ Firestore Index Baru yang Wajib Dibuat
+
+Fungsi `getHasilKuisSaya()` di `firebase.js` membutuhkan composite index baru:
+
+**Cara membuat:**
+1. Firebase Console → Firestore → tab **Indexes** → Add Index
+2. Collection: `hasilKuis`
+3. Fields:
+   - `uid` — Ascending
+   - `timestamp` — Descending
+4. Scope: **Collection** → Save
+5. Tunggu status "Enabled"
+
+Tanpa index ini, dashboard riwayat akan menampilkan pesan error.
+
+### ❗ Jangan Ubah Nama Fungsi
+| Fungsi | File | Digunakan oleh |
+|---|---|---|
+| `getHasilKuisSaya(uid, limit)` | firebase.js | dashboard.html |
+| `getProgressUser(uid)` | firebase.js | dashboard.html |
+| `getRankingKuis(kuisId, limit)` | firebase.js | ranking.html |
+| `getSemuaHasilKuis(limit)` | firebase.js | ranking.html |
+
+### ❗ KUIS_META harus sinkron di dashboard.html dan ranking.html
+Jika ada kuis baru ditambahkan, update `KUIS_META` di `dashboard.html`
+dan `BAB_LIST` di `ranking.html` agar kuis baru muncul di kedua halaman.
+

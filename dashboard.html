@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Belajarku · Belajar Mandiri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    :root{
+      --primary:#059669;--primary-lt:#d1fae5;--primary-pl:#f0fdf4;
+      --bi:#0369a1;--bi-lt:#e0f2fe;
+      --ipas:#047857;--ipas-lt:#d1fae5;
+      --pp:#7c3aed;--pp-lt:#ede9fe;
+      --gold:#d97706;--silver:#64748b;--bronze:#92400e;
+      --ok:#16a34a;--warn:#d97706;--danger:#dc2626;
+      --text:#1e293b;--text-lt:#64748b;--border:#e2e8f0;
+      --bg:#f0fdf4;--card:#ffffff;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+    /* HEADER */
+    .header{background:var(--primary);color:#fff;padding:0 20px;height:60px;
+      display:flex;align-items:center;justify-content:space-between;
+      box-shadow:0 2px 10px rgba(0,0,0,.18);position:sticky;top:0;z-index:50}
+    .header-title{font-family:'Lora',serif;font-size:1.05rem;font-weight:700;font-style:italic}
+    .header-sub{font-size:.72rem;opacity:.8;margin-top:1px}
+    .btn-nav{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
+      color:#fff;border-radius:8px;padding:6px 14px;font-family:'Nunito',sans-serif;
+      font-size:.82rem;font-weight:700;cursor:pointer;text-decoration:none;
+      display:inline-flex;align-items:center;gap:6px;transition:background .2s}
+    .btn-nav:hover{background:rgba(255,255,255,.25)}
+    .header-nav{display:flex;gap:8px}
+
+    /* MAIN */
+    .main{max-width:900px;margin:0 auto;padding:28px 16px 60px}
+
+    /* PROFIL CARD */
+    .profil-card{background:linear-gradient(135deg,var(--primary),#0284c7);
+      border-radius:18px;padding:24px 28px;color:#fff;display:flex;
+      align-items:center;gap:20px;margin-bottom:24px;flex-wrap:wrap}
+    .profil-avatar{width:60px;height:60px;border-radius:50%;background:rgba(255,255,255,.25);
+      display:flex;align-items:center;justify-content:center;font-size:1.6rem;
+      font-weight:800;flex-shrink:0;border:3px solid rgba(255,255,255,.4)}
+    .profil-info h2{font-family:'Lora',serif;font-size:1.2rem;font-weight:700;margin-bottom:2px}
+    .profil-info p{font-size:.85rem;opacity:.85}
+
+    /* STAT CARDS */
+    .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:28px}
+    .stat-card{background:var(--card);border-radius:14px;padding:16px 18px;
+      border-top:4px solid var(--primary);box-shadow:0 2px 8px rgba(5,150,105,.08)}
+    .stat-card.bi{border-top-color:var(--bi)}
+    .stat-card.pp{border-top-color:var(--pp)}
+    .stat-card.gold{border-top-color:var(--gold)}
+    .stat-num{font-size:1.75rem;font-weight:800;color:var(--primary);line-height:1}
+    .stat-card.bi .stat-num{color:var(--bi)}
+    .stat-card.pp .stat-num{color:var(--pp)}
+    .stat-card.gold .stat-num{color:var(--gold)}
+    .stat-lbl{font-size:.78rem;color:var(--text-lt);margin-top:4px}
+
+    /* MAPEL TABS */
+    .section-title{font-family:'Lora',serif;font-size:1.15rem;font-weight:700;color:var(--text);margin-bottom:14px}
+    .mapel-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+    .mapel-tab{padding:8px 18px;border-radius:50px;font-size:.85rem;font-weight:700;
+      cursor:pointer;border:2px solid transparent;transition:all .18s;background:var(--card);
+      color:var(--text-lt);border-color:var(--border)}
+    .mapel-tab[data-m="bi"].aktif,.mapel-tab[data-m="bi"]:hover{background:var(--bi-lt);color:var(--bi);border-color:var(--bi)}
+    .mapel-tab[data-m="ipas"].aktif,.mapel-tab[data-m="ipas"]:hover{background:var(--ipas-lt);color:var(--ipas);border-color:var(--ipas)}
+    .mapel-tab[data-m="pp"].aktif,.mapel-tab[data-m="pp"]:hover{background:var(--pp-lt);color:var(--pp);border-color:var(--pp)}
+
+    /* BAB CARDS */
+    .bab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-bottom:32px}
+    .bab-card{background:var(--card);border-radius:14px;padding:18px 20px;
+      box-shadow:0 2px 8px rgba(0,0,0,.06);border-left:5px solid var(--border);transition:transform .15s}
+    .bab-card:hover{transform:translateY(-2px)}
+    .bab-card.bi{border-left-color:var(--bi)}
+    .bab-card.ipas{border-left-color:var(--ipas)}
+    .bab-card.pp{border-left-color:var(--pp)}
+    .bab-card.belum{opacity:.65}
+    .bab-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+    .bab-nama{font-size:.88rem;font-weight:700;color:var(--text);line-height:1.3}
+    .bab-badge{font-size:.75rem;font-weight:800;padding:3px 10px;border-radius:20px;white-space:nowrap;flex-shrink:0;margin-left:8px}
+    .badge-star{background:#fef3c7;color:var(--gold)}
+    .badge-ok{background:#d1fae5;color:var(--ok)}
+    .badge-warn{background:#fef3c7;color:var(--warn)}
+    .badge-belum{background:#f1f5f9;color:var(--text-lt)}
+    .bab-score{font-size:1.6rem;font-weight:800;color:var(--text);margin:6px 0 4px}
+    .bab-score span{font-size:.85rem;font-weight:500;color:var(--text-lt)}
+    .progress-bar-wrap{height:8px;background:#f1f5f9;border-radius:4px;overflow:hidden;margin-bottom:8px}
+    .progress-bar{height:100%;border-radius:4px;transition:width .5s ease}
+    .pb-bi{background:var(--bi)} .pb-ipas{background:var(--ipas)} .pb-pp{background:var(--pp)}
+    .bab-meta{font-size:.75rem;color:var(--text-lt);display:flex;gap:12px;flex-wrap:wrap}
+
+    /* RIWAYAT */
+    .riwayat-card{background:var(--card);border-radius:14px;overflow:hidden;
+      box-shadow:0 2px 8px rgba(0,0,0,.06)}
+    .riwayat-header{padding:14px 20px;border-bottom:1px solid var(--border);
+      font-weight:700;font-size:.88rem;color:var(--text-lt);display:flex;align-items:center;gap:8px}
+    .riwayat-row{padding:12px 20px;border-bottom:1px solid var(--border);
+      display:grid;grid-template-columns:1fr 80px 65px 70px;gap:8px;align-items:center;
+      font-size:.85rem;transition:background .15s}
+    .riwayat-row:last-child{border-bottom:none}
+    .riwayat-row:hover{background:var(--primary-pl)}
+    .r-bab{font-weight:600}
+    .r-mapel-chip{font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:20px;display:inline-block;margin-top:2px}
+    .chip-bi{background:var(--bi-lt);color:var(--bi)}
+    .chip-ipas{background:var(--ipas-lt);color:var(--ipas)}
+    .chip-pp{background:var(--pp-lt);color:var(--pp)}
+    .r-tgl{font-size:.75rem;color:var(--text-lt)}
+    .r-nilai{font-weight:800;text-align:right}
+    .r-waktu{font-size:.75rem;color:var(--text-lt);text-align:right}
+    .nilai-ok{color:var(--ok)} .nilai-warn{color:var(--warn)} .nilai-danger{color:var(--danger)}
+
+    /* LOADING/EMPTY */
+    .state-box{background:var(--card);border-radius:14px;padding:40px;text-align:center;color:var(--text-lt)}
+    .spinner{width:36px;height:36px;border:4px solid var(--primary-lt);border-top-color:var(--primary);
+      border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px}
+    @keyframes spin{to{transform:rotate(360deg)}}
+
+    @media(max-width:600px){
+      .riwayat-row{grid-template-columns:1fr auto}
+      .r-tgl,.r-waktu{display:none}
+      .profil-card{padding:18px 20px}
+    }
+  </style>
+</head>
+<body>
+<script src="/belajar-mandiri/assets/js/auth-guard.js"></script>
+
+<div class="header">
+  <div>
+    <div class="header-title">📊 Dashboard Belajarku</div>
+    <div class="header-sub">Belajar Mandiri · Kelas 4</div>
+  </div>
+  <div class="header-nav">
+    <a href="/belajar-mandiri/ranking.html" class="btn-nav">🏆 Peringkat</a>
+    <a href="/belajar-mandiri/home.html"    class="btn-nav">🏠 Beranda</a>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- Loading state -->
+  <div id="state-loading" class="state-box">
+    <div class="spinner"></div><p>Memuat data belajarmu…</p>
+  </div>
+
+  <!-- Content (hidden until data loaded) -->
+  <div id="content" style="display:none">
+
+    <!-- Profil -->
+    <div class="profil-card">
+      <div class="profil-avatar" id="avatar-text">?</div>
+      <div class="profil-info">
+        <h2 id="profil-nama">Memuat…</h2>
+        <p id="profil-kelas">—</p>
+      </div>
+    </div>
+
+    <!-- Stat Cards -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-num" id="s-selesai">—</div>
+        <div class="stat-lbl">Kuis Selesai</div>
+      </div>
+      <div class="stat-card bi">
+        <div class="stat-num" id="s-rata">—</div>
+        <div class="stat-lbl">Rata-rata Nilai</div>
+      </div>
+      <div class="stat-card gold">
+        <div class="stat-num" id="s-terbaik">—</div>
+        <div class="stat-lbl">Nilai Tertinggi</div>
+      </div>
+      <div class="stat-card pp">
+        <div class="stat-num" id="s-waktu">—</div>
+        <div class="stat-lbl">Total Waktu Belajar</div>
+      </div>
+    </div>
+
+    <!-- Progress per Mapel -->
+    <h3 class="section-title">📈 Progress per Mata Pelajaran</h3>
+    <div class="mapel-tabs">
+      <button class="mapel-tab aktif" data-m="bi">📖 B. Indonesia</button>
+      <button class="mapel-tab"       data-m="ipas">🔬 IPAS</button>
+      <button class="mapel-tab"       data-m="pp">🇮🇩 Pend. Pancasila</button>
+    </div>
+    <div class="bab-grid" id="bab-grid"></div>
+
+    <!-- Riwayat -->
+    <h3 class="section-title">🕐 Riwayat Kuis Terbaru</h3>
+    <div class="riwayat-card">
+      <div class="riwayat-header">
+        <span>Tanggal</span>
+        <span style="margin-left:auto;margin-right:8px">Bab / Mapel</span>
+      </div>
+      <div id="riwayat-list">
+        <div class="state-box" style="border-radius:0">
+          <div class="spinner"></div><p>Memuat riwayat…</p>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+</div>
+
+<script type="module">
+/* ── PATH HELPERS ─────────────────────────────────────────────── */
+const pathParts = window.location.pathname.split('/');
+const repoIdx   = pathParts.indexOf('belajar-mandiri');
+const base      = repoIdx >= 0 ? pathParts.slice(0, repoIdx+1).join('/') + '/' : '/belajar-mandiri/';
+const FB        = base + 'assets/js/firebase.js';
+
+const { onAuthChange, getProfilUser, getProgressUser, getHasilKuisSaya } = await import(FB);
+
+/* ── KUIS METADATA ────────────────────────────────────────────── */
+const MAPEL_GROUPS = {
+  bi:   { label:'B. Indonesia', color:'bi', icon:'📖' },
+  ipas: { label:'IPAS',         color:'ipas', icon:'🔬' },
+  pp:   { label:'Pend. Pancasila', color:'pp', icon:'🇮🇩' },
+};
+
+const KUIS_META = {
+  kuis_bi_bab5:   { mapel:'bi', bab:'Bab 5 — Hemat Pangkal Kaya',              link: base+'kelas-4/bahasa-indonesia/bab-hemat-pangkal-kaya/kuis.html' },
+  kuis_bi_bab6:   { mapel:'bi', bab:'Bab 6 — Tulus dalam Berkarya',            link: base+'kelas-4/bahasa-indonesia/bab-tulus-dalam-berkarya/kuis.html' },
+  kuis_bi_bab7:   { mapel:'bi', bab:'Bab 7 — Indonesia, Kaya Budaya',          link: base+'kelas-4/bahasa-indonesia/bab-indonesia-kaya-budaya/kuis.html' },
+  kuis_bi_bab8:   { mapel:'bi', bab:'Bab 8 — Aku Anak Sehat',                  link: base+'kelas-4/bahasa-indonesia/bab-aku-anak-sehat/kuis.html' },
+  kuis_ipas_bab1: { mapel:'ipas', bab:'Bab 1 — Daerahku Dulu dan Sekarang',    link: base+'kelas-4/ipas/bab-daerahku-dulu-dan-sekarang/kuis.html' },
+  kuis_ipas_bab2: { mapel:'ipas', bab:'Bab 2 — Indonesiaku Kaya Budaya',       link: base+'kelas-4/ipas/bab-indonesiaku-kaya-budaya/kuis.html' },
+  kuis_ipas_bab3: { mapel:'ipas', bab:'Bab 3 — Kebutuhan Hidup',               link: base+'kelas-4/ipas/bab-kebutuhan-hidup/kuis.html' },
+  kuis_ipas_bab4: { mapel:'ipas', bab:'Bab 4 — Masyarakat yang Beradab',       link: base+'kelas-4/ipas/bab-masyarakat-yang-beradab/kuis.html' },
+  kuis_pp_bab1:   { mapel:'pp', bab:'Bab 1 — Jati Diri dalam Kebinekaan',      link: base+'kelas-4/pp/bab-jati-diri-kebinekaan/kuis.html' },
+  kuis_pp_bab2:   { mapel:'pp', bab:'Bab 2 — Negaraku Indonesia',              link: base+'kelas-4/pp/bab-negaraku-indonesia/kuis.html' },
+  kuis_pp_bab3:   { mapel:'pp', bab:'Bab 3 — Pola Hidup Gotong Royong',        link: base+'kelas-4/pp/bab-gotong-royong/kuis.html' },
+};
+
+/* ── CHIP COLORS ─────────────────────────────────────────────── */
+const chipClass = { bi:'chip-bi', ipas:'chip-ipas', pp:'chip-pp' };
+
+/* ── UTILS ────────────────────────────────────────────────────── */
+function fmtWaktu(detik) {
+  if (!detik || detik < 0) return '—';
+  const h = Math.floor(detik/3600), m = Math.floor((detik%3600)/60), s = detik%60;
+  if (h > 0) return `${h}j ${m}m`;
+  if (m > 0) return `${m}m ${s}d`;
+  return `${s}d`;
+}
+function fmtTgl(ts) {
+  const d = ts?.toDate ? ts.toDate() : ts ? new Date(ts) : null;
+  if (!d) return '—';
+  return d.toLocaleDateString('id-ID',{day:'2-digit',month:'short',year:'numeric'});
+}
+function scoreColor(n) {
+  if (n === null || n === undefined) return '';
+  if (n >= 90) return 'nilai-ok';
+  if (n >= 70) return 'nilai-ok';
+  if (n >= 50) return 'nilai-warn';
+  return 'nilai-danger';
+}
+function badge(n) {
+  if (n === null || n === undefined) return '<span class="bab-badge badge-belum">🔒 Belum</span>';
+  if (n >= 90) return `<span class="bab-badge badge-star">🌟 ${n}</span>`;
+  if (n >= 70) return `<span class="bab-badge badge-ok">✅ ${n}</span>`;
+  return `<span class="bab-badge badge-warn">⚠️ ${n}</span>`;
+}
+
+/* ── STATE ────────────────────────────────────────────────────── */
+let activeMergeM = 'bi';
+let progressMap  = {};   // kuisId → doc
+let riwayatData  = [];
+
+/* ── AUTH ─────────────────────────────────────────────────────── */
+onAuthChange(async (user) => {
+  if (!user) return;
+
+  const [profil, progList, riwayat] = await Promise.all([
+    getProfilUser(user.uid),
+    getProgressUser(user.uid).catch(()=>[]),
+    getHasilKuisSaya(user.uid, 20).catch(()=>[]),
+  ]);
+
+  // Profil
+  const nama  = profil?.nama  || user.email;
+  const kelas = profil?.kelas || '—';
+  document.getElementById('profil-nama').textContent  = nama;
+  document.getElementById('profil-kelas').textContent = kelas ? `Kelas ${kelas}` : '—';
+  document.getElementById('avatar-text').textContent  = nama[0]?.toUpperCase() || '?';
+
+  // Progress map
+  progressMap = {};
+  progList.forEach(p => { progressMap[p.kuisId || p.id] = p; });
+
+  // Riwayat
+  riwayatData = riwayat;
+
+  // Stats
+  const allScores = Object.values(progressMap).map(p=>p.nilaiTerbaik||0).filter(n=>n>0);
+  const totalKuis = allScores.length;
+  const rata      = totalKuis ? Math.round(allScores.reduce((a,b)=>a+b,0)/totalKuis) : 0;
+  const terbaik   = totalKuis ? Math.max(...allScores) : 0;
+  const totalDetik= riwayat.reduce((s,r)=>s+(r.waktuDetik||0),0);
+
+  document.getElementById('s-selesai').textContent = `${totalKuis}/11`;
+  document.getElementById('s-rata').textContent    = totalKuis ? rata : '—';
+  document.getElementById('s-terbaik').textContent = totalKuis ? terbaik : '—';
+  document.getElementById('s-waktu').textContent   = totalDetik ? fmtWaktu(totalDetik) : '—';
+
+  // Render
+  renderBabGrid(activeMergeM);
+  renderRiwayat();
+
+  document.getElementById('state-loading').style.display = 'none';
+  document.getElementById('content').style.display       = 'block';
+});
+
+/* ── RENDER BAB GRID ──────────────────────────────────────────── */
+function renderBabGrid(m) {
+  activeMergeM = m;
+  const grid = document.getElementById('bab-grid');
+  const keys = Object.entries(KUIS_META).filter(([,v])=>v.mapel===m);
+
+  grid.innerHTML = keys.map(([kuisId, meta]) => {
+    const prog  = progressMap[kuisId];
+    const nilai = prog?.nilaiTerbaik ?? null;
+    const pct   = nilai !== null ? nilai : 0;
+    const attempts = prog?.attempts || 0;
+    const tgl   = prog?.terakhirDikerjakan ? fmtTgl(prog.terakhirDikerjakan) : null;
+
+    return `<div class="bab-card ${m} ${nilai===null?'belum':''}">
+      <div class="bab-header">
+        <div class="bab-nama">${meta.bab}</div>
+        ${badge(nilai)}
+      </div>
+      ${nilai !== null ? `
+        <div class="bab-score">${nilai}<span>/100</span></div>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar pb-${m}" style="width:${pct}%"></div>
+        </div>
+        <div class="bab-meta">
+          <span>🔄 ${attempts}× dicoba</span>
+          ${tgl ? `<span>📅 ${tgl}</span>` : ''}
+        </div>
+      ` : `
+        <div class="bab-meta" style="margin-top:10px">
+          <span>Belum ada data kuis</span>
+        </div>
+      `}
+      <div style="margin-top:12px">
+        <a href="${meta.link}" style="font-size:.8rem;font-weight:700;color:var(--${m==='bi'?'bi':m==='ipas'?'ipas':'pp'});text-decoration:none">
+          ${nilai !== null ? '🔁 Kerjakan Lagi →' : '▶ Mulai Kuis →'}
+        </a>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ── RENDER RIWAYAT ───────────────────────────────────────────── */
+function renderRiwayat() {
+  const list = document.getElementById('riwayat-list');
+  if (!riwayatData.length) {
+    list.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-lt)">
+      Belum ada riwayat kuis. Mulai kerjakan kuis untuk melihat riwayatmu!</div>`;
+    return;
+  }
+  list.innerHTML = riwayatData.map(r => {
+    const meta = KUIS_META[r.kuisId] || {};
+    const m    = meta.mapel || 'bi';
+    const chip = chipClass[m] || 'chip-bi';
+    const mapelLabel = MAPEL_GROUPS[m]?.label || r.mapel || '—';
+    const babShort   = (meta.bab || r.bab || '—').replace(/^Bab \d+ — /, '');
+    return `<div class="riwayat-row">
+      <div>
+        <div class="r-bab">${babShort}</div>
+        <span class="r-mapel-chip ${chip}">${mapelLabel}</span>
+      </div>
+      <div class="r-tgl">${fmtTgl(r.timestamp)}</div>
+      <div class="r-nilai ${scoreColor(r.nilai)}">${r.nilai ?? '—'}</div>
+      <div class="r-waktu">${fmtWaktu(r.waktuDetik)}</div>
+    </div>`;
+  }).join('');
+}
+
+/* ── TAB EVENTS ───────────────────────────────────────────────── */
+document.querySelectorAll('.mapel-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.mapel-tab').forEach(t=>t.classList.remove('aktif'));
+    btn.classList.add('aktif');
+    renderBabGrid(btn.dataset.m);
+  });
+});
+</script>
+</body>
+</html>
