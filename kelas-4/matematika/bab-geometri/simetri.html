@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Simetri Lipat dan Simetri Putar · Matematika Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/><style>
+:root{--c:#d97706;--clt:#fef3c7;--cpl:#fffbeb;--ink:#1a1f2e;--mid:#3d4460;--lt:#6b7280;--sand:#f7f3eb;--sdk:#ede8dc;}
+*{box-sizing:border-box;margin:0;padding:0;}body{font-family:"Nunito",sans-serif;background:var(--sand);color:var(--ink);line-height:1.75;}
+.nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--clt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.brand{font-family:"Lora",serif;font-weight:700;font-size:.93rem;color:var(--c);text-decoration:none;}
+.bc{font-size:.75rem;color:var(--lt);display:flex;align-items:center;gap:.3rem;flex-wrap:wrap;}.bc a{color:var(--c);text-decoration:none;}
+.hero{background:linear-gradient(135deg,#d97706,#92400e);color:#fff;padding:2.5rem 1.5rem 4.5rem;position:relative;overflow:hidden;}
+.hi{max-width:760px;margin:0 auto;}.tag{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.28rem .85rem;margin-bottom:.8rem;}
+.hero h1{font-family:"Lora",serif;font-size:clamp(1.55rem,5vw,2.3rem);font-style:italic;line-height:1.25;margin-bottom:.5rem;}
+.hero h1 em{font-style:normal;color:#fde68a;}.hero p{font-size:.93rem;opacity:.88;max-width:540px;margin-bottom:1.2rem;}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;}.chip{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);border-radius:50px;padding:.24rem .78rem;font-size:.77rem;font-weight:700;}
+.wv{position:absolute;bottom:-1px;left:0;width:100%;}
+.wrap{max-width:760px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+.sec{margin-bottom:2.75rem;}.sec-lbl{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.4rem;}
+.sec h2{font-family:"Lora",serif;font-size:1.4rem;font-weight:700;margin-bottom:.85rem;line-height:1.3;}
+.sec h3{font-family:"Lora",serif;font-size:1.08rem;margin:1.25rem 0 .55rem;}
+.sec p,.sec li{color:var(--mid);font-size:.93rem;margin-bottom:.6rem;}.sec ul{padding-left:1.25rem;margin-bottom:.6rem;}
+.box{background:#fff;border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;box-shadow:0 2px 8px rgba(0,0,0,.05);}
+.bo{border-left:4px solid var(--c);}.bg{border-left:4px solid #10b981;}.by{border-left:4px solid #f59e0b;}
+.bt{font-weight:800;margin-bottom:.32rem;display:flex;align-items:center;gap:.4rem;font-size:.88rem;}
+.bo .bt{color:var(--c);}.bg .bt{color:#065f46;}.by .bt{color:#92400e;}
+.box p,.box li{margin:0;font-size:.87rem;color:var(--mid);}
+.cx{background:#fff;border-radius:13px;padding:1.25rem 1.45rem;margin:1rem 0;box-shadow:0 2px 9px rgba(0,0,0,.06);}
+.cx-hd{font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--c);margin-bottom:.6rem;}
+.cx h4{font-weight:800;color:var(--ink);margin-bottom:.5rem;font-size:.92rem;}
+.st{display:flex;gap:.65rem;margin-bottom:.42rem;font-size:.87rem;color:var(--mid);align-items:flex-start;}
+.sn{background:var(--clt);color:var(--c);font-weight:800;border-radius:50%;min-width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:.7rem;flex-shrink:0;margin-top:2px;}
+.ans{background:var(--cpl);border-radius:8px;padding:.5rem .88rem;margin-top:.6rem;font-weight:800;color:#92400e;font-size:.89rem;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:.85rem 0;}
+.g3{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:10px;margin:.85rem 0;}
+.g4{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin:.85rem 0;}
+.card{background:#fff;border-radius:12px;padding:.95rem 1rem;box-shadow:0 2px 7px rgba(0,0,0,.05);}
+.sym-card{background:#fff;border-radius:13px;padding:1rem;box-shadow:0 2px 8px rgba(0,0,0,.06);text-align:center;}
+.sym-card .sc-num{font-size:1.5rem;font-weight:800;color:var(--c);margin-bottom:.2rem;}
+.sym-card .sc-name{font-size:.82rem;font-weight:700;color:var(--ink);margin-bottom:.2rem;}
+.sym-card .sc-note{font-size:.75rem;color:var(--lt);}
+.tbl{overflow-x:auto;margin:1rem 0;}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:11px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.05);font-size:.85rem;}
+th{background:var(--c);color:#fff;padding:.58rem .88rem;text-align:left;font-weight:800;}
+td{padding:.52rem .88rem;color:var(--mid);border-bottom:1px solid var(--sdk);}
+tr:last-child td{border-bottom:none;}tr:nth-child(even) td{background:var(--cpl);}
+.lat{background:linear-gradient(135deg,#d97706,#92400e);border-radius:14px;padding:1.3rem;color:#fff;margin:1.6rem 0;}
+.lat h3{font-family:"Lora",serif;font-size:1.08rem;margin-bottom:.8rem;}
+.ls{background:rgba(255,255,255,.12);border-radius:9px;padding:.85rem;margin-bottom:.6rem;}
+.ls p{font-size:.87rem;margin-bottom:.38rem;color:#fff;}
+details summary{cursor:pointer;font-weight:700;font-size:.8rem;background:rgba(255,255,255,.2);padding:.25rem .68rem;border-radius:50px;display:inline-block;}
+.la{margin-top:.5rem;font-size:.84rem;background:rgba(255,255,255,.15);border-radius:7px;padding:.48rem .8rem;}
+.rng{background:#fff;border-radius:14px;padding:1.3rem;margin:1.6rem 0;box-shadow:0 2px 9px rgba(0,0,0,.06);border-top:4px solid var(--c);}
+.rng h3{font-family:"Lora",serif;font-size:1rem;color:var(--c);margin-bottom:.7rem;}
+.rng li{color:var(--mid);font-size:.87rem;margin-bottom:.32rem;}
+.bn{margin-top:2.5rem;padding-top:1.75rem;border-top:2px solid var(--sdk);display:flex;gap:.85rem;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:.42rem;padding:.62rem 1.15rem;border-radius:50px;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s;}
+.btn-o{border:2px solid var(--c);color:var(--c);background:transparent;}.btn-o:hover{background:var(--cpl);}
+.btn-f{background:var(--c);color:#fff;}.btn-f:hover{background:#92400e;}
+footer{background:var(--ink);color:rgba(255,255,255,.45);text-align:center;padding:1.3rem;font-size:.79rem;}
+</style></head><body>
+
+<nav class="nav">
+  <a href="/belajar-mandiri/kelas-4/matematika/" class="brand">📐 Matematika Kelas 4</a>
+  <div class="bc">
+    <a href="/belajar-mandiri/kelas-4/matematika/">Matematika</a> ›
+    <a href="materi.html">Geometri</a> › Simetri
+  </div>
+</nav>
+
+<div class="hero"><div class="hi">
+  <div class="tag">🪞 Sub-Materi C</div>
+  <h1>Simetri Lipat dan <em>Simetri Putar</em></h1>
+  <p>Temukan keindahan simetri di sekitar kita — dari sayap kupu-kupu hingga bintang laut. Pelajari cara menemukan garis simetri dan memahami simetri putar.</p>
+  <div class="chips">
+    <span class="chip">🪞 Simetri Lipat</span>
+    <span class="chip">🔄 Simetri Putar</span>
+    <span class="chip">📐 Garis Simetri</span>
+    <span class="chip">🦋 Di Alam</span>
+  </div>
+</div><svg class="wv" viewBox="0 0 1440 60" fill="none"><path d="M0 60L1440 60L1440 20C1200 60 960 0 720 30C480 60 240 10 0 40L0 60Z" fill="#f7f3eb"/></svg></div>
+
+<div class="wrap">
+
+<div class="sec">
+<div class="sec-lbl">💡 Bagian 1</div>
+<h2>Apa itu Simetri?</h2>
+
+<p>Perhatikan sayap kupu-kupu — sisi kiri dan kanan terlihat <em>persis sama</em>. Atau lihatlah huruf "A" — jika dilipat dari tengah, kedua sisinya cocok sempurna. Itulah yang disebut <strong>simetri</strong>! Simetri berarti ada keseimbangan dan kesamaan antara dua bagian suatu bentuk.</p>
+
+<div class="box bo">
+  <div class="bt">📌 Definisi Simetri</div>
+  <p>Sebuah bangun dikatakan <strong>simetris</strong> jika dapat dibagi menjadi dua bagian yang <strong>sama persis</strong> — ketika satu bagian dilipat atau diputar, kedua bagian akan saling menutupi dengan tepat. Ada dua jenis simetri yang kita pelajari: <strong>simetri lipat</strong> dan <strong>simetri putar</strong>.</p>
+</div>
+
+<div class="g2">
+  <div class="box bg"><div class="bt">🪞 Simetri Lipat</div>
+  <p>Bangun bisa dilipat sehingga dua bagiannya tepat saling menutupi. Garis lipatannya disebut <strong>garis simetri</strong> atau <strong>sumbu simetri</strong>.</p></div>
+  <div class="box by"><div class="bt">🔄 Simetri Putar</div>
+  <p>Bangun diputar kurang dari satu putaran penuh (360°), tetapi tampilannya tetap sama seperti semula.</p></div>
+</div>
+</div>
+
+<div class="sec">
+<div class="sec-lbl">🪞 Bagian 2</div>
+<h2>Simetri Lipat dan Garis Simetri</h2>
+
+<p>Garis simetri adalah garis khayal yang membagi bangun menjadi <strong>dua bagian yang sama persis</strong>. Bayangkan kamu melipat selembar kertas berbentuk bangun tersebut — jika tepinya cocok sempurna, berarti garis lipatannya adalah garis simetri!</p>
+
+<div class="box by">
+  <div class="bt">⚠️ Cara Mencari Garis Simetri</div>
+  <p>Bayangkan kertas berbentuk bangun itu dilipat dari berbagai arah. Setiap lipatan yang menghasilkan dua bagian <strong>sama persis dan saling menutupi</strong> adalah garis simetri. Satu bangun bisa punya 0, 1, 2, atau lebih garis simetri!</p>
+</div>
+
+<h3>Garis Simetri pada Berbagai Bangun Datar</h3>
+<div class="g4">
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <rect x="10" y="10" width="80" height="80" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+      <line x1="50" y1="10" x2="50" y2="90" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+      <line x1="10" y1="50" x2="90" y2="50" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+      <line x1="10" y1="10" x2="90" y2="90" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,2"/>
+      <line x1="90" y1="10" x2="10" y2="90" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,2"/>
+    </svg>
+    <div class="sc-num">4</div>
+    <div class="sc-name">Persegi</div>
+    <div class="sc-note">2 tegak + 2 diagonal</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 120 80" width="100">
+      <rect x="10" y="10" width="100" height="60" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+      <line x1="60" y1="10" x2="60" y2="70" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+      <line x1="10" y1="40" x2="110" y2="40" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+    </svg>
+    <div class="sc-num">2</div>
+    <div class="sc-name">Persegi Panjang</div>
+    <div class="sc-note">Vertikal &amp; horizontal</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <circle cx="50" cy="50" r="40" fill="#fce7f3" stroke="#db2777" stroke-width="2.5"/>
+      <line x1="50" y1="10" x2="50" y2="90" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="10" y1="50" x2="90" y2="50" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="22" y1="22" x2="78" y2="78" stroke="#10b981" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="78" y1="22" x2="22" y2="78" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <text x="50" y="108" text-anchor="middle" font-size="9" fill="#6b7280">... dan seterusnya</text>
+    </svg>
+    <div class="sc-num">∞</div>
+    <div class="sc-name">Lingkaran</div>
+    <div class="sc-note">Tak terhingga banyaknya</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 120 90" width="100">
+      <polygon points="60,8 10,82 110,82" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+      <line x1="60" y1="8" x2="60" y2="82" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+    </svg>
+    <div class="sc-num">1</div>
+    <div class="sc-name">Segitiga Sama Kaki</div>
+    <div class="sc-note">Hanya sumbu tegak</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <polygon points="50,8 92,35 76,82 24,82 8,35" fill="#d1fae5" stroke="#059669" stroke-width="2.5"/>
+      <line x1="50" y1="8" x2="50" y2="90" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="8" y1="35" x2="92" y2="68" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="92" y1="35" x2="8" y2="68" stroke="#10b981" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="24" y1="8" x2="76" y2="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="76" y1="8" x2="24" y2="90" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,2"/>
+    </svg>
+    <div class="sc-num">5</div>
+    <div class="sc-name">Segilima Beraturan</div>
+    <div class="sc-note">5 garis simetri</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 120 90" width="100">
+      <polygon points="30,80 90,80 110,40 60,10 10,40" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+    </svg>
+    <div class="sc-num">0</div>
+    <div class="sc-name">Jajargenjang</div>
+    <div class="sc-note">Tidak punya garis simetri</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <polygon points="50,8 95,65 73,95 27,95 5,65" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+      <line x1="50" y1="8" x2="50" y2="95" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+    </svg>
+    <div class="sc-num">1</div>
+    <div class="sc-name">Trapesium Sama Kaki</div>
+    <div class="sc-note">Hanya 1 sumbu tegak</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <polygon points="50,5 95,50 50,95 5,50" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+      <line x1="50" y1="5" x2="50" y2="95" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="5" y1="50" x2="95" y2="50" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <line x1="5" y1="50" x2="95" y2="50" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3,2"/>
+    </svg>
+    <div class="sc-num">2</div>
+    <div class="sc-name">Belah Ketupat</div>
+    <div class="sc-note">2 diagonal sebagai simetri</div>
+  </div>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 1 — Menemukan Garis Simetri</div>
+  <h4>Berapa banyak garis simetri yang dimiliki segitiga sama sisi?</h4>
+  <div class="st"><span class="sn">1</span><span>Bayangkan segitiga sama sisi. Coba lipat dari setiap sudut ke sisi yang berhadapan.</span></div>
+  <div class="st"><span class="sn">2</span><span>Lipatan dari sudut A ke tengah sisi BC → kedua bagian sama ✓</span></div>
+  <div class="st"><span class="sn">3</span><span>Lipatan dari sudut B ke tengah sisi AC → kedua bagian sama ✓</span></div>
+  <div class="st"><span class="sn">4</span><span>Lipatan dari sudut C ke tengah sisi AB → kedua bagian sama ✓</span></div>
+  <div class="ans">✅ Segitiga sama sisi memiliki 3 garis simetri</div>
+</div>
+
+<h3>Simetri pada Huruf dan Angka</h3>
+<p>Simetri juga ada pada huruf-huruf alfabet! Ini sangat menarik untuk ditemukan.</p>
+<div class="tbl"><table>
+<thead><tr><th>Jenis Simetri</th><th>Huruf/Angka</th><th>Keterangan</th></tr></thead>
+<tbody>
+<tr><td>Simetri horizontal</td><td>B, C, D, E, K</td><td>Dicerminkan ke atas/bawah, tampak sama</td></tr>
+<tr><td>Simetri vertikal</td><td>A, H, I, M, O, T, U, V, W, X, Y</td><td>Dicerminkan ke kiri/kanan, tampak sama</td></tr>
+<tr><td>Keduanya</td><td>H, I, O, X</td><td>Punya garis simetri vertikal DAN horizontal</td></tr>
+<tr><td>Tidak simetris</td><td>F, G, J, L, N, P, Q, R, S, Z</td><td>Tidak bisa dilipat menjadi dua bagian sama</td></tr>
+</tbody>
+</table></div>
+</div>
+
+<div class="sec">
+<div class="sec-lbl">🔄 Bagian 3</div>
+<h2>Simetri Putar</h2>
+
+<p>Sekarang bayangkan kamu memutar sebuah bangun pada titik pusatnya. Jika di tengah putaran (sebelum kembali ke posisi awal), bangun itu terlihat <strong>sama persis</strong> seperti posisi awal — berarti bangun itu punya <strong>simetri putar</strong>!</p>
+
+<div class="box bo">
+  <div class="bt">📌 Orde Simetri Putar</div>
+  <p><strong>Orde simetri putar</strong> adalah berapa kali sebuah bangun terlihat sama dalam satu putaran penuh (360°). Semua bangun paling sedikit memiliki orde 1 (posisi awal). Jika orde lebih dari 1, bangun itu punya simetri putar yang "sesungguhnya".</p>
+</div>
+
+<div class="box by">
+  <div class="bt">💡 Cara Menghitung Orde Simetri Putar</div>
+  <p>Orde = 360° ÷ sudut putar terkecil yang menghasilkan tampilan sama<br>
+  Atau: Orde = jumlah kali bangun terlihat sama dalam satu putaran penuh.</p>
+</div>
+
+<div class="g3">
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <rect x="15" y="15" width="70" height="70" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+      <circle cx="50" cy="50" r="3" fill="#d97706"/>
+      <path d="M 50 15 A 35 35 0 0 1 85 50" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+      <text x="72" y="35" font-size="9" fill="#ef4444">90°</text>
+    </svg>
+    <div class="sc-num">4</div>
+    <div class="sc-name">Persegi</div>
+    <div class="sc-note">Setiap putar 90°</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 120 80" width="100">
+      <rect x="10" y="10" width="100" height="60" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+      <circle cx="60" cy="40" r="3" fill="#2563eb"/>
+    </svg>
+    <div class="sc-num">2</div>
+    <div class="sc-name">Persegi Panjang</div>
+    <div class="sc-note">Setiap putar 180°</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <circle cx="50" cy="50" r="40" fill="#fce7f3" stroke="#db2777" stroke-width="2.5"/>
+      <circle cx="50" cy="50" r="3" fill="#db2777"/>
+    </svg>
+    <div class="sc-num">∞</div>
+    <div class="sc-name">Lingkaran</div>
+    <div class="sc-note">Setiap sudut putar</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <polygon points="50,8 92,35 76,82 24,82 8,35" fill="#d1fae5" stroke="#059669" stroke-width="2.5"/>
+      <circle cx="50" cy="50" r="3" fill="#059669"/>
+    </svg>
+    <div class="sc-num">5</div>
+    <div class="sc-name">Segilima Beraturan</div>
+    <div class="sc-note">Setiap putar 72°</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 120 90" width="100">
+      <polygon points="30,80 90,80 110,40 60,10 10,40" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/>
+      <circle cx="60" cy="50" r="3" fill="#7c3aed"/>
+    </svg>
+    <div class="sc-num">2</div>
+    <div class="sc-name">Jajargenjang</div>
+    <div class="sc-note">Setiap putar 180°</div>
+  </div>
+  <div class="sym-card">
+    <svg viewBox="0 0 100 100" width="80">
+      <polygon points="50,8 95,65 73,95 27,95 5,65" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+      <circle cx="50" cy="58" r="3" fill="#d97706"/>
+    </svg>
+    <div class="sc-num">1</div>
+    <div class="sc-name">Segitiga Sama Kaki</div>
+    <div class="sc-note">Tidak simetri putar sejati</div>
+  </div>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 2 — Orde Simetri Putar</div>
+  <h4>Sebuah persegi diputar pada pusat bidangnya. Pada sudut berapa saja persegi terlihat sama seperti posisi awal? Berapa ordenya?</h4>
+  <div class="st"><span class="sn">1</span><span>Putar 90°: persegi terlihat sama ✓</span></div>
+  <div class="st"><span class="sn">2</span><span>Putar 180°: persegi terlihat sama ✓</span></div>
+  <div class="st"><span class="sn">3</span><span>Putar 270°: persegi terlihat sama ✓</span></div>
+  <div class="st"><span class="sn">4</span><span>Putar 360°: kembali ke posisi awal ✓</span></div>
+  <div class="ans">✅ Persegi memiliki orde simetri putar = 4 (tampak sama 4 kali dalam satu putaran penuh)</div>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 3 — Membedakan Simetri Lipat dan Putar</div>
+  <h4>Jajargenjang (bukan persegi panjang). Berapa garis simetri lipat dan berapa orde simetri putarnya?</h4>
+  <div class="st"><span class="sn">1</span><span><strong>Simetri lipat:</strong> coba lipat dari berbagai arah — tidak ada lipatan yang menghasilkan dua bagian sama persis → <strong>0 garis simetri</strong></span></div>
+  <div class="st"><span class="sn">2</span><span><strong>Simetri putar:</strong> putar 180° → tampak sama ✓, putar 360° → kembali awal ✓</span></div>
+  <div class="st"><span class="sn">3</span><span>Jadi jajargenjang punya simetri putar walau tidak punya simetri lipat!</span></div>
+  <div class="ans">✅ Jajargenjang: 0 garis simetri lipat, orde simetri putar = 2</div>
+</div>
+</div>
+
+<div class="sec">
+<div class="sec-lbl">🌍 Bagian 4</div>
+<h2>Simetri di Alam dan Kehidupan Sehari-hari</h2>
+<p>Simetri bukan hanya konsep matematika — alam penuh dengan simetri yang indah!</p>
+<div class="g3">
+  <div class="card"><div style="font-size:1.8rem;text-align:center;margin-bottom:.4rem">🦋</div>
+    <div style="font-weight:800;font-size:.85rem">Kupu-kupu</div>
+    <div style="font-size:.8rem;color:var(--mid);margin-top:.2rem">Sayap kiri dan kanan identik. Simetri lipat vertikal.</div></div>
+  <div class="card"><div style="font-size:1.8rem;text-align:center;margin-bottom:.4rem">❄️</div>
+    <div style="font-weight:800;font-size:.85rem">Kepingan Salju</div>
+    <div style="font-size:.8rem;color:var(--mid);margin-top:.2rem">6 garis simetri, orde putar = 6. Tidak ada dua kepingan yang sama!</div></div>
+  <div class="card"><div style="font-size:1.8rem;text-align:center;margin-bottom:.4rem">🌸</div>
+    <div style="font-weight:800;font-size:.85rem">Bunga</div>
+    <div style="font-size:.8rem;color:var(--mid);margin-top:.2rem">Banyak bunga memiliki simetri putar sesuai jumlah kelopaknya.</div></div>
+  <div class="card"><div style="font-size:1.8rem;text-align:center;margin-bottom:.4rem">🏛️</div>
+    <div style="font-weight:800;font-size:.85rem">Bangunan</div>
+    <div style="font-size:.8rem;color:var(--mid);margin-top:.2rem">Gedung sering dirancang simetris agar terlihat seimbang dan indah.</div></div>
+  <div class="card"><div style="font-size:1.8rem;text-align:center;margin-bottom:.4rem">🪁</div>
+    <div style="font-weight:800;font-size:.85rem">Layang-layang</div>
+    <div style="font-size:.8rem;color:var(--mid);margin-top:.2rem">1 garis simetri vertikal. Itulah mengapa layang-layang bisa terbang stabil!</div></div>
+  <div class="card"><div style="font-size:1.8rem;text-align:center;margin-bottom:.4rem">🎯</div>
+    <div style="font-weight:800;font-size:.85rem">Papan Dart</div>
+    <div style="font-size:.8rem;color:var(--mid);margin-top:.2rem">Berbentuk lingkaran — simetri tak terhingga, termasuk simetri putar.</div></div>
+</div>
+</div>
+
+<div class="tbl"><table>
+<thead><tr><th>Bangun Datar</th><th>Garis Simetri Lipat</th><th>Orde Simetri Putar</th></tr></thead>
+<tbody>
+<tr><td>Lingkaran</td><td>Tak terhingga (∞)</td><td>Tak terhingga (∞)</td></tr>
+<tr><td>Persegi</td><td>4</td><td>4</td></tr>
+<tr><td>Segitiga sama sisi</td><td>3</td><td>3</td></tr>
+<tr><td>Persegi panjang</td><td>2</td><td>2</td></tr>
+<tr><td>Belah ketupat</td><td>2</td><td>2</td></tr>
+<tr><td>Jajargenjang</td><td>0</td><td>2</td></tr>
+<tr><td>Segitiga sama kaki</td><td>1</td><td>1</td></tr>
+<tr><td>Segitiga sembarang</td><td>0</td><td>1</td></tr>
+<tr><td>Trapesium sama kaki</td><td>1</td><td>1</td></tr>
+</tbody>
+</table></div>
+
+<div class="lat"><h3>🎯 Mari Berlatih!</h3>
+<div class="ls"><p><strong>1.</strong> Berapa garis simetri yang dimiliki oleh huruf "H"?</p>
+<details><summary>Lihat Jawaban</summary>
+<div class="la">Huruf H punya garis simetri <strong>vertikal</strong> (kiri-kanan sama) DAN <strong>horizontal</strong> (atas-bawah sama). Jadi <strong>2 garis simetri</strong>.</div>
+</details></div>
+<div class="ls"><p><strong>2.</strong> Sebuah bintang berujung 6 (seperti Bintang Daud). Berapa garis simetri dan berapa orde simetri putarnya?</p>
+<details><summary>Lihat Jawaban</summary>
+<div class="la">Bintang 6 ujung punya <strong>6 garis simetri</strong> dan orde simetri putar <strong>6</strong> (setiap putar 60° tampak sama).</div>
+</details></div>
+<div class="ls"><p><strong>3.</strong> Apakah trapesium siku-siku punya garis simetri? Jelaskan!</p>
+<details><summary>Lihat Jawaban</summary>
+<div class="la">Trapesium siku-siku <strong>tidak punya garis simetri</strong>. Jika dilipat dari arah manapun, dua bagiannya tidak akan sama persis karena salah satu sisi tegak lurus dan sisi lainnya miring.</div>
+</details></div>
+<div class="ls"><p><strong>4.</strong> Sebuah baling-baling kipas angin memiliki 3 daun kipas yang sama. Berapa orde simetri putarnya?</p>
+<details><summary>Lihat Jawaban</summary>
+<div class="la">Baling-baling dengan 3 daun sama terlihat sama setiap putar <strong>120°</strong> (360°÷3). Jadi orde simetri putarnya = <strong>3</strong>.</div>
+</details></div>
+</div>
+
+<div class="rng"><h3>📝 Rangkuman</h3><ul>
+<li><strong>Simetri lipat</strong>: bangun dibagi garis simetri menjadi 2 bagian yang sama persis bila dilipat.</li>
+<li><strong>Garis simetri</strong> bisa horizontal, vertikal, atau diagonal — tergantung bangunnya.</li>
+<li><strong>Simetri putar</strong>: bangun tampak sama setelah diputar kurang dari 360° dari pusatnya.</li>
+<li><strong>Orde simetri putar</strong>: berapa kali bangun tampak sama dalam 1 putaran penuh.</li>
+<li>Lingkaran: garis simetri ∞, orde putar ∞ — bangun tersimetris!</li>
+<li>Jajargenjang unik: punya simetri putar orde 2, tetapi <strong>tidak punya garis simetri lipat</strong>.</li>
+</ul></div>
+
+<nav class="bn">
+  <a href="dekomposisi-komposisi.html" class="btn btn-o">← Dekomposisi &amp; Komposisi</a>
+  <a href="../bab-data/materi.html" class="btn btn-f">Lanjut: Penyajian Data →</a>
+</nav>
+</div>
+<footer>Belajar Mandiri · Kelas 4 · Matematika · Simetri Lipat dan Simetri Putar</footer>
+</body></html>

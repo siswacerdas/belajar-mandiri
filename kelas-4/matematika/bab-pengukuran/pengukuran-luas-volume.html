@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Pengukuran Luas dan Volume · Matematika Kelas 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--bab:#d97706;--bab-mid:#f59e0b;--bab-lt:#fef3c7;--bab-pal:#fffbeb;--ink:#1a1f2e;--ink-mid:#3d4460;--ink-lt:#6b7280;--sand:#f7f3eb;--sand-dk:#ede8dc;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:"Nunito",sans-serif;background:var(--sand);color:var(--ink);line-height:1.75;}
+.nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--bab-lt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.brand{font-family:"Lora",serif;font-weight:700;font-size:.95rem;color:var(--bab);text-decoration:none;}
+.bc{font-size:.76rem;color:var(--ink-lt);display:flex;align-items:center;gap:.3rem;flex-wrap:wrap;}
+.bc a{color:var(--bab);text-decoration:none;}
+.hero{background:linear-gradient(135deg,#d97706,#92400e);color:#fff;padding:2.5rem 1.5rem 4.5rem;position:relative;overflow:hidden;}
+.hero-in{max-width:760px;margin:0 auto;}
+.tag{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.28rem .85rem;margin-bottom:.8rem;}
+.hero h1{font-family:"Lora",serif;font-size:clamp(1.6rem,5vw,2.4rem);font-style:italic;line-height:1.2;margin-bottom:.5rem;}
+.hero h1 em{font-style:normal;color:#fde68a;}
+.hero p{font-size:.95rem;opacity:.88;max-width:550px;margin-bottom:1.2rem;}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;}
+.chip{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);border-radius:50px;padding:.25rem .8rem;font-size:.78rem;font-weight:700;}
+.wave{position:absolute;bottom:-1px;left:0;width:100%;}
+.wrap{max-width:760px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+.sec{margin-bottom:2.75rem;}
+.sec-lbl{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--bab);margin-bottom:.4rem;}
+.sec h2{font-family:"Lora",serif;font-size:1.45rem;font-weight:700;margin-bottom:.9rem;line-height:1.3;}
+.sec h3{font-family:"Lora",serif;font-size:1.1rem;margin:1.3rem 0 .6rem;}
+.sec p,.sec li{color:var(--ink-mid);font-size:.95rem;margin-bottom:.65rem;}
+.sec ul,.sec ol{padding-left:1.3rem;margin-bottom:.65rem;}
+.box{background:#fff;border-radius:13px;padding:1.1rem 1.3rem;margin:1.1rem 0;box-shadow:0 2px 8px rgba(0,0,0,.05);}
+.box-o{border-left:4px solid var(--bab);} .box-o .bt{color:var(--bab);}
+.box-g{border-left:4px solid #10b981;} .box-g .bt{color:#065f46;}
+.box-y{border-left:4px solid #f59e0b;} .box-y .bt{color:#92400e;}
+.bt{font-weight:800;margin-bottom:.35rem;display:flex;align-items:center;gap:.45rem;font-size:.9rem;}
+.box p{margin:0;font-size:.88rem;color:var(--ink-mid);}
+.tbl{overflow-x:auto;margin:1.1rem 0;}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:11px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06);font-size:.86rem;}
+th{background:var(--bab);color:#fff;padding:.6rem .9rem;text-align:left;font-weight:800;}
+td{padding:.55rem .9rem;color:var(--ink-mid);border-bottom:1px solid var(--sand-dk);}
+tr:last-child td{border-bottom:none;} tr:nth-child(even) td{background:var(--bab-pal);}
+.cx{background:#fff;border-radius:14px;padding:1.3rem 1.5rem;margin:1.1rem 0;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+.cx-hd{font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--bab);margin-bottom:.65rem;}
+.cx h4{font-weight:800;color:var(--ink);margin-bottom:.55rem;font-size:.93rem;}
+.st{display:flex;gap:.7rem;margin-bottom:.45rem;font-size:.88rem;color:var(--ink-mid);align-items:flex-start;}
+.sn{background:var(--bab-lt);color:var(--bab);font-weight:800;border-radius:50%;min-width:21px;height:21px;display:flex;align-items:center;justify-content:center;font-size:.7rem;flex-shrink:0;margin-top:2px;}
+.ans{background:var(--bab-pal);border-radius:9px;padding:.55rem .9rem;margin-top:.65rem;font-weight:800;color:#92400e;font-size:.9rem;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:.9rem 0;}
+.g3{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:11px;margin:.9rem 0;}
+.card{background:#fff;border-radius:13px;padding:1rem 1.1rem;box-shadow:0 2px 8px rgba(0,0,0,.05);}
+.lat{background:linear-gradient(135deg,#d97706,#92400e);border-radius:15px;padding:1.4rem;color:#fff;margin:1.75rem 0;}
+.lat h3{font-family:"Lora",serif;font-size:1.1rem;margin-bottom:.85rem;}
+.ls{background:rgba(255,255,255,.12);border-radius:9px;padding:.9rem;margin-bottom:.65rem;}
+.ls p{font-size:.88rem;margin-bottom:.4rem;color:#fff;}
+details summary{cursor:pointer;font-weight:700;font-size:.82rem;background:rgba(255,255,255,.2);padding:.28rem .7rem;border-radius:50px;display:inline-block;}
+.la{margin-top:.5rem;font-size:.85rem;background:rgba(255,255,255,.15);border-radius:7px;padding:.5rem .8rem;}
+.rng{background:#fff;border-radius:15px;padding:1.4rem;margin:1.75rem 0;box-shadow:0 2px 10px rgba(0,0,0,.06);border-top:4px solid var(--bab);}
+.rng h3{font-family:"Lora",serif;font-size:1.05rem;color:var(--bab);margin-bottom:.75rem;}
+.rng li{color:var(--ink-mid);font-size:.88rem;margin-bottom:.35rem;}
+.bn{margin-top:2.5rem;padding-top:1.75rem;border-top:2px solid var(--sand-dk);display:flex;gap:.9rem;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:.45rem;padding:.65rem 1.2rem;border-radius:50px;font-weight:700;font-size:.86rem;text-decoration:none;transition:all .2s;}
+.btn-o{border:2px solid var(--bab);color:var(--bab);background:transparent;}.btn-o:hover{background:var(--bab-pal);}
+.btn-f{background:var(--bab);color:#fff;}.btn-f:hover{background:#92400e;}
+footer{background:var(--ink);color:rgba(255,255,255,.45);text-align:center;padding:1.4rem;font-size:.8rem;}
+</style></head><body><nav class="nav"><a href="/belajar-mandiri/kelas-4/matematika/" class="brand">📐 Matematika Kelas 4</a><div class="bc"><a href="/belajar-mandiri/kelas-4/matematika/">Matematika</a> › <a href="/belajar-mandiri/kelas-4/matematika/bab-pengukuran/materi.html">Pengukuran</a> › Luas & Volume</div></nav><div class="hero"><div class="hero-in"><div class="tag">📐 Sub-Materi B</div><h1>Pengukuran Luas <em>dan Volume</em></h1><p>Pahami konsep luas dan volume, cara menghitungnya, dan hubungannya dengan benda-benda di sekitar kita.</p><div class="chips"><span class="chip">📐 Konsep Luas</span><span class="chip">📦 Konsep Volume</span><span class="chip">🔢 Rumus</span><span class="chip">🌍 Penerapan</span></div></div><svg class="wave" viewBox="0 0 1440 60" fill="none"><path d="M0 60L1440 60L1440 20C1200 60 960 0 720 30C480 60 240 10 0 40L0 60Z" fill="#f7f3eb"/></svg></div><div class="wrap">
+
+<div class="sec">
+<div class="sec-lbl">📐 Bagian 1</div>
+<h2>Luas Bangun Datar</h2>
+<p>Pernahkah kamu membayangkan berapa ubin yang dibutuhkan untuk menutupi lantai kamarmu? Atau berapa kertas yang dibutuhkan untuk membungkus buku? Untuk menjawab pertanyaan itu, kamu perlu memahami <strong>luas</strong>.</p>
+<div class="box box-o"><div class="bt">📌 Apa itu Luas?</div>
+<p><strong>Luas</strong> adalah ukuran besarnya permukaan suatu bidang datar. Luas menunjukkan seberapa besar ruang yang ditempati oleh suatu bangun datar. Satuan luas yang paling umum adalah <strong>meter persegi (m²)</strong> dan <strong>sentimeter persegi (cm²)</strong>.</p></div>
+
+<div class="box box-g"><div class="bt">💡 Satuan Luas Tidak Baku</div>
+<p>Sebelum ada satuan baku, orang mengukur luas dengan benda-benda di sekitar mereka: kotak kecil, ubin, atau daun. Ini disebut <strong>satuan tidak baku</strong>. Kelemahannya: hasilnya berbeda-beda tergantung ukuran benda yang dipakai. Itulah mengapa kita membutuhkan satuan baku yang sama untuk semua orang.</p></div>
+
+<h3>Luas Persegi</h3>
+<p>Persegi adalah bangun dengan 4 sisi yang sama panjang. Cara menghitung luasnya sangat mudah!</p>
+<div class="box box-o"><div class="bt">📐 Rumus Luas Persegi</div>
+<p><strong>L = s × s = s²</strong><br>di mana <em>s</em> = panjang sisi</p></div>
+<div style="text-align:center;margin:1rem 0">
+<svg viewBox="0 0 200 200" width="180" style="background:#fff;border-radius:10px;padding:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+  <rect x="30" y="30" width="140" height="140" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="100" y="108" text-anchor="middle" font-size="18" font-weight="bold" fill="#92400e">s × s</text>
+  <text x="100" y="130" text-anchor="middle" font-size="13" fill="#6b7280">= s²</text>
+  <text x="100" y="22" text-anchor="middle" font-size="13" fill="#d97706" font-weight="bold">s</text>
+  <text x="190" y="105" text-anchor="middle" font-size="13" fill="#d97706" font-weight="bold">s</text>
+</svg>
+</div><div class="cx"><div class="cx-hd">✏️ Contoh 1 — Luas Persegi</div><h4>Sebuah papan catur berbentuk persegi dengan panjang sisi 40 cm. Berapa luas papan catur itu?</h4><div class="st"><span class="sn">1</span><span>L = s × s</span></div><div class="st"><span class="sn">2</span><span>L = 40 × 40</span></div><div class="st"><span class="sn">3</span><span>L = <strong>1.600 cm²</strong></span></div><div class="ans">✅ Jawaban: Luas papan catur = 1.600 cm²</div></div>
+<h3>Luas Persegi Panjang</h3>
+<p>Persegi panjang memiliki 2 pasang sisi yang berbeda ukurannya: <strong>panjang (p)</strong> dan <strong>lebar (l)</strong>.</p>
+<div class="box box-o"><div class="bt">📐 Rumus Luas Persegi Panjang</div>
+<p><strong>L = p × l</strong><br>di mana <em>p</em> = panjang dan <em>l</em> = lebar</p></div><div class="cx"><div class="cx-hd">✏️ Contoh 2 — Luas Persegi Panjang</div><h4>Kebun Pak Ahmad berbentuk persegi panjang dengan panjang 12 m dan lebar 8 m. Berapa luas kebunnya?</h4><div class="st"><span class="sn">1</span><span>L = p × l</span></div><div class="st"><span class="sn">2</span><span>L = 12 × 8</span></div><div class="st"><span class="sn">3</span><span>L = <strong>96 m²</strong></span></div><div class="ans">✅ Jawaban: Luas kebun = 96 m²</div></div><div class="cx"><div class="cx-hd">✏️ Contoh 3 — Soal Gabungan</div><h4>Lantai kamar berbentuk persegi panjang berukuran 5 m × 4 m. Satu ubin berukuran 50 cm × 50 cm. Berapa banyak ubin yang dibutuhkan?</h4><div class="st"><span class="sn">1</span><span>Luas lantai = 5 × 4 = 20 m² = 200.000 cm²</span></div><div class="st"><span class="sn">2</span><span>Luas 1 ubin = 50 × 50 = 2.500 cm²</span></div><div class="st"><span class="sn">3</span><span>Banyak ubin = 200.000 ÷ 2.500 = <strong>80 ubin</strong></span></div><div class="ans">✅ Jawaban: 80 ubin</div></div>
+<h3>Satuan Luas dan Konversinya</h3>
+<div class="tbl"><table>
+<thead><tr><th>Satuan</th><th>Lambang</th><th>Setara dengan</th><th>Contoh</th></tr></thead>
+<tbody>
+<tr><td>Kilometer persegi</td><td>km²</td><td>1.000.000 m²</td><td>Luas kota/kabupaten</td></tr>
+<tr><td>Hektare</td><td>ha</td><td>10.000 m²</td><td>Luas sawah, perkebunan</td></tr>
+<tr><td>Are</td><td>a</td><td>100 m²</td><td>Luas tanah rumah</td></tr>
+<tr><td>Meter persegi</td><td>m²</td><td>10.000 cm²</td><td>Luas ruangan</td></tr>
+<tr><td>Sentimeter persegi</td><td>cm²</td><td>100 mm²</td><td>Luas permukaan buku</td></tr>
+</tbody></table></div>
+<div class="box box-g"><div class="bt">💡 Ingat: Hektare (ha) dan Are (a)</div>
+<p>1 hektare = 10.000 m². Ini adalah satuan yang sering dipakai untuk lahan pertanian. "1 ha tanah" berarti lahan berbentuk persegi dengan sisi 100 m × 100 m. 1 are = 100 m² = 10 m × 10 m.</p></div>
+</div>
+
+<div class="sec">
+<div class="sec-lbl">📦 Bagian 2</div>
+<h2>Volume Bangun Ruang</h2>
+<p>Kalau <em>luas</em> mengukur permukaan datar (2 dimensi), maka <strong>volume</strong> mengukur isi dari suatu ruang (3 dimensi). Volume menunjukkan seberapa banyak ruang yang bisa ditempati oleh suatu benda.</p>
+<div class="box box-o"><div class="bt">📌 Apa itu Volume?</div>
+<p><strong>Volume</strong> adalah banyaknya ruang yang ditempati oleh suatu benda tiga dimensi. Satuan volume yang umum adalah <strong>cm³ (sentimeter kubik)</strong> dan <strong>m³ (meter kubik)</strong>. Untuk cairan, kita pakai <strong>liter (L)</strong> atau <strong>mililiter (mL)</strong>.</p></div>
+
+<h3>Volume Kubus</h3>
+<p>Kubus adalah bangun ruang dengan 6 sisi berbentuk persegi yang sama besar. Semua rusuknya sama panjang.</p>
+<div class="box box-o"><div class="bt">📐 Rumus Volume Kubus</div>
+<p><strong>V = s × s × s = s³</strong><br>di mana <em>s</em> = panjang rusuk</p></div>
+<div style="text-align:center;margin:1rem 0">
+<svg viewBox="0 0 200 200" width="170" style="background:#fff;border-radius:10px;padding:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+  <polygon points="30,140 110,140 150,100 70,100" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <polygon points="30,60 110,60 110,140 30,140" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <polygon points="110,60 150,20 150,100 110,140" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+  <line x1="30" y1="60" x2="70" y2="20" stroke="#d97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="70" y1="20" x2="150" y2="20" stroke="#d97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="70" y1="20" x2="70" y2="100" stroke="#d97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="70" y="110" text-anchor="middle" font-size="13" fill="#92400e" font-weight="bold">s × s × s = s³</text>
+</svg></div><div class="cx"><div class="cx-hd">✏️ Contoh 4 — Volume Kubus</div><h4>Sebuah bak mandi berbentuk kubus dengan panjang rusuk 80 cm. Berapa volume air yang bisa ditampung?</h4><div class="st"><span class="sn">1</span><span>V = s³ = s × s × s</span></div><div class="st"><span class="sn">2</span><span>V = 80 × 80 × 80</span></div><div class="st"><span class="sn">3</span><span>V = <strong>512.000 cm³</strong></span></div><div class="ans">✅ Jawaban: Volume = 512.000 cm³</div></div>
+<h3>Volume Balok</h3>
+<p>Balok adalah bangun ruang yang memiliki 3 pasang sisi berbentuk persegi panjang. Balok memiliki tiga ukuran: <strong>panjang (p)</strong>, <strong>lebar (l)</strong>, dan <strong>tinggi (t)</strong>.</p>
+<div class="box box-o"><div class="bt">📐 Rumus Volume Balok</div>
+<p><strong>V = p × l × t</strong><br>di mana <em>p</em> = panjang, <em>l</em> = lebar, <em>t</em> = tinggi</p></div><div class="cx"><div class="cx-hd">✏️ Contoh 5 — Volume Balok</div><h4>Sebuah akuarium berbentuk balok dengan panjang 60 cm, lebar 30 cm, dan tinggi 40 cm. Berapa volume air yang bisa diisi?</h4><div class="st"><span class="sn">1</span><span>V = p × l × t</span></div><div class="st"><span class="sn">2</span><span>V = 60 × 30 × 40</span></div><div class="st"><span class="sn">3</span><span>V = <strong>72.000 cm³</strong></span></div><div class="ans">✅ Jawaban: Volume akuarium = 72.000 cm³</div></div><div class="cx"><div class="cx-hd">✏️ Contoh 6 — Soal Nyata</div><h4>Sebuah kotak kardus berbentuk balok berukuran 50 cm × 40 cm × 30 cm. Berapa banyak kotak kecil berukuran 10 cm × 10 cm × 10 cm yang bisa dimasukkan?</h4><div class="st"><span class="sn">1</span><span>Volume kardus besar = 50 × 40 × 30 = <strong>60.000 cm³</strong></span></div><div class="st"><span class="sn">2</span><span>Volume kotak kecil = 10 × 10 × 10 = <strong>1.000 cm³</strong></span></div><div class="st"><span class="sn">3</span><span>Banyak kotak = 60.000 ÷ 1.000 = <strong>60 kotak</strong></span></div><div class="ans">✅ Jawaban: 60 kotak kecil</div></div>
+<h3>Hubungan Volume dan Satuan Cairan</h3>
+<div class="box box-y"><div class="bt">⚠️ Ini Penting!</div>
+<p><strong>1 liter = 1 dm³ = 1.000 cm³</strong><br>
+<strong>1 mL = 1 cm³</strong><br>
+Jadi: Volume sebuah kubus dengan rusuk 10 cm = 10³ = 1.000 cm³ = <strong>1 liter</strong>!</p></div>
+<div class="g3">
+<div class="card" style="text-align:center"><div style="font-size:1.8rem">🥤</div><div style="font-weight:800;font-size:.85rem">Gelas minum</div><div style="color:var(--bab);font-size:.8rem">±200 mL</div></div>
+<div class="card" style="text-align:center"><div style="font-size:1.8rem">🍶</div><div style="font-weight:800;font-size:.85rem">Botol minuman</div><div style="color:var(--bab);font-size:.8rem">600 mL – 1,5 L</div></div>
+<div class="card" style="text-align:center"><div style="font-size:1.8rem">🪣</div><div style="font-weight:800;font-size:.85rem">Ember</div><div style="color:var(--bab);font-size:.8rem">±15 liter</div></div>
+</div>
+</div>
+
+<div class="lat"><h3>🎯 Mari Berlatih!</h3><div class="ls"><p><strong>1.</strong> Sebuah taman berbentuk persegi dengan sisi 25 m. Berapa luas taman itu?</p><details><summary>Lihat Jawaban</summary><div class="la">L = 25 × 25 = <strong>625 m²</strong></div></details></div><div class="ls"><p><strong>2.</strong> Kelas berbentuk persegi panjang, panjang 9 m dan lebar 7 m. Berapa luas lantai kelas?</p><details><summary>Lihat Jawaban</summary><div class="la">L = 9 × 7 = <strong>63 m²</strong></div></details></div><div class="ls"><p><strong>3.</strong> Sebuah kubus memiliki rusuk 5 cm. Berapa volumenya?</p><details><summary>Lihat Jawaban</summary><div class="la">V = 5 × 5 × 5 = <strong>125 cm³</strong></div></details></div><div class="ls"><p><strong>4.</strong> Kolam renang berukuran 25 m × 10 m × 2 m. Berapa volume air yang bisa ditampung dalam liter?</p><details><summary>Lihat Jawaban</summary><div class="la">V = 25 × 10 × 2 = 500 m³ = 500.000 dm³ = <strong>500.000 liter</strong></div></details></div><div class="ls"><p><strong>5.</strong> Sebuah ruangan berukuran 4 m × 3 m × 3 m. Cat tembok dibutuhkan 1 kaleng untuk 5 m² permukaan. Berapa kaleng cat untuk seluruh dinding dan langit-langit? (Abaikan pintu dan jendela)</p><details><summary>Lihat Jawaban</summary><div class="la">Dinding: 2×(4×3) + 2×(3×3) = 24 + 18 = 42 m². Langit-langit: 4×3 = 12 m². Total: 54 m². Cat: 54 ÷ 5 = 10,8 → butuh <strong>11 kaleng</strong>.</div></details></div></div><div class="rng"><h3>📝 Rangkuman</h3><ul><li>Luas persegi = s² &nbsp;|&nbsp; Luas persegi panjang = p × l.</li><li>1 ha = 10.000 m² &nbsp;|&nbsp; 1 a = 100 m² &nbsp;|&nbsp; 1 m² = 10.000 cm².</li><li>Volume kubus = s³ &nbsp;|&nbsp; Volume balok = p × l × t.</li><li>1 liter = 1 dm³ = 1.000 cm³ &nbsp;|&nbsp; 1 mL = 1 cm³.</li></ul></div><nav class="bn"><a href="pengukuran-panjang-berat.html" class="btn btn-o">← Panjang & Berat</a><a href="../bab-geometri/materi.html" class="btn btn-f">Lanjut: Geometri →</a></nav></div><footer>Belajar Mandiri · Kelas 4 · Matematika · Pengukuran Luas dan Volume</footer></body></html>

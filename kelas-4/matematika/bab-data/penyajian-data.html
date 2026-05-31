@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Penyajian Data · Matematika Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,600&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/><style>
+:root{--c:#d97706;--clt:#fef3c7;--cpl:#fffbeb;--ink:#1a1f2e;--mid:#3d4460;--lt:#6b7280;--sand:#f7f3eb;--sdk:#ede8dc;}
+*{box-sizing:border-box;margin:0;padding:0;}body{font-family:"Nunito",sans-serif;background:var(--sand);color:var(--ink);line-height:1.75;}
+.nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:2px solid var(--clt);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+.brand{font-family:"Lora",serif;font-weight:700;font-size:.93rem;color:var(--c);text-decoration:none;}
+.bc{font-size:.75rem;color:var(--lt);display:flex;align-items:center;gap:.3rem;flex-wrap:wrap;}.bc a{color:var(--c);text-decoration:none;}
+.hero{background:linear-gradient(135deg,#d97706,#92400e);color:#fff;padding:2.5rem 1.5rem 4.5rem;position:relative;overflow:hidden;}
+.hi{max-width:760px;margin:0 auto;}.tag{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:50px;padding:.28rem .85rem;margin-bottom:.8rem;}
+.hero h1{font-family:"Lora",serif;font-size:clamp(1.55rem,5vw,2.3rem);font-style:italic;line-height:1.25;margin-bottom:.5rem;}
+.hero h1 em{font-style:normal;color:#fde68a;}.hero p{font-size:.93rem;opacity:.88;max-width:540px;margin-bottom:1.2rem;}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;}.chip{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);border-radius:50px;padding:.24rem .78rem;font-size:.77rem;font-weight:700;}
+.wv{position:absolute;bottom:-1px;left:0;width:100%;}
+.wrap{max-width:760px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+.sec{margin-bottom:2.75rem;}.sec-lbl{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.4rem;}
+.sec h2{font-family:"Lora",serif;font-size:1.4rem;font-weight:700;margin-bottom:.85rem;line-height:1.3;}
+.sec h3{font-family:"Lora",serif;font-size:1.08rem;margin:1.25rem 0 .55rem;}
+.sec p,.sec li{color:var(--mid);font-size:.93rem;margin-bottom:.6rem;}.sec ul,.sec ol{padding-left:1.25rem;margin-bottom:.6rem;}
+.box{background:#fff;border-radius:12px;padding:1rem 1.25rem;margin:1rem 0;box-shadow:0 2px 8px rgba(0,0,0,.05);}
+.bo{border-left:4px solid var(--c);}.bg{border-left:4px solid #10b981;}.by{border-left:4px solid #f59e0b;}
+.bt{font-weight:800;margin-bottom:.32rem;display:flex;align-items:center;gap:.4rem;font-size:.88rem;}
+.bo .bt{color:var(--c);}.bg .bt{color:#065f46;}.by .bt{color:#92400e;}
+.box p,.box li{margin:0;font-size:.87rem;color:var(--mid);}
+.cx{background:#fff;border-radius:13px;padding:1.25rem 1.45rem;margin:1rem 0;box-shadow:0 2px 9px rgba(0,0,0,.06);}
+.cx-hd{font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--c);margin-bottom:.6rem;}
+.cx h4{font-weight:800;color:var(--ink);margin-bottom:.5rem;font-size:.92rem;}
+.st{display:flex;gap:.65rem;margin-bottom:.42rem;font-size:.87rem;color:var(--mid);align-items:flex-start;}
+.sn{background:var(--clt);color:var(--c);font-weight:800;border-radius:50%;min-width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:.7rem;flex-shrink:0;margin-top:2px;}
+.ans{background:var(--cpl);border-radius:8px;padding:.5rem .88rem;margin-top:.6rem;font-weight:800;color:#92400e;font-size:.89rem;}
+.tbl{overflow-x:auto;margin:1rem 0;}
+table.data{width:100%;border-collapse:collapse;background:#fff;border-radius:11px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.05);font-size:.87rem;}
+table.data th{background:var(--c);color:#fff;padding:.58rem .88rem;text-align:center;font-weight:800;}
+table.data td{padding:.52rem .88rem;color:var(--mid);border-bottom:1px solid var(--sdk);text-align:center;}
+table.data tr:last-child td{border-bottom:none;}table.data tr:nth-child(even) td{background:var(--cpl);}
+table.data td:first-child{text-align:left;font-weight:700;}
+.chart-wrap{background:#fff;border-radius:14px;padding:1.5rem;margin:1.25rem 0;box-shadow:0 2px 9px rgba(0,0,0,.06);}
+.chart-title{font-weight:800;font-size:.92rem;color:var(--ink);margin-bottom:1.2rem;text-align:center;}
+.bar-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.55rem;}
+.bar-label{width:90px;font-size:.83rem;font-weight:700;color:var(--ink);text-align:right;flex-shrink:0;}
+.bar-outer{flex:1;background:#f1f5f9;border-radius:6px;height:28px;position:relative;}
+.bar-inner{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:.5rem;transition:width .5s;}
+.bar-val{font-size:.78rem;font-weight:800;color:#fff;white-space:nowrap;}
+.bar-axis{display:flex;justify-content:space-between;margin-left:97px;font-size:.72rem;color:var(--lt);margin-top:.3rem;}
+.piktogram{background:#fff;border-radius:14px;padding:1.5rem;margin:1.25rem 0;box-shadow:0 2px 9px rgba(0,0,0,.06);}
+.pik-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.55rem;}
+.pik-label{width:100px;font-size:.83rem;font-weight:700;color:var(--ink);}
+.pik-icons{display:flex;gap:.3rem;flex-wrap:wrap;align-items:center;}
+.pik-icon{font-size:1.2rem;}
+.pik-half{font-size:.9rem;opacity:.6;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:.85rem 0;}
+.lat{background:linear-gradient(135deg,#d97706,#92400e);border-radius:14px;padding:1.3rem;color:#fff;margin:1.6rem 0;}
+.lat h3{font-family:"Lora",serif;font-size:1.08rem;margin-bottom:.8rem;}
+.ls{background:rgba(255,255,255,.12);border-radius:9px;padding:.85rem;margin-bottom:.6rem;}
+.ls p{font-size:.87rem;margin-bottom:.38rem;color:#fff;}
+details summary{cursor:pointer;font-weight:700;font-size:.8rem;background:rgba(255,255,255,.2);padding:.25rem .68rem;border-radius:50px;display:inline-block;}
+.la{margin-top:.5rem;font-size:.84rem;background:rgba(255,255,255,.15);border-radius:7px;padding:.48rem .8rem;}
+.rng{background:#fff;border-radius:14px;padding:1.3rem;margin:1.6rem 0;box-shadow:0 2px 9px rgba(0,0,0,.06);border-top:4px solid var(--c);}
+.rng h3{font-family:"Lora",serif;font-size:1rem;color:var(--c);margin-bottom:.7rem;}
+.rng li{color:var(--mid);font-size:.87rem;margin-bottom:.32rem;}
+.bn{margin-top:2.5rem;padding-top:1.75rem;border-top:2px solid var(--sdk);display:flex;gap:.85rem;flex-wrap:wrap;}
+.btn{display:inline-flex;align-items:center;gap:.42rem;padding:.62rem 1.15rem;border-radius:50px;font-weight:700;font-size:.85rem;text-decoration:none;transition:all .2s;}
+.btn-o{border:2px solid var(--c);color:var(--c);background:transparent;}.btn-o:hover{background:var(--cpl);}
+.btn-f{background:var(--c);color:#fff;}.btn-f:hover{background:#92400e;}
+footer{background:var(--ink);color:rgba(255,255,255,.45);text-align:center;padding:1.3rem;font-size:.79rem;}
+</style></head><body>
+
+<nav class="nav">
+  <a href="/belajar-mandiri/kelas-4/matematika/" class="brand">📐 Matematika Kelas 4</a>
+  <div class="bc">
+    <a href="/belajar-mandiri/kelas-4/matematika/">Matematika</a> ›
+    <a href="materi.html">Data</a> › Penyajian Data
+  </div>
+</nav>
+
+<div class="hero"><div class="hi">
+  <div class="tag">📊 Sub-Materi A</div>
+  <h1>Menyajikan Data dalam <em>Tabel, Diagram, dan Piktogram</em></h1>
+  <p>Belajar mengumpulkan, menyusun, dan menyajikan data agar mudah dibaca dan dipahami oleh semua orang.</p>
+  <div class="chips">
+    <span class="chip">📋 Tabel Frekuensi</span>
+    <span class="chip">📊 Diagram Batang</span>
+    <span class="chip">🖼️ Piktogram</span>
+    <span class="chip">📖 Membaca Data</span>
+  </div>
+</div><svg class="wv" viewBox="0 0 1440 60" fill="none"><path d="M0 60L1440 60L1440 20C1200 60 960 0 720 30C480 60 240 10 0 40L0 60Z" fill="#f7f3eb"/></svg></div>
+
+<div class="wrap">
+
+<!-- BAGIAN 1: PENGERTIAN DATA -->
+<div class="sec">
+<div class="sec-lbl">💡 Bagian 1</div>
+<h2>Mengenal Data</h2>
+<p>Setiap hari kita dikelilingi oleh data tanpa kita sadari. Nilai ulangan di kelasmu, jumlah siswa yang hadir, buah kesukaan teman-temanmu — semua itu adalah <strong>data</strong>!</p>
+
+<div class="box bo">
+  <div class="bt">📌 Apa itu Data?</div>
+  <p><strong>Data</strong> adalah kumpulan fakta atau informasi yang dikumpulkan dari hasil pengamatan, pengukuran, atau pencatatan. Data bisa berupa angka (kuantitatif) maupun kategori (kualitatif).</p>
+</div>
+
+<h3>Langkah-langkah Mengolah Data</h3>
+<ol style="padding-left:1.3rem;color:var(--mid)">
+  <li style="margin-bottom:.5rem"><strong>Mengumpulkan data</strong> — melalui pengamatan, wawancara, atau kuesioner</li>
+  <li style="margin-bottom:.5rem"><strong>Mengelompokkan data</strong> — mengurutkan atau mengelompokkan berdasarkan kategori</li>
+  <li style="margin-bottom:.5rem"><strong>Menyajikan data</strong> — dalam bentuk tabel, diagram, atau piktogram</li>
+  <li style="margin-bottom:.5rem"><strong>Menafsirkan data</strong> — membaca, menyimpulkan, dan menjawab pertanyaan dari data</li>
+</ol>
+
+<div class="box bg">
+  <div class="bt">💡 Mengapa Data Perlu Disajikan?</div>
+  <p>Data mentah berupa kumpulan angka seringkali sulit dipahami. Dengan menyajikannya dalam tabel atau diagram, informasi menjadi lebih mudah dibaca, dibandingkan, dan dipahami oleh semua orang — termasuk yang tidak ikut mengumpulkan datanya.</p>
+</div>
+</div>
+
+<!-- BAGIAN 2: TABEL FREKUENSI -->
+<div class="sec">
+<div class="sec-lbl">📋 Bagian 2</div>
+<h2>Tabel Frekuensi</h2>
+<p><strong>Frekuensi</strong> artinya <em>seberapa sering</em> suatu nilai atau kategori muncul dalam sekumpulan data. <strong>Tabel frekuensi</strong> adalah cara menyusun data dalam bentuk tabel yang menampilkan setiap kategori dan jumlah kemunculannya secara teratur.</p>
+
+<div class="box by">
+  <div class="bt">⚠️ Simbol Turus (Tally)</div>
+  <p>Saat menghitung data, kita sering menggunakan <strong>turus</strong> — garis-garis vertikal untuk mencatat. Setiap 4 garis ditutup dengan 1 garis diagonal: <strong>IIII</strong> = 5. Ini memudahkan kita menghitung cepat tanpa keliru.</p>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 1 — Membuat Tabel Frekuensi</div>
+  <h4>Bu Guru bertanya kepada 20 siswa: "Apa olahraga favoritmu?" Jawaban mereka: Sepakbola, Bulu Tangkis, Renang, Sepakbola, Bulu Tangkis, Sepakbola, Renang, Voli, Bulu Tangkis, Sepakbola, Sepakbola, Voli, Renang, Bulu Tangkis, Sepakbola, Bulu Tangkis, Voli, Sepakbola, Renang, Bulu Tangkis.</h4>
+  <div class="st"><span class="sn">1</span><span>Tentukan kategori: Sepakbola, Bulu Tangkis, Renang, Voli</span></div>
+  <div class="st"><span class="sn">2</span><span>Hitung kemunculan tiap kategori menggunakan turus</span></div>
+  <div class="st"><span class="sn">3</span><span>Susun dalam tabel</span></div>
+</div>
+
+<div class="tbl"><table class="data">
+<thead><tr><th>Olahraga Favorit</th><th>Turus</th><th>Frekuensi</th></tr></thead>
+<tbody>
+<tr><td>⚽ Sepakbola</td><td style="letter-spacing:2px;font-family:monospace">IIIII II</td><td>7</td></tr>
+<tr><td>🏸 Bulu Tangkis</td><td style="letter-spacing:2px;font-family:monospace">IIIII I</td><td>6</td></tr>
+<tr><td>🏊 Renang</td><td style="letter-spacing:2px;font-family:monospace">IIII</td><td>4</td></tr>
+<tr><td>🏐 Voli</td><td style="letter-spacing:2px;font-family:monospace">III</td><td>3</td></tr>
+<tr><td><strong>Jumlah</strong></td><td></td><td><strong>20</strong></td></tr>
+</tbody>
+</table></div>
+
+<div class="box bg">
+  <div class="bt">✅ Cara Membaca Tabel Frekuensi</div>
+  <p>Dari tabel di atas kita bisa menjawab banyak pertanyaan:<br>
+  • Olahraga paling favorit: <strong>Sepakbola</strong> (7 siswa)<br>
+  • Olahraga paling sedikit dipilih: <strong>Voli</strong> (3 siswa)<br>
+  • Lebih banyak yang suka Bulu Tangkis atau Renang? → Bulu Tangkis (6 > 4)<br>
+  • Total siswa yang disurvei: 7+6+4+3 = <strong>20 siswa</strong></p>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 2 — Tabel Frekuensi Data Angka</div>
+  <h4>Nilai ulangan matematika 15 siswa: 80, 75, 90, 85, 75, 80, 90, 75, 85, 80, 90, 75, 85, 80, 75. Buatlah tabel frekuensinya!</h4>
+  <div class="st"><span class="sn">1</span><span>Urutkan nilai yang berbeda: 75, 80, 85, 90</span></div>
+  <div class="st"><span class="sn">2</span><span>Hitung berapa kali tiap nilai muncul</span></div>
+</div>
+
+<div class="tbl"><table class="data">
+<thead><tr><th>Nilai</th><th>Turus</th><th>Frekuensi</th></tr></thead>
+<tbody>
+<tr><td>75</td><td style="font-family:monospace;letter-spacing:2px">IIIII</td><td>5</td></tr>
+<tr><td>80</td><td style="font-family:monospace;letter-spacing:2px">IIII</td><td>4</td></tr>
+<tr><td>85</td><td style="font-family:monospace;letter-spacing:2px">III</td><td>3</td></tr>
+<tr><td>90</td><td style="font-family:monospace;letter-spacing:2px">III</td><td>3</td></tr>
+<tr><td><strong>Jumlah</strong></td><td></td><td><strong>15</strong></td></tr>
+</tbody>
+</table></div>
+</div>
+
+<!-- BAGIAN 3: DIAGRAM BATANG -->
+<div class="sec">
+<div class="sec-lbl">📊 Bagian 3</div>
+<h2>Diagram Batang</h2>
+<p><strong>Diagram batang</strong> menggunakan batang-batang persegi panjang untuk mewakili data. Tinggi batang menunjukkan nilai atau frekuensi. Diagram batang sangat bagus untuk <strong>membandingkan</strong> data dari beberapa kategori secara visual.</p>
+
+<div class="box bo">
+  <div class="bt">📌 Bagian-bagian Diagram Batang</div>
+  <p>• <strong>Judul</strong>: nama diagram yang menjelaskan isi data<br>
+  • <strong>Sumbu tegak (Y)</strong>: menunjukkan nilai/frekuensi (angka)<br>
+  • <strong>Sumbu mendatar (X)</strong>: menunjukkan kategori<br>
+  • <strong>Batang</strong>: tingginya sesuai nilai data masing-masing kategori<br>
+  • <strong>Keterangan</strong>: penjelasan tambahan jika diperlukan</p>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 3 — Membuat dan Membaca Diagram Batang</div>
+  <h4>Buatlah diagram batang dari data olahraga favorit pada Contoh 1!</h4>
+</div>
+
+<div class="chart-wrap">
+  <div class="chart-title">📊 Diagram Batang: Olahraga Favorit Siswa Kelas 4</div>
+  <div class="bar-row">
+    <div class="bar-label">⚽ Sepakbola</div>
+    <div class="bar-outer">
+      <div class="bar-inner" style="width:87.5%;background:#d97706"><span class="bar-val">7 siswa</span></div>
+    </div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">🏸 Bulu Tangkis</div>
+    <div class="bar-outer">
+      <div class="bar-inner" style="width:75%;background:#f59e0b"><span class="bar-val">6 siswa</span></div>
+    </div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">🏊 Renang</div>
+    <div class="bar-outer">
+      <div class="bar-inner" style="width:50%;background:#fbbf24"><span class="bar-val">4 siswa</span></div>
+    </div>
+  </div>
+  <div class="bar-row">
+    <div class="bar-label">🏐 Voli</div>
+    <div class="bar-outer">
+      <div class="bar-inner" style="width:37.5%;background:#fcd34d"><span class="bar-val">3 siswa</span></div>
+    </div>
+  </div>
+  <div class="bar-axis"><span>0</span><span>2</span><span>4</span><span>6</span><span>8</span></div>
+  <p style="font-size:.78rem;color:var(--lt);text-align:center;margin-top:.5rem">Sumbu mendatar = jumlah siswa</p>
+</div>
+
+<h3>Cara Membuat Diagram Batang (Langkah demi Langkah)</h3>
+<div class="box bo">
+  <div class="bt">📋 Langkah-langkah</div>
+  <ol style="font-size:.87rem;color:var(--mid);padding-left:1.2rem">
+    <li style="margin-bottom:.4rem">Buat dua garis tegak lurus: sumbu Y (vertikal) dan sumbu X (horizontal)</li>
+    <li style="margin-bottom:.4rem">Tulis kategori di sumbu X dengan jarak yang sama</li>
+    <li style="margin-bottom:.4rem">Tentukan skala sumbu Y (misalnya: tiap kotak = 1 atau 2)</li>
+    <li style="margin-bottom:.4rem">Gambar batang untuk tiap kategori, tingginya sesuai frekuensi</li>
+    <li style="margin-bottom:.4rem">Beri judul, label sumbu, dan angka pada sumbu Y</li>
+  </ol>
+</div>
+
+<div class="box by">
+  <div class="bt">💡 Tips Memilih Skala</div>
+  <p>Pilih skala yang membuat diagram tidak terlalu tinggi dan tidak terlalu pendek. Jika data terbesar adalah 20, skala 0-25 dengan kelipatan 5 sudah bagus. Hindari skala yang terlalu besar (diagram terlalu pipih) atau terlalu kecil (diagram terlalu tinggi dan susah digambar).</p>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 4 — Membaca Diagram Batang</div>
+  <h4>Perhatikan diagram batang berikut yang menunjukkan jumlah buku yang dipinjam di perpustakaan sekolah selama 5 hari.</h4>
+</div>
+
+<div class="chart-wrap">
+  <div class="chart-title">📚 Peminjaman Buku Perpustakaan (Senin–Jumat)</div>
+  <div class="bar-row"><div class="bar-label">Senin</div>
+    <div class="bar-outer"><div class="bar-inner" style="width:50%;background:#2563eb"><span class="bar-val">10</span></div></div></div>
+  <div class="bar-row"><div class="bar-label">Selasa</div>
+    <div class="bar-outer"><div class="bar-inner" style="width:75%;background:#3b82f6"><span class="bar-val">15</span></div></div></div>
+  <div class="bar-row"><div class="bar-label">Rabu</div>
+    <div class="bar-outer"><div class="bar-inner" style="width:60%;background:#60a5fa"><span class="bar-val">12</span></div></div></div>
+  <div class="bar-row"><div class="bar-label">Kamis</div>
+    <div class="bar-outer"><div class="bar-inner" style="width:100%;background:#1d4ed8"><span class="bar-val">20</span></div></div></div>
+  <div class="bar-row"><div class="bar-label">Jumat</div>
+    <div class="bar-outer"><div class="bar-inner" style="width:40%;background:#93c5fd"><span class="bar-val">8</span></div></div></div>
+  <div class="bar-axis"><span>0</span><span>5</span><span>10</span><span>15</span><span>20</span></div>
+</div>
+
+<div class="box bg">
+  <div class="bt">✅ Kesimpulan dari Diagram</div>
+  <p>• Hari dengan peminjaman terbanyak: <strong>Kamis (20 buku)</strong><br>
+  • Hari dengan peminjaman paling sedikit: <strong>Jumat (8 buku)</strong><br>
+  • Total buku dipinjam seminggu: 10+15+12+20+8 = <strong>65 buku</strong><br>
+  • Rata-rata per hari: 65 ÷ 5 = <strong>13 buku</strong></p>
+</div>
+</div>
+
+<!-- BAGIAN 4: PIKTOGRAM -->
+<div class="sec">
+<div class="sec-lbl">🖼️ Bagian 4</div>
+<h2>Piktogram</h2>
+<p><strong>Piktogram</strong> (atau <em>diagram gambar</em>) menggunakan gambar atau simbol untuk mewakili data. Setiap gambar mewakili jumlah tertentu yang sudah ditentukan di awal — ini disebut <strong>keterangan gambar</strong> atau <strong>legenda</strong>.</p>
+
+<div class="box bo">
+  <div class="bt">📌 Kelebihan Piktogram</div>
+  <p>Piktogram sangat menarik dan mudah dipahami, bahkan oleh anak kecil yang belum lancar membaca angka. Gambar yang dipilih biasanya berhubungan dengan topik data — misalnya gambar buku untuk data bacaan, gambar bintang untuk data bintang penghargaan.</p>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 5 — Membuat Piktogram</div>
+  <h4>Data buah kesukaan 40 siswa: Mangga 10, Jeruk 8, Apel 12, Pisang 6, Semangka 4. Sajikan dalam piktogram! (1 gambar = 2 siswa)</h4>
+</div>
+
+<div class="piktogram">
+  <div class="chart-title">🍎 Piktogram: Buah Kesukaan Siswa Kelas 4</div>
+  <div style="font-size:.78rem;color:var(--lt);text-align:center;margin-bottom:1rem">🍎 = 2 siswa &nbsp;&nbsp; 🍎<span style="opacity:.5;font-size:.7rem">½</span> = 1 siswa</div>
+  <div class="pik-row">
+    <div class="pik-label">🥭 Mangga</div>
+    <div class="pik-icons">
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span style="font-size:.75rem;color:var(--mid);margin-left:.3rem">= 10 siswa</span>
+    </div>
+  </div>
+  <div class="pik-row">
+    <div class="pik-label">🍊 Jeruk</div>
+    <div class="pik-icons">
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span class="pik-icon">🍎</span>
+      <span style="font-size:.75rem;color:var(--mid);margin-left:.3rem">= 8 siswa</span>
+    </div>
+  </div>
+  <div class="pik-row">
+    <div class="pik-label">🍏 Apel</div>
+    <div class="pik-icons">
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span style="font-size:.75rem;color:var(--mid);margin-left:.3rem">= 12 siswa</span>
+    </div>
+  </div>
+  <div class="pik-row">
+    <div class="pik-label">🍌 Pisang</div>
+    <div class="pik-icons">
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span class="pik-icon">🍎</span>
+      <span style="font-size:.75rem;color:var(--mid);margin-left:.3rem">= 6 siswa</span>
+    </div>
+  </div>
+  <div class="pik-row">
+    <div class="pik-label">🍉 Semangka</div>
+    <div class="pik-icons">
+      <span class="pik-icon">🍎</span><span class="pik-icon">🍎</span>
+      <span style="font-size:.75rem;color:var(--mid);margin-left:.3rem">= 4 siswa</span>
+    </div>
+  </div>
+</div>
+
+<h3>Cara Membaca Piktogram</h3>
+<div class="box by">
+  <div class="bt">⚠️ Perhatikan Nilai per Gambar!</div>
+  <p>Hal terpenting saat membaca piktogram adalah <strong>melihat legenda dulu</strong> — berapa siswa yang diwakili satu gambar. Kalau 1 gambar = 5 orang, maka 3 gambar = 15 orang, bukan 3!</p>
+</div>
+
+<div class="cx">
+  <div class="cx-hd">✏️ Contoh 6 — Membaca Piktogram</div>
+  <h4>Piktogram menunjukkan banyak telur yang dikumpulkan dari kandang ayam selama 4 hari. Setiap 🥚 mewakili 6 telur. Hari Senin: 4 gambar, Selasa: 3 gambar, Rabu: 5 gambar, Kamis: 2½ gambar. Berapa total telur?</h4>
+  <div class="st"><span class="sn">1</span><span>Senin: 4 × 6 = <strong>24 telur</strong></span></div>
+  <div class="st"><span class="sn">2</span><span>Selasa: 3 × 6 = <strong>18 telur</strong></span></div>
+  <div class="st"><span class="sn">3</span><span>Rabu: 5 × 6 = <strong>30 telur</strong></span></div>
+  <div class="st"><span class="sn">4</span><span>Kamis: 2½ × 6 = 2 × 6 + ½ × 6 = 12 + 3 = <strong>15 telur</strong></span></div>
+  <div class="st"><span class="sn">5</span><span>Total: 24 + 18 + 30 + 15 = <strong>87 telur</strong></span></div>
+  <div class="ans">✅ Total telur = 87</div>
+</div>
+</div>
+
+<!-- BAGIAN 5: MEMBANDINGKAN -->
+<div class="sec">
+<div class="sec-lbl">🔍 Bagian 5</div>
+<h2>Memilih Cara Penyajian Data yang Tepat</h2>
+<p>Tidak semua jenis penyajian data cocok untuk setiap situasi. Berikut panduan singkatnya:</p>
+<div class="tbl"><table class="data">
+<thead><tr><th>Jenis Penyajian</th><th>Kelebihan</th><th>Cocok untuk</th></tr></thead>
+<tbody>
+<tr><td>📋 Tabel Frekuensi</td><td>Tepat, menampilkan angka detail</td><td>Data yang butuh ketelitian angka</td></tr>
+<tr><td>📊 Diagram Batang</td><td>Mudah dibandingkan secara visual</td><td>Membandingkan beberapa kategori</td></tr>
+<tr><td>🖼️ Piktogram</td><td>Menarik, mudah dipahami semua orang</td><td>Presentasi, infografis, anak-anak</td></tr>
+</tbody>
+</table></div>
+</div>
+
+<div class="lat"><h3>🎯 Mari Berlatih!</h3>
+<div class="ls">
+  <p><strong>1.</strong> Data nilai ulangan IPA 10 siswa: 70, 85, 90, 70, 85, 75, 90, 85, 70, 75. Buatlah tabel frekuensinya dan tentukan nilai yang paling banyak muncul!</p>
+  <details><summary>Lihat Jawaban</summary>
+  <div class="la">70 → 3 kali | 75 → 2 kali | 85 → 3 kali | 90 → 2 kali. Nilai paling banyak muncul: <strong>70 dan 85</strong> (masing-masing 3 kali). Total: 10 ✓</div>
+  </details>
+</div>
+<div class="ls">
+  <p><strong>2.</strong> Diagram batang menunjukkan penjualan es krim: Coklat 15, Vanila 8, Stroberi 12, Melon 5. Berapa total es krim terjual? Rasa apa yang paling laris?</p>
+  <details><summary>Lihat Jawaban</summary>
+  <div class="la">Total: 15+8+12+5 = <strong>40 es krim</strong>. Paling laris: <strong>Coklat</strong> (15 buah)</div>
+  </details>
+</div>
+<div class="ls">
+  <p><strong>3.</strong> Piktogram menunjukkan jumlah pengunjung taman. 1 🌳 = 10 orang. Senin: 3🌳, Selasa: 4🌳, Rabu: 2½🌳. Berapa total pengunjung?</p>
+  <details><summary>Lihat Jawaban</summary>
+  <div class="la">Senin: 30, Selasa: 40, Rabu: 25. Total = <strong>95 orang</strong></div>
+  </details>
+</div>
+<div class="ls">
+  <p><strong>4.</strong> Kamu ingin menyajikan data hobi 30 teman sekelasmu untuk dipasang di mading sekolah agar menarik perhatian. Penyajian mana yang paling cocok dan mengapa?</p>
+  <details><summary>Lihat Jawaban</summary>
+  <div class="la"><strong>Piktogram</strong> paling cocok untuk mading sekolah karena tampilannya menarik, menggunakan gambar yang langsung bisa dipahami orang yang melintas, dan membuat pembaca penasaran untuk membacanya.</div>
+  </details>
+</div>
+</div>
+
+<div class="rng"><h3>📝 Rangkuman</h3><ul>
+<li><strong>Data</strong>: kumpulan fakta/informasi dari pengamatan atau pengukuran.</li>
+<li><strong>Tabel frekuensi</strong>: tabel yang menampilkan kategori + turus + frekuensi. Akurat dan lengkap.</li>
+<li><strong>Diagram batang</strong>: menggunakan batang untuk menampilkan data. Mudah membandingkan.</li>
+<li><strong>Piktogram</strong>: menggunakan gambar. Menarik dan mudah dipahami. Perlu legenda (1 gambar = berapa).</li>
+<li>Langkah mengolah data: kumpulkan → kelompokkan → sajikan → tafsirkan.</li>
+</ul></div>
+
+<nav class="bn">
+  <a href="../bab-geometri/simetri.html" class="btn btn-o">← Simetri</a>
+  <a href="/belajar-mandiri/kelas-4/matematika/" class="btn btn-f">Selesai — Kembali ke Matematika →</a>
+</nav>
+</div>
+<footer>Belajar Mandiri · Kelas 4 · Matematika · Penyajian Data</footer>
+</body></html>
