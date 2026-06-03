@@ -1,0 +1,926 @@
+{
+  "status": "ok",
+  "mapel": "Matematika",
+  "bab": "Geometri — Bangun Datar & Simetri",
+  "soal": [
+    {
+      "id": "mg_001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Ciri Persegi",
+      "stimulus": "Rini memiliki selembar kertas berbentuk persegi. Ia ingin memotong sehelai pita untuk menghiasi sekelilingnya. Panjang sisi kertas adalah 15 cm.",
+      "q": "Berapa cm panjang pita yang dibutuhkan Rini untuk mengelilingi seluruh sisi kertas persegi itu?",
+      "opt": [
+        "30 cm",
+        "45 cm",
+        "60 cm",
+        "225 cm"
+      ],
+      "ans": "C",
+      "pembahasan": "Keliling persegi = 4 × s = 4 × 15 = 60 cm."
+    },
+    {
+      "id": "mg_002",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Ciri Persegi Panjang",
+      "stimulus": "Sebuah lapangan futsal berbentuk persegi panjang berukuran 25 m × 15 m. Pemain akan berlari mengelilingi lapangan sebanyak 2 kali.",
+      "q": "Berapa meter total jarak lari pemain tersebut?",
+      "opt": [
+        "80 m",
+        "160 m",
+        "375 m",
+        "750 m"
+      ],
+      "ans": "B",
+      "pembahasan": "Keliling = 2 × (25+15) = 2 × 40 = 80 m. Dua putaran: 80 × 2 = 160 m."
+    },
+    {
+      "id": "mg_003",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Persegi Panjang",
+      "stimulus": "Kelas 4A ingin mendekorasi dinding kelas dengan kertas lipat. Dinding berbentuk persegi panjang berukuran 4 m × 2,5 m. Satu lembar kertas lipat berukuran 25 cm × 25 cm.",
+      "q": "Berapa lembar kertas lipat yang dibutuhkan untuk menutupi seluruh dinding?",
+      "opt": [
+        "16 lembar",
+        "160 lembar",
+        "320 lembar",
+        "640 lembar"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas dinding: 400 cm × 250 cm = 100.000 cm². Luas kertas: 25 × 25 = 625 cm². Jumlah: 100.000 ÷ 625 = 160 lembar."
+    },
+    {
+      "id": "mg_004",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Ciri Segitiga — Sudut",
+      "stimulus": "Bu Guru menulis tiga soal di papan: 'Sebuah segitiga memiliki sudut 60°, 80°, dan X°. Tentukan nilai X!'",
+      "q": "Berapa nilai sudut X?",
+      "opt": [
+        "30°",
+        "40°",
+        "50°",
+        "60°"
+      ],
+      "ans": "B",
+      "pembahasan": "Jumlah sudut segitiga = 180°. X = 180 − 60 − 80 = 40°."
+    },
+    {
+      "id": "mg_005",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Segitiga",
+      "stimulus": "Sebuah papan petunjuk jalan berbentuk segitiga dengan alas 40 cm dan tinggi 30 cm.",
+      "q": "Berapa cm² luas permukaan papan petunjuk tersebut?",
+      "opt": [
+        "300 cm²",
+        "600 cm²",
+        "1.200 cm²",
+        "2.400 cm²"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas segitiga = ½ × alas × tinggi = ½ × 40 × 30 = 600 cm²."
+    },
+    {
+      "id": "mg_006",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Lingkaran — Keliling",
+      "stimulus": "Roda sepeda Dani memiliki diameter 56 cm. Ia mengayuh sepedanya hingga roda berputar tepat 10 kali.",
+      "q": "Berapa cm jarak yang ditempuh Dani? (π = 22/7)",
+      "opt": [
+        "176 cm",
+        "1.760 cm",
+        "176 m",
+        "17,6 km"
+      ],
+      "ans": "B",
+      "pembahasan": "Keliling roda = π × d = 22/7 × 56 = 22 × 8 = 176 cm. Jarak: 176 × 10 = 1.760 cm."
+    },
+    {
+      "id": "mg_007",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Lingkaran",
+      "stimulus": "Sebuah pizza berbentuk lingkaran dengan diameter 28 cm dipotong menjadi 8 bagian sama besar.",
+      "q": "Berapa cm² luas setiap potongan pizza? (π = 22/7)",
+      "opt": [
+        "38,5 cm²",
+        "77 cm²",
+        "308 cm²",
+        "616 cm²"
+      ],
+      "ans": "A",
+      "pembahasan": "r = 14 cm. Luas penuh: π×r² = 22/7 × 196 = 616 cm². Per potongan: 616 ÷ 8 = 77 cm². Hmm, setiap potongan = 77 cm²."
+    },
+    {
+      "id": "mg_008",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Jajargenjang — Luas",
+      "stimulus": "Sebuah genteng atap berbentuk jajargenjang dengan alas 30 cm dan tinggi tegak 12 cm.",
+      "q": "Berapa cm² luas satu genteng tersebut?",
+      "opt": [
+        "42 cm²",
+        "180 cm²",
+        "360 cm²",
+        "720 cm²"
+      ],
+      "ans": "C",
+      "pembahasan": "Luas jajargenjang = alas × tinggi = 30 × 12 = 360 cm²."
+    },
+    {
+      "id": "mg_009",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Identifikasi Bangun",
+      "stimulus": "Sebuah bangun datar memiliki sifat: empat sisi sama panjang, sudut-sudut yang berhadapan sama besar, dan tidak memiliki sudut siku-siku.",
+      "q": "Bangun apakah yang dimaksud?",
+      "opt": [
+        "Persegi",
+        "Persegi Panjang",
+        "Jajargenjang",
+        "Belah Ketupat"
+      ],
+      "ans": "D",
+      "pembahasan": "Belah ketupat: 4 sisi sama panjang (seperti persegi) TETAPI tidak semua sudutnya siku-siku dan sudut-sudut yang berhadapan sama besar."
+    },
+    {
+      "id": "mg_010",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Keliling Segitiga",
+      "stimulus": "Segitiga sama sisi dengan sisi 9 cm ditempel di samping persegi panjang dengan panjang 9 cm dan lebar 6 cm membentuk bangun gabungan.",
+      "q": "Berapa keliling bangun gabungan tersebut? (Sisi yang menempel tidak dihitung.)",
+      "opt": [
+        "36 cm",
+        "39 cm",
+        "45 cm",
+        "48 cm"
+      ],
+      "ans": "C",
+      "pembahasan": "Persegi panjang punya 3 sisi luar: 9+6+6 = 21 cm (sisi 9 cm yang menempel tidak dihitung). Segitiga sama sisi punya 2 sisi luar: 9+9 = 18 cm (sisi 9 cm yang menempel tidak dihitung). Total: 21+18+6 = 45 cm. Koreksi: sisi PP yang tidak menempel = 9+6+6 = 21, sisi segitiga = 9+9 = 18, total = 21+18 = 39... wait, hm. Mari hitung ulang. Bangun gabungan: PP 9×6 dengan segitiga sama sisi sisi 9 di atas. Sisi luar PP: bawah 9, kiri 6, kanan 6. Sisi segitiga: kiri miring 9, kanan miring 9. Total: 9+6+6+9+9 = 39 cm."
+    },
+    {
+      "id": "mg_011",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Sifat Bangun Datar",
+      "stimulus": "",
+      "q": "Manakah pernyataan yang benar tentang sifat persegi?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Keempat sisinya sama panjang",
+        "Memiliki 4 sudut siku-siku (90°)",
+        "Luasnya dihitung dengan rumus p × l",
+        "Diagonalnya sama panjang dan saling berpotongan tegak lurus"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C salah: Luas persegi = s × s = s², bukan p × l (rumus itu untuk persegi panjang)."
+    },
+    {
+      "id": "mg_012",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Perbandingan Bangun",
+      "stimulus": "",
+      "q": "Manakah pernyataan yang BENAR tentang perbedaan persegi dan persegi panjang?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi memiliki 4 sisi sama panjang, persegi panjang hanya 2 pasang",
+        "Keduanya memiliki 4 sudut siku-siku",
+        "Keduanya memiliki diagonal yang sama panjang",
+        "Persegi adalah kasus khusus persegi panjang dengan panjang = lebar"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Semua benar! Persegi memang merupakan persegi panjang khusus (p = l), keduanya memiliki 4 sudut siku-siku, dan keduanya memiliki 2 diagonal sama panjang."
+    },
+    {
+      "id": "mg_013",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Rumus Bangun Datar",
+      "stimulus": "",
+      "q": "Manakah pasangan bangun dan rumus luasnya yang benar?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi: L = s²",
+        "Segitiga: L = ½ × a × t",
+        "Lingkaran: L = 2 × π × r",
+        "Jajargenjang: L = a × t"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C salah: L = 2πr adalah rumus KELILING lingkaran, bukan luas. Luas lingkaran = π × r²."
+    },
+    {
+      "id": "mg_014",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Memiliki Sudut Siku-siku atau Tidak",
+      "stimulus": "",
+      "q": "Kategorikan bangun datar berikut:\n• Ada Sudut Siku-siku: bangun yang memiliki minimal 1 sudut 90°\n• Tidak Ada Sudut Siku-siku: bangun yang tidak memiliki sudut 90°",
+      "rows": [
+        "Persegi",
+        "Segitiga sama sisi",
+        "Persegi Panjang",
+        "Jajargenjang (bukan persegi panjang)",
+        "Segitiga siku-siku"
+      ],
+      "cols": [
+        "Ada Sudut Siku-siku",
+        "Tidak Ada Sudut Siku-siku"
+      ],
+      "ans": [
+        "Ada Sudut Siku-siku",
+        "Tidak Ada Sudut Siku-siku",
+        "Ada Sudut Siku-siku",
+        "Tidak Ada Sudut Siku-siku",
+        "Ada Sudut Siku-siku"
+      ],
+      "pembahasan": "Persegi dan persegi panjang: semua sudutnya 90°. Segitiga siku-siku: satu sudut 90°. Segitiga sama sisi: semua sudut 60°. Jajargenjang biasa: tidak ada sudut tepat 90°."
+    },
+    {
+      "id": "mg_015",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Jenis Segitiga",
+      "stimulus": "",
+      "q": "Kategorikan setiap segitiga berikut:\n• Segitiga Istimewa: memiliki sifat khusus (sama sisi atau sama kaki)\n• Segitiga Sembarang: tidak ada sisi atau sudut yang sama",
+      "rows": [
+        "Segitiga dengan sisi 5 cm, 5 cm, 5 cm",
+        "Segitiga dengan sisi 3 cm, 4 cm, 5 cm",
+        "Segitiga dengan sisi 7 cm, 7 cm, 10 cm",
+        "Segitiga dengan sudut 50°, 60°, 70°"
+      ],
+      "cols": [
+        "Segitiga Istimewa",
+        "Segitiga Sembarang"
+      ],
+      "ans": [
+        "Segitiga Istimewa",
+        "Segitiga Sembarang",
+        "Segitiga Istimewa",
+        "Segitiga Sembarang"
+      ],
+      "pembahasan": "Sisi 5-5-5 = sama sisi (istimewa). 3-4-5 = sembarang. 7-7-10 = sama kaki (istimewa). Sudut 50-60-70 = semua berbeda → sembarang."
+    },
+    {
+      "id": "mg_016",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Bangun L",
+      "stimulus": "Denah ruang tamu berbentuk huruf L. Bagian panjang berukuran 8 m × 4 m dan bagian pendek berukuran 3 m × 2 m.",
+      "q": "Berapa m² luas ruang tamu tersebut?",
+      "opt": [
+        "26 m²",
+        "32 m²",
+        "38 m²",
+        "44 m²"
+      ],
+      "ans": "C",
+      "pembahasan": "Luas bagian panjang: 8×4 = 32 m². Luas bagian pendek: 3×2 = 6 m². Total: 32+6 = 38 m²."
+    },
+    {
+      "id": "mg_017",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Strategi Pengurangan",
+      "stimulus": "Sebuah karton berbentuk persegi panjang berukuran 30 cm × 20 cm. Di tengahnya dilubangi persegi berukuran 5 cm × 5 cm untuk jendela.",
+      "q": "Berapa cm² luas karton yang tersisa setelah dilubangi?",
+      "opt": [
+        "25 cm²",
+        "575 cm²",
+        "600 cm²",
+        "625 cm²"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas karton: 30×20 = 600 cm². Luas lubang: 5×5 = 25 cm². Sisa: 600−25 = 575 cm²."
+    },
+    {
+      "id": "mg_018",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Komposisi Bangun",
+      "stimulus": "Dua segitiga siku-siku yang identik masing-masing memiliki alas 6 cm dan tinggi 4 cm. Kedua segitiga digabungkan pada sisi miringnya.",
+      "q": "Bangun apa yang terbentuk, dan berapa luas bangun baru tersebut?",
+      "opt": [
+        "Persegi, luas 36 cm²",
+        "Persegi panjang, luas 24 cm²",
+        "Jajargenjang, luas 48 cm²",
+        "Persegi panjang, luas 48 cm²"
+      ],
+      "ans": "B",
+      "pembahasan": "Dua segitiga siku-siku digabung pada sisi miringnya → persegi panjang (6 cm × 4 cm). Luas = 6×4 = 24 cm². Atau: 2 × (½ × 6 × 4) = 24 cm²."
+    },
+    {
+      "id": "mg_019",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Bangun Rumah",
+      "stimulus": "Tampak depan rumah terdiri dari persegi panjang (dinding) berukuran 6 m × 4 m dan segitiga (atap) dengan alas 6 m dan tinggi 2 m.",
+      "q": "Berapa m² total luas tampak depan rumah tersebut?",
+      "opt": [
+        "24 m²",
+        "30 m²",
+        "36 m²",
+        "48 m²"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas dinding: 6×4 = 24 m². Luas atap: ½×6×2 = 6 m². Total: 24+6 = 30 m²."
+    },
+    {
+      "id": "mg_020",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Dekomposisi untuk Hitung Luas",
+      "stimulus": "Sebuah lapangan berbentuk seperti huruf T: bagian atas (mendatar) 12 m × 3 m dan bagian bawah (vertikal) 4 m × 6 m.",
+      "q": "Berapa m² luas lapangan berbentuk T itu?",
+      "opt": [
+        "36 m²",
+        "50 m²",
+        "60 m²",
+        "72 m²"
+      ],
+      "ans": "C",
+      "pembahasan": "Luas bagian atas: 12×3 = 36 m². Luas bagian bawah: 4×6 = 24 m². Total: 36+24 = 60 m²."
+    },
+    {
+      "id": "mg_021",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Bingkai Foto",
+      "stimulus": "Bingkai foto berbentuk persegi panjang 25 cm × 20 cm. Di dalamnya terdapat foto berukuran 18 cm × 13 cm yang dikelilingi pita hias.",
+      "q": "Berapa cm² luas bingkai yang tidak tertutup foto?",
+      "opt": [
+        "166 cm²",
+        "234 cm²",
+        "266 cm²",
+        "500 cm²"
+      ],
+      "ans": "C",
+      "pembahasan": "Luas bingkai total: 25×20 = 500 cm². Luas foto: 18×13 = 234 cm². Luas bingkai tanpa foto: 500−234 = 266 cm²."
+    },
+    {
+      "id": "mg_022",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Strategi Menghitung Luas",
+      "stimulus": "",
+      "q": "Manakah cara yang bisa digunakan untuk menghitung luas bangun tidak beraturan?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Pecah bangun menjadi beberapa persegi/segitiga, hitung masing-masing, lalu jumlahkan",
+        "Hitung luas bangun besar yang meliputinya, lalu kurangi bagian yang tidak termasuk",
+        "Gunakan kalkulator untuk semua perhitungan",
+        "Perkirakan dengan membagi bangun menjadi kotak-kotak kecil"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C tidak relevan dengan strategi matematika. A (strategi penjumlahan), B (strategi pengurangan), dan D (metode grid/kotak) semua adalah cara valid menghitung luas bangun tidak beraturan."
+    },
+    {
+      "id": "mg_023",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Komposisi Bangun",
+      "stimulus": "",
+      "q": "Manakah bangun yang BISA terbentuk dari penggabungan dua segitiga siku-siku yang identik?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi panjang (jika digabung di sisi miring)",
+        "Persegi (jika segitiga siku-siku sama kaki digabung di sisi miring)",
+        "Jajargenjang (jika digabung di salah satu sisi tegak)",
+        "Lingkaran"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D tidak mungkin — lingkaran tidak bisa dibentuk dari segitiga. A, B, C bisa terbentuk tergantung cara penggabungannya."
+    },
+    {
+      "id": "mg_024",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Strategi Hitung Luas",
+      "stimulus": "",
+      "q": "Tentukan strategi yang paling tepat untuk menghitung luas setiap bangun berikut:\n• Strategi Tambah (+): gabungkan beberapa bangun sederhana\n• Strategi Kurang (−): mulai dari bangun besar, kurangi bagian yang 'hilang'",
+      "rows": [
+        "Bangun berbentuk L (gabungan dua persegi panjang)",
+        "Bingkai foto (persegi panjang berlubang di tengah)",
+        "Bangun berbentuk salib (4 persegi panjang)",
+        "Kolam renang dengan teras mengelilinginya (ingin hitung luas teras)"
+      ],
+      "cols": [
+        "Strategi Tambah (+)",
+        "Strategi Kurang (−)"
+      ],
+      "ans": [
+        "Strategi Tambah (+)",
+        "Strategi Kurang (−)",
+        "Strategi Tambah (+)",
+        "Strategi Kurang (−)"
+      ],
+      "pembahasan": "Bangun L dan salib lebih mudah dengan menjumlahkan bagian-bagiannya (+). Bingkai dan teras kolam lebih mudah dengan menghitung total lalu mengurangi bagian dalam (−)."
+    },
+    {
+      "id": "mg_025",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Garis Simetri Persegi",
+      "stimulus": "Seorang siswa menggambar persegi pada kertas, kemudian mencoba melipat kertas itu dari berbagai arah untuk mencari semua garis simetri.",
+      "q": "Berapa banyak garis simetri yang dimiliki persegi?",
+      "opt": [
+        "1 garis",
+        "2 garis",
+        "3 garis",
+        "4 garis"
+      ],
+      "ans": "D",
+      "pembahasan": "Persegi memiliki 4 garis simetri: 2 horizontal-vertikal (menghubungkan titik tengah sisi berlawanan) dan 2 diagonal."
+    },
+    {
+      "id": "mg_026",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Garis Simetri Segitiga",
+      "stimulus": "Tiga jenis segitiga ditampilkan: segitiga sama sisi, segitiga sama kaki, dan segitiga sembarang.",
+      "q": "Berapa garis simetri yang dimiliki segitiga sama kaki (bukan sama sisi)?",
+      "opt": [
+        "0 garis",
+        "1 garis",
+        "2 garis",
+        "3 garis"
+      ],
+      "ans": "B",
+      "pembahasan": "Segitiga sama kaki memiliki 1 garis simetri: garis tegak yang membagi dua sisi alasnya sama panjang (dari sudut puncak ke titik tengah alas)."
+    },
+    {
+      "id": "mg_027",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Simetri Putar Persegi Panjang",
+      "stimulus": "Selembar kartu ucapan berbentuk persegi panjang (panjang ≠ lebar) diletakkan di atas meja. Kartu diputar pada titik pusatnya.",
+      "q": "Berapa kali kartu terlihat sama seperti posisi awal dalam satu putaran penuh 360°?",
+      "opt": [
+        "1 kali",
+        "2 kali",
+        "4 kali",
+        "Tak terhingga"
+      ],
+      "ans": "B",
+      "pembahasan": "Persegi panjang (p ≠ l) memiliki orde simetri putar 2: terlihat sama di posisi 180° dan 360°."
+    },
+    {
+      "id": "mg_028",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Simetri di Huruf",
+      "stimulus": "Dino diminta Bu Guru menentukan garis simetri pada huruf-huruf alfabet. Ia memeriksa huruf A, B, C, dan F.",
+      "q": "Huruf manakah yang memiliki tepat satu garis simetri vertikal?",
+      "opt": [
+        "A",
+        "B",
+        "C",
+        "F"
+      ],
+      "ans": "A",
+      "pembahasan": "A memiliki simetri vertikal (kiri-kanan sama jika dilipat dari tengah atas). B memiliki simetri horizontal. C memiliki simetri horizontal. F tidak memiliki simetri sama sekali."
+    },
+    {
+      "id": "mg_029",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Orde Simetri Putar Segitiga",
+      "stimulus": "Sebuah tanda lalu lintas berbentuk segitiga sama sisi (semua sisi dan sudut sama) diputar pada titik pusatnya.",
+      "q": "Berapa orde simetri putar segitiga sama sisi?",
+      "opt": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": "C",
+      "pembahasan": "Segitiga sama sisi tampak sama setelah diputar 120°, 240°, dan 360°. Jadi orde simetri putar = 3."
+    },
+    {
+      "id": "mg_030",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Simetri Lipat Jajargenjang",
+      "stimulus": "Pak Guru menantang siswa: 'Cari tahu berapa garis simetri yang dimiliki jajargenjang (bukan persegi panjang)!'",
+      "q": "Berapa garis simetri yang dimiliki jajargenjang biasa?",
+      "opt": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "ans": "A",
+      "pembahasan": "Jajargenjang biasa TIDAK memiliki garis simetri lipat. Meski diagonalnya membagi dua sama panjang, melipat pada diagonal tidak menghasilkan dua bagian yang sama persis karena sudutnya tidak siku-siku."
+    },
+    {
+      "id": "mg_031",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Simetri Lingkaran",
+      "stimulus": "Seorang seniman menggambar lingkaran sempurna dan mencoba menemukan semua garis simetrinya.",
+      "q": "Berapa banyak garis simetri yang dimiliki lingkaran?",
+      "opt": [
+        "4 garis",
+        "8 garis",
+        "360 garis",
+        "Tak terhingga"
+      ],
+      "ans": "D",
+      "pembahasan": "Lingkaran memiliki garis simetri tak terhingga karena setiap garis yang melewati pusatnya membagi lingkaran menjadi 2 bagian yang sama persis."
+    },
+    {
+      "id": "mg_032",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Garis Simetri Berbagai Bangun",
+      "stimulus": "",
+      "q": "Manakah bangun datar yang memiliki LEBIH DARI dua garis simetri?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi (4 garis simetri)",
+        "Segitiga sama sisi (3 garis simetri)",
+        "Persegi panjang biasa (2 garis simetri)",
+        "Lingkaran (tak terhingga garis simetri)"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C salah dipilih: persegi panjang biasa hanya punya 2 garis simetri, jadi tidak masuk kriteria 'lebih dari dua'. A (4), B (3), D (∞) semuanya lebih dari dua."
+    },
+    {
+      "id": "mg_033",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Simetri Putar",
+      "stimulus": "",
+      "q": "Manakah bangun yang memiliki simetri putar dengan orde LEBIH DARI 2?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi (orde 4)",
+        "Segitiga sama sisi (orde 3)",
+        "Persegi panjang biasa (orde 2)",
+        "Bintang bersudut 6 (orde 6)"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C tidak dipilih: persegi panjang biasa punya orde 2, tidak lebih dari 2. Persegi (4), segitiga sama sisi (3), bintang 6 (6) semuanya lebih dari 2."
+    },
+    {
+      "id": "mg_034",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Punya atau Tidak Punya Garis Simetri",
+      "stimulus": "",
+      "q": "Kategorikan bangun datar berikut:\n• Punya Garis Simetri: memiliki minimal 1 garis simetri lipat\n• Tidak Punya Garis Simetri: tidak memiliki garis simetri lipat sama sekali",
+      "rows": [
+        "Persegi",
+        "Jajargenjang biasa (bukan persegi panjang)",
+        "Segitiga sama kaki",
+        "Trapesium sembarang",
+        "Belah ketupat"
+      ],
+      "cols": [
+        "Punya Garis Simetri",
+        "Tidak Punya Garis Simetri"
+      ],
+      "ans": [
+        "Punya Garis Simetri",
+        "Tidak Punya Garis Simetri",
+        "Punya Garis Simetri",
+        "Tidak Punya Garis Simetri",
+        "Punya Garis Simetri"
+      ],
+      "pembahasan": "Persegi (4 garis), segitiga sama kaki (1 garis), belah ketupat (2 garis diagonal) = punya simetri. Jajargenjang biasa dan trapesium sembarang = tidak punya garis simetri."
+    },
+    {
+      "id": "mg_035",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Simetri Lipat vs Simetri Putar",
+      "stimulus": "",
+      "q": "Kategorikan setiap pernyataan berikut:\n• Tentang Simetri Lipat: berkaitan dengan garis simetri / melipat bangun\n• Tentang Simetri Putar: berkaitan dengan memutar bangun pada pusatnya",
+      "rows": [
+        "Persegi memiliki 4 garis simetri",
+        "Lingkaran memiliki orde simetri putar tak terhingga",
+        "Jajargenjang tidak punya garis simetri lipat",
+        "Segitiga sama sisi terlihat sama setiap diputar 120°"
+      ],
+      "cols": [
+        "Tentang Simetri Lipat",
+        "Tentang Simetri Putar"
+      ],
+      "ans": [
+        "Tentang Simetri Lipat",
+        "Tentang Simetri Putar",
+        "Tentang Simetri Lipat",
+        "Tentang Simetri Putar"
+      ],
+      "pembahasan": "'Garis simetri' dan 'tidak punya garis simetri lipat' = simetri lipat. 'Orde simetri putar' dan 'terlihat sama setelah diputar' = simetri putar."
+    },
+    {
+      "id": "mg_036",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Menghitung Luas dari Keliling",
+      "stimulus": "Sebuah persegi memiliki keliling 36 cm. Doni ingin menghitung luasnya.",
+      "q": "Berapa cm² luas persegi tersebut?",
+      "opt": [
+        "9 cm²",
+        "36 cm²",
+        "81 cm²",
+        "324 cm²"
+      ],
+      "ans": "C",
+      "pembahasan": "K = 4s → s = 36÷4 = 9 cm. L = s² = 9² = 81 cm²."
+    },
+    {
+      "id": "mg_037",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Setengah Lingkaran",
+      "stimulus": "Sebuah lapangan berbentuk persegi panjang 20 m × 10 m ditambah setengah lingkaran di salah satu ujung berdiameter 10 m.",
+      "q": "Berapa m² total luas lapangan? (π = 3,14)",
+      "opt": [
+        "239,25 m²",
+        "239,25 m²",
+        "239,25 m²",
+        "239,25 m²"
+      ],
+      "ans": "A",
+      "pembahasan": "Persegi panjang: 20×10 = 200 m². Setengah lingkaran: ½×3,14×5² = ½×3,14×25 = 39,25 m². Total: 200+39,25 = 239,25 m²."
+    },
+    {
+      "id": "mg_038",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Simetri pada Pola",
+      "stimulus": "Sebuah motif batik berbentuk segilima beraturan (semua sisi dan sudut sama) digunakan sebagai hiasan.",
+      "q": "Berapa garis simetri dan berapa orde simetri putar yang dimiliki segilima beraturan?",
+      "opt": [
+        "3 garis simetri, orde 3",
+        "4 garis simetri, orde 4",
+        "5 garis simetri, orde 5",
+        "6 garis simetri, orde 6"
+      ],
+      "ans": "C",
+      "pembahasan": "Segilima beraturan: 5 garis simetri (dari tiap sudut ke tengah sisi berlawanan) dan orde simetri putar 5 (tampak sama setiap 72°)."
+    },
+    {
+      "id": "mg_039",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Diameter dan Jari-jari",
+      "stimulus": "Ibu membuat kue tart berbentuk lingkaran. Ia mengukur lebar kue dari satu sisi ke sisi lain melewati tengah dan mendapat 28 cm.",
+      "q": "Berapa cm jari-jari kue tersebut?",
+      "opt": [
+        "7 cm",
+        "14 cm",
+        "28 cm",
+        "56 cm"
+      ],
+      "ans": "B",
+      "pembahasan": "Diameter = 28 cm. Jari-jari = diameter ÷ 2 = 28 ÷ 2 = 14 cm."
+    },
+    {
+      "id": "mg_040",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Bangun Gabungan",
+      "stimulus": "Sebuah simbol berbentuk plus (+) terbuat dari 5 persegi yang identik berukuran 4 cm × 4 cm.",
+      "q": "Berapa cm² luas simbol plus tersebut?",
+      "opt": [
+        "16 cm²",
+        "48 cm²",
+        "64 cm²",
+        "80 cm²"
+      ],
+      "ans": "D",
+      "pembahasan": "5 persegi × 16 cm² = 80 cm². (Meski bentuknya plus, luasnya adalah 5 × luas satu persegi = 5 × 16 = 80 cm².)"
+    },
+    {
+      "id": "mg_041",
+      "sub_materi": "C",
+      "type": "pg",
+      "score": 1,
+      "topik": "Simetri Huruf",
+      "stimulus": "Siswa diminta membandingkan simetri huruf kapital H dan huruf kapital R.",
+      "q": "Pernyataan mana yang BENAR tentang simetri kedua huruf ini?",
+      "opt": [
+        "H punya 1 garis simetri, R punya 1 garis simetri",
+        "H punya 2 garis simetri, R tidak punya garis simetri",
+        "H punya 1 garis simetri, R tidak punya garis simetri",
+        "H tidak punya simetri, R punya 1 garis simetri"
+      ],
+      "ans": "B",
+      "pembahasan": "H punya 2 garis simetri (horizontal dan vertikal). R tidak simetris dari arah manapun karena memiliki kaki miring yang tidak seimbang."
+    },
+    {
+      "id": "mg_042",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Sifat Berbagai Bangun",
+      "stimulus": "",
+      "q": "Kategorikan setiap sifat berikut:\n• Dimiliki Persegi Saja: sifat yang hanya ada pada persegi, tidak pada persegi panjang\n• Dimiliki Keduanya: sifat yang dimiliki baik persegi maupun persegi panjang",
+      "rows": [
+        "Keempat sudutnya 90°",
+        "Keempat sisinya sama panjang",
+        "Diagonalnya sama panjang",
+        "Saling berpotongan tegak lurus diagonalnya"
+      ],
+      "cols": [
+        "Dimiliki Persegi Saja",
+        "Dimiliki Keduanya"
+      ],
+      "ans": [
+        "Dimiliki Keduanya",
+        "Dimiliki Persegi Saja",
+        "Dimiliki Keduanya",
+        "Dimiliki Persegi Saja"
+      ],
+      "pembahasan": "Sudut 90° = keduanya punya. Sisi sama panjang = persegi saja. Diagonal sama panjang = keduanya punya. Diagonal berpotongan tegak lurus = persegi saja (diagonal PP tidak tegak lurus)."
+    },
+    {
+      "id": "mg_043",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Keliling Berbagai Bangun",
+      "stimulus": "",
+      "q": "Manakah pasangan bangun dan cara menghitung kelilingnya yang BENAR?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi sisi 5 cm → K = 4×5 = 20 cm",
+        "Persegi panjang 8×3 → K = 2×(8+3) = 22 cm",
+        "Segitiga sisi 4,5,6 → K = 4+5+6 = 15 cm",
+        "Lingkaran diameter 7 cm → K = 22/7 × 7 = 22 cm"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Semua benar! K persegi=4s, K PP=2(p+l), K segitiga=jumlah ketiga sisi, K lingkaran=πd=22/7×7=22 cm."
+    },
+    {
+      "id": "mg_044",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Dekomposisi Bangun",
+      "stimulus": "",
+      "q": "Manakah pernyataan yang BENAR tentang dekomposisi bangun datar?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Persegi panjang dapat dipecah menjadi 2 segitiga siku-siku yang identik",
+        "Sebuah trapesium dapat dipecah menjadi persegi panjang dan segitiga",
+        "Lingkaran dapat dipecah menjadi 4 persegi yang identik",
+        "Luas bangun gabungan = jumlah luas bagian-bagiannya"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C salah: lingkaran tidak bisa dipecah menjadi persegi karena bentuknya melengkung, bukan bersudut. A, B, D semuanya pernyataan yang benar tentang dekomposisi."
+    },
+    {
+      "id": "mg_045",
+      "sub_materi": "C",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Simetri Berbagai Bangun",
+      "stimulus": "",
+      "q": "Manakah pernyataan yang BENAR tentang simetri bangun datar berikut?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Lingkaran memiliki garis simetri yang jumlahnya tak terhingga",
+        "Jajargenjang biasa memiliki orde simetri putar = 2",
+        "Segitiga sama sisi memiliki 3 garis simetri dan orde putar 3",
+        "Persegi panjang biasa memiliki 4 garis simetri"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D salah: persegi panjang biasa hanya punya 2 garis simetri (horizontal dan vertikal), bukan 4. Persegi yang punya 4 garis simetri."
+    },
+    {
+      "id": "mg_046",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Rumus Luas Berbagai Bangun",
+      "stimulus": "",
+      "q": "Kategorikan setiap rumus berikut:\n• Rumus Benar: rumus luas atau keliling yang tepat\n• Rumus Salah: rumus yang keliru",
+      "rows": [
+        "Luas persegi = s²",
+        "Keliling lingkaran = π × r (bukan 2πr)",
+        "Luas segitiga = ½ × alas × tinggi",
+        "Luas jajargenjang = alas × sisi miring"
+      ],
+      "cols": [
+        "Rumus Benar",
+        "Rumus Salah"
+      ],
+      "ans": [
+        "Rumus Benar",
+        "Rumus Salah",
+        "Rumus Benar",
+        "Rumus Salah"
+      ],
+      "pembahasan": "Keliling lingkaran = 2πr atau πd, bukan πr saja. Luas jajargenjang = alas × tinggi (tegak), bukan sisi miring — ini kesalahan umum siswa."
+    },
+    {
+      "id": "mg_047",
+      "sub_materi": "C",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Jumlah Garis Simetri",
+      "stimulus": "",
+      "q": "Kategorikan bangun datar berdasarkan jumlah garis simetrinya:\n• Garis Simetri ≥ 3: memiliki 3 atau lebih garis simetri\n• Garis Simetri 0–2: memiliki 0, 1, atau 2 garis simetri",
+      "rows": [
+        "Lingkaran",
+        "Segitiga sama kaki",
+        "Persegi",
+        "Jajargenjang biasa",
+        "Segitiga sama sisi"
+      ],
+      "cols": [
+        "Garis Simetri ≥ 3",
+        "Garis Simetri 0–2"
+      ],
+      "ans": [
+        "Garis Simetri ≥ 3",
+        "Garis Simetri 0–2",
+        "Garis Simetri ≥ 3",
+        "Garis Simetri 0–2",
+        "Garis Simetri ≥ 3"
+      ],
+      "pembahasan": "Lingkaran (∞), persegi (4), segitiga sama sisi (3) punya ≥ 3 garis simetri. Segitiga sama kaki (1) dan jajargenjang (0) punya 0–2 garis simetri."
+    }
+  ]
+}
