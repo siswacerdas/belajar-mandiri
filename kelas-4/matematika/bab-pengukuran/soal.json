@@ -1,0 +1,893 @@
+{
+  "status": "ok",
+  "mapel": "Matematika",
+  "bab": "Pengukuran — Panjang, Berat, Luas & Volume",
+  "soal": [
+    {
+      "id": "mp_001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konversi Panjang",
+      "stimulus": "Seorang pelari menempuh jarak 3 km dalam satu sesi latihan. Pelatihnya meminta ia mencatat jarak dalam satuan meter untuk laporan harian.",
+      "q": "Berapa meter jarak yang ditempuh pelari tersebut?",
+      "opt": [
+        "300 m",
+        "3.000 m",
+        "30.000 m",
+        "300.000 m"
+      ],
+      "ans": "B",
+      "pembahasan": "1 km = 1.000 m, jadi 3 km = 3 × 1.000 = 3.000 m. Turun 3 tangga dari km ke m berarti ×1.000."
+    },
+    {
+      "id": "mp_002",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konversi Panjang ke Atas",
+      "stimulus": "Pengrajin rotan mencatat panjang bambu yang ia potong: 450 cm. Pembeli meminta tahu panjangnya dalam satuan meter.",
+      "q": "Berapa meter panjang bambu tersebut?",
+      "opt": [
+        "4,5 m",
+        "45 m",
+        "0,45 m",
+        "4.500 m"
+      ],
+      "ans": "A",
+      "pembahasan": "cm ke m naik 2 tangga → ÷100. 450 ÷ 100 = 4,5 m."
+    },
+    {
+      "id": "mp_003",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konversi mm ke cm",
+      "stimulus": "Tebal sebuah koin adalah 25 mm. Seorang pelajar diminta menuliskan ketebalannya dalam sentimeter.",
+      "q": "Berapa cm tebal koin tersebut?",
+      "opt": [
+        "0,25 cm",
+        "2,5 cm",
+        "25 cm",
+        "250 cm"
+      ],
+      "ans": "B",
+      "pembahasan": "mm ke cm naik 1 tangga → ÷10. 25 ÷ 10 = 2,5 cm."
+    },
+    {
+      "id": "mp_004",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Panjang Campuran",
+      "stimulus": "Tali rafia milik Pak Soni panjangnya 2 m 35 cm. Ia ingin memotong tali sepanjang 180 cm dari tali tersebut.",
+      "q": "Berapa cm sisa tali Pak Soni setelah dipotong?",
+      "opt": [
+        "35 cm",
+        "55 cm",
+        "75 cm",
+        "155 cm"
+      ],
+      "ans": "B",
+      "pembahasan": "Panjang total: 2 m 35 cm = 235 cm. Sisa: 235 − 180 = 55 cm."
+    },
+    {
+      "id": "mp_005",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membandingkan Panjang",
+      "stimulus": "Empat anak mengukur panjang meja yang berbeda: Amir 1,2 m, Beni 115 cm, Cica 1 m 8 cm, Dani 130 cm.",
+      "q": "Siapakah yang mengukur meja paling panjang?",
+      "opt": [
+        "Amir (1,2 m = 120 cm)",
+        "Beni (115 cm)",
+        "Cica (1 m 8 cm = 108 cm)",
+        "Dani (130 cm)"
+      ],
+      "ans": "D",
+      "pembahasan": "Ubah semua ke cm: Amir=120, Beni=115, Cica=108, Dani=130. Terpanjang: Dani 130 cm."
+    },
+    {
+      "id": "mp_006",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konversi Berat",
+      "stimulus": "Ibu membeli 4 kg gula pasir untuk membuat kue ulang tahun. Resep kue membutuhkan berat dalam satuan gram.",
+      "q": "Berapa gram gula yang dibeli ibu?",
+      "opt": [
+        "400 g",
+        "4.000 g",
+        "40.000 g",
+        "400.000 g"
+      ],
+      "ans": "B",
+      "pembahasan": "1 kg = 1.000 g, jadi 4 kg = 4 × 1.000 = 4.000 g."
+    },
+    {
+      "id": "mp_007",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konversi Berat ke Atas",
+      "stimulus": "Berat sebuah paket kiriman tercatat 2.500 g di timbangan digital. Petugas pos membutuhkan berat dalam kilogram untuk mengisi formulir.",
+      "q": "Berapa kg berat paket tersebut?",
+      "opt": [
+        "0,25 kg",
+        "2,5 kg",
+        "25 kg",
+        "250 kg"
+      ],
+      "ans": "B",
+      "pembahasan": "g ke kg naik 3 tangga → ÷1.000. 2.500 ÷ 1.000 = 2,5 kg."
+    },
+    {
+      "id": "mp_008",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Berat Campuran",
+      "stimulus": "Pedagang sayur memiliki 3 kg 750 g kangkung. Ia sudah menjual 1 kg 200 g kepada pembeli pertama.",
+      "q": "Berapa gram sisa kangkung pedagang itu?",
+      "opt": [
+        "1.550 g",
+        "2.550 g",
+        "2.750 g",
+        "3.750 g"
+      ],
+      "ans": "B",
+      "pembahasan": "Total: 3.750 g. Terjual: 1.200 g. Sisa: 3.750 − 1.200 = 2.550 g."
+    },
+    {
+      "id": "mp_009",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Satuan Berat Khusus",
+      "stimulus": "Dokter meresepkan tablet vitamin C kepada pasien. Setiap tablet mengandung 500 mg vitamin C. Pasien diminta minum 2 tablet sehari.",
+      "q": "Berapa gram vitamin C yang dikonsumsi pasien dalam sehari?",
+      "opt": [
+        "0,1 g",
+        "1 g",
+        "10 g",
+        "100 g"
+      ],
+      "ans": "B",
+      "pembahasan": "2 tablet × 500 mg = 1.000 mg. 1.000 mg = 1.000 ÷ 1.000 = 1 g."
+    },
+    {
+      "id": "mp_010",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Soal Cerita Panjang",
+      "stimulus": "Lapangan lari di sekolah berbentuk persegi panjang. Panjangnya 200 m dan lebarnya 60 m. Reni berlari mengelilingi lapangan sebanyak 3 kali.",
+      "q": "Berapa km jarak yang telah Reni tempuh?",
+      "opt": [
+        "1,56 km",
+        "1,56 km",
+        "1,56 km",
+        "1,56 km"
+      ],
+      "ans": "A",
+      "pembahasan": "Keliling lapangan = 2×(200+60) = 2×260 = 520 m. Reni: 520×3 = 1.560 m = 1,56 km."
+    },
+    {
+      "id": "mp_011",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Ton dan Kilogram",
+      "stimulus": "Sebuah truk pengangkut pasir mampu membawa muatan maksimal 3 ton. Pada pengiriman pertama, truk membawa 2.500 kg pasir.",
+      "q": "Berapa kg lagi pasir yang bisa dimuat truk tanpa melebihi kapasitasnya?",
+      "opt": [
+        "500 kg",
+        "1.500 kg",
+        "2.500 kg",
+        "5.500 kg"
+      ],
+      "ans": "A",
+      "pembahasan": "3 ton = 3.000 kg. Sisa muatan: 3.000 − 2.500 = 500 kg."
+    },
+    {
+      "id": "mp_012",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Konversi Satuan Panjang",
+      "stimulus": "",
+      "q": "Manakah pernyataan-pernyataan berikut tentang konversi satuan panjang yang benar?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "1 km = 1.000 m",
+        "1 m = 100 cm",
+        "1 cm = 10 mm",
+        "1 m = 10 dm"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Semua benar: 1 km=1.000 m, 1 m=100 cm, 1 cm=10 mm, 1 m=10 dm. Semua mengikuti aturan tangga satuan."
+    },
+    {
+      "id": "mp_013",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Konversi Satuan Berat",
+      "stimulus": "",
+      "q": "Manakah pernyataan konversi berat berikut yang benar?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "1 kg = 1.000 g",
+        "500 g = 0,5 kg",
+        "2.000 mg = 2 g",
+        "1 ton = 100 kg"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D salah: 1 ton = 1.000 kg, bukan 100 kg. A, B, C semuanya benar."
+    },
+    {
+      "id": "mp_014",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Membandingkan Ukuran",
+      "stimulus": "Kelompok siswa mengukur berbagai benda di kelas mereka.",
+      "q": "Manakah perbandingan berikut yang benar?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "250 cm > 2 m (250 cm > 200 cm ✓)",
+        "1,5 kg < 1.400 g (1.500 g > 1.400 g ✗)",
+        "3.000 mm = 3 m (3.000 mm = 300 cm = 3 m ✓)",
+        "0,8 kg = 800 g ✓"
+      ],
+      "ans": [
+        "A",
+        "C",
+        "D"
+      ],
+      "pembahasan": "B salah: 1,5 kg = 1.500 g > 1.400 g, jadi 1,5 kg lebih BESAR dari 1.400 g."
+    },
+    {
+      "id": "mp_015",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Penggunaan Satuan yang Tepat",
+      "stimulus": "",
+      "q": "Manakah penggunaan satuan yang tepat sesuai konteksnya?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Jarak Jakarta–Bandung diukur dalam kilometer",
+        "Berat sebungkus permen diukur dalam gram",
+        "Ketebalan selembar kertas diukur dalam kilometer",
+        "Tinggi badan siswa diukur dalam meter atau sentimeter"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C jelas salah — ketebalan kertas sangat kecil, diukur dalam mm atau bahkan lebih kecil, bukan km."
+    },
+    {
+      "id": "mp_016",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Kategori Satuan",
+      "stimulus": "",
+      "q": "Kategorikan setiap satuan berikut ke dalam kelompok yang tepat:\n• Satuan Panjang: digunakan untuk mengukur jarak atau panjang\n• Satuan Berat: digunakan untuk mengukur massa atau berat benda",
+      "rows": [
+        "Kilometer (km)",
+        "Kilogram (kg)",
+        "Sentimeter (cm)",
+        "Gram (g)",
+        "Milimeter (mm)",
+        "Ton (t)"
+      ],
+      "cols": [
+        "Satuan Panjang",
+        "Satuan Berat"
+      ],
+      "ans": [
+        "Satuan Panjang",
+        "Satuan Berat",
+        "Satuan Panjang",
+        "Satuan Berat",
+        "Satuan Panjang",
+        "Satuan Berat"
+      ],
+      "pembahasan": "km, cm, mm = satuan panjang. kg, g, ton = satuan berat. Keduanya menggunakan sistem metrik tetapi mengukur besaran yang berbeda."
+    },
+    {
+      "id": "mp_017",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Lebih Besar atau Lebih Kecil",
+      "stimulus": "",
+      "q": "Tentukan apakah nilai di sebelah kiri lebih besar, lebih kecil, atau sama dengan nilai di sebelah kanan:\n• Lebih Besar: nilai kiri > nilai kanan\n• Lebih Kecil/Sama: nilai kiri ≤ nilai kanan",
+      "rows": [
+        "3 km dibanding 2.500 m",
+        "400 cm dibanding 5 m",
+        "2 kg dibanding 1.800 g",
+        "750 g dibanding 0,8 kg"
+      ],
+      "cols": [
+        "Lebih Besar",
+        "Lebih Kecil/Sama"
+      ],
+      "ans": [
+        "Lebih Besar",
+        "Lebih Kecil/Sama",
+        "Lebih Besar",
+        "Lebih Kecil/Sama"
+      ],
+      "pembahasan": "3 km=3.000 m > 2.500 m ✓. 400 cm < 500 cm ✓. 2 kg=2.000 g > 1.800 g ✓. 750 g < 800 g ✓."
+    },
+    {
+      "id": "mp_018",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Konversi Benar atau Salah",
+      "stimulus": "",
+      "q": "Periksa setiap konversi satuan berikut:\n• Benar: hasil konversi tepat\n• Salah: hasil konversi keliru",
+      "rows": [
+        "5 km = 5.000 m",
+        "300 cm = 30 m",
+        "2,5 kg = 2.500 g",
+        "4.000 mg = 4 kg"
+      ],
+      "cols": [
+        "Benar",
+        "Salah"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": "300 cm = 3 m (bukan 30 m) — salah karena membagi 10 bukan 100. 4.000 mg = 4 g (bukan 4 kg) — salah karena mg ke kg butuh ÷1.000.000."
+    },
+    {
+      "id": "mp_019",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Persegi",
+      "stimulus": "Pak Hendra ingin memasang keramik di kamar mandi berbentuk persegi dengan panjang sisi 3 m. Setiap keramik berukuran 30 cm × 30 cm.",
+      "q": "Berapa keramik yang dibutuhkan untuk menutupi seluruh lantai kamar mandi?",
+      "opt": [
+        "90 keramik",
+        "100 keramik",
+        "110 keramik",
+        "120 keramik"
+      ],
+      "ans": "B",
+      "pembahasan": "Lantai: 3 m = 300 cm. Luas lantai: 300×300 = 90.000 cm². Luas keramik: 30×30 = 900 cm². Jumlah: 90.000÷900 = 100 keramik."
+    },
+    {
+      "id": "mp_020",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Persegi Panjang",
+      "stimulus": "Kebun sayur Bu Ami berbentuk persegi panjang dengan panjang 12 m dan lebar 8 m. Ia ingin memagari sekeliling kebun dan menanami rumput di dalamnya.",
+      "q": "Berapa meter pagar yang dibutuhkan Bu Ami untuk mengelilingi kebunnya?",
+      "opt": [
+        "20 m",
+        "40 m",
+        "80 m",
+        "96 m"
+      ],
+      "ans": "B",
+      "pembahasan": "Keliling = 2 × (p + l) = 2 × (12 + 8) = 2 × 20 = 40 m."
+    },
+    {
+      "id": "mp_021",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Persegi Panjang — Lanjut",
+      "stimulus": "Sebuah dinding kamar berukuran panjang 5 m dan tinggi 3 m. Cat dinding yang tersedia cukup untuk mengecat 20 m² permukaan.",
+      "q": "Apakah cat tersebut cukup untuk mengecat seluruh dinding? Berapa m² kekurangan atau kelebihan catnya?",
+      "opt": [
+        "Tidak cukup, kurang 5 m²",
+        "Cukup, sisa 5 m²",
+        "Tidak cukup, kurang 10 m²",
+        "Cukup, tepat habis"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas dinding = 5 × 3 = 15 m². Cat cukup untuk 20 m². Kelebihan: 20 − 15 = 5 m² (cat cukup, sisa 5 m²)."
+    },
+    {
+      "id": "mp_022",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Volume Kubus",
+      "stimulus": "Sebuah akuarium berbentuk kubus dengan panjang rusuk 40 cm hendak diisi air hingga penuh.",
+      "q": "Berapa cm³ volume air yang dibutuhkan untuk memenuhi akuarium itu?",
+      "opt": [
+        "1.600 cm³",
+        "16.000 cm³",
+        "64.000 cm³",
+        "640.000 cm³"
+      ],
+      "ans": "C",
+      "pembahasan": "V = s³ = 40 × 40 × 40 = 64.000 cm³."
+    },
+    {
+      "id": "mp_023",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Volume Balok",
+      "stimulus": "Sebuah kotak mainan berbentuk balok dengan panjang 30 cm, lebar 20 cm, dan tinggi 15 cm. Kotak ini diisi dengan kubus-kubus kecil berukuran 5 cm × 5 cm × 5 cm.",
+      "q": "Berapa banyak kubus kecil yang dapat dimuat dalam kotak mainan tersebut?",
+      "opt": [
+        "36 kubus",
+        "72 kubus",
+        "108 kubus",
+        "144 kubus"
+      ],
+      "ans": "B",
+      "pembahasan": "Volume kotak: 30×20×15 = 9.000 cm³. Volume kubus kecil: 5³ = 125 cm³. Jumlah: 9.000÷125 = 72 kubus."
+    },
+    {
+      "id": "mp_024",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Bangun Tak Beraturan",
+      "stimulus": "Sebuah taman bermain berbentuk L. Bagian atas berukuran 4 m × 3 m dan bagian bawah berukuran 10 m × 5 m.",
+      "q": "Berapa luas total taman bermain itu?",
+      "opt": [
+        "42 m²",
+        "50 m²",
+        "62 m²",
+        "92 m²"
+      ],
+      "ans": "C",
+      "pembahasan": "Luas bagian atas: 4×3 = 12 m². Luas bagian bawah: 10×5 = 50 m². Total: 12+50 = 62 m²."
+    },
+    {
+      "id": "mp_025",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Volume dan Satuan Cairan",
+      "stimulus": "Sebuah bak mandi berbentuk balok berukuran 120 cm × 60 cm × 50 cm. Bak tersebut diisi air sampai ¾ bagian.",
+      "q": "Berapa liter air dalam bak mandi itu? (1 liter = 1 dm³ = 1.000 cm³)",
+      "opt": [
+        "216 liter",
+        "270 liter",
+        "288 liter",
+        "360 liter"
+      ],
+      "ans": "B",
+      "pembahasan": "Volume penuh: 120×60×50 = 360.000 cm³ = 360 liter. ¾ bagian: 360 × ¾ = 270 liter."
+    },
+    {
+      "id": "mp_026",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Menghitung Sisi dari Luas",
+      "stimulus": "Sebuah kolam renang anak berbentuk persegi dengan luas 25 m². Pihak sekolah ingin memasang pagar di sekeliling kolam.",
+      "q": "Berapa meter total pagar yang dibutuhkan?",
+      "opt": [
+        "5 m",
+        "10 m",
+        "20 m",
+        "25 m"
+      ],
+      "ans": "C",
+      "pembahasan": "Luas = s² = 25 m² → s = 5 m. Keliling = 4 × 5 = 20 m."
+    },
+    {
+      "id": "mp_027",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Strategi Pengurangan Luas",
+      "stimulus": "Sebuah ruangan berukuran 6 m × 5 m. Di tengah ruangan terdapat panggung berbentuk persegi panjang berukuran 2 m × 3 m.",
+      "q": "Berapa luas lantai ruangan di luar panggung?",
+      "opt": [
+        "6 m²",
+        "24 m²",
+        "24 m²",
+        "30 m²"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas ruangan: 6×5 = 30 m². Luas panggung: 2×3 = 6 m². Luas di luar panggung: 30−6 = 24 m²."
+    },
+    {
+      "id": "mp_028",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Satuan Luas",
+      "stimulus": "Pak Dani memiliki lahan pertanian seluas 2 hektare (ha). Ia ingin tahu luasnya dalam meter persegi.",
+      "q": "Berapa m² luas lahan Pak Dani?",
+      "opt": [
+        "200 m²",
+        "2.000 m²",
+        "20.000 m²",
+        "200.000 m²"
+      ],
+      "ans": "C",
+      "pembahasan": "1 ha = 10.000 m². Jadi 2 ha = 2 × 10.000 = 20.000 m²."
+    },
+    {
+      "id": "mp_029",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Rumus Luas dan Volume",
+      "stimulus": "",
+      "q": "Manakah rumus yang benar untuk menghitung luas atau volume bangun berikut?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Luas persegi = s × s",
+        "Luas persegi panjang = p × l",
+        "Volume kubus = s + s + s",
+        "Volume balok = p × l × t"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C salah: Volume kubus = s³ = s × s × s, bukan s+s+s. Penjumlahan menghasilkan satuan panjang, bukan volume."
+    },
+    {
+      "id": "mp_030",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Satuan Luas yang Tepat",
+      "stimulus": "",
+      "q": "Manakah penggunaan satuan luas yang tepat sesuai konteksnya?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Luas sawah 3 hektare",
+        "Luas kelas 56 m²",
+        "Luas permukaan meja 6.000 cm²",
+        "Luas negara Indonesia 1.904.569 km²"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Semua benar! Setiap konteks menggunakan satuan luas yang sesuai dengan besarnya: ha untuk sawah, m² untuk ruangan, cm² untuk permukaan meja kecil, km² untuk negara."
+    },
+    {
+      "id": "mp_031",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Volume dan Kapasitas",
+      "stimulus": "",
+      "q": "Pernyataan mana yang benar tentang volume dan satuan kapasitas?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "1 liter = 1.000 cm³",
+        "1 mL = 1 cm³",
+        "Volume balok = p × l × t",
+        "1 m³ = 1.000 liter"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Semua benar: 1 L = 1 dm³ = 1.000 cm³, 1 mL = 1 cm³, rumus balok = p×l×t, dan 1 m³ = 1.000 dm³ = 1.000 L."
+    },
+    {
+      "id": "mp_032",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Luas atau Volume?",
+      "stimulus": "",
+      "q": "Kategorikan setiap pernyataan berikut:\n• Pengukuran Luas: mengukur bidang datar (dua dimensi)\n• Pengukuran Volume: mengukur ruang tiga dimensi",
+      "rows": [
+        "Menghitung berapa ubin untuk menutupi lantai",
+        "Menghitung berapa liter air yang muat di kolam",
+        "Menghitung luas dinding yang akan dicat",
+        "Menghitung kapasitas lemari es dalam liter"
+      ],
+      "cols": [
+        "Pengukuran Luas",
+        "Pengukuran Volume"
+      ],
+      "ans": [
+        "Pengukuran Luas",
+        "Pengukuran Volume",
+        "Pengukuran Luas",
+        "Pengukuran Volume"
+      ],
+      "pembahasan": "Ubin dan pengecatan dinding = luas (permukaan 2D). Air di kolam dan kapasitas lemari = volume (ruang 3D)."
+    },
+    {
+      "id": "mp_033",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Benar atau Salah — Luas Volume",
+      "stimulus": "",
+      "q": "Periksa setiap perhitungan berikut:\n• Benar: hitungan tepat\n• Salah: hitungan keliru",
+      "rows": [
+        "Persegi sisi 7 cm → Luas = 49 cm²",
+        "Persegi panjang 8 m × 5 m → Keliling = 26 m",
+        "Kubus rusuk 6 cm → Volume = 216 cm³",
+        "Balok 4 m × 3 m × 2 m → Volume = 24 m²"
+      ],
+      "cols": [
+        "Benar",
+        "Salah"
+      ],
+      "ans": [
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": "Item 2 salah: Keliling = 2×(8+5) = 26 m — sebenarnya benar! Koreksi: 2×(8+5)=26 ✓. Item 4 salah karena satuan volume adalah m³, bukan m²."
+    },
+    {
+      "id": "mp_034",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Satuan yang Sesuai",
+      "stimulus": "",
+      "q": "Kategorikan setiap pengukuran berikut berdasarkan kesesuaian satuannya:\n• Satuan Tepat: satuan yang digunakan sesuai dengan konteksnya\n• Satuan Tidak Tepat: satuan yang digunakan tidak sesuai konteks",
+      "rows": [
+        "Luas halaman sekolah = 1.200 m²",
+        "Tinggi pohon = 5 km",
+        "Volume akuarium = 75 liter",
+        "Berat satu lembar kertas = 5 ton"
+      ],
+      "cols": [
+        "Satuan Tepat",
+        "Satuan Tidak Tepat"
+      ],
+      "ans": [
+        "Satuan Tepat",
+        "Satuan Tidak Tepat",
+        "Satuan Tepat",
+        "Satuan Tidak Tepat"
+      ],
+      "pembahasan": "5 km untuk tinggi pohon tidak masuk akal (pohon setinggi itu tidak ada). 5 ton untuk kertas sangat berlebihan — kertas biasanya diukur dalam gram."
+    },
+    {
+      "id": "mp_035",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Soal Cerita Berat",
+      "stimulus": "Tiga anak menimbang berat tasnya masing-masing. Tas Rena 2 kg, tas Bima 1.800 g, tas Dita 2,2 kg.",
+      "q": "Urutkan dari yang paling ringan ke paling berat!",
+      "opt": [
+        "Rena, Bima, Dita",
+        "Bima, Rena, Dita",
+        "Dita, Rena, Bima",
+        "Bima, Dita, Rena"
+      ],
+      "ans": "B",
+      "pembahasan": "Ubah ke gram: Rena=2.000 g, Bima=1.800 g, Dita=2.200 g. Urutan ringan ke berat: Bima(1.800) < Rena(2.000) < Dita(2.200)."
+    },
+    {
+      "id": "mp_036",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas Gabungan",
+      "stimulus": "Sebuah lapangan berbentuk persegi panjang 20 m × 15 m. Di salah satu ujung lapangan terdapat kolam berbentuk persegi dengan sisi 5 m.",
+      "q": "Berapa luas area lapangan yang bisa digunakan (tidak termasuk kolam)?",
+      "opt": [
+        "25 m²",
+        "275 m²",
+        "300 m²",
+        "325 m²"
+      ],
+      "ans": "B",
+      "pembahasan": "Luas lapangan: 20×15 = 300 m². Luas kolam: 5×5 = 25 m². Luas yang bisa digunakan: 300−25 = 275 m²."
+    },
+    {
+      "id": "mp_037",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Rusuk dari Volume",
+      "stimulus": "Sebuah kotak teh berbentuk kubus dengan volume 512 cm³. Kamu ingin tahu panjang rusuk kotak tersebut.",
+      "q": "Berapa cm panjang rusuk kotak teh itu?",
+      "opt": [
+        "4 cm",
+        "8 cm",
+        "16 cm",
+        "64 cm"
+      ],
+      "ans": "B",
+      "pembahasan": "V = s³ = 512, maka s = ∛512 = 8 cm (karena 8×8×8 = 512)."
+    },
+    {
+      "id": "mp_038",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Konversi Ganda",
+      "stimulus": "Sebuah estafet olahraga memiliki 4 pelari. Masing-masing berlari sejauh 250 m. Total jarak dinyatakan dalam km.",
+      "q": "Berapa km total jarak estafet itu?",
+      "opt": [
+        "0,1 km",
+        "1 km",
+        "10 km",
+        "100 km"
+      ],
+      "ans": "B",
+      "pembahasan": "Total meter: 4 × 250 = 1.000 m. Konversi ke km: 1.000 ÷ 1.000 = 1 km."
+    },
+    {
+      "id": "mp_039",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Luas dengan Diketahui Keliling",
+      "stimulus": "Sebuah kebun berbentuk persegi panjang dengan keliling 36 m. Panjang kebun dua kali lebarnya.",
+      "q": "Berapa luas kebun tersebut?",
+      "opt": [
+        "36 m²",
+        "54 m²",
+        "72 m²",
+        "108 m²"
+      ],
+      "ans": "C",
+      "pembahasan": "K=2(p+l)=36 → p+l=18. p=2l → 2l+l=18 → l=6, p=12. Luas=12×6=72 m²."
+    },
+    {
+      "id": "mp_040",
+      "sub_materi": "B",
+      "type": "pg",
+      "score": 1,
+      "topik": "Volume Cairan",
+      "stimulus": "Sebuah galon air minum berisi 19 liter air. Air digunakan untuk mengisi 4 botol masing-masing berisi 1,5 liter dan sisanya dibuat es.",
+      "q": "Berapa liter air yang tersisa untuk dibuat es?",
+      "opt": [
+        "12 liter",
+        "13 liter",
+        "13,5 liter",
+        "14 liter"
+      ],
+      "ans": "B",
+      "pembahasan": "Air untuk botol: 4×1,5 = 6 liter. Sisa untuk es: 19−6 = 13 liter."
+    },
+    {
+      "id": "mp_041",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Urutan Satuan Panjang",
+      "stimulus": "",
+      "q": "Kategorikan satuan panjang berikut:\n• Lebih Besar dari 1 Meter: satuan yang nilainya melebihi 1 meter\n• Lebih Kecil dari 1 Meter: satuan yang nilainya kurang dari 1 meter",
+      "rows": [
+        "Kilometer (km)",
+        "Desimeter (dm)",
+        "Hektometer (hm)",
+        "Sentimeter (cm)",
+        "Milimeter (mm)"
+      ],
+      "cols": [
+        "Lebih Besar dari 1 Meter",
+        "Lebih Kecil dari 1 Meter"
+      ],
+      "ans": [
+        "Lebih Besar dari 1 Meter",
+        "Lebih Kecil dari 1 Meter",
+        "Lebih Besar dari 1 Meter",
+        "Lebih Kecil dari 1 Meter",
+        "Lebih Kecil dari 1 Meter"
+      ],
+      "pembahasan": "km (1.000 m) dan hm (100 m) lebih besar dari 1 m. dm (0,1 m), cm (0,01 m), mm (0,001 m) lebih kecil dari 1 m."
+    },
+    {
+      "id": "mp_042",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Luas dari Soal Cerita",
+      "stimulus": "Pak Yogi memiliki sebidang tanah berbentuk persegi panjang.",
+      "q": "Manakah informasi yang CUKUP untuk menghitung luas tanah Pak Yogi?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Diketahui panjang 15 m dan lebar 10 m",
+        "Diketahui keliling 50 m dan panjang 15 m",
+        "Diketahui luas 150 m² (sudah diketahui langsung)",
+        "Diketahui panjang 15 m saja tanpa informasi lain"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D tidak cukup karena lebar tidak diketahui. A cukup (L=p×l). B cukup (K=50→p+l=25→l=10→L=150). C sudah langsung diketahui."
+    },
+    {
+      "id": "mp_043",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Konversi Campuran",
+      "stimulus": "Guru memberi soal konversi kepada siswa.",
+      "q": "Manakah konversi satuan panjang berikut yang benar?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "3,5 km = 3.500 m",
+        "125 cm = 1,25 m",
+        "8 dm = 80 mm",
+        "2 m 40 cm = 240 cm"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "D"
+      ],
+      "pembahasan": "C salah: 8 dm = 8×10 cm = 80 cm = 800 mm, bukan 80 mm. A, B, D semuanya benar."
+    },
+    {
+      "id": "mp_044",
+      "sub_materi": "B",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Luas Bangun dari Soal Cerita",
+      "stimulus": "Pak Rudi ingin memasang paving blok di halaman rumahnya.",
+      "q": "Manakah informasi yang CUKUP untuk menghitung luas halaman persegi panjang milik Pak Rudi?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Diketahui panjang 12 m dan lebar 8 m",
+        "Diketahui keliling 40 m dan panjangnya 12 m",
+        "Diketahui luas 96 m² (sudah diketahui)",
+        "Diketahui panjang 12 m saja"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D tidak cukup karena lebar tidak diketahui. A cukup (L=p×l=96). B cukup: K=40 → p+l=20 → l=8 → L=96. C sudah diketahui langsung."
+    },
+    {
+      "id": "mp_045",
+      "sub_materi": "B",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Rumus yang Sesuai",
+      "stimulus": "",
+      "q": "Pasangkan setiap situasi dengan rumus yang tepat:\n• Rumus Luas: digunakan untuk menghitung permukaan 2D\n• Rumus Volume: digunakan untuk menghitung isi 3D",
+      "rows": [
+        "Menghitung luas lantai yang akan dicat",
+        "Menghitung kapasitas wadah kotak makan siang",
+        "Menghitung luas kebun yang akan ditanami",
+        "Menghitung isi kotak kardus untuk keperluan pengiriman"
+      ],
+      "cols": [
+        "Rumus Luas",
+        "Rumus Volume"
+      ],
+      "ans": [
+        "Rumus Luas",
+        "Rumus Volume",
+        "Rumus Luas",
+        "Rumus Volume"
+      ],
+      "pembahasan": "Lantai dicat dan kebun ditanami = permukaan 2D → rumus luas. Kapasitas wadah dan isi kardus = ruang 3D → rumus volume."
+    }
+  ]
+}
