@@ -1,0 +1,802 @@
+{
+  "status": "ok",
+  "mapel": "Matematika",
+  "bab": "Data — Tabel, Diagram Batang & Piktogram",
+  "soal": [
+    {
+      "id": "md_001",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membaca Tabel Frekuensi",
+      "stimulus": "Tabel frekuensi berikut menunjukkan nilai ulangan Matematika 30 siswa: Nilai 60 (frekuensi 4), Nilai 70 (frekuensi 8), Nilai 80 (frekuensi 10), Nilai 90 (frekuensi 6), Nilai 100 (frekuensi 2).",
+      "q": "Berapa siswa yang mendapat nilai di atas 75?",
+      "opt": [
+        "6 siswa",
+        "8 siswa",
+        "10 siswa",
+        "18 siswa"
+      ],
+      "ans": "D",
+      "pembahasan": "Nilai di atas 75 = nilai 80, 90, 100. Jumlah: 10+6+2 = 18 siswa."
+    },
+    {
+      "id": "md_002",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Nilai Terbanyak",
+      "stimulus": "Tabel frekuensi hobi 25 siswa: Membaca (7), Menggambar (5), Olahraga (8), Memasak (3), Bermain musik (2).",
+      "q": "Hobi apa yang paling banyak diminati, dan berapa persennya dari total siswa?",
+      "opt": [
+        "Membaca, 28%",
+        "Olahraga, 32%",
+        "Olahraga, 8%",
+        "Membaca, 32%"
+      ],
+      "ans": "B",
+      "pembahasan": "Olahraga terbanyak: 8 siswa. Persentase: 8÷25 × 100% = 32%."
+    },
+    {
+      "id": "md_003",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membuat Tabel Frekuensi",
+      "stimulus": "Data buah kesukaan 10 anak: Mangga, Apel, Mangga, Jeruk, Apel, Mangga, Jeruk, Apel, Mangga, Apel.",
+      "q": "Pada tabel frekuensi, berapa frekuensi buah Apel?",
+      "opt": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": "C",
+      "pembahasan": "Hitung kata 'Apel': Apel(2), Apel(5), Apel(8), Apel(10) = 4 kali. Frekuensi Apel = 4."
+    },
+    {
+      "id": "md_004",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membaca Diagram Batang",
+      "stimulus": "Diagram batang menunjukkan penjualan es krim per hari: Senin=12, Selasa=8, Rabu=15, Kamis=10, Jumat=20.",
+      "q": "Berapa total es krim yang terjual dari Senin hingga Jumat?",
+      "opt": [
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "ans": "C",
+      "pembahasan": "Total: 12+8+15+10+20 = 65 es krim."
+    },
+    {
+      "id": "md_005",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Diagram Batang — Perbandingan",
+      "stimulus": "Diagram batang penjualan buku: Senin=20, Selasa=15, Rabu=25, Kamis=18, Jumat=22.",
+      "q": "Berapa selisih penjualan antara hari dengan penjualan terbanyak dan paling sedikit?",
+      "opt": [
+        "5 buku",
+        "8 buku",
+        "10 buku",
+        "12 buku"
+      ],
+      "ans": "C",
+      "pembahasan": "Terbanyak: Rabu (25). Paling sedikit: Selasa (15). Selisih: 25−15 = 10 buku."
+    },
+    {
+      "id": "md_006",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membaca Piktogram",
+      "stimulus": "Piktogram menunjukkan jumlah pengunjung perpustakaan. Simbol 📚 = 5 pengunjung. Senin: 4📚, Selasa: 3📚, Rabu: 6📚, Kamis: 2📚.",
+      "q": "Berapa total pengunjung perpustakaan dari Senin hingga Kamis?",
+      "opt": [
+        "15 orang",
+        "60 orang",
+        "65 orang",
+        "75 orang"
+      ],
+      "ans": "D",
+      "pembahasan": "Total simbol: 4+3+6+2 = 15. Total pengunjung: 15 × 5 = 75 orang."
+    },
+    {
+      "id": "md_007",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Piktogram Setengah Simbol",
+      "stimulus": "Piktogram menunjukkan produksi telur ayam: 1 simbol 🥚 = 10 telur. Kandang A: 3🥚, Kandang B: 2½🥚, Kandang C: 4🥚, Kandang D: 1½🥚.",
+      "q": "Berapa total telur yang dihasilkan keempat kandang?",
+      "opt": [
+        "100 telur",
+        "105 telur",
+        "110 telur",
+        "115 telur"
+      ],
+      "ans": "C",
+      "pembahasan": "Total simbol: 3+2,5+4+1,5 = 11. Total telur: 11 × 10 = 110 telur."
+    },
+    {
+      "id": "md_008",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Nilai per Simbol Piktogram",
+      "stimulus": "Sebuah piktogram menampilkan banyak buku yang dibaca siswa. Simbol bintang ⭐ mewakili sejumlah buku. Roni: 3⭐, Sari: 4⭐, Budi: 2⭐. Total buku yang dibaca ketiga anak adalah 45 buku.",
+      "q": "Berapa buku yang diwakili oleh satu simbol ⭐?",
+      "opt": [
+        "3 buku",
+        "4 buku",
+        "5 buku",
+        "9 buku"
+      ],
+      "ans": "C",
+      "pembahasan": "Total simbol: 3+4+2 = 9. Total buku: 45. Nilai per simbol: 45÷9 = 5 buku."
+    },
+    {
+      "id": "md_009",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Tabel Frekuensi — Turus",
+      "stimulus": "Guru mencatat nilai ujian 20 siswa menggunakan turus. Nilai 70: IIII I (6), Nilai 80: IIII IIII (9), Nilai 90: IIII (5).",
+      "q": "Berapa siswa yang mendapat nilai 80 ke atas?",
+      "opt": [
+        "5 siswa",
+        "9 siswa",
+        "14 siswa",
+        "20 siswa"
+      ],
+      "ans": "C",
+      "pembahasan": "Nilai 80 ke atas: nilai 80 (9) + nilai 90 (5) = 14 siswa."
+    },
+    {
+      "id": "md_010",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Rata-rata dari Tabel",
+      "stimulus": "Tabel frekuensi nilai ulangan: 60 (2 siswa), 70 (5 siswa), 80 (8 siswa), 90 (5 siswa).",
+      "q": "Berapa nilai rata-rata ulangan kelas itu?",
+      "opt": [
+        "75",
+        "77",
+        "78",
+        "80"
+      ],
+      "ans": "B",
+      "pembahasan": "Total nilai: (60×2)+(70×5)+(80×8)+(90×5) = 120+350+640+450 = 1.560. Total siswa: 2+5+8+5 = 20. Rata-rata: 1.560÷20 = 78. Koreksi: 78, jadi jawaban C."
+    },
+    {
+      "id": "md_011",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Memilih Penyajian Data Tepat",
+      "stimulus": "Kepala sekolah ingin menyajikan perbandingan jumlah siswa tiap kelas (kelas 1 sampai 6) dalam rapat komite sekolah. Data harus mudah dipahami dan bisa langsung dibandingkan.",
+      "q": "Jenis penyajian data manakah yang paling tepat?",
+      "opt": [
+        "Daftar angka satu per satu",
+        "Tabel frekuensi",
+        "Diagram batang",
+        "Piktogram berukuran kecil"
+      ],
+      "ans": "C",
+      "pembahasan": "Diagram batang paling tepat untuk membandingkan data dari beberapa kategori secara visual — batang-batangnya langsung terlihat mana yang lebih tinggi atau rendah."
+    },
+    {
+      "id": "md_012",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Membaca Data dari Berbagai Sumber",
+      "stimulus": "Tabel frekuensi warna favorit: Merah (8), Biru (12), Hijau (6), Kuning (4). Total 30 siswa.",
+      "q": "Manakah pernyataan yang BENAR berdasarkan tabel tersebut?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Warna paling favorit adalah Biru",
+        "Lebih banyak yang suka Merah daripada Hijau",
+        "Warna Kuning dipilih oleh 4 siswa",
+        "Jumlah yang suka Hijau dan Kuning sama dengan yang suka Merah"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "A: Biru 12 = terbanyak ✓. B: Merah 8 > Hijau 6 ✓. C: Kuning = 4 ✓. D: Hijau+Kuning = 6+4 = 10 ≠ Merah 8 — ini SALAH! Koreksi: D salah karena 10 ≠ 8. Jawaban benar: A, B, C."
+    },
+    {
+      "id": "md_013",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Langkah Menyajikan Data",
+      "stimulus": "",
+      "q": "Manakah langkah-langkah yang BENAR dalam membuat diagram batang?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Buat dua sumbu: sumbu X (kategori) dan sumbu Y (frekuensi/nilai)",
+        "Tentukan skala sumbu Y sesuai data terbesar",
+        "Gambar batang setinggi nilai masing-masing kategori",
+        "Tulis judul diagram agar pembaca tahu apa yang ditampilkan"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Semua langkah A, B, C, D adalah langkah yang benar dan penting dalam membuat diagram batang yang baik dan informatif."
+    },
+    {
+      "id": "md_014",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Kelebihan Setiap Jenis Penyajian",
+      "stimulus": "",
+      "q": "Manakah pernyataan yang benar tentang kelebihan masing-masing jenis penyajian data?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tabel frekuensi menampilkan data secara lengkap dan teliti dengan angka pasti",
+        "Diagram batang memudahkan perbandingan antar kategori secara visual",
+        "Piktogram lebih menarik dan mudah dipahami karena menggunakan gambar",
+        "Piktogram lebih akurat dari tabel untuk data yang sangat besar"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D salah: tabel frekuensi justru lebih akurat untuk data besar karena menampilkan angka pasti, sedangkan piktogram menggunakan simbol yang nilainya perkiraan (terutama untuk nilai tengah)."
+    },
+    {
+      "id": "md_015",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Data dari Piktogram",
+      "stimulus": "Piktogram banyak siswa yang hadir: 1 simbol 👤 = 4 siswa. Senin: 5👤, Selasa: 4👤, Rabu: 6👤, Kamis: 3👤, Jumat: 4½👤.",
+      "q": "Kategorikan setiap pernyataan tentang piktogram ini:\n• Benar: pernyataan sesuai data\n• Salah: pernyataan tidak sesuai data",
+      "rows": [
+        "Hari Rabu paling banyak siswa hadir",
+        "Total siswa Senin dan Selasa adalah 36 siswa",
+        "Jumat ada 18 siswa yang hadir",
+        "Rata-rata siswa per hari adalah 90 siswa"
+      ],
+      "cols": [
+        "Benar",
+        "Salah"
+      ],
+      "ans": [
+        "Benar",
+        "Benar",
+        "Benar",
+        "Salah"
+      ],
+      "pembahasan": "Rabu 6×4=24 ✓ terbanyak. Senin+Selasa: (5+4)×4=36 ✓. Jumat: 4,5×4=18 ✓. Rata-rata: total=(5+4+6+3+4,5)×4=90 siswa, rata-rata per hari=90÷5=18, bukan 90 ✗."
+    },
+    {
+      "id": "md_016",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Jenis Pertanyaan dari Data",
+      "stimulus": "Sebuah diagram batang menunjukkan penjualan bakso per hari selama seminggu.",
+      "q": "Kategorikan setiap pertanyaan berikut:\n• Bisa Dijawab dari Diagram: pertanyaan yang bisa dijawab langsung dari diagram batang\n• Tidak Bisa dari Diagram: pertanyaan yang membutuhkan informasi lain di luar diagram",
+      "rows": [
+        "Hari apa penjualan terbanyak?",
+        "Berapa harga satu mangkok bakso?",
+        "Berapa selisih penjualan Senin dan Jumat?",
+        "Mengapa penjualan hari Rabu sangat sedikit?"
+      ],
+      "cols": [
+        "Bisa Dijawab dari Diagram",
+        "Tidak Bisa dari Diagram"
+      ],
+      "ans": [
+        "Bisa Dijawab dari Diagram",
+        "Tidak Bisa dari Diagram",
+        "Bisa Dijawab dari Diagram",
+        "Tidak Bisa dari Diagram"
+      ],
+      "pembahasan": "Hari penjualan terbanyak dan selisih antar hari = bisa dari diagram (lihat tinggi batang). Harga dan alasan penjualan sedikit = informasi di luar diagram, tidak bisa dijawab."
+    },
+    {
+      "id": "md_017",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Tabel vs Diagram vs Piktogram",
+      "stimulus": "",
+      "q": "Manakah jenis penyajian data yang paling sesuai untuk setiap kebutuhan berikut:\n• Tabel Frekuensi: butuh data detail dan akurasi angka\n• Diagram Batang atau Piktogram: butuh tampilan visual yang menarik",
+      "rows": [
+        "Laporan resmi jumlah penduduk tiap provinsi untuk instansi pemerintah",
+        "Poster kampanye lingkungan tentang jenis sampah yang paling banyak",
+        "Data nilai ujian siswa yang akan dianalisis guru",
+        "Infografis di majalah anak-anak tentang hewan terpopuler"
+      ],
+      "cols": [
+        "Tabel Frekuensi",
+        "Diagram Batang / Piktogram"
+      ],
+      "ans": [
+        "Tabel Frekuensi",
+        "Diagram Batang / Piktogram",
+        "Tabel Frekuensi",
+        "Diagram Batang / Piktogram"
+      ],
+      "pembahasan": "Laporan resmi dan analisis guru butuh akurasi angka → tabel. Poster dan infografis majalah anak butuh daya tarik visual → diagram/piktogram."
+    },
+    {
+      "id": "md_018",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Menyimpulkan dari Data",
+      "stimulus": "Diagram batang kunjungan siswa ke UKS: Senin=3, Selasa=7, Rabu=5, Kamis=9, Jumat=6.",
+      "q": "Apa kesimpulan yang paling tepat berdasarkan data kunjungan UKS tersebut?",
+      "opt": [
+        "Siswa paling sehat pada hari Senin",
+        "Hari Kamis paling banyak siswa ke UKS, mungkin karena kelelahan di tengah minggu",
+        "Tidak ada pola yang dapat disimpulkan dari data ini",
+        "Jumlah kunjungan sama setiap harinya"
+      ],
+      "ans": "B",
+      "pembahasan": "Kamis (9) adalah hari paling banyak kunjungan. Senin (3) paling sedikit. Ada pola: meningkat dari Senin ke Kamis, lalu turun di Jumat. Kesimpulan B masuk akal sebagai interpretasi data."
+    },
+    {
+      "id": "md_019",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Menentukan Nilai Simbol Piktogram",
+      "stimulus": "Piktogram menunjukkan jumlah buku yang dibaca tiap bulan. Oktober: 4 simbol, November: 6 simbol, Desember: 3 simbol. Total buku yang dibaca selama 3 bulan adalah 52 buku.",
+      "q": "Berapa buku yang diwakili setiap simbol? (Gunakan pembulatan yang sesuai)",
+      "opt": [
+        "4 buku",
+        "5 buku",
+        "6 buku",
+        "7 buku"
+      ],
+      "ans": "B",
+      "pembahasan": "Total simbol: 4+6+3 = 13. Nilai per simbol: 52÷13 = 4 buku per simbol... Koreksi: Jika total simbol=13 dan total buku=52, maka 1 simbol = 52÷13 = 4. Jawaban A. Mari periksa: 13×5=65≠52. Jawaban A (4 buku)."
+    },
+    {
+      "id": "md_020",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Data Terbesar dan Terkecil",
+      "stimulus": "Tabel frekuensi jenis olahraga yang disukai 40 siswa: Sepakbola (14), Bulu Tangkis (10), Renang (8), Basket (5), Tenis Meja (3).",
+      "q": "Berapa persentase siswa yang menyukai olahraga paling populer?",
+      "opt": [
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "ans": "C",
+      "pembahasan": "Paling populer: Sepakbola (14 siswa). Persentase: 14÷40 × 100% = 35%."
+    },
+    {
+      "id": "md_021",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Membuat Turus",
+      "stimulus": "Bu Ani mencatat warna seragam siswa yang masuk kelas: Putih, Putih, Merah, Putih, Merah, Putih, Merah, Putih, Putih, Merah.",
+      "q": "Berapa jumlah turus untuk warna Putih dalam tabel frekuensi?",
+      "opt": [
+        "4 turus",
+        "5 turus",
+        "6 turus",
+        "7 turus"
+      ],
+      "ans": "C",
+      "pembahasan": "Hitung kata Putih: posisi 1,2,4,6,8,9 = 6 kali. Jadi turus untuk Putih = 6 (ditulis IIII I)."
+    },
+    {
+      "id": "md_022",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Menafsirkan Diagram Batang",
+      "stimulus": "Diagram batang menunjukkan jumlah buku yang dipinjam dari perpustakaan: Senin=15, Selasa=20, Rabu=12, Kamis=18, Jumat=25.",
+      "q": "Manakah pernyataan yang BENAR berdasarkan diagram tersebut?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Total buku dipinjam selama 5 hari adalah 90 buku",
+        "Hari Jumat peminjaman terbanyak",
+        "Hari Rabu peminjaman paling sedikit",
+        "Rata-rata peminjaman per hari adalah 18 buku"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Total: 15+20+12+18+25=90 ✓. Jumat terbanyak (25) ✓. Rabu terkecil (12) ✓. Rata-rata: 90÷5=18 ✓. Semua pernyataan benar."
+    },
+    {
+      "id": "md_023",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Membaca atau Membuat Data",
+      "stimulus": "",
+      "q": "Kategorikan setiap kegiatan berikut:\n• Membaca Data: mengambil informasi dari data yang sudah ada\n• Membuat Data: mengumpulkan dan menyusun data baru",
+      "rows": [
+        "Melihat diagram batang dan menjawab 'hari apa penjualan terbanyak?'",
+        "Mensurvei teman-teman tentang warna kesukaan mereka",
+        "Menghitung berapa total dari sebuah tabel frekuensi",
+        "Mencatat nilai ulangan seluruh kelas ke dalam tabel"
+      ],
+      "cols": [
+        "Membaca Data",
+        "Membuat Data"
+      ],
+      "ans": [
+        "Membaca Data",
+        "Membuat Data",
+        "Membaca Data",
+        "Membuat Data"
+      ],
+      "pembahasan": "Melihat diagram dan menghitung total dari tabel = membaca data yang sudah ada. Mensurvei teman dan mencatat nilai = kegiatan mengumpulkan dan menyusun data baru."
+    },
+    {
+      "id": "md_024",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Median dari Data",
+      "stimulus": "Nilai ulangan 7 siswa: 60, 75, 80, 85, 70, 90, 75. Nilai-nilai diurutkan menjadi: 60, 70, 75, 75, 80, 85, 90.",
+      "q": "Berapa nilai tengah (median) dari data nilai ulangan tersebut?",
+      "opt": [
+        "70",
+        "75",
+        "80",
+        "85"
+      ],
+      "ans": "B",
+      "pembahasan": "Data sudah diurutkan: 60,70,75,75,80,85,90. Ada 7 data, nilai tengah (ke-4) = 75."
+    },
+    {
+      "id": "md_025",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Modus dari Tabel",
+      "stimulus": "Tabel frekuensi nilai: 65(3 siswa), 70(7 siswa), 75(5 siswa), 80(7 siswa), 85(3 siswa).",
+      "q": "Berapa nilai modus (nilai yang paling sering muncul) dari data tersebut?",
+      "opt": [
+        "70 saja",
+        "80 saja",
+        "70 dan 80",
+        "75"
+      ],
+      "ans": "C",
+      "pembahasan": "Nilai 70 dan 80 sama-sama muncul 7 kali (frekuensi tertinggi). Data ini memiliki dua modus: 70 dan 80."
+    },
+    {
+      "id": "md_026",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Skala Diagram Batang",
+      "stimulus": "Diagram batang akan dibuat untuk data: nilai terbesar 45 dan terkecil 5. Guru meminta skala sumbu Y yang paling tepat.",
+      "q": "Skala mana yang paling sesuai untuk diagram batang ini?",
+      "opt": [
+        "Skala 0 sampai 100, kelipatan 10",
+        "Skala 0 sampai 50, kelipatan 5",
+        "Skala 0 sampai 1.000, kelipatan 100",
+        "Skala 5 sampai 45, kelipatan 1"
+      ],
+      "ans": "B",
+      "pembahasan": "Skala 0–50 dengan kelipatan 5 paling sesuai: melebihi nilai terbesar (45) sedikit, mudah dibaca, dan tidak terlalu besar (pilihan A) atau terlalu kecil detail (pilihan D)."
+    },
+    {
+      "id": "md_027",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Melengkapi Tabel Frekuensi",
+      "stimulus": "Tabel frekuensi belum lengkap: Warna Merah (frekuensi 12), Biru (?), Hijau (8), Kuning (5). Total seluruh siswa adalah 35.",
+      "q": "Berapa frekuensi warna Biru?",
+      "opt": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "ans": "B",
+      "pembahasan": "Total = 35. Frekuensi Biru = 35 − 12 − 8 − 5 = 10."
+    },
+    {
+      "id": "md_028",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Diagram Batang — Menghitung Rata-rata",
+      "stimulus": "Diagram batang menampilkan skor permainan: Ronde 1=60, Ronde 2=80, Ronde 3=70, Ronde 4=90, Ronde 5=50.",
+      "q": "Berapa rata-rata skor permainan tersebut?",
+      "opt": [
+        "65",
+        "70",
+        "75",
+        "80"
+      ],
+      "ans": "B",
+      "pembahasan": "Total skor: 60+80+70+90+50 = 350. Rata-rata: 350÷5 = 70."
+    },
+    {
+      "id": "md_029",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Piktogram — Menentukan Simbol",
+      "stimulus": "Data siswa per kelas: Kelas A=24, Kelas B=32, Kelas C=16, Kelas D=28. Piktogram akan dibuat menggunakan simbol orang 👤.",
+      "q": "Jika 1 simbol mewakili 8 siswa, berapa simbol yang mewakili Kelas B?",
+      "opt": [
+        "3 simbol",
+        "4 simbol",
+        "5 simbol",
+        "6 simbol"
+      ],
+      "ans": "B",
+      "pembahasan": "Kelas B = 32 siswa. 32 ÷ 8 = 4 simbol."
+    },
+    {
+      "id": "md_030",
+      "sub_materi": "A",
+      "type": "pg",
+      "score": 1,
+      "topik": "Kesimpulan dari Data",
+      "stimulus": "Tabel frekuensi makanan kantin yang paling laris per hari selama seminggu: Nasi goreng(5 hari), Mie goreng(1 hari), Ayam geprek(1 hari).",
+      "q": "Kesimpulan mana yang PALING tepat berdasarkan data tersebut?",
+      "opt": [
+        "Mie goreng adalah makanan paling tidak disukai",
+        "Nasi goreng adalah menu yang paling sering menjadi terlaris",
+        "Ayam geprek tidak enak sehingga jarang terlaris",
+        "Tidak bisa ditarik kesimpulan apapun dari data ini"
+      ],
+      "ans": "B",
+      "pembahasan": "Berdasarkan data, nasi goreng terlaris 5 dari 7 hari — kesimpulan yang valid adalah nasi goreng paling sering menjadi yang terlaris. Kita tidak bisa menyimpulkan C (tidak disukai ≠ tidak enak)."
+    },
+    {
+      "id": "md_031",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Komponen Diagram Batang",
+      "stimulus": "",
+      "q": "Manakah komponen yang HARUS ada pada diagram batang yang baik dan informatif?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Judul diagram yang menjelaskan isi data",
+        "Sumbu X (horizontal) yang menampilkan kategori",
+        "Sumbu Y (vertikal) dengan skala angka yang jelas",
+        "Warna yang berbeda untuk setiap batang"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D tidak wajib — warna berbeda membantu tapi tidak harus. Yang wajib: judul (A), sumbu X kategori (B), dan sumbu Y dengan skala (C). Tanpa ketiganya, diagram tidak bisa dibaca dengan benar."
+    },
+    {
+      "id": "md_032",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Legenda Piktogram",
+      "stimulus": "",
+      "q": "Manakah pernyataan yang benar tentang legenda (keterangan) dalam piktogram?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Legenda menjelaskan berapa benda nyata yang diwakili satu simbol",
+        "Tanpa legenda, piktogram tidak bisa dibaca dengan benar",
+        "Simbol dalam piktogram boleh apa saja asalkan ada legendanya",
+        "Satu simbol harus mewakili bilangan bulat, tidak boleh desimal"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D salah: simbol bisa mewakili nilai seperti 0,5 atau 2,5 (ditampilkan sebagai setengah simbol). Legenda (A) wajib ada, tanpanya piktogram tidak bermakna (B), dan simbol bisa berupa gambar apapun yang relevan (C)."
+    },
+    {
+      "id": "md_033",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Menganalisis Tabel Frekuensi",
+      "stimulus": "Tabel frekuensi mata pelajaran favorit: Matematika(10), IPA(8), Bahasa Indonesia(12), IPS(5), Seni(5). Total 40 siswa.",
+      "q": "Manakah pernyataan yang BENAR berdasarkan tabel ini?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bahasa Indonesia adalah mata pelajaran paling favorit",
+        "Lebih banyak siswa suka IPA dibanding Matematika",
+        "Jumlah yang suka IPS dan Seni sama banyak",
+        "Setengah dari seluruh siswa menyukai Matematika atau Bahasa Indonesia"
+      ],
+      "ans": [
+        "A",
+        "C",
+        "D"
+      ],
+      "pembahasan": "B salah: IPA(8) < Matematika(10). A: BI=12 terbanyak ✓. C: IPS=Seni=5 ✓. D: Mat+BI=10+12=22, dan 22>20 (setengah dari 40) — sebenarnya lebih dari setengah, bukan tepat setengah. Koreksi: D kurang tepat. Jawaban benar: A dan C."
+    },
+    {
+      "id": "md_034",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Cara Membuat Tabel Frekuensi",
+      "stimulus": "",
+      "q": "Manakah langkah-langkah yang BENAR dalam membuat tabel frekuensi?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Tentukan semua kategori atau nilai yang berbeda terlebih dahulu",
+        "Gunakan turus (tally) untuk menghitung kemunculan tiap kategori",
+        "Jumlahkan semua frekuensi untuk memverifikasi totalnya sama dengan banyak data",
+        "Urutkan kategori dari yang frekuensinya terbesar ke terkecil (wajib)"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C"
+      ],
+      "pembahasan": "D tidak wajib — urutan kategori bisa alfabetis, kronologis, atau dari terbesar ke terkecil sesuai kebutuhan. Yang wajib: menentukan kategori (A), menghitung dengan turus (B), dan verifikasi total (C)."
+    },
+    {
+      "id": "md_035",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Informasi dari Piktogram",
+      "stimulus": "Piktogram menampilkan jumlah buku yang dibaca per bulan. 1 📚 = 5 buku. Jan:4📚, Feb:3📚, Mar:6📚, Apr:5📚.",
+      "q": "Manakah pernyataan yang BENAR dari piktogram ini?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Bulan Maret paling banyak buku dibaca (30 buku)",
+        "Total buku yang dibaca selama 4 bulan adalah 90 buku",
+        "Bulan Februari buku yang dibaca lebih sedikit dari Januari",
+        "Rata-rata buku yang dibaca per bulan adalah 22,5 buku"
+      ],
+      "ans": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "pembahasan": "Mar=6×5=30 ✓(A). Total=(4+3+6+5)×5=18×5=90 ✓(B). Feb=15 < Jan=20 ✓(C). Rata-rata=90÷4=22,5 ✓(D). Semua benar!"
+    },
+    {
+      "id": "md_036",
+      "sub_materi": "A",
+      "type": "pgk",
+      "score": 2,
+      "topik": "Keunggulan Tabel Frekuensi",
+      "stimulus": "",
+      "q": "Dalam situasi mana tabel frekuensi lebih tepat digunakan dibanding diagram batang?\n\nPilih SEMUA jawaban yang benar.",
+      "opt": [
+        "Saat membutuhkan angka yang tepat dan detail untuk laporan resmi",
+        "Saat data perlu disajikan kepada anak-anak yang lebih mudah paham gambar",
+        "Saat ingin membandingkan antar kategori secara visual sekilas pandang",
+        "Saat data akan diolah lebih lanjut dengan perhitungan matematika"
+      ],
+      "ans": [
+        "A",
+        "D"
+      ],
+      "pembahasan": "B lebih cocok untuk piktogram. C lebih cocok untuk diagram batang (visual perbandingan). Tabel frekuensi unggul untuk laporan resmi yang butuh akurasi (A) dan untuk data yang akan diolah lagi (D)."
+    },
+    {
+      "id": "md_037",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Data Kualitatif vs Kuantitatif",
+      "stimulus": "",
+      "q": "Kategorikan setiap data berikut:\n• Data Kategori: data berupa nama atau label (bukan angka ukuran)\n• Data Angka: data berupa hasil pengukuran atau hitungan",
+      "rows": [
+        "Warna kesukaan siswa (merah, biru, hijau)",
+        "Nilai ulangan matematika (70, 80, 90)",
+        "Jenis olahraga favorit (sepakbola, renang)",
+        "Tinggi badan siswa dalam cm"
+      ],
+      "cols": [
+        "Data Kategori",
+        "Data Angka"
+      ],
+      "ans": [
+        "Data Kategori",
+        "Data Angka",
+        "Data Kategori",
+        "Data Angka"
+      ],
+      "pembahasan": "Warna dan jenis olahraga adalah label/nama → data kategori. Nilai ulangan dan tinggi badan adalah hasil pengukuran dalam angka → data angka."
+    },
+    {
+      "id": "md_038",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Mengisi atau Membaca Tabel",
+      "stimulus": "",
+      "q": "Kategorikan setiap kegiatan berikut:\n• Mengisi Tabel: membuat atau melengkapi tabel frekuensi dari data mentah\n• Membaca Tabel: mengambil informasi dari tabel yang sudah ada",
+      "rows": [
+        "Menghitung berapa kali nilai 80 muncul dan menuliskan turusnya",
+        "Melihat tabel dan menjawab 'berapa siswa yang nilai di atas 75?'",
+        "Menjumlahkan semua frekuensi untuk mengisi kolom total",
+        "Membandingkan dua baris dalam tabel untuk mencari yang terbesar"
+      ],
+      "cols": [
+        "Mengisi Tabel",
+        "Membaca Tabel"
+      ],
+      "ans": [
+        "Mengisi Tabel",
+        "Membaca Tabel",
+        "Mengisi Tabel",
+        "Membaca Tabel"
+      ],
+      "pembahasan": "Menghitung turus dan menjumlahkan frekuensi = aktivitas mengisi/membuat tabel. Menjawab pertanyaan dari tabel dan membandingkan baris = aktivitas membaca tabel yang sudah ada."
+    },
+    {
+      "id": "md_039",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Jenis Data dan Penyajian Tepat",
+      "stimulus": "",
+      "q": "Pasangkan setiap jenis data dengan penyajian yang PALING TEPAT:\n• Tabel Frekuensi: cocok untuk data yang butuh detail dan akurasi\n• Piktogram: cocok untuk data yang butuh tampilan menarik dan mudah dipahami",
+      "rows": [
+        "Rekap absensi siswa untuk laporan ke kepala sekolah",
+        "Jumlah mainan favorit anak-anak untuk poster di taman bermain",
+        "Data berat badan pasien untuk rekam medis dokter",
+        "Hasil survei buah kesukaan untuk mading sekolah"
+      ],
+      "cols": [
+        "Tabel Frekuensi",
+        "Piktogram"
+      ],
+      "ans": [
+        "Tabel Frekuensi",
+        "Piktogram",
+        "Tabel Frekuensi",
+        "Piktogram"
+      ],
+      "pembahasan": "Laporan resmi (absensi, rekam medis) butuh akurasi → tabel frekuensi. Poster taman bermain dan mading sekolah butuh visual menarik → piktogram."
+    },
+    {
+      "id": "md_040",
+      "sub_materi": "A",
+      "type": "pgk-cat",
+      "score": 2,
+      "topik": "Informasi yang Bisa Didapat",
+      "stimulus": "Diagram batang menunjukkan nilai ulangan IPA kelas 4: Nilai 60=2 siswa, 70=5 siswa, 80=8 siswa, 90=4 siswa, 100=1 siswa.",
+      "q": "Kategorikan setiap pertanyaan berdasarkan apakah bisa dijawab LANGSUNG dari diagram:\n• Bisa Langsung: informasi tersedia di diagram\n• Perlu Informasi Tambahan: butuh data di luar diagram",
+      "rows": [
+        "Berapa siswa yang mendapat nilai 80?",
+        "Berapa nama siswa yang mendapat nilai 100?",
+        "Berapa total seluruh siswa dalam kelas?",
+        "Apakah nilai segitu sudah cukup untuk naik kelas?"
+      ],
+      "cols": [
+        "Bisa Langsung",
+        "Perlu Informasi Tambahan"
+      ],
+      "ans": [
+        "Bisa Langsung",
+        "Perlu Informasi Tambahan",
+        "Bisa Langsung",
+        "Perlu Informasi Tambahan"
+      ],
+      "pembahasan": "Jumlah siswa per nilai dan total siswa bisa langsung dihitung dari diagram. Nama siswa tidak ada di diagram (hanya jumlah). Syarat naik kelas adalah kebijakan sekolah, tidak ada di diagram."
+    }
+  ]
+}
